@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@0.16.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.0.0/dist/definition.min.json",
   "meta": {
     "license": {
       "name": "CC0 1.0",
