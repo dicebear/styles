@@ -19,51 +19,87 @@
   "canvas": {
     "elements": [
       {
-        "name": "path",
+        "name": "mask",
         "type": "element",
         "attributes": {
-          "d": "M36 72a36 36 0 1 0 0-72 36 36 0 0 0 0 72",
-          "fill": "white"
-        }
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "attributes": {
-          "opacity": "0.2",
-          "d": "M36 72a36 36 0 1 0 0-72 36 36 0 0 0 0 72",
-          "fill": {
-            "type": "color",
-            "name": "glyph"
+          "id": "frame38-a",
+          "style": "mask-type:alpha"
+        },
+        "children": [
+          {
+            "name": "rect",
+            "type": "element",
+            "attributes": {
+              "width": "72",
+              "height": "72",
+              "fill": "white"
+            }
           }
-        }
+        ]
       },
       {
-        "name": "path",
+        "name": "g",
         "type": "element",
         "attributes": {
-          "d": "M60.4 62.46A38.3 38.3 0 0 0 36 53.73a38.3 38.3 0 0 0-24.4 8.73S20.3 72 36 72s24.4-9.54 24.4-9.54",
-          "fill": {
-            "type": "color",
-            "name": "glyph"
+          "mask": "url(#frame38-a)"
+        },
+        "children": [
+          {
+            "name": "rect",
+            "type": "element",
+            "attributes": {
+              "width": "72",
+              "height": "72",
+              "fill": "white"
+            }
+          },
+          {
+            "name": "rect",
+            "type": "element",
+            "attributes": {
+              "opacity": "0.2",
+              "width": "72",
+              "height": "72",
+              "fill": {
+                "type": "color",
+                "name": "glyph"
+              }
+            }
+          },
+          {
+            "name": "shape",
+            "type": "component",
+            "attributes": {
+              "transform": "translate(9.07 12.32)"
+            }
+          },
+          {
+            "name": "ellipse",
+            "type": "element",
+            "attributes": {
+              "cx": "36",
+              "cy": "103.725",
+              "rx": "43.3075",
+              "ry": "50",
+              "fill": {
+                "type": "color",
+                "name": "glyph"
+              }
+            }
+          },
+          {
+            "name": "ellipse",
+            "type": "element",
+            "attributes": {
+              "cx": "36",
+              "cy": "103.725",
+              "rx": "43.3075",
+              "ry": "50",
+              "fill": "black",
+              "fill-opacity": "0.5"
+            }
           }
-        }
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "attributes": {
-          "d": "M60.4 62.46A38.3 38.3 0 0 0 36 53.73a38.3 38.3 0 0 0-24.4 8.73S20.3 72 36 72s24.4-9.54 24.4-9.54",
-          "fill": "black",
-          "fill-opacity": "0.5"
-        }
-      },
-      {
-        "name": "shape",
-        "type": "component",
-        "attributes": {
-          "transform": "translate(9.07 12.32)"
-        }
+        ]
       }
     ],
     "width": 72,
