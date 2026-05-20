@@ -19,67 +19,36 @@
   "canvas": {
     "elements": [
       {
-        "name": "mask",
-        "type": "element",
+        "name": "row05",
+        "type": "component",
         "attributes": {
-          "id": "identicon-a",
-          "style": "mask-type:alpha"
-        },
-        "children": [
-          {
-            "name": "row05",
-            "type": "component",
-            "attributes": {
-              "transform": "translate(0 4)"
-            }
-          },
-          {
-            "name": "row04",
-            "type": "component",
-            "attributes": {
-              "transform": "translate(0 3)"
-            }
-          },
-          {
-            "name": "row03",
-            "type": "component",
-            "attributes": {
-              "transform": "translate(0 2)"
-            }
-          },
-          {
-            "name": "row02",
-            "type": "component",
-            "attributes": {
-              "transform": "translate(0 1)"
-            }
-          },
-          {
-            "name": "row01",
-            "type": "component"
-          }
-        ]
+          "transform": "translate(0 4)"
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "row04",
+        "type": "component",
         "attributes": {
-          "mask": "url(#identicon-a)"
-        },
-        "children": [
-          {
-            "name": "rect",
-            "type": "element",
-            "attributes": {
-              "width": "5",
-              "height": "5",
-              "fill": {
-                "type": "color",
-                "name": "row"
-              }
-            }
-          }
-        ]
+          "transform": "translate(0 3)"
+        }
+      },
+      {
+        "name": "row03",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(0 2)"
+        }
+      },
+      {
+        "name": "row02",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(0 1)"
+        }
+      },
+      {
+        "name": "row01",
+        "type": "component"
       }
     ],
     "width": 5,
@@ -101,9 +70,13 @@
               "type": "element",
               "attributes": {
                 "x": "2",
+                "y": "-.01",
                 "width": "1",
-                "height": "1",
-                "fill": "black"
+                "height": "1.02",
+                "fill": {
+                  "type": "color",
+                  "name": "row"
+                }
               }
             }
           ]
@@ -114,8 +87,11 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M2 0H1v1h1zm2 0H3v1h1z",
-                "fill": "black"
+                "d": "M2 1.01H1V-.01h1zm2 0H3V-.01h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "row"
+                }
               }
             }
           ]
@@ -127,9 +103,13 @@
               "type": "element",
               "attributes": {
                 "x": "1",
+                "y": "-.01",
                 "width": "3",
-                "height": "1",
-                "fill": "black"
+                "height": "1.02",
+                "fill": {
+                  "type": "color",
+                  "name": "row"
+                }
               }
             }
           ]
@@ -140,8 +120,11 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1 0H0v1h1zm4 0H4v1h1z",
-                "fill": "black"
+                "d": "M1 1.01H0V-.01h1zm4 0H4V-.01h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "row"
+                }
               }
             }
           ]
@@ -152,8 +135,11 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 0h1v1H0zm4 0h1v1H4zM3 0H2v1h1z",
-                "fill": "black"
+                "d": "M1 1.01H0V-.01h1zm2 0H2V-.01h1zm2 0H4V-.01h1z",
+                "fill": {
+                  "type": "color",
+                  "name": "row"
+                }
               }
             }
           ]
@@ -164,8 +150,11 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M2 0H0v1h2zm3 0H3v1h2z",
-                "fill": "black"
+                "d": "M2 1.01H0V-.01h2zm3 0H3V-.01h2z",
+                "fill": {
+                  "type": "color",
+                  "name": "row"
+                }
               }
             }
           ]
@@ -176,9 +165,13 @@
               "name": "rect",
               "type": "element",
               "attributes": {
+                "y": "-.01",
                 "width": "5",
-                "height": "1",
-                "fill": "black"
+                "height": "1.02",
+                "fill": {
+                  "type": "color",
+                  "name": "row"
+                }
               }
             }
           ]
