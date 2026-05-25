@@ -35,7 +35,7 @@
         "name": "g",
         "type": "element",
         "attributes": {
-          "opacity": "0.3"
+          "opacity": ".3"
         },
         "children": [
           {
@@ -321,7 +321,7 @@
         "step": 90
       },
       "variants": {
-        "triange": {
+        "triangle": {
           "elements": [
             {
               "name": "path",
