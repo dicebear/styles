@@ -240,7 +240,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.5"
+                "opacity": ".5"
               },
               "children": [
                 {

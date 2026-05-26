@@ -1553,9 +1553,9 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "257.054",
-                "cy": "202.602",
-                "rx": "100.105",
+                "cx": "257.1",
+                "cy": "202.6",
+                "rx": "100.1",
                 "ry": "98.5",
                 "stroke": "white",
                 "stroke-width": "15"

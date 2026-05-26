@@ -63,7 +63,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.4"
+                "opacity": "0"
               },
               "children": [
                 {
@@ -94,8 +94,8 @@
                       "name": "rect",
                       "type": "element",
                       "attributes": {
-                        "x": "-301.818",
-                        "y": "-577.461",
+                        "x": "-302",
+                        "y": "-577",
                         "width": "981",
                         "height": "1068",
                         "fill": "white"
@@ -124,7 +124,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.4"
+                "opacity": "0"
               },
               "children": [
                 {
@@ -155,8 +155,8 @@
                       "name": "rect",
                       "type": "element",
                       "attributes": {
-                        "x": "-301.818",
-                        "y": "-577.461",
+                        "x": "-302",
+                        "y": "-577",
                         "width": "981",
                         "height": "1068",
                         "fill": "white"

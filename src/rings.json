@@ -116,7 +116,7 @@
                 "cy": "50",
                 "r": "45",
                 "stroke": "white",
-                "stroke-opacity": "0.25",
+                "stroke-opacity": ".25",
                 "stroke-width": "10",
                 "style": "mix-blend-mode:lighten"
               }
@@ -129,7 +129,7 @@
                 "cy": "50",
                 "r": "25",
                 "stroke": "white",
-                "stroke-opacity": "0.25",
+                "stroke-opacity": ".25",
                 "stroke-width": "10",
                 "style": "mix-blend-mode:lighten"
               }
@@ -142,7 +142,7 @@
                 "cy": "50",
                 "r": "10",
                 "fill": "white",
-                "fill-opacity": "0.25",
+                "fill-opacity": ".25",
                 "style": "mix-blend-mode:lighten"
               }
             }
@@ -519,22 +519,22 @@
     "ring": {
       "notEqualTo": [],
       "values": [
-        "#ffd54f",
-        "#64b5f6",
-        "#4dd0e1",
-        "#ff8a65",
-        "#9575cd",
-        "#81c784",
-        "#7986cb",
-        "#4fc3f7",
-        "#aed581",
-        "#dce775",
-        "#ffb74d",
-        "#f06292",
-        "#ba68c8",
-        "#e57373",
-        "#4db6ac",
-        "#fff176"
+        "#f49383",
+        "#ed9b66",
+        "#dea552",
+        "#c6b14f",
+        "#a7bc61",
+        "#83c57d",
+        "#5bc99e",
+        "#37c9be",
+        "#34c5db",
+        "#55bef1",
+        "#7bb4fc",
+        "#9fa9fd",
+        "#bd9ff2",
+        "#d597de",
+        "#e791c3",
+        "#f290a3"
       ]
     }
   }

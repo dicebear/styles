@@ -128,7 +128,7 @@
               "attributes": {
                 "d": "m68.6 25.08 5.16-19.23c.2-.78 1.22-1 1.76-.4 14.87 16.26 33.62 15.63 39.85 14.88.84-.1 1.5.82 1.1 1.58l-13.15 25a.9.9 0 0 1-1.04.5c-3.95-.8-23.62-5.6-33.57-21.5a1 1 0 0 1-.11-.74Zm130.58-.1L187.6 5.5c-.4-.66-1.36-.65-1.78 0-5.74 8.83-15.63 12.9-19.1 14.1-.62.22-.9.96-.57 1.53l13.5 22.81c.2.34.59.53.97.42 2.13-.61 9.46-3.67 18.54-18.34.2-.31.2-.72.02-1.04Z",
                 "fill": "white",
-                "fill-opacity": "0.75",
+                "fill-opacity": ".75",
                 "stroke": "black",
                 "stroke-width": "4"
               }
@@ -178,7 +178,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "opacity": "0.75",
+                "opacity": ".75",
                 "d": "m68.91 24.58 9.16-19.6a1 1 0 0 1 1.25-.51c37.92 13.42 72.42 12.48 104.4 3.57a1 1 0 0 1 1.08.38l13.93 19.05a.98.98 0 0 1-.42 1.5c-33.6 13.2-96.66 10.95-128.9-3.07a1 1 0 0 1-.5-1.32Z",
                 "fill": "white",
                 "stroke": "black",
@@ -199,7 +199,7 @@
                   "name": "shirt"
                 },
                 "stroke": "black",
-                "stroke-width": "4.27431"
+                "stroke-width": "4.27"
               }
             }
           ]
@@ -444,8 +444,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "58.5301",
-                "cy": "37.4023",
+                "cx": "58.53",
+                "cy": "37.4",
                 "rx": "9",
                 "ry": "13.5",
                 "transform": "rotate(-6.78 58.53 37.4)",
@@ -459,8 +459,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "122.531",
-                "cy": "27.4021",
+                "cx": "122.53",
+                "cy": "27.4",
                 "rx": "9",
                 "ry": "13.5",
                 "transform": "rotate(-6.28 122.53 27.4)",
@@ -482,8 +482,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "57.2398",
-                "cy": "28.2413",
+                "cx": "57.24",
+                "cy": "28.24",
                 "r": "12",
                 "transform": "rotate(-6.28 57.24 28.24)",
                 "fill": {
@@ -496,8 +496,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "58.5301",
-                "cy": "37.4043",
+                "cx": "58.53",
+                "cy": "37.4",
                 "rx": "9",
                 "ry": "13.5",
                 "transform": "rotate(-6.78 58.53 37.4)",
@@ -511,8 +511,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "121.019",
-                "cy": "19.6124",
+                "cx": "121.02",
+                "cy": "19.61",
                 "r": "12",
                 "transform": "rotate(-6.28 121.02 19.61)",
                 "fill": {
@@ -525,8 +525,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "122.531",
-                "cy": "27.404",
+                "cx": "122.53",
+                "cy": "27.4",
                 "rx": "9",
                 "ry": "13.5",
                 "transform": "rotate(-6.28 122.53 27.4)",
@@ -551,8 +551,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "58.1171",
-                "cy": "36.9268",
+                "cx": "58.12",
+                "cy": "36.93",
                 "rx": "9",
                 "ry": "10",
                 "transform": "rotate(-6.78 58.12 36.93)",
@@ -566,8 +566,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "122.149",
-                "cy": "26.9231",
+                "cx": "122.15",
+                "cy": "26.92",
                 "rx": "9",
                 "ry": "10",
                 "transform": "rotate(-6.28 122.15 26.92)",
@@ -670,7 +670,7 @@
               "type": "element",
               "attributes": {
                 "style": "mix-blend-mode:hard-light",
-                "opacity": "0.15"
+                "opacity": ".15"
               },
               "children": [
                 {
@@ -701,8 +701,8 @@
                       "name": "rect",
                       "type": "element",
                       "attributes": {
-                        "x": "-2.69336",
-                        "y": "-14.6504",
+                        "x": "-2.69",
+                        "y": "-14.65",
                         "width": "164",
                         "height": "153",
                         "fill": "white"
@@ -916,7 +916,7 @@
                   "name": "hair"
                 },
                 "stroke": "black",
-                "stroke-width": "3.82184"
+                "stroke-width": "3.82"
               }
             }
           ]
@@ -927,10 +927,10 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "172.854",
-                "cy": "70.1803",
-                "rx": "6.85759",
-                "ry": "18.4393",
+                "cx": "172.85",
+                "cy": "70.18",
+                "rx": "6.86",
+                "ry": "18.44",
                 "transform": "rotate(117 172.85 70.18)",
                 "fill": "#FCFDFF"
               }
@@ -943,7 +943,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "opacity": "0.1",
+                "opacity": ".1",
                 "d": "M212.99 89.18c-8-6.4-21.84-7-27.5-6.5l-8-26.5c13.6 3.2 32 24 35.5 33",
                 "fill": {
                   "type": "color",
@@ -977,7 +977,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "opacity": "0.1",
+                "opacity": ".1",
                 "d": "M92.49 142.68c-7.2-27.2 22-41.84 35.5-46-7-16.34-23-31-42.5-13-18 30.5-11 54-5.5 72z",
                 "fill": {
                   "type": "color",
@@ -999,7 +999,7 @@
                   "name": "hair"
                 },
                 "stroke": "black",
-                "stroke-width": "3.82184"
+                "stroke-width": "3.82"
               }
             },
             {

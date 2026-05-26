@@ -23,7 +23,7 @@
         "type": "element",
         "attributes": {
           "style": "mix-blend-mode:screen",
-          "opacity": "0.6",
+          "opacity": ".6",
           "filter": "url(#dicebearGlass-a)"
         },
         "children": [
@@ -41,7 +41,7 @@
         "type": "element",
         "attributes": {
           "style": "mix-blend-mode:screen",
-          "opacity": "0.6",
+          "opacity": ".6",
           "filter": "url(#dicebearGlass-b)"
         },
         "children": [
@@ -76,7 +76,7 @@
                 "type": "element",
                 "attributes": {
                   "flood-opacity": "0",
-                  "result": "BackgroundImageFix"
+                  "result": "r0"
                 }
               },
               {
@@ -84,8 +84,8 @@
                 "type": "element",
                 "attributes": {
                   "in": "SourceGraphic",
-                  "in2": "BackgroundImageFix",
-                  "result": "shape"
+                  "in2": "r0",
+                  "result": "r1"
                 }
               },
               {
@@ -93,7 +93,7 @@
                 "type": "element",
                 "attributes": {
                   "stdDeviation": "16",
-                  "result": "effect1_foregroundBlur_2071_38"
+                  "result": "r2"
                 }
               }
             ]
@@ -116,7 +116,7 @@
                 "type": "element",
                 "attributes": {
                   "flood-opacity": "0",
-                  "result": "BackgroundImageFix"
+                  "result": "r0"
                 }
               },
               {
@@ -124,8 +124,8 @@
                 "type": "element",
                 "attributes": {
                   "in": "SourceGraphic",
-                  "in2": "BackgroundImageFix",
-                  "result": "shape"
+                  "in2": "r0",
+                  "result": "r1"
                 }
               },
               {
@@ -133,7 +133,7 @@
                 "type": "element",
                 "attributes": {
                   "stdDeviation": "16",
-                  "result": "effect1_foregroundBlur_2071_38"
+                  "result": "r2"
                 }
               }
             ]

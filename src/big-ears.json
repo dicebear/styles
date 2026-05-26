@@ -116,77 +116,77 @@
               "type": "element",
               "attributes": {
                 "x": "24",
-                "y": "22.467",
-                "width": "12.8597",
-                "height": "12.8597",
-                "rx": "6.42983",
+                "y": "22.5",
+                "width": "12.9",
+                "height": "12.9",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "48.1118",
+                "x": "48.1",
                 "y": "8",
-                "width": "12.8597",
-                "height": "14.4671",
-                "rx": "6.42983",
+                "width": "12.9",
+                "height": "14.5",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "67.4014",
-                "y": "22.467",
-                "width": "12.8597",
-                "height": "12.8597",
-                "rx": "6.42983",
+                "x": "67.4",
+                "y": "22.5",
+                "width": "12.9",
+                "height": "12.9",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "157.419",
-                "y": "22.467",
-                "width": "12.8597",
-                "height": "12.8597",
-                "rx": "6.42983",
+                "x": "157.4",
+                "y": "22.5",
+                "width": "12.9",
+                "height": "12.9",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "181.531",
+                "x": "181.5",
                 "y": "8",
-                "width": "12.8597",
-                "height": "14.4671",
-                "rx": "6.42983",
+                "width": "12.9",
+                "height": "14.5",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "200.821",
-                "y": "22.467",
-                "width": "12.8597",
-                "height": "12.8597",
-                "rx": "6.42983",
+                "x": "200.8",
+                "y": "22.5",
+                "width": "12.9",
+                "height": "12.9",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -198,77 +198,77 @@
               "type": "element",
               "attributes": {
                 "x": "24",
-                "y": "22.467",
-                "width": "12.8597",
-                "height": "12.8597",
-                "rx": "6.42983",
+                "y": "22.5",
+                "width": "12.9",
+                "height": "12.9",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.4"
+                "fill-opacity": ".4"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "48.1118",
+                "x": "48.1",
                 "y": "8",
-                "width": "12.8597",
-                "height": "14.4671",
-                "rx": "6.42983",
+                "width": "12.9",
+                "height": "14.5",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.4"
+                "fill-opacity": ".4"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "67.4014",
-                "y": "22.467",
-                "width": "12.8597",
-                "height": "12.8597",
-                "rx": "6.42983",
+                "x": "67.4",
+                "y": "22.5",
+                "width": "12.9",
+                "height": "12.9",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.4"
+                "fill-opacity": ".4"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "157.419",
-                "y": "22.467",
-                "width": "12.8597",
-                "height": "12.8597",
-                "rx": "6.42983",
+                "x": "157.4",
+                "y": "22.5",
+                "width": "12.9",
+                "height": "12.9",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.4"
+                "fill-opacity": ".4"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "181.531",
+                "x": "181.5",
                 "y": "8",
-                "width": "12.8597",
-                "height": "14.4671",
-                "rx": "6.42983",
+                "width": "12.9",
+                "height": "14.5",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.4"
+                "fill-opacity": ".4"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "200.821",
-                "y": "22.467",
-                "width": "12.8597",
-                "height": "12.8597",
-                "rx": "6.42983",
+                "x": "200.8",
+                "y": "22.5",
+                "width": "12.9",
+                "height": "12.9",
+                "rx": "6.4",
                 "fill": "black",
-                "fill-opacity": "0.4"
+                "fill-opacity": ".4"
               }
             }
           ]
@@ -279,9 +279,9 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "width": "56.261",
-                "height": "43.4013",
-                "rx": "21.7007",
+                "width": "56.3",
+                "height": "43.4",
+                "rx": "21.7",
                 "fill": "#FFC6C6"
               }
             },
@@ -290,9 +290,9 @@
               "type": "element",
               "attributes": {
                 "x": "180",
-                "width": "56.261",
-                "height": "43.4013",
-                "rx": "21.7007",
+                "width": "56.3",
+                "height": "43.4",
+                "rx": "21.7",
                 "fill": "#FFC6C6"
               }
             }
@@ -304,9 +304,9 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "width": "56.261",
-                "height": "43.4013",
-                "rx": "21.7007",
+                "width": "56.3",
+                "height": "43.4",
+                "rx": "21.7",
                 "fill": "#F88888"
               }
             },
@@ -315,9 +315,9 @@
               "type": "element",
               "attributes": {
                 "x": "180",
-                "width": "56.261",
-                "height": "43.4013",
-                "rx": "21.7007",
+                "width": "56.3",
+                "height": "43.4",
+                "rx": "21.7",
                 "fill": "#F88888"
               }
             }
@@ -330,9 +330,9 @@
               "type": "element",
               "attributes": {
                 "x": "10",
-                "width": "43.4013",
-                "height": "43.4013",
-                "rx": "21.7007",
+                "width": "43.4",
+                "height": "43.4",
+                "rx": "21.7",
                 "fill": "#FFC6C6"
               }
             },
@@ -341,9 +341,9 @@
               "type": "element",
               "attributes": {
                 "x": "183",
-                "width": "43.4013",
-                "height": "43.4013",
-                "rx": "21.7007",
+                "width": "43.4",
+                "height": "43.4",
+                "rx": "21.7",
                 "fill": "#FFC6C6"
               }
             }
@@ -356,9 +356,9 @@
               "type": "element",
               "attributes": {
                 "x": "10",
-                "width": "43.4013",
-                "height": "43.4013",
-                "rx": "21.7007",
+                "width": "43.4",
+                "height": "43.4",
+                "rx": "21.7",
                 "fill": "#F88888"
               }
             },
@@ -367,9 +367,9 @@
               "type": "element",
               "attributes": {
                 "x": "183",
-                "width": "43.4013",
-                "height": "43.4013",
-                "rx": "21.7007",
+                "width": "43.4",
+                "height": "43.4",
+                "rx": "21.7",
                 "fill": "#F88888"
               }
             }
@@ -388,9 +388,9 @@
               "type": "element",
               "attributes": {
                 "y": "6",
-                "width": "88.0048",
-                "height": "88.1153",
-                "rx": "44.0024",
+                "width": "88",
+                "height": "88.1",
+                "rx": "44",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -401,24 +401,24 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "9.77832",
-                "y": "15.7908",
-                "width": "68.4482",
-                "height": "68.5341",
-                "rx": "34.2241",
+                "x": "9.8",
+                "y": "15.8",
+                "width": "68.4",
+                "height": "68.5",
+                "rx": "34.2",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "3.91113",
-                "y": "33.4138",
-                "width": "37.1576",
-                "height": "37.2043",
-                "rx": "18.5788",
+                "x": "3.9",
+                "y": "33.4",
+                "width": "37.2",
+                "height": "37.2",
+                "rx": "18.6",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -435,9 +435,9 @@
               "attributes": {
                 "x": "1",
                 "y": "5",
-                "width": "88.1153",
-                "height": "88.1153",
-                "rx": "44.0577",
+                "width": "88.1",
+                "height": "88.1",
+                "rx": "44.1",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -450,7 +450,7 @@
               "attributes": {
                 "d": "M67 27 22.5 68.5",
                 "stroke": "black",
-                "stroke-opacity": "0.2",
+                "stroke-opacity": ".2",
                 "stroke-width": "5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
@@ -466,9 +466,9 @@
               "attributes": {
                 "x": "2",
                 "y": "3",
-                "width": "88.1153",
-                "height": "88.1153",
-                "rx": "44.0577",
+                "width": "88.1",
+                "height": "88.1",
+                "rx": "44.1",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -481,7 +481,7 @@
               "attributes": {
                 "d": "m59 22.5-39 29L63.5 71",
                 "stroke": "black",
-                "stroke-opacity": "0.2",
+                "stroke-opacity": ".2",
                 "stroke-width": "5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
@@ -497,9 +497,9 @@
               "attributes": {
                 "x": "3",
                 "y": "4",
-                "width": "88.0047",
-                "height": "88.1153",
-                "rx": "44.0024",
+                "width": "88",
+                "height": "88.1",
+                "rx": "44",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -512,7 +512,7 @@
               "attributes": {
                 "d": "M27.6 41.5c2.5-6 18-32 34.5-17.2 12.7 11.3-15 33.2-16.5 22.2S79 36 69 62.5C64.8 74 42 75 27.6 61",
                 "stroke": "black",
-                "stroke-opacity": "0.2",
+                "stroke-opacity": ".2",
                 "stroke-width": "4",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
@@ -539,7 +539,7 @@
               "attributes": {
                 "d": "M12.9 46A31 31 0 1 1 75 46a31 31 0 1 1-62.1 0",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -552,9 +552,9 @@
               "attributes": {
                 "x": "7",
                 "y": "5",
-                "width": "79.9664",
-                "height": "79.9664",
-                "rx": "21.3244",
+                "width": "80",
+                "height": "80",
+                "rx": "21.3",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -565,24 +565,24 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "15.8848",
-                "y": "13.8855",
-                "width": "62.1961",
-                "height": "62.1961",
-                "rx": "12.4392",
+                "x": "15.9",
+                "y": "13.9",
+                "width": "62.2",
+                "height": "62.2",
+                "rx": "12.4",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "8.77734",
-                "y": "28.1018",
-                "width": "17.7703",
-                "height": "35.5406",
-                "rx": "5.33109",
+                "x": "8.8",
+                "y": "28.1",
+                "width": "17.8",
+                "height": "35.5",
+                "rx": "5.3",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -599,9 +599,9 @@
               "attributes": {
                 "x": "10",
                 "y": "7",
-                "width": "79.9664",
-                "height": "79.9664",
-                "rx": "21.3244",
+                "width": "80",
+                "height": "80",
+                "rx": "21.3",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -612,13 +612,13 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "18.8853",
-                "y": "15.8855",
-                "width": "42.6487",
-                "height": "62.1961",
-                "rx": "12.4392",
+                "x": "18.9",
+                "y": "15.9",
+                "width": "42.6",
+                "height": "62.2",
+                "rx": "12.4",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
@@ -626,10 +626,10 @@
               "type": "element",
               "attributes": {
                 "x": "10",
-                "y": "30.1018",
-                "width": "17.7703",
-                "height": "35.5406",
-                "rx": "8.88515",
+                "y": "30.1",
+                "width": "17.8",
+                "height": "35.5",
+                "rx": "8.9",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -657,7 +657,7 @@
               "attributes": {
                 "d": "M49.3 11.7c-19 0-27 15-28.6 22.5v44.1c17.5-2.3 48.5-17.5 53-32.2S73 11.7 49.3 11.7",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
@@ -695,7 +695,7 @@
               "attributes": {
                 "d": "M24.5 18.5c7.5 5 40 26 49 31.5M163 19c-7.5 5-40 26-49 31.5",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             },
@@ -717,7 +717,7 @@
               "attributes": {
                 "d": "M24 31.2c4-3 10-9.2 21.7-9.2 10 0 18.4 6.8 19.9 9.2m58.4 0c4-3 10-9.2 21.7-9.2 10 0 18.4 6.8 19.9 9.2",
                 "stroke": "black",
-                "stroke-width": "4.62213",
+                "stroke-width": "4.6",
                 "stroke-linecap": "round"
               }
             },
@@ -735,7 +735,7 @@
               "attributes": {
                 "d": "M32.5 42.2c-.8 3.1.4 10.2 11.5 13.9m88.5-13.9c-.8 3.1.4 10.2 11.5 13.9",
                 "stroke": "black",
-                "stroke-width": "4.62213",
+                "stroke-width": "4.6",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
               }
@@ -750,7 +750,7 @@
               "attributes": {
                 "d": "M121.2 29.2c4.3-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2M21 29.2c4.4-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2",
                 "stroke": "black",
-                "stroke-width": "9.24426",
+                "stroke-width": "9.2",
                 "stroke-linecap": "round"
               }
             },
@@ -770,9 +770,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "153.177",
-                "cy": "58.5553",
-                "r": "11.5553",
+                "cx": "153.2",
+                "cy": "58.6",
+                "r": "11.6",
                 "fill": "#161616"
               }
             },
@@ -780,9 +780,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "40.1774",
-                "cy": "58.5553",
-                "r": "11.5553",
+                "cx": "40.2",
+                "cy": "58.6",
+                "r": "11.6",
                 "fill": "#161616"
               }
             },
@@ -792,7 +792,7 @@
               "attributes": {
                 "d": "M128 34.2c4.4-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2M15 34.2c4.4-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2",
                 "stroke": "black",
-                "stroke-width": "4.62213",
+                "stroke-width": "4.6",
                 "stroke-linecap": "round"
               }
             },
@@ -802,7 +802,7 @@
               "attributes": {
                 "d": "M137 47c.9 2.5 4 7.8 9.2 9.2M24 47c.9 2.5 4 7.8 9.2 9.2",
                 "stroke": "black",
-                "stroke-width": "4.62213",
+                "stroke-width": "4.6",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
               }
@@ -815,9 +815,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "148.968",
-                "cy": "59.3118",
-                "r": "11.5553",
+                "cx": "149",
+                "cy": "59.3",
+                "r": "11.6",
                 "fill": "#161616"
               }
             },
@@ -825,9 +825,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "40.9679",
-                "cy": "59.3118",
-                "r": "11.5553",
+                "cx": "41",
+                "cy": "59.3",
+                "r": "11.6",
                 "fill": "#161616"
               }
             },
@@ -837,7 +837,7 @@
               "attributes": {
                 "d": "M125 34.2c4.4-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2M17 34.2c4.4-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2",
                 "stroke": "black",
-                "stroke-width": "9.24426",
+                "stroke-width": "9.2",
                 "stroke-linecap": "round"
               }
             }
@@ -851,7 +851,7 @@
               "attributes": {
                 "d": "M134.1 18.7c3.7-3 9.4-8.7 20.4-8.7 9.4 0 17.3 6.4 18.7 8.7m-117.9 0C51.6 15.7 46 10 35 10c-9.3 0-17.2 6.4-18.7 8.7",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             },
@@ -859,9 +859,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "38.2285",
-                "cy": "58.044",
-                "r": "28.2285",
+                "cx": "38.2",
+                "cy": "58",
+                "r": "28.2",
                 "fill": "white"
               }
             },
@@ -869,9 +869,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "151.772",
-                "cy": "58.044",
-                "r": "28.2285",
+                "cx": "151.8",
+                "cy": "58",
+                "r": "28.2",
                 "fill": "white"
               }
             },
@@ -879,8 +879,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "38.2283",
-                "cy": "58.0437",
+                "cx": "38.2",
+                "cy": "58",
                 "r": "15.2",
                 "fill": "#757575"
               }
@@ -889,8 +889,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "151.771",
-                "cy": "58.0437",
+                "cx": "151.8",
+                "cy": "58",
                 "r": "15.2",
                 "fill": "#757575"
               }
@@ -913,7 +913,7 @@
               "attributes": {
                 "d": "M134.1 18.7c3.7-3 9.4-8.7 20.4-8.7 9.4 0 17.3 6.4 18.7 8.7m-117.9 0C51.6 15.7 46 10 35 10c-9.3 0-17.2 6.4-18.7 8.7",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             },
@@ -921,9 +921,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "38.2285",
-                "cy": "58.044",
-                "r": "28.2285",
+                "cx": "38.2",
+                "cy": "58",
+                "r": "28.2",
                 "fill": "white"
               }
             },
@@ -931,9 +931,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "151.772",
-                "cy": "58.044",
-                "r": "28.2285",
+                "cx": "151.8",
+                "cy": "58",
+                "r": "28.2",
                 "fill": "white"
               }
             },
@@ -941,8 +941,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "38.2288",
-                "cy": "58.0437",
+                "cx": "38.2",
+                "cy": "58",
                 "r": "15.2",
                 "fill": "black"
               }
@@ -951,8 +951,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "151.771",
-                "cy": "58.0437",
+                "cx": "151.8",
+                "cy": "58",
                 "r": "15.2",
                 "fill": "black"
               }
@@ -1157,10 +1157,10 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "43.3224",
-                "cy": "60.6523",
-                "rx": "20.8038",
-                "ry": "33.9431",
+                "cx": "43.3",
+                "cy": "60.7",
+                "rx": "20.8",
+                "ry": "33.9",
                 "fill": "white"
               }
             },
@@ -1168,10 +1168,10 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "142.109",
-                "cy": "60.6523",
-                "rx": "20.8038",
-                "ry": "33.9431",
+                "cx": "142.1",
+                "cy": "60.7",
+                "rx": "20.8",
+                "ry": "33.9",
                 "fill": "white"
               }
             },
@@ -1179,10 +1179,10 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "43.3225",
-                "cy": "60.6525",
-                "rx": "16.4241",
-                "ry": "27.3735",
+                "cx": "43.3",
+                "cy": "60.7",
+                "rx": "16.4",
+                "ry": "27.4",
                 "fill": "black"
               }
             },
@@ -1190,10 +1190,10 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "142.109",
-                "cy": "60.6525",
-                "rx": "16.4241",
-                "ry": "27.3735",
+                "cx": "142.1",
+                "cy": "60.7",
+                "rx": "16.4",
+                "ry": "27.4",
                 "fill": "black"
               }
             },
@@ -1213,10 +1213,10 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "42.3093",
-                "cy": "59.8329",
-                "rx": "19.7107",
-                "ry": "32.1596",
+                "cx": "42.3",
+                "cy": "59.8",
+                "rx": "19.7",
+                "ry": "32.2",
                 "fill": "white"
               }
             },
@@ -1224,10 +1224,10 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "145.95",
-                "cy": "59.8329",
-                "rx": "18.6733",
-                "ry": "32.1596",
+                "cx": "145.9",
+                "cy": "59.8",
+                "rx": "18.7",
+                "ry": "32.2",
                 "fill": "white"
               }
             },
@@ -1235,10 +1235,10 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "46.4585",
-                "cy": "59.8331",
-                "rx": "15.5611",
-                "ry": "25.9352",
+                "cx": "46.5",
+                "cy": "59.8",
+                "rx": "15.6",
+                "ry": "25.9",
                 "fill": "black"
               }
             },
@@ -1247,9 +1247,9 @@
               "type": "element",
               "attributes": {
                 "cx": "141.8",
-                "cy": "58.7956",
-                "rx": "14.5237",
-                "ry": "24.8977",
+                "cy": "58.8",
+                "rx": "14.5",
+                "ry": "24.9",
                 "fill": "black"
               }
             },
@@ -1270,9 +1270,9 @@
               "type": "element",
               "attributes": {
                 "x": "25",
-                "y": "47.0865",
-                "width": "40.4388",
-                "height": "36.7626",
+                "y": "47.1",
+                "width": "40.4",
+                "height": "36.8",
                 "fill": "black"
               }
             },
@@ -1282,8 +1282,8 @@
               "attributes": {
                 "x": "25",
                 "y": "14",
-                "width": "40.4388",
-                "height": "11.0288",
+                "width": "40.4",
+                "height": "11",
                 "fill": "black"
               }
             },
@@ -1291,10 +1291,10 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "124.259",
-                "y": "47.0865",
-                "width": "40.4388",
-                "height": "36.7626",
+                "x": "124.3",
+                "y": "47.1",
+                "width": "40.4",
+                "height": "36.8",
                 "fill": "black"
               }
             },
@@ -1302,10 +1302,10 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "124.259",
+                "x": "124.3",
                 "y": "14",
-                "width": "40.4388",
-                "height": "11.0288",
+                "width": "40.4",
+                "height": "11",
                 "fill": "black"
               }
             }
@@ -1318,9 +1318,9 @@
               "type": "element",
               "attributes": {
                 "x": "25",
-                "y": "59.0872",
-                "width": "40.4388",
-                "height": "11.0288",
+                "y": "59.1",
+                "width": "40.4",
+                "height": "11",
                 "fill": "black"
               }
             },
@@ -1330,8 +1330,8 @@
               "attributes": {
                 "x": "25",
                 "y": "26",
-                "width": "40.4388",
-                "height": "11.0288",
+                "width": "40.4",
+                "height": "11",
                 "fill": "black"
               }
             },
@@ -1339,10 +1339,10 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "124.259",
-                "y": "59.0872",
-                "width": "40.4388",
-                "height": "11.0288",
+                "x": "124.3",
+                "y": "59.1",
+                "width": "40.4",
+                "height": "11",
                 "fill": "black"
               }
             },
@@ -1350,10 +1350,10 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "124.259",
-                "y": "26.0002",
-                "width": "40.4388",
-                "height": "11.0288",
+                "x": "124.3",
+                "y": "26",
+                "width": "40.4",
+                "height": "11",
                 "fill": "black"
               }
             }
@@ -1373,9 +1373,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "40.1309",
-                "cy": "66.4726",
-                "r": "11.7002",
+                "cx": "40.1",
+                "cy": "66.5",
+                "r": "11.7",
                 "fill": "black"
               }
             },
@@ -1383,9 +1383,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "151.185",
-                "cy": "66.4726",
-                "r": "11.7002",
+                "cx": "151.2",
+                "cy": "66.5",
+                "r": "11.7",
                 "fill": "black"
               }
             },
@@ -1394,8 +1394,8 @@
               "type": "element",
               "attributes": {
                 "y": "18",
-                "width": "76.8873",
-                "height": "20.0576",
+                "width": "76.9",
+                "height": "20.1",
                 "fill": "#403E3E"
               }
             },
@@ -1403,10 +1403,10 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "112.429",
+                "x": "112.4",
                 "y": "18",
-                "width": "76.8873",
-                "height": "20.0576",
+                "width": "76.9",
+                "height": "20.1",
                 "fill": "#403E3E"
               }
             }
@@ -1420,7 +1420,7 @@
               "attributes": {
                 "d": "M24 18.4c3.6-2.8 9-8.4 19.8-8.4a25 25 0 0 1 18 8.4m66.2 0c3.6-2.8 9-8.4 19.8-8.4a25 25 0 0 1 18 8.4",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             },
@@ -1429,10 +1429,10 @@
               "type": "element",
               "attributes": {
                 "x": "19",
-                "y": "27.4768",
-                "width": "49.6139",
-                "height": "60.6392",
-                "rx": "14.4377",
+                "y": "27.5",
+                "width": "49.6",
+                "height": "60.6",
+                "rx": "14.4",
                 "fill": "white"
               }
             },
@@ -1440,11 +1440,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "120.983",
-                "y": "27.4768",
-                "width": "49.6139",
-                "height": "60.6392",
-                "rx": "14.4377",
+                "x": "121",
+                "y": "27.5",
+                "width": "49.6",
+                "height": "60.6",
+                "rx": "14.4",
                 "fill": "white"
               }
             },
@@ -1452,11 +1452,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "30.0254",
-                "y": "35.7461",
-                "width": "30.3196",
-                "height": "46.8575",
-                "rx": "9.62511",
+                "x": "30",
+                "y": "35.7",
+                "width": "30.3",
+                "height": "46.9",
+                "rx": "9.6",
                 "fill": "#757575"
               }
             },
@@ -1464,11 +1464,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "129.253",
-                "y": "35.7461",
-                "width": "30.3196",
-                "height": "46.8575",
-                "rx": "9.62511",
+                "x": "129.3",
+                "y": "35.7",
+                "width": "30.3",
+                "height": "46.9",
+                "rx": "9.6",
                 "fill": "#757575"
               }
             }
@@ -1482,7 +1482,7 @@
               "attributes": {
                 "d": "M24 18.4c3.6-2.8 9-8.4 19.8-8.4a25 25 0 0 1 18 8.4m66.2 0c3.6-2.8 9-8.4 19.8-8.4a25 25 0 0 1 18 8.4",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             },
@@ -1491,10 +1491,10 @@
               "type": "element",
               "attributes": {
                 "x": "19",
-                "y": "27.4768",
-                "width": "49.6139",
-                "height": "60.6392",
-                "rx": "14.4377",
+                "y": "27.5",
+                "width": "49.6",
+                "height": "60.6",
+                "rx": "14.4",
                 "fill": "white"
               }
             },
@@ -1502,11 +1502,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "120.983",
-                "y": "27.4768",
-                "width": "49.6139",
-                "height": "60.6392",
-                "rx": "14.4377",
+                "x": "121",
+                "y": "27.5",
+                "width": "49.6",
+                "height": "60.6",
+                "rx": "14.4",
                 "fill": "white"
               }
             },
@@ -1514,11 +1514,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "30.0254",
-                "y": "35.7461",
-                "width": "30.3196",
-                "height": "46.8575",
-                "rx": "9.62511",
+                "x": "30",
+                "y": "35.7",
+                "width": "30.3",
+                "height": "46.9",
+                "rx": "9.6",
                 "fill": "black"
               }
             },
@@ -1526,11 +1526,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "129.253",
-                "y": "35.7461",
-                "width": "30.3196",
-                "height": "46.8575",
-                "rx": "9.62511",
+                "x": "129.3",
+                "y": "35.7",
+                "width": "30.3",
+                "height": "46.9",
+                "rx": "9.6",
                 "fill": "black"
               }
             }
@@ -1544,7 +1544,7 @@
               "attributes": {
                 "d": "M22 18.4c3.6-2.8 9-8.4 19.7-8.4 9 0 16.7 6.2 18 8.4m66.9 0c3.5-2.8 9-8.4 19.7-8.4 9 0 16.7 6.2 18 8.4",
                 "stroke": "black",
-                "stroke-width": "4.19445",
+                "stroke-width": "4.2",
                 "stroke-linecap": "round"
               }
             },
@@ -1553,10 +1553,10 @@
               "type": "element",
               "attributes": {
                 "x": "19",
-                "y": "26.3606",
-                "width": "49.4182",
+                "y": "26.4",
+                "width": "49.4",
                 "height": "60.4",
-                "rx": "16.4727",
+                "rx": "16.5",
                 "fill": "white"
               }
             },
@@ -1564,11 +1564,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "120.582",
-                "y": "26.3606",
-                "width": "49.4182",
+                "x": "120.6",
+                "y": "26.4",
+                "width": "49.4",
                 "height": "60.4",
-                "rx": "16.4727",
+                "rx": "16.5",
                 "fill": "white"
               }
             },
@@ -1576,10 +1576,10 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "28.4414",
-                "y": "34.7657",
+                "x": "28.4",
+                "y": "34.8",
                 "width": "30.2",
-                "height": "46.6728",
+                "height": "46.7",
                 "rx": "15.1",
                 "fill": "#757575"
               }
@@ -1588,10 +1588,10 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "129.938",
-                "y": "34.7657",
+                "x": "129.9",
+                "y": "34.8",
                 "width": "30.2",
-                "height": "46.6728",
+                "height": "46.7",
                 "rx": "15.1",
                 "fill": "#757575"
               }
@@ -1600,11 +1600,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "35.5225",
-                "y": "44.3754",
-                "width": "16.5226",
-                "height": "25.9641",
-                "rx": "8.26129",
+                "x": "35.5",
+                "y": "44.4",
+                "width": "16.5",
+                "height": "26",
+                "rx": "8.3",
                 "fill": "black"
               }
             },
@@ -1612,11 +1612,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "137.018",
-                "y": "44.3754",
-                "width": "16.5226",
-                "height": "25.9641",
-                "rx": "8.26129",
+                "x": "137",
+                "y": "44.4",
+                "width": "16.5",
+                "height": "26",
+                "rx": "8.3",
                 "fill": "black"
               }
             }
@@ -1630,7 +1630,7 @@
               "attributes": {
                 "d": "M28.2 17.4c3.1-2.5 8-7.4 17.3-7.4 8 0 14.6 5.4 15.8 7.4m67.9 0c3-2.5 7.9-7.4 17.2-7.4 8 0 14.7 5.4 15.9 7.4",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             },
@@ -1639,10 +1639,10 @@
               "type": "element",
               "attributes": {
                 "x": "22",
-                "y": "30.7333",
-                "width": "43.313",
-                "height": "52.9381",
-                "rx": "14.4377",
+                "y": "30.7",
+                "width": "43.3",
+                "height": "52.9",
+                "rx": "14.4",
                 "fill": "white"
               }
             },
@@ -1651,10 +1651,10 @@
               "type": "element",
               "attributes": {
                 "x": "123",
-                "y": "30.7333",
-                "width": "43.313",
-                "height": "52.9381",
-                "rx": "14.4377",
+                "y": "30.7",
+                "width": "43.3",
+                "height": "52.9",
+                "rx": "14.4",
                 "fill": "white"
               }
             },
@@ -1670,11 +1670,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "40.6191",
-                "y": "42.2377",
-                "width": "18.6189",
-                "height": "28.9627",
-                "rx": "9.30944",
+                "x": "40.6",
+                "y": "42.2",
+                "width": "18.6",
+                "height": "29",
+                "rx": "9.3",
                 "fill": "black"
               }
             },
@@ -1682,11 +1682,11 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "141.619",
-                "y": "42.2377",
-                "width": "18.6189",
-                "height": "28.9627",
-                "rx": "9.30944",
+                "x": "141.6",
+                "y": "42.2",
+                "width": "18.6",
+                "height": "29",
+                "rx": "9.3",
                 "fill": "black"
               }
             }
@@ -1700,7 +1700,7 @@
               "attributes": {
                 "d": "M2 32.6C8.9 30.4 19.4 26 40 26c17.6 0 32.3 4.9 35 6.6m40 0c6.9-2.2 17.4-6.6 38-6.6 17.6 0 32.3 4.9 35 6.6",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             },
@@ -1716,9 +1716,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "40.1204",
-                "cy": "60.8057",
-                "r": "11.6019",
+                "cx": "40.1",
+                "cy": "60.8",
+                "r": "11.6",
                 "fill": "black"
               }
             },
@@ -1726,9 +1726,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "149.806",
-                "cy": "60.8057",
-                "r": "11.6019",
+                "cx": "149.8",
+                "cy": "60.8",
+                "r": "11.6",
                 "fill": "black"
               }
             }
@@ -1742,7 +1742,7 @@
               "attributes": {
                 "d": "M129.4 18.7c3.7-2.9 9.4-8.7 20.6-8.7a26 26 0 0 1 18.8 8.7m-150.4 0C22 15.8 27.8 10 38.9 10a26 26 0 0 1 18.9 8.7",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             },
@@ -1750,9 +1750,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "39.4332",
-                "cy": "56.762",
-                "r": "28.4332",
+                "cx": "39.4",
+                "cy": "56.8",
+                "r": "28.4",
                 "fill": "white"
               }
             },
@@ -1760,9 +1760,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "149.669",
-                "cy": "56.762",
-                "r": "28.4332",
+                "cx": "149.7",
+                "cy": "56.8",
+                "r": "28.4",
                 "fill": "white"
               }
             },
@@ -1770,9 +1770,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "39.4332",
-                "cy": "56.7621",
-                "r": "15.3102",
+                "cx": "39.4",
+                "cy": "56.8",
+                "r": "15.3",
                 "fill": "#757575"
               }
             },
@@ -1780,9 +1780,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "149.669",
-                "cy": "56.7621",
-                "r": "15.3102",
+                "cx": "149.7",
+                "cy": "56.8",
+                "r": "15.3",
                 "fill": "#757575"
               }
             }
@@ -1804,7 +1804,7 @@
               "attributes": {
                 "d": "M25.5 18.5c7.5 5 40 26 49 31.5M164 19c-7.5 5-40 26-49 31.5",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             },
@@ -1814,7 +1814,7 @@
               "attributes": {
                 "d": "M26 19c7.5 5 40 26 49 31.5m89.5-31c-7.5 5-40 26-49 31.5",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             }
@@ -1828,7 +1828,7 @@
               "attributes": {
                 "d": "M129.4 18.7c3.7-2.9 9.4-8.7 20.6-8.7a26 26 0 0 1 18.8 8.7m-150.4 0C22 15.8 27.8 10 38.9 10a26 26 0 0 1 18.9 8.7",
                 "stroke": "black",
-                "stroke-width": "3.67626",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round"
               }
             },
@@ -1836,9 +1836,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "39.4332",
-                "cy": "56.762",
-                "r": "28.4332",
+                "cx": "39.4",
+                "cy": "56.8",
+                "r": "28.4",
                 "fill": "white"
               }
             },
@@ -1846,9 +1846,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "149.669",
-                "cy": "56.762",
-                "r": "28.4332",
+                "cx": "149.7",
+                "cy": "56.8",
+                "r": "28.4",
                 "fill": "white"
               }
             },
@@ -1856,9 +1856,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "39.4332",
-                "cy": "56.7621",
-                "r": "15.3102",
+                "cx": "39.4",
+                "cy": "56.8",
+                "r": "15.3",
                 "fill": "black"
               }
             },
@@ -1866,9 +1866,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "149.669",
-                "cy": "56.7621",
-                "r": "15.3102",
+                "cx": "149.7",
+                "cy": "56.8",
+                "r": "15.3",
                 "fill": "black"
               }
             }
@@ -1890,7 +1890,7 @@
               "attributes": {
                 "d": "M34.2 32c-.8 3 .4 10.2 11.5 13.9M132.2 32c-.8 3 .4 10.2 11.5 13.9",
                 "stroke": "black",
-                "stroke-width": "4.62213",
+                "stroke-width": "4.6",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
               }
@@ -1915,9 +1915,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "147.177",
-                "cy": "47.5553",
-                "r": "11.5553",
+                "cx": "147.2",
+                "cy": "47.6",
+                "r": "11.6",
                 "fill": "#161616"
               }
             },
@@ -1925,9 +1925,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "47.1774",
-                "cy": "47.5553",
-                "r": "11.5553",
+                "cx": "47.2",
+                "cy": "47.6",
+                "r": "11.6",
                 "fill": "#161616"
               }
             },
@@ -1937,7 +1937,7 @@
               "attributes": {
                 "d": "M131 36c.9 2.5 4 7.8 9.2 9.2M31 36c.9 2.5 4 7.8 9.2 9.2",
                 "stroke": "black",
-                "stroke-width": "4.62213",
+                "stroke-width": "4.6",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
               }
@@ -1958,9 +1958,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "43.5553",
-                "cy": "47.5553",
-                "r": "11.5553",
+                "cx": "43.6",
+                "cy": "47.6",
+                "r": "11.6",
                 "fill": "#161616"
               }
             }
@@ -1974,7 +1974,7 @@
               "attributes": {
                 "d": "M173 15c-4.2 3.4-10.8 10.1-23.7 10.1a30 30 0 0 1-21.8-10",
                 "stroke": "black",
-                "stroke-width": "8.27506",
+                "stroke-width": "8.3",
                 "stroke-linecap": "round"
               }
             },
@@ -1984,7 +1984,7 @@
               "attributes": {
                 "d": "M173 55c-4.2 3.4-10.8 10.1-23.7 10.1a30 30 0 0 1-21.8-10",
                 "stroke": "black",
-                "stroke-width": "4.13753",
+                "stroke-width": "4.1",
                 "stroke-linecap": "round"
               }
             },
@@ -1994,7 +1994,7 @@
               "attributes": {
                 "d": "M61.6 15c-4.3 3.4-11 10.1-23.8 10.1A30 30 0 0 1 16 15",
                 "stroke": "black",
-                "stroke-width": "8.27506",
+                "stroke-width": "8.3",
                 "stroke-linecap": "round"
               }
             },
@@ -2004,7 +2004,7 @@
               "attributes": {
                 "d": "M61.6 55c-4.3 3.4-11 10.1-23.8 10.1a30 30 0 0 1-21.8-10",
                 "stroke": "black",
-                "stroke-width": "4.13753",
+                "stroke-width": "4.1",
                 "stroke-linecap": "round"
               }
             }
@@ -2018,7 +2018,7 @@
               "attributes": {
                 "d": "M17 26.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1",
                 "stroke": "black",
-                "stroke-width": "8.27506",
+                "stroke-width": "8.3",
                 "stroke-linecap": "round"
               }
             },
@@ -2028,7 +2028,7 @@
               "attributes": {
                 "d": "M17 63.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1",
                 "stroke": "black",
-                "stroke-width": "4.13753",
+                "stroke-width": "4.1",
                 "stroke-linecap": "round"
               }
             },
@@ -2038,7 +2038,7 @@
               "attributes": {
                 "d": "M126 26.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1",
                 "stroke": "black",
-                "stroke-width": "8.27506",
+                "stroke-width": "8.3",
                 "stroke-linecap": "round"
               }
             },
@@ -2048,7 +2048,7 @@
               "attributes": {
                 "d": "M126 63.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1",
                 "stroke": "black",
-                "stroke-width": "4.13753",
+                "stroke-width": "4.1",
                 "stroke-linecap": "round"
               }
             }
@@ -2978,7 +2978,7 @@
               "attributes": {
                 "d": "M17.8 245.9v.9c0 31.1 53 80.6 118.6 80.6S255 278 255 246.8v-1 20.6c0 31-53.1 80.6-118.6 80.6S17.8 297.5 17.8 266.4z",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
@@ -3016,7 +3016,7 @@
               "attributes": {
                 "d": "M254.3 244.6C246 295 178 339.5 137.6 339.5c-24 0-101.7-27.9-116.4-83.8 22.6 47.6 92.6 71.3 115.6 71.3 39 0 102.9-38.9 118-85.2z",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -3040,7 +3040,7 @@
               "attributes": {
                 "d": "M16.2 229.6v.9c0 29.9 53.4 77.4 119.1 77.4 65.8 0 119.1-47.5 119.1-77.4v-.9 19.7c0 29.8-53.3 77.4-119 77.4S16.1 279 16.1 249.3v-19.7",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
@@ -3062,9 +3062,9 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "135.193",
-                "cy": "143.193",
-                "r": "121.193",
+                "cx": "135.2",
+                "cy": "143.2",
+                "r": "121.2",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -3076,9 +3076,9 @@
               "type": "element",
               "attributes": {
                 "x": "14",
-                "y": "140.499",
-                "width": "242.385",
-                "height": "191.215",
+                "y": "140.5",
+                "width": "242.4",
+                "height": "191.2",
                 "fill": {
                   "type": "color",
                   "name": "skin"
@@ -3091,7 +3091,7 @@
               "attributes": {
                 "d": "M14 312h242v20H14z",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -3115,7 +3115,7 @@
               "attributes": {
                 "d": "M258 328.7c0 16.2-13 29.3-29.3 29.3H43.3C27 358 14 345 14 328.7v-22C14 323 27 336 43.3 336h185.4c16.2 0 29.3-13 29.3-29.2z",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -3139,7 +3139,7 @@
               "attributes": {
                 "d": "M9.5 209c1.2 11.6 4.4 25 10.7 41.3 13.3 34.5 63.5 65 115.6 65 49.6 0 101.2-29 114-56 7-14.6 10.3-27.2 11.5-38.4 2 16.7.4 35.4-11.3 60-12.8 27-64.4 56-114 56.1-52.2 0-102.3-30.5-115.6-65.1C9.8 244.6 7.9 225 9.4 209",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -3163,7 +3163,7 @@
               "attributes": {
                 "d": "M269.6 180.8q.4 5 .4 9.8c0 71.5-60.4 129.5-135 129.5S0 262 0 190.6q0-4.8.4-9.8c5.1 67 63.4 119.8 134.6 119.8s129.5-52.8 134.6-119.8",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -3189,7 +3189,7 @@
               "attributes": {
                 "d": "m268.3 168.3.2 7a133.7 133.7 0 1 1-267.3-7 133.8 133.8 0 0 0 267.1 0",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -3213,7 +3213,7 @@
               "attributes": {
                 "d": "M135.5 337C65.6 337 9 241.8 9 161.5v-4C11 237 66.8 329 135.5 329S260.1 237 262 157.5v4c0 80.3-56.6 175.5-126.5 175.5",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -3240,7 +3240,7 @@
               "attributes": {
                 "d": "m267 168.4.1 5.9c0 84.2-59 152.6-132 152.6S3 258.5 3 174.3v-5.9C5.8 250 63.9 315.2 135 315.2S264.5 250 267 168.4",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -3981,7 +3981,7 @@
               "attributes": {
                 "d": "M19.6 27.3a14.7 14.7 0 0 0 28.7.3l.2 1.9a14.7 14.7 0 1 1-29.1.4z",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -3994,8 +3994,8 @@
               "attributes": {
                 "d": "M37.4 10c-.7 5.4-3 16.3-7.1 17-5 1-11-8-13.1-2s12 21.2 22.2 18.2",
                 "stroke": "black",
-                "stroke-opacity": "0.5",
-                "stroke-width": "3.72761",
+                "stroke-opacity": ".5",
+                "stroke-width": "3.7",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
               }
@@ -4010,7 +4010,7 @@
               "attributes": {
                 "d": "M28.4 10c-7.1 9.5-12 31.5-7.8 33.5 4.2 2.1 10.4 0 17 0",
                 "stroke": "black",
-                "stroke-opacity": "0.5",
+                "stroke-opacity": ".5",
                 "stroke-width": "4",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
@@ -4026,7 +4026,7 @@
               "attributes": {
                 "d": "M32.8 10c-7.1 9.5-20.2 29-16 31 4.3 2 18.6 2.5 25.3 2.5",
                 "stroke": "black",
-                "stroke-opacity": "0.5",
+                "stroke-opacity": ".5",
                 "stroke-width": "4",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
@@ -4042,7 +4042,7 @@
               "attributes": {
                 "d": "M34 16c-3.7.8-11 4-11 10.5 0 8.2 7.3 10.6 11 11.7",
                 "stroke": "black",
-                "stroke-opacity": "0.5",
+                "stroke-opacity": ".5",
                 "stroke-width": "4",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
@@ -4058,7 +4058,7 @@
               "attributes": {
                 "d": "M32 2v27c-3.7.7-11 4-11 10.5 0 8.2 7.3 10.5 11 11.7",
                 "stroke": "black",
-                "stroke-opacity": "0.5",
+                "stroke-opacity": ".5",
                 "stroke-width": "4",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
@@ -4074,7 +4074,7 @@
               "attributes": {
                 "d": "m55.8 22.5.2 2.4v3.3C56 37.5 48.4 45 39.1 45H29a17 17 0 0 1-17-17v-3l.2-2.4A17 17 0 0 0 28.9 37H39c8.5 0 15.6-6.2 16.7-14.4",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -4085,28 +4085,28 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "20.8853",
-                "y": "39.4611",
-                "width": "11.691",
-                "height": "8.88516",
-                "rx": "4.44258",
+                "x": "20.9",
+                "y": "39.5",
+                "width": "11.7",
+                "height": "8.9",
+                "rx": "4.4",
                 "transform": "rotate(-90 20.9 39.5)",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "38.6558",
-                "y": "39.4611",
-                "width": "11.691",
-                "height": "8.88516",
-                "rx": "4.44258",
+                "x": "38.7",
+                "y": "39.5",
+                "width": "11.7",
+                "height": "8.9",
+                "rx": "4.4",
                 "transform": "rotate(-90 38.7 39.5)",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             },
             {
@@ -4115,7 +4115,7 @@
               "attributes": {
                 "d": "M39.5 10a17 17 0 0 1 16.7 19.4A17 17 0 0 0 39.5 15H29c-8.5 0-15.5 6.2-16.7 14.4l-.2-2.5A17 17 0 0 1 28.9 10z",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -4128,7 +4128,7 @@
               "attributes": {
                 "d": "M56.8 34.2A11.3 11.3 0 0 1 45 49a11.3 11.3 0 0 1-21.8 0h-1a11.3 11.3 0 0 1-10.7-15 11 11 0 0 0 11.7 7.7 11.3 11.3 0 0 0 21.8 0h1c5 0 9.2-3.1 10.7-7.6",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -4141,7 +4141,7 @@
               "attributes": {
                 "d": "M53.8 26.3a10 10 0 0 1-10.4 13.4 10 10 0 0 1-19.4 0h-1a10 10 0 0 1-9.5-13.4A10 10 0 0 0 24 33a10 10 0 0 0 19.4 0h.9a10 10 0 0 0 9.5-6.7",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -4154,7 +4154,7 @@
               "attributes": {
                 "d": "M67 22.4a17 17 0 0 1-16.4 21.4H17A17 17 0 0 1 .6 22.4 17 17 0 0 0 16.9 35h33.7c7.8 0 14.4-5.3 16.3-12.5",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
@@ -4167,7 +4167,7 @@
               "attributes": {
                 "d": "M50.2 22.4a16.9 16.9 0 1 1-32.6 0 16.9 16.9 0 0 0 32.6 0",
                 "fill": "black",
-                "fill-opacity": "0.2"
+                "fill-opacity": ".2"
               }
             }
           ]
