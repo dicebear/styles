@@ -37,7 +37,7 @@
         "type": "element",
         "attributes": {
           "transform": "translate(4 4)",
-          "opacity": "0.4"
+          "opacity": ".4"
         },
         "children": [
           {
@@ -2996,21 +2996,21 @@
   "colors": {
     "background": {
       "values": [
-        "#ffe082",
-        "#90caf9",
-        "#80deea",
-        "#ffab91",
-        "#b39ddb",
-        "#a5d6a7",
-        "#9fa8da",
-        "#81d4fa",
-        "#c5e1a5",
-        "#e6ee9c",
-        "#ffcc80",
-        "#f48fb1",
-        "#ce93d8",
-        "#ef9a9a",
-        "#80cbc4"
+        "#9edfdc",
+        "#edcba1",
+        "#fac1bc",
+        "#cecbfb",
+        "#aad8f9",
+        "#e0c5f1",
+        "#a7e0c9",
+        "#cbd8a7",
+        "#ded2a0",
+        "#f6c5ac",
+        "#bbd1fe",
+        "#f7bfcf",
+        "#eec1e2",
+        "#9fdded",
+        "#b7ddb6"
       ]
     },
     "icon": {
