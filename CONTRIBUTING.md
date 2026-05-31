@@ -114,13 +114,27 @@ infrastructure, per-style for the art itself).
 ## Releasing (maintainers only)
 
 Publishing is automated via the
-[publish workflow](.github/workflows/publish.yml). To cut a release:
+[publish workflow](.github/workflows/publish.yml). To cut a release, bump the
+version across both manifests and tag it:
 
 ```sh
-npm version patch   # or minor / major
-git push origin main --follow-tags
+node scripts/version.mjs <version>   # e.g. 10.1.0 or 10.2.0-rc.1
+git push && git push --tags
 ```
 
-The workflow runs the validation suite, builds the dist files, and
-publishes to npm with provenance. Packagist picks up the same Git tag
-automatically.
+`scripts/version.mjs` updates `version` in `package.json` **and**
+`pyproject.toml`, syncs `package-lock.json`, then creates the commit and the
+`v<version>` tag. Both manifests carry the same version, so always release via
+this script (not `npm version`, which would bump only `package.json`). Use a
+valid [semver](https://semver.org/) value; for prereleases note that PyPI
+normalizes to PEP 440, so npm publishes `10.2.0-rc.1` while PyPI publishes
+`10.2.0rc1`.
+
+On the tag, the workflow:
+
+1. Validates every file in `src/` and builds the minified dist files.
+2. Publishes to npm with provenance (`@dicebear/styles`).
+3. Builds the data-only wheel from `src/` and publishes to PyPI via Trusted
+   Publishing (`dicebear-styles`).
+
+Packagist picks up the same Git tag automatically (`dicebear/styles`).

@@ -46,3 +46,30 @@ jobs:
 
       - name: Publish
         run: npm publish --provenance --tag ${{ steps.npm-tag.outputs.tag }}
+
+  publish-pypi:
+    runs-on: ubuntu-latest
+    # Runs after the npm job so the shared JSON validation (validate.sh) has
+    # passed before anything is pushed to PyPI.
+    needs: publish
+    permissions:
+      contents: read # actions/checkout (a permissions block defaults the rest to none)
+      id-token: write # Trusted Publishing to PyPI
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build distribution
+        # Build into a dedicated directory so the wheel/sdist never mix with the
+        # npm `dist/` (which holds the minified *.min.json).
+        run: pipx run build --outdir dist-python
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist-python

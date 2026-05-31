@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dicebear-styles"
+version = "10.0.0"
+description = "Definition files of the DiceBear avatar styles."
+readme = "README.md"
+requires-python = ">=3.10"
+# Per-style licenses (see LICENSE.md); shipped as a license file rather than a
+# single SPDX expression because the styles carry different licenses.
+license-files = ["LICENSE.md"]
+authors = [{ name = "Florian Körner", email = "contact@florian-koerner.com" }]
+keywords = ["avatar", "dicebear"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Multimedia :: Graphics",
+]
+
+# Data-only distribution: no runtime dependencies and no Python code. The style
+# definitions ship as JSON resources under the `dicebear_styles` import name and
+# are read by the consumer via the standard library, mirroring how
+# `@dicebear/styles` (npm) and `dicebear/styles` (Composer) ship pure data:
+#
+#     import json
+#     from importlib.resources import files
+#
+#     style = json.loads(
+#         files("dicebear_styles").joinpath("adventurer.json").read_text("utf-8")
+#     )
+
+[project.urls]
+Homepage = "https://www.dicebear.com"
+Repository = "https://github.com/dicebear/styles"
+Issues = "https://github.com/dicebear/styles/issues"
+
+# Ship the committed `src/*.json` definitions as the `dicebear_styles` namespace
+# package (a directory of JSON resources, no `__init__.py`). `bypass-selection`
+# tells hatchling there are no Python packages to discover — by design.
+# Using `src/` (not the generated, gitignored `dist/`) keeps the package in sync
+# with the PHP usage and needs no build step before packaging.
+[tool.hatch.build.targets.wheel]
+bypass-selection = true
+force-include = { "src" = "dicebear_styles" }
+
+[tool.hatch.build.targets.sdist]
+include = ["src/*.json", "README.md", "LICENSE.md", "pyproject.toml"]

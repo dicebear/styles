@@ -20,18 +20,40 @@ exported again with the Figma plugin.
 
 **JavaScript**
 
+```bash
+npm install @dicebear/styles
+```
+
 ```js
-import adventurer from '@dicebear/styles/adventurer.json' assert { type: 'json' };
-import lorelei from '@dicebear/styles/lorelei.json' assert { type: 'json' };
+import adventurer from '@dicebear/styles/adventurer.json' with { type: 'json' };
+import lorelei from '@dicebear/styles/lorelei.json' with { type: 'json' };
 ```
 
 **PHP**
+
+```bash
+composer require dicebear/styles
+```
 
 ```php
 $basePath = \Composer\InstalledVersions::getInstallPath('dicebear/styles');
 
 $adventurer = json_decode(file_get_contents($basePath . '/src/adventurer.json'), true);
 $lorelei    = json_decode(file_get_contents($basePath . '/src/lorelei.json'), true);
+```
+
+**Python**
+
+```bash
+pip install dicebear-styles
+```
+
+```python
+import json
+from importlib.resources import files
+
+adventurer = json.loads(files('dicebear_styles').joinpath('adventurer.json').read_text('utf-8'))
+lorelei    = json.loads(files('dicebear_styles').joinpath('lorelei.json').read_text('utf-8'))
 ```
 
 ## Contributing
