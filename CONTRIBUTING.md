@@ -118,11 +118,11 @@ Publishing is automated via the
 version across both manifests and tag it:
 
 ```sh
-node scripts/version.mjs <version>   # e.g. 10.1.0 or 10.2.0-rc.1
+scripts/version.sh <version>   # e.g. 10.1.0 or 10.2.0-rc.1
 git push && git push --tags
 ```
 
-`scripts/version.mjs` updates `version` in `package.json` **and**
+`scripts/version.sh` updates `version` in `package.json` **and**
 `pyproject.toml`, syncs `package-lock.json`, then creates the commit and the
 `v<version>` tag. Both manifests carry the same version, so always release via
 this script (not `npm version`, which would bump only `package.json`). Use a
