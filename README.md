@@ -58,14 +58,16 @@ lorelei    = json.loads(files('dicebear_styles').joinpath('lorelei.json').read_t
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for local development, testing,
-and the release process.
+See
+[CONTRIBUTING.md](https://github.com/dicebear/definitions/blob/main/CONTRIBUTING.md)
+for local development, testing, and the release process.
 
 ## License
 
 The avatar styles are licensed under different licenses. More information can be
-found in the file [LICENSE.md](./LICENSE.md) or in the definition files
-themselves.
+found in the file
+[LICENSE.md](https://github.com/dicebear/definitions/blob/main/LICENSE.md) or in
+the definition files themselves.
 
 ## Sponsors
 
