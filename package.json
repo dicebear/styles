@@ -166,7 +166,7 @@
     }
   },
   "files": [
-    "LICENSE",
+    "LICENSE.md",
     "dist/",
     "src/",
     "README.md"
