@@ -28,7 +28,7 @@
   },
   "attributes": {
     "fill": "none",
-    "shape-rendering": "crispEdges"
+    "shape-rendering": "auto"
   },
   "components": {
     "ring": {
