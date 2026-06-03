@@ -12,6 +12,11 @@ line.
 
 ## [Unreleased]
 
+### Changed
+
+- **Schema:** All style definitions now reference `@dicebear/schema@1.1.0`
+  (previously `1.0.0`).
+
 ### Fixed
 
 - **Lorelei:** The `mouth` is now visible through `beard` variants. The masking
