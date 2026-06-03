@@ -12,6 +12,8 @@ line.
 
 ## [Unreleased]
 
+## [10.1.0] - 2026-06-03
+
 ### Changed
 
 - **Schema:** All style definitions now reference `@dicebear/schema@1.1.0`
@@ -53,6 +55,7 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v10.1.0-rc.1...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v10.1.0...HEAD
+[10.1.0]: https://github.com/dicebear/styles/compare/v10.1.0-rc.1...v10.1.0
 [10.1.0-rc.1]: https://github.com/dicebear/styles/compare/v10.0.0...v10.1.0-rc.1
 [10.0.0]: https://github.com/dicebear/styles/releases/tag/v10.0.0
