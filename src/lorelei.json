@@ -63,7 +63,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0"
+                "opacity": ".4"
               },
               "children": [
                 {
@@ -124,7 +124,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0"
+                "opacity": ".4"
               },
               "children": [
                 {
