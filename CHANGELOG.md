@@ -14,8 +14,9 @@ line.
 
 ### Fixed
 
-- **Lorelei:** `hairAccessories` are now rendered at `0.4` opacity, matching the
-  intended design.
+- **Lorelei:** The `mouth` is now visible through `beard` variants. The masking
+  group overlaying the mouth on beards was rendered at `0` opacity (fully
+  hidden) and is now at `0.4`, matching the intended design.
 - **Rings:** Now uses the default `shape-rendering` instead of `crispEdges`, so
   the rings render with smooth anti-aliased edges.
 - **Packaging:** The published packages now reference `LICENSE.md` in the
