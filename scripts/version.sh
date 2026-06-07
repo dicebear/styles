@@ -1,11 +1,36 @@
 #!/usr/bin/env bash
+
+# -----------------------------------------------------------------------------
+# MIT License
+#
+# Copyright (c) 2026 Florian Körner
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# -----------------------------------------------------------------------------
+
 set -euo pipefail
 
 # Bumps the release version across every manifest in this repo, syncs the
 # lockfile, then commits and tags — mirroring scripts/version.mjs in the
-# dicebear monorepo. The version lives in the manifests (package.json and
-# pyproject.toml) and is the single source of truth for both the npm and the
-# PyPI publish; this script keeps them in lockstep.
+# dicebear monorepo. The version lives in the manifests (package.json,
+# pyproject.toml and Cargo.toml) and is the single source of truth for the npm,
+# PyPI and crates.io publishes; this script keeps them in lockstep.
 #
 #   scripts/version.sh 10.1.0
 
@@ -48,6 +73,9 @@ bump() {
 
 bump "package.json" '"version": "[^"]*"' "\"version\": \"$version\""
 bump "pyproject.toml" '^version = "[^"]*"$' "version = \"$version\""
+# crates.io: the `[package]` version. `^version = ` (column 0) matches only this
+# line, not the indented dependency versions further down.
+bump "Cargo.toml" '^version = "[^"]*"$' "version = \"$version\""
 
 # Repository the changelog's compare links point at.
 CHANGELOG_REPO_URL="https://github.com/dicebear/styles"

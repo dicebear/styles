@@ -56,6 +56,28 @@ adventurer = json.loads(files('dicebear_styles').joinpath('adventurer.json').rea
 lorelei    = json.loads(files('dicebear_styles').joinpath('lorelei.json').read_text('utf-8'))
 ```
 
+**Rust**
+
+Each style is gated behind a feature of the same name, so a binary only embeds the
+styles it opts into (use the `all` feature to pull in every style):
+
+```bash
+cargo add dicebear-styles --features adventurer,lorelei
+```
+
+The enabled styles are embedded at compile time and exposed as raw JSON
+(`&'static str`). Parse them with `serde_json`:
+
+```rust
+use dicebear_styles::{ADVENTURER, LORELEI};
+
+let adventurer: serde_json::Value = serde_json::from_str(ADVENTURER)?;
+let lorelei: serde_json::Value = serde_json::from_str(LORELEI)?;
+
+// Or look one up by name at runtime (None if unknown or its feature is off):
+let style = dicebear_styles::get("adventurer");
+```
+
 ## Contributing
 
 See

@@ -3,3 +3,6 @@
 dist
 dist-python
 node_modules
+
+/target
+Cargo.lock

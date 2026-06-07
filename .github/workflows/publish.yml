@@ -73,3 +73,32 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           packages-dir: dist-python
+
+  publish-crates:
+    runs-on: ubuntu-latest
+    # Runs after the npm job so the shared JSON validation (validate.sh) has
+    # passed before anything is pushed to crates.io. Unlike npm/PyPI, the Rust
+    # crate embeds the committed src/ JSON directly (include_str!), so no build
+    # step is needed.
+    needs: publish
+    permissions:
+      contents: read # actions/checkout
+      id-token: write # Trusted Publishing to crates.io (OIDC, no stored token)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Verify every style embeds and compiles
+        run: cargo check --all-features
+
+      - name: Authenticate to crates.io
+        id: auth
+        uses: rust-lang/crates-io-auth-action@v1
+
+      - name: Publish
+        run: cargo publish
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ steps.auth.outputs.token }}

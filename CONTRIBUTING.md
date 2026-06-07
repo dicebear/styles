@@ -86,7 +86,10 @@ container, so expect a slower warm-up.
 2. Run `npm test`. If the schema rejects the file, Bowtie prints the exact
    keyword and JSON pointer that failed, so you can fix the offending
    value directly.
-3. Run `npm run build` and commit the refreshed `dist/` alongside `src/`.
+3. Run `npm run build` and commit the regenerated `rust/lib.rs` and `Cargo.toml`
+   alongside `src/` (CI fails the PR if they are stale). The minified `dist/`
+   files are regenerated too, but they are git-ignored — only the npm publish
+   ships them.
 4. If you changed a style's license or credits, update `LICENSE.md`
    accordingly.
 
@@ -115,16 +118,16 @@ infrastructure, per-style for the art itself).
 
 Publishing is automated via the
 [publish workflow](.github/workflows/publish.yml). To cut a release, bump the
-version across both manifests and tag it:
+version across all three manifests and tag it:
 
 ```sh
 scripts/version.sh <version>   # e.g. 10.1.0 or 10.2.0-rc.1
 git push && git push --tags
 ```
 
-`scripts/version.sh` updates `version` in `package.json` **and**
-`pyproject.toml`, syncs `package-lock.json`, then creates the commit and the
-`v<version>` tag. Both manifests carry the same version, so always release via
+`scripts/version.sh` updates `version` in `package.json`, `pyproject.toml` **and**
+`Cargo.toml`, syncs `package-lock.json`, then creates the commit and the
+`v<version>` tag. All three manifests carry the same version, so always release via
 this script (not `npm version`, which would bump only `package.json`). Use a
 valid [semver](https://semver.org/) value; for prereleases note that PyPI
 normalizes to PEP 440, so npm publishes `10.2.0-rc.1` while PyPI publishes
@@ -136,5 +139,8 @@ On the tag, the workflow:
 2. Publishes to npm with provenance (`@dicebear/styles`).
 3. Builds the data-only wheel from `src/` and publishes to PyPI via Trusted
    Publishing (`dicebear-styles`).
+4. Publishes the Rust crate to crates.io via Trusted Publishing
+   (`dicebear-styles`). The crate's first release must be published manually
+   with an API token; see the comment in the publish workflow.
 
 Packagist picks up the same Git tag automatically (`dicebear/styles`).

@@ -27,3 +27,21 @@ jobs:
 
       - name: Validate
         run: bash scripts/validate.sh
+
+  rust-codegen:
+    runs-on: ubuntu-latest
+    # rust/lib.rs and the Cargo.toml [features] table are generated from
+    # src/*.json by scripts/build.sh and committed. Adding a style without
+    # regenerating them would silently publish a crate missing that style —
+    # `cargo check` can't see a style that isn't listed — so fail the PR if the
+    # committed files are stale. (Only the deterministic, ASCII Rust outputs are
+    # checked; the locale-sensitive LICENSE.md padding is not.)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Regenerate the Rust crate from src/
+        run: bash scripts/build.sh
+
+      - name: Fail if rust/lib.rs or Cargo.toml is out of sync with src/
+        run: git diff --exit-code -- rust/lib.rs Cargo.toml

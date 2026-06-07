@@ -1,0 +1,106 @@
+[package]
+name = "dicebear-styles"
+version = "10.1.0"
+edition = "2021"
+description = "Definition files of the DiceBear avatar styles."
+repository = "https://github.com/dicebear/styles"
+homepage = "https://www.dicebear.com"
+keywords = ["dicebear", "avatar", "svg"]
+authors = ["Florian Körner <contact@florian-koerner.com>"]
+readme = "README.md"
+# The styles are individually licensed (see LICENSE.md / each file's `meta`),
+# so there is no single SPDX expression — mirror the npm/Composer manifests,
+# which omit a license field too, and point at the per-style license list.
+license-file = "LICENSE.md"
+
+# Pure-data crate: ship the committed source styles (not the gitignored, npm-only
+# `dist/`) plus the thin shim. `cargo publish` only bundles files under the
+# package root, so the JSON must live here — which it does.
+include = ["/src/*.json", "/rust/lib.rs", "/LICENSE.md", "/README.md"]
+
+[lib]
+# Keep Rust out of the data `src/` dir; the shim lives in its own `rust/`.
+path = "rust/lib.rs"
+
+[features]
+# No style is compiled in by default — opt in per style to keep binaries small.
+default = []
+# Convenience: pull in every style.
+all = [
+  "adventurer",
+  "adventurer-neutral",
+  "avataaars",
+  "avataaars-neutral",
+  "big-ears",
+  "big-ears-neutral",
+  "big-smile",
+  "bottts",
+  "bottts-neutral",
+  "croodles",
+  "croodles-neutral",
+  "disco",
+  "dylan",
+  "fun-emoji",
+  "glass",
+  "glyphs",
+  "icons",
+  "identicon",
+  "initial-face",
+  "initials",
+  "lorelei",
+  "lorelei-neutral",
+  "micah",
+  "miniavs",
+  "notionists",
+  "notionists-neutral",
+  "open-peeps",
+  "personas",
+  "pixel-art",
+  "pixel-art-neutral",
+  "rings",
+  "shape-grid",
+  "shapes",
+  "stripes",
+  "thumbs",
+  "toon-head",
+  "triangles",
+]
+
+# One feature per style. `dicebear-styles = { features = ["shapes", "bottts"] }`
+adventurer = []
+adventurer-neutral = []
+avataaars = []
+avataaars-neutral = []
+big-ears = []
+big-ears-neutral = []
+big-smile = []
+bottts = []
+bottts-neutral = []
+croodles = []
+croodles-neutral = []
+disco = []
+dylan = []
+fun-emoji = []
+glass = []
+glyphs = []
+icons = []
+identicon = []
+initial-face = []
+initials = []
+lorelei = []
+lorelei-neutral = []
+micah = []
+miniavs = []
+notionists = []
+notionists-neutral = []
+open-peeps = []
+personas = []
+pixel-art = []
+pixel-art-neutral = []
+rings = []
+shape-grid = []
+shapes = []
+stripes = []
+thumbs = []
+toon-head = []
+triangles = []
