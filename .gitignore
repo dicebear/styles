@@ -3,3 +3,5 @@
 dist
 dist-python
 node_modules
+rust/target
+rust/Cargo.lock
