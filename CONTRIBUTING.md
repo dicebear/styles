@@ -140,7 +140,6 @@ On the tag, the workflow:
 3. Builds the data-only wheel from `src/` and publishes to PyPI via Trusted
    Publishing (`dicebear-styles`).
 4. Publishes the Rust crate to crates.io via Trusted Publishing
-   (`dicebear-styles`). The crate's first release must be published manually
-   with an API token; see the comment in the publish workflow.
+   (`dicebear-styles`).
 
 Packagist picks up the same Git tag automatically (`dicebear/styles`).
