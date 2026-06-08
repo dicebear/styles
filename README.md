@@ -78,6 +78,32 @@ let lorelei: serde_json::Value = serde_json::from_str(LORELEI)?;
 let style = dicebear_styles::get("adventurer");
 ```
 
+**Go**
+
+```bash
+go get github.com/dicebear/styles/v10
+```
+
+Every style is embedded at compile time and exposed as raw JSON (`string`) — both
+as an exported variable and by name via `Get`. Parse it with `encoding/json`:
+
+```go
+import (
+	"encoding/json"
+
+	styles "github.com/dicebear/styles/v10"
+)
+
+var adventurer map[string]any
+_ = json.Unmarshal([]byte(styles.Adventurer), &adventurer)
+
+// Or look one up by name (ok is false if the style is unknown):
+raw, ok := styles.Get("lorelei")
+
+// Names() lists every embedded style.
+all := styles.Names()
+```
+
 ## Contributing
 
 See
