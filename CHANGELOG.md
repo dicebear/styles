@@ -24,9 +24,9 @@ the DiceBear release line.
 - **Rust (breaking):** Renamed `enabled()` to `all()`, so the Rust and Go shims
   share one API (`<Style>` constant/variable + `get(name)` + `all()`/`All()`). We
   normally follow [Semantic Versioning](https://semver.org/) strictly, which would
-  make this a major bump. We make a one-time exception here: the Rust crate had not
-  yet been promoted or officially announced and was only a few hours old, so it had
-  no real-world users to break. Renaming now — before adoption — buys a clean,
+  make this a major bump. We make a one-time exception here: the crate had only just
+  been uploaded to crates.io and was never promoted or officially announced, so it
+  had no real-world users to break. Renaming now — before adoption — buys a clean,
   cross-language API rather than carrying a misnamed function (or a deprecated
   alias) forever.
 
