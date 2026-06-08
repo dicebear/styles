@@ -236,8 +236,10 @@ cat >> "$RUST_LIB" <<'EOF'
     }
 }
 
-/// Names of every style compiled into this build (those whose feature is enabled).
-pub fn enabled() -> Vec<&'static str> {
+/// Names of every style available in this build (those whose feature is enabled).
+///
+/// Companion to `get`: `all()` lists the names, `get(name)` fetches one.
+pub fn all() -> Vec<&'static str> {
     #[allow(unused_mut)]
     let mut v = Vec::new();
 EOF
@@ -366,8 +368,10 @@ cat >> "$GO_FILE" <<'EOF'
 	return "", false
 }
 
-// Names returns the names of every embedded style, sorted.
-func Names() []string {
+// All returns the names of every embedded style, sorted.
+//
+// Companion to Get: All lists the names, Get fetches one.
+func All() []string {
 	return []string{
 EOF
 for name in "${names[@]}"; do

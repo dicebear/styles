@@ -233,8 +233,10 @@ func Get(name string) (string, bool) {
 	return "", false
 }
 
-// Names returns the names of every embedded style, sorted.
-func Names() []string {
+// All returns the names of every embedded style, sorted.
+//
+// Companion to Get: All lists the names, Get fetches one.
+func All() []string {
 	return []string{
 		"adventurer",
 		"adventurer-neutral",

@@ -76,6 +76,9 @@ let lorelei: serde_json::Value = serde_json::from_str(LORELEI)?;
 
 // Or look one up by name at runtime (None if unknown or its feature is off):
 let style = dicebear_styles::get("adventurer");
+
+// all() lists every style compiled into this build.
+let all = dicebear_styles::all();
 ```
 
 **Go**
@@ -100,8 +103,8 @@ _ = json.Unmarshal([]byte(styles.Adventurer), &adventurer)
 // Or look one up by name (ok is false if the style is unknown):
 raw, ok := styles.Get("lorelei")
 
-// Names() lists every embedded style.
-all := styles.Names()
+// All() lists every embedded style.
+all := styles.All()
 ```
 
 ## Contributing

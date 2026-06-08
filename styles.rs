@@ -235,8 +235,10 @@ pub fn get(name: &str) -> Option<&'static str> {
     }
 }
 
-/// Names of every style compiled into this build (those whose feature is enabled).
-pub fn enabled() -> Vec<&'static str> {
+/// Names of every style available in this build (those whose feature is enabled).
+///
+/// Companion to `get`: `all()` lists the names, `get(name)` fetches one.
+pub fn all() -> Vec<&'static str> {
     #[allow(unused_mut)]
     let mut v = Vec::new();
     #[cfg(feature = "adventurer")]
