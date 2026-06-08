@@ -86,7 +86,7 @@ container, so expect a slower warm-up.
 2. Run `npm test`. If the schema rejects the file, Bowtie prints the exact
    keyword and JSON pointer that failed, so you can fix the offending
    value directly.
-3. Run `npm run build` and commit the regenerated `rust/lib.rs`, `Cargo.toml` and
+3. Run `npm run build` and commit the regenerated `styles.rs`, `Cargo.toml` and
    `styles.go` alongside `src/` (CI fails the PR if they are stale). The minified
    `dist/` files are regenerated too, but they are git-ignored — only the npm
    publish ships them.

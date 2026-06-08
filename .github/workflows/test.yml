@@ -30,7 +30,7 @@ jobs:
 
   rust-codegen:
     runs-on: ubuntu-latest
-    # rust/lib.rs and the Cargo.toml [features] table are generated from
+    # styles.rs and the Cargo.toml [features] table are generated from
     # src/*.json by scripts/build.sh and committed. Adding a style without
     # regenerating them would silently publish a crate missing that style —
     # `cargo check` can't see a style that isn't listed — so fail the PR if the
@@ -43,8 +43,8 @@ jobs:
       - name: Regenerate the Rust crate from src/
         run: bash scripts/build.sh
 
-      - name: Fail if rust/lib.rs or Cargo.toml is out of sync with src/
-        run: git diff --exit-code -- rust/lib.rs Cargo.toml
+      - name: Fail if styles.rs or Cargo.toml is out of sync with src/
+        run: git diff --exit-code -- styles.rs Cargo.toml
 
   go:
     runs-on: ubuntu-latest

@@ -143,14 +143,14 @@ for f in "$TARGET_DIR"/*.json; do
 
 done
 
-echo "Generate Rust crate (rust/lib.rs + Cargo.toml features)."
+echo "Generate Rust crate (styles.rs + Cargo.toml features)."
 
-RUST_LIB="$BASE_DIR/../rust/lib.rs"
+RUST_LIB="$BASE_DIR/../styles.rs"
 CARGO_FILE="$BASE_DIR/../Cargo.toml"
 
 # Collect style names, skipping any *.min.json. Sort under LC_ALL=C so the
 # generated order is byte-stable across machines/locales (the glob's order is
-# locale-dependent), keeping the committed lib.rs/Cargo.toml reproducible.
+# locale-dependent), keeping the committed styles.rs/Cargo.toml reproducible.
 names=()
 while IFS= read -r name; do
   names+=("$name")
@@ -164,7 +164,7 @@ done < <(
 
 const_name() { printf '%s' "$1" | LC_ALL=C tr '[:lower:]' '[:upper:]' | LC_ALL=C tr '-' '_'; }
 
-# --- rust/lib.rs -------------------------------------------------------------
+# --- styles.rs ---------------------------------------------------------------
 # License header, generated-marker and module docs (static). A quoted heredoc
 # writes Rust's backticks, `!` and `&` verbatim.
 cat > "$RUST_LIB" <<'EOF'
@@ -216,7 +216,7 @@ EOF
 
 for name in "${names[@]}"; do
   const="$(const_name "$name")"
-  printf '#[cfg(feature = "%s")]\npub const %s: &str = include_str!("../src/%s.json");\n\n' \
+  printf '#[cfg(feature = "%s")]\npub const %s: &str = include_str!("src/%s.json");\n\n' \
     "$name" "$const" "$name" >> "$RUST_LIB"
 done
 

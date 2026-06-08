@@ -43,115 +43,115 @@
 //! unminified `src/` files are used directly, matching the Python and PHP packages.
 
 #[cfg(feature = "adventurer")]
-pub const ADVENTURER: &str = include_str!("../src/adventurer.json");
+pub const ADVENTURER: &str = include_str!("src/adventurer.json");
 
 #[cfg(feature = "adventurer-neutral")]
-pub const ADVENTURER_NEUTRAL: &str = include_str!("../src/adventurer-neutral.json");
+pub const ADVENTURER_NEUTRAL: &str = include_str!("src/adventurer-neutral.json");
 
 #[cfg(feature = "avataaars")]
-pub const AVATAAARS: &str = include_str!("../src/avataaars.json");
+pub const AVATAAARS: &str = include_str!("src/avataaars.json");
 
 #[cfg(feature = "avataaars-neutral")]
-pub const AVATAAARS_NEUTRAL: &str = include_str!("../src/avataaars-neutral.json");
+pub const AVATAAARS_NEUTRAL: &str = include_str!("src/avataaars-neutral.json");
 
 #[cfg(feature = "big-ears")]
-pub const BIG_EARS: &str = include_str!("../src/big-ears.json");
+pub const BIG_EARS: &str = include_str!("src/big-ears.json");
 
 #[cfg(feature = "big-ears-neutral")]
-pub const BIG_EARS_NEUTRAL: &str = include_str!("../src/big-ears-neutral.json");
+pub const BIG_EARS_NEUTRAL: &str = include_str!("src/big-ears-neutral.json");
 
 #[cfg(feature = "big-smile")]
-pub const BIG_SMILE: &str = include_str!("../src/big-smile.json");
+pub const BIG_SMILE: &str = include_str!("src/big-smile.json");
 
 #[cfg(feature = "bottts")]
-pub const BOTTTS: &str = include_str!("../src/bottts.json");
+pub const BOTTTS: &str = include_str!("src/bottts.json");
 
 #[cfg(feature = "bottts-neutral")]
-pub const BOTTTS_NEUTRAL: &str = include_str!("../src/bottts-neutral.json");
+pub const BOTTTS_NEUTRAL: &str = include_str!("src/bottts-neutral.json");
 
 #[cfg(feature = "croodles")]
-pub const CROODLES: &str = include_str!("../src/croodles.json");
+pub const CROODLES: &str = include_str!("src/croodles.json");
 
 #[cfg(feature = "croodles-neutral")]
-pub const CROODLES_NEUTRAL: &str = include_str!("../src/croodles-neutral.json");
+pub const CROODLES_NEUTRAL: &str = include_str!("src/croodles-neutral.json");
 
 #[cfg(feature = "disco")]
-pub const DISCO: &str = include_str!("../src/disco.json");
+pub const DISCO: &str = include_str!("src/disco.json");
 
 #[cfg(feature = "dylan")]
-pub const DYLAN: &str = include_str!("../src/dylan.json");
+pub const DYLAN: &str = include_str!("src/dylan.json");
 
 #[cfg(feature = "fun-emoji")]
-pub const FUN_EMOJI: &str = include_str!("../src/fun-emoji.json");
+pub const FUN_EMOJI: &str = include_str!("src/fun-emoji.json");
 
 #[cfg(feature = "glass")]
-pub const GLASS: &str = include_str!("../src/glass.json");
+pub const GLASS: &str = include_str!("src/glass.json");
 
 #[cfg(feature = "glyphs")]
-pub const GLYPHS: &str = include_str!("../src/glyphs.json");
+pub const GLYPHS: &str = include_str!("src/glyphs.json");
 
 #[cfg(feature = "icons")]
-pub const ICONS: &str = include_str!("../src/icons.json");
+pub const ICONS: &str = include_str!("src/icons.json");
 
 #[cfg(feature = "identicon")]
-pub const IDENTICON: &str = include_str!("../src/identicon.json");
+pub const IDENTICON: &str = include_str!("src/identicon.json");
 
 #[cfg(feature = "initial-face")]
-pub const INITIAL_FACE: &str = include_str!("../src/initial-face.json");
+pub const INITIAL_FACE: &str = include_str!("src/initial-face.json");
 
 #[cfg(feature = "initials")]
-pub const INITIALS: &str = include_str!("../src/initials.json");
+pub const INITIALS: &str = include_str!("src/initials.json");
 
 #[cfg(feature = "lorelei")]
-pub const LORELEI: &str = include_str!("../src/lorelei.json");
+pub const LORELEI: &str = include_str!("src/lorelei.json");
 
 #[cfg(feature = "lorelei-neutral")]
-pub const LORELEI_NEUTRAL: &str = include_str!("../src/lorelei-neutral.json");
+pub const LORELEI_NEUTRAL: &str = include_str!("src/lorelei-neutral.json");
 
 #[cfg(feature = "micah")]
-pub const MICAH: &str = include_str!("../src/micah.json");
+pub const MICAH: &str = include_str!("src/micah.json");
 
 #[cfg(feature = "miniavs")]
-pub const MINIAVS: &str = include_str!("../src/miniavs.json");
+pub const MINIAVS: &str = include_str!("src/miniavs.json");
 
 #[cfg(feature = "notionists")]
-pub const NOTIONISTS: &str = include_str!("../src/notionists.json");
+pub const NOTIONISTS: &str = include_str!("src/notionists.json");
 
 #[cfg(feature = "notionists-neutral")]
-pub const NOTIONISTS_NEUTRAL: &str = include_str!("../src/notionists-neutral.json");
+pub const NOTIONISTS_NEUTRAL: &str = include_str!("src/notionists-neutral.json");
 
 #[cfg(feature = "open-peeps")]
-pub const OPEN_PEEPS: &str = include_str!("../src/open-peeps.json");
+pub const OPEN_PEEPS: &str = include_str!("src/open-peeps.json");
 
 #[cfg(feature = "personas")]
-pub const PERSONAS: &str = include_str!("../src/personas.json");
+pub const PERSONAS: &str = include_str!("src/personas.json");
 
 #[cfg(feature = "pixel-art")]
-pub const PIXEL_ART: &str = include_str!("../src/pixel-art.json");
+pub const PIXEL_ART: &str = include_str!("src/pixel-art.json");
 
 #[cfg(feature = "pixel-art-neutral")]
-pub const PIXEL_ART_NEUTRAL: &str = include_str!("../src/pixel-art-neutral.json");
+pub const PIXEL_ART_NEUTRAL: &str = include_str!("src/pixel-art-neutral.json");
 
 #[cfg(feature = "rings")]
-pub const RINGS: &str = include_str!("../src/rings.json");
+pub const RINGS: &str = include_str!("src/rings.json");
 
 #[cfg(feature = "shape-grid")]
-pub const SHAPE_GRID: &str = include_str!("../src/shape-grid.json");
+pub const SHAPE_GRID: &str = include_str!("src/shape-grid.json");
 
 #[cfg(feature = "shapes")]
-pub const SHAPES: &str = include_str!("../src/shapes.json");
+pub const SHAPES: &str = include_str!("src/shapes.json");
 
 #[cfg(feature = "stripes")]
-pub const STRIPES: &str = include_str!("../src/stripes.json");
+pub const STRIPES: &str = include_str!("src/stripes.json");
 
 #[cfg(feature = "thumbs")]
-pub const THUMBS: &str = include_str!("../src/thumbs.json");
+pub const THUMBS: &str = include_str!("src/thumbs.json");
 
 #[cfg(feature = "toon-head")]
-pub const TOON_HEAD: &str = include_str!("../src/toon-head.json");
+pub const TOON_HEAD: &str = include_str!("src/toon-head.json");
 
 #[cfg(feature = "triangles")]
-pub const TRIANGLES: &str = include_str!("../src/triangles.json");
+pub const TRIANGLES: &str = include_str!("src/triangles.json");
 
 /// Returns the raw JSON definition for the named style, or `None` if the style is
 /// unknown or its feature is not enabled in this build.

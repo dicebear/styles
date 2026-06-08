@@ -16,11 +16,12 @@ license-file = "LICENSE.md"
 # Pure-data crate: ship the committed source styles (not the gitignored, npm-only
 # `dist/`) plus the thin shim. `cargo publish` only bundles files under the
 # package root, so the JSON must live here — which it does.
-include = ["/src/*.json", "/rust/lib.rs", "/LICENSE.md", "/README.md"]
+include = ["/src/*.json", "/styles.rs", "/LICENSE.md", "/README.md"]
 
 [lib]
-# Keep Rust out of the data `src/` dir; the shim lives in its own `rust/`.
-path = "rust/lib.rs"
+# `src/` holds the JSON data, so the crate root can't be the default `src/lib.rs`;
+# the shim lives at the repo root as `styles.rs`, next to the Go shim `styles.go`.
+path = "styles.rs"
 
 [features]
 # No style is compiled in by default — opt in per style to keep binaries small.
