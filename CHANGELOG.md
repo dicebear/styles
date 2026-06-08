@@ -32,6 +32,14 @@ the DiceBear release line.
 
 ## [10.1.0] - 2026-06-03
 
+### Added
+
+- **Rust distribution:** A `dicebear-styles` crate is now published to crates.io,
+  alongside the existing npm, Composer, and PyPI distributions. It embeds the same
+  JSON style definitions via `include_str!`, gated behind one Cargo feature per
+  style, and exposes each as a `&'static str` constant plus `get(name)`/`enabled()`
+  lookup helpers.
+
 ### Changed
 
 - **Schema:** All style definitions now reference `@dicebear/schema@1.1.0`
