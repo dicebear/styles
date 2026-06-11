@@ -1,4 +1,4 @@
-# DiceBear Avatar Styles
+# DiceBear avatar styles
 
 This repository contains all official avatar style definitions for
 [DiceBear](https://www.dicebear.com). An avatar style definition is a JSON file
@@ -87,7 +87,7 @@ let all = dicebear_styles::all();
 go get github.com/dicebear/styles/v10
 ```
 
-Every style is embedded at compile time and exposed as raw JSON (`string`) — both
+Every style is embedded at compile time and exposed as raw JSON (`string`), both
 as an exported variable and by name via `Get`. Parse it with `encoding/json`:
 
 ```go

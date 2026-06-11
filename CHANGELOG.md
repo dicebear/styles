@@ -28,7 +28,7 @@ the DiceBear release line.
   normally follow [Semantic Versioning](https://semver.org/) strictly, which would
   make this a major bump. We make a one-time exception here: the crate had only just
   been uploaded to crates.io and was never promoted or officially announced, so it
-  had no real-world users to break. Renaming now — before adoption — buys a clean,
+  had no real-world users to break. Renaming now (before adoption) buys a clean,
   cross-language API rather than carrying a misnamed function (or a deprecated
   alias) forever.
 

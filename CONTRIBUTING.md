@@ -88,7 +88,7 @@ container, so expect a slower warm-up.
    value directly.
 3. Run `npm run build` and commit the regenerated `styles.rs`, `Cargo.toml` and
    `styles.go` alongside `src/` (CI fails the PR if they are stale). The minified
-   `dist/` files are regenerated too, but they are git-ignored — only the npm
+   `dist/` files are regenerated too, but they are git-ignored. Only the npm
    publish ships them.
 4. If you changed a style's license or credits, update `LICENSE.md`
    accordingly.
@@ -143,12 +143,12 @@ On the tag, the workflow:
    (`dicebear-styles`).
 
 Packagist (`dicebear/styles`) and the Go module proxy
-(`github.com/dicebear/styles/v10`) both pick up the same Git tag automatically —
-no publish step. The Go version lives entirely in the tag, so `scripts/version.sh`
+(`github.com/dicebear/styles/v10`) both pick up the same Git tag automatically,
+with no publish step. The Go version lives entirely in the tag, so `scripts/version.sh`
 does not touch `go.mod`.
 
 > **Major version bumps and Go.** Go encodes the major version in the import path:
 > the `go.mod` module path is `github.com/dicebear/styles/v10`, and consumers
 > import that. When this repo moves to `v11`, that suffix must be bumped by hand in
-> `go.mod` (and the README import examples) — `scripts/version.sh` only rewrites the
+> `go.mod` (and the README import examples). `scripts/version.sh` only rewrites the
 > semver in the npm/PyPI/crates manifests, not the Go module path.
