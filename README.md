@@ -107,6 +107,38 @@ raw, ok := styles.Get("lorelei")
 all := styles.All()
 ```
 
+**Dart**
+
+```bash
+dart pub add dicebear_styles
+```
+
+Each style is a Dart string constant in its own library, so a compiled app only
+embeds the styles it imports. Parse the raw JSON with `dart:convert`:
+
+```dart
+import 'dart:convert';
+
+import 'package:dicebear_styles/adventurer.dart';
+import 'package:dicebear_styles/lorelei.dart';
+
+final adventurerStyle = jsonDecode(adventurer);
+final loreleiStyle = jsonDecode(lorelei);
+```
+
+Or import the umbrella library, which pulls in every style and adds a runtime
+lookup by name:
+
+```dart
+import 'package:dicebear_styles/dicebear_styles.dart' as styles;
+
+// null if the style is unknown:
+final raw = styles.get('adventurer');
+
+// `all` lists every embedded style.
+final names = styles.all;
+```
+
 ## Contributing
 
 See

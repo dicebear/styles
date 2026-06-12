@@ -102,3 +102,29 @@ jobs:
         run: cargo publish
         env:
           CARGO_REGISTRY_TOKEN: ${{ steps.auth.outputs.token }}
+
+  publish-pub:
+    runs-on: ubuntu-latest
+    # Runs after the npm job so the shared JSON validation (validate.sh) has
+    # passed before anything is pushed to pub.dev. lib/ is generated from
+    # src/*.json and git-ignored (the Dart counterpart of the npm-only dist/),
+    # so it is built fresh here before publishing. Authentication uses pub.dev's
+    # GitHub Actions integration (OIDC via setup-dart, no stored token),
+    # configured on pub.dev with this repository and the tag pattern
+    # v{{version}}.
+    needs: publish
+    permissions:
+      contents: read # actions/checkout
+      id-token: write # Automated publishing to pub.dev (OIDC, no stored token)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Dart
+        uses: dart-lang/setup-dart@v1
+
+      - name: Build
+        run: bash scripts/build.sh
+
+      - name: Publish
+        run: dart pub publish --force

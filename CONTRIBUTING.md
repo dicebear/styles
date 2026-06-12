@@ -87,9 +87,10 @@ container, so expect a slower warm-up.
    keyword and JSON pointer that failed, so you can fix the offending
    value directly.
 3. Run `npm run build` and commit the regenerated `styles.rs`, `Cargo.toml` and
-   `styles.go` alongside `src/` (CI fails the PR if they are stale). The minified
-   `dist/` files are regenerated too, but they are git-ignored. Only the npm
-   publish ships them.
+   `styles.go` alongside `src/` (CI fails the PR if they are stale). The
+   minified `dist/` files and the Dart `lib/` are regenerated too, but they are
+   git-ignored: only the npm publish ships `dist/`, and only the pub.dev
+   publish ships `lib/`.
 4. If you changed a style's license or credits, update `LICENSE.md`
    accordingly.
 
@@ -118,20 +119,20 @@ infrastructure, per-style for the art itself).
 
 Publishing is automated via the
 [publish workflow](.github/workflows/publish.yml). To cut a release, bump the
-version across all three manifests and tag it:
+version across all four manifests and tag it:
 
 ```sh
 scripts/version.sh <version>   # e.g. 10.1.0 or 10.2.0-rc.1
 git push && git push --tags
 ```
 
-`scripts/version.sh` updates `version` in `package.json`, `pyproject.toml` **and**
-`Cargo.toml`, syncs `package-lock.json`, then creates the commit and the
-`v<version>` tag. All three manifests carry the same version, so always release via
-this script (not `npm version`, which would bump only `package.json`). Use a
-valid [semver](https://semver.org/) value; for prereleases note that PyPI
-normalizes to PEP 440, so npm publishes `10.2.0-rc.1` while PyPI publishes
-`10.2.0rc1`.
+`scripts/version.sh` updates `version` in `package.json`, `pyproject.toml`,
+`Cargo.toml` **and** `pubspec.yaml`, syncs `package-lock.json`, then creates the
+commit and the `v<version>` tag. All four manifests carry the same version, so
+always release via this script (not `npm version`, which would bump only
+`package.json`). Use a valid [semver](https://semver.org/) value; for
+prereleases note that PyPI normalizes to PEP 440, so npm publishes `10.2.0-rc.1`
+while PyPI publishes `10.2.0rc1`.
 
 On the tag, the workflow:
 
@@ -141,6 +142,10 @@ On the tag, the workflow:
    Publishing (`dicebear-styles`).
 4. Publishes the Rust crate to crates.io via Trusted Publishing
    (`dicebear-styles`).
+5. Publishes the Dart package to pub.dev via the GitHub Actions integration
+   (`dicebear_styles`). This requires automated publishing to be enabled in the
+   pub.dev admin settings for the package (repository `dicebear/styles`, tag
+   pattern `v{{version}}`).
 
 Packagist (`dicebear/styles`) and the Go module proxy
 (`github.com/dicebear/styles/v10`) both pick up the same Git tag automatically,
@@ -151,4 +156,4 @@ does not touch `go.mod`.
 > the `go.mod` module path is `github.com/dicebear/styles/v10`, and consumers
 > import that. When this repo moves to `v11`, that suffix must be bumped by hand in
 > `go.mod` (and the README import examples). `scripts/version.sh` only rewrites the
-> semver in the npm/PyPI/crates manifests, not the Go module path.
+> semver in the npm/PyPI/crates/pub manifests, not the Go module path.

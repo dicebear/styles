@@ -1,0 +1,19 @@
+# Pure-data package: no dependencies and no logic. The style definitions are
+# embedded as Dart string constants under lib/ (generated from src/*.json by
+# scripts/build.sh). This mirrors how @dicebear/styles (npm), dicebear/styles
+# (Composer), dicebear-styles (PyPI, crates.io) and the Go module ship the same
+# data. scripts/version.sh keeps the version in lockstep with the other
+# manifests.
+name: dicebear_styles
+version: 10.2.0
+description: >-
+  Definition files of the DiceBear avatar styles, embedded as Dart string
+  constants.
+homepage: https://www.dicebear.com
+repository: https://github.com/dicebear/styles
+issue_tracker: https://github.com/dicebear/styles/issues
+topics:
+  - avatar
+  - dicebear
+environment:
+  sdk: ^3.0.0

@@ -7,10 +7,23 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 This repository ships the DiceBear avatar styles as pure JSON definition files
-(distributed via npm, Composer, PyPI, crates.io, and Go modules). Versions track
-the DiceBear release line.
+(distributed via npm, Composer, PyPI, crates.io, Go modules, and pub.dev).
+Versions track the DiceBear release line.
 
 ## [Unreleased]
+
+### Added
+
+- **Dart:** The styles are now available as a `dicebear_styles` package on
+  pub.dev. Dart has no compile-time file embedding, so `scripts/build.sh`
+  generates one library per style with the raw JSON as a string constant
+  (e.g. `package:dicebear_styles/adventurer.dart`); a compiled app only embeds
+  the styles it imports. The umbrella library `dicebear_styles.dart` re-exports
+  every style and adds `get(name)` and `all`, so the Dart, Rust and Go shims
+  share one API. Each generated file credits its style's artist and license. The generated
+  `lib/` is git-ignored (like the npm `dist/`) and built fresh by the test and
+  publish workflows; `tool/check_parity.dart` proves in CI that every embedded
+  constant is byte-identical to its `src/*.json` source.
 
 ## [10.2.0] - 2026-06-08
 

@@ -71,3 +71,28 @@ jobs:
         run: |
           go vet ./...
           go build ./...
+
+  dart:
+    runs-on: ubuntu-latest
+    # lib/ is generated from src/*.json by scripts/build.sh and git-ignored,
+    # like the minified npm dist/. Only the pub.dev publish ships it, built
+    # fresh, so there is no drift to check. Generate it here, then prove every
+    # embedded constant is byte-identical to its src/ JSON (this guards the
+    # generator's string escaping) and that the package analyzes cleanly.
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Dart
+        uses: dart-lang/setup-dart@v1
+
+      - name: Generate lib/ from src/
+        run: bash scripts/build.sh
+
+      - name: Analyze
+        run: |
+          dart pub get
+          dart analyze --fatal-infos
+
+      - name: Verify byte parity with src/
+        run: dart run tool/check_parity.dart

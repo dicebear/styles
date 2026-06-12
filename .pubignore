@@ -1,0 +1,12 @@
+# A .pubignore replaces .gitignore for `dart pub publish`; that is what lets
+# the git-ignored, generated lib/ ship at all. pub has no npm-style `files`
+# field, but its ignore rules support gitignore negation, so this file is an
+# allowlist: it excludes everything at the repo root and re-includes the few
+# files the pub package ships. New repo files stay out of the package unless
+# they are listed here.
+/*
+!/lib/
+!/pubspec.yaml
+!/README.md
+!/CHANGELOG.md
+!/LICENSE.md

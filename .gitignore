@@ -6,3 +6,10 @@ node_modules
 
 /target
 Cargo.lock
+
+# Note: .pubignore replaces this file for `dart pub publish` (that's what lets
+# the generated /lib ship). It is an allowlist of what the pub package
+# contains, so entries here never affect the package.
+.dart_tool
+pubspec.lock
+/lib
