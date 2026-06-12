@@ -143,6 +143,12 @@ for f in "$TARGET_DIR"/*.json; do
 
 done
 
+# pub.dev rejects packages without a file named exactly LICENSE, while npm,
+# PyPI, crates.io and GitHub all point at LICENSE.md. Ship the same content
+# under both names: the copy is git-ignored like lib/, and only the pub
+# publish includes it (see .pubignore).
+cp "$LICENSE_FILE" "$BASE_DIR/../LICENSE"
+
 echo "Generate Rust crate (styles.rs + Cargo.toml features)."
 
 RUST_LIB="$BASE_DIR/../styles.rs"

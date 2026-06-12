@@ -13,3 +13,4 @@ Cargo.lock
 .dart_tool
 pubspec.lock
 /lib
+/LICENSE
