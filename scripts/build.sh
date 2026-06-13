@@ -202,10 +202,10 @@ cat > "$RUST_LIB" <<'EOF'
 
 //! DiceBear avatar style definitions, embedded at compile time.
 //!
-//! This is a pure-data crate. It mirrors the npm (`@dicebear/<style>`), Composer
-//! and PyPI (`dicebear-styles`) packages: the same source styles under `src/`,
-//! with no logic. The core parses and renders these definitions; this crate only
-//! ships the bytes.
+//! This is a pure-data crate. It mirrors the npm (`@dicebear/<style>`), Composer,
+//! PyPI (`dicebear-styles`), Go and pub.dev (`dicebear_styles`) packages: the
+//! same source styles under `src/`, with no logic. The core parses and renders
+//! these definitions; this crate only ships the bytes.
 //!
 //! Each style is gated behind a feature of the same name, so a binary only embeds
 //! the styles it opts into:
@@ -216,7 +216,8 @@ cat > "$RUST_LIB" <<'EOF'
 //!
 //! Use `all` to pull in every style. Unlike npm — which serves the minified
 //! `dist/` over the browser — Rust embeds and parses the JSON at runtime, so the
-//! unminified `src/` files are used directly, matching the Python and PHP packages.
+//! unminified `src/` files are used directly, matching the Python, PHP, Go and
+//! Dart packages.
 
 EOF
 
@@ -339,15 +340,16 @@ cat > "$GO_FILE" <<'EOF'
 // Package styles embeds the DiceBear avatar style definitions.
 //
 // It is a pure-data package, mirroring the npm (@dicebear/styles), Composer
-// (dicebear/styles), PyPI (dicebear-styles) and crates.io (dicebear-styles)
-// packages: the same source styles under src/, with no logic. The core parses
-// and renders these definitions; this package only ships the bytes.
+// (dicebear/styles), PyPI (dicebear-styles), crates.io (dicebear-styles) and
+// pub.dev (dicebear_styles) packages: the same source styles under src/, with
+// no logic. The core parses and renders these definitions; this package only
+// ships the bytes.
 //
 // Every style is embedded and exposed both as an exported variable (e.g.
 // Adventurer) and by name via Get. Go embeds the whole set into the consuming
 // binary — there is no per-style opt-in like the Rust crate's features. Unlike
 // the npm build, which serves the minified dist/, Go embeds and parses the
-// unminified src/ JSON, matching the Python, PHP and Rust packages.
+// unminified src/ JSON, matching the Python, PHP, Rust and Dart packages.
 package styles
 
 import _ "embed"
