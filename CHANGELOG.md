@@ -12,6 +12,21 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Added
+
+- **Variant tags.** The character styles now describe their variants with tags, so
+  the DiceBear `tags` render option can filter the variant pool (for example, keep
+  only `mood:happy` mouths, or drop facial hair with `!facialHair`). The shared set
+  covers `mood`, `hairLength`, `hairStyle`, `headwear`, `facialHair`, `eyewear`, and
+  `accessory`. The abstract styles carry no tags. This needs `@dicebear/schema`
+  1.3.0, and every definition's `$schema` reference now points to it.
+
+### Fixed
+
+- Re-exported the `glasses` in adventurer-neutral, the `hair` in big-smile, and the
+  `mouth` in croodles and croodles-neutral. This shortens overlong coordinate
+  decimals in the exported paths, for example `42.1899` becomes `42.19`.
+
 ## [10.2.0] - 2026-06-08
 
 ### Added
