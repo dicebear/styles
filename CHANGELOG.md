@@ -12,6 +12,16 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Changed
+
+- **Simpler `mood` tags.** The old eight values (`happy`, `neutral`, `sad`, and so on)
+  were too fine-grained to filter on: asking for one specific mood often left a style
+  with no matching mouth or eyebrows, so the component dropped out and the face rendered
+  incomplete. There are now two values. `angry`, `sad`, and `scared` map to
+  `mood:negative`, and everything else maps to `mood:positive`. Filter with
+  `mood:positive` to keep avatars friendly. Every tagged component has a positive
+  variant, so nothing drops. The other tag axes are unchanged.
+
 ## [10.3.0-rc.1] - 2026-06-21
 
 ### Added

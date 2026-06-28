@@ -57,7 +57,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "closed2": {
@@ -72,7 +72,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "crying": {
@@ -95,7 +95,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "cute": {
@@ -152,7 +152,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "glasses": {
@@ -327,7 +327,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "love": {
@@ -398,7 +398,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "pissed": {
@@ -455,7 +455,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "plain": {
@@ -512,7 +512,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "sad": {
@@ -569,7 +569,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "shades": {
@@ -669,7 +669,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "sleepClose": {
@@ -684,7 +684,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "stars": {
@@ -753,7 +753,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "tearDrop": {
@@ -818,7 +818,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "wink": {
@@ -858,7 +858,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "wink2": {
@@ -898,7 +898,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         }
       }
@@ -919,7 +919,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "drip": {
@@ -952,7 +952,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "faceMask": {
@@ -1066,7 +1066,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "lilSmile": {
@@ -1081,7 +1081,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "pissed": {
@@ -1106,7 +1106,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "plain": {
@@ -1131,7 +1131,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "sad": {
@@ -1146,7 +1146,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "shout": {
@@ -1189,7 +1189,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "shy": {
@@ -1204,7 +1204,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "sick": {
@@ -1273,7 +1273,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "smileLol": {
@@ -1324,7 +1324,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "smileTeeth": {
@@ -1369,7 +1369,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "tongueOut": {
@@ -1517,7 +1517,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "wideSmile": {
@@ -1532,7 +1532,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         }
       }

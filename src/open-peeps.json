@@ -266,7 +266,7 @@
             }
           ],
           "tags": [
-            "mood:angry"
+            "mood:negative"
           ]
         },
         "awe": {
@@ -293,7 +293,7 @@
             }
           ],
           "tags": [
-            "mood:surprised"
+            "mood:positive"
           ]
         },
         "blank": {
@@ -310,7 +310,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "calm": {
@@ -327,7 +327,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "cheeky": {
@@ -344,7 +344,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "concerned": {
@@ -371,7 +371,7 @@
             }
           ],
           "tags": [
-            "mood:scared"
+            "mood:negative"
           ]
         },
         "concernedFear": {
@@ -398,7 +398,7 @@
             }
           ],
           "tags": [
-            "mood:scared"
+            "mood:negative"
           ]
         },
         "contempt": {
@@ -415,7 +415,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "cute": {
@@ -432,7 +432,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "cyclops": {
@@ -459,7 +459,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "driven": {
@@ -476,7 +476,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "eatingHappy": {
@@ -493,7 +493,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "explaining": {
@@ -530,7 +530,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "eyesClosed": {
@@ -547,7 +547,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "fear": {
@@ -584,7 +584,7 @@
             }
           ],
           "tags": [
-            "mood:scared"
+            "mood:negative"
           ]
         },
         "hectic": {
@@ -611,7 +611,7 @@
             }
           ],
           "tags": [
-            "mood:scared"
+            "mood:negative"
           ]
         },
         "lovingGrin1": {
@@ -638,7 +638,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "lovingGrin2": {
@@ -665,7 +665,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "monster": {
@@ -712,7 +712,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "old": {
@@ -729,7 +729,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "rage": {
@@ -756,7 +756,7 @@
             }
           ],
           "tags": [
-            "mood:angry"
+            "mood:negative"
           ]
         },
         "serious": {
@@ -773,7 +773,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "smile": {
@@ -790,7 +790,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "smileBig": {
@@ -817,7 +817,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "smileLOL": {
@@ -852,7 +852,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "smileTeethGap": {
@@ -879,7 +879,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "solemn": {
@@ -896,7 +896,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "suspicious": {
@@ -913,7 +913,7 @@
             }
           ],
           "tags": [
-            "mood:confused"
+            "mood:positive"
           ]
         },
         "tired": {
@@ -930,7 +930,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "veryAngry": {
@@ -947,7 +947,7 @@
             }
           ],
           "tags": [
-            "mood:angry"
+            "mood:negative"
           ]
         }
       }

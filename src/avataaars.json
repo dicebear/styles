@@ -982,7 +982,7 @@
             }
           ],
           "tags": [
-            "mood:angry"
+            "mood:negative"
           ]
         },
         "angryNatural": {
@@ -1000,7 +1000,7 @@
             }
           ],
           "tags": [
-            "mood:surprised"
+            "mood:positive"
           ]
         },
         "default": {
@@ -1016,7 +1016,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "defaultNatural": {
@@ -1034,7 +1034,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "flatNatural": {
@@ -1052,7 +1052,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "frownNatural": {
@@ -1070,7 +1070,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "raisedExcited": {
@@ -1086,7 +1086,7 @@
             }
           ],
           "tags": [
-            "mood:surprised"
+            "mood:positive"
           ]
         },
         "raisedExcitedNatural": {
@@ -1104,7 +1104,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "sadConcerned": {
@@ -1120,7 +1120,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "sadConcernedNatural": {
@@ -1138,7 +1138,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "unibrowNatural": {
@@ -1175,7 +1175,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "upDown": {
@@ -1191,7 +1191,7 @@
             }
           ],
           "tags": [
-            "mood:confused"
+            "mood:positive"
           ]
         },
         "upDownNatural": {
@@ -1209,7 +1209,7 @@
             }
           ],
           "tags": [
-            "mood:confused"
+            "mood:positive"
           ]
         }
       }
@@ -1233,7 +1233,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "cry": {
@@ -1257,7 +1257,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "default": {
@@ -1273,7 +1273,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "eyeRoll": {
@@ -1297,7 +1297,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "happy": {
@@ -1315,7 +1315,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "hearts": {
@@ -1331,7 +1331,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "side": {
@@ -1347,7 +1347,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "squint": {
@@ -1371,7 +1371,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "surprised": {
@@ -1395,7 +1395,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "wink": {
@@ -1422,7 +1422,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "winkWacky": {
@@ -1461,7 +1461,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "xDizzy": {
@@ -1477,7 +1477,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         }
       }
@@ -1623,7 +1623,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "default": {
@@ -1641,7 +1641,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "disbelief": {
@@ -1659,7 +1659,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "eating": {
@@ -1685,7 +1685,7 @@
             }
           ],
           "tags": [
-            "mood:confused"
+            "mood:positive"
           ]
         },
         "grimace": {
@@ -1740,7 +1740,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "screamOpen": {
@@ -1774,7 +1774,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "serious": {
@@ -1794,7 +1794,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "smile": {
@@ -1828,7 +1828,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "tongue": {
@@ -1862,7 +1862,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         },
         "twinkle": {
@@ -1878,7 +1878,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "vomit": {
@@ -1920,7 +1920,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         }
       }

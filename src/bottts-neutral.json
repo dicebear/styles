@@ -152,7 +152,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "dizzy": {
@@ -168,7 +168,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "eva": {
@@ -196,7 +196,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "frame1": {
@@ -250,7 +250,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "frame2": {
@@ -305,7 +305,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "glow": {
@@ -415,7 +415,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "hearts": {
@@ -431,7 +431,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "robocop": {
@@ -493,7 +493,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "round": {
@@ -560,7 +560,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "roundFrame02": {
@@ -625,7 +625,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "sensor": {
@@ -672,7 +672,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "shade01": {
@@ -705,7 +705,7 @@
             }
           ],
           "tags": [
-            "mood:angry"
+            "mood:negative"
           ]
         }
       }
@@ -753,7 +753,7 @@
             }
           ],
           "tags": [
-            "mood:angry"
+            "mood:negative"
           ]
         },
         "diagram": {
@@ -864,7 +864,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "grill02": {
@@ -923,7 +923,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "grill03": {
@@ -1002,7 +1002,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "smile01": {
@@ -1018,7 +1018,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "smile02": {
@@ -1077,7 +1077,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "square01": {
@@ -1097,7 +1097,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "square02": {
@@ -1117,7 +1117,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         }
       }

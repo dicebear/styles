@@ -282,7 +282,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "happy": {
@@ -297,7 +297,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "open": {
@@ -312,7 +312,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "sleep": {
@@ -327,7 +327,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "sunglasses": {
@@ -359,7 +359,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "wink": {
@@ -374,7 +374,7 @@
             }
           ],
           "tags": [
-            "mood:playful"
+            "mood:positive"
           ]
         }
       }
@@ -1304,7 +1304,7 @@
             }
           ],
           "tags": [
-            "mood:sad"
+            "mood:negative"
           ]
         },
         "lips": {
@@ -1327,7 +1327,7 @@
             }
           ],
           "tags": [
-            "mood:neutral"
+            "mood:positive"
           ]
         },
         "pacifier": {
@@ -1376,7 +1376,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "smirk": {
@@ -1391,7 +1391,7 @@
             }
           ],
           "tags": [
-            "mood:happy"
+            "mood:positive"
           ]
         },
         "surprise": {
@@ -1409,7 +1409,7 @@
             }
           ],
           "tags": [
-            "mood:surprised"
+            "mood:positive"
           ]
         }
       }
