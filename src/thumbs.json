@@ -386,7 +386,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbth-fastest){--dbth-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbthBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbth-eyes{transform-box:fill-box;transform-origin:center;animation:dbthBlink calc(var(--dbth-t,1)*4.6s) linear infinite}}"
+                  "value": "svg:has(.dbth-fastest){--dbth-t:0.75;--dbth-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbthBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbth-eyes{transform-box:fill-box;transform-origin:center;animation:dbthBlink calc(var(--dbth-t,1)*4.6s) linear infinite}.dbth-eyes{animation-play-state:var(--dbth-p,paused)}}"
                 }
               ]
             }
@@ -408,7 +408,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbth-fast){--dbth-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbthBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbth-eyes{transform-box:fill-box;transform-origin:center;animation:dbthBlink calc(var(--dbth-t,1)*4.6s) linear infinite}}"
+                  "value": "svg:has(.dbth-fast){--dbth-t:0.9;--dbth-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbthBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbth-eyes{transform-box:fill-box;transform-origin:center;animation:dbthBlink calc(var(--dbth-t,1)*4.6s) linear infinite}.dbth-eyes{animation-play-state:var(--dbth-p,paused)}}"
                 }
               ]
             }
@@ -430,7 +430,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbth-medium){--dbth-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbthBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbth-eyes{transform-box:fill-box;transform-origin:center;animation:dbthBlink calc(var(--dbth-t,1)*4.6s) linear infinite}}"
+                  "value": "svg:has(.dbth-medium){--dbth-t:1;--dbth-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbthBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbth-eyes{transform-box:fill-box;transform-origin:center;animation:dbthBlink calc(var(--dbth-t,1)*4.6s) linear infinite}.dbth-eyes{animation-play-state:var(--dbth-p,paused)}}"
                 }
               ]
             }
@@ -452,7 +452,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbth-slow){--dbth-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbthBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbth-eyes{transform-box:fill-box;transform-origin:center;animation:dbthBlink calc(var(--dbth-t,1)*4.6s) linear infinite}}"
+                  "value": "svg:has(.dbth-slow){--dbth-t:1.15;--dbth-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbthBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbth-eyes{transform-box:fill-box;transform-origin:center;animation:dbthBlink calc(var(--dbth-t,1)*4.6s) linear infinite}.dbth-eyes{animation-play-state:var(--dbth-p,paused)}}"
                 }
               ]
             }
@@ -474,7 +474,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbth-slowest){--dbth-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbthBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbth-eyes{transform-box:fill-box;transform-origin:center;animation:dbthBlink calc(var(--dbth-t,1)*4.6s) linear infinite}}"
+                  "value": "svg:has(.dbth-slowest){--dbth-t:1.35;--dbth-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbthBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbth-eyes{transform-box:fill-box;transform-origin:center;animation:dbthBlink calc(var(--dbth-t,1)*4.6s) linear infinite}.dbth-eyes{animation-play-state:var(--dbth-p,paused)}}"
                 }
               ]
             }

@@ -316,7 +316,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbgl-fastest){--dbgl-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbglDriftA{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(12px,-8px) rotate(4deg) scale(1.04)}66%{transform:translate(-9px,6px) rotate(-3deg) scale(0.97)}} @keyframes dbglDriftB{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(-12px,8px) rotate(-4deg) scale(0.96)}66%{transform:translate(9px,-6px) rotate(3deg) scale(1.03)}} .dbgl-p1,.dbgl-p2{transform-box:fill-box;transform-origin:center} .dbgl-p1{animation:dbglDriftA calc(var(--dbgl-t,1)*18s) ease-in-out infinite} .dbgl-p2{animation:dbglDriftB calc(var(--dbgl-t,1)*13s) ease-in-out infinite}}"
+                  "value": "svg:has(.dbgl-fastest){--dbgl-t:0.75;--dbgl-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbglDriftA{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(12px,-8px) rotate(4deg) scale(1.04)}66%{transform:translate(-9px,6px) rotate(-3deg) scale(0.97)}} @keyframes dbglDriftB{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(-12px,8px) rotate(-4deg) scale(0.96)}66%{transform:translate(9px,-6px) rotate(3deg) scale(1.03)}} .dbgl-p1,.dbgl-p2{transform-box:fill-box;transform-origin:center} .dbgl-p1{animation:dbglDriftA calc(var(--dbgl-t,1)*18s) ease-in-out infinite} .dbgl-p2{animation:dbglDriftB calc(var(--dbgl-t,1)*13s) ease-in-out infinite}.dbgl-p1,.dbgl-p2{animation-play-state:var(--dbgl-p,paused)}}"
                 }
               ]
             }
@@ -338,7 +338,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbgl-fast){--dbgl-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbglDriftA{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(12px,-8px) rotate(4deg) scale(1.04)}66%{transform:translate(-9px,6px) rotate(-3deg) scale(0.97)}} @keyframes dbglDriftB{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(-12px,8px) rotate(-4deg) scale(0.96)}66%{transform:translate(9px,-6px) rotate(3deg) scale(1.03)}} .dbgl-p1,.dbgl-p2{transform-box:fill-box;transform-origin:center} .dbgl-p1{animation:dbglDriftA calc(var(--dbgl-t,1)*18s) ease-in-out infinite} .dbgl-p2{animation:dbglDriftB calc(var(--dbgl-t,1)*13s) ease-in-out infinite}}"
+                  "value": "svg:has(.dbgl-fast){--dbgl-t:0.9;--dbgl-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbglDriftA{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(12px,-8px) rotate(4deg) scale(1.04)}66%{transform:translate(-9px,6px) rotate(-3deg) scale(0.97)}} @keyframes dbglDriftB{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(-12px,8px) rotate(-4deg) scale(0.96)}66%{transform:translate(9px,-6px) rotate(3deg) scale(1.03)}} .dbgl-p1,.dbgl-p2{transform-box:fill-box;transform-origin:center} .dbgl-p1{animation:dbglDriftA calc(var(--dbgl-t,1)*18s) ease-in-out infinite} .dbgl-p2{animation:dbglDriftB calc(var(--dbgl-t,1)*13s) ease-in-out infinite}.dbgl-p1,.dbgl-p2{animation-play-state:var(--dbgl-p,paused)}}"
                 }
               ]
             }
@@ -360,7 +360,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbgl-medium){--dbgl-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbglDriftA{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(12px,-8px) rotate(4deg) scale(1.04)}66%{transform:translate(-9px,6px) rotate(-3deg) scale(0.97)}} @keyframes dbglDriftB{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(-12px,8px) rotate(-4deg) scale(0.96)}66%{transform:translate(9px,-6px) rotate(3deg) scale(1.03)}} .dbgl-p1,.dbgl-p2{transform-box:fill-box;transform-origin:center} .dbgl-p1{animation:dbglDriftA calc(var(--dbgl-t,1)*18s) ease-in-out infinite} .dbgl-p2{animation:dbglDriftB calc(var(--dbgl-t,1)*13s) ease-in-out infinite}}"
+                  "value": "svg:has(.dbgl-medium){--dbgl-t:1;--dbgl-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbglDriftA{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(12px,-8px) rotate(4deg) scale(1.04)}66%{transform:translate(-9px,6px) rotate(-3deg) scale(0.97)}} @keyframes dbglDriftB{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(-12px,8px) rotate(-4deg) scale(0.96)}66%{transform:translate(9px,-6px) rotate(3deg) scale(1.03)}} .dbgl-p1,.dbgl-p2{transform-box:fill-box;transform-origin:center} .dbgl-p1{animation:dbglDriftA calc(var(--dbgl-t,1)*18s) ease-in-out infinite} .dbgl-p2{animation:dbglDriftB calc(var(--dbgl-t,1)*13s) ease-in-out infinite}.dbgl-p1,.dbgl-p2{animation-play-state:var(--dbgl-p,paused)}}"
                 }
               ]
             }
@@ -382,7 +382,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbgl-slow){--dbgl-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbglDriftA{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(12px,-8px) rotate(4deg) scale(1.04)}66%{transform:translate(-9px,6px) rotate(-3deg) scale(0.97)}} @keyframes dbglDriftB{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(-12px,8px) rotate(-4deg) scale(0.96)}66%{transform:translate(9px,-6px) rotate(3deg) scale(1.03)}} .dbgl-p1,.dbgl-p2{transform-box:fill-box;transform-origin:center} .dbgl-p1{animation:dbglDriftA calc(var(--dbgl-t,1)*18s) ease-in-out infinite} .dbgl-p2{animation:dbglDriftB calc(var(--dbgl-t,1)*13s) ease-in-out infinite}}"
+                  "value": "svg:has(.dbgl-slow){--dbgl-t:1.15;--dbgl-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbglDriftA{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(12px,-8px) rotate(4deg) scale(1.04)}66%{transform:translate(-9px,6px) rotate(-3deg) scale(0.97)}} @keyframes dbglDriftB{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(-12px,8px) rotate(-4deg) scale(0.96)}66%{transform:translate(9px,-6px) rotate(3deg) scale(1.03)}} .dbgl-p1,.dbgl-p2{transform-box:fill-box;transform-origin:center} .dbgl-p1{animation:dbglDriftA calc(var(--dbgl-t,1)*18s) ease-in-out infinite} .dbgl-p2{animation:dbglDriftB calc(var(--dbgl-t,1)*13s) ease-in-out infinite}.dbgl-p1,.dbgl-p2{animation-play-state:var(--dbgl-p,paused)}}"
                 }
               ]
             }
@@ -404,7 +404,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbgl-slowest){--dbgl-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbglDriftA{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(12px,-8px) rotate(4deg) scale(1.04)}66%{transform:translate(-9px,6px) rotate(-3deg) scale(0.97)}} @keyframes dbglDriftB{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(-12px,8px) rotate(-4deg) scale(0.96)}66%{transform:translate(9px,-6px) rotate(3deg) scale(1.03)}} .dbgl-p1,.dbgl-p2{transform-box:fill-box;transform-origin:center} .dbgl-p1{animation:dbglDriftA calc(var(--dbgl-t,1)*18s) ease-in-out infinite} .dbgl-p2{animation:dbglDriftB calc(var(--dbgl-t,1)*13s) ease-in-out infinite}}"
+                  "value": "svg:has(.dbgl-slowest){--dbgl-t:1.35;--dbgl-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbglDriftA{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(12px,-8px) rotate(4deg) scale(1.04)}66%{transform:translate(-9px,6px) rotate(-3deg) scale(0.97)}} @keyframes dbglDriftB{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(-12px,8px) rotate(-4deg) scale(0.96)}66%{transform:translate(9px,-6px) rotate(3deg) scale(1.03)}} .dbgl-p1,.dbgl-p2{transform-box:fill-box;transform-origin:center} .dbgl-p1{animation:dbglDriftA calc(var(--dbgl-t,1)*18s) ease-in-out infinite} .dbgl-p2{animation:dbglDriftB calc(var(--dbgl-t,1)*13s) ease-in-out infinite}.dbgl-p1,.dbgl-p2{animation-play-state:var(--dbgl-p,paused)}}"
                 }
               ]
             }

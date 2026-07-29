@@ -1905,7 +1905,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbpa-fastest){--dbpa-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}}"
+                  "value": "svg:has(.dbpa-fastest){--dbpa-t:0.75;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
                 }
               ]
             }
@@ -1927,7 +1927,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbpa-fast){--dbpa-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}}"
+                  "value": "svg:has(.dbpa-fast){--dbpa-t:0.9;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
                 }
               ]
             }
@@ -1949,7 +1949,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbpa-medium){--dbpa-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}}"
+                  "value": "svg:has(.dbpa-medium){--dbpa-t:1;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
                 }
               ]
             }
@@ -1971,7 +1971,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbpa-slow){--dbpa-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}}"
+                  "value": "svg:has(.dbpa-slow){--dbpa-t:1.15;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
                 }
               ]
             }
@@ -1993,7 +1993,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbpa-slowest){--dbpa-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}}"
+                  "value": "svg:has(.dbpa-slowest){--dbpa-t:1.35;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
                 }
               ]
             }

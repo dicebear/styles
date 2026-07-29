@@ -710,7 +710,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbwa-fastest){--dbwa-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}}"
+                  "value": "svg:has(.dbwa-fastest){--dbwa-t:0.75;--dbwa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}.dbwa-l1,.dbwa-l2,.dbwa-l3,.dbwa-l4,.dbwa-l5,.dbwa-l6{animation-play-state:var(--dbwa-p,paused)}}"
                 }
               ]
             }
@@ -732,7 +732,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbwa-fast){--dbwa-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}}"
+                  "value": "svg:has(.dbwa-fast){--dbwa-t:0.9;--dbwa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}.dbwa-l1,.dbwa-l2,.dbwa-l3,.dbwa-l4,.dbwa-l5,.dbwa-l6{animation-play-state:var(--dbwa-p,paused)}}"
                 }
               ]
             }
@@ -754,7 +754,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbwa-medium){--dbwa-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}}"
+                  "value": "svg:has(.dbwa-medium){--dbwa-t:1;--dbwa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}.dbwa-l1,.dbwa-l2,.dbwa-l3,.dbwa-l4,.dbwa-l5,.dbwa-l6{animation-play-state:var(--dbwa-p,paused)}}"
                 }
               ]
             }
@@ -776,7 +776,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbwa-slow){--dbwa-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}}"
+                  "value": "svg:has(.dbwa-slow){--dbwa-t:1.15;--dbwa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}.dbwa-l1,.dbwa-l2,.dbwa-l3,.dbwa-l4,.dbwa-l5,.dbwa-l6{animation-play-state:var(--dbwa-p,paused)}}"
                 }
               ]
             }
@@ -798,7 +798,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbwa-slowest){--dbwa-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}}"
+                  "value": "svg:has(.dbwa-slowest){--dbwa-t:1.35;--dbwa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}.dbwa-l1,.dbwa-l2,.dbwa-l3,.dbwa-l4,.dbwa-l5,.dbwa-l6{animation-play-state:var(--dbwa-p,paused)}}"
                 }
               ]
             }

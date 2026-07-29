@@ -343,7 +343,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbif-fastest){--dbif-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbifBlink{0%,92%,98%,100%{transform:scaleY(1)}95%{transform:scaleY(0.12)}} .dbif-eyes{transform-box:fill-box;transform-origin:center;animation:dbifBlink calc(var(--dbif-t,1)*5.4s) linear infinite}}"
+                  "value": "svg:has(.dbif-fastest){--dbif-t:0.75;--dbif-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbifBlink{0%,92%,98%,100%{transform:scaleY(1)}95%{transform:scaleY(0.12)}} .dbif-eyes{transform-box:fill-box;transform-origin:center;animation:dbifBlink calc(var(--dbif-t,1)*5.4s) linear infinite}.dbif-eyes{animation-play-state:var(--dbif-p,paused)}}"
                 }
               ]
             }
@@ -365,7 +365,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbif-fast){--dbif-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbifBlink{0%,92%,98%,100%{transform:scaleY(1)}95%{transform:scaleY(0.12)}} .dbif-eyes{transform-box:fill-box;transform-origin:center;animation:dbifBlink calc(var(--dbif-t,1)*5.4s) linear infinite}}"
+                  "value": "svg:has(.dbif-fast){--dbif-t:0.9;--dbif-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbifBlink{0%,92%,98%,100%{transform:scaleY(1)}95%{transform:scaleY(0.12)}} .dbif-eyes{transform-box:fill-box;transform-origin:center;animation:dbifBlink calc(var(--dbif-t,1)*5.4s) linear infinite}.dbif-eyes{animation-play-state:var(--dbif-p,paused)}}"
                 }
               ]
             }
@@ -387,7 +387,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbif-medium){--dbif-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbifBlink{0%,92%,98%,100%{transform:scaleY(1)}95%{transform:scaleY(0.12)}} .dbif-eyes{transform-box:fill-box;transform-origin:center;animation:dbifBlink calc(var(--dbif-t,1)*5.4s) linear infinite}}"
+                  "value": "svg:has(.dbif-medium){--dbif-t:1;--dbif-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbifBlink{0%,92%,98%,100%{transform:scaleY(1)}95%{transform:scaleY(0.12)}} .dbif-eyes{transform-box:fill-box;transform-origin:center;animation:dbifBlink calc(var(--dbif-t,1)*5.4s) linear infinite}.dbif-eyes{animation-play-state:var(--dbif-p,paused)}}"
                 }
               ]
             }
@@ -409,7 +409,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbif-slow){--dbif-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbifBlink{0%,92%,98%,100%{transform:scaleY(1)}95%{transform:scaleY(0.12)}} .dbif-eyes{transform-box:fill-box;transform-origin:center;animation:dbifBlink calc(var(--dbif-t,1)*5.4s) linear infinite}}"
+                  "value": "svg:has(.dbif-slow){--dbif-t:1.15;--dbif-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbifBlink{0%,92%,98%,100%{transform:scaleY(1)}95%{transform:scaleY(0.12)}} .dbif-eyes{transform-box:fill-box;transform-origin:center;animation:dbifBlink calc(var(--dbif-t,1)*5.4s) linear infinite}.dbif-eyes{animation-play-state:var(--dbif-p,paused)}}"
                 }
               ]
             }
@@ -431,7 +431,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbif-slowest){--dbif-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbifBlink{0%,92%,98%,100%{transform:scaleY(1)}95%{transform:scaleY(0.12)}} .dbif-eyes{transform-box:fill-box;transform-origin:center;animation:dbifBlink calc(var(--dbif-t,1)*5.4s) linear infinite}}"
+                  "value": "svg:has(.dbif-slowest){--dbif-t:1.35;--dbif-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbifBlink{0%,92%,98%,100%{transform:scaleY(1)}95%{transform:scaleY(0.12)}} .dbif-eyes{transform-box:fill-box;transform-origin:center;animation:dbifBlink calc(var(--dbif-t,1)*5.4s) linear infinite}.dbif-eyes{animation-play-state:var(--dbif-p,paused)}}"
                 }
               ]
             }

@@ -4311,7 +4311,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbca-fastest){--dbca-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}}"
+                  "value": "svg:has(.dbca-fastest){--dbca-t:0.75;--dbca-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}.dbca-tw-small,.dbca-tw-medium,.dbca-comet{animation-play-state:var(--dbca-p,paused)}}"
                 }
               ]
             }
@@ -4333,7 +4333,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbca-fast){--dbca-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}}"
+                  "value": "svg:has(.dbca-fast){--dbca-t:0.9;--dbca-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}.dbca-tw-small,.dbca-tw-medium,.dbca-comet{animation-play-state:var(--dbca-p,paused)}}"
                 }
               ]
             }
@@ -4355,7 +4355,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbca-medium){--dbca-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}}"
+                  "value": "svg:has(.dbca-medium){--dbca-t:1;--dbca-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}.dbca-tw-small,.dbca-tw-medium,.dbca-comet{animation-play-state:var(--dbca-p,paused)}}"
                 }
               ]
             }
@@ -4377,7 +4377,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbca-slow){--dbca-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}}"
+                  "value": "svg:has(.dbca-slow){--dbca-t:1.15;--dbca-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}.dbca-tw-small,.dbca-tw-medium,.dbca-comet{animation-play-state:var(--dbca-p,paused)}}"
                 }
               ]
             }
@@ -4399,7 +4399,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbca-slowest){--dbca-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}}"
+                  "value": "svg:has(.dbca-slowest){--dbca-t:1.35;--dbca-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}.dbca-tw-small,.dbca-tw-medium,.dbca-comet{animation-play-state:var(--dbca-p,paused)}}"
                 }
               ]
             }

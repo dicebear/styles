@@ -586,7 +586,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dblo-fastest){--dblo-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}}"
+                  "value": "svg:has(.dblo-fastest){--dblo-t:0.75;--dblo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}.dblo-g1,.dblo-g2,.dblo-g3{animation-play-state:var(--dblo-p,paused)}}"
                 }
               ]
             }
@@ -608,7 +608,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dblo-fast){--dblo-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}}"
+                  "value": "svg:has(.dblo-fast){--dblo-t:0.9;--dblo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}.dblo-g1,.dblo-g2,.dblo-g3{animation-play-state:var(--dblo-p,paused)}}"
                 }
               ]
             }
@@ -630,7 +630,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dblo-medium){--dblo-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}}"
+                  "value": "svg:has(.dblo-medium){--dblo-t:1;--dblo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}.dblo-g1,.dblo-g2,.dblo-g3{animation-play-state:var(--dblo-p,paused)}}"
                 }
               ]
             }
@@ -652,7 +652,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dblo-slow){--dblo-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}}"
+                  "value": "svg:has(.dblo-slow){--dblo-t:1.15;--dblo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}.dblo-g1,.dblo-g2,.dblo-g3{animation-play-state:var(--dblo-p,paused)}}"
                 }
               ]
             }
@@ -674,7 +674,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dblo-slowest){--dblo-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}}"
+                  "value": "svg:has(.dblo-slowest){--dblo-t:1.35;--dblo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}.dblo-g1,.dblo-g2,.dblo-g3{animation-play-state:var(--dblo-p,paused)}}"
                 }
               ]
             }

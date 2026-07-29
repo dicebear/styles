@@ -17,8 +17,9 @@ Versions track the DiceBear release line.
 - **Opt-in animation.** All new styles below, as well as Shapes, Glass,
   Thumbs, and Initial Face, carry an `animation` component. By default
   (`none`) they render fully static. The `animationVariant` render option
-  selects a speed from `fastest` to `slowest`. Animations respect
-  `prefers-reduced-motion`.
+  selects a speed from `fastest` to `slowest`. A static avatar next to an
+  animated one stays static, browsers without CSS `:has()` support show the
+  static image, and the animations respect `prefers-reduced-motion`.
 - **New style: Loops.** A truchet pattern: quarter-circle arc tiles on a 3x3
   grid join into meandering paths. The pattern is tone-in-tone with the
   background by default, `patternVariant` switches to plain white or black.
@@ -52,7 +53,8 @@ Versions track the DiceBear release line.
 ### Removed
 
 - **Variant tags.** The tags introduced in 10.3.0-rc.1 moved to the
-  `feat/variant-tags` branch and are not part of this release.
+  `feat/variant-tags` branch and are not part of this release. The schema
+  references stay at `@dicebear/schema` 1.3.0.
 
 ## [10.3.0-rc.1] - 2026-06-21
 
