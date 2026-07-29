@@ -59,6 +59,14 @@ the following list or in the individual files.
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                |
 |  Source | [Custom Avatar](https://www.figma.com/community/file/881358461963645496) |
 
+## Blobs
+
+|    File | [src/blobs.json](./src/blobs.json)                            |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Blobs](https://www.dicebear.com)                             |
+
 ## Bottts Neutral
 
 |    File | [src/bottts-neutral.json](./src/bottts-neutral.json)        |
@@ -74,6 +82,14 @@ the following list or in the individual files.
 |  Artist | [Pablo Stanley](https://twitter.com/pablostanley)           |
 | License | [Free for personal and commercial use](https://bottts.com/) |
 |  Source | [Bottts](https://bottts.com/)                               |
+
+## Constellation
+
+|    File | [src/constellation.json](./src/constellation.json)            |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Constellation](https://www.dicebear.com)                     |
 
 ## Croodles Neutral
 
@@ -163,6 +179,22 @@ the following list or in the individual files.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Initials](https://www.dicebear.com)                          |
 
+## Landscape
+
+|    File | [src/landscape.json](./src/landscape.json)                    |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Landscape](https://www.dicebear.com)                         |
+
+## Loops
+
+|    File | [src/loops.json](./src/loops.json)                            |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Loops](https://www.dicebear.com)                             |
+
 ## Lorelei Neutral
 
 |    File | [src/lorelei-neutral.json](./src/lorelei-neutral.json)                      |
@@ -243,6 +275,22 @@ the following list or in the individual files.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)         |
 |  Source | [Pixel Art](https://www.figma.com/community/file/1198754108850888330) |
 
+## Pixelbot
+
+|    File | [src/pixelbot.json](./src/pixelbot.json)                      |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Pixelbot](https://www.dicebear.com)                          |
+
+## Planets
+
+|    File | [src/planets.json](./src/planets.json)                        |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Planets](https://www.dicebear.com)                           |
+
 ## Rings
 
 |    File | [src/rings.json](./src/rings.json)                            |
@@ -266,6 +314,14 @@ the following list or in the individual files.
 |  Artist | [DiceBear](https://www.dicebear.com)                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Shapes](https://www.dicebear.com)                            |
+
+## Squircles
+
+|    File | [src/squircles.json](./src/squircles.json)                    |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Squircles](https://www.dicebear.com)                         |
 
 ## Stripes
 
@@ -298,3 +354,11 @@ the following list or in the individual files.
 |  Artist | [DiceBear](https://www.dicebear.com)                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Triangles](https://www.dicebear.com)                         |
+
+## Waves
+
+|    File | [src/waves.json](./src/waves.json)                            |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Waves](https://www.dicebear.com)                             |

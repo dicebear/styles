@@ -62,11 +62,17 @@ var BigEarsNeutral string
 //go:embed src/big-smile.json
 var BigSmile string
 
+//go:embed src/blobs.json
+var Blobs string
+
 //go:embed src/bottts.json
 var Bottts string
 
 //go:embed src/bottts-neutral.json
 var BotttsNeutral string
+
+//go:embed src/constellation.json
+var Constellation string
 
 //go:embed src/croodles.json
 var Croodles string
@@ -101,6 +107,12 @@ var InitialFace string
 //go:embed src/initials.json
 var Initials string
 
+//go:embed src/landscape.json
+var Landscape string
+
+//go:embed src/loops.json
+var Loops string
+
 //go:embed src/lorelei.json
 var Lorelei string
 
@@ -131,6 +143,12 @@ var PixelArt string
 //go:embed src/pixel-art-neutral.json
 var PixelArtNeutral string
 
+//go:embed src/pixelbot.json
+var Pixelbot string
+
+//go:embed src/planets.json
+var Planets string
+
 //go:embed src/rings.json
 var Rings string
 
@@ -139,6 +157,9 @@ var ShapeGrid string
 
 //go:embed src/shapes.json
 var Shapes string
+
+//go:embed src/squircles.json
+var Squircles string
 
 //go:embed src/stripes.json
 var Stripes string
@@ -151,6 +172,9 @@ var ToonHead string
 
 //go:embed src/triangles.json
 var Triangles string
+
+//go:embed src/waves.json
+var Waves string
 
 // Get returns the raw JSON definition for the named style, or ("", false) if the
 // style name is unknown.
@@ -170,10 +194,14 @@ func Get(name string) (string, bool) {
 		return BigEarsNeutral, true
 	case "big-smile":
 		return BigSmile, true
+	case "blobs":
+		return Blobs, true
 	case "bottts":
 		return Bottts, true
 	case "bottts-neutral":
 		return BotttsNeutral, true
+	case "constellation":
+		return Constellation, true
 	case "croodles":
 		return Croodles, true
 	case "croodles-neutral":
@@ -196,6 +224,10 @@ func Get(name string) (string, bool) {
 		return InitialFace, true
 	case "initials":
 		return Initials, true
+	case "landscape":
+		return Landscape, true
+	case "loops":
+		return Loops, true
 	case "lorelei":
 		return Lorelei, true
 	case "lorelei-neutral":
@@ -216,12 +248,18 @@ func Get(name string) (string, bool) {
 		return PixelArt, true
 	case "pixel-art-neutral":
 		return PixelArtNeutral, true
+	case "pixelbot":
+		return Pixelbot, true
+	case "planets":
+		return Planets, true
 	case "rings":
 		return Rings, true
 	case "shape-grid":
 		return ShapeGrid, true
 	case "shapes":
 		return Shapes, true
+	case "squircles":
+		return Squircles, true
 	case "stripes":
 		return Stripes, true
 	case "thumbs":
@@ -230,6 +268,8 @@ func Get(name string) (string, bool) {
 		return ToonHead, true
 	case "triangles":
 		return Triangles, true
+	case "waves":
+		return Waves, true
 	}
 	return "", false
 }
@@ -246,8 +286,10 @@ func All() []string {
 		"big-ears",
 		"big-ears-neutral",
 		"big-smile",
+		"blobs",
 		"bottts",
 		"bottts-neutral",
+		"constellation",
 		"croodles",
 		"croodles-neutral",
 		"disco",
@@ -259,6 +301,8 @@ func All() []string {
 		"identicon",
 		"initial-face",
 		"initials",
+		"landscape",
+		"loops",
 		"lorelei",
 		"lorelei-neutral",
 		"micah",
@@ -269,12 +313,16 @@ func All() []string {
 		"personas",
 		"pixel-art",
 		"pixel-art-neutral",
+		"pixelbot",
+		"planets",
 		"rings",
 		"shape-grid",
 		"shapes",
+		"squircles",
 		"stripes",
 		"thumbs",
 		"toon-head",
 		"triangles",
+		"waves",
 	}
 }

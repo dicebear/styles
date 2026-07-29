@@ -1,0 +1,2048 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Planets” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Planets",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "star",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 7.5)"
+        }
+      },
+      {
+        "name": "star02",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(32.5 7.5)"
+        }
+      },
+      {
+        "name": "star03",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(57.5 7.5)"
+        }
+      },
+      {
+        "name": "star04",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 7.5)"
+        }
+      },
+      {
+        "name": "star05",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 32.5)"
+        }
+      },
+      {
+        "name": "star06",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 32.5)"
+        }
+      },
+      {
+        "name": "star07",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 57.5)"
+        }
+      },
+      {
+        "name": "star08",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 57.5)"
+        }
+      },
+      {
+        "name": "star09",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 82.5)"
+        }
+      },
+      {
+        "name": "star10",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(32.5 82.5)"
+        }
+      },
+      {
+        "name": "star11",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(57.5 82.5)"
+        }
+      },
+      {
+        "name": "star12",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 82.5)"
+        }
+      },
+      {
+        "name": "planet",
+        "type": "component"
+      },
+      {
+        "name": "surface",
+        "type": "component"
+      },
+      {
+        "name": "shade",
+        "type": "component"
+      },
+      {
+        "name": "ring",
+        "type": "component"
+      },
+      {
+        "name": "moons",
+        "type": "component"
+      },
+      {
+        "name": "animation",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "moons": {
+      "width": 100,
+      "height": 100,
+      "probability": 65,
+      "translate": {
+        "x": {
+          "min": -5,
+          "max": 5
+        },
+        "y": {
+          "min": -5,
+          "max": 5
+        }
+      },
+      "variants": {
+        "one": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-moons"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "79",
+                    "cy": "25",
+                    "r": "4",
+                    "fill": {
+                      "type": "color",
+                      "name": "moon"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "two": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-moons"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "77",
+                    "cy": "31",
+                    "r": "3.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "moon"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "24",
+                    "cy": "68",
+                    "r": "2.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "moon"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "tiny": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-moons"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "81",
+                    "cy": "63",
+                    "r": "2.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "moon"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "planet": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "disc": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "r": "30",
+                "fill": {
+                  "type": "color",
+                  "name": "planet"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ring": {
+      "width": 100,
+      "height": 100,
+      "probability": 45,
+      "rotate": {
+        "min": -25,
+        "max": 25
+      },
+      "variants": {
+        "thin": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dicebearPlanets-ring-thin"
+                  },
+                  "children": [
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "-10",
+                        "y": "-10",
+                        "width": "120",
+                        "height": "120",
+                        "fill": "#fff"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M20 50A30 30 0 0 1 80 50Z",
+                        "fill": "#000"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#dicebearPlanets-ring-thin)"
+              },
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "50",
+                    "rx": "43",
+                    "ry": "13",
+                    "stroke": "#fff",
+                    "stroke-opacity": "0.55",
+                    "stroke-width": "2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "double": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dicebearPlanets-ring-double"
+                  },
+                  "children": [
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "-10",
+                        "y": "-10",
+                        "width": "120",
+                        "height": "120",
+                        "fill": "#fff"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M20 50A30 30 0 0 1 80 50Z",
+                        "fill": "#000"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#dicebearPlanets-ring-double)"
+              },
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "50",
+                    "rx": "42",
+                    "ry": "12.5",
+                    "stroke": "#fff",
+                    "stroke-opacity": "0.5",
+                    "stroke-width": "1.6"
+                  }
+                },
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "50",
+                    "rx": "46.5",
+                    "ry": "15",
+                    "stroke": "#fff",
+                    "stroke-opacity": "0.35",
+                    "stroke-width": "1"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "bold": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dicebearPlanets-ring-bold"
+                  },
+                  "children": [
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "-10",
+                        "y": "-10",
+                        "width": "120",
+                        "height": "120",
+                        "fill": "#fff"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M20 50A30 30 0 0 1 80 50Z",
+                        "fill": "#000"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#dicebearPlanets-ring-bold)"
+              },
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "50",
+                    "rx": "44",
+                    "ry": "13.5",
+                    "stroke": "#fff",
+                    "stroke-opacity": "0.4",
+                    "stroke-width": "4"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "shade": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "soft": {
+          "weight": 1,
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "radialGradient",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dicebearPlanets-shade",
+                    "gradientUnits": "userSpaceOnUse",
+                    "cx": "42",
+                    "cy": "42",
+                    "r": "44"
+                  },
+                  "children": [
+                    {
+                      "name": "stop",
+                      "type": "element",
+                      "attributes": {
+                        "offset": "0",
+                        "stop-color": "#fff",
+                        "stop-opacity": ".14"
+                      }
+                    },
+                    {
+                      "name": "stop",
+                      "type": "element",
+                      "attributes": {
+                        "offset": ".38",
+                        "stop-color": "#fff",
+                        "stop-opacity": "0"
+                      }
+                    },
+                    {
+                      "name": "stop",
+                      "type": "element",
+                      "attributes": {
+                        "offset": ".55",
+                        "stop-color": "#000",
+                        "stop-opacity": "0"
+                      }
+                    },
+                    {
+                      "name": "stop",
+                      "type": "element",
+                      "attributes": {
+                        "offset": "1",
+                        "stop-color": "#000",
+                        "stop-opacity": ".26"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "r": "30",
+                "fill": "url(#dicebearPlanets-shade)"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M75.2 33.7A30 30 0 0 1 33.7 75.2A33.5 33.5 0 0 0 75.2 33.7Z",
+                "fill": "#000",
+                "fill-opacity": "0.13"
+              }
+            }
+          ]
+        },
+        "hard": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M75.2 33.7A30 30 0 0 1 33.7 75.2A33.5 33.5 0 0 0 75.2 33.7Z",
+                "fill": "#000",
+                "fill-opacity": "0.18"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24.8 66.3A30 30 0 0 1 66.3 24.8A33.5 33.5 0 0 0 24.8 66.3Z",
+                "fill": "#fff",
+                "fill-opacity": "0.12"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "surface": {
+      "width": 100,
+      "height": 100,
+      "probability": 95,
+      "rotate": {
+        "min": -180,
+        "max": 180
+      },
+      "variants": {
+        "banded": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-surface"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearPlanets-banded"
+                      },
+                      "children": [
+                        {
+                          "name": "circle",
+                          "type": "element",
+                          "attributes": {
+                            "cx": "50",
+                            "cy": "50",
+                            "r": "30"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dicebearPlanets-banded)"
+                  },
+                  "children": [
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "18",
+                        "y": "26",
+                        "width": "64",
+                        "height": "5.5",
+                        "fill": "#fff",
+                        "fill-opacity": "0.16"
+                      }
+                    },
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "18",
+                        "y": "35",
+                        "width": "64",
+                        "height": "6.5",
+                        "fill": "#000",
+                        "fill-opacity": "0.13"
+                      }
+                    },
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "18",
+                        "y": "46",
+                        "width": "64",
+                        "height": "8",
+                        "fill": "#fff",
+                        "fill-opacity": "0.14"
+                      }
+                    },
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "18",
+                        "y": "58",
+                        "width": "64",
+                        "height": "6",
+                        "fill": "#000",
+                        "fill-opacity": "0.15"
+                      }
+                    },
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "18",
+                        "y": "68",
+                        "width": "64",
+                        "height": "5",
+                        "fill": "#fff",
+                        "fill-opacity": "0.12"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "belted": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-surface"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearPlanets-belted"
+                      },
+                      "children": [
+                        {
+                          "name": "circle",
+                          "type": "element",
+                          "attributes": {
+                            "cx": "50",
+                            "cy": "50",
+                            "r": "30"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dicebearPlanets-belted)"
+                  },
+                  "children": [
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "18",
+                        "y": "40",
+                        "width": "64",
+                        "height": "8.5",
+                        "fill": "#fff",
+                        "fill-opacity": "0.19"
+                      }
+                    },
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "18",
+                        "y": "52",
+                        "width": "64",
+                        "height": "6",
+                        "fill": "#000",
+                        "fill-opacity": "0.14"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "cratered": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-surface"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearPlanets-cratered"
+                      },
+                      "children": [
+                        {
+                          "name": "circle",
+                          "type": "element",
+                          "attributes": {
+                            "cx": "50",
+                            "cy": "50",
+                            "r": "30"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dicebearPlanets-cratered)"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "40",
+                        "cy": "38",
+                        "r": "5",
+                        "fill": "#000",
+                        "fill-opacity": "0.13"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "60",
+                        "cy": "45",
+                        "r": "4",
+                        "fill": "#000",
+                        "fill-opacity": "0.12"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "47",
+                        "cy": "61",
+                        "r": "6",
+                        "fill": "#000",
+                        "fill-opacity": "0.13"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "34",
+                        "cy": "52",
+                        "r": "3",
+                        "fill": "#000",
+                        "fill-opacity": "0.12"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "58",
+                        "cy": "64",
+                        "r": "3.5",
+                        "fill": "#000",
+                        "fill-opacity": "0.11"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "52",
+                        "cy": "29",
+                        "r": "2.5",
+                        "fill": "#000",
+                        "fill-opacity": "0.12"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "44",
+                        "cy": "47",
+                        "r": "2",
+                        "fill": "#fff",
+                        "fill-opacity": "0.1"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "63",
+                        "cy": "55",
+                        "r": "1.8",
+                        "fill": "#fff",
+                        "fill-opacity": "0.1"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "swirl": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-surface"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearPlanets-swirl"
+                      },
+                      "children": [
+                        {
+                          "name": "circle",
+                          "type": "element",
+                          "attributes": {
+                            "cx": "50",
+                            "cy": "50",
+                            "r": "30"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dicebearPlanets-swirl)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M18 40C30 32 44 44 56 40S78 26 84 32V46C74 42 64 54 52 56S30 50 18 54Z",
+                        "fill": "#fff",
+                        "fill-opacity": "0.16"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M20 62C32 56 44 66 58 63S76 56 82 60V70C72 68 62 76 50 74S32 70 20 72Z",
+                        "fill": "#000",
+                        "fill-opacity": "0.12"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "60",
+                        "cy": "36",
+                        "r": "4.5",
+                        "fill": "#fff",
+                        "fill-opacity": "0.18"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "cap": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-surface"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearPlanets-cap"
+                      },
+                      "children": [
+                        {
+                          "name": "circle",
+                          "type": "element",
+                          "attributes": {
+                            "cx": "50",
+                            "cy": "50",
+                            "r": "30"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dicebearPlanets-cap)"
+                  },
+                  "children": [
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "18",
+                        "y": "20",
+                        "width": "64",
+                        "height": "12",
+                        "fill": "#fff",
+                        "fill-opacity": "0.24"
+                      }
+                    },
+                    {
+                      "name": "rect",
+                      "type": "element",
+                      "attributes": {
+                        "x": "18",
+                        "y": "70",
+                        "width": "64",
+                        "height": "10",
+                        "fill": "#000",
+                        "fill-opacity": "0.1"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "spotted": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-surface"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearPlanets-spotted"
+                      },
+                      "children": [
+                        {
+                          "name": "circle",
+                          "type": "element",
+                          "attributes": {
+                            "cx": "50",
+                            "cy": "50",
+                            "r": "30"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dicebearPlanets-spotted)"
+                  },
+                  "children": [
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "60",
+                        "cy": "44",
+                        "rx": "11",
+                        "ry": "7",
+                        "fill": "#000",
+                        "fill-opacity": "0.08"
+                      }
+                    },
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "60",
+                        "cy": "44",
+                        "rx": "9",
+                        "ry": "5.5",
+                        "fill": "#fff",
+                        "fill-opacity": "0.22"
+                      }
+                    },
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "60",
+                        "cy": "44",
+                        "rx": "5",
+                        "ry": "3",
+                        "fill": "#fff",
+                        "fill-opacity": "0.18"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "36",
+                        "cy": "58",
+                        "r": "3",
+                        "fill": "#fff",
+                        "fill-opacity": "0.15"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "42",
+                        "cy": "32",
+                        "r": "2.2",
+                        "fill": "#000",
+                        "fill-opacity": "0.1"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "58",
+                        "cy": "64",
+                        "r": "2.5",
+                        "fill": "#fff",
+                        "fill-opacity": "0.12"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "marbled": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-surface"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearPlanets-marbled"
+                      },
+                      "children": [
+                        {
+                          "name": "circle",
+                          "type": "element",
+                          "attributes": {
+                            "cx": "50",
+                            "cy": "50",
+                            "r": "30"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dicebearPlanets-marbled)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M30 38C34 30 46 28 52 33S64 36 66 44 58 54 50 52 40 52 34 48 26 46 30 38Z",
+                        "fill": "#000",
+                        "fill-opacity": "0.11"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M44 60C52 54 64 56 68 62S64 74 54 74 40 70 44 60Z",
+                        "fill": "#fff",
+                        "fill-opacity": "0.13"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M28 56C32 52 38 54 38 59S30 64 27 61 26 58 28 56Z",
+                        "fill": "#000",
+                        "fill-opacity": "0.09"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M58 26C64 24 70 28 70 33S62 38 57 35 54 28 58 26Z",
+                        "fill": "#fff",
+                        "fill-opacity": "0.11"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "cracked": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-surface"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearPlanets-cracked"
+                      },
+                      "children": [
+                        {
+                          "name": "circle",
+                          "type": "element",
+                          "attributes": {
+                            "cx": "50",
+                            "cy": "50",
+                            "r": "30"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dicebearPlanets-cracked)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M18 48L34 44 48 52 64 46 82 52",
+                        "stroke": "#fff",
+                        "stroke-opacity": ".3",
+                        "stroke-width": ".8"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M44 20L48 36 40 50 46 66 42 80",
+                        "stroke": "#fff",
+                        "stroke-opacity": ".3",
+                        "stroke-width": ".8"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M60 62L70 68 80 64",
+                        "stroke": "#fff",
+                        "stroke-opacity": ".25",
+                        "stroke-width": ".8"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "48",
+                        "cy": "52",
+                        "r": "1.4",
+                        "fill": "#fff",
+                        "fill-opacity": "0.2"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "46",
+                        "cy": "66",
+                        "r": "1.1",
+                        "fill": "#fff",
+                        "fill-opacity": "0.16"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "terra": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-surface"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearPlanets-terra"
+                      },
+                      "children": [
+                        {
+                          "name": "circle",
+                          "type": "element",
+                          "attributes": {
+                            "cx": "50",
+                            "cy": "50",
+                            "r": "30"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dicebearPlanets-terra)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M56.7 44C56.7 45.3 56.5 46.6 56.2 47.8C55.8 49 55.4 50.4 54.6 51.3C53.8 52.2 52.5 52.9 51.3 53.3C50.1 53.6 48.5 53.4 47.4 53.4C46.3 53.4 45.4 53.1 44.5 53.3C43.6 53.5 42.9 54.2 42 54.6C41.1 54.9 39.9 55.6 38.9 55.6C37.9 55.5 36.8 54.9 36.2 54.1C35.5 53.4 35.3 52 34.9 51.1C34.6 50.1 34.5 49.3 34 48.6C33.4 47.9 32.4 47.6 31.5 46.8C30.6 46 29.2 45.1 28.6 44C27.9 42.9 27.5 41.4 27.6 40.1C27.7 38.9 28.4 37.6 29 36.5C29.6 35.4 30.5 34.3 31.5 33.5C32.4 32.6 33.5 31.7 34.7 31.4C35.9 31.1 37.5 31.1 38.7 31.7C39.9 32.2 41.2 33.7 42 34.7C42.8 35.7 43.1 37.2 43.7 37.8C44.2 38.3 44.5 38.3 45.4 38.1C46.3 38 47.7 37.1 49.1 36.9C50.4 36.8 52.3 36.8 53.5 37.3C54.7 37.9 55.7 39.1 56.2 40.2C56.7 41.3 56.7 42.7 56.7 44Z",
+                        "fill": "#fff",
+                        "fill-opacity": "0.26"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M72 61C71.9 61.7 71.5 62.4 71.1 62.9C70.7 63.4 70 63.8 69.4 64.1C68.9 64.5 68.4 64.7 68 65C67.6 65.3 67.3 65.7 66.9 66.1C66.6 66.6 66.3 67.2 65.8 67.6C65.3 68.1 64.7 68.7 64 69C63.3 69.2 62.5 69.4 61.7 69.4C61 69.4 60.2 69.2 59.4 68.9C58.7 68.6 58 68.2 57.4 67.6C56.8 67.1 56.2 66.4 56 65.6C55.7 64.9 55.6 64 55.8 63.2C56 62.4 56.5 61.6 57.1 61C57.6 60.4 58.4 60 59 59.7C59.5 59.3 60 59.2 60.3 58.8C60.5 58.5 60.4 58.1 60.5 57.5C60.5 56.8 60.3 55.8 60.5 55C60.7 54.1 61.1 52.9 61.7 52.3C62.2 51.6 63.2 51.1 64 51.1C64.8 51 65.7 51.5 66.4 52C67.1 52.5 67.6 53.4 68 54C68.5 54.7 68.7 55.4 69.1 55.9C69.5 56.5 69.9 56.8 70.3 57.4C70.7 57.9 71.3 58.4 71.6 59C71.9 59.6 72.1 60.3 72 61Z",
+                        "fill": "#fff",
+                        "fill-opacity": "0.26"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "64",
+                        "cy": "36",
+                        "r": "1.7",
+                        "fill": "#fff",
+                        "fill-opacity": "0.26"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "69",
+                        "cy": "41",
+                        "r": "1.2",
+                        "fill": "#fff",
+                        "fill-opacity": "0.26"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "59",
+                        "cy": "32",
+                        "r": "1.1",
+                        "fill": "#fff",
+                        "fill-opacity": "0.26"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "35",
+                        "cy": "66",
+                        "r": "1.4",
+                        "fill": "#fff",
+                        "fill-opacity": "0.26"
+                      }
+                    },
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "50",
+                        "cy": "22.5",
+                        "rx": "15",
+                        "ry": "5.5",
+                        "fill": "#fff",
+                        "fill-opacity": "0.42"
+                      }
+                    },
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "50",
+                        "cy": "78",
+                        "rx": "11",
+                        "ry": "4.5",
+                        "fill": "#fff",
+                        "fill-opacity": "0.38"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "speckled": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-surface"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearPlanets-speckled"
+                      },
+                      "children": [
+                        {
+                          "name": "circle",
+                          "type": "element",
+                          "attributes": {
+                            "cx": "50",
+                            "cy": "50",
+                            "r": "30"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dicebearPlanets-speckled)"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "31.4",
+                        "cy": "55.7",
+                        "r": "1.8",
+                        "fill": "#fff",
+                        "fill-opacity": "0.11"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "40.5",
+                        "cy": "44.2",
+                        "r": "1.3",
+                        "fill": "#fff",
+                        "fill-opacity": "0.1"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "34.1",
+                        "cy": "33.1",
+                        "r": "0.8",
+                        "fill": "#000",
+                        "fill-opacity": "0.09"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "47.4",
+                        "cy": "57.4",
+                        "r": "1.7",
+                        "fill": "#fff",
+                        "fill-opacity": "0.13"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "48.1",
+                        "cy": "45",
+                        "r": "1.9",
+                        "fill": "#fff",
+                        "fill-opacity": "0.14"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "70.5",
+                        "cy": "45.4",
+                        "r": "1.4",
+                        "fill": "#fff",
+                        "fill-opacity": "0.14"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "51.7",
+                        "cy": "52.7",
+                        "r": "1.3",
+                        "fill": "#fff",
+                        "fill-opacity": "0.13"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "60.6",
+                        "cy": "54.1",
+                        "r": "1",
+                        "fill": "#fff",
+                        "fill-opacity": "0.12"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "67.4",
+                        "cy": "53.3",
+                        "r": "1.2",
+                        "fill": "#000",
+                        "fill-opacity": "0.12"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "60.3",
+                        "cy": "34.3",
+                        "r": "1.5",
+                        "fill": "#fff",
+                        "fill-opacity": "0.15"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "28.8",
+                        "cy": "50",
+                        "r": "1.2",
+                        "fill": "#fff",
+                        "fill-opacity": "0.12"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "45.4",
+                        "cy": "75.6",
+                        "r": "1.9",
+                        "fill": "#000",
+                        "fill-opacity": "0.11"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "45",
+                        "cy": "61.4",
+                        "r": "1",
+                        "fill": "#fff",
+                        "fill-opacity": "0.16"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "70.6",
+                        "cy": "59.7",
+                        "r": "1.2",
+                        "fill": "#fff",
+                        "fill-opacity": "0.12"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "61.9",
+                        "cy": "50",
+                        "r": "1.8",
+                        "fill": "#000",
+                        "fill-opacity": "0.1"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "24.7",
+                        "cy": "54.8",
+                        "r": "1.2",
+                        "fill": "#fff",
+                        "fill-opacity": "0.1"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "52.4",
+                        "cy": "36.7",
+                        "r": "0.8",
+                        "fill": "#fff",
+                        "fill-opacity": "0.13"
+                      }
+                    },
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "37.3",
+                        "cy": "72.2",
+                        "r": "1.6",
+                        "fill": "#fff",
+                        "fill-opacity": "0.14"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "star": {
+      "width": 10,
+      "height": 10,
+      "probability": 90,
+      "translate": {
+        "x": {
+          "min": -120,
+          "max": 120
+        },
+        "y": {
+          "min": -120,
+          "max": 120
+        }
+      },
+      "variants": {
+        "faint": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "5",
+                "cy": "5",
+                "r": "0.7",
+                "fill": "#fff",
+                "fill-opacity": ".5"
+              }
+            }
+          ]
+        },
+        "small": {
+          "weight": 3,
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "5",
+                "cy": "5",
+                "r": "0.8",
+                "fill": "#fff",
+                "fill-opacity": ".85"
+              }
+            }
+          ]
+        },
+        "medium": {
+          "weight": 3,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-tw-medium"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "5",
+                    "cy": "5",
+                    "r": "1.1",
+                    "fill": "#fff",
+                    "fill-opacity": ".85"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "large": {
+          "weight": 1,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-tw-large"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "5",
+                    "cy": "5",
+                    "r": "1.4",
+                    "fill": "#fff",
+                    "fill-opacity": ".9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "sparkle": {
+          "weight": 1,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-tw-sparkle"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M5 1.8Q5.5 4.5 8.2 5Q5.5 5.5 5 8.2Q4.5 5.5 1.8 5Q4.5 4.5 5 1.8Z",
+                    "fill": "#fff",
+                    "fill-opacity": ".9"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "star02": {
+      "extends": "star"
+    },
+    "star03": {
+      "extends": "star"
+    },
+    "star04": {
+      "extends": "star"
+    },
+    "star05": {
+      "extends": "star"
+    },
+    "star06": {
+      "extends": "star"
+    },
+    "star07": {
+      "extends": "star"
+    },
+    "star08": {
+      "extends": "star"
+    },
+    "star09": {
+      "extends": "star"
+    },
+    "star10": {
+      "extends": "star"
+    },
+    "star11": {
+      "extends": "star"
+    },
+    "star12": {
+      "extends": "star"
+    },
+    "animation": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "none": {
+          "elements": []
+        },
+        "fastest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-fastest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbpa-fastest){--dbpa-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}}"
+                }
+              ]
+            }
+          ]
+        },
+        "fast": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-fast"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbpa-fast){--dbpa-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}}"
+                }
+              ]
+            }
+          ]
+        },
+        "medium": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-medium"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbpa-medium){--dbpa-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}}"
+                }
+              ]
+            }
+          ]
+        },
+        "slow": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-slow"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbpa-slow){--dbpa-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}}"
+                }
+              ]
+            }
+          ]
+        },
+        "slowest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbpa-slowest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbpa-slowest){--dbpa-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}}"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#17233f",
+        "#23244a",
+        "#2c1c45",
+        "#0f2336",
+        "#012e3a",
+        "#002a2e",
+        "#0b3533",
+        "#361b34",
+        "#1c1f27",
+        "#1d1a2a"
+      ]
+    },
+    "planet": {
+      "values": [
+        "#e27a8c",
+        "#e37f64",
+        "#d88a40",
+        "#c1982a",
+        "#9fa63b",
+        "#74b160",
+        "#39b789",
+        "#00b6af",
+        "#00b1cf",
+        "#47a7e7",
+        "#7a9bef",
+        "#a18ee8",
+        "#c083d2",
+        "#d67cb2"
+      ]
+    },
+    "moon": {
+      "values": [
+        "#d3d7e2",
+        "#bed9e7",
+        "#e5d6b6",
+        "#eaccc7",
+        "#e0ded8"
+      ]
+    }
+  }
+}

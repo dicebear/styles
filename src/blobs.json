@@ -1,0 +1,545 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Blobs” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Blobs",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "body",
+        "type": "component"
+      },
+      {
+        "name": "animation",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "body": {
+      "width": 100,
+      "height": 100,
+      "translate": {
+        "x": {
+          "min": -14,
+          "max": 14
+        },
+        "y": {
+          "min": -14,
+          "max": 14
+        }
+      },
+      "variants": {
+        "duo": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.3",
+                "transform": "translate(50 50) scale(1.5) translate(-50 -50)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbba-l1"
+                  },
+                  "children": [
+                    {
+                      "name": "blob01",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.55",
+                "transform": "translate(50 50) scale(0.62) translate(-50 -50)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbba-l2"
+                  },
+                  "children": [
+                    {
+                      "name": "blob02",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "trio": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.22",
+                "transform": "translate(50 50) scale(1.7) translate(-50 -50)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbba-l1"
+                  },
+                  "children": [
+                    {
+                      "name": "blob01",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.38",
+                "transform": "translate(50 50) scale(0.95) translate(-50 -50)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbba-l2"
+                  },
+                  "children": [
+                    {
+                      "name": "blob02",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.6",
+                "transform": "translate(50 50) scale(0.42) translate(-50 -50)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbba-l3"
+                  },
+                  "children": [
+                    {
+                      "name": "blob03",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        "quartet": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.16",
+                "transform": "translate(50 50) scale(1.8) translate(-50 -50)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbba-l1"
+                  },
+                  "children": [
+                    {
+                      "name": "blob01",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.28",
+                "transform": "translate(50 50) scale(1.15) translate(-50 -50)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbba-l2"
+                  },
+                  "children": [
+                    {
+                      "name": "blob02",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.42",
+                "transform": "translate(50 50) scale(0.6) translate(-50 -50)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbba-l3"
+                  },
+                  "children": [
+                    {
+                      "name": "blob03",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.6",
+                "transform": "translate(50 50) scale(0.3) translate(-50 -50)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbba-l4"
+                  },
+                  "children": [
+                    {
+                      "name": "blob04",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "blob": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -180,
+        "max": 180
+      },
+      "scale": {
+        "min": 0.85,
+        "max": 1.15
+      },
+      "translate": {
+        "x": {
+          "min": -7,
+          "max": 7
+        },
+        "y": {
+          "min": -7,
+          "max": 7
+        }
+      },
+      "variants": {
+        "drift": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M95.08 50.28C94.09 59.68 82.54 73.77 69.52 77.02C56.5 80.28 27.28 72.67 16.97 69.82C6.66 66.98 5.18 67.43 7.66 59.95C10.14 52.46 20.56 31.47 31.86 24.91C43.17 18.35 64.97 16.38 75.5 20.61C86.04 24.83 96.08 40.88 95.08 50.28Z",
+                "fill": {
+                  "type": "color",
+                  "name": "blob"
+                }
+              }
+            }
+          ]
+        },
+        "dune": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M75.03 41.71C74.06 50.2 68.69 72.5 62.68 78.41C56.67 84.31 48.45 81.94 38.99 77.14C29.53 72.33 5.21 58.15 5.93 49.58C6.66 41.01 32.91 29.41 43.34 25.72C53.77 22.03 63.23 24.79 68.51 27.45C73.8 30.12 76 33.22 75.03 41.71Z",
+                "fill": {
+                  "type": "color",
+                  "name": "blob"
+                }
+              }
+            }
+          ]
+        },
+        "pool": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M87.35 50.62C89.53 61.79 84.62 67.74 78.35 74.95C72.09 82.17 59.25 92.62 49.77 93.91C40.28 95.19 25.62 93.64 21.44 82.68C17.25 71.72 20.77 41.55 24.66 28.14C28.56 14.72 38.01 5.56 44.78 2.19C51.56 -1.17 58.2 -0.14 65.29 7.93C72.39 16 85.18 39.45 87.35 50.62Z",
+                "fill": {
+                  "type": "color",
+                  "name": "blob"
+                }
+              }
+            }
+          ]
+        },
+        "melt": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M77.05 45.57C77.7 52.88 88.42 71.32 82.17 76.89C75.91 82.46 49.08 80.47 39.51 79.02C29.93 77.56 28.66 76.41 24.71 68.15C20.76 59.89 10.66 37.76 15.81 29.45C20.96 21.15 45.18 17.71 55.59 18.3C66.01 18.89 74.7 28.46 78.27 33C81.85 37.55 76.4 38.25 77.05 45.57Z",
+                "fill": {
+                  "type": "color",
+                  "name": "blob"
+                }
+              }
+            }
+          ]
+        },
+        "drop": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M77.67 56.19C75.28 66.25 73.5 82.5 66.56 85.58C59.63 88.66 45.14 78.95 36.05 74.67C26.97 70.39 13.34 68.38 12.06 59.89C10.78 51.39 16.91 29.47 28.39 23.69C39.86 17.92 72.68 19.81 80.9 25.22C89.11 30.64 80.06 46.13 77.67 56.19Z",
+                "fill": {
+                  "type": "color",
+                  "name": "blob"
+                }
+              }
+            }
+          ]
+        },
+        "pond": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M84.12 56.18C84.23 64 80.24 75.45 75.55 78.3C70.87 81.15 67.1 75.07 55.99 73.29C44.89 71.51 15.76 72.45 8.93 67.6C2.09 62.75 12.28 51.06 14.98 44.2C17.68 37.34 20.81 30.99 25.13 26.45C29.46 21.91 32.63 16.14 40.93 16.96C49.22 17.78 67.7 24.83 74.9 31.37C82.1 37.9 84.01 48.36 84.12 56.18Z",
+                "fill": {
+                  "type": "color",
+                  "name": "blob"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "blob01": {
+      "extends": "blob"
+    },
+    "blob02": {
+      "extends": "blob"
+    },
+    "blob03": {
+      "extends": "blob"
+    },
+    "blob04": {
+      "extends": "blob"
+    },
+    "animation": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "none": {
+          "elements": []
+        },
+        "fastest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbba-fastest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbba-fastest){--dbba-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbbaSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(9deg) translate(3px,-2px) scale(1.05)}66%{transform:rotate(-5deg) translate(-2px,2px) scale(0.97)}} @keyframes dbbaSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-9deg) translate(-3px,2px) scale(0.96)}66%{transform:rotate(5deg) translate(2px,-2px) scale(1.04)}} @keyframes dbbaWanderA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}30%{transform:rotate(13deg) translate(5px,-4px) scale(1.08)}65%{transform:rotate(-8deg) translate(-4px,3px) scale(0.94)}} @keyframes dbbaWanderB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}30%{transform:rotate(-13deg) translate(-5px,4px) scale(0.93)}65%{transform:rotate(8deg) translate(4px,-3px) scale(1.07)}} .dbba-l1,.dbba-l2,.dbba-l3,.dbba-l4{transform-box:fill-box;transform-origin:center} .dbba-l1{animation:dbbaSwayA calc(var(--dbba-t,1)*18s) ease-in-out infinite} .dbba-l2{animation:dbbaSwayB calc(var(--dbba-t,1)*14s) ease-in-out infinite} .dbba-l3{animation:dbbaWanderA calc(var(--dbba-t,1)*11s) ease-in-out infinite} .dbba-l4{animation:dbbaWanderB calc(var(--dbba-t,1)*9s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "fast": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbba-fast"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbba-fast){--dbba-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbbaSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(9deg) translate(3px,-2px) scale(1.05)}66%{transform:rotate(-5deg) translate(-2px,2px) scale(0.97)}} @keyframes dbbaSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-9deg) translate(-3px,2px) scale(0.96)}66%{transform:rotate(5deg) translate(2px,-2px) scale(1.04)}} @keyframes dbbaWanderA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}30%{transform:rotate(13deg) translate(5px,-4px) scale(1.08)}65%{transform:rotate(-8deg) translate(-4px,3px) scale(0.94)}} @keyframes dbbaWanderB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}30%{transform:rotate(-13deg) translate(-5px,4px) scale(0.93)}65%{transform:rotate(8deg) translate(4px,-3px) scale(1.07)}} .dbba-l1,.dbba-l2,.dbba-l3,.dbba-l4{transform-box:fill-box;transform-origin:center} .dbba-l1{animation:dbbaSwayA calc(var(--dbba-t,1)*18s) ease-in-out infinite} .dbba-l2{animation:dbbaSwayB calc(var(--dbba-t,1)*14s) ease-in-out infinite} .dbba-l3{animation:dbbaWanderA calc(var(--dbba-t,1)*11s) ease-in-out infinite} .dbba-l4{animation:dbbaWanderB calc(var(--dbba-t,1)*9s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "medium": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbba-medium"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbba-medium){--dbba-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbbaSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(9deg) translate(3px,-2px) scale(1.05)}66%{transform:rotate(-5deg) translate(-2px,2px) scale(0.97)}} @keyframes dbbaSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-9deg) translate(-3px,2px) scale(0.96)}66%{transform:rotate(5deg) translate(2px,-2px) scale(1.04)}} @keyframes dbbaWanderA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}30%{transform:rotate(13deg) translate(5px,-4px) scale(1.08)}65%{transform:rotate(-8deg) translate(-4px,3px) scale(0.94)}} @keyframes dbbaWanderB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}30%{transform:rotate(-13deg) translate(-5px,4px) scale(0.93)}65%{transform:rotate(8deg) translate(4px,-3px) scale(1.07)}} .dbba-l1,.dbba-l2,.dbba-l3,.dbba-l4{transform-box:fill-box;transform-origin:center} .dbba-l1{animation:dbbaSwayA calc(var(--dbba-t,1)*18s) ease-in-out infinite} .dbba-l2{animation:dbbaSwayB calc(var(--dbba-t,1)*14s) ease-in-out infinite} .dbba-l3{animation:dbbaWanderA calc(var(--dbba-t,1)*11s) ease-in-out infinite} .dbba-l4{animation:dbbaWanderB calc(var(--dbba-t,1)*9s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "slow": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbba-slow"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbba-slow){--dbba-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbbaSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(9deg) translate(3px,-2px) scale(1.05)}66%{transform:rotate(-5deg) translate(-2px,2px) scale(0.97)}} @keyframes dbbaSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-9deg) translate(-3px,2px) scale(0.96)}66%{transform:rotate(5deg) translate(2px,-2px) scale(1.04)}} @keyframes dbbaWanderA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}30%{transform:rotate(13deg) translate(5px,-4px) scale(1.08)}65%{transform:rotate(-8deg) translate(-4px,3px) scale(0.94)}} @keyframes dbbaWanderB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}30%{transform:rotate(-13deg) translate(-5px,4px) scale(0.93)}65%{transform:rotate(8deg) translate(4px,-3px) scale(1.07)}} .dbba-l1,.dbba-l2,.dbba-l3,.dbba-l4{transform-box:fill-box;transform-origin:center} .dbba-l1{animation:dbbaSwayA calc(var(--dbba-t,1)*18s) ease-in-out infinite} .dbba-l2{animation:dbbaSwayB calc(var(--dbba-t,1)*14s) ease-in-out infinite} .dbba-l3{animation:dbbaWanderA calc(var(--dbba-t,1)*11s) ease-in-out infinite} .dbba-l4{animation:dbbaWanderB calc(var(--dbba-t,1)*9s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "slowest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbba-slowest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbba-slowest){--dbba-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbbaSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(9deg) translate(3px,-2px) scale(1.05)}66%{transform:rotate(-5deg) translate(-2px,2px) scale(0.97)}} @keyframes dbbaSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-9deg) translate(-3px,2px) scale(0.96)}66%{transform:rotate(5deg) translate(2px,-2px) scale(1.04)}} @keyframes dbbaWanderA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}30%{transform:rotate(13deg) translate(5px,-4px) scale(1.08)}65%{transform:rotate(-8deg) translate(-4px,3px) scale(0.94)}} @keyframes dbbaWanderB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}30%{transform:rotate(-13deg) translate(-5px,4px) scale(0.93)}65%{transform:rotate(8deg) translate(4px,-3px) scale(1.07)}} .dbba-l1,.dbba-l2,.dbba-l3,.dbba-l4{transform-box:fill-box;transform-origin:center} .dbba-l1{animation:dbbaSwayA calc(var(--dbba-t,1)*18s) ease-in-out infinite} .dbba-l2{animation:dbbaSwayB calc(var(--dbba-t,1)*14s) ease-in-out infinite} .dbba-l3{animation:dbbaWanderA calc(var(--dbba-t,1)*11s) ease-in-out infinite} .dbba-l4{animation:dbbaWanderB calc(var(--dbba-t,1)*9s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#0369a1",
+        "#1d4ed8",
+        "#4338ca",
+        "#6d28d9",
+        "#a21caf",
+        "#be185d",
+        "#be123c",
+        "#c2410c",
+        "#b45309",
+        "#047857",
+        "#0f766e",
+        "#1e293b"
+      ]
+    },
+    "blob": {
+      "contrastTo": "background",
+      "values": [
+        "#ffffff",
+        "#000000"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4434 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Constellation” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Constellation",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "star",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 7.5)"
+        }
+      },
+      {
+        "name": "star02",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(32.5 7.5)"
+        }
+      },
+      {
+        "name": "star03",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(57.5 7.5)"
+        }
+      },
+      {
+        "name": "star04",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 7.5)"
+        }
+      },
+      {
+        "name": "star05",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 32.5)"
+        }
+      },
+      {
+        "name": "star06",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(32.5 32.5)"
+        }
+      },
+      {
+        "name": "star07",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(57.5 32.5)"
+        }
+      },
+      {
+        "name": "star08",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 32.5)"
+        }
+      },
+      {
+        "name": "star09",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 57.5)"
+        }
+      },
+      {
+        "name": "star10",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(32.5 57.5)"
+        }
+      },
+      {
+        "name": "star11",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(57.5 57.5)"
+        }
+      },
+      {
+        "name": "star12",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 57.5)"
+        }
+      },
+      {
+        "name": "star13",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(7.5 82.5)"
+        }
+      },
+      {
+        "name": "star14",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(32.5 82.5)"
+        }
+      },
+      {
+        "name": "star15",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(57.5 82.5)"
+        }
+      },
+      {
+        "name": "star16",
+        "type": "component",
+        "attributes": {
+          "transform": "translate(82.5 82.5)"
+        }
+      },
+      {
+        "name": "constellation",
+        "type": "component"
+      },
+      {
+        "name": "comet",
+        "type": "component"
+      },
+      {
+        "name": "animation",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "comet": {
+      "width": 100,
+      "height": 100,
+      "probability": 22,
+      "rotate": {
+        "min": -12,
+        "max": 12
+      },
+      "translate": {
+        "x": {
+          "min": -12,
+          "max": 12
+        },
+        "y": {
+          "min": -5,
+          "max": 8
+        }
+      },
+      "variants": {
+        "long": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbca-comet"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "linearGradient",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearConstellation-long",
+                        "gradientUnits": "userSpaceOnUse",
+                        "x1": "78",
+                        "y1": "12",
+                        "x2": "36",
+                        "y2": "34"
+                      },
+                      "children": [
+                        {
+                          "name": "stop",
+                          "type": "element",
+                          "attributes": {
+                            "offset": "0",
+                            "stop-color": "#fff",
+                            "stop-opacity": "0"
+                          }
+                        },
+                        {
+                          "name": "stop",
+                          "type": "element",
+                          "attributes": {
+                            "offset": "1",
+                            "stop-color": "#fff",
+                            "stop-opacity": ".7"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M78 12L35.3 32.7L36.7 35.3Z",
+                    "fill": "url(#dicebearConstellation-long)"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "36",
+                    "cy": "34",
+                    "r": "1.6",
+                    "fill": "#fff",
+                    "fill-opacity": ".9"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "short": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbca-comet"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "linearGradient",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dicebearConstellation-short",
+                        "gradientUnits": "userSpaceOnUse",
+                        "x1": "84",
+                        "y1": "10",
+                        "x2": "60",
+                        "y2": "20"
+                      },
+                      "children": [
+                        {
+                          "name": "stop",
+                          "type": "element",
+                          "attributes": {
+                            "offset": "0",
+                            "stop-color": "#fff",
+                            "stop-opacity": "0"
+                          }
+                        },
+                        {
+                          "name": "stop",
+                          "type": "element",
+                          "attributes": {
+                            "offset": "1",
+                            "stop-color": "#fff",
+                            "stop-opacity": ".7"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M84 10L59.5 18.9L60.5 21.1Z",
+                    "fill": "url(#dicebearConstellation-short)"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "60",
+                    "cy": "20",
+                    "r": "1.3",
+                    "fill": "#fff",
+                    "fill-opacity": ".9"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "constellation": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -180,
+        "max": 180
+      },
+      "translate": {
+        "x": {
+          "min": -6,
+          "max": 6
+        },
+        "y": {
+          "min": -6,
+          "max": 6
+        }
+      },
+      "variants": {
+        "andromeda": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M71.2 63.9L57.3 61.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M57.3 61.3L44.5 51.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24.7 35.9L44.5 51.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44.5 51.8L49.8 46.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M49.8 46.1L52.4 41",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "71.2",
+                "cy": "63.9",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "71.2",
+                "cy": "63.9",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "57.3",
+                "cy": "61.3",
+                "r": "1.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "52.4",
+                "cy": "41",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "49.8",
+                "cy": "46.1",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "44.5",
+                "cy": "51.8",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "24.7",
+                "cy": "35.9",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "aquila": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38.8 48.9L41.3 43.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M41.3 43.5L43.8 39.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M41.3 43.5L55.1 56.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55.1 56.2L40.3 60.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M29.7 65L40.3 60.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55.1 56.2L65.9 32.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M65.9 32.2L69.1 29.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55.1 56.2L66 74.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "69.1",
+                "cy": "29.4",
+                "r": "1.3",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65.9",
+                "cy": "32.2",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "66",
+                "cy": "74.2",
+                "r": "1.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "55.1",
+                "cy": "56.2",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "43.8",
+                "cy": "39.7",
+                "r": "1.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.3",
+                "cy": "43.5",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.3",
+                "cy": "43.5",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "40.3",
+                "cy": "60.9",
+                "r": "1.3",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "38.8",
+                "cy": "48.9",
+                "r": "1.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "29.7",
+                "cy": "65",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "auriga": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M31.1 53.3L33.2 31.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33.2 31.1L54.9 28.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M54.9 28.9L63 42.6",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M63 42.6L67.8 65.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50.1 79L67.8 65.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50.1 79L31.1 53.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "67.8",
+                "cy": "65.1",
+                "r": "1.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "63",
+                "cy": "42.6",
+                "r": "1.2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "54.9",
+                "cy": "28.9",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "54.9",
+                "cy": "28.9",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50.1",
+                "cy": "79",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33.2",
+                "cy": "31.1",
+                "r": "1.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "31.1",
+                "cy": "53.3",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "bear": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22.1 51.3L36.2 45",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36.2 45L47.5 38.6",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47.5 38.6L55.2 34.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55.2 34.3L61.5 27.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M61.5 27.3L67.9 36.6",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M67.9 36.6L76.9 46.6",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M76.9 46.6L70.2 68",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M70.2 68L54.2 78.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M54.2 78.7L34.2 68.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M34.2 68.7L27.8 58.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M27.8 58.3L22.1 51.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "22.1",
+                "cy": "51.3",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "22.1",
+                "cy": "51.3",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "36.2",
+                "cy": "45",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "47.5",
+                "cy": "38.6",
+                "r": "1.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "55.2",
+                "cy": "34.3",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61.5",
+                "cy": "27.3",
+                "r": "1.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "67.9",
+                "cy": "36.6",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "76.9",
+                "cy": "46.6",
+                "r": "1.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "70.2",
+                "cy": "68",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "54.2",
+                "cy": "78.7",
+                "r": "1.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "34.2",
+                "cy": "68.7",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "27.8",
+                "cy": "58.3",
+                "r": "1.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "46.2",
+                "cy": "46.6",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ],
+          "weight": 0.5
+        },
+        "bigDipper": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M68.7 36.7L72.4 46.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M72.4 46.9L58.8 55.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58.8 55.1L52.3 48.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52.3 48.9L68.7 36.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52.3 48.9L41.7 50.6",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M41.7 50.6L33.1 51.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33.1 51.3L22.9 60.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "72.4",
+                "cy": "46.9",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68.7",
+                "cy": "36.7",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "58.8",
+                "cy": "55.1",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "52.3",
+                "cy": "48.9",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.7",
+                "cy": "50.6",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.7",
+                "cy": "50.6",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33.1",
+                "cy": "51.3",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "22.9",
+                "cy": "60.4",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "bootes": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M45.1 73.7L56.5 63.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M56.5 63.3L44.1 48.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44.1 48.8L32.4 36.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M32.4 36.4L38.6 23.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38.6 23.3L49.4 27.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M49.4 27.9L49.5 42.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M49.5 42.8L56.5 63.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M56.5 63.3L65.9 64.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M65.9 64.5L68.6 69.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68.6",
+                "cy": "69.3",
+                "r": "1.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65.9",
+                "cy": "64.5",
+                "r": "1.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "56.5",
+                "cy": "63.3",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "56.5",
+                "cy": "63.3",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "49.5",
+                "cy": "42.8",
+                "r": "1.2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "49.4",
+                "cy": "27.9",
+                "r": "1.3",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "45.1",
+                "cy": "73.7",
+                "r": "1.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "44.1",
+                "cy": "48.8",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "38.6",
+                "cy": "23.3",
+                "r": "1.2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32.4",
+                "cy": "36.4",
+                "r": "1.2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "camelopardalis": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M62.1 69.1L53.2 62.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53.2 62.4L39.3 53.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M62.1 69.1L53.6 42.6",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53.6 42.6L39.3 53.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53.6 42.6L41.8 22.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "62.1",
+                "cy": "69.1",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "62.1",
+                "cy": "69.1",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "53.6",
+                "cy": "42.6",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "53.2",
+                "cy": "62.4",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39.3",
+                "cy": "53.7",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.8",
+                "cy": "22.2",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "cassiopeia": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25.7 34.2L36.9 49.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36.9 49.9L51.3 48.6",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M51.3 48.6L60.4 64.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M60.4 64.9L75.7 52.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "75.7",
+                "cy": "52.4",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "60.4",
+                "cy": "64.9",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "51.3",
+                "cy": "48.6",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "51.3",
+                "cy": "48.6",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "36.9",
+                "cy": "49.9",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "25.7",
+                "cy": "34.2",
+                "r": "1.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "cepheus": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M49.4 72.2L40.3 52.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M40.3 52.2L58 42",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58 42L63.8 60.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M63.8 60.3L49.4 72.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M40.3 52.2L38.6 23.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38.6 23.3L58 42",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "63.8",
+                "cy": "60.3",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "63.8",
+                "cy": "60.3",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "58",
+                "cy": "42",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "49.4",
+                "cy": "72.2",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "40.3",
+                "cy": "52.2",
+                "r": "1.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "38.6",
+                "cy": "23.3",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "coronaBorealis": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M66 27.3L74 42.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M74 42.5L64 59.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M64 59.2L51.7 62.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M51.7 62.1L41.2 63.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M41.2 63.7L29.1 57.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M29.1 57.9L23.9 37.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "74",
+                "cy": "42.5",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "66",
+                "cy": "27.3",
+                "r": "1.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "64",
+                "cy": "59.2",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "64",
+                "cy": "59.2",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "51.7",
+                "cy": "62.1",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.2",
+                "cy": "63.7",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "29.1",
+                "cy": "57.9",
+                "r": "1.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "23.9",
+                "cy": "37.3",
+                "r": "1.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "corvus": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M37.1 29.1L39.9 30.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M39.9 30.7L57.6 36.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M57.6 36.1L64.3 62.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M64.3 62.9L66.1 74.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M64.3 62.9L34.9 67",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M34.9 67L39.9 30.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "66.1",
+                "cy": "74.1",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "64.3",
+                "cy": "62.9",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "57.6",
+                "cy": "36.1",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "57.6",
+                "cy": "36.1",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39.9",
+                "cy": "30.7",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "37.1",
+                "cy": "29.1",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "34.9",
+                "cy": "67",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "delphinus": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M63.2 75.8L54.8 50.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M54.8 50.1L50.8 39.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50.8 39.8L37.6 38",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M37.6 38L43.6 46.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M43.6 46.3L54.8 50.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "63.2",
+                "cy": "75.8",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "54.8",
+                "cy": "50.1",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "54.8",
+                "cy": "50.1",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50.8",
+                "cy": "39.8",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "43.6",
+                "cy": "46.3",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "37.6",
+                "cy": "38",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "dice": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36 36L64 36",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M64 36L64 64",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M64 64L36 64",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36 64L36 36",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "36",
+                "cy": "36",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "64",
+                "cy": "36",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "64",
+                "cy": "64",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "36",
+                "cy": "64",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "43",
+                "cy": "43",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "57",
+                "cy": "43",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "43",
+                "cy": "57",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "57",
+                "cy": "57",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ],
+          "weight": 0.5
+        },
+        "grus": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M35.1 45.8L52.7 45.1",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52.7 45.1L61.7 54.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M61.7 54.5L46.6 53.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M46.6 53.8L33.9 50.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33.9 50.4L35.1 45.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M46.6 53.8L39.8 69.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M46.6 53.8L44.5 65.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M61.7 54.5L64.4 35.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M64.4 35.4L71.3 30.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "71.3",
+                "cy": "30.3",
+                "r": "1.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "64.4",
+                "cy": "35.4",
+                "r": "1.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61.7",
+                "cy": "54.5",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61.7",
+                "cy": "54.5",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "52.7",
+                "cy": "45.1",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "46.6",
+                "cy": "53.8",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "44.5",
+                "cy": "65.3",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39.8",
+                "cy": "69.4",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35.1",
+                "cy": "45.8",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33.9",
+                "cy": "50.4",
+                "r": "1.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "lacerta": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M56.1 78.4L47.2 61.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47.2 61.4L48 47",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M48 47L50.6 41.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50.6 41.5L51 32.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M51 32.8L47.2 38.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47.2 38.9L48 47",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "56.1",
+                "cy": "78.4",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "51",
+                "cy": "32.8",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50.6",
+                "cy": "41.5",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "48",
+                "cy": "47",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "47.2",
+                "cy": "61.4",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "47.2",
+                "cy": "38.9",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "47.2",
+                "cy": "38.9",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            }
+          ]
+        },
+        "lynx": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M35.4 63.8L36.5 60.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36.5 60.8L39.9 59.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M39.9 59.2L41.8 55.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M41.8 55.2L50.4 53.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50.4 53.9L61.6 45.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M61.6 45.4L64.3 32.6",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M64.3 32.6L70.2 29.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "70.2",
+                "cy": "29.2",
+                "r": "1.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "64.3",
+                "cy": "32.6",
+                "r": "1.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61.6",
+                "cy": "45.4",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50.4",
+                "cy": "53.9",
+                "r": "1.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.8",
+                "cy": "55.2",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39.9",
+                "cy": "59.2",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "36.5",
+                "cy": "60.8",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35.4",
+                "cy": "63.8",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35.4",
+                "cy": "63.8",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            }
+          ]
+        },
+        "lyra": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M68.3 27.5L56.7 36.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M56.7 36.8L48.6 69.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M48.6 69.3L34.4 74.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M34.4 74.2L41.9 42.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M41.9 42.2L56.7 36.8",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68.3",
+                "cy": "27.5",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68.3",
+                "cy": "27.5",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "56.7",
+                "cy": "36.8",
+                "r": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "48.6",
+                "cy": "69.3",
+                "r": "1.2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.9",
+                "cy": "42.2",
+                "r": "1.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "34.4",
+                "cy": "74.2",
+                "r": "1.3",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "orion": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M35.8 24.7L58 28",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58 28L52.9 47.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M35.8 24.7L46.5 52.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52.9 47.7L49.8 50.4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M49.8 50.4L46.5 52.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52.9 47.7L65.8 71.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M46.5 52.5L41.3 75.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M65.8 71.2L41.3 75.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65.8",
+                "cy": "71.2",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65.8",
+                "cy": "71.2",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "58",
+                "cy": "28",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "52.9",
+                "cy": "47.7",
+                "r": "1.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "49.8",
+                "cy": "50.4",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "46.5",
+                "cy": "52.5",
+                "r": "1.7",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.3",
+                "cy": "75.5",
+                "r": "1.6",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35.8",
+                "cy": "24.7",
+                "r": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        },
+        "ursaMinor": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M49.4 21L45.9 31.3",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M45.9 31.3L44.4 43.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44.4 43.9L50.2 56",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50.2 56L44.8 61.2",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44.8 61.2L55.3 71.9",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55.3 71.9L60.1 64.7",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M60.1 64.7L50.2 56",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".4",
+                "stroke-width": ".8",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "49.4",
+                "cy": "21",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "49.4",
+                "cy": "21",
+                "r": "4",
+                "stroke": {
+                  "type": "color",
+                  "name": "constellation"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": ".7"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "60.1",
+                "cy": "64.7",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "55.3",
+                "cy": "71.9",
+                "r": "1.8",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50.2",
+                "cy": "56",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "44.8",
+                "cy": "61.2",
+                "r": "1.4",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "44.4",
+                "cy": "43.9",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "45.9",
+                "cy": "31.3",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "constellation"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "star": {
+      "width": 10,
+      "height": 10,
+      "probability": 85,
+      "translate": {
+        "x": {
+          "min": -120,
+          "max": 120
+        },
+        "y": {
+          "min": -120,
+          "max": 120
+        }
+      },
+      "variants": {
+        "faint": {
+          "weight": 3,
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "5",
+                "cy": "5",
+                "r": "0.6",
+                "fill": "#fff",
+                "fill-opacity": ".4"
+              }
+            }
+          ]
+        },
+        "small": {
+          "weight": 3,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbca-tw-small"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "5",
+                    "cy": "5",
+                    "r": "0.8",
+                    "fill": "#fff",
+                    "fill-opacity": ".6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "medium": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbca-tw-medium"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "5",
+                    "cy": "5",
+                    "r": "1",
+                    "fill": "#fff",
+                    "fill-opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "star02": {
+      "extends": "star"
+    },
+    "star03": {
+      "extends": "star"
+    },
+    "star04": {
+      "extends": "star"
+    },
+    "star05": {
+      "extends": "star"
+    },
+    "star06": {
+      "extends": "star"
+    },
+    "star07": {
+      "extends": "star"
+    },
+    "star08": {
+      "extends": "star"
+    },
+    "star09": {
+      "extends": "star"
+    },
+    "star10": {
+      "extends": "star"
+    },
+    "star11": {
+      "extends": "star"
+    },
+    "star12": {
+      "extends": "star"
+    },
+    "star13": {
+      "extends": "star"
+    },
+    "star14": {
+      "extends": "star"
+    },
+    "star15": {
+      "extends": "star"
+    },
+    "star16": {
+      "extends": "star"
+    },
+    "animation": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "none": {
+          "elements": []
+        },
+        "fastest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbca-fastest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbca-fastest){--dbca-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "fast": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbca-fast"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbca-fast){--dbca-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "medium": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbca-medium"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbca-medium){--dbca-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "slow": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbca-slow"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbca-slow){--dbca-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "slowest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbca-slowest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbca-slowest){--dbca-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}}"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#131e37",
+        "#1f2040",
+        "#27193c",
+        "#0d1e2f",
+        "#032933",
+        "#032729",
+        "#2f182d",
+        "#181a22"
+      ]
+    },
+    "constellation": {
+      "values": [
+        "#ece8dd",
+        "#e7ecf0",
+        "#e9dab2",
+        "#c1e0f0",
+        "#f1d7d2"
+      ]
+    }
+  }
+}

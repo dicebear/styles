@@ -44,6 +44,10 @@
       "types": "./dist/big-smile.min.json",
       "default": "./dist/big-smile.min.json"
     },
+    "./blobs.json": {
+      "types": "./dist/blobs.min.json",
+      "default": "./dist/blobs.min.json"
+    },
     "./bottts-neutral.json": {
       "types": "./dist/bottts-neutral.min.json",
       "default": "./dist/bottts-neutral.min.json"
@@ -51,6 +55,10 @@
     "./bottts.json": {
       "types": "./dist/bottts.min.json",
       "default": "./dist/bottts.min.json"
+    },
+    "./constellation.json": {
+      "types": "./dist/constellation.min.json",
+      "default": "./dist/constellation.min.json"
     },
     "./croodles-neutral.json": {
       "types": "./dist/croodles-neutral.min.json",
@@ -96,6 +104,14 @@
       "types": "./dist/initials.min.json",
       "default": "./dist/initials.min.json"
     },
+    "./landscape.json": {
+      "types": "./dist/landscape.min.json",
+      "default": "./dist/landscape.min.json"
+    },
+    "./loops.json": {
+      "types": "./dist/loops.min.json",
+      "default": "./dist/loops.min.json"
+    },
     "./lorelei-neutral.json": {
       "types": "./dist/lorelei-neutral.min.json",
       "default": "./dist/lorelei-neutral.min.json"
@@ -136,6 +152,14 @@
       "types": "./dist/pixel-art.min.json",
       "default": "./dist/pixel-art.min.json"
     },
+    "./pixelbot.json": {
+      "types": "./dist/pixelbot.min.json",
+      "default": "./dist/pixelbot.min.json"
+    },
+    "./planets.json": {
+      "types": "./dist/planets.min.json",
+      "default": "./dist/planets.min.json"
+    },
     "./rings.json": {
       "types": "./dist/rings.min.json",
       "default": "./dist/rings.min.json"
@@ -147,6 +171,10 @@
     "./shapes.json": {
       "types": "./dist/shapes.min.json",
       "default": "./dist/shapes.min.json"
+    },
+    "./squircles.json": {
+      "types": "./dist/squircles.min.json",
+      "default": "./dist/squircles.min.json"
     },
     "./stripes.json": {
       "types": "./dist/stripes.min.json",
@@ -163,6 +191,10 @@
     "./triangles.json": {
       "types": "./dist/triangles.min.json",
       "default": "./dist/triangles.min.json"
+    },
+    "./waves.json": {
+      "types": "./dist/waves.min.json",
+      "default": "./dist/waves.min.json"
     }
   },
   "files": [
@@ -177,7 +209,7 @@
     "validate": "bash scripts/validate.sh"
   },
   "devDependencies": {
-    "@dicebear/schema": "^1.0.0"
+    "@dicebear/schema": "^1.3.0"
   },
   "publishConfig": {
     "access": "public"

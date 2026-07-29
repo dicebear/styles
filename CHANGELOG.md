@@ -12,6 +12,48 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Added
+
+- **Opt-in animation.** All new styles below, as well as Shapes, Glass,
+  Thumbs, and Initial Face, carry an `animation` component. By default
+  (`none`) they render fully static. The `animationVariant` render option
+  selects a speed from `fastest` to `slowest`. Animations respect
+  `prefers-reduced-motion`.
+- **New style: Loops.** A truchet pattern: quarter-circle arc tiles on a 3x3
+  grid join into meandering paths. The pattern is tone-in-tone with the
+  background by default, `patternVariant` switches to plain white or black.
+  When animated, the tiles quarter-turn and keep reconfiguring the pattern.
+  Hand-authored, CC0 1.0.
+- **New style: Pixelbot.** An AI-bot face on a 12x12 LED panel. Unlit cells
+  stay dark, lit pixels draw the face: seven eye sets and five mouths, nine
+  glow colors, ten dark backgrounds. With animation enabled,
+  the eyes blink row by row, the mouths widen, and every pixel switches hard
+  like a real LED. Hand-authored, CC0 1.0.
+- **New style: Squircles.** A depth stack of three to five nested
+  superellipses. Opacity rises toward the center, each layer is jittered and
+  rotated, and a small accent squircle appears on most seeds. Hand-authored,
+  CC0 1.0.
+- **New style: Blobs.** Two to four layered organic forms in white or black
+  over a strong background color. Compositions range from calm concentric
+  stacks to off-center clusters. Hand-authored, CC0 1.0.
+- **New style: Constellation.** A constellation over a deep night sky, drawn
+  from real star data, plus a per-seed star field, an occasional shooting
+  star, and two rare easter eggs. Hand-authored, CC0 1.0.
+- **New style: Landscape.** An abstract layered landscape: four hill bands,
+  an optional sun or moon, and curated nature palettes that keep every random
+  combination harmonious. Hand-authored, CC0 1.0.
+- **New style: Planets.** A single planet over deep space with ten surface
+  variants, an optional ring, moons, and a random star field. `shadeVariant`
+  switches to a crisp two-tone shading. Hand-authored, CC0 1.0.
+- **New style: Waves.** Three to six translucent wave bands over a saturated
+  background color, freely rotated per seed. `rotationVariant` locks the
+  direction. Hand-authored, CC0 1.0.
+
+### Removed
+
+- **Variant tags.** The tags introduced in 10.3.0-rc.1 moved to the
+  `feat/variant-tags` branch and are not part of this release.
+
 ## [10.3.0-rc.1] - 2026-06-21
 
 ### Added

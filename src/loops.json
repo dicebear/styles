@@ -1,0 +1,711 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Loops” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Loops",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "pattern",
+        "type": "component"
+      },
+      {
+        "name": "animation",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "tile": {
+      "width": 28,
+      "height": 28,
+      "rotate": {
+        "min": 0,
+        "max": 90,
+        "step": 90
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 14A14 14 0 0 1 14 0",
+                "stroke-width": "8",
+                "stroke": {
+                  "type": "color",
+                  "name": "line"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M14 28A14 14 0 0 0 28 14",
+                "stroke-width": "8",
+                "stroke": {
+                  "type": "color",
+                  "name": "line"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "tile02": {
+      "extends": "tile"
+    },
+    "tile03": {
+      "extends": "tile"
+    },
+    "tile04": {
+      "extends": "tile"
+    },
+    "tile05": {
+      "extends": "tile"
+    },
+    "tile06": {
+      "extends": "tile"
+    },
+    "tile07": {
+      "extends": "tile"
+    },
+    "tile08": {
+      "extends": "tile"
+    },
+    "tile09": {
+      "extends": "tile"
+    },
+    "pattern": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "alt": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-g1"
+              },
+              "children": [
+                {
+                  "name": "tile",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(8 8)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-g2"
+              },
+              "children": [
+                {
+                  "name": "tile02",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(36 8)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-g3"
+              },
+              "children": [
+                {
+                  "name": "tile03",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(64 8)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-g1"
+              },
+              "children": [
+                {
+                  "name": "tile04",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(8 36)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-g2"
+              },
+              "children": [
+                {
+                  "name": "tile05",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(36 36)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-g3"
+              },
+              "children": [
+                {
+                  "name": "tile06",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(64 36)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-g1"
+              },
+              "children": [
+                {
+                  "name": "tile07",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(8 64)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-g2"
+              },
+              "children": [
+                {
+                  "name": "tile08",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(36 64)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-g3"
+              },
+              "children": [
+                {
+                  "name": "tile09",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(64 64)"
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 0
+        },
+        "default": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "style": "mix-blend-mode:overlay"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g1"
+                  },
+                  "children": [
+                    {
+                      "name": "tile",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(8 8)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g2"
+                  },
+                  "children": [
+                    {
+                      "name": "tile02",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(36 8)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g3"
+                  },
+                  "children": [
+                    {
+                      "name": "tile03",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(64 8)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g1"
+                  },
+                  "children": [
+                    {
+                      "name": "tile04",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(8 36)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g2"
+                  },
+                  "children": [
+                    {
+                      "name": "tile05",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(36 36)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g3"
+                  },
+                  "children": [
+                    {
+                      "name": "tile06",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(64 36)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g1"
+                  },
+                  "children": [
+                    {
+                      "name": "tile07",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(8 64)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g2"
+                  },
+                  "children": [
+                    {
+                      "name": "tile08",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(36 64)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g3"
+                  },
+                  "children": [
+                    {
+                      "name": "tile09",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(64 64)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": ".5"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g1"
+                  },
+                  "children": [
+                    {
+                      "name": "tile",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(8 8)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g2"
+                  },
+                  "children": [
+                    {
+                      "name": "tile02",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(36 8)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g3"
+                  },
+                  "children": [
+                    {
+                      "name": "tile03",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(64 8)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g1"
+                  },
+                  "children": [
+                    {
+                      "name": "tile04",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(8 36)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g2"
+                  },
+                  "children": [
+                    {
+                      "name": "tile05",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(36 36)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g3"
+                  },
+                  "children": [
+                    {
+                      "name": "tile06",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(64 36)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g1"
+                  },
+                  "children": [
+                    {
+                      "name": "tile07",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(8 64)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g2"
+                  },
+                  "children": [
+                    {
+                      "name": "tile08",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(36 64)"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dblo-g3"
+                  },
+                  "children": [
+                    {
+                      "name": "tile09",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(64 64)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "animation": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "none": {
+          "elements": []
+        },
+        "fastest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-fastest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dblo-fastest){--dblo-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "fast": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-fast"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dblo-fast){--dblo-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "medium": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-medium"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dblo-medium){--dblo-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "slow": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-slow"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dblo-slow){--dblo-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "slowest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dblo-slowest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dblo-slowest){--dblo-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbloTurn{0%,17%{transform:rotate(0deg)}23%,42%{transform:rotate(90deg)}48%,67%{transform:rotate(180deg)}73%,92%{transform:rotate(270deg)}98%,100%{transform:rotate(360deg)}} .dblo-g1,.dblo-g2,.dblo-g3{transform-box:fill-box;transform-origin:center} .dblo-g1{animation:dbloTurn calc(var(--dblo-t,1)*26s) ease-in-out infinite} .dblo-g2{animation:dbloTurn calc(var(--dblo-t,1)*34s) ease-in-out infinite} .dblo-g3{animation:dbloTurn calc(var(--dblo-t,1)*43s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#0369a1",
+        "#1d4ed8",
+        "#4338ca",
+        "#6d28d9",
+        "#a21caf",
+        "#be185d",
+        "#be123c",
+        "#c2410c",
+        "#b45309",
+        "#047857",
+        "#0f766e",
+        "#1e293b"
+      ]
+    },
+    "line": {
+      "contrastTo": "background",
+      "values": [
+        "#ffffff",
+        "#000000"
+      ]
+    }
+  }
+}

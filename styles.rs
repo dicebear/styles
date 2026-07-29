@@ -64,11 +64,17 @@ pub const BIG_EARS_NEUTRAL: &str = include_str!("src/big-ears-neutral.json");
 #[cfg(feature = "big-smile")]
 pub const BIG_SMILE: &str = include_str!("src/big-smile.json");
 
+#[cfg(feature = "blobs")]
+pub const BLOBS: &str = include_str!("src/blobs.json");
+
 #[cfg(feature = "bottts")]
 pub const BOTTTS: &str = include_str!("src/bottts.json");
 
 #[cfg(feature = "bottts-neutral")]
 pub const BOTTTS_NEUTRAL: &str = include_str!("src/bottts-neutral.json");
+
+#[cfg(feature = "constellation")]
+pub const CONSTELLATION: &str = include_str!("src/constellation.json");
 
 #[cfg(feature = "croodles")]
 pub const CROODLES: &str = include_str!("src/croodles.json");
@@ -103,6 +109,12 @@ pub const INITIAL_FACE: &str = include_str!("src/initial-face.json");
 #[cfg(feature = "initials")]
 pub const INITIALS: &str = include_str!("src/initials.json");
 
+#[cfg(feature = "landscape")]
+pub const LANDSCAPE: &str = include_str!("src/landscape.json");
+
+#[cfg(feature = "loops")]
+pub const LOOPS: &str = include_str!("src/loops.json");
+
 #[cfg(feature = "lorelei")]
 pub const LORELEI: &str = include_str!("src/lorelei.json");
 
@@ -133,6 +145,12 @@ pub const PIXEL_ART: &str = include_str!("src/pixel-art.json");
 #[cfg(feature = "pixel-art-neutral")]
 pub const PIXEL_ART_NEUTRAL: &str = include_str!("src/pixel-art-neutral.json");
 
+#[cfg(feature = "pixelbot")]
+pub const PIXELBOT: &str = include_str!("src/pixelbot.json");
+
+#[cfg(feature = "planets")]
+pub const PLANETS: &str = include_str!("src/planets.json");
+
 #[cfg(feature = "rings")]
 pub const RINGS: &str = include_str!("src/rings.json");
 
@@ -141,6 +159,9 @@ pub const SHAPE_GRID: &str = include_str!("src/shape-grid.json");
 
 #[cfg(feature = "shapes")]
 pub const SHAPES: &str = include_str!("src/shapes.json");
+
+#[cfg(feature = "squircles")]
+pub const SQUIRCLES: &str = include_str!("src/squircles.json");
 
 #[cfg(feature = "stripes")]
 pub const STRIPES: &str = include_str!("src/stripes.json");
@@ -153,6 +174,9 @@ pub const TOON_HEAD: &str = include_str!("src/toon-head.json");
 
 #[cfg(feature = "triangles")]
 pub const TRIANGLES: &str = include_str!("src/triangles.json");
+
+#[cfg(feature = "waves")]
+pub const WAVES: &str = include_str!("src/waves.json");
 
 /// Returns the raw JSON definition for the named style, or `None` if the style is
 /// unknown or its feature is not enabled in this build.
@@ -172,10 +196,14 @@ pub fn get(name: &str) -> Option<&'static str> {
         "big-ears-neutral" => Some(BIG_EARS_NEUTRAL),
         #[cfg(feature = "big-smile")]
         "big-smile" => Some(BIG_SMILE),
+        #[cfg(feature = "blobs")]
+        "blobs" => Some(BLOBS),
         #[cfg(feature = "bottts")]
         "bottts" => Some(BOTTTS),
         #[cfg(feature = "bottts-neutral")]
         "bottts-neutral" => Some(BOTTTS_NEUTRAL),
+        #[cfg(feature = "constellation")]
+        "constellation" => Some(CONSTELLATION),
         #[cfg(feature = "croodles")]
         "croodles" => Some(CROODLES),
         #[cfg(feature = "croodles-neutral")]
@@ -198,6 +226,10 @@ pub fn get(name: &str) -> Option<&'static str> {
         "initial-face" => Some(INITIAL_FACE),
         #[cfg(feature = "initials")]
         "initials" => Some(INITIALS),
+        #[cfg(feature = "landscape")]
+        "landscape" => Some(LANDSCAPE),
+        #[cfg(feature = "loops")]
+        "loops" => Some(LOOPS),
         #[cfg(feature = "lorelei")]
         "lorelei" => Some(LORELEI),
         #[cfg(feature = "lorelei-neutral")]
@@ -218,12 +250,18 @@ pub fn get(name: &str) -> Option<&'static str> {
         "pixel-art" => Some(PIXEL_ART),
         #[cfg(feature = "pixel-art-neutral")]
         "pixel-art-neutral" => Some(PIXEL_ART_NEUTRAL),
+        #[cfg(feature = "pixelbot")]
+        "pixelbot" => Some(PIXELBOT),
+        #[cfg(feature = "planets")]
+        "planets" => Some(PLANETS),
         #[cfg(feature = "rings")]
         "rings" => Some(RINGS),
         #[cfg(feature = "shape-grid")]
         "shape-grid" => Some(SHAPE_GRID),
         #[cfg(feature = "shapes")]
         "shapes" => Some(SHAPES),
+        #[cfg(feature = "squircles")]
+        "squircles" => Some(SQUIRCLES),
         #[cfg(feature = "stripes")]
         "stripes" => Some(STRIPES),
         #[cfg(feature = "thumbs")]
@@ -232,6 +270,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "toon-head" => Some(TOON_HEAD),
         #[cfg(feature = "triangles")]
         "triangles" => Some(TRIANGLES),
+        #[cfg(feature = "waves")]
+        "waves" => Some(WAVES),
         _ => None,
     }
 }
@@ -256,10 +296,14 @@ pub fn all() -> Vec<&'static str> {
     v.push("big-ears-neutral");
     #[cfg(feature = "big-smile")]
     v.push("big-smile");
+    #[cfg(feature = "blobs")]
+    v.push("blobs");
     #[cfg(feature = "bottts")]
     v.push("bottts");
     #[cfg(feature = "bottts-neutral")]
     v.push("bottts-neutral");
+    #[cfg(feature = "constellation")]
+    v.push("constellation");
     #[cfg(feature = "croodles")]
     v.push("croodles");
     #[cfg(feature = "croodles-neutral")]
@@ -282,6 +326,10 @@ pub fn all() -> Vec<&'static str> {
     v.push("initial-face");
     #[cfg(feature = "initials")]
     v.push("initials");
+    #[cfg(feature = "landscape")]
+    v.push("landscape");
+    #[cfg(feature = "loops")]
+    v.push("loops");
     #[cfg(feature = "lorelei")]
     v.push("lorelei");
     #[cfg(feature = "lorelei-neutral")]
@@ -302,12 +350,18 @@ pub fn all() -> Vec<&'static str> {
     v.push("pixel-art");
     #[cfg(feature = "pixel-art-neutral")]
     v.push("pixel-art-neutral");
+    #[cfg(feature = "pixelbot")]
+    v.push("pixelbot");
+    #[cfg(feature = "planets")]
+    v.push("planets");
     #[cfg(feature = "rings")]
     v.push("rings");
     #[cfg(feature = "shape-grid")]
     v.push("shape-grid");
     #[cfg(feature = "shapes")]
     v.push("shapes");
+    #[cfg(feature = "squircles")]
+    v.push("squircles");
     #[cfg(feature = "stripes")]
     v.push("stripes");
     #[cfg(feature = "thumbs")]
@@ -316,5 +370,7 @@ pub fn all() -> Vec<&'static str> {
     v.push("toon-head");
     #[cfg(feature = "triangles")]
     v.push("triangles");
+    #[cfg(feature = "waves")]
+    v.push("waves");
     v
 }

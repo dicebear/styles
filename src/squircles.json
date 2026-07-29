@@ -1,0 +1,701 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Squircles” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Squircles",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "body",
+        "type": "component"
+      },
+      {
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "class": "dbsq-acc"
+        },
+        "children": [
+          {
+            "name": "accent",
+            "type": "component"
+          }
+        ]
+      },
+      {
+        "name": "animation",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "body": {
+      "width": 100,
+      "height": 100,
+      "translate": {
+        "x": {
+          "min": -5,
+          "max": 5
+        },
+        "y": {
+          "min": -5,
+          "max": 5
+        }
+      },
+      "variants": {
+        "trio": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.22"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l1"
+                  },
+                  "children": [
+                    {
+                      "name": "level1",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.4"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l2"
+                  },
+                  "children": [
+                    {
+                      "name": "level3",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.58"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l3"
+                  },
+                  "children": [
+                    {
+                      "name": "level5",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "quartet": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.2"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l1"
+                  },
+                  "children": [
+                    {
+                      "name": "level2",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.33"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l2"
+                  },
+                  "children": [
+                    {
+                      "name": "level3",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.46"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l3"
+                  },
+                  "children": [
+                    {
+                      "name": "level4",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.6"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l4"
+                  },
+                  "children": [
+                    {
+                      "name": "level5",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        "quintet": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.16"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l1"
+                  },
+                  "children": [
+                    {
+                      "name": "level1",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.27"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l2"
+                  },
+                  "children": [
+                    {
+                      "name": "level2",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.38"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l3"
+                  },
+                  "children": [
+                    {
+                      "name": "level3",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.5"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l4"
+                  },
+                  "children": [
+                    {
+                      "name": "level4",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.62"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "class": "dbsq-l5"
+                  },
+                  "children": [
+                    {
+                      "name": "level5",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "accent": {
+      "width": 100,
+      "height": 100,
+      "probability": 80,
+      "rotate": {
+        "min": -12,
+        "max": 12
+      },
+      "translate": {
+        "x": {
+          "min": -27,
+          "max": 27
+        },
+        "y": {
+          "min": -27,
+          "max": 27
+        }
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M57 50C57 51.03 56.98 52.37 56.93 53.09C56.89 53.81 56.82 53.98 56.73 54.33C56.64 54.68 56.52 54.96 56.38 55.22C56.24 55.48 56.08 55.69 55.89 55.89C55.69 56.08 55.48 56.24 55.22 56.38C54.96 56.52 54.68 56.64 54.33 56.73C53.98 56.82 53.81 56.89 53.09 56.93C52.37 56.98 51.03 57 50 57C48.97 57 47.63 56.98 46.91 56.93C46.19 56.89 46.02 56.82 45.67 56.73C45.32 56.64 45.04 56.52 44.78 56.38C44.52 56.24 44.31 56.08 44.11 55.89C43.92 55.69 43.76 55.48 43.62 55.22C43.48 54.96 43.36 54.68 43.27 54.33C43.18 53.98 43.11 53.81 43.07 53.09C43.02 52.37 43 51.03 43 50C43 48.97 43.02 47.63 43.07 46.91C43.11 46.19 43.18 46.02 43.27 45.67C43.36 45.32 43.48 45.04 43.62 44.78C43.76 44.52 43.92 44.31 44.11 44.11C44.31 43.92 44.52 43.76 44.78 43.62C45.04 43.48 45.32 43.36 45.67 43.27C46.02 43.18 46.19 43.11 46.91 43.07C47.63 43.02 48.97 43 50 43C51.03 43 52.37 43.02 53.09 43.07C53.81 43.11 53.98 43.18 54.33 43.27C54.68 43.36 54.96 43.48 55.22 43.62C55.48 43.76 55.69 43.92 55.89 44.11C56.08 44.31 56.24 44.52 56.38 44.78C56.52 45.04 56.64 45.32 56.73 45.67C56.82 46.02 56.89 46.19 56.93 46.91C56.98 47.63 57 48.97 57 50Z",
+                "fill-opacity": "0.9",
+                "fill": {
+                  "type": "color",
+                  "name": "shape"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "level1": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -12,
+        "max": 12
+      },
+      "translate": {
+        "x": {
+          "min": -6,
+          "max": 6
+        },
+        "y": {
+          "min": -6,
+          "max": 6
+        }
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M96 50C96 55.54 95.93 62.72 95.8 66.62C95.67 70.52 95.47 71.43 95.21 73.4C94.94 75.38 94.61 76.94 94.21 78.46C93.81 79.98 93.35 81.29 92.81 82.53C92.27 83.77 91.66 84.86 90.97 85.89C90.28 86.92 89.53 87.83 88.68 88.68C87.83 89.53 86.92 90.28 85.89 90.97C84.86 91.66 83.77 92.27 82.53 92.81C81.29 93.35 79.98 93.81 78.46 94.21C76.94 94.61 75.38 94.94 73.4 95.21C71.43 95.47 70.52 95.67 66.62 95.8C62.72 95.93 55.54 96 50 96C44.46 96 37.28 95.93 33.38 95.8C29.48 95.67 28.57 95.47 26.6 95.21C24.62 94.94 23.06 94.61 21.54 94.21C20.02 93.81 18.71 93.35 17.47 92.81C16.23 92.27 15.14 91.66 14.11 90.97C13.08 90.28 12.17 89.53 11.32 88.68C10.47 87.83 9.72 86.92 9.03 85.89C8.34 84.86 7.73 83.77 7.19 82.53C6.65 81.29 6.19 79.98 5.79 78.46C5.39 76.94 5.06 75.38 4.79 73.4C4.53 71.43 4.33 70.52 4.2 66.62C4.07 62.72 4 55.54 4 50C4 44.46 4.07 37.28 4.2 33.38C4.33 29.48 4.53 28.57 4.79 26.6C5.06 24.62 5.39 23.06 5.79 21.54C6.19 20.02 6.65 18.71 7.19 17.47C7.73 16.23 8.34 15.14 9.03 14.11C9.72 13.08 10.47 12.17 11.32 11.32C12.17 10.47 13.08 9.72 14.11 9.03C15.14 8.34 16.23 7.73 17.47 7.19C18.71 6.65 20.02 6.19 21.54 5.79C23.06 5.39 24.62 5.06 26.6 4.79C28.57 4.53 29.48 4.33 33.38 4.2C37.28 4.07 44.46 4 50 4C55.54 4 62.72 4.07 66.62 4.2C70.52 4.33 71.43 4.53 73.4 4.79C75.38 5.06 76.94 5.39 78.46 5.79C79.98 6.19 81.29 6.65 82.53 7.19C83.77 7.73 84.86 8.34 85.89 9.03C86.92 9.72 87.83 10.47 88.68 11.32C89.53 12.17 90.28 13.08 90.97 14.11C91.66 15.14 92.27 16.23 92.81 17.47C93.35 18.71 93.81 20.02 94.21 21.54C94.61 23.06 94.94 24.62 95.21 26.6C95.47 28.57 95.67 29.48 95.8 33.38C95.93 37.28 96 44.46 96 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "level2": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -12,
+        "max": 12
+      },
+      "translate": {
+        "x": {
+          "min": -6,
+          "max": 6
+        },
+        "y": {
+          "min": -6,
+          "max": 6
+        }
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M88 50C88 54.58 87.95 60.51 87.84 63.73C87.73 66.95 87.57 67.7 87.35 69.33C87.13 70.96 86.86 72.25 86.53 73.51C86.19 74.76 85.81 75.85 85.36 76.87C84.92 77.89 84.41 78.8 83.85 79.65C83.28 80.5 82.65 81.25 81.95 81.95C81.25 82.65 80.5 83.28 79.65 83.85C78.8 84.41 77.89 84.92 76.87 85.36C75.85 85.81 74.76 86.19 73.51 86.53C72.25 86.86 70.96 87.13 69.33 87.35C67.7 87.57 66.95 87.73 63.73 87.84C60.51 87.95 54.58 88 50 88C45.42 88 39.49 87.95 36.27 87.84C33.05 87.73 32.3 87.57 30.67 87.35C29.04 87.13 27.75 86.86 26.49 86.53C25.24 86.19 24.15 85.81 23.13 85.36C22.11 84.92 21.2 84.41 20.35 83.85C19.5 83.28 18.75 82.65 18.05 81.95C17.35 81.25 16.72 80.5 16.15 79.65C15.59 78.8 15.08 77.89 14.64 76.87C14.19 75.85 13.81 74.76 13.47 73.51C13.14 72.25 12.87 70.96 12.65 69.33C12.43 67.7 12.27 66.95 12.16 63.73C12.05 60.51 12 54.58 12 50C12 45.42 12.05 39.49 12.16 36.27C12.27 33.05 12.43 32.3 12.65 30.67C12.87 29.04 13.14 27.75 13.47 26.49C13.81 25.24 14.19 24.15 14.64 23.13C15.08 22.11 15.59 21.2 16.15 20.35C16.72 19.5 17.35 18.75 18.05 18.05C18.75 17.35 19.5 16.72 20.35 16.15C21.2 15.59 22.11 15.08 23.13 14.64C24.15 14.19 25.24 13.81 26.49 13.47C27.75 13.14 29.04 12.87 30.67 12.65C32.3 12.43 33.05 12.27 36.27 12.16C39.49 12.05 45.42 12 50 12C54.58 12 60.51 12.05 63.73 12.16C66.95 12.27 67.7 12.43 69.33 12.65C70.96 12.87 72.25 13.14 73.51 13.47C74.76 13.81 75.85 14.19 76.87 14.64C77.89 15.08 78.8 15.59 79.65 16.15C80.5 16.72 81.25 17.35 81.95 18.05C82.65 18.75 83.28 19.5 83.85 20.35C84.41 21.2 84.92 22.11 85.36 23.13C85.81 24.15 86.19 25.24 86.53 26.49C86.86 27.75 87.13 29.04 87.35 30.67C87.57 32.3 87.73 33.05 87.84 36.27C87.95 39.49 88 45.42 88 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "level3": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -12,
+        "max": 12
+      },
+      "translate": {
+        "x": {
+          "min": -6,
+          "max": 6
+        },
+        "y": {
+          "min": -6,
+          "max": 6
+        }
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M80 50C80 53.61 79.96 58.29 79.87 60.84C79.79 63.38 79.66 63.98 79.48 65.26C79.31 66.55 79.1 67.57 78.84 68.56C78.57 69.55 78.27 70.41 77.92 71.21C77.57 72.02 77.17 72.74 76.72 73.41C76.27 74.08 75.78 74.67 75.23 75.23C74.67 75.78 74.08 76.27 73.41 76.72C72.74 77.17 72.02 77.57 71.21 77.92C70.41 78.27 69.55 78.57 68.56 78.84C67.57 79.1 66.55 79.31 65.26 79.48C63.98 79.66 63.38 79.79 60.84 79.87C58.29 79.96 53.61 80 50 80C46.39 80 41.71 79.96 39.16 79.87C36.62 79.79 36.02 79.66 34.74 79.48C33.45 79.31 32.43 79.1 31.44 78.84C30.45 78.57 29.59 78.27 28.79 77.92C27.98 77.57 27.26 77.17 26.59 76.72C25.92 76.27 25.33 75.78 24.77 75.23C24.22 74.67 23.73 74.08 23.28 73.41C22.83 72.74 22.43 72.02 22.08 71.21C21.73 70.41 21.43 69.55 21.16 68.56C20.9 67.57 20.69 66.55 20.52 65.26C20.34 63.98 20.21 63.38 20.13 60.84C20.04 58.29 20 53.61 20 50C20 46.39 20.04 41.71 20.13 39.16C20.21 36.62 20.34 36.02 20.52 34.74C20.69 33.45 20.9 32.43 21.16 31.44C21.43 30.45 21.73 29.59 22.08 28.79C22.43 27.98 22.83 27.26 23.28 26.59C23.73 25.92 24.22 25.33 24.77 24.77C25.33 24.22 25.92 23.73 26.59 23.28C27.26 22.83 27.98 22.43 28.79 22.08C29.59 21.73 30.45 21.43 31.44 21.16C32.43 20.9 33.45 20.69 34.74 20.52C36.02 20.34 36.62 20.21 39.16 20.13C41.71 20.04 46.39 20 50 20C53.61 20 58.29 20.04 60.84 20.13C63.38 20.21 63.98 20.34 65.26 20.52C66.55 20.69 67.57 20.9 68.56 21.16C69.55 21.43 70.41 21.73 71.21 22.08C72.02 22.43 72.74 22.83 73.41 23.28C74.08 23.73 74.67 24.22 75.23 24.77C75.78 25.33 76.27 25.92 76.72 26.59C77.17 27.26 77.57 27.98 77.92 28.79C78.27 29.59 78.57 30.45 78.84 31.44C79.1 32.43 79.31 33.45 79.48 34.74C79.66 36.02 79.79 36.62 79.87 39.16C79.96 41.71 80 46.39 80 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "level4": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -12,
+        "max": 12
+      },
+      "translate": {
+        "x": {
+          "min": -6,
+          "max": 6
+        },
+        "y": {
+          "min": -6,
+          "max": 6
+        }
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M72 50C72 52.65 71.97 56.08 71.91 57.95C71.84 59.81 71.75 60.25 71.62 61.19C71.5 62.14 71.34 62.88 71.15 63.61C70.95 64.34 70.73 64.96 70.47 65.56C70.21 66.15 69.92 66.67 69.6 67.17C69.27 67.66 68.9 68.09 68.5 68.5C68.09 68.9 67.66 69.27 67.17 69.6C66.67 69.92 66.15 70.21 65.56 70.47C64.96 70.73 64.34 70.95 63.61 71.15C62.88 71.34 62.14 71.5 61.19 71.62C60.25 71.75 59.81 71.84 57.95 71.91C56.08 71.97 52.65 72 50 72C47.35 72 43.92 71.97 42.05 71.91C40.19 71.84 39.75 71.75 38.81 71.62C37.86 71.5 37.12 71.34 36.39 71.15C35.66 70.95 35.04 70.73 34.44 70.47C33.85 70.21 33.33 69.92 32.83 69.6C32.34 69.27 31.91 68.9 31.5 68.5C31.1 68.09 30.73 67.66 30.4 67.17C30.08 66.67 29.79 66.15 29.53 65.56C29.27 64.96 29.05 64.34 28.85 63.61C28.66 62.88 28.5 62.14 28.38 61.19C28.25 60.25 28.16 59.81 28.09 57.95C28.03 56.08 28 52.65 28 50C28 47.35 28.03 43.92 28.09 42.05C28.16 40.19 28.25 39.75 28.38 38.81C28.5 37.86 28.66 37.12 28.85 36.39C29.05 35.66 29.27 35.04 29.53 34.44C29.79 33.85 30.08 33.33 30.4 32.83C30.73 32.34 31.1 31.91 31.5 31.5C31.91 31.1 32.34 30.73 32.83 30.4C33.33 30.08 33.85 29.79 34.44 29.53C35.04 29.27 35.66 29.05 36.39 28.85C37.12 28.66 37.86 28.5 38.81 28.38C39.75 28.25 40.19 28.16 42.05 28.09C43.92 28.03 47.35 28 50 28C52.65 28 56.08 28.03 57.95 28.09C59.81 28.16 60.25 28.25 61.19 28.38C62.14 28.5 62.88 28.66 63.61 28.85C64.34 29.05 64.96 29.27 65.56 29.53C66.15 29.79 66.67 30.08 67.17 30.4C67.66 30.73 68.09 31.1 68.5 31.5C68.9 31.91 69.27 32.34 69.6 32.83C69.92 33.33 70.21 33.85 70.47 34.44C70.73 35.04 70.95 35.66 71.15 36.39C71.34 37.12 71.5 37.86 71.62 38.81C71.75 39.75 71.84 40.19 71.91 42.05C71.97 43.92 72 47.35 72 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "level5": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -12,
+        "max": 12
+      },
+      "translate": {
+        "x": {
+          "min": -6,
+          "max": 6
+        },
+        "y": {
+          "min": -6,
+          "max": 6
+        }
+      },
+      "variants": {
+        "default": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M64 50C64 51.69 63.98 53.87 63.94 55.06C63.9 56.25 63.84 56.52 63.76 57.12C63.68 57.72 63.58 58.2 63.46 58.66C63.33 59.12 63.19 59.52 63.03 59.9C62.86 60.28 62.68 60.61 62.47 60.92C62.26 61.24 62.03 61.51 61.77 61.77C61.51 62.03 61.24 62.26 60.92 62.47C60.61 62.68 60.28 62.86 59.9 63.03C59.52 63.19 59.12 63.33 58.66 63.46C58.2 63.58 57.72 63.68 57.12 63.76C56.52 63.84 56.25 63.9 55.06 63.94C53.87 63.98 51.69 64 50 64C48.31 64 46.13 63.98 44.94 63.94C43.75 63.9 43.48 63.84 42.88 63.76C42.28 63.68 41.8 63.58 41.34 63.46C40.88 63.33 40.48 63.19 40.1 63.03C39.72 62.86 39.39 62.68 39.08 62.47C38.76 62.26 38.49 62.03 38.23 61.77C37.97 61.51 37.74 61.24 37.53 60.92C37.32 60.61 37.14 60.28 36.97 59.9C36.81 59.52 36.67 59.12 36.54 58.66C36.42 58.2 36.32 57.72 36.24 57.12C36.16 56.52 36.1 56.25 36.06 55.06C36.02 53.87 36 51.69 36 50C36 48.31 36.02 46.13 36.06 44.94C36.1 43.75 36.16 43.48 36.24 42.88C36.32 42.28 36.42 41.8 36.54 41.34C36.67 40.88 36.81 40.48 36.97 40.1C37.14 39.72 37.32 39.39 37.53 39.08C37.74 38.76 37.97 38.49 38.23 38.23C38.49 37.97 38.76 37.74 39.08 37.53C39.39 37.32 39.72 37.14 40.1 36.97C40.48 36.81 40.88 36.67 41.34 36.54C41.8 36.42 42.28 36.32 42.88 36.24C43.48 36.16 43.75 36.1 44.94 36.06C46.13 36.02 48.31 36 50 36C51.69 36 53.87 36.02 55.06 36.06C56.25 36.1 56.52 36.16 57.12 36.24C57.72 36.32 58.2 36.42 58.66 36.54C59.12 36.67 59.52 36.81 59.9 36.97C60.28 37.14 60.61 37.32 60.92 37.53C61.24 37.74 61.51 37.97 61.77 38.23C62.03 38.49 62.26 38.76 62.47 39.08C62.68 39.39 62.86 39.72 63.03 40.1C63.19 40.48 63.33 40.88 63.46 41.34C63.58 41.8 63.68 42.28 63.76 42.88C63.84 43.48 63.9 43.75 63.94 44.94C63.98 46.13 64 48.31 64 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "animation": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "none": {
+          "elements": []
+        },
+        "fastest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbsq-fastest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbsq-fastest){--dbsq-t:0.75}@media (prefers-reduced-motion: no-preference){@keyframes dbsqSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(4.5deg) translate(1.2px,-1px) scale(1.035)}66%{transform:rotate(-2.5deg) translate(-1px,1px) scale(0.98)}} @keyframes dbsqSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-4.5deg) translate(-1.2px,1px) scale(0.975)}66%{transform:rotate(2.5deg) translate(1px,-1px) scale(1.03)}} @keyframes dbsqOrbit{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(2px,-1.4px) scale(1.08)}60%{transform:translate(-1.7px,1.7px) scale(0.95)}} .dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5,.dbsq-acc{transform-box:fill-box;transform-origin:center} .dbsq-acc{animation:dbsqOrbit calc(var(--dbsq-t,1)*7s) ease-in-out infinite} .dbsq-l1{animation:dbsqSwayA calc(var(--dbsq-t,1)*16s) ease-in-out infinite} .dbsq-l2{animation:dbsqSwayB calc(var(--dbsq-t,1)*13s) ease-in-out infinite} .dbsq-l3{animation:dbsqSwayA calc(var(--dbsq-t,1)*11s) ease-in-out infinite} .dbsq-l4{animation:dbsqSwayB calc(var(--dbsq-t,1)*9.5s) ease-in-out infinite} .dbsq-l5{animation:dbsqSwayA calc(var(--dbsq-t,1)*8s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "fast": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbsq-fast"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbsq-fast){--dbsq-t:0.9}@media (prefers-reduced-motion: no-preference){@keyframes dbsqSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(4.5deg) translate(1.2px,-1px) scale(1.035)}66%{transform:rotate(-2.5deg) translate(-1px,1px) scale(0.98)}} @keyframes dbsqSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-4.5deg) translate(-1.2px,1px) scale(0.975)}66%{transform:rotate(2.5deg) translate(1px,-1px) scale(1.03)}} @keyframes dbsqOrbit{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(2px,-1.4px) scale(1.08)}60%{transform:translate(-1.7px,1.7px) scale(0.95)}} .dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5,.dbsq-acc{transform-box:fill-box;transform-origin:center} .dbsq-acc{animation:dbsqOrbit calc(var(--dbsq-t,1)*7s) ease-in-out infinite} .dbsq-l1{animation:dbsqSwayA calc(var(--dbsq-t,1)*16s) ease-in-out infinite} .dbsq-l2{animation:dbsqSwayB calc(var(--dbsq-t,1)*13s) ease-in-out infinite} .dbsq-l3{animation:dbsqSwayA calc(var(--dbsq-t,1)*11s) ease-in-out infinite} .dbsq-l4{animation:dbsqSwayB calc(var(--dbsq-t,1)*9.5s) ease-in-out infinite} .dbsq-l5{animation:dbsqSwayA calc(var(--dbsq-t,1)*8s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "medium": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbsq-medium"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbsq-medium){--dbsq-t:1}@media (prefers-reduced-motion: no-preference){@keyframes dbsqSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(4.5deg) translate(1.2px,-1px) scale(1.035)}66%{transform:rotate(-2.5deg) translate(-1px,1px) scale(0.98)}} @keyframes dbsqSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-4.5deg) translate(-1.2px,1px) scale(0.975)}66%{transform:rotate(2.5deg) translate(1px,-1px) scale(1.03)}} @keyframes dbsqOrbit{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(2px,-1.4px) scale(1.08)}60%{transform:translate(-1.7px,1.7px) scale(0.95)}} .dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5,.dbsq-acc{transform-box:fill-box;transform-origin:center} .dbsq-acc{animation:dbsqOrbit calc(var(--dbsq-t,1)*7s) ease-in-out infinite} .dbsq-l1{animation:dbsqSwayA calc(var(--dbsq-t,1)*16s) ease-in-out infinite} .dbsq-l2{animation:dbsqSwayB calc(var(--dbsq-t,1)*13s) ease-in-out infinite} .dbsq-l3{animation:dbsqSwayA calc(var(--dbsq-t,1)*11s) ease-in-out infinite} .dbsq-l4{animation:dbsqSwayB calc(var(--dbsq-t,1)*9.5s) ease-in-out infinite} .dbsq-l5{animation:dbsqSwayA calc(var(--dbsq-t,1)*8s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "slow": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbsq-slow"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbsq-slow){--dbsq-t:1.15}@media (prefers-reduced-motion: no-preference){@keyframes dbsqSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(4.5deg) translate(1.2px,-1px) scale(1.035)}66%{transform:rotate(-2.5deg) translate(-1px,1px) scale(0.98)}} @keyframes dbsqSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-4.5deg) translate(-1.2px,1px) scale(0.975)}66%{transform:rotate(2.5deg) translate(1px,-1px) scale(1.03)}} @keyframes dbsqOrbit{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(2px,-1.4px) scale(1.08)}60%{transform:translate(-1.7px,1.7px) scale(0.95)}} .dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5,.dbsq-acc{transform-box:fill-box;transform-origin:center} .dbsq-acc{animation:dbsqOrbit calc(var(--dbsq-t,1)*7s) ease-in-out infinite} .dbsq-l1{animation:dbsqSwayA calc(var(--dbsq-t,1)*16s) ease-in-out infinite} .dbsq-l2{animation:dbsqSwayB calc(var(--dbsq-t,1)*13s) ease-in-out infinite} .dbsq-l3{animation:dbsqSwayA calc(var(--dbsq-t,1)*11s) ease-in-out infinite} .dbsq-l4{animation:dbsqSwayB calc(var(--dbsq-t,1)*9.5s) ease-in-out infinite} .dbsq-l5{animation:dbsqSwayA calc(var(--dbsq-t,1)*8s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        },
+        "slowest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbsq-slowest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbsq-slowest){--dbsq-t:1.35}@media (prefers-reduced-motion: no-preference){@keyframes dbsqSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(4.5deg) translate(1.2px,-1px) scale(1.035)}66%{transform:rotate(-2.5deg) translate(-1px,1px) scale(0.98)}} @keyframes dbsqSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-4.5deg) translate(-1.2px,1px) scale(0.975)}66%{transform:rotate(2.5deg) translate(1px,-1px) scale(1.03)}} @keyframes dbsqOrbit{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(2px,-1.4px) scale(1.08)}60%{transform:translate(-1.7px,1.7px) scale(0.95)}} .dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5,.dbsq-acc{transform-box:fill-box;transform-origin:center} .dbsq-acc{animation:dbsqOrbit calc(var(--dbsq-t,1)*7s) ease-in-out infinite} .dbsq-l1{animation:dbsqSwayA calc(var(--dbsq-t,1)*16s) ease-in-out infinite} .dbsq-l2{animation:dbsqSwayB calc(var(--dbsq-t,1)*13s) ease-in-out infinite} .dbsq-l3{animation:dbsqSwayA calc(var(--dbsq-t,1)*11s) ease-in-out infinite} .dbsq-l4{animation:dbsqSwayB calc(var(--dbsq-t,1)*9.5s) ease-in-out infinite} .dbsq-l5{animation:dbsqSwayA calc(var(--dbsq-t,1)*8s) ease-in-out infinite}}"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#0369a1",
+        "#1d4ed8",
+        "#4338ca",
+        "#6d28d9",
+        "#a21caf",
+        "#be185d",
+        "#be123c",
+        "#c2410c",
+        "#b45309",
+        "#047857",
+        "#0f766e",
+        "#1e293b"
+      ]
+    },
+    "shape": {
+      "contrastTo": "background",
+      "values": [
+        "#ffffff",
+        "#000000"
+      ]
+    }
+  }
+}

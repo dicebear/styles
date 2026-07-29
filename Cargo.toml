@@ -35,8 +35,10 @@ all = [
   "big-ears",
   "big-ears-neutral",
   "big-smile",
+  "blobs",
   "bottts",
   "bottts-neutral",
+  "constellation",
   "croodles",
   "croodles-neutral",
   "disco",
@@ -48,6 +50,8 @@ all = [
   "identicon",
   "initial-face",
   "initials",
+  "landscape",
+  "loops",
   "lorelei",
   "lorelei-neutral",
   "micah",
@@ -58,13 +62,17 @@ all = [
   "personas",
   "pixel-art",
   "pixel-art-neutral",
+  "pixelbot",
+  "planets",
   "rings",
   "shape-grid",
   "shapes",
+  "squircles",
   "stripes",
   "thumbs",
   "toon-head",
   "triangles",
+  "waves",
 ]
 
 # One feature per style. `dicebear-styles = { features = ["shapes", "bottts"] }`
@@ -75,8 +83,10 @@ avataaars-neutral = []
 big-ears = []
 big-ears-neutral = []
 big-smile = []
+blobs = []
 bottts = []
 bottts-neutral = []
+constellation = []
 croodles = []
 croodles-neutral = []
 disco = []
@@ -88,6 +98,8 @@ icons = []
 identicon = []
 initial-face = []
 initials = []
+landscape = []
+loops = []
 lorelei = []
 lorelei-neutral = []
 micah = []
@@ -98,10 +110,14 @@ open-peeps = []
 personas = []
 pixel-art = []
 pixel-art-neutral = []
+pixelbot = []
+planets = []
 rings = []
 shape-grid = []
 shapes = []
+squircles = []
 stripes = []
 thumbs = []
 toon-head = []
 triangles = []
+waves = []
