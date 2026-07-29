@@ -387,7 +387,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:sad"
           ]
         },
         "eyelashesDown": {
@@ -407,7 +407,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:sad"
           ]
         },
         "eyelashesUp": {
@@ -427,7 +427,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:surprised"
           ]
         },
         "up": {
@@ -447,7 +447,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:surprised"
           ]
         }
       }
@@ -494,7 +494,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "eyesShadow": {
@@ -566,7 +566,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "round": {
@@ -610,7 +610,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "smiling": {
@@ -632,7 +632,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "smilingShadow": {
@@ -668,7 +668,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         }
       }
@@ -1181,7 +1181,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:sad"
           ]
         },
         "laughing": {
@@ -1207,7 +1207,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "nervous": {
@@ -1233,7 +1233,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:scared"
           ]
         },
         "pucker": {
@@ -1252,7 +1252,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:playful"
           ]
         },
         "sad": {
@@ -1271,7 +1271,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:sad"
           ]
         },
         "smile": {
@@ -1290,7 +1290,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "smirk": {
@@ -1309,7 +1309,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:playful"
           ]
         },
         "surprised": {
@@ -1335,7 +1335,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:surprised"
           ]
         }
       }

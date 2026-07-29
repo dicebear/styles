@@ -78,7 +78,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "variant02": {
@@ -118,7 +118,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:surprised"
           ]
         },
         "variant03": {
@@ -136,7 +136,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant04": {
@@ -154,7 +154,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant05": {
@@ -172,7 +172,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:angry"
           ]
         },
         "variant06": {
@@ -212,7 +212,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:surprised"
           ]
         },
         "variant07": {
@@ -230,7 +230,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:playful"
           ]
         },
         "variant08": {
@@ -281,7 +281,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:angry"
           ]
         },
         "variant09": {
@@ -341,7 +341,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant10": {
@@ -398,7 +398,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "variant11": {
@@ -424,7 +424,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "variant12": {
@@ -442,7 +442,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:confused"
           ]
         },
         "variant13": {
@@ -499,7 +499,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:sad"
           ]
         },
         "variant14": {
@@ -542,7 +542,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:surprised"
           ]
         },
         "variant15": {
@@ -599,7 +599,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "variant16": {
@@ -639,7 +639,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         }
       }
@@ -663,7 +663,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "variant02": {
@@ -681,7 +681,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant03": {
@@ -699,7 +699,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant04": {
@@ -717,7 +717,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant05": {
@@ -746,7 +746,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "variant06": {
@@ -764,7 +764,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "variant07": {
@@ -782,7 +782,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant08": {
@@ -872,7 +872,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:playful"
           ]
         },
         "variant10": {
@@ -890,7 +890,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant11": {
@@ -908,7 +908,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant12": {
@@ -937,7 +937,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant13": {
@@ -966,7 +966,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:playful"
           ]
         },
         "variant14": {
@@ -984,7 +984,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:confused"
           ]
         },
         "variant15": {
@@ -1002,7 +1002,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:confused"
           ]
         },
         "variant16": {
@@ -1020,7 +1020,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant17": {
@@ -1038,7 +1038,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "variant18": {
@@ -1056,7 +1056,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         }
       }

@@ -361,7 +361,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:sad"
           ]
         },
         "confused": {
@@ -376,7 +376,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:confused"
           ]
         },
         "happy": {
@@ -391,7 +391,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:happy"
           ]
         },
         "hopeful": {
@@ -406,7 +406,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:playful"
           ]
         },
         "neutral": {
@@ -421,7 +421,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:neutral"
           ]
         },
         "sad": {
@@ -436,7 +436,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:sad"
           ]
         },
         "superHappy": {
@@ -459,7 +459,7 @@
             }
           ],
           "tags": [
-            "mood:positive"
+            "mood:surprised"
           ]
         }
       }
