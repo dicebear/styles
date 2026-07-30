@@ -51,17 +51,8 @@
             "type": "component"
           },
           {
-            "name": "g",
-            "type": "element",
-            "attributes": {
-              "class": "dbcr-e"
-            },
-            "children": [
-              {
-                "name": "eyes",
-                "type": "component"
-              }
-            ]
+            "name": "eyes",
+            "type": "component"
           },
           {
             "name": "mouth",
@@ -2623,953 +2614,1313 @@
         "round": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "dots": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "4",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "4",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "r": "4",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "r": "4",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "bigPupils": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "5",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "r": "5",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "r": "5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "sideeye": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "40.5",
-                "cy": "49",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "40.5",
+                    "cy": "49",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "66.5",
-                "cy": "49",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "66.5",
+                    "cy": "49",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "crossEyed": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "40",
-                "cy": "50",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "40",
+                    "cy": "50",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "60",
-                "cy": "50",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "60",
+                    "cy": "50",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "mono": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "50",
-                "cy": "47",
-                "r": "11",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "50",
-                "cy": "47",
-                "r": "4.5",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "47",
+                    "r": "11",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "47",
+                    "r": "4.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "uneven": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "37",
-                "cy": "48",
-                "r": "8",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "37",
-                "cy": "48",
-                "r": "3.5",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "48",
+                    "r": "8",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "48",
+                    "r": "3.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "63",
-                "cy": "50",
-                "r": "5.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "63",
-                "cy": "50",
-                "r": "2.2",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "50",
+                    "r": "5.5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "50",
+                    "r": "2.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "trio": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "36",
-                "cy": "50",
-                "r": "5.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "50",
-                "cy": "44",
-                "r": "5.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "64",
-                "cy": "50",
-                "r": "5.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "36",
-                "cy": "50",
-                "r": "2.2",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "36",
+                    "cy": "50",
+                    "r": "5.5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "36",
+                    "cy": "50",
+                    "r": "2.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "50",
-                "cy": "44",
-                "r": "2.2",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "44",
+                    "r": "5.5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "44",
+                    "r": "2.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "64",
-                "cy": "50",
-                "r": "2.2",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "64",
+                    "cy": "50",
+                    "r": "5.5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "64",
+                    "cy": "50",
+                    "r": "2.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "threeRow": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "34",
-                "cy": "49",
-                "r": "5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "50",
-                "cy": "49",
-                "r": "5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "66",
-                "cy": "49",
-                "r": "5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "34",
-                "cy": "49",
-                "r": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34",
+                    "cy": "49",
+                    "r": "5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34",
+                    "cy": "49",
+                    "r": "2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "50",
-                "cy": "49",
-                "r": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "49",
+                    "r": "5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "49",
+                    "r": "2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "66",
-                "cy": "49",
-                "r": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "66",
+                    "cy": "49",
+                    "r": "5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "66",
+                    "cy": "49",
+                    "r": "2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "four": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "39",
-                "cy": "44",
-                "r": "4.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "61",
-                "cy": "44",
-                "r": "4.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "39",
-                "cy": "55",
-                "r": "4.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "61",
-                "cy": "55",
-                "r": "4.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "39",
-                "cy": "44",
-                "r": "1.8",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "39",
+                    "cy": "44",
+                    "r": "4.5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "39",
+                    "cy": "44",
+                    "r": "1.8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "61",
-                "cy": "44",
-                "r": "1.8",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "61",
+                    "cy": "44",
+                    "r": "4.5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "61",
+                    "cy": "44",
+                    "r": "1.8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "39",
-                "cy": "55",
-                "r": "1.8",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "39",
+                    "cy": "55",
+                    "r": "4.5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "39",
+                    "cy": "55",
+                    "r": "1.8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "61",
-                "cy": "55",
-                "r": "1.8",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "61",
+                    "cy": "55",
+                    "r": "4.5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "61",
+                    "cy": "55",
+                    "r": "1.8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "happy": {
           "elements": [
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "d": "M30 52Q37 42 44 52",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "3.5",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 52Q37 42 44 52",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             },
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "d": "M56 52Q63 42 70 52",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "3.5",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M56 52Q63 42 70 52",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             }
           ]
         },
         "closedLine": {
           "elements": [
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "d": "M30 48Q37 54 44 48",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "3.5",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 48Q37 54 44 48",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             },
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "d": "M56 48Q63 54 70 48",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "3.5",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M56 48Q63 54 70 48",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             }
           ]
         },
         "wink": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M56 52Q63 42 70 52",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
                 },
-                "stroke-width": "3.5",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M56 52Q63 42 70 52",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             }
           ]
         },
         "squint": {
           "elements": [
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "d": "M31 44L43 49L31 54",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "3.5",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M31 44L43 49L31 54",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             },
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "d": "M69 44L57 49L69 54",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "3.5",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M69 44L57 49L69 54",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             }
           ]
         },
         "wide": {
           "elements": [
             {
-              "name": "ellipse",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "rx": "6.5",
-                "ry": "8.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "rx": "6.5",
-                "ry": "8.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "2.8",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "rx": "6.5",
+                    "ry": "8.5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "2.8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "r": "2.8",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "rx": "6.5",
+                    "ry": "8.5",
+                    "fill": "#ffffff"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "r": "2.8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         },
         "sleepy": {
           "elements": [
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "d": "M30 49A7 7 0 0 0 44 49Z",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M56 49A7 7 0 0 0 70 49Z",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M34 49A3 3 0 0 0 40 49Z",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M60 49A3 3 0 0 0 66 49Z",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M29 49H45",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 49A7 7 0 0 0 44 49Z",
+                    "fill": "#ffffff"
+                  }
                 },
-                "stroke-width": "3",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M34 49A3 3 0 0 0 40 49Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M29 49H45",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             },
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "d": "M55 49H71",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M56 49A7 7 0 0 0 70 49Z",
+                    "fill": "#ffffff"
+                  }
                 },
-                "stroke-width": "3",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M60 49A3 3 0 0 0 66 49Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M55 49H71",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             }
           ]
         },
         "angry": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "r": "7",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "37",
-                "cy": "49",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "63",
-                "cy": "49",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M30 40L44 45",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
                 },
-                "stroke-width": "3.5",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "49",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 40L44 45",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             },
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "d": "M70 40L56 45",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "r": "7",
+                    "fill": "#ffffff"
+                  }
                 },
-                "stroke-width": "3.5",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "63",
+                    "cy": "49",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M70 40L56 45",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             }
           ]
         },
         "monoSleepy": {
           "elements": [
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "d": "M39 47A11 11 0 0 0 61 47Z",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M46.5 47A3.5 3.5 0 0 0 53.5 47Z",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M38 47H62",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M39 47A11 11 0 0 0 61 47Z",
+                    "fill": "#ffffff"
+                  }
                 },
-                "stroke-width": "3",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M46.5 47A3.5 3.5 0 0 0 53.5 47Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M38 47H62",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "3",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
             }
           ]
         },
         "close": {
           "elements": [
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "44",
-                "cy": "49",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "44",
+                    "cy": "49",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             },
             {
-              "name": "circle",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "56",
-                "cy": "49",
-                "r": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+                "class": "dbcr-eb"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "56",
+                    "cy": "49",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         }
@@ -4016,7 +4367,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbcr-fastest){--dbcr-t:0.75;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-e,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-e{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-e,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
+                  "value": "svg:has(.dbcr-fastest){--dbcr-t:0.75;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-eb,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-eb{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-eb,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
                 }
               ]
             }
@@ -4039,7 +4390,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbcr-fast){--dbcr-t:0.9;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-e,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-e{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-e,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
+                  "value": "svg:has(.dbcr-fast){--dbcr-t:0.9;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-eb,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-eb{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-eb,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
                 }
               ]
             }
@@ -4062,7 +4413,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbcr-medium){--dbcr-t:1;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-e,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-e{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-e,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
+                  "value": "svg:has(.dbcr-medium){--dbcr-t:1;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-eb,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-eb{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-eb,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
                 }
               ]
             }
@@ -4085,7 +4436,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbcr-slow){--dbcr-t:1.15;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-e,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-e{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-e,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
+                  "value": "svg:has(.dbcr-slow){--dbcr-t:1.15;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-eb,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-eb{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-eb,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
                 }
               ]
             }
@@ -4108,7 +4459,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbcr-slowest){--dbcr-t:1.35;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-e,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-e{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-e,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
+                  "value": "svg:has(.dbcr-slowest){--dbcr-t:1.35;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-eb,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-eb{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-eb,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
                 }
               ]
             }
