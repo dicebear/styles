@@ -20,6 +20,10 @@ Versions track the DiceBear release line.
   selects a speed from `fastest` to `slowest`. A static avatar next to an
   animated one stays static, browsers without CSS `:has()` support show the
   static image, and the animations respect `prefers-reduced-motion`.
+- **Animation tag.** The animated variants carry the bare `animation` variant
+  tag, so the `tags` render option can switch the animation on (`animation`,
+  at a random speed per seed) or keep it off (`!animation`). The static
+  default variant carries no tag.
 - **New style: Loops.** A truchet pattern: quarter-circle arc tiles on a 3x3
   grid join into meandering paths. The pattern is tone-in-tone with the
   background by default, `patternVariant` switches to plain white or black.

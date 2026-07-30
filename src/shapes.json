@@ -523,6 +523,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "animation"
           ]
         },
         "fast": {
@@ -545,6 +548,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "animation"
           ]
         },
         "medium": {
@@ -567,6 +573,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "animation"
           ]
         },
         "slow": {
@@ -589,6 +598,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "animation"
           ]
         },
         "slowest": {
@@ -611,6 +623,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "animation"
           ]
         }
       }
