@@ -50,19 +50,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 14A14 14 0 0 1 14 0",
-                "stroke-width": "8",
-                "stroke": {
-                  "type": "color",
-                  "name": "line"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M14 28A14 14 0 0 0 28 14",
+                "d": "M0 14A14 14 0 0 1 14 0m0 28a14 14 0 0 0 14-14",
                 "stroke-width": "8",
                 "stroke": {
                   "type": "color",

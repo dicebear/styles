@@ -66,17 +66,14 @@
         "ooxoo": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "-.01",
-                "width": "1",
-                "height": "1.02",
                 "fill": {
                   "type": "color",
                   "name": "row"
-                }
+                },
+                "d": "M2-.01h1v1.02H2z"
               }
             }
           ]
@@ -99,17 +96,14 @@
         "oxxxo": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "y": "-.01",
-                "width": "3",
-                "height": "1.02",
                 "fill": {
                   "type": "color",
                   "name": "row"
-                }
+                },
+                "d": "M1-.01h3v1.02H1z"
               }
             }
           ]
@@ -162,16 +156,14 @@
         "xxxxx": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "-.01",
-                "width": "5",
-                "height": "1.02",
                 "fill": {
                   "type": "color",
                   "name": "row"
-                }
+                },
+                "d": "M0-.01h5v1.02H0z"
               }
             }
           ]

@@ -291,21 +291,18 @@
                   },
                   "children": [
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "-10",
-                        "y": "-10",
-                        "width": "120",
-                        "height": "120",
-                        "fill": "#fff"
+                        "fill": "#fff",
+                        "d": "M-10-10h120v120H-10z"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M20 50A30 30 0 0 1 80 50Z",
+                        "d": "M20 50a30 30 0 0 1 60 0Z",
                         "fill": "#000"
                       }
                     }
@@ -329,7 +326,7 @@
                     "rx": "43",
                     "ry": "13",
                     "stroke": "#fff",
-                    "stroke-opacity": "0.55",
+                    "stroke-opacity": ".55",
                     "stroke-width": "2"
                   }
                 }
@@ -351,21 +348,18 @@
                   },
                   "children": [
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "-10",
-                        "y": "-10",
-                        "width": "120",
-                        "height": "120",
-                        "fill": "#fff"
+                        "fill": "#fff",
+                        "d": "M-10-10h120v120H-10z"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M20 50A30 30 0 0 1 80 50Z",
+                        "d": "M20 50a30 30 0 0 1 60 0Z",
                         "fill": "#000"
                       }
                     }
@@ -389,7 +383,7 @@
                     "rx": "42",
                     "ry": "12.5",
                     "stroke": "#fff",
-                    "stroke-opacity": "0.5",
+                    "stroke-opacity": ".5",
                     "stroke-width": "1.6"
                   }
                 },
@@ -402,7 +396,7 @@
                     "rx": "46.5",
                     "ry": "15",
                     "stroke": "#fff",
-                    "stroke-opacity": "0.35",
+                    "stroke-opacity": ".35",
                     "stroke-width": "1"
                   }
                 }
@@ -424,21 +418,18 @@
                   },
                   "children": [
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "-10",
-                        "y": "-10",
-                        "width": "120",
-                        "height": "120",
-                        "fill": "#fff"
+                        "fill": "#fff",
+                        "d": "M-10-10h120v120H-10z"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M20 50A30 30 0 0 1 80 50Z",
+                        "d": "M20 50a30 30 0 0 1 60 0Z",
                         "fill": "#000"
                       }
                     }
@@ -462,7 +453,7 @@
                     "rx": "44",
                     "ry": "13.5",
                     "stroke": "#fff",
-                    "stroke-opacity": "0.4",
+                    "stroke-opacity": ".4",
                     "stroke-width": "4"
                   }
                 }
@@ -548,9 +539,9 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M75.2 33.7A30 30 0 0 1 33.7 75.2A33.5 33.5 0 0 0 75.2 33.7Z",
+                "d": "M75.2 33.7a30 30 0 0 1-41.5 41.5 33.5 33.5 0 0 0 41.5-41.5",
                 "fill": "#000",
-                "fill-opacity": "0.13"
+                "fill-opacity": ".13"
               }
             }
           ]
@@ -562,18 +553,18 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M75.2 33.7A30 30 0 0 1 33.7 75.2A33.5 33.5 0 0 0 75.2 33.7Z",
+                "d": "M75.2 33.7a30 30 0 0 1-41.5 41.5 33.5 33.5 0 0 0 41.5-41.5",
                 "fill": "#000",
-                "fill-opacity": "0.18"
+                "fill-opacity": ".18"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M24.8 66.3A30 30 0 0 1 66.3 24.8A33.5 33.5 0 0 0 24.8 66.3Z",
+                "d": "M24.8 66.3a30 30 0 0 1 41.5-41.5 33.5 33.5 0 0 0-41.5 41.5",
                 "fill": "#fff",
-                "fill-opacity": "0.12"
+                "fill-opacity": ".12"
               }
             }
           ]
@@ -631,63 +622,48 @@
                   },
                   "children": [
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "18",
-                        "y": "26",
-                        "width": "64",
-                        "height": "5.5",
                         "fill": "#fff",
-                        "fill-opacity": "0.16"
+                        "fill-opacity": ".16",
+                        "d": "M18 26h64v5.5H18z"
                       }
                     },
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "18",
-                        "y": "35",
-                        "width": "64",
-                        "height": "6.5",
                         "fill": "#000",
-                        "fill-opacity": "0.13"
+                        "fill-opacity": ".13",
+                        "d": "M18 35h64v6.5H18z"
                       }
                     },
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "18",
-                        "y": "46",
-                        "width": "64",
-                        "height": "8",
                         "fill": "#fff",
-                        "fill-opacity": "0.14"
+                        "fill-opacity": ".14",
+                        "d": "M18 46h64v8H18z"
                       }
                     },
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "18",
-                        "y": "58",
-                        "width": "64",
-                        "height": "6",
                         "fill": "#000",
-                        "fill-opacity": "0.15"
+                        "fill-opacity": ".15",
+                        "d": "M18 58h64v6H18z"
                       }
                     },
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "18",
-                        "y": "68",
-                        "width": "64",
-                        "height": "5",
                         "fill": "#fff",
-                        "fill-opacity": "0.12"
+                        "fill-opacity": ".12",
+                        "d": "M18 68h64v5H18z"
                       }
                     }
                   ]
@@ -738,27 +714,21 @@
                   },
                   "children": [
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "18",
-                        "y": "40",
-                        "width": "64",
-                        "height": "8.5",
                         "fill": "#fff",
-                        "fill-opacity": "0.19"
+                        "fill-opacity": ".19",
+                        "d": "M18 40h64v8.5H18z"
                       }
                     },
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "18",
-                        "y": "52",
-                        "width": "64",
-                        "height": "6",
                         "fill": "#000",
-                        "fill-opacity": "0.14"
+                        "fill-opacity": ".14",
+                        "d": "M18 52h64v6H18z"
                       }
                     }
                   ]
@@ -816,7 +786,7 @@
                         "cy": "38",
                         "r": "5",
                         "fill": "#000",
-                        "fill-opacity": "0.13"
+                        "fill-opacity": ".13"
                       }
                     },
                     {
@@ -827,7 +797,7 @@
                         "cy": "45",
                         "r": "4",
                         "fill": "#000",
-                        "fill-opacity": "0.12"
+                        "fill-opacity": ".12"
                       }
                     },
                     {
@@ -838,7 +808,7 @@
                         "cy": "61",
                         "r": "6",
                         "fill": "#000",
-                        "fill-opacity": "0.13"
+                        "fill-opacity": ".13"
                       }
                     },
                     {
@@ -849,7 +819,7 @@
                         "cy": "52",
                         "r": "3",
                         "fill": "#000",
-                        "fill-opacity": "0.12"
+                        "fill-opacity": ".12"
                       }
                     },
                     {
@@ -860,7 +830,7 @@
                         "cy": "64",
                         "r": "3.5",
                         "fill": "#000",
-                        "fill-opacity": "0.11"
+                        "fill-opacity": ".11"
                       }
                     },
                     {
@@ -871,7 +841,7 @@
                         "cy": "29",
                         "r": "2.5",
                         "fill": "#000",
-                        "fill-opacity": "0.12"
+                        "fill-opacity": ".12"
                       }
                     },
                     {
@@ -882,7 +852,7 @@
                         "cy": "47",
                         "r": "2",
                         "fill": "#fff",
-                        "fill-opacity": "0.1"
+                        "fill-opacity": ".1"
                       }
                     },
                     {
@@ -893,7 +863,7 @@
                         "cy": "55",
                         "r": "1.8",
                         "fill": "#fff",
-                        "fill-opacity": "0.1"
+                        "fill-opacity": ".1"
                       }
                     }
                   ]
@@ -947,18 +917,18 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M18 40C30 32 44 44 56 40S78 26 84 32V46C74 42 64 54 52 56S30 50 18 54Z",
+                        "d": "M18 40c12-8 26 4 38 0s22-14 28-8v14c-10-4-20 8-32 10s-22-6-34-2Z",
                         "fill": "#fff",
-                        "fill-opacity": "0.16"
+                        "fill-opacity": ".16"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M20 62C32 56 44 66 58 63S76 56 82 60V70C72 68 62 76 50 74S32 70 20 72Z",
+                        "d": "M20 62c12-6 24 4 38 1s18-7 24-3v10c-10-2-20 6-32 4s-18-4-30-2Z",
                         "fill": "#000",
-                        "fill-opacity": "0.12"
+                        "fill-opacity": ".12"
                       }
                     },
                     {
@@ -969,7 +939,7 @@
                         "cy": "36",
                         "r": "4.5",
                         "fill": "#fff",
-                        "fill-opacity": "0.18"
+                        "fill-opacity": ".18"
                       }
                     }
                   ]
@@ -1020,27 +990,21 @@
                   },
                   "children": [
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "18",
-                        "y": "20",
-                        "width": "64",
-                        "height": "12",
                         "fill": "#fff",
-                        "fill-opacity": "0.24"
+                        "fill-opacity": ".24",
+                        "d": "M18 20h64v12H18z"
                       }
                     },
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "18",
-                        "y": "70",
-                        "width": "64",
-                        "height": "10",
                         "fill": "#000",
-                        "fill-opacity": "0.1"
+                        "fill-opacity": ".1",
+                        "d": "M18 70h64v10H18z"
                       }
                     }
                   ]
@@ -1099,7 +1063,7 @@
                         "rx": "11",
                         "ry": "7",
                         "fill": "#000",
-                        "fill-opacity": "0.08"
+                        "fill-opacity": ".08"
                       }
                     },
                     {
@@ -1111,7 +1075,7 @@
                         "rx": "9",
                         "ry": "5.5",
                         "fill": "#fff",
-                        "fill-opacity": "0.22"
+                        "fill-opacity": ".22"
                       }
                     },
                     {
@@ -1123,7 +1087,7 @@
                         "rx": "5",
                         "ry": "3",
                         "fill": "#fff",
-                        "fill-opacity": "0.18"
+                        "fill-opacity": ".18"
                       }
                     },
                     {
@@ -1134,7 +1098,7 @@
                         "cy": "58",
                         "r": "3",
                         "fill": "#fff",
-                        "fill-opacity": "0.15"
+                        "fill-opacity": ".15"
                       }
                     },
                     {
@@ -1145,7 +1109,7 @@
                         "cy": "32",
                         "r": "2.2",
                         "fill": "#000",
-                        "fill-opacity": "0.1"
+                        "fill-opacity": ".1"
                       }
                     },
                     {
@@ -1156,7 +1120,7 @@
                         "cy": "64",
                         "r": "2.5",
                         "fill": "#fff",
-                        "fill-opacity": "0.12"
+                        "fill-opacity": ".12"
                       }
                     }
                   ]
@@ -1210,36 +1174,36 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M30 38C34 30 46 28 52 33S64 36 66 44 58 54 50 52 40 52 34 48 26 46 30 38Z",
+                        "d": "M30 38c4-8 16-10 22-5s12 3 14 11-8 10-16 8-10 0-16-4-8-2-4-10",
                         "fill": "#000",
-                        "fill-opacity": "0.11"
+                        "fill-opacity": ".11"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M44 60C52 54 64 56 68 62S64 74 54 74 40 70 44 60Z",
+                        "d": "M44 60c8-6 20-4 24 2s-4 12-14 12-14-4-10-14",
                         "fill": "#fff",
-                        "fill-opacity": "0.13"
+                        "fill-opacity": ".13"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M28 56C32 52 38 54 38 59S30 64 27 61 26 58 28 56Z",
+                        "d": "M28 56c4-4 10-2 10 3s-8 5-11 2-1-3 1-5",
                         "fill": "#000",
-                        "fill-opacity": "0.09"
+                        "fill-opacity": ".09"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M58 26C64 24 70 28 70 33S62 38 57 35 54 28 58 26Z",
+                        "d": "M58 26c6-2 12 2 12 7s-8 5-13 2-3-7 1-9",
                         "fill": "#fff",
-                        "fill-opacity": "0.11"
+                        "fill-opacity": ".11"
                       }
                     }
                   ]
@@ -1293,7 +1257,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M18 48L34 44 48 52 64 46 82 52",
+                        "d": "m18 48 16-4 14 8 16-6 18 6",
                         "stroke": "#fff",
                         "stroke-opacity": ".3",
                         "stroke-width": ".8"
@@ -1303,7 +1267,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M44 20L48 36 40 50 46 66 42 80",
+                        "d": "m44 20 4 16-8 14 6 16-4 14",
                         "stroke": "#fff",
                         "stroke-opacity": ".3",
                         "stroke-width": ".8"
@@ -1313,7 +1277,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M60 62L70 68 80 64",
+                        "d": "m60 62 10 6 10-4",
                         "stroke": "#fff",
                         "stroke-opacity": ".25",
                         "stroke-width": ".8"
@@ -1327,7 +1291,7 @@
                         "cy": "52",
                         "r": "1.4",
                         "fill": "#fff",
-                        "fill-opacity": "0.2"
+                        "fill-opacity": ".2"
                       }
                     },
                     {
@@ -1338,7 +1302,7 @@
                         "cy": "66",
                         "r": "1.1",
                         "fill": "#fff",
-                        "fill-opacity": "0.16"
+                        "fill-opacity": ".16"
                       }
                     }
                   ]
@@ -1392,18 +1356,9 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M56.7 44C56.7 45.3 56.5 46.6 56.2 47.8C55.8 49 55.4 50.4 54.6 51.3C53.8 52.2 52.5 52.9 51.3 53.3C50.1 53.6 48.5 53.4 47.4 53.4C46.3 53.4 45.4 53.1 44.5 53.3C43.6 53.5 42.9 54.2 42 54.6C41.1 54.9 39.9 55.6 38.9 55.6C37.9 55.5 36.8 54.9 36.2 54.1C35.5 53.4 35.3 52 34.9 51.1C34.6 50.1 34.5 49.3 34 48.6C33.4 47.9 32.4 47.6 31.5 46.8C30.6 46 29.2 45.1 28.6 44C27.9 42.9 27.5 41.4 27.6 40.1C27.7 38.9 28.4 37.6 29 36.5C29.6 35.4 30.5 34.3 31.5 33.5C32.4 32.6 33.5 31.7 34.7 31.4C35.9 31.1 37.5 31.1 38.7 31.7C39.9 32.2 41.2 33.7 42 34.7C42.8 35.7 43.1 37.2 43.7 37.8C44.2 38.3 44.5 38.3 45.4 38.1C46.3 38 47.7 37.1 49.1 36.9C50.4 36.8 52.3 36.8 53.5 37.3C54.7 37.9 55.7 39.1 56.2 40.2C56.7 41.3 56.7 42.7 56.7 44Z",
+                        "d": "M56.7 44c0 1.3-.2 2.6-.5 3.8-.4 1.2-.8 2.6-1.6 3.5s-2.1 1.6-3.3 2c-1.2.3-2.8.1-3.9.1s-2-.3-2.9-.1-1.6.9-2.5 1.3c-.9.3-2.1 1-3.1 1-1-.1-2.1-.7-2.7-1.5-.7-.7-.9-2.1-1.3-3-.3-1-.4-1.8-.9-2.5-.6-.7-1.6-1-2.5-1.8s-2.3-1.7-2.9-2.8c-.7-1.1-1.1-2.6-1-3.9.1-1.2.8-2.5 1.4-3.6s1.5-2.2 2.5-3c.9-.9 2-1.8 3.2-2.1s2.8-.3 4 .3c1.2.5 2.5 2 3.3 3s1.1 2.5 1.7 3.1c.5.5.8.5 1.7.3.9-.1 2.3-1 3.7-1.2 1.3-.1 3.2-.1 4.4.4 1.2.6 2.2 1.8 2.7 2.9s.5 2.5.5 3.8M72 61c-.1.7-.5 1.4-.9 1.9s-1.1.9-1.7 1.2c-.5.4-1 .6-1.4.9s-.7.7-1.1 1.1c-.3.5-.6 1.1-1.1 1.5-.5.5-1.1 1.1-1.8 1.4-.7.2-1.5.4-2.3.4-.7 0-1.5-.2-2.3-.5-.7-.3-1.4-.7-2-1.3-.6-.5-1.2-1.2-1.4-2-.3-.7-.4-1.6-.2-2.4s.7-1.6 1.3-2.2c.5-.6 1.3-1 1.9-1.3.5-.4 1-.5 1.3-.9.2-.3.1-.7.2-1.3 0-.7-.2-1.7 0-2.5.2-.9.6-2.1 1.2-2.7.5-.7 1.5-1.2 2.3-1.2.8-.1 1.7.4 2.4.9s1.2 1.4 1.6 2c.5.7.7 1.4 1.1 1.9.4.6.8.9 1.2 1.5.4.5 1 1 1.3 1.6s.5 1.3.4 2",
                         "fill": "#fff",
-                        "fill-opacity": "0.26"
-                      }
-                    },
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M72 61C71.9 61.7 71.5 62.4 71.1 62.9C70.7 63.4 70 63.8 69.4 64.1C68.9 64.5 68.4 64.7 68 65C67.6 65.3 67.3 65.7 66.9 66.1C66.6 66.6 66.3 67.2 65.8 67.6C65.3 68.1 64.7 68.7 64 69C63.3 69.2 62.5 69.4 61.7 69.4C61 69.4 60.2 69.2 59.4 68.9C58.7 68.6 58 68.2 57.4 67.6C56.8 67.1 56.2 66.4 56 65.6C55.7 64.9 55.6 64 55.8 63.2C56 62.4 56.5 61.6 57.1 61C57.6 60.4 58.4 60 59 59.7C59.5 59.3 60 59.2 60.3 58.8C60.5 58.5 60.4 58.1 60.5 57.5C60.5 56.8 60.3 55.8 60.5 55C60.7 54.1 61.1 52.9 61.7 52.3C62.2 51.6 63.2 51.1 64 51.1C64.8 51 65.7 51.5 66.4 52C67.1 52.5 67.6 53.4 68 54C68.5 54.7 68.7 55.4 69.1 55.9C69.5 56.5 69.9 56.8 70.3 57.4C70.7 57.9 71.3 58.4 71.6 59C71.9 59.6 72.1 60.3 72 61Z",
-                        "fill": "#fff",
-                        "fill-opacity": "0.26"
+                        "fill-opacity": ".26"
                       }
                     },
                     {
@@ -1414,7 +1369,7 @@
                         "cy": "36",
                         "r": "1.7",
                         "fill": "#fff",
-                        "fill-opacity": "0.26"
+                        "fill-opacity": ".26"
                       }
                     },
                     {
@@ -1425,7 +1380,7 @@
                         "cy": "41",
                         "r": "1.2",
                         "fill": "#fff",
-                        "fill-opacity": "0.26"
+                        "fill-opacity": ".26"
                       }
                     },
                     {
@@ -1436,7 +1391,7 @@
                         "cy": "32",
                         "r": "1.1",
                         "fill": "#fff",
-                        "fill-opacity": "0.26"
+                        "fill-opacity": ".26"
                       }
                     },
                     {
@@ -1447,7 +1402,7 @@
                         "cy": "66",
                         "r": "1.4",
                         "fill": "#fff",
-                        "fill-opacity": "0.26"
+                        "fill-opacity": ".26"
                       }
                     },
                     {
@@ -1459,7 +1414,7 @@
                         "rx": "15",
                         "ry": "5.5",
                         "fill": "#fff",
-                        "fill-opacity": "0.42"
+                        "fill-opacity": ".42"
                       }
                     },
                     {
@@ -1471,7 +1426,7 @@
                         "rx": "11",
                         "ry": "4.5",
                         "fill": "#fff",
-                        "fill-opacity": "0.38"
+                        "fill-opacity": ".38"
                       }
                     }
                   ]
@@ -1529,7 +1484,7 @@
                         "cy": "55.7",
                         "r": "1.8",
                         "fill": "#fff",
-                        "fill-opacity": "0.11"
+                        "fill-opacity": ".11"
                       }
                     },
                     {
@@ -1540,7 +1495,7 @@
                         "cy": "44.2",
                         "r": "1.3",
                         "fill": "#fff",
-                        "fill-opacity": "0.1"
+                        "fill-opacity": ".1"
                       }
                     },
                     {
@@ -1549,9 +1504,9 @@
                       "attributes": {
                         "cx": "34.1",
                         "cy": "33.1",
-                        "r": "0.8",
+                        "r": ".8",
                         "fill": "#000",
-                        "fill-opacity": "0.09"
+                        "fill-opacity": ".09"
                       }
                     },
                     {
@@ -1562,7 +1517,7 @@
                         "cy": "57.4",
                         "r": "1.7",
                         "fill": "#fff",
-                        "fill-opacity": "0.13"
+                        "fill-opacity": ".13"
                       }
                     },
                     {
@@ -1573,7 +1528,7 @@
                         "cy": "45",
                         "r": "1.9",
                         "fill": "#fff",
-                        "fill-opacity": "0.14"
+                        "fill-opacity": ".14"
                       }
                     },
                     {
@@ -1584,7 +1539,7 @@
                         "cy": "45.4",
                         "r": "1.4",
                         "fill": "#fff",
-                        "fill-opacity": "0.14"
+                        "fill-opacity": ".14"
                       }
                     },
                     {
@@ -1595,7 +1550,7 @@
                         "cy": "52.7",
                         "r": "1.3",
                         "fill": "#fff",
-                        "fill-opacity": "0.13"
+                        "fill-opacity": ".13"
                       }
                     },
                     {
@@ -1606,7 +1561,7 @@
                         "cy": "54.1",
                         "r": "1",
                         "fill": "#fff",
-                        "fill-opacity": "0.12"
+                        "fill-opacity": ".12"
                       }
                     },
                     {
@@ -1617,7 +1572,7 @@
                         "cy": "53.3",
                         "r": "1.2",
                         "fill": "#000",
-                        "fill-opacity": "0.12"
+                        "fill-opacity": ".12"
                       }
                     },
                     {
@@ -1628,7 +1583,7 @@
                         "cy": "34.3",
                         "r": "1.5",
                         "fill": "#fff",
-                        "fill-opacity": "0.15"
+                        "fill-opacity": ".15"
                       }
                     },
                     {
@@ -1639,7 +1594,7 @@
                         "cy": "50",
                         "r": "1.2",
                         "fill": "#fff",
-                        "fill-opacity": "0.12"
+                        "fill-opacity": ".12"
                       }
                     },
                     {
@@ -1650,7 +1605,7 @@
                         "cy": "75.6",
                         "r": "1.9",
                         "fill": "#000",
-                        "fill-opacity": "0.11"
+                        "fill-opacity": ".11"
                       }
                     },
                     {
@@ -1661,7 +1616,7 @@
                         "cy": "61.4",
                         "r": "1",
                         "fill": "#fff",
-                        "fill-opacity": "0.16"
+                        "fill-opacity": ".16"
                       }
                     },
                     {
@@ -1672,7 +1627,7 @@
                         "cy": "59.7",
                         "r": "1.2",
                         "fill": "#fff",
-                        "fill-opacity": "0.12"
+                        "fill-opacity": ".12"
                       }
                     },
                     {
@@ -1683,7 +1638,7 @@
                         "cy": "50",
                         "r": "1.8",
                         "fill": "#000",
-                        "fill-opacity": "0.1"
+                        "fill-opacity": ".1"
                       }
                     },
                     {
@@ -1694,7 +1649,7 @@
                         "cy": "54.8",
                         "r": "1.2",
                         "fill": "#fff",
-                        "fill-opacity": "0.1"
+                        "fill-opacity": ".1"
                       }
                     },
                     {
@@ -1703,9 +1658,9 @@
                       "attributes": {
                         "cx": "52.4",
                         "cy": "36.7",
-                        "r": "0.8",
+                        "r": ".8",
                         "fill": "#fff",
-                        "fill-opacity": "0.13"
+                        "fill-opacity": ".13"
                       }
                     },
                     {
@@ -1716,7 +1671,7 @@
                         "cy": "72.2",
                         "r": "1.6",
                         "fill": "#fff",
-                        "fill-opacity": "0.14"
+                        "fill-opacity": ".14"
                       }
                     }
                   ]
@@ -1751,7 +1706,7 @@
               "attributes": {
                 "cx": "5",
                 "cy": "5",
-                "r": "0.7",
+                "r": ".7",
                 "fill": "#fff",
                 "fill-opacity": ".5"
               }
@@ -1767,7 +1722,7 @@
               "attributes": {
                 "cx": "5",
                 "cy": "5",
-                "r": "0.8",
+                "r": ".8",
                 "fill": "#fff",
                 "fill-opacity": ".85"
               }
@@ -1838,7 +1793,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M5 1.8Q5.5 4.5 8.2 5Q5.5 5.5 5 8.2Q4.5 5.5 1.8 5Q4.5 4.5 5 1.8Z",
+                    "d": "M5 1.8Q5.5 4.5 8.2 5 5.5 5.5 5 8.2 4.5 5.5 1.8 5 4.5 4.5 5 1.8",
                     "fill": "#fff",
                     "fill-opacity": ".9"
                   }

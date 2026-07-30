@@ -137,16 +137,14 @@
         "line": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "45",
-                "width": "10",
-                "height": "400",
                 "fill": {
                   "type": "color",
                   "name": "shape1"
-                }
+                },
+                "d": "M45 0h10v400H45z"
               }
             }
           ]
@@ -277,16 +275,14 @@
         "line": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "45",
-                "width": "10",
-                "height": "400",
                 "fill": {
                   "type": "color",
                   "name": "shape2"
-                }
+                },
+                "d": "M45 0h10v400H45z"
               }
             }
           ]
@@ -416,16 +412,14 @@
         "line": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "45",
-                "width": "10",
-                "height": "400",
                 "fill": {
                   "type": "color",
                   "name": "shape3"
-                }
+                },
+                "d": "M45 0h10v400H45z"
               }
             }
           ]

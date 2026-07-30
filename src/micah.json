@@ -698,14 +698,11 @@
                   },
                   "children": [
                     {
-                      "name": "rect",
+                      "name": "path",
                       "type": "element",
                       "attributes": {
-                        "x": "-2.69",
-                        "y": "-14.65",
-                        "width": "164",
-                        "height": "153",
-                        "fill": "white"
+                        "fill": "white",
+                        "d": "M-2.69-14.65h164v153h-164z"
                       }
                     }
                   ]

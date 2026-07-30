@@ -769,16 +769,13 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-.5",
-                    "y": ".5",
-                    "width": "46",
-                    "height": "44",
                     "fill": "white",
                     "opacity": ".26",
-                    "style": "mix-blend-mode:overlay"
+                    "style": "mix-blend-mode:overlay",
+                    "d": "M-.5.5h46v44h-46z"
                   }
                 }
               ]
@@ -847,16 +844,13 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "5.5",
-                    "y": "2.5",
-                    "width": "34",
-                    "height": "23",
                     "fill": "white",
                     "opacity": ".26",
-                    "style": "mix-blend-mode:overlay"
+                    "style": "mix-blend-mode:overlay",
+                    "d": "M5.5 2.5h34v23h-34z"
                   }
                 }
               ]
@@ -1262,7 +1256,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M3.32 4.26a.75.75 0 1 1 .36-1.45c2.44.63 4.17.34 5.29-.8a.75.75 0 1 1 1.06 1.08C8.5 4.6 6.23 4.99 3.33 4.27",
+                "d": "M3.32 4.26a.75.75 0 1 1 .36-1.45c2.44.63 4.17.34 5.29-.8a.75.75 0 1 1 1.06 1.08c-1.53 1.51-3.8 1.9-6.7 1.18",
                 "fill": "#1B0640"
               }
             }

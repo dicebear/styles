@@ -34,12 +34,11 @@
             },
             "children": [
               {
-                "name": "rect",
+                "name": "path",
                 "type": "element",
                 "attributes": {
-                  "width": "135",
-                  "height": "135",
-                  "fill": "#D9D9D9"
+                  "fill": "#D9D9D9",
+                  "d": "M0 0h135v135H0z"
                 }
               }
             ]
@@ -78,12 +77,11 @@
             },
             "children": [
               {
-                "name": "rect",
+                "name": "path",
                 "type": "element",
                 "attributes": {
-                  "width": "135",
-                  "height": "135",
-                  "fill": "#D9D9D9"
+                  "fill": "#D9D9D9",
+                  "d": "M0 0h135v135H0z"
                 }
               }
             ]

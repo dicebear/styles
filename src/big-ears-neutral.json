@@ -919,47 +919,11 @@
         "variant16": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "25",
-                "y": "47.1",
-                "width": "40.4",
-                "height": "36.8",
-                "fill": "black"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "25",
-                "y": "14",
-                "width": "40.4",
-                "height": "11",
-                "fill": "black"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "124.3",
-                "y": "47.1",
-                "width": "40.4",
-                "height": "36.8",
-                "fill": "black"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "124.3",
-                "y": "14",
-                "width": "40.4",
-                "height": "11",
-                "fill": "black"
+                "fill": "black",
+                "d": "M25 47.1h40.4v36.8H25zM25 14h40.4v11H25zm99.3 33.1h40.4v36.8h-40.4zm0-33.1h40.4v11h-40.4z"
               }
             }
           ]
@@ -967,47 +931,11 @@
         "variant17": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "25",
-                "y": "59.1",
-                "width": "40.4",
-                "height": "11",
-                "fill": "black"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "25",
-                "y": "26",
-                "width": "40.4",
-                "height": "11",
-                "fill": "black"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "124.3",
-                "y": "59.1",
-                "width": "40.4",
-                "height": "11",
-                "fill": "black"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "124.3",
-                "y": "26",
-                "width": "40.4",
-                "height": "11",
-                "fill": "black"
+                "fill": "black",
+                "d": "M25 59.1h40.4v11H25zM25 26h40.4v11H25zm99.3 33.1h40.4v11h-40.4zm0-33.1h40.4v11h-40.4z"
               }
             }
           ]
@@ -1043,24 +971,11 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "18",
-                "width": "76.9",
-                "height": "20.1",
-                "fill": "#403E3E"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "112.4",
-                "y": "18",
-                "width": "76.9",
-                "height": "20.1",
-                "fill": "#403E3E"
+                "fill": "#403E3E",
+                "d": "M0 18h76.9v20.1H0zm112.4 0h76.9v20.1h-76.9z"
               }
             }
           ]

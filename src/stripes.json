@@ -199,16 +199,14 @@
         "variant02": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "4",
-                "width": "2",
-                "height": "150",
                 "fill": {
                   "type": "color",
                   "name": "stripe"
-                }
+                },
+                "d": "M4 0h2v150H4z"
               }
             }
           ]
@@ -216,16 +214,14 @@
         "variant04": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "width": "4",
-                "height": "150",
                 "fill": {
                   "type": "color",
                   "name": "stripe"
-                }
+                },
+                "d": "M3 0h4v150H3z"
               }
             }
           ]
@@ -233,16 +229,14 @@
         "variant06": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "width": "6",
-                "height": "150",
                 "fill": {
                   "type": "color",
                   "name": "stripe"
-                }
+                },
+                "d": "M2 0h6v150H2z"
               }
             }
           ]
@@ -250,16 +244,14 @@
         "variant08": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "width": "8",
-                "height": "150",
                 "fill": {
                   "type": "color",
                   "name": "stripe"
-                }
+                },
+                "d": "M1 0h8v150H1z"
               }
             }
           ]
@@ -267,16 +259,14 @@
         "variant10": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "width": "8",
-                "height": "150",
                 "fill": {
                   "type": "color",
                   "name": "stripe"
-                }
+                },
+                "d": "M1 0h8v150H1z"
               }
             }
           ]

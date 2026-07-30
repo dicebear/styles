@@ -108,28 +108,14 @@
         "variant01": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "12",
-                "width": "2",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "accessories"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "2",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "accessories"
-                }
+                },
+                "d": "M12 0h2v2h-2zM0 0h2v2H0z"
               }
             }
           ]
@@ -137,51 +123,23 @@
         "variant02": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "12",
-                "width": "1",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "accessories"
-                }
+                },
+                "d": "M12 0h1v2h-1zM1 0h1v2H1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "width": "1",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "accessories"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "12",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
+                "fill-opacity": ".5",
+                "d": "M1 0h1v1H1zm11 0h1v1h-1z"
               }
             }
           ]
@@ -189,29 +147,14 @@
         "variant03": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "12",
-                "width": "1",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "accessories"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "width": "1",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "accessories"
-                }
+                },
+                "d": "M12 0h1v2h-1zM1 0h1v2H1z"
               }
             }
           ]
@@ -219,29 +162,14 @@
         "variant04": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "accessories"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "12",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "accessories"
-                }
+                },
+                "d": "M1 0h1v1H1zm11 0h1v1h-1z"
               }
             }
           ]
@@ -285,29 +213,23 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": {
                       "type": "color",
                       "name": "hair"
-                    }
+                    },
+                    "d": "M-3-6h16v16H-3z"
                   }
                 },
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": "white",
-                    "fill-opacity": ".3"
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
                   }
                 }
               ]
@@ -346,29 +268,23 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": {
                       "type": "color",
                       "name": "hair"
-                    }
+                    },
+                    "d": "M-3-6h16v16H-3z"
                   }
                 },
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": "white",
-                    "fill-opacity": ".3"
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
                   }
                 }
               ]
@@ -407,29 +323,23 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": {
                       "type": "color",
                       "name": "hair"
-                    }
+                    },
+                    "d": "M-3-6h16v16H-3z"
                   }
                 },
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": "white",
-                    "fill-opacity": ".3"
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
                   }
                 }
               ]
@@ -447,18 +357,15 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
                     "opacity": ".9",
-                    "x": "3",
-                    "y": "5",
-                    "width": "4",
-                    "height": "1",
                     "fill": {
                       "type": "color",
                       "name": "hair"
-                    }
+                    },
+                    "d": "M3 5h4v1H3z"
                   }
                 }
               ]
@@ -471,29 +378,23 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": {
                       "type": "color",
                       "name": "hair"
-                    }
+                    },
+                    "d": "M-3-6h16v16H-3z"
                   }
                 },
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": "white",
-                    "fill-opacity": ".3"
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
                   }
                 }
               ]
@@ -532,29 +433,23 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": {
                       "type": "color",
                       "name": "hair"
-                    }
+                    },
+                    "d": "M-3-6h16v16H-3z"
                   }
                 },
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": "white",
-                    "fill-opacity": ".3"
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
                   }
                 }
               ]
@@ -593,29 +488,23 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": {
                       "type": "color",
                       "name": "hair"
-                    }
+                    },
+                    "d": "M-3-6h16v16H-3z"
                   }
                 },
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": "white",
-                    "fill-opacity": ".3"
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
                   }
                 }
               ]
@@ -654,29 +543,23 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": {
                       "type": "color",
                       "name": "hair"
-                    }
+                    },
+                    "d": "M-3-6h16v16H-3z"
                   }
                 },
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": "white",
-                    "fill-opacity": ".3"
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
                   }
                 }
               ]
@@ -715,29 +598,23 @@
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": {
                       "type": "color",
                       "name": "hair"
-                    }
+                    },
+                    "d": "M-3-6h16v16H-3z"
                   }
                 },
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "-3",
-                    "y": "-6",
-                    "width": "16",
-                    "height": "16",
                     "fill": "white",
-                    "fill-opacity": ".3"
+                    "fill-opacity": ".3",
+                    "d": "M-3-6h16v16H-3z"
                   }
                 }
               ]
@@ -764,27 +641,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "9",
-                "y": "2",
-                "width": "1",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "1",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M9 2h1v2H9zM2 2h1v2H2z"
               }
             }
           ]
@@ -803,112 +665,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "2",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "transform": "rotate(.4 2 3)",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "transform": "rotate(.4 5 3)",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M3 2h1v1H3zM2 3l1 .007-.007 1-1-.007zm3 0 1 .007-.007 1-1-.007zM1 1h1v1H1zM0 2h1v1H0zm10-1h1v1h-1zM9 2h1v1H9zM8 3h1v1H8zm3 0h1v1h-1z"
               }
             }
           ]
@@ -972,182 +734,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "3",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "3",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M1 1h1v1H1zM0 2h1v1H0zm1 1h1v1H1zm1-1h1v1H2zm1-1h1v1H3zm0 2h1v1H3zm1-1h1v1H4zm1 1h1v1H5zm1-1h1v1H6zm1 1h1v1H7zm1-1h1v1H8zm1 1h1v1H9zm0-2h1v1H9zm1 1h1v1h-1zm1 1h1v1h-1z"
               }
             }
           ]
@@ -1196,27 +788,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "1",
-                "width": "1",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M2 1h1v2H2zm7 0h1v2H9z"
               }
             }
           ]
@@ -1235,15 +812,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "3",
-                "width": "2",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
+                "fill-opacity": ".5",
+                "d": "M7 3h2v1H7z"
               }
             }
           ]
@@ -1277,14 +851,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "2",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M5 0h2v1H5z"
               }
             }
           ]
@@ -1303,74 +875,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "2",
-                "width": "1",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "2",
-                "width": "1",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "2",
-                "width": "1",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "2",
-                "width": "1",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "1",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M0 2h1v2H0zm4 0h1v2H4zm2 0h1v2H6zm2 0h1v2H8zM2 1h1v3H2zm8 0h1v3h-1z"
               }
             }
           ]
@@ -1419,75 +929,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "9",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "3",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M9 1h1v1H9zM8 2h1v1H8zM7 3h1v1H7zM4 3h1v1H4zM3 2h1v1H3zM2 1h1v1H2z"
               }
             }
           ]
@@ -1521,141 +968,39 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "8",
-                "y": "2",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M8 2h1v1H8zm1-1h1v1H9zM7 3h1v1H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "9",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".5",
+                "d": "M7 2h1v1H7zm1-1h1v1H8zM6 3h1v1H6z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "3",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M4 2H3v1h1zM3 1H2v1h1zm2 2H4v1h1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 4 2)",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 3 1)",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 5 3)",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 5 2)",
-                "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 4 1)",
-                "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 6 3)",
-                "fill": "white",
-                "fill-opacity": ".5"
+                "fill-opacity": ".5",
+                "d": "M5 2H4v1h1zM4 1H3v1h1zm2 2H5v1h1z"
               }
             }
           ]
@@ -1674,15 +1019,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "3",
-                "width": "2",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 3h2v1H7z"
               }
             }
           ]
@@ -1690,41 +1032,23 @@
         "variant20": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "8",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "clothing"
-                }
+                },
+                "d": "M2 2h8v2H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "1",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "2",
-                "width": "1",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h1v2H2zm7 0h1v2H9z"
               }
             }
           ]
@@ -1743,123 +1067,39 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
+                "fill-opacity": ".5",
+                "d": "M2 1h1v1H2zm1 1h1v1H3zm1 1h1v1H4zm3 0h1v1H7zm1-1h1v1H8z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "2",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
+                "fill-opacity": ".3",
+                "d": "M9 2h1v1H9z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "4",
-                "y": "3",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
+                "fill-opacity": ".5",
+                "d": "M9 1h1v1H9z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "3",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "3",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M8 3h1v1H8zM3 3h1v1H3zM2 2h1v1H2z"
               }
             }
           ]
@@ -1878,27 +1118,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "1",
-                "width": "1",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "1",
-                "width": "1",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M3 1h1v3H3zm5 0h1v3H8z"
               }
             }
           ]
@@ -1917,27 +1142,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "1",
-                "width": "1",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M2 1h1v3H2zm7 0h1v3H9z"
               }
             }
           ]
@@ -1951,71 +1161,44 @@
         "variant01": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
-                "transform": "matrix(-1 0 0 1 8 0)",
-                "fill": "white"
+                "fill": "white",
+                "d": "M8 0H5v3h3zM3 0H0v3h3z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
-                "transform": "matrix(-1 0 0 1 3 0)",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "2",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 8 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M0 0h2v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "2",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 3 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M0 0h2v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 8 1)",
                 "fill": "white",
-                "fill-opacity": ".7"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 3 1)",
-                "fill": "white",
-                "fill-opacity": ".7"
+                "fill-opacity": ".7",
+                "d": "M8 1H7v1h1zM3 1H2v1h1z"
               }
             }
           ]
@@ -2069,29 +1252,27 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 7 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 2 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             }
           ]
@@ -2107,31 +1288,14 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
+                },
+                "d": "M1 1h1v1H1zm5 0h1v1H6z"
               }
             }
           ]
@@ -2139,22 +1303,11 @@
         "variant05": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
               }
             },
             {
@@ -2169,38 +1322,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
+                "fill-opacity": ".5",
+                "d": "M5 1h1v1H5zm1-1h1v1H6zm1 1h1v1H7z"
               }
             },
             {
@@ -2215,37 +1342,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
+                "fill-opacity": ".5",
+                "d": "M0 1h1v1H0zm1-1h1v1H1zm1 1h1v1H2z"
               }
             }
           ]
@@ -2253,50 +1355,41 @@
         "variant06": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "2",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v2H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M1 1h1v1H1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
+                "fill": "white",
+                "d": "M5 0h3v2H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "6",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M6 1h1v1H6z"
               }
             }
           ]
@@ -2304,50 +1397,22 @@
         "variant07": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "2",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
+                },
+                "d": "M7 1h1v1H7zM2 1h1v1H2z"
               }
             }
           ]
@@ -2355,49 +1420,22 @@
         "variant08": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "2",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
+                },
+                "d": "M5 1h1v1H5zM0 1h1v1H0z"
               }
             }
           ]
@@ -2405,50 +1443,22 @@
         "variant09": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
+                },
+                "d": "M6 1h1v1H6zM1 1h1v1H1z"
               }
             }
           ]
@@ -2456,116 +1466,40 @@
         "variant10": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "width": "2",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M6 0h2v2H6zM1 0h2v2H1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "width": "2",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".4"
+                "fill-opacity": ".4",
+                "d": "M1 0h1v1H1zm1 1h1v1H2zm4-1h1v1H6zm1 1h1v1H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".4"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".4"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".4"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".7"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".7"
+                "fill-opacity": ".7",
+                "d": "M7 0h1v1H7zM2 0h1v1H2z"
               }
             }
           ]
@@ -2573,72 +1507,31 @@
         "variant11": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M0 1h2v1H0zm5 0h2v1H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".7"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".7"
+                "fill-opacity": ".7",
+                "d": "M0 1h1v1H0zm5 0h1v1H5z"
               }
             }
           ]
@@ -2702,62 +1595,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2zm5 0h3v1H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "1",
-                "fill": "black",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "2",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
               }
             }
           ]
@@ -2778,62 +1630,30 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm5 0h2v1H5zm6 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 2h3v1H7z"
               }
             }
           ]
@@ -2841,105 +1661,41 @@
         "dark03": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "12",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "glasses"
-                }
+                },
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "y": "3",
-                "width": "10",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "8",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h8v1H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "2",
-                "width": "2",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M5 2h2v1H5z"
               }
             }
           ]
@@ -2947,69 +1703,23 @@
         "dark04": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 1h3v3H2zm5 0h3v3H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "black",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
+                },
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
           ]
@@ -3030,50 +1740,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v2H2zm5 0h3v2H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "black",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
           ]
@@ -3094,62 +1775,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 2h3v2H7zM2 2h3v2H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "black",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
           ]
@@ -3170,50 +1810,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 1h3v3H7zM2 1h3v3H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "black",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             }
           ]
@@ -3232,62 +1843,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2zm5 0h3v1H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "2",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
               }
             }
           ]
@@ -3308,62 +1878,30 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm5 0h2v1H5zm6 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 2h3v1H7z"
               }
             }
           ]
@@ -3371,105 +1909,41 @@
         "light03": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "12",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "glasses"
-                }
+                },
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "y": "3",
-                "width": "10",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "8",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h8v1H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "2",
-                "width": "2",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M5 2h2v1H5z"
               }
             }
           ]
@@ -3477,69 +1951,23 @@
         "light04": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 1h3v3H2zm5 0h3v3H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
+                },
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
           ]
@@ -3560,50 +1988,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v2H2zm5 0h3v2H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
           ]
@@ -3624,62 +2023,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 2h3v2H7zM2 2h3v2H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
           ]
@@ -3700,50 +2058,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 1h3v3H7zM2 1h3v3H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             }
           ]
@@ -4110,107 +2439,99 @@
         "short01": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "8",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 12 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h8v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "6",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 13 3)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h6v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "2",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 13 4)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h2v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 13 5)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 6 4)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h3v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "4",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 7 3)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h4v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "2",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 5 5)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h2v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 4 6)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             }
           ]
@@ -4218,81 +2539,75 @@
         "short02": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "8",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 12 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h8v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "2",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 13 3)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h2v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 13 4)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 6 3)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h3v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "2",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 5 4)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h2v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 4 5)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             }
           ]
@@ -4300,55 +2615,51 @@
         "short03": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "8",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 12 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h8v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 13 3)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 6 3)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h3v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "2",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 5 4)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h2v1H0z"
               }
             }
           ]
@@ -4356,42 +2667,39 @@
         "short04": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "2",
                 "transform": "matrix(-1 0 0 1 4 3)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v2H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "2",
                 "transform": "matrix(-1 0 0 1 13 3)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v2H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "8",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 12 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h8v1H0z"
               }
             }
           ]
@@ -4399,55 +2707,51 @@
         "short05": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "3",
                 "transform": "matrix(-1 0 0 1 9 1)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v3H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "2",
                 "transform": "matrix(-1 0 0 1 8 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v2H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "3",
                 "transform": "matrix(-1 0 0 1 10 0)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v3H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 11 1)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             }
           ]
@@ -4455,68 +2759,63 @@
         "short06": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "3",
                 "transform": "matrix(-1 0 0 1 4 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v3H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "3",
                 "transform": "matrix(-1 0 0 1 13 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v3H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "9",
-                "height": "2",
                 "transform": "matrix(-1 0 0 1 12 1)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h9v2H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "2",
-                "height": "2",
                 "transform": "matrix(-1 0 0 1 4 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h2v2H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "2",
-                "height": "2",
                 "transform": "matrix(-1 0 0 1 14 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h2v2H0z"
               }
             }
           ]
@@ -4524,56 +2823,50 @@
         "short07": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "3",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M3 3h1v1H3z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 5 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 12 2)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 13 3)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             }
           ]
@@ -4581,73 +2874,14 @@
         "short08": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "5",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "2",
-                "width": "8",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "3",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "3",
-                "y": "3",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M5 1h5v1H5zM4 2h8v1H4zm5 1h1v1H9zm2 0h2v1h-2zM3 3h2v1H3z"
               }
             }
           ]
@@ -4655,45 +2889,14 @@
         "short09": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "5",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "2",
-                "width": "7",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "3",
-                "y": "3",
-                "width": "5",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M7 1h5v1H7zM4 2h7v1H4zM3 3h5v1H3z"
               }
             }
           ]
@@ -4701,58 +2904,26 @@
         "short10": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "2",
-                "width": "10",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M3 2h10v1H3zm0 1h2v1H3zm4-2h5v1H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "3",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "5",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 13 3)",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             }
           ]
@@ -4760,515 +2931,25 @@
         "short11": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "4",
-                "y": "2",
-                "width": "8",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M4 2h8v1H4zM3 1h1v1H3zM2 2h1v1H2zm0 1h1v1H2zm0 1h1v1H2zm0 1h1v1H2zM1 3h1v1H1zm0-2h1v1H1zm0 4h1v1H1zm0 1h1v1H1zM0 7h1v1H0zm1 1h1v1H1zm4-7h1v1H5zm1-1h1v1H6zM4 0h1v1H4zm2 1h1v1H6zm1 0h1v1H7zm1-1h1v1H8zm1 1h1v1H9zm0-1h1v1H9zm2 0h1v1h-1zm-1 1h1v1h-1zm2 0h1v1h-1zm1 1h1v1h-1zm0 1h1v1h-1zm0 1h1v1h-1zm0 1h1v1h-1zm1 1h1v1h-1zm1-2h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "4",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "5",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "5",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "6",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "7",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "8",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "12",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "13",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "13",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "13",
-                "y": "4",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "13",
-                "y": "5",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "14",
-                "y": "6",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "15",
-                "y": "4",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "15",
-                "y": "4",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "14",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "14",
-                "y": "8",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "15",
-                "y": "6",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "15",
-                "y": "7",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "13",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "3",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M15 4h1v1h-1zm-1-1h1v1h-1zm0 5h1v1h-1zm1-2h1v1h-1zm0 1h1v1h-1zm-2-5h1v1h-1zM2 2h1v1H2zm1-1h1v1H3z"
               }
             }
           ]
@@ -5276,59 +2957,14 @@
         "short12": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "4",
-                "y": "2",
-                "width": "1",
-                "height": "3",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "2",
-                "width": "1",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "2",
-                "width": "1",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "2",
-                "width": "1",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M4 2h1v3H4zm2 0h1v2H6zm2 0h1v2H8zm2 0h1v2h-1z"
               }
             }
           ]
@@ -5336,238 +2972,36 @@
         "short13": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "2",
-                "width": "10",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M3 2h10v2H3zM2 2h1v1H2zm0-1h1v1H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M2 2h1v1H2zm11-2h1v1h-1zM2 4h1v1H2zm3-4h1v1H5zM4 1h1v1H4zm2 0h1v1H6zm3 0h1v1H9zM8 0h1v1H8zm4 1h1v1h-1zm1 1h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "13",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "4",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "12",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "13",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "12",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "14",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "13",
-                "y": "4",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M12 1h1v1h-1zm2 2h1v1h-1zm-1 1h1v1h-1zM1 3h1v1H1z"
               }
             }
           ]
@@ -5575,45 +3009,14 @@
         "short14": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "4",
-                "width": "1",
-                "height": "3",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "12",
-                "y": "4",
-                "width": "1",
-                "height": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "3",
-                "y": "2",
-                "width": "10",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M3 4h1v3H3zm9 0h1v3h-1zM3 2h10v2H3z"
               }
             }
           ]
@@ -5621,59 +3024,14 @@
         "short15": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "3",
-                "width": "10",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "2",
-                "width": "8",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "4",
-                "width": "2",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "12",
-                "y": "4",
-                "width": "2",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M3 3h10v1H3zm1-1h8v1H4zM2 4h2v2H2zm10 0h2v2h-2z"
               }
             }
           ]
@@ -5681,31 +3039,25 @@
         "short16": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "2",
-                "width": "10",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M3 2h10v2H3z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "4",
-                "y": "1",
-                "width": "8",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M4 1h8v2H4z"
               }
             }
           ]
@@ -5713,59 +3065,36 @@
         "short17": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "12",
-                "y": "3",
-                "width": "2",
-                "height": "3",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M12 3h2v3h-2zM2 3h2v3H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "3",
-                "width": "2",
-                "height": "3",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M3 2h10v2H3z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "2",
-                "width": "10",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "1",
-                "width": "8",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M4 1h8v2H4z"
               }
             }
           ]
@@ -5773,45 +3102,25 @@
         "short18": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "3",
-                "width": "2",
-                "height": "3",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M2 3h2v3H2zm10 0h2v3h-2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "12",
-                "y": "3",
-                "width": "2",
-                "height": "3",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "12",
-                "y": "3",
-                "width": "2",
-                "height": "3",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M12 3h2v3h-2z"
               }
             }
           ]
@@ -5819,73 +3128,25 @@
         "short19": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "4",
-                "y": "2",
-                "width": "8",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M4 2h8v1H4zM3 3h3v1H3zm7 0h3v1h-3zM8 3h1v1H8z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "3",
-                "y": "3",
-                "width": "3",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "3",
-                "width": "3",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M8 3h1v1H8z"
               }
             }
           ]
@@ -5893,31 +3154,14 @@
         "short20": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "6",
-                "y": "2",
-                "width": "4",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "3",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                }
+                },
+                "d": "M6 2h4v1H6zm1 1h2v1H7z"
               }
             }
           ]
@@ -5925,17 +3169,14 @@
         "short21": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "2",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M7 1h2v2H7z"
               }
             }
           ]
@@ -5958,17 +3199,14 @@
         "short23": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "6",
-                "y": "2",
-                "width": "4",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "hair"
-                }
+                },
+                "d": "M6 2h4v1H6z"
               }
             }
           ]
@@ -6009,50 +3247,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "4",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "3",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M4 0h1v1H4zM3 1h1v1H3zM2 2h1v1H2zM1 3h1v1H1z"
               }
             }
           ]
@@ -6071,16 +3271,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "10",
-                "y": "4",
-                "width": "1",
-                "height": "3",
-                "transform": "rotate(-180 10 4)",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M10 4H9V1h1z"
               }
             }
           ]
@@ -6099,29 +3295,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "12",
-                "y": "1",
-                "width": "1",
-                "height": "10",
-                "transform": "rotate(90 12 1)",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "13",
-                "y": "3",
-                "width": "1",
-                "height": "12",
-                "transform": "rotate(90 13 3)",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M12 1v1H2V1zm1 2v1H1V3z"
               }
             }
           ]
@@ -6140,29 +3319,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "12",
-                "y": "1",
-                "width": "1",
-                "height": "10",
-                "transform": "rotate(90 12 1)",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "13",
-                "y": "3",
-                "width": "1",
-                "height": "12",
-                "transform": "rotate(90 13 3)",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M12 1v1H2V1zm1 2v1H1V3z"
               }
             }
           ]
@@ -6181,86 +3343,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "9",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "3",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M11 1h1v1h-1zm-1 1h1v1h-1zM9 3h1v1H9zm0-3h1v1H9zM8 1h1v1H8zM7 2h1v1H7zM6 3h1v1H6z"
               }
             }
           ]
@@ -6279,15 +3367,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "1",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M10 1h1v3h-1z"
               }
             }
           ]
@@ -6321,16 +3406,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "11",
-                "y": "2",
-                "width": "1",
-                "height": "3",
-                "transform": "rotate(90 11 2)",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M11 2v1H8V2z"
               }
             }
           ]
@@ -6349,27 +3430,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "10",
-                "y": "2",
-                "width": "1",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "2",
-                "width": "1",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M10 2h1v3h-1zM8 2h1v3H8z"
               }
             }
           ]
@@ -6388,27 +3454,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "9",
-                "y": "2",
-                "width": "1",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "3",
-                "width": "1",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M9 2h1v3H9zM7 3h1v2H7z"
               }
             }
           ]

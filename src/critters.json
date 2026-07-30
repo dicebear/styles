@@ -84,7 +84,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -92,18 +92,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 50C36 30 32 18 26 10C38 14 46 26 46 50Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M64 50C64 30 68 18 74 10C62 14 54 26 54 50Z",
+                    "d": "M36 50c0-20-4-32-10-40 12 4 20 16 20 40Zm28 0c0-20 4-32 10-40-12 4-20 16-20 40Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -116,18 +105,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M36 50C36 30 32 18 26 10C38 14 46 26 46 50Z",
-                "fill": {
-                  "type": "color",
-                  "name": "accent"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M64 50C64 30 68 18 74 10C62 14 54 26 54 50Z",
+                "d": "M36 50c0-20-4-32-10-40 12 4 20 16 20 40Zm28 0c0-20 4-32 10-40-12 4-20 16-20 40Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -142,7 +120,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -150,18 +128,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 50C36 32 36 20 44 12C42 22 44 32 44 50Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M64 50C64 32 64 20 56 12C58 22 56 32 56 50Z",
+                    "d": "M36 50c0-18 0-30 8-38-2 10 0 20 0 38Zm28 0c0-18 0-30-8-38 2 10 0 20 0 38Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -174,18 +141,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M36 50C36 32 36 20 44 12C42 22 44 32 44 50Z",
-                "fill": {
-                  "type": "color",
-                  "name": "accent"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M64 50C64 32 64 20 56 12C58 22 56 32 56 50Z",
+                "d": "M36 50c0-18 0-30 8-38-2 10 0 20 0 38Zm28 0c0-18 0-30-8-38 2 10 0 20 0 38Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -200,7 +156,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -274,7 +230,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -282,7 +238,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M43 50L50 10L57 50Z",
+                    "d": "m43 50 7-40 7 40Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -295,7 +251,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M43 50L50 10L57 50Z",
+                "d": "m43 50 7-40 7 40Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -310,7 +266,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -378,7 +334,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -386,21 +342,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M43 50L40 21",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "4",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M57 50L60 21",
+                    "d": "m43 50-3-29m17 29 3-29",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -442,21 +384,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M43 50L40 21",
-                "stroke": {
-                  "type": "color",
-                  "name": "accent"
-                },
-                "stroke-width": "4",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M57 50L60 21",
+                "d": "m43 50-3-29m17 29 3-29",
                 "stroke": {
                   "type": "color",
                   "name": "accent"
@@ -500,36 +428,19 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "31",
-                    "y": "24",
-                    "width": "8",
-                    "height": "26",
                     "fill": {
                       "type": "color",
                       "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "rect",
-                  "type": "element",
-                  "attributes": {
-                    "x": "61",
-                    "y": "24",
-                    "width": "8",
-                    "height": "26",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
+                    },
+                    "d": "M31 24h8v26h-8zm30 0h8v26h-8z"
                   }
                 },
                 {
@@ -561,31 +472,14 @@
               ]
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "31",
-                "y": "24",
-                "width": "8",
-                "height": "26",
                 "fill": {
                   "type": "color",
                   "name": "accent"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "61",
-                "y": "24",
-                "width": "8",
-                "height": "26",
-                "fill": {
-                  "type": "color",
-                  "name": "accent"
-                }
+                },
+                "d": "M31 24h8v26h-8zm30 0h8v26h-8z"
               }
             },
             {
@@ -622,7 +516,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -630,18 +524,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M33 50V38L31 12L47 36V50Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M67 50V38L69 12L53 36V50Z",
+                    "d": "M33 50V38l-2-26 16 24v14Zm34 0V38l2-26-16 24v14Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -654,18 +537,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M33 50V38L31 12L47 36V50Z",
-                "fill": {
-                  "type": "color",
-                  "name": "accent"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M67 50V38L69 12L53 36V50Z",
+                "d": "M33 50V38l-2-26 16 24v14Zm34 0V38l2-26-16 24v14Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -680,7 +552,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -754,7 +626,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -762,7 +634,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M38 50L42 18L46 48ZM46 48L50 12L54 48ZM54 48L58 18L62 50Z",
+                    "d": "m38 50 4-32 4 30Zm8-2 4-36 4 36Zm8 0 4-30 4 32Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -775,7 +647,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M38 50L42 18L46 48ZM46 48L50 12L54 48ZM54 48L58 18L62 50Z",
+                "d": "m38 50 4-32 4 30Zm8-2 4-36 4 36Zm8 0 4-30 4 32Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -790,7 +662,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -798,7 +670,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M40 50C40 28 44 15 50 13C56 15 60 28 60 50Z",
+                    "d": "M40 50c0-22 4-35 10-37 6 2 10 15 10 37Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -811,7 +683,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M40 50C40 28 44 15 50 13C56 15 60 28 60 50Z",
+                "d": "M40 50c0-22 4-35 10-37 6 2 10 15 10 37Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -826,7 +698,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -834,7 +706,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M38 50V32L43 24L47 30L50 22L53 30L57 24L62 32V50Z",
+                    "d": "M38 50V32l5-8 4 6 3-8 3 8 4-6 5 8v18Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -847,7 +719,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M38 50V32L43 24L47 30L50 22L53 30L57 24L62 32V50Z",
+                "d": "M38 50V32l5-8 4 6 3-8 3 8 4-6 5 8v18Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -862,7 +734,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -884,18 +756,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 27C43 27 38 22 38 15C45 15 50 20 50 27Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 27C57 27 62 22 62 15C55 15 50 20 50 27Z",
+                    "d": "M50 27c-7 0-12-5-12-12 7 0 12 5 12 12m0 0c7 0 12-5 12-12-7 0-12 5-12 12",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -922,18 +783,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50 27C43 27 38 22 38 15C45 15 50 20 50 27Z",
-                "fill": {
-                  "type": "color",
-                  "name": "accent"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 27C57 27 62 22 62 15C55 15 50 20 50 27Z",
+                "d": "M50 27c-7 0-12-5-12-12 7 0 12 5 12 12m0 0c7 0 12-5 12-12-7 0-12 5-12 12",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -948,7 +798,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -992,22 +842,19 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
                 {
-                  "name": "rect",
+                  "name": "path",
                   "type": "element",
                   "attributes": {
-                    "x": "46",
-                    "y": "24",
-                    "width": "8",
-                    "height": "26",
                     "fill": {
                       "type": "color",
                       "name": "ink"
-                    }
+                    },
+                    "d": "M46 24h8v26h-8z"
                   }
                 },
                 {
@@ -1026,17 +873,14 @@
               ]
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "46",
-                "y": "24",
-                "width": "8",
-                "height": "26",
                 "fill": {
                   "type": "color",
                   "name": "accent"
-                }
+                },
+                "d": "M46 24h8v26h-8z"
               }
             },
             {
@@ -1066,12 +910,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 19 109.5 V 61.5 A 34 34 0 0 1 87 61.5 V 109.5 Z",
+                "d": "M19 109.5v-48a34 34 0 0 1 68 0v48Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1089,7 +933,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M16 106V58A34 34 0 0 1 84 58V106Z"
+                        "d": "M16 106V58a34 34 0 0 1 68 0v48Z"
                       }
                     }
                   ]
@@ -1100,7 +944,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M16 106V58A34 34 0 0 1 84 58V106Z",
+                "d": "M16 106V58a34 34 0 0 1 68 0v48Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1118,9 +962,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M16 106V58A34 34 0 0 1 84 58V106Z M 19.5 110.5 V 62.5 A 34 34 0 0 1 87.5 62.5 V 110.5 Z",
+                    "d": "M16 106V58a34 34 0 0 1 68 0v48Zm3.5 4.5v-48a34 34 0 0 1 68 0v48Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1128,12 +972,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M16 106V58A34 34 0 0 1 84 58V106Z M 12.5 101.5 V 53.5 A 34 34 0 0 1 80.5 53.5 V 101.5 Z",
+                    "d": "M16 106V58a34 34 0 0 1 68 0v48Zm-3.5-4.5v-48a34 34 0 0 1 68 0v48Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1147,12 +991,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 15 109.5 V 39.5 Q 15 31.5 23 31.5 H 83 Q 91 31.5 91 39.5 V 109.5 Z",
+                "d": "M15 109.5v-70q0-8 8-8h60q8 0 8 8v70Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1170,7 +1014,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M12 106V36Q12 28 20 28H80Q88 28 88 36V106Z"
+                        "d": "M12 106V36q0-8 8-8h60q8 0 8 8v70Z"
                       }
                     }
                   ]
@@ -1181,7 +1025,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M12 106V36Q12 28 20 28H80Q88 28 88 36V106Z",
+                "d": "M12 106V36q0-8 8-8h60q8 0 8 8v70Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1199,9 +1043,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M12 106V36Q12 28 20 28H80Q88 28 88 36V106Z M 15.5 110.5 V 40.5 Q 15.5 32.5 23.5 32.5 H 83.5 Q 91.5 32.5 91.5 40.5 V 110.5 Z",
+                    "d": "M12 106V36q0-8 8-8h60q8 0 8 8v70Zm3.5 4.5v-70q0-8 8-8h60q8 0 8 8v70Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1209,12 +1053,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M12 106V36Q12 28 20 28H80Q88 28 88 36V106Z M 8.5 101.5 V 31.5 Q 8.5 23.5 16.5 23.5 H 76.5 Q 84.5 23.5 84.5 31.5 V 101.5 Z",
+                    "d": "M12 106V36q0-8 8-8h60q8 0 8 8v70Zm-3.5-4.5v-70q0-8 8-8h60q8 0 8 8v70Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1228,12 +1072,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 31 109.5 V 41.5 A 22 22 0 0 1 75 41.5 V 109.5 Z",
+                "d": "M31 109.5v-68a22 22 0 0 1 44 0v68Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1251,7 +1095,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M28 106V38A22 22 0 0 1 72 38V106Z"
+                        "d": "M28 106V38a22 22 0 0 1 44 0v68Z"
                       }
                     }
                   ]
@@ -1262,7 +1106,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M28 106V38A22 22 0 0 1 72 38V106Z",
+                "d": "M28 106V38a22 22 0 0 1 44 0v68Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1280,9 +1124,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 106V38A22 22 0 0 1 72 38V106Z M 31.5 110.5 V 42.5 A 22 22 0 0 1 75.5 42.5 V 110.5 Z",
+                    "d": "M28 106V38a22 22 0 0 1 44 0v68Zm3.5 4.5v-68a22 22 0 0 1 44 0v68Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1290,12 +1134,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 106V38A22 22 0 0 1 72 38V106Z M 24.5 101.5 V 33.5 A 22 22 0 0 1 68.5 33.5 V 101.5 Z",
+                    "d": "M28 106V38a22 22 0 0 1 44 0v68Zm-3.5-4.5v-68a22 22 0 0 1 44 0v68Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1309,12 +1153,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 31 109.5 V 33.5 Q 31 25.5 39 25.5 H 67 Q 75 25.5 75 33.5 V 109.5 Z",
+                "d": "M31 109.5v-76q0-8 8-8h28q8 0 8 8v76Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1332,7 +1176,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M28 106V30Q28 22 36 22H64Q72 22 72 30V106Z"
+                        "d": "M28 106V30q0-8 8-8h28q8 0 8 8v76Z"
                       }
                     }
                   ]
@@ -1343,7 +1187,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M28 106V30Q28 22 36 22H64Q72 22 72 30V106Z",
+                "d": "M28 106V30q0-8 8-8h28q8 0 8 8v76Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1361,9 +1205,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 106V30Q28 22 36 22H64Q72 22 72 30V106Z M 31.5 110.5 V 34.5 Q 31.5 26.5 39.5 26.5 H 67.5 Q 75.5 26.5 75.5 34.5 V 110.5 Z",
+                    "d": "M28 106V30q0-8 8-8h28q8 0 8 8v76Zm3.5 4.5v-76q0-8 8-8h28q8 0 8 8v76Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1371,12 +1215,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 106V30Q28 22 36 22H64Q72 22 72 30V106Z M 24.5 101.5 V 25.5 Q 24.5 17.5 32.5 17.5 H 60.5 Q 68.5 17.5 68.5 25.5 V 101.5 Z",
+                    "d": "M28 106V30q0-8 8-8h28q8 0 8 8v76Zm-3.5-4.5v-76q0-8 8-8h28q8 0 8 8v76Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1390,12 +1234,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 11 109.5 V 73.5 C 11 49.5 27 37.5 53 37.5 C 79 37.5 95 49.5 95 73.5 V 109.5 Z",
+                "d": "M11 109.5v-36c0-24 16-36 42-36s42 12 42 36v36Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1413,7 +1257,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M8 106V70C8 46 24 34 50 34C76 34 92 46 92 70V106Z"
+                        "d": "M8 106V70c0-24 16-36 42-36s42 12 42 36v36Z"
                       }
                     }
                   ]
@@ -1424,7 +1268,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M8 106V70C8 46 24 34 50 34C76 34 92 46 92 70V106Z",
+                "d": "M8 106V70c0-24 16-36 42-36s42 12 42 36v36Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1442,9 +1286,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M8 106V70C8 46 24 34 50 34C76 34 92 46 92 70V106Z M 11.5 110.5 V 74.5 C 11.5 50.5 27.5 38.5 53.5 38.5 C 79.5 38.5 95.5 50.5 95.5 74.5 V 110.5 Z",
+                    "d": "M8 106V70c0-24 16-36 42-36s42 12 42 36v36Zm3.5 4.5v-36c0-24 16-36 42-36s42 12 42 36v36Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1452,12 +1296,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M8 106V70C8 46 24 34 50 34C76 34 92 46 92 70V106Z M 4.5 101.5 V 65.5 C 4.5 41.5 20.5 29.5 46.5 29.5 C 72.5 29.5 88.5 41.5 88.5 65.5 V 101.5 Z",
+                    "d": "M8 106V70c0-24 16-36 42-36s42 12 42 36v36Zm-3.5-4.5v-36c0-24 16-36 42-36s42 12 42 36v36Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1471,12 +1315,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 17 109.5 V 67.5 C 17 55.5 21 43.5 29 39.5 C 35 36.5 35 29.5 43 27.5 C 49 25.5 51 30.5 55 29.5 C 59 28.5 58 25.5 65 26.5 C 73 27.5 71 35.5 77 39.5 C 85 44.5 89 55.5 89 67.5 V 109.5 Z",
+                "d": "M17 109.5v-42c0-12 4-24 12-28 6-3 6-10 14-12 6-2 8 3 12 2s3-4 10-3c8 1 6 9 12 13 8 5 12 16 12 28v42Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1494,7 +1338,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M14 106V64C14 52 18 40 26 36C32 33 32 26 40 24C46 22 48 27 52 26C56 25 55 22 62 23C70 24 68 32 74 36C82 41 86 52 86 64V106Z"
+                        "d": "M14 106V64c0-12 4-24 12-28 6-3 6-10 14-12 6-2 8 3 12 2s3-4 10-3c8 1 6 9 12 13 8 5 12 16 12 28v42Z"
                       }
                     }
                   ]
@@ -1505,7 +1349,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M14 106V64C14 52 18 40 26 36C32 33 32 26 40 24C46 22 48 27 52 26C56 25 55 22 62 23C70 24 68 32 74 36C82 41 86 52 86 64V106Z",
+                "d": "M14 106V64c0-12 4-24 12-28 6-3 6-10 14-12 6-2 8 3 12 2s3-4 10-3c8 1 6 9 12 13 8 5 12 16 12 28v42Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1523,9 +1367,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M14 106V64C14 52 18 40 26 36C32 33 32 26 40 24C46 22 48 27 52 26C56 25 55 22 62 23C70 24 68 32 74 36C82 41 86 52 86 64V106Z M 17.5 110.5 V 68.5 C 17.5 56.5 21.5 44.5 29.5 40.5 C 35.5 37.5 35.5 30.5 43.5 28.5 C 49.5 26.5 51.5 31.5 55.5 30.5 C 59.5 29.5 58.5 26.5 65.5 27.5 C 73.5 28.5 71.5 36.5 77.5 40.5 C 85.5 45.5 89.5 56.5 89.5 68.5 V 110.5 Z",
+                    "d": "M14 106V64c0-12 4-24 12-28 6-3 6-10 14-12 6-2 8 3 12 2s3-4 10-3c8 1 6 9 12 13 8 5 12 16 12 28v42Zm3.5 4.5v-42c0-12 4-24 12-28 6-3 6-10 14-12 6-2 8 3 12 2s3-4 10-3c8 1 6 9 12 13 8 5 12 16 12 28v42Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1533,12 +1377,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M14 106V64C14 52 18 40 26 36C32 33 32 26 40 24C46 22 48 27 52 26C56 25 55 22 62 23C70 24 68 32 74 36C82 41 86 52 86 64V106Z M 10.5 101.5 V 59.5 C 10.5 47.5 14.5 35.5 22.5 31.5 C 28.5 28.5 28.5 21.5 36.5 19.5 C 42.5 17.5 44.5 22.5 48.5 21.5 C 52.5 20.5 51.5 17.5 58.5 18.5 C 66.5 19.5 64.5 27.5 70.5 31.5 C 78.5 36.5 82.5 47.5 82.5 59.5 V 101.5 Z",
+                    "d": "M14 106V64c0-12 4-24 12-28 6-3 6-10 14-12 6-2 8 3 12 2s3-4 10-3c8 1 6 9 12 13 8 5 12 16 12 28v42Zm-3.5-4.5v-42c0-12 4-24 12-28 6-3 6-10 14-12 6-2 8 3 12 2s3-4 10-3c8 1 6 9 12 13 8 5 12 16 12 28v42Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1552,12 +1396,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 13 109.5 V 73.5 C 13 47.5 29 33.5 53 33.5 C 77 33.5 93 47.5 93 73.5 V 109.5 Z",
+                "d": "M13 109.5v-36c0-26 16-40 40-40s40 14 40 40v36Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1575,7 +1419,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M10 106V70C10 44 26 30 50 30C74 30 90 44 90 70V106Z"
+                        "d": "M10 106V70c0-26 16-40 40-40s40 14 40 40v36Z"
                       }
                     }
                   ]
@@ -1586,7 +1430,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M10 106V70C10 44 26 30 50 30C74 30 90 44 90 70V106Z",
+                "d": "M10 106V70c0-26 16-40 40-40s40 14 40 40v36Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1604,9 +1448,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 106V70C10 44 26 30 50 30C74 30 90 44 90 70V106Z M 13.5 110.5 V 74.5 C 13.5 48.5 29.5 34.5 53.5 34.5 C 77.5 34.5 93.5 48.5 93.5 74.5 V 110.5 Z",
+                    "d": "M10 106V70c0-26 16-40 40-40s40 14 40 40v36Zm3.5 4.5v-36c0-26 16-40 40-40s40 14 40 40v36Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1614,12 +1458,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 106V70C10 44 26 30 50 30C74 30 90 44 90 70V106Z M 6.5 101.5 V 65.5 C 6.5 39.5 22.5 25.5 46.5 25.5 C 70.5 25.5 86.5 39.5 86.5 65.5 V 101.5 Z",
+                    "d": "M10 106V70c0-26 16-40 40-40s40 14 40 40v36Zm-3.5-4.5v-36c0-26 16-40 40-40s40 14 40 40v36Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1633,12 +1477,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 25 109.5 V 67.5 C 25 37.5 35 23.5 49 25.5 C 71 27.5 81 43.5 81 103.5 V 109.5 Z",
+                "d": "M25 109.5v-42c0-30 10-44 24-42 22 2 32 18 32 78v6Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1656,7 +1500,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M22 106V64C22 34 32 20 46 22C68 24 78 40 78 100V106Z"
+                        "d": "M22 106V64c0-30 10-44 24-42 22 2 32 18 32 78v6Z"
                       }
                     }
                   ]
@@ -1667,7 +1511,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M22 106V64C22 34 32 20 46 22C68 24 78 40 78 100V106Z",
+                "d": "M22 106V64c0-30 10-44 24-42 22 2 32 18 32 78v6Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1685,9 +1529,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M22 106V64C22 34 32 20 46 22C68 24 78 40 78 100V106Z M 25.5 110.5 V 68.5 C 25.5 38.5 35.5 24.5 49.5 26.5 C 71.5 28.5 81.5 44.5 81.5 104.5 V 110.5 Z",
+                    "d": "M22 106V64c0-30 10-44 24-42 22 2 32 18 32 78v6Zm3.5 4.5v-42c0-30 10-44 24-42 22 2 32 18 32 78v6Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1695,12 +1539,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M22 106V64C22 34 32 20 46 22C68 24 78 40 78 100V106Z M 18.5 101.5 V 59.5 C 18.5 29.5 28.5 15.5 42.5 17.5 C 64.5 19.5 74.5 35.5 74.5 95.5 V 101.5 Z",
+                    "d": "M22 106V64c0-30 10-44 24-42 22 2 32 18 32 78v6Zm-3.5-4.5v-42c0-30 10-44 24-42 22 2 32 18 32 78v6Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1714,12 +1558,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 81 109.5 V 67.5 C 81 37.5 71 23.5 57 25.5 C 35 27.5 25 43.5 25 103.5 V 109.5 Z",
+                "d": "M81 109.5v-42c0-30-10-44-24-42-22 2-32 18-32 78v6Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1737,7 +1581,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M78 106V64C78 34 68 20 54 22C32 24 22 40 22 100V106Z"
+                        "d": "M78 106V64c0-30-10-44-24-42-22 2-32 18-32 78v6Z"
                       }
                     }
                   ]
@@ -1748,7 +1592,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M78 106V64C78 34 68 20 54 22C32 24 22 40 22 100V106Z",
+                "d": "M78 106V64c0-30-10-44-24-42-22 2-32 18-32 78v6Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1766,9 +1610,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M78 106V64C78 34 68 20 54 22C32 24 22 40 22 100V106Z M 81.5 110.5 V 68.5 C 81.5 38.5 71.5 24.5 57.5 26.5 C 35.5 28.5 25.5 44.5 25.5 104.5 V 110.5 Z",
+                    "d": "M78 106V64c0-30-10-44-24-42-22 2-32 18-32 78v6Zm3.5 4.5v-42c0-30-10-44-24-42-22 2-32 18-32 78v6Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1776,12 +1620,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M78 106V64C78 34 68 20 54 22C32 24 22 40 22 100V106Z M 74.5 101.5 V 59.5 C 74.5 29.5 64.5 15.5 50.5 17.5 C 28.5 19.5 18.5 35.5 18.5 95.5 V 101.5 Z",
+                    "d": "M78 106V64c0-30-10-44-24-42-22 2-32 18-32 78v6Zm-3.5-4.5v-42c0-30-10-44-24-42-22 2-32 18-32 78v6Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1795,12 +1639,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 21 109.5 V 65.5 C 21 45.5 39 39.5 47 29.5 Q 53 22.5 59 29.5 C 67 39.5 85 45.5 85 65.5 V 109.5 Z",
+                "d": "M21 109.5v-44c0-20 18-26 26-36q6-7 12 0c8 10 26 16 26 36v44Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1818,7 +1662,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M18 106V62C18 42 36 36 44 26Q50 19 56 26C64 36 82 42 82 62V106Z"
+                        "d": "M18 106V62c0-20 18-26 26-36q6-7 12 0c8 10 26 16 26 36v44Z"
                       }
                     }
                   ]
@@ -1829,7 +1673,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M18 106V62C18 42 36 36 44 26Q50 19 56 26C64 36 82 42 82 62V106Z",
+                "d": "M18 106V62c0-20 18-26 26-36q6-7 12 0c8 10 26 16 26 36v44Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1847,9 +1691,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M18 106V62C18 42 36 36 44 26Q50 19 56 26C64 36 82 42 82 62V106Z M 21.5 110.5 V 66.5 C 21.5 46.5 39.5 40.5 47.5 30.5 Q 53.5 23.5 59.5 30.5 C 67.5 40.5 85.5 46.5 85.5 66.5 V 110.5 Z",
+                    "d": "M18 106V62c0-20 18-26 26-36q6-7 12 0c8 10 26 16 26 36v44Zm3.5 4.5v-44c0-20 18-26 26-36q6-7 12 0c8 10 26 16 26 36v44Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1857,12 +1701,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M18 106V62C18 42 36 36 44 26Q50 19 56 26C64 36 82 42 82 62V106Z M 14.5 101.5 V 57.5 C 14.5 37.5 32.5 31.5 40.5 21.5 Q 46.5 14.5 52.5 21.5 C 60.5 31.5 78.5 37.5 78.5 57.5 V 101.5 Z",
+                    "d": "M18 106V62c0-20 18-26 26-36q6-7 12 0c8 10 26 16 26 36v44Zm-3.5-4.5v-44c0-20 18-26 26-36q6-7 12 0c8 10 26 16 26 36v44Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1876,12 +1720,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 13 109.5 V 103.5 C 23 99.5 21 65.5 27 49.5 C 33 34.5 41 27.5 53 27.5 C 65 27.5 73 34.5 79 49.5 C 85 65.5 83 99.5 93 103.5 V 109.5 Z",
+                "d": "M13 109.5v-6c10-4 8-38 14-54 6-15 14-22 26-22s20 7 26 22c6 16 4 50 14 54v6Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1899,7 +1743,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M10 106V100C20 96 18 62 24 46C30 31 38 24 50 24C62 24 70 31 76 46C82 62 80 96 90 100V106Z"
+                        "d": "M10 106v-6c10-4 8-38 14-54 6-15 14-22 26-22s20 7 26 22c6 16 4 50 14 54v6Z"
                       }
                     }
                   ]
@@ -1910,7 +1754,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M10 106V100C20 96 18 62 24 46C30 31 38 24 50 24C62 24 70 31 76 46C82 62 80 96 90 100V106Z",
+                "d": "M10 106v-6c10-4 8-38 14-54 6-15 14-22 26-22s20 7 26 22c6 16 4 50 14 54v6Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1928,9 +1772,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 106V100C20 96 18 62 24 46C30 31 38 24 50 24C62 24 70 31 76 46C82 62 80 96 90 100V106Z M 13.5 110.5 V 104.5 C 23.5 100.5 21.5 66.5 27.5 50.5 C 33.5 35.5 41.5 28.5 53.5 28.5 C 65.5 28.5 73.5 35.5 79.5 50.5 C 85.5 66.5 83.5 100.5 93.5 104.5 V 110.5 Z",
+                    "d": "M10 106v-6c10-4 8-38 14-54 6-15 14-22 26-22s20 7 26 22c6 16 4 50 14 54v6Zm3.5 4.5v-6c10-4 8-38 14-54 6-15 14-22 26-22s20 7 26 22c6 16 4 50 14 54v6Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -1938,12 +1782,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 106V100C20 96 18 62 24 46C30 31 38 24 50 24C62 24 70 31 76 46C82 62 80 96 90 100V106Z M 6.5 101.5 V 95.5 C 16.5 91.5 14.5 57.5 20.5 41.5 C 26.5 26.5 34.5 19.5 46.5 19.5 C 58.5 19.5 66.5 26.5 72.5 41.5 C 78.5 57.5 76.5 91.5 86.5 95.5 V 101.5 Z",
+                    "d": "M10 106v-6c10-4 8-38 14-54 6-15 14-22 26-22s20 7 26 22c6 16 4 50 14 54v6Zm-3.5-4.5v-6c10-4 8-38 14-54 6-15 14-22 26-22s20 7 26 22c6 16 4 50 14 54v6Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1957,12 +1801,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 23 109.5 V 103.5 L 33 33.5 Q 34 27.5 41 27.5 H 65 Q 72 27.5 73 33.5 L 83 103.5 V 109.5 Z",
+                "d": "M23 109.5v-6l10-70q1-6 8-6h24q7 0 8 6l10 70v6Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -1980,7 +1824,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M20 106V100L30 30Q31 24 38 24H62Q69 24 70 30L80 100V106Z"
+                        "d": "M20 106v-6l10-70q1-6 8-6h24q7 0 8 6l10 70v6Z"
                       }
                     }
                   ]
@@ -1991,7 +1835,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M20 106V100L30 30Q31 24 38 24H62Q69 24 70 30L80 100V106Z",
+                "d": "M20 106v-6l10-70q1-6 8-6h24q7 0 8 6l10 70v6Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -2009,9 +1853,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M20 106V100L30 30Q31 24 38 24H62Q69 24 70 30L80 100V106Z M 23.5 110.5 V 104.5 L 33.5 34.5 Q 34.5 28.5 41.5 28.5 H 65.5 Q 72.5 28.5 73.5 34.5 L 83.5 104.5 V 110.5 Z",
+                    "d": "M20 106v-6l10-70q1-6 8-6h24q7 0 8 6l10 70v6Zm3.5 4.5v-6l10-70q1-6 8-6h24q7 0 8 6l10 70v6Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -2019,12 +1863,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M20 106V100L30 30Q31 24 38 24H62Q69 24 70 30L80 100V106Z M 16.5 101.5 V 95.5 L 26.5 25.5 Q 27.5 19.5 34.5 19.5 H 58.5 Q 65.5 19.5 66.5 25.5 L 76.5 95.5 V 101.5 Z",
+                    "d": "M20 106v-6l10-70q1-6 8-6h24q7 0 8 6l10 70v6Zm-3.5-4.5v-6l10-70q1-6 8-6h24q7 0 8 6l10 70v6Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -2038,12 +1882,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 29 109.5 V 103.5 L 21 39.5 Q 20 31.5 27 31.5 H 79 Q 86 31.5 87 39.5 L 77 103.5 V 109.5 Z",
+                "d": "M29 109.5v-6l-8-64q-1-8 6-8h52q7 0 8 8l-10 64v6Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -2061,7 +1905,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M26 106V100L18 36Q17 28 24 28H76Q83 28 84 36L74 100V106Z"
+                        "d": "M26 106v-6l-8-64q-1-8 6-8h52q7 0 8 8l-10 64v6Z"
                       }
                     }
                   ]
@@ -2072,7 +1916,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M26 106V100L18 36Q17 28 24 28H76Q83 28 84 36L74 100V106Z",
+                "d": "M26 106v-6l-8-64q-1-8 6-8h52q7 0 8 8l-10 64v6Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -2090,9 +1934,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M26 106V100L18 36Q17 28 24 28H76Q83 28 84 36L74 100V106Z M 29.5 110.5 V 104.5 L 21.5 40.5 Q 20.5 32.5 27.5 32.5 H 79.5 Q 86.5 32.5 87.5 40.5 L 77.5 104.5 V 110.5 Z",
+                    "d": "M26 106v-6l-8-64q-1-8 6-8h52q7 0 8 8l-10 64v6Zm3.5 4.5v-6l-8-64q-1-8 6-8h52q7 0 8 8l-10 64v6Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -2100,12 +1944,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M26 106V100L18 36Q17 28 24 28H76Q83 28 84 36L74 100V106Z M 22.5 101.5 V 95.5 L 14.5 31.5 Q 13.5 23.5 20.5 23.5 H 72.5 Q 79.5 23.5 80.5 31.5 L 70.5 95.5 V 101.5 Z",
+                    "d": "M26 106v-6l-8-64q-1-8 6-8h52q7 0 8 8l-10 64v6Zm-3.5-4.5v-6l-8-64q-1-8 6-8h52q7 0 8 8l-10 64v6Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -2119,12 +1963,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 17 109.5 V 55.5 Q 17 47.5 25 47.5 H 33 V 37.5 Q 33 29.5 41 29.5 H 65 Q 73 29.5 73 37.5 V 47.5 H 81 Q 89 47.5 89 55.5 V 109.5 Z",
+                "d": "M17 109.5v-54q0-8 8-8h8v-10q0-8 8-8h24q8 0 8 8v10h8q8 0 8 8v54Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -2142,7 +1986,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M14 106V52Q14 44 22 44H30V34Q30 26 38 26H62Q70 26 70 34V44H78Q86 44 86 52V106Z"
+                        "d": "M14 106V52q0-8 8-8h8V34q0-8 8-8h24q8 0 8 8v10h8q8 0 8 8v54Z"
                       }
                     }
                   ]
@@ -2153,7 +1997,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M14 106V52Q14 44 22 44H30V34Q30 26 38 26H62Q70 26 70 34V44H78Q86 44 86 52V106Z",
+                "d": "M14 106V52q0-8 8-8h8V34q0-8 8-8h24q8 0 8 8v10h8q8 0 8 8v54Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -2171,9 +2015,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M14 106V52Q14 44 22 44H30V34Q30 26 38 26H62Q70 26 70 34V44H78Q86 44 86 52V106Z M 17.5 110.5 V 56.5 Q 17.5 48.5 25.5 48.5 H 33.5 V 38.5 Q 33.5 30.5 41.5 30.5 H 65.5 Q 73.5 30.5 73.5 38.5 V 48.5 H 81.5 Q 89.5 48.5 89.5 56.5 V 110.5 Z",
+                    "d": "M14 106V52q0-8 8-8h8V34q0-8 8-8h24q8 0 8 8v10h8q8 0 8 8v54Zm3.5 4.5v-54q0-8 8-8h8v-10q0-8 8-8h24q8 0 8 8v10h8q8 0 8 8v54Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -2181,12 +2025,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M14 106V52Q14 44 22 44H30V34Q30 26 38 26H62Q70 26 70 34V44H78Q86 44 86 52V106Z M 10.5 101.5 V 47.5 Q 10.5 39.5 18.5 39.5 H 26.5 V 29.5 Q 26.5 21.5 34.5 21.5 H 58.5 Q 66.5 21.5 66.5 29.5 V 39.5 H 74.5 Q 82.5 39.5 82.5 47.5 V 101.5 Z",
+                    "d": "M14 106V52q0-8 8-8h8V34q0-8 8-8h24q8 0 8 8v10h8q8 0 8 8v54Zm-3.5-4.5v-54q0-8 8-8h8v-10q0-8 8-8h24q8 0 8 8v10h8q8 0 8 8v54Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -2212,7 +2056,7 @@
                 "rx": "15",
                 "ry": "13",
                 "fill": "#ffffff",
-                "opacity": "0.2"
+                "opacity": ".2"
               }
             }
           ]
@@ -2227,7 +2071,7 @@
                 "cy": "84",
                 "r": "3",
                 "fill": "#ffffff",
-                "opacity": "0.25"
+                "opacity": ".25"
               }
             },
             {
@@ -2238,7 +2082,7 @@
                 "cy": "92",
                 "r": "3",
                 "fill": "#ffffff",
-                "opacity": "0.25"
+                "opacity": ".25"
               }
             },
             {
@@ -2249,7 +2093,7 @@
                 "cy": "85",
                 "r": "3",
                 "fill": "#ffffff",
-                "opacity": "0.25"
+                "opacity": ".25"
               }
             }
           ]
@@ -2264,7 +2108,7 @@
                 "cy": "80",
                 "r": "1.8",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -2275,7 +2119,7 @@
                 "cy": "88",
                 "r": "1.8",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -2286,7 +2130,7 @@
                 "cy": "79",
                 "r": "1.8",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -2297,7 +2141,7 @@
                 "cy": "90",
                 "r": "1.8",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -2308,7 +2152,7 @@
                 "cy": "82",
                 "r": "1.8",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             }
           ]
@@ -2325,7 +2169,7 @@
                 "height": "8",
                 "rx": "4",
                 "fill": "#ffffff",
-                "opacity": "0.18"
+                "opacity": ".18"
               }
             }
           ]
@@ -2342,7 +2186,7 @@
                 "height": "7",
                 "rx": "3.5",
                 "fill": "#ffffff",
-                "opacity": "0.18"
+                "opacity": ".18"
               }
             },
             {
@@ -2355,7 +2199,7 @@
                 "height": "7",
                 "rx": "3.5",
                 "fill": "#ffffff",
-                "opacity": "0.18"
+                "opacity": ".18"
               }
             }
           ]
@@ -2370,7 +2214,7 @@
                 "cy": "87",
                 "r": "7",
                 "fill": "#ffffff",
-                "opacity": "0.2"
+                "opacity": ".2"
               }
             }
           ]
@@ -2387,7 +2231,7 @@
                 "height": "24",
                 "rx": "3",
                 "fill": "#ffffff",
-                "opacity": "0.18"
+                "opacity": ".18"
               }
             },
             {
@@ -2400,7 +2244,7 @@
                 "height": "24",
                 "rx": "3",
                 "fill": "#ffffff",
-                "opacity": "0.18"
+                "opacity": ".18"
               }
             }
           ]
@@ -2415,7 +2259,7 @@
                 "cy": "85",
                 "r": "2.5",
                 "fill": "#ffffff",
-                "opacity": "0.25"
+                "opacity": ".25"
               }
             },
             {
@@ -2426,7 +2270,7 @@
                 "cy": "85",
                 "r": "2.5",
                 "fill": "#ffffff",
-                "opacity": "0.25"
+                "opacity": ".25"
               }
             },
             {
@@ -2437,7 +2281,7 @@
                 "cy": "85",
                 "r": "2.5",
                 "fill": "#ffffff",
-                "opacity": "0.25"
+                "opacity": ".25"
               }
             }
           ]
@@ -2448,12 +2292,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M36 84L40.5 79L45 84L49.5 79L54 84L58.5 79L63 84",
+                "d": "m36 84 4.5-5 4.5 5 4.5-5 4.5 5 4.5-5 4.5 5",
                 "stroke": "#ffffff",
                 "stroke-width": "3",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round",
-                "opacity": "0.2"
+                "opacity": ".2"
               }
             }
           ]
@@ -2469,7 +2313,7 @@
                 "r": "8",
                 "stroke": "#ffffff",
                 "stroke-width": "3",
-                "opacity": "0.2"
+                "opacity": ".2"
               }
             }
           ]
@@ -2491,7 +2335,7 @@
                 "cy": "58",
                 "r": "3.5",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -2502,7 +2346,7 @@
                 "cy": "58",
                 "r": "3.5",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             }
           ]
@@ -2518,7 +2362,7 @@
                 "rx": "4.5",
                 "ry": "3",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -2530,7 +2374,7 @@
                 "rx": "4.5",
                 "ry": "3",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             }
           ]
@@ -2545,7 +2389,7 @@
                 "cy": "57",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -2556,7 +2400,7 @@
                 "cy": "55",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -2567,7 +2411,7 @@
                 "cy": "59.5",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -2578,7 +2422,7 @@
                 "cy": "57",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -2589,7 +2433,7 @@
                 "cy": "55",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -2600,7 +2444,7 @@
                 "cy": "59.5",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             }
           ]
@@ -3380,7 +3224,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 52Q37 42 44 52",
+                    "d": "M30 52q7-10 14 0",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3403,7 +3247,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M56 52Q63 42 70 52",
+                    "d": "M56 52q7-10 14 0",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3430,7 +3274,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 48Q37 54 44 48",
+                    "d": "M30 48q7 6 14 0",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3453,7 +3297,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M56 48Q63 54 70 48",
+                    "d": "M56 48q7 6 14 0",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3512,7 +3356,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M56 52Q63 42 70 52",
+                    "d": "M56 52q7-10 14 0",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3539,7 +3383,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M31 44L43 49L31 54",
+                    "d": "m31 44 12 5-12 5",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3562,7 +3406,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M69 44L57 49L69 54",
+                    "d": "m69 44-12 5 12 5",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3659,7 +3503,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 49A7 7 0 0 0 44 49Z",
+                    "d": "M30 49a7 7 0 0 0 14 0Z",
                     "fill": "#ffffff"
                   }
                 },
@@ -3667,7 +3511,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M34 49A3 3 0 0 0 40 49Z",
+                    "d": "M34 49a3 3 0 0 0 6 0Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3678,7 +3522,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M29 49H45",
+                    "d": "M29 49h16",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3701,7 +3545,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M56 49A7 7 0 0 0 70 49Z",
+                    "d": "M56 49a7 7 0 0 0 14 0Z",
                     "fill": "#ffffff"
                   }
                 },
@@ -3709,7 +3553,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M60 49A3 3 0 0 0 66 49Z",
+                    "d": "M60 49a3 3 0 0 0 6 0Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3720,7 +3564,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M55 49H71",
+                    "d": "M55 49h16",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3770,7 +3614,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 40L44 45",
+                    "d": "m30 40 14 5",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3816,7 +3660,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M70 40L56 45",
+                    "d": "m70 40-14 5",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3843,7 +3687,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M39 47A11 11 0 0 0 61 47Z",
+                    "d": "M39 47a11 11 0 0 0 22 0Z",
                     "fill": "#ffffff"
                   }
                 },
@@ -3851,7 +3695,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M46.5 47A3.5 3.5 0 0 0 53.5 47Z",
+                    "d": "M46.5 47a3.5 3.5 0 0 0 7 0Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3862,7 +3706,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M38 47H62",
+                    "d": "M38 47h24",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3936,7 +3780,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M40 64Q50 74 60 64",
+                "d": "M40 64q10 10 20 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -3954,7 +3798,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M45 66Q50 70 55 66",
+                "d": "M45 66q5 4 10 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -3972,7 +3816,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M38 63A12 12 0 0 0 62 63Z",
+                "d": "M38 63a12 12 0 0 0 24 0Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -3983,7 +3827,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M44.5 69A5.5 5.5 0 0 0 55.5 69Z",
+                "d": "M44.5 69a5.5 5.5 0 0 0 11 0Z",
                 "fill": "#fb7185"
               }
             }
@@ -3995,7 +3839,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M40 63A10 10 0 0 0 60 63Z",
+                "d": "M40 63a10 10 0 0 0 20 0Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -4006,7 +3850,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M41.5 63H58.5V66H41.5Z",
+                "d": "M41.5 63h17v3h-17Z",
                 "fill": "#ffffff"
               }
             }
@@ -4030,25 +3874,11 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "43",
-                "y": "61",
-                "width": "5",
-                "height": "5.5",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "52",
-                "y": "61",
-                "width": "5",
-                "height": "5.5",
-                "fill": "#ffffff"
+                "fill": "#ffffff",
+                "d": "M43 61h5v5.5h-5zm9 0h5v5.5h-5z"
               }
             }
           ]
@@ -4076,7 +3906,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 67H58",
+                "d": "M42 67h16",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4094,7 +3924,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 68Q52 71 58 64",
+                "d": "M42 68q10 3 16-4",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4112,7 +3942,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M39 67Q43 63 47 67T55 67T63 67",
+                "d": "M39 67q4-4 8 0t8 0 8 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4130,7 +3960,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 66Q46 70 50 66Q54 70 58 66",
+                "d": "M42 66q4 4 8 0 4 4 8 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4148,7 +3978,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M38 64L42 70L46 64L50 70L54 64L58 70L62 64",
+                "d": "m38 64 4 6 4-6 4 6 4-6 4 6 4-6",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4166,7 +3996,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M40 71Q50 61 60 71",
+                "d": "M40 71q10-10 20 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4184,7 +4014,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M44 70Q50 65 56 70",
+                "d": "M44 70q6-5 12 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4202,7 +4032,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 69L58 65",
+                "d": "m42 69 16-4",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4266,7 +4096,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 66H58",
+                "d": "M42 66h16",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4296,7 +4126,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 65Q50 71 58 65",
+                "d": "M42 65q8 6 16 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4310,7 +4140,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M45.5 67.5A4.5 4.5 0 0 0 54.5 67.5Z",
+                "d": "M45.5 67.5a4.5 4.5 0 0 0 9 0Z",
                 "fill": "#fb7185"
               }
             }
@@ -4322,7 +4152,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M43 66H57",
+                "d": "M43 66h14",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4336,7 +4166,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M46 66A4 4 0 0 0 54 66Z",
+                "d": "M46 66a4 4 0 0 0 8 0Z",
                 "fill": "#fb7185"
               }
             }
@@ -4372,7 +4202,9 @@
               ]
             }
           ],
-          "tags": ["animation"]
+          "tags": [
+            "animation"
+          ]
         },
         "fast": {
           "weight": 0,
@@ -4395,7 +4227,9 @@
               ]
             }
           ],
-          "tags": ["animation"]
+          "tags": [
+            "animation"
+          ]
         },
         "medium": {
           "weight": 0,
@@ -4418,7 +4252,9 @@
               ]
             }
           ],
-          "tags": ["animation"]
+          "tags": [
+            "animation"
+          ]
         },
         "slow": {
           "weight": 0,
@@ -4441,7 +4277,9 @@
               ]
             }
           ],
-          "tags": ["animation"]
+          "tags": [
+            "animation"
+          ]
         },
         "slowest": {
           "weight": 0,
@@ -4464,7 +4302,9 @@
               ]
             }
           ],
-          "tags": ["animation"]
+          "tags": [
+            "animation"
+          ]
         }
       }
     }
@@ -4503,7 +4343,9 @@
       ]
     },
     "accent": {
-      "notEqualTo": ["body"],
+      "notEqualTo": [
+        "body"
+      ],
       "values": [
         "#7dd3fc",
         "#a5b4fc",
@@ -4520,7 +4362,9 @@
       ]
     },
     "ink": {
-      "values": ["#1e293b"]
+      "values": [
+        "#1e293b"
+      ]
     }
   }
 }

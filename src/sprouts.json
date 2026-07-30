@@ -92,7 +92,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -114,40 +114,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 40C42 40 36 34 36 26C44 26 50 31 50 40Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 40C58 40 64 34 64 26C56 26 50 31 50 40Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 54C45.2 54 41.6 50.4 41.6 45.6C46.4 45.6 50 48.6 50 54Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 54C54.8 54 58.4 50.4 58.4 45.6C53.6 45.6 50 48.6 50 54Z",
+                    "d": "M50 40c-8 0-14-6-14-14 8 0 14 5 14 14m0 0c8 0 14-6 14-14-8 0-14 5-14 14m0 14c-4.8 0-8.4-3.6-8.4-8.4 4.8 0 8.4 3 8.4 8.4m0 0c4.8 0 8.4-3.6 8.4-8.4-4.8 0-8.4 3-8.4 8.4",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -174,40 +141,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50 40C42 40 36 34 36 26C44 26 50 31 50 40Z",
-                "fill": {
-                  "type": "color",
-                  "name": "plant"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 40C58 40 64 34 64 26C56 26 50 31 50 40Z",
-                "fill": {
-                  "type": "color",
-                  "name": "plant"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 54C45.2 54 41.6 50.4 41.6 45.6C46.4 45.6 50 48.6 50 54Z",
-                "fill": {
-                  "type": "color",
-                  "name": "plant"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 54C54.8 54 58.4 50.4 58.4 45.6C53.6 45.6 50 48.6 50 54Z",
+                "d": "M50 40c-8 0-14-6-14-14 8 0 14 5 14 14m0 0c8 0 14-6 14-14-8 0-14 5-14 14m0 14c-4.8 0-8.4-3.6-8.4-8.4 4.8 0 8.4 3 8.4 8.4m0 0c4.8 0 8.4-3.6 8.4-8.4-4.8 0-8.4 3-8.4 8.4",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -222,7 +156,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -244,7 +178,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 50C48 32 54 16 66 12C68 26 60 44 50 50Z",
+                    "d": "M50 50c-2-18 4-34 16-38 2 14-6 32-16 38",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -262,7 +196,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 50C48 32 54 16 66 12C68 26 60 44 50 50Z M 48 47.5 C 46 29.5 52 13.5 64 9.5 C 66 23.5 58 41.5 48 47.5 Z",
+                        "d": "M50 50c-2-18 4-34 16-38 2 14-6 32-16 38m-2-2.5c-2-18 4-34 16-38 2 14-6 32-16 38",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -276,7 +210,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 50C43 46 39 40 39 33C46 34 50 40 50 50Z",
+                    "d": "M50 50c-7-4-11-10-11-17 7 1 11 7 11 17",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -294,7 +228,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 50C43 46 39 40 39 33C46 34 50 40 50 50Z M 48 47.5 C 41 43.5 37 37.5 37 30.5 C 44 31.5 48 37.5 48 47.5 Z",
+                        "d": "M50 50c-7-4-11-10-11-17 7 1 11 7 11 17m-2-2.5c-7-4-11-10-11-17 7 1 11 7 11 17",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -335,7 +269,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 50C48 32 54 16 66 12C68 26 60 44 50 50Z"
+                        "d": "M50 50c-2-18 4-34 16-38 2 14-6 32-16 38"
                       }
                     }
                   ]
@@ -346,7 +280,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50 50C48 32 54 16 66 12C68 26 60 44 50 50Z",
+                "d": "M50 50c-2-18 4-34 16-38 2 14-6 32-16 38",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -364,12 +298,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 50C48 32 54 16 66 12C68 26 60 44 50 50Z M 48 47.5 C 46 29.5 52 13.5 64 9.5 C 66 23.5 58 41.5 48 47.5 Z",
+                    "d": "M50 50c-2-18 4-34 16-38 2 14-6 32-16 38m-2-2.5c-2-18 4-34 16-38 2 14-6 32-16 38",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.12",
+                    "opacity": ".12",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -390,7 +324,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 50C43 46 39 40 39 33C46 34 50 40 50 50Z"
+                        "d": "M50 50c-7-4-11-10-11-17 7 1 11 7 11 17"
                       }
                     }
                   ]
@@ -401,7 +335,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50 50C43 46 39 40 39 33C46 34 50 40 50 50Z",
+                "d": "M50 50c-7-4-11-10-11-17 7 1 11 7 11 17",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -419,12 +353,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 50C43 46 39 40 39 33C46 34 50 40 50 50Z M 48 47.5 C 41 43.5 37 37.5 37 30.5 C 44 31.5 48 37.5 48 47.5 Z",
+                    "d": "M50 50c-7-4-11-10-11-17 7 1 11 7 11 17m-2-2.5c-7-4-11-10-11-17 7 1 11 7 11 17",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.12",
+                    "opacity": ".12",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -438,7 +372,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -446,7 +380,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M42 72V32A8 8 0 0 1 58 32V72Z",
+                    "d": "M42 72V32a8 8 0 0 1 16 0v40Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -464,7 +398,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M42 72V32A8 8 0 0 1 58 32V72Z M 40 69.5 V 29.5 A 8 8 0 0 1 56 29.5 V 69.5 Z",
+                        "d": "M42 72V32a8 8 0 0 1 16 0v40Zm-2-2.5v-40a8 8 0 0 1 16 0v40Z",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -478,22 +412,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M42 48H34V38",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "8",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "fill": "none"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M58 54H66V44",
+                    "d": "M42 48h-8V38m24 16h8V44",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -586,7 +505,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M42 72V32A8 8 0 0 1 58 32V72Z"
+                        "d": "M42 72V32a8 8 0 0 1 16 0v40Z"
                       }
                     }
                   ]
@@ -597,7 +516,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 72V32A8 8 0 0 1 58 32V72Z",
+                "d": "M42 72V32a8 8 0 0 1 16 0v40Z",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -615,12 +534,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M42 72V32A8 8 0 0 1 58 32V72Z M 40 69.5 V 29.5 A 8 8 0 0 1 56 29.5 V 69.5 Z",
+                    "d": "M42 72V32a8 8 0 0 1 16 0v40Zm-2-2.5v-40a8 8 0 0 1 16 0v40Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.12",
+                    "opacity": ".12",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -630,22 +549,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 48H34V38",
-                "stroke": {
-                  "type": "color",
-                  "name": "plant"
-                },
-                "stroke-width": "8",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "fill": "none"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M58 54H66V44",
+                "d": "M42 48h-8V38m24 16h8V44",
                 "stroke": {
                   "type": "color",
                   "name": "plant"
@@ -664,7 +568,7 @@
                 "cy": "32",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -675,7 +579,7 @@
                 "cy": "38",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -686,7 +590,7 @@
                 "cy": "46",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -697,7 +601,7 @@
                 "cy": "56",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -708,7 +612,7 @@
                 "cy": "62",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             }
           ]
@@ -719,7 +623,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -727,7 +631,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M34 54A16 16 0 1 0 66 54A16 16 0 1 0 34 54Z",
+                    "d": "M34 54a16 16 0 1 0 32 0 16 16 0 1 0-32 0",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -745,7 +649,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M34 54A16 16 0 1 0 66 54A16 16 0 1 0 34 54Z M 32 51.5 A 16 16 0 1 0 64 51.5 A 16 16 0 1 0 32 51.5 Z",
+                        "d": "M34 54a16 16 0 1 0 32 0 16 16 0 1 0-32 0m-2-2.5a16 16 0 1 0 32 0 16 16 0 1 0-32 0",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -915,7 +819,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M34 54A16 16 0 1 0 66 54A16 16 0 1 0 34 54Z"
+                        "d": "M34 54a16 16 0 1 0 32 0 16 16 0 1 0-32 0"
                       }
                     }
                   ]
@@ -926,7 +830,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M34 54A16 16 0 1 0 66 54A16 16 0 1 0 34 54Z",
+                "d": "M34 54a16 16 0 1 0 32 0 16 16 0 1 0-32 0",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -944,12 +848,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M34 54A16 16 0 1 0 66 54A16 16 0 1 0 34 54Z M 32 51.5 A 16 16 0 1 0 64 51.5 A 16 16 0 1 0 32 51.5 Z",
+                    "d": "M34 54a16 16 0 1 0 32 0 16 16 0 1 0-32 0m-2-2.5a16 16 0 1 0 32 0 16 16 0 1 0-32 0",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.12",
+                    "opacity": ".12",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -963,7 +867,7 @@
                 "cy": "48",
                 "r": "1.3",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -974,7 +878,7 @@
                 "cy": "48",
                 "r": "1.3",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -985,7 +889,7 @@
                 "cy": "56",
                 "r": "1.3",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -996,7 +900,7 @@
                 "cy": "58",
                 "r": "1.3",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -1007,7 +911,7 @@
                 "cy": "60",
                 "r": "1.3",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -1093,7 +997,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -1108,7 +1012,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                        "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1126,7 +1030,7 @@
                           "name": "path",
                           "type": "element",
                           "attributes": {
-                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                            "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
                             "fill": {
                               "type": "color",
                               "name": "ink"
@@ -1149,7 +1053,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                        "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1167,7 +1071,7 @@
                           "name": "path",
                           "type": "element",
                           "attributes": {
-                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                            "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
                             "fill": {
                               "type": "color",
                               "name": "ink"
@@ -1187,7 +1091,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                        "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1205,7 +1109,7 @@
                           "name": "path",
                           "type": "element",
                           "attributes": {
-                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                            "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
                             "fill": {
                               "type": "color",
                               "name": "ink"
@@ -1228,7 +1132,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                        "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1246,7 +1150,7 @@
                           "name": "path",
                           "type": "element",
                           "attributes": {
-                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                            "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
                             "fill": {
                               "type": "color",
                               "name": "ink"
@@ -1269,7 +1173,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                        "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1287,7 +1191,7 @@
                           "name": "path",
                           "type": "element",
                           "attributes": {
-                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                            "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
                             "fill": {
                               "type": "color",
                               "name": "ink"
@@ -1323,7 +1227,7 @@
                           "name": "path",
                           "type": "element",
                           "attributes": {
-                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z"
+                            "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36"
                           }
                         }
                       ]
@@ -1334,7 +1238,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                    "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36",
                     "fill": {
                       "type": "color",
                       "name": "plant"
@@ -1352,12 +1256,12 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                        "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
                         "fill": {
                           "type": "color",
                           "name": "ink"
                         },
-                        "opacity": "0.12",
+                        "opacity": ".12",
                         "fill-rule": "evenodd"
                       }
                     }
@@ -1387,7 +1291,7 @@
                           "name": "path",
                           "type": "element",
                           "attributes": {
-                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z"
+                            "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36"
                           }
                         }
                       ]
@@ -1398,7 +1302,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                    "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36",
                     "fill": {
                       "type": "color",
                       "name": "plant"
@@ -1416,12 +1320,12 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                        "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
                         "fill": {
                           "type": "color",
                           "name": "ink"
                         },
-                        "opacity": "0.12",
+                        "opacity": ".12",
                         "fill-rule": "evenodd"
                       }
                     }
@@ -1448,7 +1352,7 @@
                           "name": "path",
                           "type": "element",
                           "attributes": {
-                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z"
+                            "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36"
                           }
                         }
                       ]
@@ -1459,7 +1363,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                    "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36",
                     "fill": {
                       "type": "color",
                       "name": "plant"
@@ -1477,12 +1381,12 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                        "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
                         "fill": {
                           "type": "color",
                           "name": "ink"
                         },
-                        "opacity": "0.12",
+                        "opacity": ".12",
                         "fill-rule": "evenodd"
                       }
                     }
@@ -1512,7 +1416,7 @@
                           "name": "path",
                           "type": "element",
                           "attributes": {
-                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z"
+                            "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36"
                           }
                         }
                       ]
@@ -1523,7 +1427,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                    "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36",
                     "fill": {
                       "type": "color",
                       "name": "plant"
@@ -1541,12 +1445,12 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                        "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
                         "fill": {
                           "type": "color",
                           "name": "ink"
                         },
-                        "opacity": "0.12",
+                        "opacity": ".12",
                         "fill-rule": "evenodd"
                       }
                     }
@@ -1576,7 +1480,7 @@
                           "name": "path",
                           "type": "element",
                           "attributes": {
-                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z"
+                            "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36"
                           }
                         }
                       ]
@@ -1587,7 +1491,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                    "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36",
                     "fill": {
                       "type": "color",
                       "name": "plant"
@@ -1605,12 +1509,12 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                        "d": "M50 70c-4-10-4-26 0-36 4 10 4 26 0 36m-2-2.5c-4-10-4-26 0-36 4 10 4 26 0 36",
                         "fill": {
                           "type": "color",
                           "name": "ink"
                         },
-                        "opacity": "0.12",
+                        "opacity": ".12",
                         "fill-rule": "evenodd"
                       }
                     }
@@ -1626,7 +1530,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -1634,7 +1538,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M27 52A13 13 0 1 0 53 52A13 13 0 1 0 27 52Z",
+                    "d": "M27 52a13 13 0 1 0 26 0 13 13 0 1 0-26 0",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -1652,7 +1556,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M27 52A13 13 0 1 0 53 52A13 13 0 1 0 27 52Z M 25 49.5 A 13 13 0 1 0 51 49.5 A 13 13 0 1 0 25 49.5 Z",
+                        "d": "M27 52a13 13 0 1 0 26 0 13 13 0 1 0-26 0m-2-2.5a13 13 0 1 0 26 0 13 13 0 1 0-26 0",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1666,7 +1570,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M47 52A13 13 0 1 0 73 52A13 13 0 1 0 47 52Z",
+                    "d": "M47 52a13 13 0 1 0 26 0 13 13 0 1 0-26 0",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -1684,7 +1588,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M47 52A13 13 0 1 0 73 52A13 13 0 1 0 47 52Z M 45 49.5 A 13 13 0 1 0 71 49.5 A 13 13 0 1 0 45 49.5 Z",
+                        "d": "M47 52a13 13 0 1 0 26 0 13 13 0 1 0-26 0m-2-2.5a13 13 0 1 0 26 0 13 13 0 1 0-26 0",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1698,7 +1602,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M35 40A15 15 0 1 0 65 40A15 15 0 1 0 35 40Z",
+                    "d": "M35 40a15 15 0 1 0 30 0 15 15 0 1 0-30 0",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -1716,7 +1620,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M35 40A15 15 0 1 0 65 40A15 15 0 1 0 35 40Z M 33 37.5 A 15 15 0 1 0 63 37.5 A 15 15 0 1 0 33 37.5 Z",
+                        "d": "M35 40a15 15 0 1 0 30 0 15 15 0 1 0-30 0m-2-2.5a15 15 0 1 0 30 0 15 15 0 1 0-30 0",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1782,7 +1686,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M27 52A13 13 0 1 0 53 52A13 13 0 1 0 27 52Z"
+                        "d": "M27 52a13 13 0 1 0 26 0 13 13 0 1 0-26 0"
                       }
                     }
                   ]
@@ -1793,7 +1697,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M27 52A13 13 0 1 0 53 52A13 13 0 1 0 27 52Z",
+                "d": "M27 52a13 13 0 1 0 26 0 13 13 0 1 0-26 0",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -1811,12 +1715,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M27 52A13 13 0 1 0 53 52A13 13 0 1 0 27 52Z M 25 49.5 A 13 13 0 1 0 51 49.5 A 13 13 0 1 0 25 49.5 Z",
+                    "d": "M27 52a13 13 0 1 0 26 0 13 13 0 1 0-26 0m-2-2.5a13 13 0 1 0 26 0 13 13 0 1 0-26 0",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.12",
+                    "opacity": ".12",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1837,7 +1741,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M47 52A13 13 0 1 0 73 52A13 13 0 1 0 47 52Z"
+                        "d": "M47 52a13 13 0 1 0 26 0 13 13 0 1 0-26 0"
                       }
                     }
                   ]
@@ -1848,7 +1752,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M47 52A13 13 0 1 0 73 52A13 13 0 1 0 47 52Z",
+                "d": "M47 52a13 13 0 1 0 26 0 13 13 0 1 0-26 0",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -1866,12 +1770,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M47 52A13 13 0 1 0 73 52A13 13 0 1 0 47 52Z M 45 49.5 A 13 13 0 1 0 71 49.5 A 13 13 0 1 0 45 49.5 Z",
+                    "d": "M47 52a13 13 0 1 0 26 0 13 13 0 1 0-26 0m-2-2.5a13 13 0 1 0 26 0 13 13 0 1 0-26 0",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.12",
+                    "opacity": ".12",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1892,7 +1796,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M35 40A15 15 0 1 0 65 40A15 15 0 1 0 35 40Z"
+                        "d": "M35 40a15 15 0 1 0 30 0 15 15 0 1 0-30 0"
                       }
                     }
                   ]
@@ -1903,7 +1807,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M35 40A15 15 0 1 0 65 40A15 15 0 1 0 35 40Z",
+                "d": "M35 40a15 15 0 1 0 30 0 15 15 0 1 0-30 0",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -1921,12 +1825,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M35 40A15 15 0 1 0 65 40A15 15 0 1 0 35 40Z M 33 37.5 A 15 15 0 1 0 63 37.5 A 15 15 0 1 0 33 37.5 Z",
+                    "d": "M35 40a15 15 0 1 0 30 0 15 15 0 1 0-30 0m-2-2.5a15 15 0 1 0 30 0 15 15 0 1 0-30 0",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.12",
+                    "opacity": ".12",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -1979,7 +1883,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -2001,29 +1905,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 34C44 34 40 30 40 24C46 24 50 28 50 34Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 46C56 46 60 42 60 36C54 36 50 40 50 46Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 58C44 58 40 54 40 48C46 48 50 52 50 58Z",
+                    "d": "M50 34c-6 0-10-4-10-10 6 0 10 4 10 10m0 12c6 0 10-4 10-10-6 0-10 4-10 10m0 12c-6 0-10-4-10-10 6 0 10 4 10 10",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2050,29 +1932,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50 34C44 34 40 30 40 24C46 24 50 28 50 34Z",
-                "fill": {
-                  "type": "color",
-                  "name": "plant"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 46C56 46 60 42 60 36C54 36 50 40 50 46Z",
-                "fill": {
-                  "type": "color",
-                  "name": "plant"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 58C44 58 40 54 40 48C46 48 50 52 50 58Z",
+                "d": "M50 34c-6 0-10-4-10-10 6 0 10 4 10 10m0 12c6 0 10-4 10-10-6 0-10 4-10 10m0 12c-6 0-10-4-10-10 6 0 10 4 10 10",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -2087,7 +1947,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -2109,18 +1969,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 58C44.4 58 40.2 53.8 40.2 48.2C45.8 48.2 50 51.7 50 58Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 58C55.6 58 59.8 53.8 59.8 48.2C54.2 48.2 50 51.7 50 58Z",
+                    "d": "M50 58c-5.6 0-9.8-4.2-9.8-9.8 5.6 0 9.8 3.5 9.8 9.8m0 0c5.6 0 9.8-4.2 9.8-9.8-5.6 0-9.8 3.5-9.8 9.8",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2225,18 +2074,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50 58C44.4 58 40.2 53.8 40.2 48.2C45.8 48.2 50 51.7 50 58Z",
-                "fill": {
-                  "type": "color",
-                  "name": "plant"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 58C55.6 58 59.8 53.8 59.8 48.2C54.2 48.2 50 51.7 50 58Z",
+                "d": "M50 58c-5.6 0-9.8-4.2-9.8-9.8 5.6 0 9.8 3.5 9.8 9.8m0 0c5.6 0 9.8-4.2 9.8-9.8-5.6 0-9.8 3.5-9.8 9.8",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -2326,7 +2164,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -2348,29 +2186,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 60C43.6 60 38.8 55.2 38.8 48.8C45.2 48.8 50 52.8 50 60Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 60C56.4 60 61.2 55.2 61.2 48.8C54.8 48.8 50 52.8 50 60Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M40 34C40 22 44 18 50 24C56 18 60 22 60 34Q60 42 50 42Q40 42 40 34Z",
+                    "d": "M50 60c-6.4 0-11.2-4.8-11.2-11.2 6.4 0 11.2 4 11.2 11.2m0 0c6.4 0 11.2-4.8 11.2-11.2-6.4 0-11.2 4-11.2 11.2M40 34c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2388,7 +2204,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M40 34C40 22 44 18 50 24C56 18 60 22 60 34Q60 42 50 42Q40 42 40 34Z M 38 31.5 C 38 19.5 42 15.5 48 21.5 C 54 15.5 58 19.5 58 31.5 Q 58 39.5 48 39.5 Q 38 39.5 38 31.5 Z",
+                        "d": "M40 34c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8m-2-2.5c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -2418,18 +2234,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50 60C43.6 60 38.8 55.2 38.8 48.8C45.2 48.8 50 52.8 50 60Z",
-                "fill": {
-                  "type": "color",
-                  "name": "plant"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 60C56.4 60 61.2 55.2 61.2 48.8C54.8 48.8 50 52.8 50 60Z",
+                "d": "M50 60c-6.4 0-11.2-4.8-11.2-11.2 6.4 0 11.2 4 11.2 11.2m0 0c6.4 0 11.2-4.8 11.2-11.2-6.4 0-11.2 4-11.2 11.2",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -2451,7 +2256,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M40 34C40 22 44 18 50 24C56 18 60 22 60 34Q60 42 50 42Q40 42 40 34Z"
+                        "d": "M40 34c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8"
                       }
                     }
                   ]
@@ -2462,7 +2267,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M40 34C40 22 44 18 50 24C56 18 60 22 60 34Q60 42 50 42Q40 42 40 34Z",
+                "d": "M40 34c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8",
                 "fill": {
                   "type": "color",
                   "name": "bloom"
@@ -2480,12 +2285,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M40 34C40 22 44 18 50 24C56 18 60 22 60 34Q60 42 50 42Q40 42 40 34Z M 38 31.5 C 38 19.5 42 15.5 48 21.5 C 54 15.5 58 19.5 58 31.5 Q 58 39.5 48 39.5 Q 38 39.5 38 31.5 Z",
+                    "d": "M40 34c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8m-2-2.5c0-12 4-16 10-10 6-6 10-2 10 10q0 8-10 8t-10-8",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.12",
+                    "opacity": ".12",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -2499,7 +2304,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -2521,52 +2326,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 34C42 30 34 32 28 40",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "4",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "fill": "none"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 34C58 30 66 32 72 40",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "4",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "fill": "none"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 34C46 24 38 20 30 22",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "4",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "fill": "none"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 34C54 24 62 20 70 22",
+                    "d": "M50 34c-8-4-16-2-22 6m22-6c8-4 16-2 22 6m-22-6c-4-10-12-14-20-12m20 12c4-10 12-14 20-12",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -2611,52 +2371,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50 34C42 30 34 32 28 40",
-                "stroke": {
-                  "type": "color",
-                  "name": "plant"
-                },
-                "stroke-width": "4",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "fill": "none"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 34C58 30 66 32 72 40",
-                "stroke": {
-                  "type": "color",
-                  "name": "plant"
-                },
-                "stroke-width": "4",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "fill": "none"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 34C46 24 38 20 30 22",
-                "stroke": {
-                  "type": "color",
-                  "name": "plant"
-                },
-                "stroke-width": "4",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "fill": "none"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 34C54 24 62 20 70 22",
+                "d": "M50 34c-8-4-16-2-22 6m22-6c8-4 16-2 22 6m-22-6c-4-10-12-14-20-12m20 12c4-10 12-14 20-12",
                 "stroke": {
                   "type": "color",
                   "name": "plant"
@@ -2689,7 +2404,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -2697,67 +2412,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M44 72C42 60 40 52 36 44",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "4",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "fill": "none"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 72C50 58 50 48 50 38",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "4",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "fill": "none"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M56 72C58 60 60 52 64 44",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "4",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "fill": "none"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M47 72C45 62 43 56 40 52",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "4",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "fill": "none"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M53 72C55 62 57 56 60 52",
+                    "d": "M44 72c-2-12-4-20-8-28m14 28V38m6 34c2-12 4-20 8-28M47 72c-2-10-4-16-7-20m13 20c2-10 4-16 7-20",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -2774,67 +2429,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M44 72C42 60 40 52 36 44",
-                "stroke": {
-                  "type": "color",
-                  "name": "plant"
-                },
-                "stroke-width": "4",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "fill": "none"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 72C50 58 50 48 50 38",
-                "stroke": {
-                  "type": "color",
-                  "name": "plant"
-                },
-                "stroke-width": "4",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "fill": "none"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M56 72C58 60 60 52 64 44",
-                "stroke": {
-                  "type": "color",
-                  "name": "plant"
-                },
-                "stroke-width": "4",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "fill": "none"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M47 72C45 62 43 56 40 52",
-                "stroke": {
-                  "type": "color",
-                  "name": "plant"
-                },
-                "stroke-width": "4",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "fill": "none"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M53 72C55 62 57 56 60 52",
+                "d": "M44 72c-2-12-4-20-8-28m14 28V38m6 34c2-12 4-20 8-28M47 72c-2-10-4-16-7-20m13 20c2-10 4-16 7-20",
                 "stroke": {
                   "type": "color",
                   "name": "plant"
@@ -2853,7 +2448,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "opacity": "0.15",
+                "opacity": ".15",
                 "transform": "translate(3 3.5)"
               },
               "children": [
@@ -2861,7 +2456,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M46 72C44 58 43 48 39 41",
+                    "d": "M46 72c-2-14-3-24-7-31m15 31c2-16 3-26 7-35",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -2876,33 +2471,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M54 72C56 56 57 46 61 37",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "4",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "fill": "none"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 56C45.2 56 41.6 52.4 41.6 47.6C46.4 47.6 50 50.6 50 56Z",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    }
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M50 56C54.8 56 58.4 52.4 58.4 47.6C53.6 47.6 50 50.6 50 56Z",
+                    "d": "M50 56c-4.8 0-8.4-3.6-8.4-8.4 4.8 0 8.4 3 8.4 8.4m0 0c4.8 0 8.4-3.6 8.4-8.4-4.8 0-8.4 3-8.4 8.4",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2941,7 +2510,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M46 72C44 58 43 48 39 41",
+                "d": "M46 72c-2-14-3-24-7-31m15 31c2-16 3-26 7-35",
                 "stroke": {
                   "type": "color",
                   "name": "plant"
@@ -2956,33 +2525,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M54 72C56 56 57 46 61 37",
-                "stroke": {
-                  "type": "color",
-                  "name": "plant"
-                },
-                "stroke-width": "4",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "fill": "none"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 56C45.2 56 41.6 52.4 41.6 47.6C46.4 47.6 50 50.6 50 56Z",
-                "fill": {
-                  "type": "color",
-                  "name": "plant"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 56C54.8 56 58.4 52.4 58.4 47.6C53.6 47.6 50 50.6 50 56Z",
+                "d": "M50 56c-4.8 0-8.4-3.6-8.4-8.4 4.8 0 8.4 3 8.4 8.4m0 0c4.8 0 8.4-3.6 8.4-8.4-4.8 0-8.4 3-8.4 8.4",
                 "fill": {
                   "type": "color",
                   "name": "plant"
@@ -3029,12 +2572,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 27 65.5 H 79 L 73 109.5 H 33 Z",
+                "d": "M27 65.5h52l-6 44H33Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -3052,7 +2595,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M24 62H76L70 106H30Z"
+                        "d": "M24 62h52l-6 44H30Z"
                       }
                     }
                   ]
@@ -3063,7 +2606,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M24 62H76L70 106H30Z",
+                "d": "M24 62h52l-6 44H30Z",
                 "fill": {
                   "type": "color",
                   "name": "pot"
@@ -3081,9 +2624,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M24 62H76L70 106H30Z M 27 65.5 H 79 L 73 109.5 H 33 Z",
+                    "d": "M24 62h52l-6 44H30Zm3 3.5h52l-6 44H33Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -3091,12 +2634,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M24 62H76L70 106H30Z M 21 58.5 H 73 L 67 102.5 H 27 Z",
+                    "d": "M24 62h52l-6 44H30Zm-3-3.5h52l-6 44H27Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -3110,12 +2653,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 31 65.5 H 75 V 105.5 Q 75 109.5 71 109.5 H 35 Q 31 109.5 31 105.5 Z",
+                "d": "M31 65.5h44v40q0 4-4 4H35q-4 0-4-4Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -3133,7 +2676,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M28 62H72V102Q72 106 68 106H32Q28 106 28 102Z"
+                        "d": "M28 62h44v40q0 4-4 4H32q-4 0-4-4Z"
                       }
                     }
                   ]
@@ -3144,7 +2687,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M28 62H72V102Q72 106 68 106H32Q28 106 28 102Z",
+                "d": "M28 62h44v40q0 4-4 4H32q-4 0-4-4Z",
                 "fill": {
                   "type": "color",
                   "name": "pot"
@@ -3162,9 +2705,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 62H72V102Q72 106 68 106H32Q28 106 28 102Z M 31 65.5 H 75 V 105.5 Q 75 109.5 71 109.5 H 35 Q 31 109.5 31 105.5 Z",
+                    "d": "M28 62h44v40q0 4-4 4H32q-4 0-4-4Zm3 3.5h44v40q0 4-4 4H35q-4 0-4-4Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -3172,12 +2715,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 62H72V102Q72 106 68 106H32Q28 106 28 102Z M 25 58.5 H 69 V 98.5 Q 69 102.5 65 102.5 H 29 Q 25 102.5 25 98.5 Z",
+                    "d": "M28 62h44v40q0 4-4 4H32q-4 0-4-4Zm-3-3.5h44v40q0 4-4 4H29q-4 0-4-4Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -3191,12 +2734,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 27 65.5 H 79 C 79 93.5 69 109.5 53 109.5 C 37 109.5 27 93.5 27 65.5 Z",
+                "d": "M27 65.5h52c0 28-10 44-26 44s-26-16-26-44",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -3214,7 +2757,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M24 62H76C76 90 66 106 50 106C34 106 24 90 24 62Z"
+                        "d": "M24 62h52c0 28-10 44-26 44S24 90 24 62"
                       }
                     }
                   ]
@@ -3225,7 +2768,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M24 62H76C76 90 66 106 50 106C34 106 24 90 24 62Z",
+                "d": "M24 62h52c0 28-10 44-26 44S24 90 24 62",
                 "fill": {
                   "type": "color",
                   "name": "pot"
@@ -3243,9 +2786,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M24 62H76C76 90 66 106 50 106C34 106 24 90 24 62Z M 27 65.5 H 79 C 79 93.5 69 109.5 53 109.5 C 37 109.5 27 93.5 27 65.5 Z",
+                    "d": "M24 62h52c0 28-10 44-26 44S24 90 24 62m3 3.5h52c0 28-10 44-26 44s-26-16-26-44",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -3253,12 +2796,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M24 62H76C76 90 66 106 50 106C34 106 24 90 24 62Z M 21 58.5 H 73 C 73 86.5 63 102.5 47 102.5 C 31 102.5 21 86.5 21 58.5 Z",
+                    "d": "M24 62h52c0 28-10 44-26 44S24 90 24 62m-3-3.5h52c0 28-10 44-26 44s-26-16-26-44",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -3272,12 +2815,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 23 65.5 H 83 L 75 109.5 H 31 Z",
+                "d": "M23 65.5h60l-8 44H31Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -3295,7 +2838,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M20 62H80L72 106H28Z"
+                        "d": "M20 62h60l-8 44H28Z"
                       }
                     }
                   ]
@@ -3306,7 +2849,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M20 62H80L72 106H28Z",
+                "d": "M20 62h60l-8 44H28Z",
                 "fill": {
                   "type": "color",
                   "name": "pot"
@@ -3324,9 +2867,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M20 62H80L72 106H28Z M 23 65.5 H 83 L 75 109.5 H 31 Z",
+                    "d": "M20 62h60l-8 44H28Zm3 3.5h60l-8 44H31Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -3334,12 +2877,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M20 62H80L72 106H28Z M 17 58.5 H 77 L 69 102.5 H 25 Z",
+                    "d": "M20 62h60l-8 44H28Zm-3-3.5h60l-8 44H25Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -3353,12 +2896,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 53 65.5 C 33 65.5 25 77.5 25 87.5 C 25 99.5 37 109.5 53 109.5 C 69 109.5 81 99.5 81 87.5 C 81 77.5 73 65.5 53 65.5 Z",
+                "d": "M53 65.5c-20 0-28 12-28 22 0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -3376,7 +2919,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 62C30 62 22 74 22 84C22 96 34 106 50 106C66 106 78 96 78 84C78 74 70 62 50 62Z"
+                        "d": "M50 62c-20 0-28 12-28 22 0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22"
                       }
                     }
                   ]
@@ -3387,7 +2930,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50 62C30 62 22 74 22 84C22 96 34 106 50 106C66 106 78 96 78 84C78 74 70 62 50 62Z",
+                "d": "M50 62c-20 0-28 12-28 22 0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22",
                 "fill": {
                   "type": "color",
                   "name": "pot"
@@ -3405,9 +2948,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 62C30 62 22 74 22 84C22 96 34 106 50 106C66 106 78 96 78 84C78 74 70 62 50 62Z M 53 65.5 C 33 65.5 25 77.5 25 87.5 C 25 99.5 37 109.5 53 109.5 C 69 109.5 81 99.5 81 87.5 C 81 77.5 73 65.5 53 65.5 Z",
+                    "d": "M50 62c-20 0-28 12-28 22 0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22m3 3.5c-20 0-28 12-28 22 0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -3415,12 +2958,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 62C30 62 22 74 22 84C22 96 34 106 50 106C66 106 78 96 78 84C78 74 70 62 50 62Z M 47 58.5 C 27 58.5 19 70.5 19 80.5 C 19 92.5 31 102.5 47 102.5 C 63 102.5 75 92.5 75 80.5 C 75 70.5 67 58.5 47 58.5 Z",
+                    "d": "M50 62c-20 0-28 12-28 22 0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22m-3-3.5c-20 0-28 12-28 22 0 12 12 22 28 22s28-10 28-22c0-10-8-22-28-22",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -3434,12 +2977,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 33 67.5 C 33 65.5 35 65.5 37 65.5 H 69 C 71 65.5 73 65.5 73 67.5 C 76 81.5 76 95.5 72 103.5 Q 70 109.5 62 109.5 H 44 Q 36 109.5 34 103.5 C 30 95.5 30 81.5 33 67.5 Z",
+                "d": "M33 67.5c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H44q-8 0-10-6c-4-8-4-22-1-36",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -3457,7 +3000,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M30 64C30 62 32 62 34 62H66C68 62 70 62 70 64C73 78 73 92 69 100Q67 106 59 106H41Q33 106 31 100C27 92 27 78 30 64Z"
+                        "d": "M30 64c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H41q-8 0-10-6c-4-8-4-22-1-36"
                       }
                     }
                   ]
@@ -3468,7 +3011,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M30 64C30 62 32 62 34 62H66C68 62 70 62 70 64C73 78 73 92 69 100Q67 106 59 106H41Q33 106 31 100C27 92 27 78 30 64Z",
+                "d": "M30 64c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H41q-8 0-10-6c-4-8-4-22-1-36",
                 "fill": {
                   "type": "color",
                   "name": "pot"
@@ -3486,9 +3029,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 64C30 62 32 62 34 62H66C68 62 70 62 70 64C73 78 73 92 69 100Q67 106 59 106H41Q33 106 31 100C27 92 27 78 30 64Z M 33 67.5 C 33 65.5 35 65.5 37 65.5 H 69 C 71 65.5 73 65.5 73 67.5 C 76 81.5 76 95.5 72 103.5 Q 70 109.5 62 109.5 H 44 Q 36 109.5 34 103.5 C 30 95.5 30 81.5 33 67.5 Z",
+                    "d": "M30 64c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H41q-8 0-10-6c-4-8-4-22-1-36m3 3.5c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H44q-8 0-10-6c-4-8-4-22-1-36",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -3496,12 +3039,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 64C30 62 32 62 34 62H66C68 62 70 62 70 64C73 78 73 92 69 100Q67 106 59 106H41Q33 106 31 100C27 92 27 78 30 64Z M 27 60.5 C 27 58.5 29 58.5 31 58.5 H 63 C 65 58.5 67 58.5 67 60.5 C 70 74.5 70 88.5 66 96.5 Q 64 102.5 56 102.5 H 38 Q 30 102.5 28 96.5 C 24 88.5 24 74.5 27 60.5 Z",
+                    "d": "M30 64c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H41q-8 0-10-6c-4-8-4-22-1-36m-3-3.5c0-2 2-2 4-2h32c2 0 4 0 4 2 3 14 3 28-1 36q-2 6-10 6H38q-8 0-10-6c-4-8-4-22-1-36",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -3515,12 +3058,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M 29 73.5 Q 27 73.5 27 70.5 V 68.5 Q 27 65.5 29 65.5 H 77 Q 79 65.5 79 68.5 V 70.5 Q 79 73.5 77 73.5 H 73 V 109.5 H 33 V 73.5 Z",
+                "d": "M29 73.5q-2 0-2-3v-2q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H33v-36Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 },
-                "opacity": "0.15"
+                "opacity": ".15"
               }
             },
             {
@@ -3538,7 +3081,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M26 70Q24 70 24 67V65Q24 62 26 62H74Q76 62 76 65V67Q76 70 74 70H70V106H30V70Z"
+                        "d": "M26 70q-2 0-2-3v-2q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H30V70Z"
                       }
                     }
                   ]
@@ -3549,7 +3092,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M26 70Q24 70 24 67V65Q24 62 26 62H74Q76 62 76 65V67Q76 70 74 70H70V106H30V70Z",
+                "d": "M26 70q-2 0-2-3v-2q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H30V70Z",
                 "fill": {
                   "type": "color",
                   "name": "pot"
@@ -3567,9 +3110,9 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M26 70Q24 70 24 67V65Q24 62 26 62H74Q76 62 76 65V67Q76 70 74 70H70V106H30V70Z M 29 73.5 Q 27 73.5 27 70.5 V 68.5 Q 27 65.5 29 65.5 H 77 Q 79 65.5 79 68.5 V 70.5 Q 79 73.5 77 73.5 H 73 V 109.5 H 33 V 73.5 Z",
+                    "d": "M26 70q-2 0-2-3v-2q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H30V70Zm3 3.5q-2 0-2-3v-2q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H33v-36Z",
                     "fill": "#ffffff",
-                    "opacity": "0.16",
+                    "opacity": ".16",
                     "fill-rule": "evenodd"
                   }
                 },
@@ -3577,12 +3120,12 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M26 70Q24 70 24 67V65Q24 62 26 62H74Q76 62 76 65V67Q76 70 74 70H70V106H30V70Z M 23 66.5 Q 21 66.5 21 63.5 V 61.5 Q 21 58.5 23 58.5 H 71 Q 73 58.5 73 61.5 V 63.5 Q 73 66.5 71 66.5 H 67 V 102.5 H 27 V 66.5 Z",
+                    "d": "M26 70q-2 0-2-3v-2q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H30V70Zm-3-3.5q-2 0-2-3v-2q0-3 2-3h48q2 0 2 3v2q0 3-2 3h-4v36H27v-36Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
                     },
-                    "opacity": "0.1",
+                    "opacity": ".1",
                     "fill-rule": "evenodd"
                   }
                 }
@@ -3609,7 +3152,7 @@
                 "height": "5.5",
                 "rx": "2.75",
                 "fill": "#ffffff",
-                "opacity": "0.18"
+                "opacity": ".18"
               }
             }
           ]
@@ -3624,7 +3167,7 @@
                 "cy": "92",
                 "r": "2.2",
                 "fill": "#ffffff",
-                "opacity": "0.25"
+                "opacity": ".25"
               }
             },
             {
@@ -3635,7 +3178,7 @@
                 "cy": "94.5",
                 "r": "2.2",
                 "fill": "#ffffff",
-                "opacity": "0.25"
+                "opacity": ".25"
               }
             },
             {
@@ -3646,7 +3189,7 @@
                 "cy": "92",
                 "r": "2.2",
                 "fill": "#ffffff",
-                "opacity": "0.25"
+                "opacity": ".25"
               }
             }
           ]
@@ -3663,7 +3206,7 @@
                 "height": "12",
                 "rx": "2.5",
                 "fill": "#ffffff",
-                "opacity": "0.18"
+                "opacity": ".18"
               }
             },
             {
@@ -3676,7 +3219,7 @@
                 "height": "12",
                 "rx": "2.5",
                 "fill": "#ffffff",
-                "opacity": "0.18"
+                "opacity": ".18"
               }
             }
           ]
@@ -3687,12 +3230,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M38 93L42 89L46 93L50 89L54 93L58 89L62 93",
+                "d": "m38 93 4-4 4 4 4-4 4 4 4-4 4 4",
                 "stroke": "#ffffff",
                 "stroke-width": "2.5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round",
-                "opacity": "0.2"
+                "opacity": ".2"
               }
             }
           ]
@@ -3707,7 +3250,7 @@
                 "cy": "90",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -3718,7 +3261,7 @@
                 "cy": "94.5",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -3729,7 +3272,7 @@
                 "cy": "89.5",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -3740,7 +3283,7 @@
                 "cy": "94",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -3751,7 +3294,7 @@
                 "cy": "90",
                 "r": "1.4",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             }
           ]
@@ -3767,7 +3310,7 @@
                 "r": "6",
                 "stroke": "#ffffff",
                 "stroke-width": "2.5",
-                "opacity": "0.2"
+                "opacity": ".2"
               }
             }
           ]
@@ -3789,7 +3332,7 @@
                 "cy": "84",
                 "r": "3",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -3800,7 +3343,7 @@
                 "cy": "84",
                 "r": "3",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             }
           ]
@@ -3816,7 +3359,7 @@
                 "rx": "4",
                 "ry": "2.7",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             },
             {
@@ -3828,7 +3371,7 @@
                 "rx": "4",
                 "ry": "2.7",
                 "fill": "#ffffff",
-                "opacity": "0.3"
+                "opacity": ".3"
               }
             }
           ]
@@ -3843,7 +3386,7 @@
                 "cy": "83",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -3854,7 +3397,7 @@
                 "cy": "81.5",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -3865,7 +3408,7 @@
                 "cy": "85.5",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -3876,7 +3419,7 @@
                 "cy": "83",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -3887,7 +3430,7 @@
                 "cy": "81.5",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             },
             {
@@ -3898,7 +3441,7 @@
                 "cy": "85.5",
                 "r": "1.2",
                 "fill": "#ffffff",
-                "opacity": "0.35"
+                "opacity": ".35"
               }
             }
           ]
@@ -4095,21 +3638,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M33 79Q39 71 45 79",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "3",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M55 79Q61 71 67 79",
+                "d": "M33 79q6-8 12 0m10 0q6-8 12 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4127,21 +3656,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M33 76Q39 81 45 76",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "3",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M55 76Q61 81 67 76",
+                "d": "M33 76q6 5 12 0m10 0q6 5 12 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4182,7 +3697,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M55 79Q61 71 67 79",
+                "d": "M55 79q6-8 12 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4200,7 +3715,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M33 77A6 6 0 0 0 45 77Z",
+                "d": "M33 77a6 6 0 0 0 12 0Zm22 0a6 6 0 0 0 12 0Z",
                 "fill": "#ffffff"
               }
             },
@@ -4208,15 +3723,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M55 77A6 6 0 0 0 67 77Z",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M36.4 77A2.6 2.6 0 0 0 41.6 77Z",
+                "d": "M36.4 77a2.6 2.6 0 0 0 5.2 0Zm22 0a2.6 2.6 0 0 0 5.2 0Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -4227,32 +3734,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M58.4 77A2.6 2.6 0 0 0 63.6 77Z",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M32 77H46",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "2.5",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M54 77H68",
+                "d": "M32 77h14m8 0h14",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4398,21 +3880,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M33 69L45 73",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "3",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M67 69L55 73",
+                "d": "m33 69 12 4m22-4-12 4",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4436,7 +3904,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 84Q50 91 58 84",
+                "d": "M42 84q8 7 16 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4454,7 +3922,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M46 85Q50 88 54 85",
+                "d": "M46 85q4 3 8 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4472,7 +3940,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M41.5 84A8.5 8.5 0 0 0 58.5 84Z",
+                "d": "M41.5 84a8.5 8.5 0 0 0 17 0Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -4483,7 +3951,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M46 88A4 4 0 0 0 54 88Z",
+                "d": "M46 88a4 4 0 0 0 8 0Z",
                 "fill": "#fb7185"
               }
             }
@@ -4512,7 +3980,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M44 86H56",
+                "d": "M44 86h12",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4530,7 +3998,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M43 85Q46.5 88 50 85Q53.5 88 57 85",
+                "d": "M43 85q3.5 3 7 0 3.5 3 7 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4548,7 +4016,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M44 84.5Q50 89 56 84.5",
+                "d": "M44 84.5q6 4.5 12 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4562,7 +4030,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M46.5 86.5A3.5 3.5 0 0 0 53.5 86.5Z",
+                "d": "M46.5 86.5a3.5 3.5 0 0 0 7 0Z",
                 "fill": "#fb7185"
               }
             }
@@ -4603,7 +4071,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 89Q50 82 58 89",
+                "d": "M42 89q8-7 16 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4621,7 +4089,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42 86Q46 83 50 86Q54 89 58 86",
+                "d": "M42 86q4-3 8 0t8 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4639,7 +4107,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M44 85H56",
+                "d": "M44 85h12",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -4693,7 +4161,9 @@
               ]
             }
           ],
-          "tags": ["animation"]
+          "tags": [
+            "animation"
+          ]
         },
         "fast": {
           "weight": 0,
@@ -4716,7 +4186,9 @@
               ]
             }
           ],
-          "tags": ["animation"]
+          "tags": [
+            "animation"
+          ]
         },
         "medium": {
           "weight": 0,
@@ -4739,7 +4211,9 @@
               ]
             }
           ],
-          "tags": ["animation"]
+          "tags": [
+            "animation"
+          ]
         },
         "slow": {
           "weight": 0,
@@ -4762,7 +4236,9 @@
               ]
             }
           ],
-          "tags": ["animation"]
+          "tags": [
+            "animation"
+          ]
         },
         "slowest": {
           "weight": 0,
@@ -4785,7 +4261,9 @@
               ]
             }
           ],
-          "tags": ["animation"]
+          "tags": [
+            "animation"
+          ]
         }
       }
     }
@@ -4848,7 +4326,9 @@
       ]
     },
     "ink": {
-      "values": ["#1e293b"]
+      "values": [
+        "#1e293b"
+      ]
     }
   }
 }

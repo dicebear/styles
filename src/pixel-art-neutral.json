@@ -55,71 +55,44 @@
         "variant01": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
-                "transform": "matrix(-1 0 0 1 8 0)",
-                "fill": "white"
+                "fill": "white",
+                "d": "M8 0H5v3h3zM3 0H0v3h3z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
-                "transform": "matrix(-1 0 0 1 3 0)",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "2",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 8 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M0 0h2v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "2",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 3 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M0 0h2v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 8 1)",
                 "fill": "white",
-                "fill-opacity": ".7"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 3 1)",
-                "fill": "white",
-                "fill-opacity": ".7"
+                "fill-opacity": ".7",
+                "d": "M8 1H7v1h1zM3 1H2v1h1z"
               }
             }
           ]
@@ -173,29 +146,27 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 7 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "1",
-                "height": "1",
                 "transform": "matrix(-1 0 0 1 2 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M0 0h1v1H0z"
               }
             }
           ]
@@ -211,31 +182,14 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
+                },
+                "d": "M1 1h1v1H1zm5 0h1v1H6z"
               }
             }
           ]
@@ -243,22 +197,11 @@
         "variant05": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
               }
             },
             {
@@ -273,38 +216,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
+                "fill-opacity": ".5",
+                "d": "M5 1h1v1H5zm1-1h1v1H6zm1 1h1v1H7z"
               }
             },
             {
@@ -319,37 +236,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".5"
+                "fill-opacity": ".5",
+                "d": "M0 1h1v1H0zm1-1h1v1H1zm1 1h1v1H2z"
               }
             }
           ]
@@ -357,50 +249,41 @@
         "variant06": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "2",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v2H0z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M1 1h1v1H1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
+                "fill": "white",
+                "d": "M5 0h3v2H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "6",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M6 1h1v1H6z"
               }
             }
           ]
@@ -408,50 +291,22 @@
         "variant07": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "2",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
+                },
+                "d": "M7 1h1v1H7zM2 1h1v1H2z"
               }
             }
           ]
@@ -459,49 +314,22 @@
         "variant08": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "2",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v2H0zm5 0h3v2H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
+                },
+                "d": "M5 1h1v1H5zM0 1h1v1H0z"
               }
             }
           ]
@@ -509,50 +337,22 @@
         "variant09": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
+                },
+                "d": "M6 1h1v1H6zM1 1h1v1H1z"
               }
             }
           ]
@@ -560,116 +360,40 @@
         "variant10": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "width": "2",
-                "height": "2",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M6 0h2v2H6zM1 0h2v2H1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "width": "2",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".4"
+                "fill-opacity": ".4",
+                "d": "M1 0h1v1H1zm1 1h1v1H2zm4-1h1v1H6zm1 1h1v1H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".4"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".4"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".4"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".7"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".7"
+                "fill-opacity": ".7",
+                "d": "M7 0h1v1H7zM2 0h1v1H2z"
               }
             }
           ]
@@ -677,72 +401,31 @@
         "variant11": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
-                "fill": "white"
+                "fill": "white",
+                "d": "M0 0h3v3H0zm5 0h3v3H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
-                }
+                },
+                "d": "M0 1h2v1H0zm5 0h2v1H5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".7"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".7"
+                "fill-opacity": ".7",
+                "d": "M0 1h1v1H0zm5 0h1v1H5z"
               }
             }
           ]
@@ -806,62 +489,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2zm5 0h3v1H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "1",
-                "fill": "black",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "2",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
               }
             }
           ]
@@ -882,62 +524,30 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm5 0h2v1H5zm6 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 2h3v1H7z"
               }
             }
           ]
@@ -945,105 +555,41 @@
         "dark03": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "12",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "glasses"
-                }
+                },
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "y": "3",
-                "width": "10",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "8",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h8v1H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "2",
-                "width": "2",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M5 2h2v1H5z"
               }
             }
           ]
@@ -1051,69 +597,23 @@
         "dark04": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 1h3v3H2zm5 0h3v3H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "black",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
+                },
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
           ]
@@ -1134,50 +634,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v2H2zm5 0h3v2H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "black",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
           ]
@@ -1198,62 +669,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 2h3v2H7zM2 2h3v2H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "black",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
           ]
@@ -1274,50 +704,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 1h3v3H7zM2 1h3v3H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "black",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             }
           ]
@@ -1336,62 +737,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2zm5 0h3v1H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "2",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
               }
             }
           ]
@@ -1412,62 +772,30 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v1H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm5 0h2v1H5zm6 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 2h3v1H7z"
               }
             }
           ]
@@ -1475,105 +803,41 @@
         "light03": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "12",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "glasses"
-                }
+                },
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "1",
-                "y": "3",
-                "width": "10",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "8",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h8v1H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "2",
-                "width": "2",
-                "height": "1",
                 "fill": "black",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M5 2h2v1H5z"
               }
             }
           ]
@@ -1581,69 +845,23 @@
         "light04": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 1h3v3H2zm5 0h3v3H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
+                },
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
           ]
@@ -1664,50 +882,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M2 2h3v2H2zm5 0h3v2H7z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
           ]
@@ -1728,62 +917,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 2h3v2H7zM2 2h3v2H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
           ]
@@ -1804,50 +952,21 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".3"
+                "fill-opacity": ".3",
+                "d": "M7 1h3v3H7zM2 1h3v3H2z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "white",
-                "fill-opacity": ".3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": ".2"
+                "fill-opacity": ".2",
+                "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             }
           ]
