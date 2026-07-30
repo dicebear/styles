@@ -4156,7 +4156,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbsp-fastest){--dbsp-t:0.75;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
+                  "value": "svg:has(.dbsp-fastest){--dbsp-t:0.75;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%{transform:rotate(0deg);animation-timing-function:ease-out}25%{transform:rotate(-2.5deg);animation-timing-function:ease-in-out}75%{transform:rotate(2.5deg);animation-timing-function:ease-in}100%{transform:rotate(0deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
                 }
               ]
             }
@@ -4181,7 +4181,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbsp-fast){--dbsp-t:0.9;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
+                  "value": "svg:has(.dbsp-fast){--dbsp-t:0.9;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%{transform:rotate(0deg);animation-timing-function:ease-out}25%{transform:rotate(-2.5deg);animation-timing-function:ease-in-out}75%{transform:rotate(2.5deg);animation-timing-function:ease-in}100%{transform:rotate(0deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
                 }
               ]
             }
@@ -4206,7 +4206,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbsp-medium){--dbsp-t:1;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
+                  "value": "svg:has(.dbsp-medium){--dbsp-t:1;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%{transform:rotate(0deg);animation-timing-function:ease-out}25%{transform:rotate(-2.5deg);animation-timing-function:ease-in-out}75%{transform:rotate(2.5deg);animation-timing-function:ease-in}100%{transform:rotate(0deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
                 }
               ]
             }
@@ -4231,7 +4231,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbsp-slow){--dbsp-t:1.15;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
+                  "value": "svg:has(.dbsp-slow){--dbsp-t:1.15;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%{transform:rotate(0deg);animation-timing-function:ease-out}25%{transform:rotate(-2.5deg);animation-timing-function:ease-in-out}75%{transform:rotate(2.5deg);animation-timing-function:ease-in}100%{transform:rotate(0deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
                 }
               ]
             }
@@ -4256,7 +4256,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbsp-slowest){--dbsp-t:1.35;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
+                  "value": "svg:has(.dbsp-slowest){--dbsp-t:1.35;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%{transform:rotate(0deg);animation-timing-function:ease-out}25%{transform:rotate(-2.5deg);animation-timing-function:ease-in-out}75%{transform:rotate(2.5deg);animation-timing-function:ease-in}100%{transform:rotate(0deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
                 }
               ]
             }
