@@ -74,6 +74,9 @@ var BotttsNeutral string
 //go:embed src/constellation.json
 var Constellation string
 
+//go:embed src/critters.json
+var Critters string
+
 //go:embed src/croodles.json
 var Croodles string
 
@@ -158,6 +161,9 @@ var ShapeGrid string
 //go:embed src/shapes.json
 var Shapes string
 
+//go:embed src/sprouts.json
+var Sprouts string
+
 //go:embed src/squircles.json
 var Squircles string
 
@@ -202,6 +208,8 @@ func Get(name string) (string, bool) {
 		return BotttsNeutral, true
 	case "constellation":
 		return Constellation, true
+	case "critters":
+		return Critters, true
 	case "croodles":
 		return Croodles, true
 	case "croodles-neutral":
@@ -258,6 +266,8 @@ func Get(name string) (string, bool) {
 		return ShapeGrid, true
 	case "shapes":
 		return Shapes, true
+	case "sprouts":
+		return Sprouts, true
 	case "squircles":
 		return Squircles, true
 	case "stripes":
@@ -290,6 +300,7 @@ func All() []string {
 		"bottts",
 		"bottts-neutral",
 		"constellation",
+		"critters",
 		"croodles",
 		"croodles-neutral",
 		"disco",
@@ -318,6 +329,7 @@ func All() []string {
 		"rings",
 		"shape-grid",
 		"shapes",
+		"sprouts",
 		"squircles",
 		"stripes",
 		"thumbs",

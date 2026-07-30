@@ -39,6 +39,7 @@ all = [
   "bottts",
   "bottts-neutral",
   "constellation",
+  "critters",
   "croodles",
   "croodles-neutral",
   "disco",
@@ -67,6 +68,7 @@ all = [
   "rings",
   "shape-grid",
   "shapes",
+  "sprouts",
   "squircles",
   "stripes",
   "thumbs",
@@ -87,6 +89,7 @@ blobs = []
 bottts = []
 bottts-neutral = []
 constellation = []
+critters = []
 croodles = []
 croodles-neutral = []
 disco = []
@@ -115,6 +118,7 @@ planets = []
 rings = []
 shape-grid = []
 shapes = []
+sprouts = []
 squircles = []
 stripes = []
 thumbs = []

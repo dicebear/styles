@@ -14,38 +14,44 @@ Versions track the DiceBear release line.
 
 ### Added
 
-- **Opt-in animation.** All new styles below, as well as Shapes, Glass,
-  Thumbs, and Initial Face, carry an `animation` component. By default
-  (`none`) they render fully static. The `animationVariant` render option
-  selects a speed from `fastest` to `slowest`. A static avatar next to an
-  animated one stays static, browsers without CSS `:has()` support show the
-  static image, and the animations respect `prefers-reduced-motion`.
+- **Opt-in animation.** All new styles below, as well as Shapes, Glass, Thumbs,
+  and Initial Face, carry an `animation` component. By default (`none`) they
+  render fully static. The `animationVariant` render option selects a speed from
+  `fastest` to `slowest`. A static avatar next to an animated one stays static,
+  browsers without CSS `:has()` support show the static image, and the
+  animations respect `prefers-reduced-motion`.
 - **Animation tag.** The animated variants carry the bare `animation` variant
-  tag, so the `tags` render option can switch the animation on (`animation`,
-  at a random speed per seed) or keep it off (`!animation`). The static
-  default variant carries no tag.
+  tag, so the `tags` render option can switch the animation on (`animation`, at
+  a random speed per seed) or keep it off (`!animation`). The static default
+  variant carries no tag.
+- **New style: Critters.** A small bug-like creature in shaded pastel on a deep
+  background: fourteen bodies, nineteen eye sets, nineteen mouths, and usually
+  an attachment in a second pastel. When animated, it bobs, blinks, and its
+  horns sway. Hand-authored, CC0 1.0.
+- **New style: Sprouts.** A potted plant with the face on the pot: twelve
+  plants, seven pot shapes, and the Critters face set. When animated, the plant
+  sways and the face blinks. Hand-authored, CC0 1.0.
 - **New style: Loops.** A truchet pattern: quarter-circle arc tiles on a 3x3
   grid join into meandering paths. The pattern is tone-in-tone with the
-  background by default, `patternVariant` switches to plain white or black.
-  When animated, the tiles quarter-turn and keep reconfiguring the pattern.
+  background by default, `patternVariant` switches to plain white or black. When
+  animated, the tiles quarter-turn and keep reconfiguring the pattern.
   Hand-authored, CC0 1.0.
-- **New style: Pixelbot.** An AI-bot face on a 12x12 LED panel. Unlit cells
-  stay dark, lit pixels draw the face: seven eye sets and five mouths, nine
-  glow colors, ten dark backgrounds. With animation enabled,
-  the eyes blink row by row, the mouths widen, and every pixel switches hard
-  like a real LED. Hand-authored, CC0 1.0.
-- **New style: Squircles.** A depth stack of three to five nested
-  superellipses. Opacity rises toward the center, each layer is jittered and
-  rotated, and a small accent squircle appears on most seeds. Hand-authored,
-  CC0 1.0.
-- **New style: Blobs.** Two to four layered organic forms in white or black
-  over a strong background color. Compositions range from calm concentric
-  stacks to off-center clusters. Hand-authored, CC0 1.0.
+- **New style: Pixelbot.** An AI-bot face on a 12x12 LED panel. Unlit cells stay
+  dark, lit pixels draw the face: seven eye sets and five mouths, nine glow
+  colors, ten dark backgrounds. With animation enabled, the eyes blink row by
+  row, the mouths widen, and every pixel switches hard like a real LED.
+  Hand-authored, CC0 1.0.
+- **New style: Squircles.** A depth stack of three to five nested superellipses.
+  Opacity rises toward the center, each layer is jittered and rotated, and a
+  small accent squircle appears on most seeds. Hand-authored, CC0 1.0.
+- **New style: Blobs.** Two to four layered organic forms in white or black over
+  a strong background color. Compositions range from calm concentric stacks to
+  off-center clusters. Hand-authored, CC0 1.0.
 - **New style: Constellation.** A constellation over a deep night sky, drawn
-  from real star data, plus a per-seed star field, an occasional shooting
-  star, and two rare easter eggs. Hand-authored, CC0 1.0.
-- **New style: Landscape.** An abstract layered landscape: four hill bands,
-  an optional sun or moon, and curated nature palettes that keep every random
+  from real star data, plus a per-seed star field, an occasional shooting star,
+  and two rare easter eggs. Hand-authored, CC0 1.0.
+- **New style: Landscape.** An abstract layered landscape: four hill bands, an
+  optional sun or moon, and curated nature palettes that keep every random
   combination harmonious. Hand-authored, CC0 1.0.
 - **New style: Planets.** A single planet over deep space with ten surface
   variants, an optional ring, moons, and a random star field. `shadeVariant`
@@ -64,18 +70,20 @@ Versions track the DiceBear release line.
 
 ### Added
 
-- **Variant tags.** The character styles now describe their variants with tags, so
-  the DiceBear `tags` render option can filter the variant pool (for example, keep
-  only `mood:happy` mouths, or drop facial hair with `!facialHair`). The shared set
-  covers `mood`, `hairLength`, `hairStyle`, `headwear`, `facialHair`, `eyewear`, and
-  `accessory`. The abstract styles carry no tags. This needs `@dicebear/schema`
-  1.3.0, and every definition's `$schema` reference now points to it.
+- **Variant tags.** The character styles now describe their variants with tags,
+  so the DiceBear `tags` render option can filter the variant pool (for example,
+  keep only `mood:happy` mouths, or drop facial hair with `!facialHair`). The
+  shared set covers `mood`, `hairLength`, `hairStyle`, `headwear`, `facialHair`,
+  `eyewear`, and `accessory`. The abstract styles carry no tags. This needs
+  `@dicebear/schema` 1.3.0, and every definition's `$schema` reference now
+  points to it.
 
 ### Fixed
 
-- Re-exported the `glasses` in adventurer-neutral, the `hair` in big-smile, and the
-  `mouth` in croodles and croodles-neutral. This shortens overlong coordinate
-  decimals in the exported paths, for example `42.1899` becomes `42.19`.
+- Re-exported the `glasses` in adventurer-neutral, the `hair` in big-smile, and
+  the `mouth` in croodles and croodles-neutral. This shortens overlong
+  coordinate decimals in the exported paths, for example `42.1899` becomes
+  `42.19`.
 
 ## [10.2.0] - 2026-06-08
 
@@ -84,15 +92,15 @@ Versions track the DiceBear release line.
 - **Dart:** The styles are now available as a `dicebear_styles` package on
   pub.dev. The Dart shim landed after the `v10.2.0` tag, so the pub.dev release
   of this version came from a later commit. Dart has no compile-time file
-  embedding, so `scripts/build.sh` generates one library per style with the
-  raw JSON as a string constant
-  (e.g. `package:dicebear_styles/adventurer.dart`); a compiled app only embeds
-  the styles it imports. The umbrella library `dicebear_styles.dart` re-exports
-  every style and adds `get(name)` and `all`, so the Dart, Rust and Go shims
-  share one API. Each generated file credits its style's artist and license.
-  The generated `lib/` is git-ignored (like the npm `dist/`) and built fresh by
-  the test and publish workflows; `tool/check_parity.dart` proves in CI that
-  every embedded constant is byte-identical to its `src/*.json` source.
+  embedding, so `scripts/build.sh` generates one library per style with the raw
+  JSON as a string constant (e.g. `package:dicebear_styles/adventurer.dart`); a
+  compiled app only embeds the styles it imports. The umbrella library
+  `dicebear_styles.dart` re-exports every style and adds `get(name)` and `all`,
+  so the Dart, Rust and Go shims share one API. Each generated file credits its
+  style's artist and license. The generated `lib/` is git-ignored (like the npm
+  `dist/`) and built fresh by the test and publish workflows;
+  `tool/check_parity.dart` proves in CI that every embedded constant is
+  byte-identical to its `src/*.json` source.
 - **Go:** The styles are now available as a Go module
   (`github.com/dicebear/styles/v10`). Each style is embedded and exposed as an
   exported `string` variable and via `Get(name)`/`All()`. Generated by
@@ -101,23 +109,23 @@ Versions track the DiceBear release line.
 ### Changed
 
 - **Rust (breaking):** Renamed `enabled()` to `all()`, so the Rust and Go shims
-  share one API (`<Style>` constant/variable + `get(name)` + `all()`/`All()`). We
-  normally follow [Semantic Versioning](https://semver.org/) strictly, which would
-  make this a major bump. We make a one-time exception here: the crate had only just
-  been uploaded to crates.io and was never promoted or officially announced, so it
-  had no real-world users to break. Renaming now (before adoption) buys a clean,
-  cross-language API rather than carrying a misnamed function (or a deprecated
-  alias) forever.
+  share one API (`<Style>` constant/variable + `get(name)` + `all()`/`All()`).
+  We normally follow [Semantic Versioning](https://semver.org/) strictly, which
+  would make this a major bump. We make a one-time exception here: the crate had
+  only just been uploaded to crates.io and was never promoted or officially
+  announced, so it had no real-world users to break. Renaming now (before
+  adoption) buys a clean, cross-language API rather than carrying a misnamed
+  function (or a deprecated alias) forever.
 
 ## [10.1.0] - 2026-06-03
 
 ### Added
 
-- **Rust distribution:** A `dicebear-styles` crate is now published to crates.io,
-  alongside the existing npm, Composer, and PyPI distributions. It embeds the same
-  JSON style definitions via `include_str!`, gated behind one Cargo feature per
-  style, and exposes each as a `&'static str` constant plus `get(name)`/`enabled()`
-  lookup helpers.
+- **Rust distribution:** A `dicebear-styles` crate is now published to
+  crates.io, alongside the existing npm, Composer, and PyPI distributions. It
+  embeds the same JSON style definitions via `include_str!`, gated behind one
+  Cargo feature per style, and exposes each as a `&'static str` constant plus
+  `get(name)`/`enabled()` lookup helpers.
 
 ### Changed
 

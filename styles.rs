@@ -76,6 +76,9 @@ pub const BOTTTS_NEUTRAL: &str = include_str!("src/bottts-neutral.json");
 #[cfg(feature = "constellation")]
 pub const CONSTELLATION: &str = include_str!("src/constellation.json");
 
+#[cfg(feature = "critters")]
+pub const CRITTERS: &str = include_str!("src/critters.json");
+
 #[cfg(feature = "croodles")]
 pub const CROODLES: &str = include_str!("src/croodles.json");
 
@@ -160,6 +163,9 @@ pub const SHAPE_GRID: &str = include_str!("src/shape-grid.json");
 #[cfg(feature = "shapes")]
 pub const SHAPES: &str = include_str!("src/shapes.json");
 
+#[cfg(feature = "sprouts")]
+pub const SPROUTS: &str = include_str!("src/sprouts.json");
+
 #[cfg(feature = "squircles")]
 pub const SQUIRCLES: &str = include_str!("src/squircles.json");
 
@@ -204,6 +210,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "bottts-neutral" => Some(BOTTTS_NEUTRAL),
         #[cfg(feature = "constellation")]
         "constellation" => Some(CONSTELLATION),
+        #[cfg(feature = "critters")]
+        "critters" => Some(CRITTERS),
         #[cfg(feature = "croodles")]
         "croodles" => Some(CROODLES),
         #[cfg(feature = "croodles-neutral")]
@@ -260,6 +268,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "shape-grid" => Some(SHAPE_GRID),
         #[cfg(feature = "shapes")]
         "shapes" => Some(SHAPES),
+        #[cfg(feature = "sprouts")]
+        "sprouts" => Some(SPROUTS),
         #[cfg(feature = "squircles")]
         "squircles" => Some(SQUIRCLES),
         #[cfg(feature = "stripes")]
@@ -304,6 +314,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("bottts-neutral");
     #[cfg(feature = "constellation")]
     v.push("constellation");
+    #[cfg(feature = "critters")]
+    v.push("critters");
     #[cfg(feature = "croodles")]
     v.push("croodles");
     #[cfg(feature = "croodles-neutral")]
@@ -360,6 +372,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("shape-grid");
     #[cfg(feature = "shapes")]
     v.push("shapes");
+    #[cfg(feature = "sprouts")]
+    v.push("sprouts");
     #[cfg(feature = "squircles")]
     v.push("squircles");
     #[cfg(feature = "stripes")]

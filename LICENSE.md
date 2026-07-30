@@ -91,6 +91,14 @@ the following list or in the individual files.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Constellation](https://www.dicebear.com)                     |
 
+## Critters
+
+|    File | [src/critters.json](./src/critters.json)                      |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Critters](https://www.dicebear.com)                          |
+
 ## Croodles Neutral
 
 |    File | [src/croodles-neutral.json](./src/croodles-neutral.json)                               |
@@ -314,6 +322,14 @@ the following list or in the individual files.
 |  Artist | [DiceBear](https://www.dicebear.com)                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Shapes](https://www.dicebear.com)                            |
+
+## Sprouts
+
+|    File | [src/sprouts.json](./src/sprouts.json)                        |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Sprouts](https://www.dicebear.com)                           |
 
 ## Squircles
 

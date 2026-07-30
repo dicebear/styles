@@ -1,0 +1,4854 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Sprouts” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Sprouts",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "class": "dbsp-a"
+        },
+        "children": [
+          {
+            "name": "g",
+            "type": "element",
+            "attributes": {
+              "class": "dbsp-g"
+            },
+            "children": [
+              {
+                "name": "plant",
+                "type": "component"
+              }
+            ]
+          },
+          {
+            "name": "pot",
+            "type": "component"
+          },
+          {
+            "name": "pattern",
+            "type": "component"
+          },
+          {
+            "name": "cheeks",
+            "type": "component"
+          },
+          {
+            "name": "g",
+            "type": "element",
+            "attributes": {
+              "class": "dbsp-e"
+            },
+            "children": [
+              {
+                "name": "eyes",
+                "type": "component"
+              }
+            ]
+          },
+          {
+            "name": "mouth",
+            "type": "component"
+          }
+        ]
+      },
+      {
+        "name": "animation",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "plant": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "sprout": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 72V40",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 40C42 40 36 34 36 26C44 26 50 31 50 40Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 40C58 40 64 34 64 26C56 26 50 31 50 40Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 54C45.2 54 41.6 50.4 41.6 45.6C46.4 45.6 50 48.6 50 54Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 54C54.8 54 58.4 50.4 58.4 45.6C53.6 45.6 50 48.6 50 54Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 72V40",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 40C42 40 36 34 36 26C44 26 50 31 50 40Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 40C58 40 64 34 64 26C56 26 50 31 50 40Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 54C45.2 54 41.6 50.4 41.6 45.6C46.4 45.6 50 48.6 50 54Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 54C54.8 54 58.4 50.4 58.4 45.6C53.6 45.6 50 48.6 50 54Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            }
+          ]
+        },
+        "seedling": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 72V50",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 50C48 32 54 16 66 12C68 26 60 44 50 50Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-seed1)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 50C48 32 54 16 66 12C68 26 60 44 50 50Z M 48 47.5 C 46 29.5 52 13.5 64 9.5 C 66 23.5 58 41.5 48 47.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 50C43 46 39 40 39 33C46 34 50 40 50 50Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-seed2)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 50C43 46 39 40 39 33C46 34 50 40 50 50Z M 48 47.5 C 41 43.5 37 37.5 37 30.5 C 44 31.5 48 37.5 48 47.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 72V50",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsps-seed1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 50C48 32 54 16 66 12C68 26 60 44 50 50Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 50C48 32 54 16 66 12C68 26 60 44 50 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsps-seed1)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 50C48 32 54 16 66 12C68 26 60 44 50 50Z M 48 47.5 C 46 29.5 52 13.5 64 9.5 C 66 23.5 58 41.5 48 47.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsps-seed2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 50C43 46 39 40 39 33C46 34 50 40 50 50Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 50C43 46 39 40 39 33C46 34 50 40 50 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsps-seed2)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 50C43 46 39 40 39 33C46 34 50 40 50 50Z M 48 47.5 C 41 43.5 37 37.5 37 30.5 C 44 31.5 48 37.5 48 47.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "cactus": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M42 72V32A8 8 0 0 1 58 32V72Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-cactus)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M42 72V32A8 8 0 0 1 58 32V72Z M 40 69.5 V 29.5 A 8 8 0 0 1 56 29.5 V 69.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M42 48H34V38",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "8",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M58 54H66V44",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "8",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "46",
+                    "cy": "32",
+                    "r": "1.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "54",
+                    "cy": "38",
+                    "r": "1.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "46",
+                    "r": "1.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "45",
+                    "cy": "56",
+                    "r": "1.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "55",
+                    "cy": "62",
+                    "r": "1.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsps-cactus"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M42 72V32A8 8 0 0 1 58 32V72Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42 72V32A8 8 0 0 1 58 32V72Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsps-cactus)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M42 72V32A8 8 0 0 1 58 32V72Z M 40 69.5 V 29.5 A 8 8 0 0 1 56 29.5 V 69.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42 48H34V38",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "8",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58 54H66V44",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "8",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "46",
+                "cy": "32",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "54",
+                "cy": "38",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "46",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "45",
+                "cy": "56",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "55",
+                "cy": "62",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            }
+          ]
+        },
+        "ball": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M34 54A16 16 0 1 0 66 54A16 16 0 1 0 34 54Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-ball)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M34 54A16 16 0 1 0 66 54A16 16 0 1 0 34 54Z M 32 51.5 A 16 16 0 1 0 64 51.5 A 16 16 0 1 0 32 51.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "44",
+                    "cy": "48",
+                    "r": "1.3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "56",
+                    "cy": "48",
+                    "r": "1.3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "56",
+                    "r": "1.3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "43",
+                    "cy": "58",
+                    "r": "1.3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "57",
+                    "cy": "60",
+                    "r": "1.3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "33.5",
+                    "r": "2.6",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "29",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "45.7",
+                    "cy": "32.1",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "47.4",
+                    "cy": "37.1",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "52.6",
+                    "cy": "37.1",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "54.3",
+                    "cy": "32.1",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsps-ball"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M34 54A16 16 0 1 0 66 54A16 16 0 1 0 34 54Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M34 54A16 16 0 1 0 66 54A16 16 0 1 0 34 54Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsps-ball)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M34 54A16 16 0 1 0 66 54A16 16 0 1 0 34 54Z M 32 51.5 A 16 16 0 1 0 64 51.5 A 16 16 0 1 0 32 51.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "44",
+                "cy": "48",
+                "r": "1.3",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "56",
+                "cy": "48",
+                "r": "1.3",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "56",
+                "r": "1.3",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "43",
+                "cy": "58",
+                "r": "1.3",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "57",
+                "cy": "60",
+                "r": "1.3",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "33.5",
+                "r": "2.6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "29",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "45.7",
+                "cy": "32.1",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "47.4",
+                "cy": "37.1",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "52.6",
+                "cy": "37.1",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "54.3",
+                "cy": "32.1",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            }
+          ]
+        },
+        "succulent": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "transform": "rotate(-50 50 70)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        }
+                      }
+                    },
+                    {
+                      "name": "g",
+                      "type": "element",
+                      "attributes": {
+                        "clip-path": "url(#dbsps-succ0)"
+                      },
+                      "children": [
+                        {
+                          "name": "path",
+                          "type": "element",
+                          "attributes": {
+                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                            "fill": {
+                              "type": "color",
+                              "name": "ink"
+                            },
+                            "fill-rule": "evenodd"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "transform": "rotate(-25 50 70)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        }
+                      }
+                    },
+                    {
+                      "name": "g",
+                      "type": "element",
+                      "attributes": {
+                        "clip-path": "url(#dbsps-succ1)"
+                      },
+                      "children": [
+                        {
+                          "name": "path",
+                          "type": "element",
+                          "attributes": {
+                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                            "fill": {
+                              "type": "color",
+                              "name": "ink"
+                            },
+                            "fill-rule": "evenodd"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        }
+                      }
+                    },
+                    {
+                      "name": "g",
+                      "type": "element",
+                      "attributes": {
+                        "clip-path": "url(#dbsps-succ2)"
+                      },
+                      "children": [
+                        {
+                          "name": "path",
+                          "type": "element",
+                          "attributes": {
+                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                            "fill": {
+                              "type": "color",
+                              "name": "ink"
+                            },
+                            "fill-rule": "evenodd"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "transform": "rotate(25 50 70)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        }
+                      }
+                    },
+                    {
+                      "name": "g",
+                      "type": "element",
+                      "attributes": {
+                        "clip-path": "url(#dbsps-succ3)"
+                      },
+                      "children": [
+                        {
+                          "name": "path",
+                          "type": "element",
+                          "attributes": {
+                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                            "fill": {
+                              "type": "color",
+                              "name": "ink"
+                            },
+                            "fill-rule": "evenodd"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "transform": "rotate(50 50 70)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        }
+                      }
+                    },
+                    {
+                      "name": "g",
+                      "type": "element",
+                      "attributes": {
+                        "clip-path": "url(#dbsps-succ4)"
+                      },
+                      "children": [
+                        {
+                          "name": "path",
+                          "type": "element",
+                          "attributes": {
+                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                            "fill": {
+                              "type": "color",
+                              "name": "ink"
+                            },
+                            "fill-rule": "evenodd"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "transform": "rotate(-50 50 70)"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dbsps-succ0"
+                      },
+                      "children": [
+                        {
+                          "name": "path",
+                          "type": "element",
+                          "attributes": {
+                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "plant"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-succ0)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "opacity": "0.12",
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "transform": "rotate(-25 50 70)"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dbsps-succ1"
+                      },
+                      "children": [
+                        {
+                          "name": "path",
+                          "type": "element",
+                          "attributes": {
+                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "plant"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-succ1)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "opacity": "0.12",
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dbsps-succ2"
+                      },
+                      "children": [
+                        {
+                          "name": "path",
+                          "type": "element",
+                          "attributes": {
+                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "plant"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-succ2)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "opacity": "0.12",
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "transform": "rotate(25 50 70)"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dbsps-succ3"
+                      },
+                      "children": [
+                        {
+                          "name": "path",
+                          "type": "element",
+                          "attributes": {
+                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "plant"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-succ3)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "opacity": "0.12",
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "transform": "rotate(50 50 70)"
+              },
+              "children": [
+                {
+                  "name": "defs",
+                  "type": "element",
+                  "children": [
+                    {
+                      "name": "clipPath",
+                      "type": "element",
+                      "attributes": {
+                        "id": "dbsps-succ4"
+                      },
+                      "children": [
+                        {
+                          "name": "path",
+                          "type": "element",
+                          "attributes": {
+                            "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "plant"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-succ4)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 70C46 60 46 44 50 34C54 44 54 60 50 70Z M 48 67.5 C 44 57.5 44 41.5 48 31.5 C 52 41.5 52 57.5 48 67.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "opacity": "0.12",
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "bush": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M27 52A13 13 0 1 0 53 52A13 13 0 1 0 27 52Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-bush1)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M27 52A13 13 0 1 0 53 52A13 13 0 1 0 27 52Z M 25 49.5 A 13 13 0 1 0 51 49.5 A 13 13 0 1 0 25 49.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M47 52A13 13 0 1 0 73 52A13 13 0 1 0 47 52Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-bush2)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M47 52A13 13 0 1 0 73 52A13 13 0 1 0 47 52Z M 45 49.5 A 13 13 0 1 0 71 49.5 A 13 13 0 1 0 45 49.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M35 40A15 15 0 1 0 65 40A15 15 0 1 0 35 40Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-bush3)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M35 40A15 15 0 1 0 65 40A15 15 0 1 0 35 40Z M 33 37.5 A 15 15 0 1 0 63 37.5 A 15 15 0 1 0 33 37.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "44",
+                    "cy": "38",
+                    "r": "2.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "57",
+                    "cy": "46",
+                    "r": "2.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "37",
+                    "cy": "56",
+                    "r": "2.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsps-bush1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M27 52A13 13 0 1 0 53 52A13 13 0 1 0 27 52Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M27 52A13 13 0 1 0 53 52A13 13 0 1 0 27 52Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsps-bush1)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M27 52A13 13 0 1 0 53 52A13 13 0 1 0 27 52Z M 25 49.5 A 13 13 0 1 0 51 49.5 A 13 13 0 1 0 25 49.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsps-bush2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M47 52A13 13 0 1 0 73 52A13 13 0 1 0 47 52Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47 52A13 13 0 1 0 73 52A13 13 0 1 0 47 52Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsps-bush2)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M47 52A13 13 0 1 0 73 52A13 13 0 1 0 47 52Z M 45 49.5 A 13 13 0 1 0 71 49.5 A 13 13 0 1 0 45 49.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsps-bush3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M35 40A15 15 0 1 0 65 40A15 15 0 1 0 35 40Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M35 40A15 15 0 1 0 65 40A15 15 0 1 0 35 40Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsps-bush3)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M35 40A15 15 0 1 0 65 40A15 15 0 1 0 35 40Z M 33 37.5 A 15 15 0 1 0 63 37.5 A 15 15 0 1 0 33 37.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "44",
+                "cy": "38",
+                "r": "2.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "57",
+                "cy": "46",
+                "r": "2.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "37",
+                "cy": "56",
+                "r": "2.2",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            }
+          ]
+        },
+        "tall": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 72V16",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 34C44 34 40 30 40 24C46 24 50 28 50 34Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 46C56 46 60 42 60 36C54 36 50 40 50 46Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 58C44 58 40 54 40 48C46 48 50 52 50 58Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 72V16",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 34C44 34 40 30 40 24C46 24 50 28 50 34Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 46C56 46 60 42 60 36C54 36 50 40 50 46Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 58C44 58 40 54 40 48C46 48 50 52 50 58Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            }
+          ]
+        },
+        "flower": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 72V40",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 58C44.4 58 40.2 53.8 40.2 48.2C45.8 48.2 50 51.7 50 58Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 58C55.6 58 59.8 53.8 59.8 48.2C54.2 48.2 50 51.7 50 58Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "18",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "41.5",
+                    "cy": "24",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "58.5",
+                    "cy": "24",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "44.5",
+                    "cy": "33.5",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "55.5",
+                    "cy": "33.5",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "26.5",
+                    "r": "5.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 72V40",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 58C44.4 58 40.2 53.8 40.2 48.2C45.8 48.2 50 51.7 50 58Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 58C55.6 58 59.8 53.8 59.8 48.2C54.2 48.2 50 51.7 50 58Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "18",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "41.5",
+                "cy": "24",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "58.5",
+                "cy": "24",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "44.5",
+                "cy": "33.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "55.5",
+                "cy": "33.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "26.5",
+                "r": "5.5",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        },
+        "tulip": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 72V42",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 60C43.6 60 38.8 55.2 38.8 48.8C45.2 48.8 50 52.8 50 60Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 60C56.4 60 61.2 55.2 61.2 48.8C54.8 48.8 50 52.8 50 60Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M40 34C40 22 44 18 50 24C56 18 60 22 60 34Q60 42 50 42Q40 42 40 34Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "clip-path": "url(#dbsps-tulip)"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M40 34C40 22 44 18 50 24C56 18 60 22 60 34Q60 42 50 42Q40 42 40 34Z M 38 31.5 C 38 19.5 42 15.5 48 21.5 C 54 15.5 58 19.5 58 31.5 Q 58 39.5 48 39.5 Q 38 39.5 38 31.5 Z",
+                        "fill": {
+                          "type": "color",
+                          "name": "ink"
+                        },
+                        "fill-rule": "evenodd"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 72V42",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 60C43.6 60 38.8 55.2 38.8 48.8C45.2 48.8 50 52.8 50 60Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 60C56.4 60 61.2 55.2 61.2 48.8C54.8 48.8 50 52.8 50 60Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsps-tulip"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M40 34C40 22 44 18 50 24C56 18 60 22 60 34Q60 42 50 42Q40 42 40 34Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M40 34C40 22 44 18 50 24C56 18 60 22 60 34Q60 42 50 42Q40 42 40 34Z",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsps-tulip)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M40 34C40 22 44 18 50 24C56 18 60 22 60 34Q60 42 50 42Q40 42 40 34Z M 38 31.5 C 38 19.5 42 15.5 48 21.5 C 54 15.5 58 19.5 58 31.5 Q 58 39.5 48 39.5 Q 38 39.5 38 31.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "palm": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 72V34",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 34C42 30 34 32 28 40",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 34C58 30 66 32 72 40",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 34C46 24 38 20 30 22",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 34C54 24 62 20 70 22",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 34V24",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 72V34",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 34C42 30 34 32 28 40",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 34C58 30 66 32 72 40",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 34C46 24 38 20 30 22",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 34C54 24 62 20 70 22",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 34V24",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "grass": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M44 72C42 60 40 52 36 44",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 72C50 58 50 48 50 38",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M56 72C58 60 60 52 64 44",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M47 72C45 62 43 56 40 52",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M53 72C55 62 57 56 60 52",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44 72C42 60 40 52 36 44",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 72C50 58 50 48 50 38",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M56 72C58 60 60 52 64 44",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47 72C45 62 43 56 40 52",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53 72C55 62 57 56 60 52",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            }
+          ]
+        },
+        "buds": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.15",
+                "transform": "translate(3 3.5)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M46 72C44 58 43 48 39 41",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M54 72C56 56 57 46 61 37",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-width": "4",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "fill": "none"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 56C45.2 56 41.6 52.4 41.6 47.6C46.4 47.6 50 50.6 50 56Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 56C54.8 56 58.4 52.4 58.4 47.6C53.6 47.6 50 50.6 50 56Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "38",
+                    "cy": "37",
+                    "r": "4.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "62",
+                    "cy": "33",
+                    "r": "4.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M46 72C44 58 43 48 39 41",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M54 72C56 56 57 46 61 37",
+                "stroke": {
+                  "type": "color",
+                  "name": "plant"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "fill": "none"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 56C45.2 56 41.6 52.4 41.6 47.6C46.4 47.6 50 50.6 50 56Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 56C54.8 56 58.4 52.4 58.4 47.6C53.6 47.6 50 50.6 50 56Z",
+                "fill": {
+                  "type": "color",
+                  "name": "plant"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "38",
+                "cy": "37",
+                "r": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "62",
+                "cy": "33",
+                "r": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "bloom"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "pot": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "taper": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M 27 65.5 H 79 L 73 109.5 H 33 Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": "0.15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbspp-taper"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 62H76L70 106H30Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 62H76L70 106H30Z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbspp-taper)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M24 62H76L70 106H30Z M 27 65.5 H 79 L 73 109.5 H 33 Z",
+                    "fill": "#ffffff",
+                    "opacity": "0.16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M24 62H76L70 106H30Z M 21 58.5 H 73 L 67 102.5 H 27 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "cylinder": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M 31 65.5 H 75 V 105.5 Q 75 109.5 71 109.5 H 35 Q 31 109.5 31 105.5 Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": "0.15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbspp-cylinder"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M28 62H72V102Q72 106 68 106H32Q28 106 28 102Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M28 62H72V102Q72 106 68 106H32Q28 106 28 102Z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbspp-cylinder)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M28 62H72V102Q72 106 68 106H32Q28 106 28 102Z M 31 65.5 H 75 V 105.5 Q 75 109.5 71 109.5 H 35 Q 31 109.5 31 105.5 Z",
+                    "fill": "#ffffff",
+                    "opacity": "0.16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M28 62H72V102Q72 106 68 106H32Q28 106 28 102Z M 25 58.5 H 69 V 98.5 Q 69 102.5 65 102.5 H 29 Q 25 102.5 25 98.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "bowl": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M 27 65.5 H 79 C 79 93.5 69 109.5 53 109.5 C 37 109.5 27 93.5 27 65.5 Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": "0.15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbspp-bowl"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 62H76C76 90 66 106 50 106C34 106 24 90 24 62Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 62H76C76 90 66 106 50 106C34 106 24 90 24 62Z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbspp-bowl)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M24 62H76C76 90 66 106 50 106C34 106 24 90 24 62Z M 27 65.5 H 79 C 79 93.5 69 109.5 53 109.5 C 37 109.5 27 93.5 27 65.5 Z",
+                    "fill": "#ffffff",
+                    "opacity": "0.16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M24 62H76C76 90 66 106 50 106C34 106 24 90 24 62Z M 21 58.5 H 73 C 73 86.5 63 102.5 47 102.5 C 31 102.5 21 86.5 21 58.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "tub": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M 23 65.5 H 83 L 75 109.5 H 31 Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": "0.15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbspp-tub"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M20 62H80L72 106H28Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M20 62H80L72 106H28Z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbspp-tub)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M20 62H80L72 106H28Z M 23 65.5 H 83 L 75 109.5 H 31 Z",
+                    "fill": "#ffffff",
+                    "opacity": "0.16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M20 62H80L72 106H28Z M 17 58.5 H 77 L 69 102.5 H 25 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "round": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M 53 65.5 C 33 65.5 25 77.5 25 87.5 C 25 99.5 37 109.5 53 109.5 C 69 109.5 81 99.5 81 87.5 C 81 77.5 73 65.5 53 65.5 Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": "0.15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbspp-round"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 62C30 62 22 74 22 84C22 96 34 106 50 106C66 106 78 96 78 84C78 74 70 62 50 62Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 62C30 62 22 74 22 84C22 96 34 106 50 106C66 106 78 96 78 84C78 74 70 62 50 62Z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbspp-round)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 62C30 62 22 74 22 84C22 96 34 106 50 106C66 106 78 96 78 84C78 74 70 62 50 62Z M 53 65.5 C 33 65.5 25 77.5 25 87.5 C 25 99.5 37 109.5 53 109.5 C 69 109.5 81 99.5 81 87.5 C 81 77.5 73 65.5 53 65.5 Z",
+                    "fill": "#ffffff",
+                    "opacity": "0.16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 62C30 62 22 74 22 84C22 96 34 106 50 106C66 106 78 96 78 84C78 74 70 62 50 62Z M 47 58.5 C 27 58.5 19 70.5 19 80.5 C 19 92.5 31 102.5 47 102.5 C 63 102.5 75 92.5 75 80.5 C 75 70.5 67 58.5 47 58.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "bag": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M 33 67.5 C 33 65.5 35 65.5 37 65.5 H 69 C 71 65.5 73 65.5 73 67.5 C 76 81.5 76 95.5 72 103.5 Q 70 109.5 62 109.5 H 44 Q 36 109.5 34 103.5 C 30 95.5 30 81.5 33 67.5 Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": "0.15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbspp-bag"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M30 64C30 62 32 62 34 62H66C68 62 70 62 70 64C73 78 73 92 69 100Q67 106 59 106H41Q33 106 31 100C27 92 27 78 30 64Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M30 64C30 62 32 62 34 62H66C68 62 70 62 70 64C73 78 73 92 69 100Q67 106 59 106H41Q33 106 31 100C27 92 27 78 30 64Z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbspp-bag)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 64C30 62 32 62 34 62H66C68 62 70 62 70 64C73 78 73 92 69 100Q67 106 59 106H41Q33 106 31 100C27 92 27 78 30 64Z M 33 67.5 C 33 65.5 35 65.5 37 65.5 H 69 C 71 65.5 73 65.5 73 67.5 C 76 81.5 76 95.5 72 103.5 Q 70 109.5 62 109.5 H 44 Q 36 109.5 34 103.5 C 30 95.5 30 81.5 33 67.5 Z",
+                    "fill": "#ffffff",
+                    "opacity": "0.16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 64C30 62 32 62 34 62H66C68 62 70 62 70 64C73 78 73 92 69 100Q67 106 59 106H41Q33 106 31 100C27 92 27 78 30 64Z M 27 60.5 C 27 58.5 29 58.5 31 58.5 H 63 C 65 58.5 67 58.5 67 60.5 C 70 74.5 70 88.5 66 96.5 Q 64 102.5 56 102.5 H 38 Q 30 102.5 28 96.5 C 24 88.5 24 74.5 27 60.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "rim": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M 29 73.5 Q 27 73.5 27 70.5 V 68.5 Q 27 65.5 29 65.5 H 77 Q 79 65.5 79 68.5 V 70.5 Q 79 73.5 77 73.5 H 73 V 109.5 H 33 V 73.5 Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": "0.15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbspp-rim"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M26 70Q24 70 24 67V65Q24 62 26 62H74Q76 62 76 65V67Q76 70 74 70H70V106H30V70Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M26 70Q24 70 24 67V65Q24 62 26 62H74Q76 62 76 65V67Q76 70 74 70H70V106H30V70Z",
+                "fill": {
+                  "type": "color",
+                  "name": "pot"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbspp-rim)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M26 70Q24 70 24 67V65Q24 62 26 62H74Q76 62 76 65V67Q76 70 74 70H70V106H30V70Z M 29 73.5 Q 27 73.5 27 70.5 V 68.5 Q 27 65.5 29 65.5 H 77 Q 79 65.5 79 68.5 V 70.5 Q 79 73.5 77 73.5 H 73 V 109.5 H 33 V 73.5 Z",
+                    "fill": "#ffffff",
+                    "opacity": "0.16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M26 70Q24 70 24 67V65Q24 62 26 62H74Q76 62 76 65V67Q76 70 74 70H70V106H30V70Z M 23 66.5 Q 21 66.5 21 63.5 V 61.5 Q 21 58.5 23 58.5 H 71 Q 73 58.5 73 61.5 V 63.5 Q 73 66.5 71 66.5 H 67 V 102.5 H 27 V 66.5 Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": "0.1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "pattern": {
+      "width": 100,
+      "height": 100,
+      "probability": 45,
+      "variants": {
+        "band": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "37",
+                "y": "89.5",
+                "width": "26",
+                "height": "5.5",
+                "rx": "2.75",
+                "fill": "#ffffff",
+                "opacity": "0.18"
+              }
+            }
+          ]
+        },
+        "dots": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "40",
+                "cy": "92",
+                "r": "2.2",
+                "fill": "#ffffff",
+                "opacity": "0.25"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "94.5",
+                "r": "2.2",
+                "fill": "#ffffff",
+                "opacity": "0.25"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "60",
+                "cy": "92",
+                "r": "2.2",
+                "fill": "#ffffff",
+                "opacity": "0.25"
+              }
+            }
+          ]
+        },
+        "stripes": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "42",
+                "y": "88",
+                "width": "5",
+                "height": "12",
+                "rx": "2.5",
+                "fill": "#ffffff",
+                "opacity": "0.18"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "53",
+                "y": "88",
+                "width": "5",
+                "height": "12",
+                "rx": "2.5",
+                "fill": "#ffffff",
+                "opacity": "0.18"
+              }
+            }
+          ]
+        },
+        "chevron": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38 93L42 89L46 93L50 89L54 93L58 89L62 93",
+                "stroke": "#ffffff",
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": "0.2"
+              }
+            }
+          ]
+        },
+        "speckles": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "90",
+                "r": "1.4",
+                "fill": "#ffffff",
+                "opacity": "0.3"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "45",
+                "cy": "94.5",
+                "r": "1.4",
+                "fill": "#ffffff",
+                "opacity": "0.3"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "51",
+                "cy": "89.5",
+                "r": "1.4",
+                "fill": "#ffffff",
+                "opacity": "0.3"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "56",
+                "cy": "94",
+                "r": "1.4",
+                "fill": "#ffffff",
+                "opacity": "0.3"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "90",
+                "r": "1.4",
+                "fill": "#ffffff",
+                "opacity": "0.3"
+              }
+            }
+          ]
+        },
+        "ring": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "92.5",
+                "r": "6",
+                "stroke": "#ffffff",
+                "stroke-width": "2.5",
+                "opacity": "0.2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "cheeks": {
+      "width": 100,
+      "height": 100,
+      "probability": 30,
+      "variants": {
+        "blush": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33",
+                "cy": "84",
+                "r": "3",
+                "fill": "#ffffff",
+                "opacity": "0.3"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "67",
+                "cy": "84",
+                "r": "3",
+                "fill": "#ffffff",
+                "opacity": "0.3"
+              }
+            }
+          ]
+        },
+        "blushBig": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "33.5",
+                "cy": "84",
+                "rx": "4",
+                "ry": "2.7",
+                "fill": "#ffffff",
+                "opacity": "0.3"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "66.5",
+                "cy": "84",
+                "rx": "4",
+                "ry": "2.7",
+                "fill": "#ffffff",
+                "opacity": "0.3"
+              }
+            }
+          ]
+        },
+        "freckles": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "31.5",
+                "cy": "83",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "81.5",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33.5",
+                "cy": "85.5",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68.5",
+                "cy": "83",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "81.5",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "66.5",
+                "cy": "85.5",
+                "r": "1.2",
+                "fill": "#ffffff",
+                "opacity": "0.35"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "eyes": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "round": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "77",
+                "r": "6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "77",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "dots": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "3.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "77",
+                "r": "3.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "bigPupils": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "77",
+                "r": "6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "4.3",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "77",
+                "r": "4.3",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "sideeye": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "77",
+                "r": "6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "42",
+                "cy": "77",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "64",
+                "cy": "77",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "happy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 79Q39 71 45 79",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55 79Q61 71 67 79",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "closedLine": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 76Q39 81 45 76",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55 76Q61 81 67 76",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "wink": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55 79Q61 71 67 79",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "sleepy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 77A6 6 0 0 0 45 77Z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55 77A6 6 0 0 0 67 77Z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M36.4 77A2.6 2.6 0 0 0 41.6 77Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58.4 77A2.6 2.6 0 0 0 63.6 77Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M32 77H46",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M54 77H68",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "rx": "5.5",
+                "ry": "7",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "77",
+                "rx": "5.5",
+                "ry": "7",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "77",
+                "r": "2.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "close": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "45",
+                "cy": "77",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "55",
+                "cy": "77",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "angry": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "77",
+                "r": "6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "39",
+                "cy": "77",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "61",
+                "cy": "77",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33 69L45 73",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M67 69L55 73",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "smile": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42 84Q50 91 58 84",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "tinySmile": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M46 85Q50 88 54 85",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "grin": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M41.5 84A8.5 8.5 0 0 0 58.5 84Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M46 88A4 4 0 0 0 54 88Z",
+                "fill": "#fb7185"
+              }
+            }
+          ]
+        },
+        "ooh": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "86.5",
+                "r": "3.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "line": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44 86H56",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "catMouth": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M43 85Q46.5 88 50 85Q53.5 88 57 85",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "tongue": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44 84.5Q50 89 56 84.5",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M46.5 86.5A3.5 3.5 0 0 0 53.5 86.5Z",
+                "fill": "#fb7185"
+              }
+            }
+          ]
+        },
+        "open": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "86.5",
+                "rx": "5",
+                "ry": "5.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "89",
+                "rx": "2.7",
+                "ry": "2",
+                "fill": "#fb7185"
+              }
+            }
+          ]
+        },
+        "frown": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42 89Q50 82 58 89",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "wavy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42 86Q46 83 50 86Q54 89 58 86",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "tooth": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44 85H56",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "47",
+                "y": "85",
+                "width": "6",
+                "height": "5",
+                "rx": "1.2",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "animation": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "none": {
+          "elements": []
+        },
+        "fastest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbsp-fastest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbsp-fastest){--dbsp-t:0.75;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": ["animation"]
+        },
+        "fast": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbsp-fast"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbsp-fast){--dbsp-t:0.9;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": ["animation"]
+        },
+        "medium": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbsp-medium"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbsp-medium){--dbsp-t:1;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": ["animation"]
+        },
+        "slow": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbsp-slow"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbsp-slow){--dbsp-t:1.15;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": ["animation"]
+        },
+        "slowest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbsp-slowest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbsp-slowest){--dbsp-t:1.35;--dbsp-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbspSway{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}@keyframes dbspBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}} .dbsp-e{transform-box:fill-box;transform-origin:center} .dbsp-g{transform-box:fill-box;transform-origin:50% 100%} .dbsp-g{animation:dbspSway calc(var(--dbsp-t,1)*4.4s) ease-in-out infinite} .dbsp-e{animation:dbspBlink calc(var(--dbsp-t,1)*4.6s) linear infinite}.dbsp-g,.dbsp-e{animation-play-state:var(--dbsp-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": ["animation"]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#0369a1",
+        "#1d4ed8",
+        "#4338ca",
+        "#6d28d9",
+        "#a21caf",
+        "#be185d",
+        "#be123c",
+        "#c2410c",
+        "#b45309",
+        "#047857",
+        "#0f766e",
+        "#1e293b"
+      ]
+    },
+    "pot": {
+      "values": [
+        "#7dd3fc",
+        "#a5b4fc",
+        "#c4b5fd",
+        "#f0abfc",
+        "#fda4af",
+        "#fca5a5",
+        "#fdba74",
+        "#fcd34d",
+        "#bef264",
+        "#6ee7b9",
+        "#5eead4",
+        "#e2e8f0"
+      ]
+    },
+    "plant": {
+      "values": [
+        "#4ade80",
+        "#34d399",
+        "#2dd4bf",
+        "#a3e635",
+        "#86efac",
+        "#6ee7b9",
+        "#22c55e",
+        "#10b981"
+      ]
+    },
+    "bloom": {
+      "values": [
+        "#f0abfc",
+        "#fda4af",
+        "#fca5a5",
+        "#fdba74",
+        "#fcd34d",
+        "#f9a8d4",
+        "#fb7185",
+        "#c4b5fd"
+      ]
+    },
+    "ink": {
+      "values": ["#1e293b"]
+    }
+  }
+}

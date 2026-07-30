@@ -60,6 +60,10 @@
       "types": "./dist/constellation.min.json",
       "default": "./dist/constellation.min.json"
     },
+    "./critters.json": {
+      "types": "./dist/critters.min.json",
+      "default": "./dist/critters.min.json"
+    },
     "./croodles-neutral.json": {
       "types": "./dist/croodles-neutral.min.json",
       "default": "./dist/croodles-neutral.min.json"
@@ -171,6 +175,10 @@
     "./shapes.json": {
       "types": "./dist/shapes.min.json",
       "default": "./dist/shapes.min.json"
+    },
+    "./sprouts.json": {
+      "types": "./dist/sprouts.min.json",
+      "default": "./dist/sprouts.min.json"
     },
     "./squircles.json": {
       "types": "./dist/squircles.min.json",
