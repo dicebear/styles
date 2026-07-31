@@ -73,6 +73,9 @@ pub const BOTTTS: &str = include_str!("src/bottts.json");
 #[cfg(feature = "bottts-neutral")]
 pub const BOTTTS_NEUTRAL: &str = include_str!("src/bottts-neutral.json");
 
+#[cfg(feature = "clay")]
+pub const CLAY: &str = include_str!("src/clay.json");
+
 #[cfg(feature = "constellation")]
 pub const CONSTELLATION: &str = include_str!("src/constellation.json");
 
@@ -214,6 +217,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "bottts" => Some(BOTTTS),
         #[cfg(feature = "bottts-neutral")]
         "bottts-neutral" => Some(BOTTTS_NEUTRAL),
+        #[cfg(feature = "clay")]
+        "clay" => Some(CLAY),
         #[cfg(feature = "constellation")]
         "constellation" => Some(CONSTELLATION),
         #[cfg(feature = "critters")]
@@ -322,6 +327,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("bottts");
     #[cfg(feature = "bottts-neutral")]
     v.push("bottts-neutral");
+    #[cfg(feature = "clay")]
+    v.push("clay");
     #[cfg(feature = "constellation")]
     v.push("constellation");
     #[cfg(feature = "critters")]

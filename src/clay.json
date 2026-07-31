@@ -1,0 +1,4725 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Clay” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Clay",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "class": "dbcl-c"
+        },
+        "children": [
+          {
+            "name": "body",
+            "type": "component"
+          }
+        ]
+      },
+      {
+        "name": "animation",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "top": {
+      "width": 44,
+      "height": 22,
+      "probability": 75,
+      "variants": {
+        "horns": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 30v-8C5 15 3.5 8.5 6.5 3.5c1.2-2 4-1.8 5 .3C13.9 9 14 16 14 22v8Zm23 0v-8c0-6 .1-13 2.5-18.2 1-2.1 3.8-2.3 5-.3 3 5 1.5 11.5-.5 18.5v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 30v-8C5 15 3.5 8.5 6.5 3.5c1.2-2 4-1.8 5 .3C13.9 9 14 16 14 22v8Zm23 0v-8c0-6 .1-13 2.5-18.2 1-2.1 3.8-2.3 5-.3 3 5 1.5 11.5-.5 18.5v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            }
+          ]
+        },
+        "nub": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M18 30v-8c-1-6-2-12 1-16 1.5-2 5-2 6.5 0 3 4 2 10 1 16v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M18 30v-8c-1-6-2-12 1-16 1.5-2 5-2 6.5 0 3 4 2 10 1 16v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            }
+          ]
+        },
+        "curl": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22 30v-9c0-8 .5-13 4.5-15.5 3-1.9 6.5-.4 7 3 .4 3-2.5 4.8-4.5 3.3",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "accent"
+                },
+                "stroke-width": "3.5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "spikes": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 30v-8c0-6 1-11 3-14 2 3 3 8 3 14v8Zm10 0v-8c0-8 2-14 4-18 2 4 4 10 4 18v8Zm12 0v-8c0-6 1-10 3-13 2 3 3 7 3 13v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 30v-8c0-6 1-11 3-14 2 3 3 8 3 14v8Zm10 0v-8c0-8 2-14 4-18 2 4 4 10 4 18v8Zm12 0v-8c0-6 1-10 3-13 2 3 3 7 3 13v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            }
+          ]
+        },
+        "antenna": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 30v-8c-1-6-2-10-4.5-13.5M29 30v-8c1-6 2-10 4.5-13.5",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "body"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 30v-8c-1-6-2-10-4.5-13.5M29 30v-8c1-6 2-10 4.5-13.5",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-opacity": ".15",
+                "stroke-width": "2.5",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "6.5",
+                "r": "3.6",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "34",
+                "cy": "6.5",
+                "r": "3.1",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            }
+          ]
+        },
+        "loop": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M14 30v-9C11.5 9 32.5 9 30 21v9",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "accent"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "peak": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 30v-8c1.5-7 5.5-13.5 10-17.5 4.5 4 8.5 10.5 10 17.5v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 30v-8c1.5-7 5.5-13.5 10-17.5 4.5 4 8.5 10.5 10 17.5v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            }
+          ]
+        },
+        "ears": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 30v-8C5.5 17 4 9 8.5 5.5c3.5-2.7 8 .1 8 5 0 4.5-2.5 9-4.5 11.5v8Zm24 0v-8c-2-2.5-4.5-7-4.5-11.5 0-4.9 4.5-7.7 8-5C42 9 40.5 17 36 22v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 30v-8C5.5 17 4 9 8.5 5.5c3.5-2.7 8 .1 8 5 0 4.5-2.5 9-4.5 11.5v8Zm24 0v-8c-2-2.5-4.5-7-4.5-11.5 0-4.9 4.5-7.7 8-5C42 9 40.5 17 36 22v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            }
+          ]
+        },
+        "crest": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "12",
+                "cy": "17",
+                "r": "3.8",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "22",
+                "cy": "13",
+                "r": "4.4",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "17",
+                "r": "3.8",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            }
+          ]
+        },
+        "swirl": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22 30v-8c-.5-7 1-12.5 5.5-14.5 3.3-1.4 7 .3 7.8 3.6.7 2.9-1.2 5.6-4.1 5.9-2.2.2-4-1.2-4.2-3.2",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "body"
+                },
+                "stroke-width": "5.5",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22 30v-8c-.5-7 1-12.5 5.5-14.5 3.3-1.4 7 .3 7.8 3.6.7 2.9-1.2 5.6-4.1 5.9-2.2.2-4-1.2-4.2-3.2",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-opacity": ".15",
+                "stroke-width": "5.5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "pellet": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "22.5",
+                "cy": "18.8",
+                "r": "5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "22",
+                "cy": "18",
+                "r": "5",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            }
+          ]
+        },
+        "hornsSmall": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12.5 30v-8c-1-4-1-8 .5-10.5 1-1.6 3.4-1.5 4.3.2 1.2 2.4 1.2 6.3.7 10.3v8Zm13 0v-8c-.5-4-.5-7.9.7-10.3.9-1.7 3.3-1.8 4.3-.2C32 14 32 18 31 22v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12.5 30v-8c-1-4-1-8 .5-10.5 1-1.6 3.4-1.5 4.3.2 1.2 2.4 1.2 6.3.7 10.3v8Zm13 0v-8c-.5-4-.5-7.9.7-10.3.9-1.7 3.3-1.8 4.3-.2C32 14 32 18 31 22v8Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            }
+          ]
+        },
+        "tuft": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M16 30v-8c-1-4.5-3.5-6.5-6.5-6M28 30v-8c1-4.5 3.5-6.5 6.5-6",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "accent"
+                },
+                "stroke-width": "2.8",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "body": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "pear": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(27.5 14.5)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "51",
+                "cy": "92.8",
+                "rx": "29",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-pear"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M26 92c-4-7.5-5.5-16-2.5-23.5s6-13 7-20c1-10 7.5-18 19-18.5 11-.5 17.5 7 19 16.5 1 8 4 14 7.5 22 3.5 7.5 2 16-2 23.5-9.5 1.6-38.5 1.6-48 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M26 92c-4-7.5-5.5-16-2.5-23.5s6-13 7-20c1-10 7.5-18 19-18.5 11-.5 17.5 7 19 16.5 1 8 4 14 7.5 22 3.5 7.5 2 16-2 23.5-9.5 1.6-38.5 1.6-48 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-pear)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M26 92c-4-7.5-5.5-16-2.5-23.5s6-13 7-20c1-10 7.5-18 19-18.5 11-.5 17.5 7 19 16.5 1 8 4 14 7.5 22 3.5 7.5 2 16-2 23.5-9.5 1.6-38.5 1.6-48 0m2.8 3.2c-4-7.5-5.5-16-2.5-23.5s6-13 7-20c1-10 7.5-18 19-18.5 11-.5 17.5 7 19 16.5 1 8 4 14 7.5 22 3.5 7.5 2 16-2 23.5-9.5 1.6-38.5 1.6-48 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M26 92c-4-7.5-5.5-16-2.5-23.5s6-13 7-20c1-10 7.5-18 19-18.5 11-.5 17.5 7 19 16.5 1 8 4 14 7.5 22 3.5 7.5 2 16-2 23.5-9.5 1.6-38.5 1.6-48 0m-2.8-3.2c-4-7.5-5.5-16-2.5-23.5s6-13 7-20c1-10 7.5-18 19-18.5 11-.5 17.5 7 19 16.5 1 8 4 14 7.5 22 3.5 7.5 2 16-2 23.5-9.5 1.6-38.5 1.6-48 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 71)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 41)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 60)"
+              }
+            }
+          ]
+        },
+        "boulder": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(28 21)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "51",
+                "cy": "92.8",
+                "rx": "33",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-boulder"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M26 92c-6-3.5-9.5-11-10-21-.5-14 7-27 22.5-31 7-1.8 16-1.8 23 0C77 44 84.5 57 84 71c-.5 10-4 17.5-10 21-10.5 1.7-37.5 1.7-48 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M26 92c-6-3.5-9.5-11-10-21-.5-14 7-27 22.5-31 7-1.8 16-1.8 23 0C77 44 84.5 57 84 71c-.5 10-4 17.5-10 21-10.5 1.7-37.5 1.7-48 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-boulder)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M26 92c-6-3.5-9.5-11-10-21-.5-14 7-27 22.5-31 7-1.8 16-1.8 23 0C77 44 84.5 57 84 71c-.5 10-4 17.5-10 21-10.5 1.7-37.5 1.7-48 0m2.8 3.2c-6-3.5-9.5-11-10-21-.5-14 7-27 22.5-31 7-1.8 16-1.8 23 0 15.5 4 23 17 22.5 31-.5 10-4 17.5-10 21-10.5 1.7-37.5 1.7-48 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M26 92c-6-3.5-9.5-11-10-21-.5-14 7-27 22.5-31 7-1.8 16-1.8 23 0C77 44 84.5 57 84 71c-.5 10-4 17.5-10 21-10.5 1.7-37.5 1.7-48 0m-2.8-3.2c-6-3.5-9.5-11-10-21-.5-14 7-27 22.5-31 7-1.8 16-1.8 23 0 15.5 4 23 17 22.5 31-.5 10-4 17.5-10 21-10.5 1.7-37.5 1.7-48 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 74)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 44)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 63)"
+              }
+            }
+          ]
+        },
+        "loaf": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(29 21)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "51",
+                "cy": "92.8",
+                "rx": "36",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-loaf"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M18 92c-4.5-6-6.5-15-5.5-24 1-9.5 5-21 14-25C33 40.2 44 39.5 52 39.5s19 1 25.5 4c8.5 4 12 15 11 25-1 8.5-3 17.5-7.5 23.5-12.5 1.8-50.5 1.8-63 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M18 92c-4.5-6-6.5-15-5.5-24 1-9.5 5-21 14-25C33 40.2 44 39.5 52 39.5s19 1 25.5 4c8.5 4 12 15 11 25-1 8.5-3 17.5-7.5 23.5-12.5 1.8-50.5 1.8-63 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-loaf)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M18 92c-4.5-6-6.5-15-5.5-24 1-9.5 5-21 14-25C33 40.2 44 39.5 52 39.5s19 1 25.5 4c8.5 4 12 15 11 25-1 8.5-3 17.5-7.5 23.5-12.5 1.8-50.5 1.8-63 0m2.8 3.2c-4.5-6-6.5-15-5.5-24 1-9.5 5-21 14-25 6.5-2.8 17.5-3.5 25.5-3.5s19 1 25.5 4c8.5 4 12 15 11 25-1 8.5-3 17.5-7.5 23.5-12.5 1.8-50.5 1.8-63 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M18 92c-4.5-6-6.5-15-5.5-24 1-9.5 5-21 14-25C33 40.2 44 39.5 52 39.5s19 1 25.5 4c8.5 4 12 15 11 25-1 8.5-3 17.5-7.5 23.5-12.5 1.8-50.5 1.8-63 0m-2.8-3.2c-4.5-6-6.5-15-5.5-24 1-9.5 5-21 14-25 6.5-2.8 17.5-3.5 25.5-3.5s19 1 25.5 4c8.5 4 12 15 11 25-1 8.5-3 17.5-7.5 23.5-12.5 1.8-50.5 1.8-63 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 75)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 46)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 65)"
+              }
+            }
+          ]
+        },
+        "column": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(28 6.5)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "92.8",
+                "rx": "25",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-column"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M30 92c-2-8 1-16-1-25-1.8-8.5 2-16.5.2-25.5-1.7-10 4.3-17 20.3-17.5 15.5-.5 22.3 6 20.7 15.5-1.7 9.5 2.3 17.5.3 26.5-1.8 8.5 2 18-1 26-8 1.5-31.5 1.5-39.5 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M30 92c-2-8 1-16-1-25-1.8-8.5 2-16.5.2-25.5-1.7-10 4.3-17 20.3-17.5 15.5-.5 22.3 6 20.7 15.5-1.7 9.5 2.3 17.5.3 26.5-1.8 8.5 2 18-1 26-8 1.5-31.5 1.5-39.5 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-column)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 92c-2-8 1-16-1-25-1.8-8.5 2-16.5.2-25.5-1.7-10 4.3-17 20.3-17.5 15.5-.5 22.3 6 20.7 15.5-1.7 9.5 2.3 17.5.3 26.5-1.8 8.5 2 18-1 26-8 1.5-31.5 1.5-39.5 0m2.8 3.2c-2-8 1-16-1-25-1.8-8.5 2-16.5.2-25.5-1.7-10 4.3-17 20.3-17.5 15.5-.5 22.3 6 20.7 15.5-1.7 9.5 2.3 17.5.3 26.5-1.8 8.5 2 18-1 26-8 1.5-31.5 1.5-39.5 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 92c-2-8 1-16-1-25-1.8-8.5 2-16.5.2-25.5-1.7-10 4.3-17 20.3-17.5 15.5-.5 22.3 6 20.7 15.5-1.7 9.5 2.3 17.5.3 26.5-1.8 8.5 2 18-1 26-8 1.5-31.5 1.5-39.5 0m-2.8-3.2c-2-8 1-16-1-25-1.8-8.5 2-16.5.2-25.5-1.7-10 4.3-17 20.3-17.5 15.5-.5 22.3 6 20.7 15.5-1.7 9.5 2.3 17.5.3 26.5-1.8 8.5 2 18-1 26-8 1.5-31.5 1.5-39.5 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 66)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 33)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 52)"
+              }
+            }
+          ]
+        },
+        "stack": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(28)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "92.8",
+                "rx": "28",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-stack"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M28 92c-5-7-6-16-2-23.5 3.5-5.5 7-8 10.5-9-6.5-4-10-10.5-10-18.5C26.5 28 37 17.5 50 17.5S73.5 28 73.5 41c0 8-3.5 14.5-10 18.5 3.5 1 7 3.5 10.5 9C78 76 77 85 72 92c-8.5 1.6-35.5 1.6-44 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M28 92c-5-7-6-16-2-23.5 3.5-5.5 7-8 10.5-9-6.5-4-10-10.5-10-18.5C26.5 28 37 17.5 50 17.5S73.5 28 73.5 41c0 8-3.5 14.5-10 18.5 3.5 1 7 3.5 10.5 9C78 76 77 85 72 92c-8.5 1.6-35.5 1.6-44 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-stack)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M28 92c-5-7-6-16-2-23.5 3.5-5.5 7-8 10.5-9-6.5-4-10-10.5-10-18.5C26.5 28 37 17.5 50 17.5S73.5 28 73.5 41c0 8-3.5 14.5-10 18.5 3.5 1 7 3.5 10.5 9C78 76 77 85 72 92c-8.5 1.6-35.5 1.6-44 0m2.8 3.2c-5-7-6-16-2-23.5 3.5-5.5 7-8 10.5-9-6.5-4-10-10.5-10-18.5 0-13 10.5-23.5 23.5-23.5s23.5 10.5 23.5 23.5c0 8-3.5 14.5-10 18.5 3.5 1 7 3.5 10.5 9 4 7.5 3 16.5-2 23.5-8.5 1.6-35.5 1.6-44 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M28 92c-5-7-6-16-2-23.5 3.5-5.5 7-8 10.5-9-6.5-4-10-10.5-10-18.5C26.5 28 37 17.5 50 17.5S73.5 28 73.5 41c0 8-3.5 14.5-10 18.5 3.5 1 7 3.5 10.5 9C78 76 77 85 72 92c-8.5 1.6-35.5 1.6-44 0m-2.8-3.2c-5-7-6-16-2-23.5 3.5-5.5 7-8 10.5-9-6.5-4-10-10.5-10-18.5 0-13 10.5-23.5 23.5-23.5s23.5 10.5 23.5 23.5c0 8-3.5 14.5-10 18.5 3.5 1 7 3.5 10.5 9 4 7.5 3 16.5-2 23.5-8.5 1.6-35.5 1.6-44 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M38 60.5c4 2.4 20 2.4 24 0",
+                    "fill": "none",
+                    "stroke": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "stroke-opacity": ".14",
+                    "stroke-width": "2",
+                    "stroke-linecap": "round"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 68)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 30)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 49)"
+              }
+            }
+          ]
+        },
+        "gumdrop": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "51",
+                "cy": "92.8",
+                "rx": "29",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-gumdrop"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M26 92c-3.5-9-4-20-1-31 3-11.5 8.5-21.5 18.5-27.5 4-2.5 2.5-7 5.5-9s7.5 0 6.5 3.5c-.7 2.5 2 4.5 5.5 8 8.5 7.5 13.5 17 15.5 27s1 20-3 29c-9 1.6-38.5 1.6-47.5 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M26 92c-3.5-9-4-20-1-31 3-11.5 8.5-21.5 18.5-27.5 4-2.5 2.5-7 5.5-9s7.5 0 6.5 3.5c-.7 2.5 2 4.5 5.5 8 8.5 7.5 13.5 17 15.5 27s1 20-3 29c-9 1.6-38.5 1.6-47.5 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-gumdrop)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M26 92c-3.5-9-4-20-1-31 3-11.5 8.5-21.5 18.5-27.5 4-2.5 2.5-7 5.5-9s7.5 0 6.5 3.5c-.7 2.5 2 4.5 5.5 8 8.5 7.5 13.5 17 15.5 27s1 20-3 29c-9 1.6-38.5 1.6-47.5 0m2.8 3.2c-3.5-9-4-20-1-31 3-11.5 8.5-21.5 18.5-27.5 4-2.5 2.5-7 5.5-9s7.5 0 6.5 3.5c-.7 2.5 2 4.5 5.5 8 8.5 7.5 13.5 17 15.5 27s1 20-3 29c-9 1.6-38.5 1.6-47.5 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M26 92c-3.5-9-4-20-1-31 3-11.5 8.5-21.5 18.5-27.5 4-2.5 2.5-7 5.5-9s7.5 0 6.5 3.5c-.7 2.5 2 4.5 5.5 8 8.5 7.5 13.5 17 15.5 27s1 20-3 29c-9 1.6-38.5 1.6-47.5 0m-2.8-3.2c-3.5-9-4-20-1-31 3-11.5 8.5-21.5 18.5-27.5 4-2.5 2.5-7 5.5-9s7.5 0 6.5 3.5c-.7 2.5 2 4.5 5.5 8 8.5 7.5 13.5 17 15.5 27s1 20-3 29c-9 1.6-38.5 1.6-47.5 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 72)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 42)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 61)"
+              }
+            }
+          ]
+        },
+        "dollop": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "51",
+                "cy": "92.8",
+                "rx": "29",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-dollop"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M26 92c-4-9-4.5-20.5 0-30.5 3.5-8 9.5-14 17.5-17-6-1-9-5-7-9 2-3.5 7-4 11-3-3-4-1-8.5 3.5-9 4-.5 7.5 2.5 6.5 6.5 4-2 9 0 9.5 4s-3.5 7.5-8.5 8.5c8 4 14 10 16.5 18 3.5 10 3 22.5-1 31.5-9 1.6-39 1.6-48 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M26 92c-4-9-4.5-20.5 0-30.5 3.5-8 9.5-14 17.5-17-6-1-9-5-7-9 2-3.5 7-4 11-3-3-4-1-8.5 3.5-9 4-.5 7.5 2.5 6.5 6.5 4-2 9 0 9.5 4s-3.5 7.5-8.5 8.5c8 4 14 10 16.5 18 3.5 10 3 22.5-1 31.5-9 1.6-39 1.6-48 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-dollop)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M26 92c-4-9-4.5-20.5 0-30.5 3.5-8 9.5-14 17.5-17-6-1-9-5-7-9 2-3.5 7-4 11-3-3-4-1-8.5 3.5-9 4-.5 7.5 2.5 6.5 6.5 4-2 9 0 9.5 4s-3.5 7.5-8.5 8.5c8 4 14 10 16.5 18 3.5 10 3 22.5-1 31.5-9 1.6-39 1.6-48 0m2.8 3.2c-4-9-4.5-20.5 0-30.5 3.5-8 9.5-14 17.5-17-6-1-9-5-7-9 2-3.5 7-4 11-3-3-4-1-8.5 3.5-9 4-.5 7.5 2.5 6.5 6.5 4-2 9 0 9.5 4s-3.5 7.5-8.5 8.5c8 4 14 10 16.5 18 3.5 10 3 22.5-1 31.5-9 1.6-39 1.6-48 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M26 92c-4-9-4.5-20.5 0-30.5 3.5-8 9.5-14 17.5-17-6-1-9-5-7-9 2-3.5 7-4 11-3-3-4-1-8.5 3.5-9 4-.5 7.5 2.5 6.5 6.5 4-2 9 0 9.5 4s-3.5 7.5-8.5 8.5c8 4 14 10 16.5 18 3.5 10 3 22.5-1 31.5-9 1.6-39 1.6-48 0m-2.8-3.2c-4-9-4.5-20.5 0-30.5 3.5-8 9.5-14 17.5-17-6-1-9-5-7-9 2-3.5 7-4 11-3-3-4-1-8.5 3.5-9 4-.5 7.5 2.5 6.5 6.5 4-2 9 0 9.5 4s-3.5 7.5-8.5 8.5c8 4 14 10 16.5 18 3.5 10 3 22.5-1 31.5-9 1.6-39 1.6-48 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 74)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 45)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 64)"
+              }
+            }
+          ]
+        },
+        "slug": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(24 23)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "51",
+                "cy": "92.8",
+                "rx": "35",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-slug"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M16 92c-3.5-7-4-16-1-24.5 4.5-14 12-25 30-26.5 14-1.5 24 4.5 28.5 13.5 4 8.5 4.5 21.5 1 30-1 2.7-2 5.2-3.5 7.5-10.5 1.7-44 1.7-55 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M16 92c-3.5-7-4-16-1-24.5 4.5-14 12-25 30-26.5 14-1.5 24 4.5 28.5 13.5 4 8.5 4.5 21.5 1 30-1 2.7-2 5.2-3.5 7.5-10.5 1.7-44 1.7-55 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-slug)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M16 92c-3.5-7-4-16-1-24.5 4.5-14 12-25 30-26.5 14-1.5 24 4.5 28.5 13.5 4 8.5 4.5 21.5 1 30-1 2.7-2 5.2-3.5 7.5-10.5 1.7-44 1.7-55 0m2.8 3.2c-3.5-7-4-16-1-24.5 4.5-14 12-25 30-26.5 14-1.5 24 4.5 28.5 13.5 4 8.5 4.5 21.5 1 30-1 2.7-2 5.2-3.5 7.5-10.5 1.7-44 1.7-55 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M16 92c-3.5-7-4-16-1-24.5 4.5-14 12-25 30-26.5 14-1.5 24 4.5 28.5 13.5 4 8.5 4.5 21.5 1 30-1 2.7-2 5.2-3.5 7.5-10.5 1.7-44 1.7-55 0m-2.8-3.2c-3.5-7-4-16-1-24.5 4.5-14 12-25 30-26.5 14-1.5 24 4.5 28.5 13.5 4 8.5 4.5 21.5 1 30-1 2.7-2 5.2-3.5 7.5-10.5 1.7-44 1.7-55 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(32 72)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(26 43)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(34 62)"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M74.5 88.5c5.5.5 9.5-3 8.5-7.5-.8-3.6-5.5-4.3-7.3-1.2",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "body"
+                },
+                "stroke-width": "4.5",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M74.5 88.5c5.5.5 9.5-3 8.5-7.5-.8-3.6-5.5-4.3-7.3-1.2",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-opacity": ".12",
+                "stroke-width": "4.5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "egg": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(28 12)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "92.8",
+                "rx": "26",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-egg"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M30 92c-5-9-7-20-5-32 2-14 8-27 19-32q6-2.7 12 0c11 5 17 18 19 32 2 12 0 23-5 32-8 1.5-32 1.5-40 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M30 92c-5-9-7-20-5-32 2-14 8-27 19-32q6-2.7 12 0c11 5 17 18 19 32 2 12 0 23-5 32-8 1.5-32 1.5-40 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-egg)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 92c-5-9-7-20-5-32 2-14 8-27 19-32q6-2.7 12 0c11 5 17 18 19 32 2 12 0 23-5 32-8 1.5-32 1.5-40 0m2.8 3.2c-5-9-7-20-5-32 2-14 8-27 19-32q6-2.7 12 0c11 5 17 18 19 32 2 12 0 23-5 32-8 1.5-32 1.5-40 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M30 92c-5-9-7-20-5-32 2-14 8-27 19-32q6-2.7 12 0c11 5 17 18 19 32 2 12 0 23-5 32-8 1.5-32 1.5-40 0m-2.8-3.2c-5-9-7-20-5-32 2-14 8-27 19-32q6-2.7 12 0c11 5 17 18 19 32 2 12 0 23-5 32-8 1.5-32 1.5-40 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 69)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 39)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 58)"
+              }
+            }
+          ]
+        },
+        "blob": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(26 13)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "92.8",
+                "rx": "33",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-blob"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M18 92c-4-8-4-17.5 0-25.5-3-5-2-11 3-14-2-7 3-13 10-13 2-7 9-12 18-11s14 6 15 12c7 1 12 6 11 12 5 3 6 10 3 15 4 8 3 16.5-1 24.5-12 1.7-47 1.7-59 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M18 92c-4-8-4-17.5 0-25.5-3-5-2-11 3-14-2-7 3-13 10-13 2-7 9-12 18-11s14 6 15 12c7 1 12 6 11 12 5 3 6 10 3 15 4 8 3 16.5-1 24.5-12 1.7-47 1.7-59 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-blob)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M18 92c-4-8-4-17.5 0-25.5-3-5-2-11 3-14-2-7 3-13 10-13 2-7 9-12 18-11s14 6 15 12c7 1 12 6 11 12 5 3 6 10 3 15 4 8 3 16.5-1 24.5-12 1.7-47 1.7-59 0m2.8 3.2c-4-8-4-17.5 0-25.5-3-5-2-11 3-14-2-7 3-13 10-13 2-7 9-12 18-11s14 6 15 12c7 1 12 6 11 12 5 3 6 10 3 15 4 8 3 16.5-1 24.5-12 1.7-47 1.7-59 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M18 92c-4-8-4-17.5 0-25.5-3-5-2-11 3-14-2-7 3-13 10-13 2-7 9-12 18-11s14 6 15 12c7 1 12 6 11 12 5 3 6 10 3 15 4 8 3 16.5-1 24.5-12 1.7-47 1.7-59 0m-2.8-3.2c-4-8-4-17.5 0-25.5-3-5-2-11 3-14-2-7 3-13 10-13 2-7 9-12 18-11s14 6 15 12c7 1 12 6 11 12 5 3 6 10 3 15 4 8 3 16.5-1 24.5-12 1.7-47 1.7-59 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 72)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 43)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 62)"
+              }
+            }
+          ]
+        },
+        "bell": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(28 13)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "92.8",
+                "rx": "31",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-bell"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M21 92c2-6 2.5-11.5 6-18s3.3-15 3.3-23c0-11 8.2-19.5 19.7-20 11-.5 19.3 8 19.3 19.5 0 8.5-.3 17 3.2 23.5s4 12 6 18c-13 1.7-46 1.7-57.5 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M21 92c2-6 2.5-11.5 6-18s3.3-15 3.3-23c0-11 8.2-19.5 19.7-20 11-.5 19.3 8 19.3 19.5 0 8.5-.3 17 3.2 23.5s4 12 6 18c-13 1.7-46 1.7-57.5 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-bell)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M21 92c2-6 2.5-11.5 6-18s3.3-15 3.3-23c0-11 8.2-19.5 19.7-20 11-.5 19.3 8 19.3 19.5 0 8.5-.3 17 3.2 23.5s4 12 6 18c-13 1.7-46 1.7-57.5 0m2.8 3.2c2-6 2.5-11.5 6-18s3.3-15 3.3-23c0-11 8.2-19.5 19.7-20 11-.5 19.3 8 19.3 19.5 0 8.5-.3 17 3.2 23.5s4 12 6 18c-13 1.7-46 1.7-57.5 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M21 92c2-6 2.5-11.5 6-18s3.3-15 3.3-23c0-11 8.2-19.5 19.7-20 11-.5 19.3 8 19.3 19.5 0 8.5-.3 17 3.2 23.5s4 12 6 18c-13 1.7-46 1.7-57.5 0m-2.8-3.2c2-6 2.5-11.5 6-18s3.3-15 3.3-23c0-11 8.2-19.5 19.7-20 11-.5 19.3 8 19.3 19.5 0 8.5-.3 17 3.2 23.5s4 12 6 18c-13 1.7-46 1.7-57.5 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 70)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 40)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 59)"
+              }
+            }
+          ]
+        },
+        "cube": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(28 13.5)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "92.8",
+                "rx": "32",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-cube"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 92c-3-5-3.5-12-3-20 .5-10 0-20 .5-28C22 37 26 33.5 33 33c11-.8 23-.8 34 0 7 .5 11 4 11.5 11 .5 8 0 18 .5 28 .5 8 0 15-3 20-13 1.7-39 1.7-52 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 92c-3-5-3.5-12-3-20 .5-10 0-20 .5-28C22 37 26 33.5 33 33c11-.8 23-.8 34 0 7 .5 11 4 11.5 11 .5 8 0 18 .5 28 .5 8 0 15-3 20-13 1.7-39 1.7-52 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-cube)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M24 92c-3-5-3.5-12-3-20 .5-10 0-20 .5-28C22 37 26 33.5 33 33c11-.8 23-.8 34 0 7 .5 11 4 11.5 11 .5 8 0 18 .5 28 .5 8 0 15-3 20-13 1.7-39 1.7-52 0m2.8 3.2c-3-5-3.5-12-3-20 .5-10 0-20 .5-28 .5-7 4.5-10.5 11.5-11 11-.8 23-.8 34 0 7 .5 11 4 11.5 11 .5 8 0 18 .5 28 .5 8 0 15-3 20-13 1.7-39 1.7-52 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M24 92c-3-5-3.5-12-3-20 .5-10 0-20 .5-28C22 37 26 33.5 33 33c11-.8 23-.8 34 0 7 .5 11 4 11.5 11 .5 8 0 18 .5 28 .5 8 0 15-3 20-13 1.7-39 1.7-52 0m-2.8-3.2c-3-5-3.5-12-3-20 .5-10 0-20 .5-28 .5-7 4.5-10.5 11.5-11 11-.8 23-.8 34 0 7 .5 11 4 11.5 11 .5 8 0 18 .5 28 .5 8 0 15-3 20-13 1.7-39 1.7-52 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 69)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 39)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 58)"
+              }
+            }
+          ]
+        },
+        "squat": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(30 26)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "92.8",
+                "rx": "36",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-squat"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M18 92c-4.5-4-7-10-6.5-17.5.5-10.5 7.5-21 18.5-26 7-3.2 16-4.3 23-3.7 11 .9 19.5 5.7 25 12.7 6.5 8 9.5 16.5 9 22.5-.4 5.5-3 9.5-7 12-14 2-48 2-62 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M18 92c-4.5-4-7-10-6.5-17.5.5-10.5 7.5-21 18.5-26 7-3.2 16-4.3 23-3.7 11 .9 19.5 5.7 25 12.7 6.5 8 9.5 16.5 9 22.5-.4 5.5-3 9.5-7 12-14 2-48 2-62 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-squat)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M18 92c-4.5-4-7-10-6.5-17.5.5-10.5 7.5-21 18.5-26 7-3.2 16-4.3 23-3.7 11 .9 19.5 5.7 25 12.7 6.5 8 9.5 16.5 9 22.5-.4 5.5-3 9.5-7 12-14 2-48 2-62 0m2.8 3.2c-4.5-4-7-10-6.5-17.5.5-10.5 7.5-21 18.5-26 7-3.2 16-4.3 23-3.7 11 .9 19.5 5.7 25 12.7 6.5 8 9.5 16.5 9 22.5-.4 5.5-3 9.5-7 12-14 2-48 2-62 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M18 92c-4.5-4-7-10-6.5-17.5.5-10.5 7.5-21 18.5-26 7-3.2 16-4.3 23-3.7 11 .9 19.5 5.7 25 12.7 6.5 8 9.5 16.5 9 22.5-.4 5.5-3 9.5-7 12-14 2-48 2-62 0m-2.8-3.2c-4.5-4-7-10-6.5-17.5.5-10.5 7.5-21 18.5-26 7-3.2 16-4.3 23-3.7 11 .9 19.5 5.7 25 12.7 6.5 8 9.5 16.5 9 22.5-.4 5.5-3 9.5-7 12-14 2-48 2-62 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(35 76)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(29 49)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 67)"
+              }
+            }
+          ]
+        },
+        "lean": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-t"
+              },
+              "children": [
+                {
+                  "name": "top",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(30 10)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "51",
+                "cy": "92.8",
+                "rx": "29",
+                "ry": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".13"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclb-lean"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 92c-2-9-4-20-1.5-31 2.5-11.5 7.5-23 17-29.5 5.5-3.7 13-4.3 18.5-1.5 9 4.5 13.5 14 15.5 24S78 78 77 92c-12 1.7-43 1.7-53 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 92c-2-9-4-20-1.5-31 2.5-11.5 7.5-23 17-29.5 5.5-3.7 13-4.3 18.5-1.5 9 4.5 13.5 14 15.5 24S78 78 77 92c-12 1.7-43 1.7-53 0",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclb-lean)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M24 92c-2-9-4-20-1.5-31 2.5-11.5 7.5-23 17-29.5 5.5-3.7 13-4.3 18.5-1.5 9 4.5 13.5 14 15.5 24S78 78 77 92c-12 1.7-43 1.7-53 0m2.8 3.2c-2-9-4-20-1.5-31 2.5-11.5 7.5-23 17-29.5 5.5-3.7 13-4.3 18.5-1.5 9 4.5 13.5 14 15.5 24s4.5 24 3.5 38c-12 1.7-43 1.7-53 0",
+                    "fill": "#ffffff",
+                    "opacity": ".2",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M24 92c-2-9-4-20-1.5-31 2.5-11.5 7.5-23 17-29.5 5.5-3.7 13-4.3 18.5-1.5 9 4.5 13.5 14 15.5 24S78 78 77 92c-12 1.7-43 1.7-53 0m-2.8-3.2c-2-9-4-20-1.5-31 2.5-11.5 7.5-23 17-29.5 5.5-3.7 13-4.3 18.5-1.5 9 4.5 13.5 14 15.5 24s4.5 24 3.5 38c-12 1.7-43 1.7-53 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".12",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "pattern",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 71)"
+              }
+            },
+            {
+              "name": "eyes",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(31 41)"
+              }
+            },
+            {
+              "name": "mouth",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(39 60)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "pattern": {
+      "width": 30,
+      "height": 16,
+      "probability": 55,
+      "rotate": {
+        "min": -6,
+        "max": 6
+      },
+      "translate": {
+        "x": {
+          "min": -8,
+          "max": 8
+        },
+        "y": {
+          "min": -6,
+          "max": 6
+        }
+      },
+      "variants": {
+        "spiral": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 8a1.6 1.6 0 0 1 3.2 0 3.2 3.2 0 0 1-6.4 0 4.8 4.8 0 0 1 9.6 0A6.4 6.4 0 0 1 8.6 8",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-opacity": ".18",
+                "stroke-width": "2",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "prints": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11.7 11a3.5 3.5 0 0 1 6.6 0m-9.6 1.8a6.6 6.6 0 0 1 12.6 0M5.8 14.5a9.7 9.7 0 0 1 18.4 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-opacity": ".16",
+                "stroke-width": "1.9",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "pellets": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "8.4",
+                "cy": "8.7",
+                "r": "2.9",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "8",
+                "cy": "8",
+                "r": "2.9",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "15.9",
+                "cy": "5.7",
+                "r": "3.3",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "15.5",
+                "cy": "5",
+                "r": "3.3",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "23.4",
+                "cy": "9.2",
+                "r": "2.7",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "23",
+                "cy": "8.5",
+                "r": "2.7",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            }
+          ]
+        },
+        "buttons": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "15",
+                "cy": "4",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".55"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "15",
+                "cy": "11.5",
+                "r": "2.1",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".55"
+              }
+            }
+          ]
+        },
+        "stitches": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M5.5 8.5h4.4m3.3-.4h4.4m3.4.4h4.4",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-opacity": ".35",
+                "stroke-width": "1.7",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "patch": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "9",
+                "y": "3",
+                "width": "12.5",
+                "height": "10",
+                "rx": "3.4",
+                "fill": {
+                  "type": "color",
+                  "name": "accent"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m11.7 3.6 1.4 1.5m4.5-1.5-1.4 1.5m-4.5 8.4 1.4-1.5m3.1 0 1.4 1.5",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-opacity": ".3",
+                "stroke-width": "1.4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "coil": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 8a1.7 1.7 0 0 1 3.4 0 3.4 3.4 0 0 1-6.8 0 5.1 5.1 0 0 1 10.2 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "accent"
+                },
+                "stroke-width": "3",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "freckles": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "9",
+                "cy": "6",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".22"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "15.5",
+                "cy": "9.5",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".22"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "21.5",
+                "cy": "5.5",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".22"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "13",
+                "cy": "13",
+                "r": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".22"
+              }
+            }
+          ]
+        },
+        "checker": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "9",
+                "y": "4",
+                "width": "5.6",
+                "height": "4.1",
+                "rx": "1.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "15.4",
+                "y": "8.4",
+                "width": "5.6",
+                "height": "4.1",
+                "rx": "1.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            }
+          ]
+        },
+        "zig": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 10.5 9.6 6l3.6 4.5L16.8 6l3.6 4.5L24 6",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-opacity": ".2",
+                "stroke-width": "2",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "eyes": {
+      "width": 42,
+      "height": 20,
+      "variants": {
+        "googly": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10.5",
+                "cy": "11",
+                "r": "7.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "10",
+                "r": "7.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "10",
+                    "cy": "12.5",
+                    "r": "3.2",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "8.9",
+                    "cy": "11.2",
+                    "r": ".8",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32.5",
+                "cy": "10.6",
+                "r": "6.3",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "9.6",
+                "r": "6.3",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "32",
+                    "cy": "11.7",
+                    "r": "2.6",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "31.1",
+                    "cy": "10.7",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "even": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10.5",
+                "cy": "11",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "10",
+                "r": "7",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "10",
+                    "cy": "12.3",
+                    "r": "2.9",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "9",
+                    "cy": "11.1",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32.5",
+                "cy": "11",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "10",
+                "r": "7",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "32",
+                    "cy": "12.3",
+                    "r": "2.9",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "31",
+                    "cy": "11.1",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "big": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10.5",
+                "cy": "11.2",
+                "r": "8.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "10.2",
+                "r": "8.4",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "3.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "8.8",
+                    "cy": "11.6",
+                    "r": ".8",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32.5",
+                "cy": "10.8",
+                "r": "7.8",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "9.8",
+                "r": "7.8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "32",
+                    "cy": "12.4",
+                    "r": "3.3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "30.8",
+                    "cy": "11.1",
+                    "r": ".8",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "tiny": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "13",
+                "cy": "11",
+                "r": "4.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "12.5",
+                "cy": "10",
+                "r": "4.4",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "12.5",
+                    "cy": "11.5",
+                    "r": "1.8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "11.9",
+                    "cy": "10.8",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "30",
+                "cy": "11",
+                "r": "4.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "29.5",
+                "cy": "10",
+                "r": "4.4",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "29.5",
+                    "cy": "11.5",
+                    "r": "1.8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "28.9",
+                    "cy": "10.8",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "mono": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "21.5",
+                "cy": "11",
+                "r": "8.8",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "21",
+                "cy": "10",
+                "r": "8.8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "21",
+                    "cy": "12.9",
+                    "r": "3.7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "19.7",
+                    "cy": "11.4",
+                    "r": ".9",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "trio": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "8",
+                "cy": "12.5",
+                "r": "4.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "7.5",
+                "cy": "11.5",
+                "r": "4.6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "7.5",
+                    "cy": "13",
+                    "r": "1.9",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "6.8",
+                    "cy": "12.2",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "21.5",
+                "cy": "10",
+                "r": "5.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "21",
+                "cy": "9",
+                "r": "5.4",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "21",
+                    "cy": "10.8",
+                    "r": "2.3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "20.2",
+                    "cy": "9.9",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "12.5",
+                "r": "4.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "34.5",
+                "cy": "11.5",
+                "r": "4.6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34.5",
+                    "cy": "13",
+                    "r": "1.9",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "33.8",
+                    "cy": "12.2",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "side": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10.5",
+                "cy": "11",
+                "r": "7.3",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "10",
+                "r": "7.3",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "7",
+                    "cy": "11.2",
+                    "r": "3.1",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "5.9",
+                    "cy": "10",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32.5",
+                "cy": "10.7",
+                "r": "6.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "9.7",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "28.8",
+                    "cy": "10.9",
+                    "r": "2.7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "27.9",
+                    "cy": "9.8",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "walleyed": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10.5",
+                "cy": "11",
+                "r": "7.3",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "10",
+                "r": "7.3",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "7",
+                    "cy": "8.5",
+                    "r": "3.1",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "5.9",
+                    "cy": "7.3",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32.5",
+                "cy": "10.7",
+                "r": "6.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "9.7",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "35",
+                    "cy": "8.2",
+                    "r": "2.7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34.1",
+                    "cy": "7.1",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "cross": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10.5",
+                "cy": "11",
+                "r": "7.3",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "10",
+                "r": "7.3",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "13.2",
+                    "cy": "11",
+                    "r": "3.1",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "12.1",
+                    "cy": "9.8",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32.5",
+                "cy": "10.7",
+                "r": "6.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "9.7",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "28.8",
+                    "cy": "10.7",
+                    "r": "2.7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "27.9",
+                    "cy": "9.6",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "dots": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "12.5",
+                "cy": "10",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "29.5",
+                "cy": "10",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "11.5",
+                "cy": "9",
+                "r": ".9",
+                "fill": "#ffffff",
+                "opacity": ".6"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "28.5",
+                "cy": "9",
+                "r": ".9",
+                "fill": "#ffffff",
+                "opacity": ".6"
+              }
+            }
+          ]
+        },
+        "happy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.4 12a5.6 5.6 0 0 1 11.2 0m10.8 0a5.6 5.6 0 0 1 11.2 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "wink": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10.5",
+                "cy": "11",
+                "r": "7.3",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "10",
+                "r": "7.3",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "10",
+                    "cy": "12.4",
+                    "r": "3.1",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "8.9",
+                    "cy": "11.2",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M26.6 10.8a5.4 5.4 0 0 1 10.8 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "down": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10.5",
+                "cy": "11",
+                "r": "7.3",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "10",
+                "r": "7.3",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "10",
+                    "cy": "14.2",
+                    "r": "2.9",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "9",
+                    "cy": "13",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32.5",
+                "cy": "10.7",
+                "r": "6.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "9.7",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "32",
+                    "cy": "13.5",
+                    "r": "2.6",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "31.1",
+                    "cy": "12.5",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "up": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10.5",
+                "cy": "11",
+                "r": "7.3",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "10",
+                "r": "7.3",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "10",
+                    "cy": "7",
+                    "r": "3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "9",
+                    "cy": "5.8",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32.5",
+                "cy": "10.7",
+                "r": "6.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "9.7",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "32",
+                    "cy": "7",
+                    "r": "2.7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "31.1",
+                    "cy": "5.9",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "pinprick": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10.5",
+                "cy": "11",
+                "r": "8",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "10",
+                "cy": "10",
+                "r": "8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "10",
+                    "cy": "11.5",
+                    "r": "1.6",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "9.4",
+                    "cy": "10.9",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32.5",
+                "cy": "10.7",
+                "r": "7.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "9.7",
+                "r": "7.4",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-ep"
+              },
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "32",
+                    "cy": "11.1",
+                    "r": "1.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "31.5",
+                    "cy": "10.5",
+                    "r": ".7",
+                    "fill": "#ffffff",
+                    "opacity": ".7"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 26,
+      "height": 12,
+      "variants": {
+        "teeth": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m5 3.4 2.7 5.2 2.7-5.2Zm5.4 0 2.7 5.2 2.7-5.2Zm5.4 0 2.7 5.2 2.7-5.2Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "smile": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.5 3.5c2.7 4.6 14.3 4.6 17 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "o": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "13",
+                "cy": "6",
+                "rx": "3.8",
+                "ry": "4.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbclm-o"
+                  },
+                  "children": [
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "13",
+                        "cy": "6",
+                        "rx": "3.8",
+                        "ry": "4.4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbclm-o)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M9.4 7.4a3.9 3.9 0 0 0 7.2 0",
+                    "fill": "none",
+                    "stroke": "#ffffff",
+                    "opacity": ".3",
+                    "stroke-width": "1.6",
+                    "stroke-linecap": "round"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "frown": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.5 8.5c2.7-4.6 14.3-4.6 17 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "line": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6.5 6h13",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "wavy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 6.5c2-3.4 4.3-3.4 6.3 0s4.4 3.4 6.4 0 4.3-3.4 6.3 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.2",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "open": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.5 1.8h17a8.5 8.5 0 0 1-17 0",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9.5 6.3h7V7a3.5 3.5 0 0 1-7 0Z",
+                "fill": "#c96f5e"
+              }
+            }
+          ]
+        },
+        "toothy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.5 1.8h17a8.5 8.5 0 0 1-17 0",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7.5 1.8H12v2a2.25 2.25 0 0 1-4.5 0Zm6.5 0h4.5v2a2.25 2.25 0 0 1-4.5 0Z",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        },
+        "tongue": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M5.5 4h15",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.6",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9.5 5h7v1.6a3.5 3.5 0 0 1-7 0Z",
+                "fill": "#c96f5e"
+              }
+            }
+          ]
+        },
+        "pout": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9.5 7c2.1-2.2 4.9-2.2 7 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "grin": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "y": "2.8",
+                "width": "16",
+                "height": "6.4",
+                "rx": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9.6 2.8h3.1v2a1.55 1.55 0 0 1-3.1 0Zm3.7 0h3.1v2a1.55 1.55 0 0 1-3.1 0Z",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        },
+        "smirk": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7.5 7.2C11 9 16 8.6 18.5 5.4",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "zigzag": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m4.5 7.5 3.4-3 3.4 3 3.4-3 3.4 3 3.4-3",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.2",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "dot": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "13",
+                "cy": "6",
+                "r": "1.9",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "laugh": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.5 1.8h17a8.5 8.5 0 0 1-17 0",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6.3 1.8h13.4v1.6a1.2 1.2 0 0 1-1.2 1.2h-11a1.2 1.2 0 0 1-1.2-1.2Z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10.5 7h5v.4a2.5 2.5 0 0 1-5 0Z",
+                "fill": "#c96f5e"
+              }
+            }
+          ]
+        },
+        "cat": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.5 4c1.8 3.2 5 3.4 7.2 1.2.7-.7 1.9-.7 2.6 0 2.2 2.2 5.4 2 7.2-1.2",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "smileBig": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 2.5a10 6 0 0 0 20 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "uu": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.5 4a4.3 4.3 0 0 0 8.6 0m.3 0A4.3 4.3 0 0 0 22 4",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "openSmall": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 4h10A5 5 0 0 1 8 4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "smileTongue": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4.5 3c2.7 4.6 14.3 4.6 17 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "2.5",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12 6.2h6V7a3 3 0 0 1-6 0Z",
+                "fill": "#c96f5e"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "animation": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "none": {
+          "elements": []
+        },
+        "fastest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-fastest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbcl-fastest){--dbcl-t:0.75;--dbcl-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbclSquash{0%,100%{transform:scale(1,1)}50%{transform:scale(1.015,.955)}}@keyframes dbclPeek{0%,100%{transform:translate(0,0)}30%{transform:translate(.5px,-.8px)}65%{transform:translate(-.4px,-.3px)}}@keyframes dbclJiggle{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3.5deg)}} .dbcl-c{transform-box:fill-box;transform-origin:50% 100%;animation:dbclSquash calc(var(--dbcl-t,1)*3.8s) ease-in-out infinite} .dbcl-ep{transform-box:fill-box;transform-origin:center;animation:dbclPeek calc(var(--dbcl-t,1)*4.6s) ease-in-out infinite} .dbcl-t{transform-box:fill-box;transform-origin:50% 85%;animation:dbclJiggle calc(var(--dbcl-t,1)*5.2s) ease-in-out infinite}.dbcl-c,.dbcl-ep,.dbcl-t{animation-play-state:var(--dbcl-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "animation"
+          ]
+        },
+        "fast": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-fast"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbcl-fast){--dbcl-t:0.9;--dbcl-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbclSquash{0%,100%{transform:scale(1,1)}50%{transform:scale(1.015,.955)}}@keyframes dbclPeek{0%,100%{transform:translate(0,0)}30%{transform:translate(.5px,-.8px)}65%{transform:translate(-.4px,-.3px)}}@keyframes dbclJiggle{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3.5deg)}} .dbcl-c{transform-box:fill-box;transform-origin:50% 100%;animation:dbclSquash calc(var(--dbcl-t,1)*3.8s) ease-in-out infinite} .dbcl-ep{transform-box:fill-box;transform-origin:center;animation:dbclPeek calc(var(--dbcl-t,1)*4.6s) ease-in-out infinite} .dbcl-t{transform-box:fill-box;transform-origin:50% 85%;animation:dbclJiggle calc(var(--dbcl-t,1)*5.2s) ease-in-out infinite}.dbcl-c,.dbcl-ep,.dbcl-t{animation-play-state:var(--dbcl-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "animation"
+          ]
+        },
+        "medium": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-medium"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbcl-medium){--dbcl-t:1;--dbcl-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbclSquash{0%,100%{transform:scale(1,1)}50%{transform:scale(1.015,.955)}}@keyframes dbclPeek{0%,100%{transform:translate(0,0)}30%{transform:translate(.5px,-.8px)}65%{transform:translate(-.4px,-.3px)}}@keyframes dbclJiggle{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3.5deg)}} .dbcl-c{transform-box:fill-box;transform-origin:50% 100%;animation:dbclSquash calc(var(--dbcl-t,1)*3.8s) ease-in-out infinite} .dbcl-ep{transform-box:fill-box;transform-origin:center;animation:dbclPeek calc(var(--dbcl-t,1)*4.6s) ease-in-out infinite} .dbcl-t{transform-box:fill-box;transform-origin:50% 85%;animation:dbclJiggle calc(var(--dbcl-t,1)*5.2s) ease-in-out infinite}.dbcl-c,.dbcl-ep,.dbcl-t{animation-play-state:var(--dbcl-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "animation"
+          ]
+        },
+        "slow": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-slow"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbcl-slow){--dbcl-t:1.15;--dbcl-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbclSquash{0%,100%{transform:scale(1,1)}50%{transform:scale(1.015,.955)}}@keyframes dbclPeek{0%,100%{transform:translate(0,0)}30%{transform:translate(.5px,-.8px)}65%{transform:translate(-.4px,-.3px)}}@keyframes dbclJiggle{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3.5deg)}} .dbcl-c{transform-box:fill-box;transform-origin:50% 100%;animation:dbclSquash calc(var(--dbcl-t,1)*3.8s) ease-in-out infinite} .dbcl-ep{transform-box:fill-box;transform-origin:center;animation:dbclPeek calc(var(--dbcl-t,1)*4.6s) ease-in-out infinite} .dbcl-t{transform-box:fill-box;transform-origin:50% 85%;animation:dbclJiggle calc(var(--dbcl-t,1)*5.2s) ease-in-out infinite}.dbcl-c,.dbcl-ep,.dbcl-t{animation-play-state:var(--dbcl-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "animation"
+          ]
+        },
+        "slowest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbcl-slowest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbcl-slowest){--dbcl-t:1.35;--dbcl-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbclSquash{0%,100%{transform:scale(1,1)}50%{transform:scale(1.015,.955)}}@keyframes dbclPeek{0%,100%{transform:translate(0,0)}30%{transform:translate(.5px,-.8px)}65%{transform:translate(-.4px,-.3px)}}@keyframes dbclJiggle{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3.5deg)}} .dbcl-c{transform-box:fill-box;transform-origin:50% 100%;animation:dbclSquash calc(var(--dbcl-t,1)*3.8s) ease-in-out infinite} .dbcl-ep{transform-box:fill-box;transform-origin:center;animation:dbclPeek calc(var(--dbcl-t,1)*4.6s) ease-in-out infinite} .dbcl-t{transform-box:fill-box;transform-origin:50% 85%;animation:dbclJiggle calc(var(--dbcl-t,1)*5.2s) ease-in-out infinite}.dbcl-c,.dbcl-ep,.dbcl-t{animation-play-state:var(--dbcl-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "animation"
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#f4e8d4",
+        "#f8f1e5",
+        "#f7e3d9",
+        "#f9ecc9",
+        "#eff0da",
+        "#e3efe9",
+        "#e2ecf4",
+        "#e9e7f4",
+        "#f4e4ef",
+        "#ece8e2",
+        "#f9e8cf",
+        "#e8edf0"
+      ]
+    },
+    "body": {
+      "values": [
+        "#c4795c",
+        "#d99277",
+        "#e0bd6a",
+        "#cf9f52",
+        "#a8b37e",
+        "#8ba06b",
+        "#83b0a4",
+        "#86a5c3",
+        "#9793bd",
+        "#ab8bbd",
+        "#cd8ea6",
+        "#b3a696"
+      ]
+    },
+    "accent": {
+      "notEqualTo": [
+        "body"
+      ],
+      "values": [
+        "#c4795c",
+        "#d99277",
+        "#e0bd6a",
+        "#cf9f52",
+        "#a8b37e",
+        "#8ba06b",
+        "#83b0a4",
+        "#86a5c3",
+        "#9793bd",
+        "#ab8bbd",
+        "#cd8ea6",
+        "#b3a696"
+      ]
+    },
+    "ink": {
+      "values": [
+        "#44403c"
+      ]
+    }
+  }
+}

@@ -12,6 +12,13 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Added
+
+- **New style: Clay.** A hand-molded plasticine creature on a warm paper
+  backdrop. Fourteen wobbly silhouettes with googly eyes and carved mouths,
+  most seeds with a pinched top or a stamped belly mark. When animated, the
+  body squashes gently and the pupils wobble. Hand-authored, CC0 1.0.
+
 ## [10.3.0-rc.2] - 2026-07-31
 
 ### Added

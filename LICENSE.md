@@ -83,6 +83,14 @@ the following list or in the individual files.
 | License | [Free for personal and commercial use](https://bottts.com/) |
 |  Source | [Bottts](https://bottts.com/)                               |
 
+## Clay
+
+|    File | [src/clay.json](./src/clay.json)                              |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Clay](https://www.dicebear.com)                              |
+
 ## Constellation
 
 |    File | [src/constellation.json](./src/constellation.json)            |

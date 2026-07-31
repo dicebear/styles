@@ -56,6 +56,10 @@
       "types": "./dist/bottts.min.json",
       "default": "./dist/bottts.min.json"
     },
+    "./clay.json": {
+      "types": "./dist/clay.min.json",
+      "default": "./dist/clay.min.json"
+    },
     "./constellation.json": {
       "types": "./dist/constellation.min.json",
       "default": "./dist/constellation.min.json"

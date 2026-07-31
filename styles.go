@@ -71,6 +71,9 @@ var Bottts string
 //go:embed src/bottts-neutral.json
 var BotttsNeutral string
 
+//go:embed src/clay.json
+var Clay string
+
 //go:embed src/constellation.json
 var Constellation string
 
@@ -212,6 +215,8 @@ func Get(name string) (string, bool) {
 		return Bottts, true
 	case "bottts-neutral":
 		return BotttsNeutral, true
+	case "clay":
+		return Clay, true
 	case "constellation":
 		return Constellation, true
 	case "critters":
@@ -309,6 +314,7 @@ func All() []string {
 		"blobs",
 		"bottts",
 		"bottts-neutral",
+		"clay",
 		"constellation",
 		"critters",
 		"croodles",

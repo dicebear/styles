@@ -38,6 +38,7 @@ all = [
   "blobs",
   "bottts",
   "bottts-neutral",
+  "clay",
   "constellation",
   "critters",
   "croodles",
@@ -90,6 +91,7 @@ big-smile = []
 blobs = []
 bottts = []
 bottts-neutral = []
+clay = []
 constellation = []
 critters = []
 croodles = []
