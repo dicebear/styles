@@ -12,6 +12,8 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+## [10.3.0-rc.2] - 2026-07-31
+
 ### Added
 
 - **New style: Weave.** A woven tartan pattern: two to three translucent
@@ -180,7 +182,8 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v10.3.0-rc.1...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v10.3.0-rc.2...HEAD
+[10.3.0-rc.2]: https://github.com/dicebear/styles/compare/v10.3.0-rc.1...v10.3.0-rc.2
 [10.3.0-rc.1]: https://github.com/dicebear/styles/compare/v10.2.0...v10.3.0-rc.1
 [10.2.0]: https://github.com/dicebear/styles/compare/v10.1.0...v10.2.0
 [10.1.0]: https://github.com/dicebear/styles/compare/v10.1.0-rc.1...v10.1.0
