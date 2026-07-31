@@ -187,6 +187,9 @@ pub const TRIANGLES: &str = include_str!("src/triangles.json");
 #[cfg(feature = "waves")]
 pub const WAVES: &str = include_str!("src/waves.json");
 
+#[cfg(feature = "weave")]
+pub const WEAVE: &str = include_str!("src/weave.json");
+
 /// Returns the raw JSON definition for the named style, or `None` if the style is
 /// unknown or its feature is not enabled in this build.
 pub fn get(name: &str) -> Option<&'static str> {
@@ -287,6 +290,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "triangles" => Some(TRIANGLES),
         #[cfg(feature = "waves")]
         "waves" => Some(WAVES),
+        #[cfg(feature = "weave")]
+        "weave" => Some(WEAVE),
         _ => None,
     }
 }
@@ -393,5 +398,7 @@ pub fn all() -> Vec<&'static str> {
     v.push("triangles");
     #[cfg(feature = "waves")]
     v.push("waves");
+    #[cfg(feature = "weave")]
+    v.push("weave");
     v
 }

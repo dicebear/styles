@@ -207,6 +207,10 @@
     "./waves.json": {
       "types": "./dist/waves.min.json",
       "default": "./dist/waves.min.json"
+    },
+    "./weave.json": {
+      "types": "./dist/weave.min.json",
+      "default": "./dist/weave.min.json"
     }
   },
   "files": [

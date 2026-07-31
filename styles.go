@@ -185,6 +185,9 @@ var Triangles string
 //go:embed src/waves.json
 var Waves string
 
+//go:embed src/weave.json
+var Weave string
+
 // Get returns the raw JSON definition for the named style, or ("", false) if the
 // style name is unknown.
 func Get(name string) (string, bool) {
@@ -285,6 +288,8 @@ func Get(name string) (string, bool) {
 		return Triangles, true
 	case "waves":
 		return Waves, true
+	case "weave":
+		return Weave, true
 	}
 	return "", false
 }
@@ -342,5 +347,6 @@ func All() []string {
 		"toon-head",
 		"triangles",
 		"waves",
+		"weave",
 	}
 }

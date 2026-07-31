@@ -14,6 +14,12 @@ Versions track the DiceBear release line.
 
 ### Added
 
+- **New style: Weave.** A woven tartan pattern: two to three translucent
+  bands per axis over a light tinted tile, with the band colors repeating
+  across both axes and a fine accent line per axis. Diagonal on most seeds,
+  straight on the rest. Band positions are continuous, so two seeds
+  practically never share a design. Static by design, it carries no
+  animation component. Hand-authored, CC0 1.0.
 - **Opt-in animation.** All new styles below, as well as Shapes, Glass, Thumbs,
   and Initial Face, carry an `animation` component. By default (`none`) they
   render fully static. The `animationVariant` render option selects a speed from

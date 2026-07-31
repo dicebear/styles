@@ -386,3 +386,11 @@ the following list or in the individual files.
 |  Artist | [DiceBear](https://www.dicebear.com)                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Waves](https://www.dicebear.com)                             |
+
+## Weave
+
+|    File | [src/weave.json](./src/weave.json)                            |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Weave](https://www.dicebear.com)                             |

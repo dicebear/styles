@@ -76,6 +76,7 @@ all = [
   "toon-head",
   "triangles",
   "waves",
+  "weave",
 ]
 
 # One feature per style. `dicebear-styles = { features = ["shapes", "bottts"] }`
@@ -127,3 +128,4 @@ thumbs = []
 toon-head = []
 triangles = []
 waves = []
+weave = []
