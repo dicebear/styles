@@ -77,15 +77,24 @@
           "elements": [
             {
               "name": "bandA",
-              "type": "component"
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 -30)"
+              }
             },
             {
               "name": "bandB",
-              "type": "component"
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 -30)"
+              }
             },
             {
               "name": "bandC02",
-              "type": "component"
+              "type": "component",
+              "attributes": {
+                "transform": "translate(37 -30)"
+              }
             },
             {
               "name": "lineAccent",
@@ -95,21 +104,21 @@
               "name": "bandC",
               "type": "component",
               "attributes": {
-                "transform": "rotate(90 50 50)"
+                "transform": "rotate(90 46.5 83.5)"
               }
             },
             {
               "name": "bandA02",
               "type": "component",
               "attributes": {
-                "transform": "rotate(90 50 50)"
+                "transform": "rotate(90 46.5 83.5)"
               }
             },
             {
               "name": "bandB02",
               "type": "component",
               "attributes": {
-                "transform": "rotate(90 50 50)"
+                "transform": "rotate(90 46.5 83.5)"
               }
             },
             {
@@ -124,12 +133,12 @@
       }
     },
     "bandA": {
-      "width": 100,
-      "height": 100,
+      "width": 27,
+      "height": 160,
       "translate": {
         "x": {
-          "min": -42,
-          "max": 42
+          "min": -155.5556,
+          "max": 155.5556
         }
       },
       "variants": {
@@ -144,7 +153,7 @@
                   "name": "colorA"
                 },
                 "fill-opacity": ".7",
-                "d": "M44-30h12v160H44z"
+                "d": "M7 0h12v160H7z"
               }
             }
           ]
@@ -160,7 +169,7 @@
                   "name": "colorA"
                 },
                 "fill-opacity": ".7",
-                "d": "M41-30h18v160H41z"
+                "d": "M4 0h18v160H4z"
               }
             }
           ]
@@ -176,7 +185,7 @@
                   "name": "colorA"
                 },
                 "fill-opacity": ".7",
-                "d": "M37-30h26v160H37z"
+                "d": "M0 0h26v160H0z"
               }
             }
           ]
@@ -192,7 +201,7 @@
                   "name": "colorA"
                 },
                 "fill-opacity": ".7",
-                "d": "M39-30h16v160H39zm20 0h5v160h-5z"
+                "d": "M2 0h16v160H2zm20 0h5v160h-5z"
               }
             }
           ]
@@ -203,13 +212,13 @@
       "extends": "bandA"
     },
     "bandB02": {
-      "width": 100,
-      "height": 100,
+      "width": 27,
+      "height": 160,
       "probability": 70,
       "translate": {
         "x": {
-          "min": -42,
-          "max": 42
+          "min": -155.5556,
+          "max": 155.5556
         }
       },
       "variants": {
@@ -224,7 +233,7 @@
                   "name": "colorB"
                 },
                 "fill-opacity": ".7",
-                "d": "M44-30h12v160H44z"
+                "d": "M7 0h12v160H7z"
               }
             }
           ]
@@ -240,7 +249,7 @@
                   "name": "colorB"
                 },
                 "fill-opacity": ".7",
-                "d": "M41-30h18v160H41z"
+                "d": "M4 0h18v160H4z"
               }
             }
           ]
@@ -256,7 +265,7 @@
                   "name": "colorB"
                 },
                 "fill-opacity": ".7",
-                "d": "M37-30h26v160H37z"
+                "d": "M0 0h26v160H0z"
               }
             }
           ]
@@ -272,7 +281,7 @@
                   "name": "colorB"
                 },
                 "fill-opacity": ".7",
-                "d": "M39-30h16v160H39zm20 0h5v160h-5z"
+                "d": "M2 0h16v160H2zm20 0h5v160h-5z"
               }
             }
           ]
@@ -280,13 +289,13 @@
       }
     },
     "bandC02": {
-      "width": 100,
-      "height": 100,
+      "width": 27,
+      "height": 160,
       "probability": 70,
       "translate": {
         "x": {
-          "min": -42,
-          "max": 42
+          "min": -155.5556,
+          "max": 155.5556
         }
       },
       "variants": {
@@ -301,7 +310,7 @@
                   "name": "colorC"
                 },
                 "fill-opacity": ".7",
-                "d": "M44-30h12v160H44z"
+                "d": "M7 0h12v160H7z"
               }
             }
           ]
@@ -317,7 +326,7 @@
                   "name": "colorC"
                 },
                 "fill-opacity": ".7",
-                "d": "M41-30h18v160H41z"
+                "d": "M4 0h18v160H4z"
               }
             }
           ]
@@ -333,7 +342,7 @@
                   "name": "colorC"
                 },
                 "fill-opacity": ".7",
-                "d": "M37-30h26v160H37z"
+                "d": "M0 0h26v160H0z"
               }
             }
           ]
@@ -349,7 +358,7 @@
                   "name": "colorC"
                 },
                 "fill-opacity": ".7",
-                "d": "M39-30h16v160H39zm20 0h5v160h-5z"
+                "d": "M2 0h16v160H2zm20 0h5v160h-5z"
               }
             }
           ]
@@ -357,12 +366,12 @@
       }
     },
     "bandB": {
-      "width": 100,
-      "height": 100,
+      "width": 27,
+      "height": 160,
       "translate": {
         "x": {
-          "min": -42,
-          "max": 42
+          "min": -155.5556,
+          "max": 155.5556
         }
       },
       "variants": {
@@ -377,7 +386,7 @@
                   "name": "colorB"
                 },
                 "fill-opacity": ".7",
-                "d": "M44-30h12v160H44z"
+                "d": "M7 0h12v160H7z"
               }
             }
           ]
@@ -393,7 +402,7 @@
                   "name": "colorB"
                 },
                 "fill-opacity": ".7",
-                "d": "M41-30h18v160H41z"
+                "d": "M4 0h18v160H4z"
               }
             }
           ]
@@ -409,7 +418,7 @@
                   "name": "colorB"
                 },
                 "fill-opacity": ".7",
-                "d": "M37-30h26v160H37z"
+                "d": "M0 0h26v160H0z"
               }
             }
           ]
@@ -425,7 +434,7 @@
                   "name": "colorB"
                 },
                 "fill-opacity": ".7",
-                "d": "M39-30h16v160H39zm20 0h5v160h-5z"
+                "d": "M2 0h16v160H2zm20 0h5v160h-5z"
               }
             }
           ]
@@ -433,12 +442,12 @@
       }
     },
     "bandC": {
-      "width": 100,
-      "height": 100,
+      "width": 27,
+      "height": 160,
       "translate": {
         "x": {
-          "min": -42,
-          "max": 42
+          "min": -155.5556,
+          "max": 155.5556
         }
       },
       "variants": {
@@ -453,7 +462,7 @@
                   "name": "colorC"
                 },
                 "fill-opacity": ".7",
-                "d": "M44-30h12v160H44z"
+                "d": "M7 0h12v160H7z"
               }
             }
           ]
@@ -469,7 +478,7 @@
                   "name": "colorC"
                 },
                 "fill-opacity": ".7",
-                "d": "M41-30h18v160H41z"
+                "d": "M4 0h18v160H4z"
               }
             }
           ]
@@ -485,7 +494,7 @@
                   "name": "colorC"
                 },
                 "fill-opacity": ".7",
-                "d": "M37-30h26v160H37z"
+                "d": "M0 0h26v160H0z"
               }
             }
           ]
@@ -501,7 +510,7 @@
                   "name": "colorC"
                 },
                 "fill-opacity": ".7",
-                "d": "M39-30h16v160H39zm20 0h5v160h-5z"
+                "d": "M2 0h16v160H2zm20 0h5v160h-5z"
               }
             }
           ]

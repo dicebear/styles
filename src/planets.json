@@ -104,23 +104,38 @@
       },
       {
         "name": "planet",
-        "type": "component"
+        "type": "component",
+        "attributes": {
+          "transform": "translate(20 20)"
+        }
       },
       {
         "name": "surface",
-        "type": "component"
+        "type": "component",
+        "attributes": {
+          "transform": "translate(16 17)"
+        }
       },
       {
         "name": "shade",
-        "type": "component"
+        "type": "component",
+        "attributes": {
+          "transform": "translate(20 20)"
+        }
       },
       {
         "name": "ring",
-        "type": "component"
+        "type": "component",
+        "attributes": {
+          "transform": "translate(2 34)"
+        }
       },
       {
         "name": "moons",
-        "type": "component"
+        "type": "component",
+        "attributes": {
+          "transform": "translate(21 21)"
+        }
       },
       {
         "name": "animation",
@@ -136,17 +151,17 @@
   },
   "components": {
     "moons": {
-      "width": 100,
-      "height": 100,
+      "width": 63,
+      "height": 50,
       "probability": 65,
       "translate": {
         "x": {
-          "min": -5,
-          "max": 5
+          "min": -7.9365,
+          "max": 7.9365
         },
         "y": {
-          "min": -5,
-          "max": 5
+          "min": -10,
+          "max": 10
         }
       },
       "variants": {
@@ -164,8 +179,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "79",
-                    "cy": "25",
+                    "cx": "58",
+                    "cy": "4",
                     "r": "4",
                     "fill": {
                       "type": "color",
@@ -190,8 +205,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "77",
-                    "cy": "31",
+                    "cx": "56",
+                    "cy": "10",
                     "r": "3.5",
                     "fill": {
                       "type": "color",
@@ -203,8 +218,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "24",
-                    "cy": "68",
+                    "cx": "3",
+                    "cy": "47",
                     "r": "2.2",
                     "fill": {
                       "type": "color",
@@ -229,8 +244,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "81",
-                    "cy": "63",
+                    "cx": "60",
+                    "cy": "42",
                     "r": "2.5",
                     "fill": {
                       "type": "color",
@@ -245,8 +260,8 @@
       }
     },
     "planet": {
-      "width": 100,
-      "height": 100,
+      "width": 60,
+      "height": 60,
       "variants": {
         "disc": {
           "elements": [
@@ -254,8 +269,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "50",
-                "cy": "50",
+                "cx": "30",
+                "cy": "30",
                 "r": "30",
                 "fill": {
                   "type": "color",
@@ -268,8 +283,8 @@
       }
     },
     "ring": {
-      "width": 100,
-      "height": 100,
+      "width": 96,
+      "height": 32,
       "probability": 45,
       "rotate": {
         "min": -25,
@@ -295,14 +310,14 @@
                       "type": "element",
                       "attributes": {
                         "fill": "#fff",
-                        "d": "M-10-10h120v120H-10z"
+                        "d": "M-12-44h120V76H-12z"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M20 50a30 30 0 0 1 60 0Z",
+                        "d": "M18 16a30 30 0 0 1 60 0Z",
                         "fill": "#000"
                       }
                     }
@@ -321,8 +336,8 @@
                   "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "cx": "50",
-                    "cy": "50",
+                    "cx": "48",
+                    "cy": "16",
                     "rx": "43",
                     "ry": "13",
                     "stroke": "#fff",
@@ -352,14 +367,14 @@
                       "type": "element",
                       "attributes": {
                         "fill": "#fff",
-                        "d": "M-10-10h120v120H-10z"
+                        "d": "M-12-44h120V76H-12z"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M20 50a30 30 0 0 1 60 0Z",
+                        "d": "M18 16a30 30 0 0 1 60 0Z",
                         "fill": "#000"
                       }
                     }
@@ -378,8 +393,8 @@
                   "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "cx": "50",
-                    "cy": "50",
+                    "cx": "48",
+                    "cy": "16",
                     "rx": "42",
                     "ry": "12.5",
                     "stroke": "#fff",
@@ -391,8 +406,8 @@
                   "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "cx": "50",
-                    "cy": "50",
+                    "cx": "48",
+                    "cy": "16",
                     "rx": "46.5",
                     "ry": "15",
                     "stroke": "#fff",
@@ -422,14 +437,14 @@
                       "type": "element",
                       "attributes": {
                         "fill": "#fff",
-                        "d": "M-10-10h120v120H-10z"
+                        "d": "M-12-44h120V76H-12z"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M20 50a30 30 0 0 1 60 0Z",
+                        "d": "M18 16a30 30 0 0 1 60 0Z",
                         "fill": "#000"
                       }
                     }
@@ -448,8 +463,8 @@
                   "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "cx": "50",
-                    "cy": "50",
+                    "cx": "48",
+                    "cy": "16",
                     "rx": "44",
                     "ry": "13.5",
                     "stroke": "#fff",
@@ -464,8 +479,8 @@
       }
     },
     "shade": {
-      "width": 100,
-      "height": 100,
+      "width": 61,
+      "height": 61,
       "variants": {
         "soft": {
           "weight": 1,
@@ -480,8 +495,8 @@
                   "attributes": {
                     "id": "dicebearPlanets-shade",
                     "gradientUnits": "userSpaceOnUse",
-                    "cx": "42",
-                    "cy": "42",
+                    "cx": "22",
+                    "cy": "22",
                     "r": "44"
                   },
                   "children": [
@@ -529,8 +544,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "50",
-                "cy": "50",
+                "cx": "30",
+                "cy": "30",
                 "r": "30",
                 "fill": "url(#dicebearPlanets-shade)"
               }
@@ -539,7 +554,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M75.2 33.7a30 30 0 0 1-41.5 41.5 33.5 33.5 0 0 0 41.5-41.5",
+                "d": "M55.2 13.7a30 30 0 0 1-41.5 41.5 33.5 33.5 0 0 0 41.5-41.5",
                 "fill": "#000",
                 "fill-opacity": ".13"
               }
@@ -553,7 +568,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M75.2 33.7a30 30 0 0 1-41.5 41.5 33.5 33.5 0 0 0 41.5-41.5",
+                "d": "M55.2 13.7a30 30 0 0 1-41.5 41.5 33.5 33.5 0 0 0 41.5-41.5",
                 "fill": "#000",
                 "fill-opacity": ".18"
               }
@@ -562,7 +577,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M24.8 66.3a30 30 0 0 1 41.5-41.5 33.5 33.5 0 0 0-41.5 41.5",
+                "d": "M4.8 46.3A30 30 0 0 1 46.3 4.8 33.5 33.5 0 0 0 4.8 46.3",
                 "fill": "#fff",
                 "fill-opacity": ".12"
               }
@@ -572,8 +587,8 @@
       }
     },
     "surface": {
-      "width": 100,
-      "height": 100,
+      "width": 68,
+      "height": 66,
       "probability": 95,
       "rotate": {
         "min": -180,
@@ -605,8 +620,8 @@
                           "name": "circle",
                           "type": "element",
                           "attributes": {
-                            "cx": "50",
-                            "cy": "50",
+                            "cx": "34",
+                            "cy": "33",
                             "r": "30"
                           }
                         }
@@ -627,7 +642,7 @@
                       "attributes": {
                         "fill": "#fff",
                         "fill-opacity": ".16",
-                        "d": "M18 26h64v5.5H18z"
+                        "d": "M2 9h64v5.5H2z"
                       }
                     },
                     {
@@ -636,7 +651,7 @@
                       "attributes": {
                         "fill": "#000",
                         "fill-opacity": ".13",
-                        "d": "M18 35h64v6.5H18z"
+                        "d": "M2 18h64v6.5H2z"
                       }
                     },
                     {
@@ -645,7 +660,7 @@
                       "attributes": {
                         "fill": "#fff",
                         "fill-opacity": ".14",
-                        "d": "M18 46h64v8H18z"
+                        "d": "M2 29h64v8H2z"
                       }
                     },
                     {
@@ -654,7 +669,7 @@
                       "attributes": {
                         "fill": "#000",
                         "fill-opacity": ".15",
-                        "d": "M18 58h64v6H18z"
+                        "d": "M2 41h64v6H2z"
                       }
                     },
                     {
@@ -663,7 +678,7 @@
                       "attributes": {
                         "fill": "#fff",
                         "fill-opacity": ".12",
-                        "d": "M18 68h64v5H18z"
+                        "d": "M2 51h64v5H2z"
                       }
                     }
                   ]
@@ -697,8 +712,8 @@
                           "name": "circle",
                           "type": "element",
                           "attributes": {
-                            "cx": "50",
-                            "cy": "50",
+                            "cx": "34",
+                            "cy": "33",
                             "r": "30"
                           }
                         }
@@ -719,7 +734,7 @@
                       "attributes": {
                         "fill": "#fff",
                         "fill-opacity": ".19",
-                        "d": "M18 40h64v8.5H18z"
+                        "d": "M2 23h64v8.5H2z"
                       }
                     },
                     {
@@ -728,7 +743,7 @@
                       "attributes": {
                         "fill": "#000",
                         "fill-opacity": ".14",
-                        "d": "M18 52h64v6H18z"
+                        "d": "M2 35h64v6H2z"
                       }
                     }
                   ]
@@ -762,8 +777,8 @@
                           "name": "circle",
                           "type": "element",
                           "attributes": {
-                            "cx": "50",
-                            "cy": "50",
+                            "cx": "34",
+                            "cy": "33",
                             "r": "30"
                           }
                         }
@@ -782,8 +797,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "40",
-                        "cy": "38",
+                        "cx": "24",
+                        "cy": "21",
                         "r": "5",
                         "fill": "#000",
                         "fill-opacity": ".13"
@@ -793,8 +808,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "60",
-                        "cy": "45",
+                        "cx": "44",
+                        "cy": "28",
                         "r": "4",
                         "fill": "#000",
                         "fill-opacity": ".12"
@@ -804,8 +819,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "47",
-                        "cy": "61",
+                        "cx": "31",
+                        "cy": "44",
                         "r": "6",
                         "fill": "#000",
                         "fill-opacity": ".13"
@@ -815,8 +830,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "34",
-                        "cy": "52",
+                        "cx": "18",
+                        "cy": "35",
                         "r": "3",
                         "fill": "#000",
                         "fill-opacity": ".12"
@@ -826,8 +841,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "58",
-                        "cy": "64",
+                        "cx": "42",
+                        "cy": "47",
                         "r": "3.5",
                         "fill": "#000",
                         "fill-opacity": ".11"
@@ -837,8 +852,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "52",
-                        "cy": "29",
+                        "cx": "36",
+                        "cy": "12",
                         "r": "2.5",
                         "fill": "#000",
                         "fill-opacity": ".12"
@@ -848,8 +863,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "44",
-                        "cy": "47",
+                        "cx": "28",
+                        "cy": "30",
                         "r": "2",
                         "fill": "#fff",
                         "fill-opacity": ".1"
@@ -859,8 +874,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "63",
-                        "cy": "55",
+                        "cx": "47",
+                        "cy": "38",
                         "r": "1.8",
                         "fill": "#fff",
                         "fill-opacity": ".1"
@@ -897,8 +912,8 @@
                           "name": "circle",
                           "type": "element",
                           "attributes": {
-                            "cx": "50",
-                            "cy": "50",
+                            "cx": "34",
+                            "cy": "33",
                             "r": "30"
                           }
                         }
@@ -917,7 +932,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M18 40c12-8 26 4 38 0s22-14 28-8v14c-10-4-20 8-32 10s-22-6-34-2Z",
+                        "d": "M2 23c12-8 26 4 38 0s22-14 28-8v14c-10-4-20 8-32 10s-22-6-34-2Z",
                         "fill": "#fff",
                         "fill-opacity": ".16"
                       }
@@ -926,7 +941,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M20 62c12-6 24 4 38 1s18-7 24-3v10c-10-2-20 6-32 4s-18-4-30-2Z",
+                        "d": "M4 45c12-6 24 4 38 1s18-7 24-3v10c-10-2-20 6-32 4s-18-4-30-2Z",
                         "fill": "#000",
                         "fill-opacity": ".12"
                       }
@@ -935,8 +950,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "60",
-                        "cy": "36",
+                        "cx": "44",
+                        "cy": "19",
                         "r": "4.5",
                         "fill": "#fff",
                         "fill-opacity": ".18"
@@ -973,8 +988,8 @@
                           "name": "circle",
                           "type": "element",
                           "attributes": {
-                            "cx": "50",
-                            "cy": "50",
+                            "cx": "34",
+                            "cy": "33",
                             "r": "30"
                           }
                         }
@@ -995,7 +1010,7 @@
                       "attributes": {
                         "fill": "#fff",
                         "fill-opacity": ".24",
-                        "d": "M18 20h64v12H18z"
+                        "d": "M2 3h64v12H2z"
                       }
                     },
                     {
@@ -1004,7 +1019,7 @@
                       "attributes": {
                         "fill": "#000",
                         "fill-opacity": ".1",
-                        "d": "M18 70h64v10H18z"
+                        "d": "M2 53h64v10H2z"
                       }
                     }
                   ]
@@ -1038,8 +1053,8 @@
                           "name": "circle",
                           "type": "element",
                           "attributes": {
-                            "cx": "50",
-                            "cy": "50",
+                            "cx": "34",
+                            "cy": "33",
                             "r": "30"
                           }
                         }
@@ -1058,8 +1073,8 @@
                       "name": "ellipse",
                       "type": "element",
                       "attributes": {
-                        "cx": "60",
-                        "cy": "44",
+                        "cx": "44",
+                        "cy": "27",
                         "rx": "11",
                         "ry": "7",
                         "fill": "#000",
@@ -1070,8 +1085,8 @@
                       "name": "ellipse",
                       "type": "element",
                       "attributes": {
-                        "cx": "60",
-                        "cy": "44",
+                        "cx": "44",
+                        "cy": "27",
                         "rx": "9",
                         "ry": "5.5",
                         "fill": "#fff",
@@ -1082,8 +1097,8 @@
                       "name": "ellipse",
                       "type": "element",
                       "attributes": {
-                        "cx": "60",
-                        "cy": "44",
+                        "cx": "44",
+                        "cy": "27",
                         "rx": "5",
                         "ry": "3",
                         "fill": "#fff",
@@ -1094,8 +1109,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "36",
-                        "cy": "58",
+                        "cx": "20",
+                        "cy": "41",
                         "r": "3",
                         "fill": "#fff",
                         "fill-opacity": ".15"
@@ -1105,8 +1120,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "42",
-                        "cy": "32",
+                        "cx": "26",
+                        "cy": "15",
                         "r": "2.2",
                         "fill": "#000",
                         "fill-opacity": ".1"
@@ -1116,8 +1131,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "58",
-                        "cy": "64",
+                        "cx": "42",
+                        "cy": "47",
                         "r": "2.5",
                         "fill": "#fff",
                         "fill-opacity": ".12"
@@ -1154,8 +1169,8 @@
                           "name": "circle",
                           "type": "element",
                           "attributes": {
-                            "cx": "50",
-                            "cy": "50",
+                            "cx": "34",
+                            "cy": "33",
                             "r": "30"
                           }
                         }
@@ -1174,7 +1189,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M30 38c4-8 16-10 22-5s12 3 14 11-8 10-16 8-10 0-16-4-8-2-4-10",
+                        "d": "M14 21c4-8 16-10 22-5s12 3 14 11-8 10-16 8-10 0-16-4-8-2-4-10",
                         "fill": "#000",
                         "fill-opacity": ".11"
                       }
@@ -1183,7 +1198,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M44 60c8-6 20-4 24 2s-4 12-14 12-14-4-10-14",
+                        "d": "M28 43c8-6 20-4 24 2s-4 12-14 12-14-4-10-14",
                         "fill": "#fff",
                         "fill-opacity": ".13"
                       }
@@ -1192,7 +1207,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M28 56c4-4 10-2 10 3s-8 5-11 2-1-3 1-5",
+                        "d": "M12 39c4-4 10-2 10 3s-8 5-11 2-1-3 1-5",
                         "fill": "#000",
                         "fill-opacity": ".09"
                       }
@@ -1201,7 +1216,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M58 26c6-2 12 2 12 7s-8 5-13 2-3-7 1-9",
+                        "d": "M42 9c6-2 12 2 12 7s-8 5-13 2-3-7 1-9",
                         "fill": "#fff",
                         "fill-opacity": ".11"
                       }
@@ -1237,8 +1252,8 @@
                           "name": "circle",
                           "type": "element",
                           "attributes": {
-                            "cx": "50",
-                            "cy": "50",
+                            "cx": "34",
+                            "cy": "33",
                             "r": "30"
                           }
                         }
@@ -1257,7 +1272,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "m18 48 16-4 14 8 16-6 18 6",
+                        "d": "m2 31 16-4 14 8 16-6 18 6",
                         "stroke": "#fff",
                         "stroke-opacity": ".3",
                         "stroke-width": ".8"
@@ -1267,7 +1282,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "m44 20 4 16-8 14 6 16-4 14",
+                        "d": "m28 3 4 16-8 14 6 16-4 14",
                         "stroke": "#fff",
                         "stroke-opacity": ".3",
                         "stroke-width": ".8"
@@ -1277,7 +1292,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "m60 62 10 6 10-4",
+                        "d": "m44 45 10 6 10-4",
                         "stroke": "#fff",
                         "stroke-opacity": ".25",
                         "stroke-width": ".8"
@@ -1287,8 +1302,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "48",
-                        "cy": "52",
+                        "cx": "32",
+                        "cy": "35",
                         "r": "1.4",
                         "fill": "#fff",
                         "fill-opacity": ".2"
@@ -1298,8 +1313,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "46",
-                        "cy": "66",
+                        "cx": "30",
+                        "cy": "49",
                         "r": "1.1",
                         "fill": "#fff",
                         "fill-opacity": ".16"
@@ -1336,8 +1351,8 @@
                           "name": "circle",
                           "type": "element",
                           "attributes": {
-                            "cx": "50",
-                            "cy": "50",
+                            "cx": "34",
+                            "cy": "33",
                             "r": "30"
                           }
                         }
@@ -1356,7 +1371,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M56.7 44c0 1.3-.2 2.6-.5 3.8-.4 1.2-.8 2.6-1.6 3.5s-2.1 1.6-3.3 2c-1.2.3-2.8.1-3.9.1s-2-.3-2.9-.1-1.6.9-2.5 1.3c-.9.3-2.1 1-3.1 1-1-.1-2.1-.7-2.7-1.5-.7-.7-.9-2.1-1.3-3-.3-1-.4-1.8-.9-2.5-.6-.7-1.6-1-2.5-1.8s-2.3-1.7-2.9-2.8c-.7-1.1-1.1-2.6-1-3.9.1-1.2.8-2.5 1.4-3.6s1.5-2.2 2.5-3c.9-.9 2-1.8 3.2-2.1s2.8-.3 4 .3c1.2.5 2.5 2 3.3 3s1.1 2.5 1.7 3.1c.5.5.8.5 1.7.3.9-.1 2.3-1 3.7-1.2 1.3-.1 3.2-.1 4.4.4 1.2.6 2.2 1.8 2.7 2.9s.5 2.5.5 3.8M72 61c-.1.7-.5 1.4-.9 1.9s-1.1.9-1.7 1.2c-.5.4-1 .6-1.4.9s-.7.7-1.1 1.1c-.3.5-.6 1.1-1.1 1.5-.5.5-1.1 1.1-1.8 1.4-.7.2-1.5.4-2.3.4-.7 0-1.5-.2-2.3-.5-.7-.3-1.4-.7-2-1.3-.6-.5-1.2-1.2-1.4-2-.3-.7-.4-1.6-.2-2.4s.7-1.6 1.3-2.2c.5-.6 1.3-1 1.9-1.3.5-.4 1-.5 1.3-.9.2-.3.1-.7.2-1.3 0-.7-.2-1.7 0-2.5.2-.9.6-2.1 1.2-2.7.5-.7 1.5-1.2 2.3-1.2.8-.1 1.7.4 2.4.9s1.2 1.4 1.6 2c.5.7.7 1.4 1.1 1.9.4.6.8.9 1.2 1.5.4.5 1 1 1.3 1.6s.5 1.3.4 2",
+                        "d": "M40.7 27c0 1.3-.2 2.6-.5 3.8-.4 1.2-.8 2.6-1.6 3.5s-2.1 1.6-3.3 2c-1.2.3-2.8.1-3.9.1s-2-.3-2.9-.1-1.6.9-2.5 1.3c-.9.3-2.1 1-3.1 1-1-.1-2.1-.7-2.7-1.5-.7-.7-.9-2.1-1.3-3-.3-1-.4-1.8-.9-2.5-.6-.7-1.6-1-2.5-1.8s-2.3-1.7-2.9-2.8c-.7-1.1-1.1-2.6-1-3.9.1-1.2.8-2.5 1.4-3.6s1.5-2.2 2.5-3c.9-.9 2-1.8 3.2-2.1s2.8-.3 4 .3c1.2.5 2.5 2 3.3 3s1.1 2.5 1.7 3.1c.5.5.8.5 1.7.3.9-.1 2.3-1 3.7-1.2 1.3-.1 3.2-.1 4.4.4 1.2.6 2.2 1.8 2.7 2.9s.5 2.5.5 3.8M56 44c-.1.7-.5 1.4-.9 1.9s-1.1.9-1.7 1.2c-.5.4-1 .6-1.4.9s-.7.7-1.1 1.1c-.3.5-.6 1.1-1.1 1.5-.5.5-1.1 1.1-1.8 1.4-.7.2-1.5.4-2.3.4-.7 0-1.5-.2-2.3-.5-.7-.3-1.4-.7-2-1.3-.6-.5-1.2-1.2-1.4-2-.3-.7-.4-1.6-.2-2.4s.7-1.6 1.3-2.2c.5-.6 1.3-1 1.9-1.3.5-.4 1-.5 1.3-.9.2-.3.1-.7.2-1.3 0-.7-.2-1.7 0-2.5.2-.9.6-2.1 1.2-2.7.5-.7 1.5-1.2 2.3-1.2.8-.1 1.7.4 2.4.9s1.2 1.4 1.6 2c.5.7.7 1.4 1.1 1.9.4.6.8.9 1.2 1.5.4.5 1 1 1.3 1.6s.5 1.3.4 2",
                         "fill": "#fff",
                         "fill-opacity": ".26"
                       }
@@ -1365,8 +1380,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "64",
-                        "cy": "36",
+                        "cx": "48",
+                        "cy": "19",
                         "r": "1.7",
                         "fill": "#fff",
                         "fill-opacity": ".26"
@@ -1376,8 +1391,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "69",
-                        "cy": "41",
+                        "cx": "53",
+                        "cy": "24",
                         "r": "1.2",
                         "fill": "#fff",
                         "fill-opacity": ".26"
@@ -1387,8 +1402,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "59",
-                        "cy": "32",
+                        "cx": "43",
+                        "cy": "15",
                         "r": "1.1",
                         "fill": "#fff",
                         "fill-opacity": ".26"
@@ -1398,8 +1413,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "35",
-                        "cy": "66",
+                        "cx": "19",
+                        "cy": "49",
                         "r": "1.4",
                         "fill": "#fff",
                         "fill-opacity": ".26"
@@ -1409,8 +1424,8 @@
                       "name": "ellipse",
                       "type": "element",
                       "attributes": {
-                        "cx": "50",
-                        "cy": "22.5",
+                        "cx": "34",
+                        "cy": "5.5",
                         "rx": "15",
                         "ry": "5.5",
                         "fill": "#fff",
@@ -1421,8 +1436,8 @@
                       "name": "ellipse",
                       "type": "element",
                       "attributes": {
-                        "cx": "50",
-                        "cy": "78",
+                        "cx": "34",
+                        "cy": "61",
                         "rx": "11",
                         "ry": "4.5",
                         "fill": "#fff",
@@ -1460,8 +1475,8 @@
                           "name": "circle",
                           "type": "element",
                           "attributes": {
-                            "cx": "50",
-                            "cy": "50",
+                            "cx": "34",
+                            "cy": "33",
                             "r": "30"
                           }
                         }
@@ -1480,8 +1495,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "31.4",
-                        "cy": "55.7",
+                        "cx": "15.4",
+                        "cy": "38.7",
                         "r": "1.8",
                         "fill": "#fff",
                         "fill-opacity": ".11"
@@ -1491,8 +1506,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "40.5",
-                        "cy": "44.2",
+                        "cx": "24.5",
+                        "cy": "27.2",
                         "r": "1.3",
                         "fill": "#fff",
                         "fill-opacity": ".1"
@@ -1502,8 +1517,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "34.1",
-                        "cy": "33.1",
+                        "cx": "18.1",
+                        "cy": "16.1",
                         "r": ".8",
                         "fill": "#000",
                         "fill-opacity": ".09"
@@ -1513,8 +1528,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "47.4",
-                        "cy": "57.4",
+                        "cx": "31.4",
+                        "cy": "40.4",
                         "r": "1.7",
                         "fill": "#fff",
                         "fill-opacity": ".13"
@@ -1524,8 +1539,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "48.1",
-                        "cy": "45",
+                        "cx": "32.1",
+                        "cy": "28",
                         "r": "1.9",
                         "fill": "#fff",
                         "fill-opacity": ".14"
@@ -1535,8 +1550,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "70.5",
-                        "cy": "45.4",
+                        "cx": "54.5",
+                        "cy": "28.4",
                         "r": "1.4",
                         "fill": "#fff",
                         "fill-opacity": ".14"
@@ -1546,8 +1561,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "51.7",
-                        "cy": "52.7",
+                        "cx": "35.7",
+                        "cy": "35.7",
                         "r": "1.3",
                         "fill": "#fff",
                         "fill-opacity": ".13"
@@ -1557,8 +1572,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "60.6",
-                        "cy": "54.1",
+                        "cx": "44.6",
+                        "cy": "37.1",
                         "r": "1",
                         "fill": "#fff",
                         "fill-opacity": ".12"
@@ -1568,8 +1583,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "67.4",
-                        "cy": "53.3",
+                        "cx": "51.4",
+                        "cy": "36.3",
                         "r": "1.2",
                         "fill": "#000",
                         "fill-opacity": ".12"
@@ -1579,8 +1594,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "60.3",
-                        "cy": "34.3",
+                        "cx": "44.3",
+                        "cy": "17.3",
                         "r": "1.5",
                         "fill": "#fff",
                         "fill-opacity": ".15"
@@ -1590,8 +1605,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "28.8",
-                        "cy": "50",
+                        "cx": "12.8",
+                        "cy": "33",
                         "r": "1.2",
                         "fill": "#fff",
                         "fill-opacity": ".12"
@@ -1601,8 +1616,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "45.4",
-                        "cy": "75.6",
+                        "cx": "29.4",
+                        "cy": "58.6",
                         "r": "1.9",
                         "fill": "#000",
                         "fill-opacity": ".11"
@@ -1612,8 +1627,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "45",
-                        "cy": "61.4",
+                        "cx": "29",
+                        "cy": "44.4",
                         "r": "1",
                         "fill": "#fff",
                         "fill-opacity": ".16"
@@ -1623,8 +1638,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "70.6",
-                        "cy": "59.7",
+                        "cx": "54.6",
+                        "cy": "42.7",
                         "r": "1.2",
                         "fill": "#fff",
                         "fill-opacity": ".12"
@@ -1634,8 +1649,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "61.9",
-                        "cy": "50",
+                        "cx": "45.9",
+                        "cy": "33",
                         "r": "1.8",
                         "fill": "#000",
                         "fill-opacity": ".1"
@@ -1645,8 +1660,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "24.7",
-                        "cy": "54.8",
+                        "cx": "8.7",
+                        "cy": "37.8",
                         "r": "1.2",
                         "fill": "#fff",
                         "fill-opacity": ".1"
@@ -1656,8 +1671,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "52.4",
-                        "cy": "36.7",
+                        "cx": "36.4",
+                        "cy": "19.7",
                         "r": ".8",
                         "fill": "#fff",
                         "fill-opacity": ".13"
@@ -1667,8 +1682,8 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "37.3",
-                        "cy": "72.2",
+                        "cx": "21.3",
+                        "cy": "55.2",
                         "r": "1.6",
                         "fill": "#fff",
                         "fill-opacity": ".14"
@@ -1860,7 +1875,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbpa-fastest){--dbpa-t:0.75;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
+                  "value": "svg:has(.dbpa-fastest){--dbpa-t:0.75;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:34px 33px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:29px 29px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
                 }
               ]
             }
@@ -1885,7 +1900,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbpa-fast){--dbpa-t:0.9;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
+                  "value": "svg:has(.dbpa-fast){--dbpa-t:0.9;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:34px 33px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:29px 29px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
                 }
               ]
             }
@@ -1910,7 +1925,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbpa-medium){--dbpa-t:1;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
+                  "value": "svg:has(.dbpa-medium){--dbpa-t:1;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:34px 33px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:29px 29px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
                 }
               ]
             }
@@ -1935,7 +1950,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbpa-slow){--dbpa-t:1.15;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
+                  "value": "svg:has(.dbpa-slow){--dbpa-t:1.15;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:34px 33px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:29px 29px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
                 }
               ]
             }
@@ -1960,7 +1975,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "svg:has(.dbpa-slowest){--dbpa-t:1.35;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:50px 50px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
+                  "value": "svg:has(.dbpa-slowest){--dbpa-t:1.35;--dbpa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpaSpin{to{transform:rotate(360deg)}} @keyframes dbpaTw{0%,100%{opacity:1}50%{opacity:.3}} .dbpa-surface{transform-origin:34px 33px;animation:dbpaSpin calc(var(--dbpa-t,1)*100s) linear infinite} .dbpa-moons{transform-origin:29px 29px;animation:dbpaSpin calc(var(--dbpa-t,1)*42s) linear infinite} .dbpa-tw-medium{animation:dbpaTw calc(var(--dbpa-t,1)*5.2s) ease-in-out infinite calc(var(--dbpa-t,1)*2s)} .dbpa-tw-large{animation:dbpaTw calc(var(--dbpa-t,1)*3.7s) ease-in-out infinite calc(var(--dbpa-t,1)*2.7s)} .dbpa-tw-sparkle{animation:dbpaTw calc(var(--dbpa-t,1)*2.8s) ease-in-out infinite calc(var(--dbpa-t,1)*1.4s)}.dbpa-surface,.dbpa-moons,.dbpa-tw-medium,.dbpa-tw-large,.dbpa-tw-sparkle{animation-play-state:var(--dbpa-p,paused)}}"
                 }
               ]
             }

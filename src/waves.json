@@ -128,7 +128,7 @@
                       "name": "layer01",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 -22)"
+                        "transform": "translate(-50 8)"
                       }
                     }
                   ]
@@ -153,7 +153,7 @@
                       "name": "layer02",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 2)"
+                        "transform": "translate(-50 32)"
                       }
                     }
                   ]
@@ -178,7 +178,7 @@
                       "name": "layer03",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 26)"
+                        "transform": "translate(-50 56)"
                       }
                     }
                   ]
@@ -207,7 +207,7 @@
                       "name": "layer01",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 -30)"
+                        "transform": "translate(-50)"
                       }
                     }
                   ]
@@ -232,7 +232,7 @@
                       "name": "layer02",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 -8)"
+                        "transform": "translate(-50 22)"
                       }
                     }
                   ]
@@ -257,7 +257,7 @@
                       "name": "layer03",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 14)"
+                        "transform": "translate(-50 44)"
                       }
                     }
                   ]
@@ -282,7 +282,7 @@
                       "name": "layer04",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 36)"
+                        "transform": "translate(-50 66)"
                       }
                     }
                   ]
@@ -312,7 +312,7 @@
                       "name": "layer01",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 -30)"
+                        "transform": "translate(-50)"
                       }
                     }
                   ]
@@ -337,7 +337,7 @@
                       "name": "layer02",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 -13)"
+                        "transform": "translate(-50 17)"
                       }
                     }
                   ]
@@ -362,7 +362,7 @@
                       "name": "layer03",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 4)"
+                        "transform": "translate(-50 34)"
                       }
                     }
                   ]
@@ -387,7 +387,7 @@
                       "name": "layer04",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 21)"
+                        "transform": "translate(-50 51)"
                       }
                     }
                   ]
@@ -412,7 +412,7 @@
                       "name": "layer05",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 38)"
+                        "transform": "translate(-50 68)"
                       }
                     }
                   ]
@@ -442,7 +442,7 @@
                       "name": "layer01",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 -30)"
+                        "transform": "translate(-50)"
                       }
                     }
                   ]
@@ -467,7 +467,7 @@
                       "name": "layer02",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 -16)"
+                        "transform": "translate(-50 14)"
                       }
                     }
                   ]
@@ -492,7 +492,7 @@
                       "name": "layer03",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 -2)"
+                        "transform": "translate(-50 28)"
                       }
                     }
                   ]
@@ -517,7 +517,7 @@
                       "name": "layer04",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 12)"
+                        "transform": "translate(-50 42)"
                       }
                     }
                   ]
@@ -542,7 +542,7 @@
                       "name": "layer05",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 26)"
+                        "transform": "translate(-50 56)"
                       }
                     }
                   ]
@@ -567,7 +567,7 @@
                       "name": "layer06",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(-50 40)"
+                        "transform": "translate(-50 70)"
                       }
                     }
                   ]
@@ -580,15 +580,15 @@
     },
     "layer": {
       "width": 200,
-      "height": 160,
+      "height": 130,
       "translate": {
         "x": {
           "min": -12,
           "max": 12
         },
         "y": {
-          "min": -3,
-          "max": 3
+          "min": -3.6923,
+          "max": 3.6923
         }
       },
       "variants": {
@@ -598,7 +598,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 46c28 0 52-6 84-5s72 10 116 5v114H0Z",
+                "d": "M0 16c28 0 52-6 84-5s72 10 116 5v114H0Z",
                 "fill": {
                   "type": "color",
                   "name": "wave"
@@ -613,7 +613,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 38c12 0 23 16 35 16s23-16 35-16 23 16 35 16 23-16 35-16 23 16 35 16c8 0 17-8 25-10v116H0Z",
+                "d": "M0 8c12 0 23 16 35 16S58 8 70 8s23 16 35 16 23-16 35-16 23 16 35 16c8 0 17-8 25-10v116H0Z",
                 "fill": {
                   "type": "color",
                   "name": "wave"
@@ -628,7 +628,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 54c25 0 35-24 62-24 22 0 34 20 56 22 18 1 30-10 48-10 12 0 24 6 34 8v110H0Z",
+                "d": "M0 24C25 24 35 0 62 0c22 0 34 20 56 22 18 1 30-10 48-10 12 0 24 6 34 8v110H0Z",
                 "fill": {
                   "type": "color",
                   "name": "wave"
@@ -643,7 +643,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 42c6 0 12 10 18 10s12-10 18-10 12 10 18 10 12-10 18-10 12 10 18 10 12-10 18-10 12 10 18 10 12-10 18-10 12 10 18 10 12-10 18-10 12 6 20 5v113H0Z",
+                "d": "M0 12c6 0 12 10 18 10s12-10 18-10 12 10 18 10 12-10 18-10 12 10 18 10 12-10 18-10 12 10 18 10 12-10 18-10 12 10 18 10 12-10 18-10 12 6 20 5v113H0Z",
                 "fill": {
                   "type": "color",
                   "name": "wave"
@@ -658,7 +658,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 36c24 0 44 4 62 14 16 8 34 8 52 2 20-7 38-12 54-12 12 0 24 4 32 6v114H0Z",
+                "d": "M0 6c24 0 44 4 62 14 16 8 34 8 52 2 20-7 38-12 54-12 12 0 24 4 32 6v114H0Z",
                 "fill": {
                   "type": "color",
                   "name": "wave"
