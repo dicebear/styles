@@ -235,6 +235,14 @@ the following list or in the individual files.
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                                |
 |  Source | [Miniavs - Free Avatar Creator](https://www.figma.com/community/file/923211396597067458) |
 
+## Moods
+
+|    File | [src/moods.json](./src/moods.json)                            |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Moods](https://www.dicebear.com)                             |
+
 ## Notionists Neutral
 
 |    File | [src/notionists-neutral.json](./src/notionists-neutral.json)  |

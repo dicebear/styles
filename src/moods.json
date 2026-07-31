@@ -1,0 +1,2141 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$comment": "Handcrafted definition. Manually maintained, not a Figma export. Includes an opt-in animation component (`animationVariant`).",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Moods” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Moods",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "face",
+        "type": "component"
+      },
+      {
+        "name": "cheeks",
+        "type": "component"
+      },
+      {
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "class": "dbmo-eyes"
+        },
+        "children": [
+          {
+            "name": "eyes",
+            "type": "component"
+          }
+        ]
+      },
+      {
+        "name": "mouth",
+        "type": "component"
+      },
+      {
+        "name": "animation",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "face": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "circle": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M13 54.5a40 40 0 1 0 80 0 40 40 0 1 0-80 0",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbmo-f-circle"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M10 51a40 40 0 1 0 80 0 40 40 0 1 0-80 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 51a40 40 0 1 0 80 0 40 40 0 1 0-80 0",
+                "fill": {
+                  "type": "color",
+                  "name": "face"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbmo-f-circle)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M10 51a40 40 0 1 0 80 0 40 40 0 1 0-80 0m3 3.5a40 40 0 1 0 80 0 40 40 0 1 0-80 0",
+                    "fill": "#ffffff",
+                    "opacity": ".16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M10 51a40 40 0 1 0 80 0 40 40 0 1 0-80 0m-3-3.5a40 40 0 1 0 80 0 40 40 0 1 0-80 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "squircle": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M93 54.5c0 36-4 40-40 40s-40-4-40-40 4-40 40-40 40 4 40 40",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbmo-f-squircle"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M90 51c0 36-4 40-40 40s-40-4-40-40 4-40 40-40 40 4 40 40"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M90 51c0 36-4 40-40 40s-40-4-40-40 4-40 40-40 40 4 40 40",
+                "fill": {
+                  "type": "color",
+                  "name": "face"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbmo-f-squircle)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M90 51c0 36-4 40-40 40s-40-4-40-40 4-40 40-40 40 4 40 40m3 3.5c0 36-4 40-40 40s-40-4-40-40 4-40 40-40 40 4 40 40",
+                    "fill": "#ffffff",
+                    "opacity": ".16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M90 51c0 36-4 40-40 40s-40-4-40-40 4-40 40-40 40 4 40 40m-3-3.5c0 36-4 40-40 40s-40-4-40-40 4-40 40-40 40 4 40 40",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        "softSquare": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38 15.5h30a24 24 0 0 1 24 24v30a24 24 0 0 1-24 24H38a24 24 0 0 1-24-24v-30a24 24 0 0 1 24-24",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbmo-f-softSquare"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M35 12h30a24 24 0 0 1 24 24v30a24 24 0 0 1-24 24H35a24 24 0 0 1-24-24V36a24 24 0 0 1 24-24"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M35 12h30a24 24 0 0 1 24 24v30a24 24 0 0 1-24 24H35a24 24 0 0 1-24-24V36a24 24 0 0 1 24-24",
+                "fill": {
+                  "type": "color",
+                  "name": "face"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbmo-f-softSquare)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M35 12h30a24 24 0 0 1 24 24v30a24 24 0 0 1-24 24H35a24 24 0 0 1-24-24V36a24 24 0 0 1 24-24m3 3.5h30a24 24 0 0 1 24 24v30a24 24 0 0 1-24 24H38a24 24 0 0 1-24-24v-30a24 24 0 0 1 24-24",
+                    "fill": "#ffffff",
+                    "opacity": ".16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M35 12h30a24 24 0 0 1 24 24v30a24 24 0 0 1-24 24H35a24 24 0 0 1-24-24V36a24 24 0 0 1 24-24m-3-3.5h30a24 24 0 0 1 24 24v30a24 24 0 0 1-24 24H32a24 24 0 0 1-24-24v-30a24 24 0 0 1 24-24",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10 54.5a43 37 0 1 0 86 0 43 37 0 1 0-86 0",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbmo-f-wide"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M7 51a43 37 0 1 0 86 0 43 37 0 1 0-86 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 51a43 37 0 1 0 86 0 43 37 0 1 0-86 0",
+                "fill": {
+                  "type": "color",
+                  "name": "face"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbmo-f-wide)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M7 51a43 37 0 1 0 86 0 43 37 0 1 0-86 0m3 3.5a43 37 0 1 0 86 0 43 37 0 1 0-86 0",
+                    "fill": "#ffffff",
+                    "opacity": ".16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M7 51a43 37 0 1 0 86 0 43 37 0 1 0-86 0m-3-3.5a43 37 0 1 0 86 0 43 37 0 1 0-86 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "tall": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M17 54.5a36 41 0 1 0 72 0 36 41 0 1 0-72 0",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbmo-f-tall"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M14 51a36 41 0 1 0 72 0 36 41 0 1 0-72 0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M14 51a36 41 0 1 0 72 0 36 41 0 1 0-72 0",
+                "fill": {
+                  "type": "color",
+                  "name": "face"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbmo-f-tall)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M14 51a36 41 0 1 0 72 0 36 41 0 1 0-72 0m3 3.5a36 41 0 1 0 72 0 36 41 0 1 0-72 0",
+                    "fill": "#ffffff",
+                    "opacity": ".16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M14 51a36 41 0 1 0 72 0 36 41 0 1 0-72 0m-3-3.5a36 41 0 1 0 72 0 36 41 0 1 0-72 0",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "hex": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53 16.5c11 0 27.5 8.33 33 18s5.5 30.33 0 40-22 18-33 18-27.5-8.33-33-18-5.5-30.33 0-40 22-18 33-18",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbmo-f-hex"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 13c11 0 27.5 8.33 33 18s5.5 30.33 0 40-22 18-33 18-27.5-8.33-33-18-5.5-30.33 0-40 22-18 33-18"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 13c11 0 27.5 8.33 33 18s5.5 30.33 0 40-22 18-33 18-27.5-8.33-33-18-5.5-30.33 0-40 22-18 33-18",
+                "fill": {
+                  "type": "color",
+                  "name": "face"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbmo-f-hex)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 13c11 0 27.5 8.33 33 18s5.5 30.33 0 40-22 18-33 18-27.5-8.33-33-18-5.5-30.33 0-40 22-18 33-18m3 3.5c11 0 27.5 8.33 33 18s5.5 30.33 0 40-22 18-33 18-27.5-8.33-33-18-5.5-30.33 0-40 22-18 33-18",
+                    "fill": "#ffffff",
+                    "opacity": ".16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 13c11 0 27.5 8.33 33 18s5.5 30.33 0 40-22 18-33 18-27.5-8.33-33-18-5.5-30.33 0-40 22-18 33-18m-3-3.5c11 0 27.5 8.33 33 18s5.5 30.33 0 40-22 18-33 18-27.5-8.33-33-18-5.5-30.33 0-40 22-18 33-18",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "bean": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M47 20.5c9-5 17.33-5.5 24-3s13 10.67 16 18 4 17.33 2 26-7 21-14 26-19.33 5.67-28 4-19-6.67-24-14-10-20.5-6-30 21-22 30-27",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbmo-f-bean"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M44 17c9-5 17.33-5.5 24-3s13 10.67 16 18 4 17.33 2 26-7 21-14 26-19.33 5.67-28 4-19-6.67-24-14-10-20.5-6-30 21-22 30-27"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M44 17c9-5 17.33-5.5 24-3s13 10.67 16 18 4 17.33 2 26-7 21-14 26-19.33 5.67-28 4-19-6.67-24-14-10-20.5-6-30 21-22 30-27",
+                "fill": {
+                  "type": "color",
+                  "name": "face"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbmo-f-bean)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M44 17c9-5 17.33-5.5 24-3s13 10.67 16 18 4 17.33 2 26-7 21-14 26-19.33 5.67-28 4-19-6.67-24-14-10-20.5-6-30 21-22 30-27m3 3.5c9-5 17.33-5.5 24-3s13 10.67 16 18 4 17.33 2 26-7 21-14 26-19.33 5.67-28 4-19-6.67-24-14-10-20.5-6-30 21-22 30-27",
+                    "fill": "#ffffff",
+                    "opacity": ".16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M44 17c9-5 17.33-5.5 24-3s13 10.67 16 18 4 17.33 2 26-7 21-14 26-19.33 5.67-28 4-19-6.67-24-14-10-20.5-6-30 21-22 30-27m-3-3.5c9-5 17.33-5.5 24-3s13 10.67 16 18 4 17.33 2 26-7 21-14 26-19.33 5.67-28 4-19-6.67-24-14-10-20.5-6-30 21-22 30-27",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "pebble": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55 16.5c8-.33 16.33 1.83 22 7s11.67 15.33 12 24-3.67 20.67-10 28-19 15-28 16-20.33-4-26-10-8.67-16.67-8-26 5.67-23.5 12-30 18-8.67 26-9",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbmo-f-pebble"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M52 13c8-.33 16.33 1.83 22 7s11.67 15.33 12 24-3.67 20.67-10 28-19 15-28 16-20.33-4-26-10-8.67-16.67-8-26 5.67-23.5 12-30 18-8.67 26-9"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M52 13c8-.33 16.33 1.83 22 7s11.67 15.33 12 24-3.67 20.67-10 28-19 15-28 16-20.33-4-26-10-8.67-16.67-8-26 5.67-23.5 12-30 18-8.67 26-9",
+                "fill": {
+                  "type": "color",
+                  "name": "face"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbmo-f-pebble)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M52 13c8-.33 16.33 1.83 22 7s11.67 15.33 12 24-3.67 20.67-10 28-19 15-28 16-20.33-4-26-10-8.67-16.67-8-26 5.67-23.5 12-30 18-8.67 26-9m3 3.5c8-.33 16.33 1.83 22 7s11.67 15.33 12 24-3.67 20.67-10 28-19 15-28 16-20.33-4-26-10-8.67-16.67-8-26 5.67-23.5 12-30 18-8.67 26-9",
+                    "fill": "#ffffff",
+                    "opacity": ".16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M52 13c8-.33 16.33 1.83 22 7s11.67 15.33 12 24-3.67 20.67-10 28-19 15-28 16-20.33-4-26-10-8.67-16.67-8-26 5.67-23.5 12-30 18-8.67 26-9m-3-3.5c8-.33 16.33 1.83 22 7s11.67 15.33 12 24-3.67 20.67-10 28-19 15-28 16-20.33-4-26-10-8.67-16.67-8-26 5.67-23.5 12-30 18-8.67 26-9",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "blob": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53 15.5c9.17-2.67 16 1.33 22 6s12.67 14 14 22-1.33 18-6 26-14 18.67-22 22-18.83 2-26-2-14.5-13.33-17-22-3.83-21.33 2-30 23.83-19.33 33-22",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbmo-f-blob"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 12c9.17-2.67 16 1.33 22 6s12.67 14 14 22-1.33 18-6 26-14 18.67-22 22-18.83 2-26-2-14.5-13.33-17-22-3.83-21.33 2-30 23.83-19.33 33-22"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 12c9.17-2.67 16 1.33 22 6s12.67 14 14 22-1.33 18-6 26-14 18.67-22 22-18.83 2-26-2-14.5-13.33-17-22-3.83-21.33 2-30 23.83-19.33 33-22",
+                "fill": {
+                  "type": "color",
+                  "name": "face"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbmo-f-blob)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 12c9.17-2.67 16 1.33 22 6s12.67 14 14 22-1.33 18-6 26-14 18.67-22 22-18.83 2-26-2-14.5-13.33-17-22-3.83-21.33 2-30 23.83-19.33 33-22m3 3.5c9.17-2.67 16 1.33 22 6s12.67 14 14 22-1.33 18-6 26-14 18.67-22 22-18.83 2-26-2-14.5-13.33-17-22-3.83-21.33 2-30 23.83-19.33 33-22",
+                    "fill": "#ffffff",
+                    "opacity": ".16",
+                    "fill-rule": "evenodd"
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M50 12c9.17-2.67 16 1.33 22 6s12.67 14 14 22-1.33 18-6 26-14 18.67-22 22-18.83 2-26-2-14.5-13.33-17-22-3.83-21.33 2-30 23.83-19.33 33-22m-3-3.5c9.17-2.67 16 1.33 22 6s12.67 14 14 22-1.33 18-6 26-14 18.67-22 22-18.83 2-26-2-14.5-13.33-17-22-3.83-21.33 2-30 23.83-19.33 33-22",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".1",
+                    "fill-rule": "evenodd"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "cheeks": {
+      "width": 100,
+      "height": 100,
+      "probability": 50,
+      "variants": {
+        "blush": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "28.5",
+                "cy": "53",
+                "r": "4.5",
+                "fill": "#ffffff",
+                "opacity": ".3"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "71.5",
+                "cy": "53",
+                "r": "4.5",
+                "fill": "#ffffff",
+                "opacity": ".3"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "eyes": {
+      "width": 100,
+      "height": 100,
+      "translate": {
+        "x": {
+          "min": -1,
+          "max": 1
+        },
+        "y": {
+          "min": -1,
+          "max": 1
+        }
+      },
+      "variants": {
+        "pupils": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ],
+          "weight": 3
+        },
+        "bigPupils": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "7.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "7.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ],
+          "weight": 2
+        },
+        "sparkle": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "4.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "33.56",
+                "cy": "42.56",
+                "r": "1.6",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "4.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "63.56",
+                "cy": "42.56",
+                "r": "1.6",
+                "fill": "#ffffff"
+              }
+            }
+          ],
+          "weight": 2
+        },
+        "small": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "uneven": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "2.6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "tallPupils": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "rx": "4.8",
+                "ry": "6.8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "45.8",
+                "r": "2.8",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "rx": "4.8",
+                "ry": "6.8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "45.8",
+                "r": "2.8",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "lookSide": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "37.4",
+                "cy": "44.6",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "67.4",
+                "cy": "44.6",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "lookDown": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "46.6",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "46.6",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "lookUp": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "41.6",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "41.6",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "happy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M29 46.5q6-7 12 0m18 0q6-7 12 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ],
+          "weight": 2
+        },
+        "closed": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M29 42.5q6 5 12 0m18 0q6 5 12 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "wink": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M59 46.5q6-7 12 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ],
+          "weight": 2
+        },
+        "squint": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m29.5 39.5 11 4.5-11 4.5m41-9-11 4.5 11 4.5",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "sleepy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M28.5 44a6.5 6.5 0 0 0 13 0Z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M31.8 44a3.2 3.2 0 0 0 6.4 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M27.5 44h15",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58.5 44a6.5 6.5 0 0 0 13 0Z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M61.8 44a3.2 3.2 0 0 0 6.4 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M57.5 44h15",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "calm": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M29 41.5a6.5 6.5 0 1 0 12 0Z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "45.2",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M28 41.5h14",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M59 41.5a6.5 6.5 0 1 0 12 0Z",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "45.2",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M58 41.5h14",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "angry": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "35",
+                "cy": "44.5",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m28 35 14 5",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44",
+                "r": "6.5",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "65",
+                "cy": "44.5",
+                "r": "3.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m72 35-14 5",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "4",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 100,
+      "height": 100,
+      "translate": {
+        "x": {
+          "min": -1.5,
+          "max": 1.5
+        },
+        "y": {
+          "min": -2,
+          "max": 2
+        }
+      },
+      "variants": {
+        "smile": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38 61q12 10.5 24 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round"
+              }
+            }
+          ],
+          "weight": 4
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M34.5 60q15.5 13 31 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        "bigSmile": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M39 61a11 11 0 0 0 22 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ],
+          "weight": 3
+        },
+        "smileOpen": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M39.5 60.5a10.5 10.5 0 0 0 21 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M45.5 65.3a4.5 3.8 0 0 0 9 0Z",
+                "fill": "#fb7185"
+              }
+            }
+          ],
+          "weight": 2
+        },
+        "grin": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "40.5",
+                "y": "59",
+                "width": "19",
+                "height": "8.5",
+                "rx": "4.25",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M45.1 59h3.8v3.8h-3.8zm6 0h3.8v3.8h-3.8z",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        },
+        "cat": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38.5 61.5q5.8 5.5 11.5 0 5.8 5.5 11.5 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "smirk": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M43.5 64.5q8 4 15-3",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "open": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "64",
+                "rx": "5.5",
+                "ry": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "gasp": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "63.5",
+                "r": "4.2",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "line": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42 62.5h16",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "frown": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38.5 65.5q11.5-10 23 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "wavy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M39.5 63q3.5-3.5 7 0t7 0 7 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round"
+              }
+            }
+          ]
+        },
+        "tongue": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42.5 60.5q7.5 6.5 15 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M45.8 64a4.2 4.2 0 0 0 8.4 0Z",
+                "fill": "#fb7185"
+              }
+            }
+          ],
+          "weight": 2
+        },
+        "laugh": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38.5 60.5a11.5 11.5 0 0 0 23 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "44",
+                "y": "60.5",
+                "width": "12",
+                "height": "3.2",
+                "rx": "1.6",
+                "fill": "#ffffff"
+              }
+            }
+          ],
+          "weight": 2
+        },
+        "teeth": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "41.5",
+                "y": "58.5",
+                "width": "17",
+                "height": "9.5",
+                "rx": "4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M45.7 58.5h3.5v4h-3.5zm5.1 0h3.5v4h-3.5z",
+                "fill": "#ffffff"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "animation": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "none": {
+          "elements": []
+        },
+        "fastest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbmo-fastest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbmo-fastest){--dbmo-t:0.75;--dbmo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbmoBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbmo-eyes{transform-box:fill-box;transform-origin:center;animation:dbmoBlink calc(var(--dbmo-t,1)*4.6s) linear infinite}.dbmo-eyes{animation-play-state:var(--dbmo-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "animation"
+          ]
+        },
+        "fast": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbmo-fast"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbmo-fast){--dbmo-t:0.9;--dbmo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbmoBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbmo-eyes{transform-box:fill-box;transform-origin:center;animation:dbmoBlink calc(var(--dbmo-t,1)*4.6s) linear infinite}.dbmo-eyes{animation-play-state:var(--dbmo-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "animation"
+          ]
+        },
+        "medium": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbmo-medium"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbmo-medium){--dbmo-t:1;--dbmo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbmoBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbmo-eyes{transform-box:fill-box;transform-origin:center;animation:dbmoBlink calc(var(--dbmo-t,1)*4.6s) linear infinite}.dbmo-eyes{animation-play-state:var(--dbmo-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "animation"
+          ]
+        },
+        "slow": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbmo-slow"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbmo-slow){--dbmo-t:1.15;--dbmo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbmoBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbmo-eyes{transform-box:fill-box;transform-origin:center;animation:dbmoBlink calc(var(--dbmo-t,1)*4.6s) linear infinite}.dbmo-eyes{animation-play-state:var(--dbmo-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "animation"
+          ]
+        },
+        "slowest": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "class": "dbmo-slowest"
+              }
+            },
+            {
+              "name": "style",
+              "type": "element",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "svg:has(.dbmo-slowest){--dbmo-t:1.35;--dbmo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbmoBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbmo-eyes{transform-box:fill-box;transform-origin:center;animation:dbmoBlink calc(var(--dbmo-t,1)*4.6s) linear infinite}.dbmo-eyes{animation-play-state:var(--dbmo-p,paused)}}"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "animation"
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#0369a1",
+        "#1d4ed8",
+        "#4338ca",
+        "#6d28d9",
+        "#a21caf",
+        "#be185d",
+        "#be123c",
+        "#c2410c",
+        "#b45309",
+        "#047857",
+        "#0f766e",
+        "#1e293b"
+      ]
+    },
+    "face": {
+      "values": [
+        "#7dd3fc",
+        "#a5b4fc",
+        "#c4b5fd",
+        "#f0abfc",
+        "#fda4af",
+        "#fca5a5",
+        "#fdba74",
+        "#fcd34d",
+        "#bef264",
+        "#6ee7b9",
+        "#5eead4",
+        "#e2e8f0"
+      ]
+    },
+    "ink": {
+      "values": [
+        "#1e293b"
+      ]
+    }
+  }
+}

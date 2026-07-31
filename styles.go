@@ -128,6 +128,9 @@ var Micah string
 //go:embed src/miniavs.json
 var Miniavs string
 
+//go:embed src/moods.json
+var Moods string
+
 //go:embed src/notionists.json
 var Notionists string
 
@@ -244,6 +247,8 @@ func Get(name string) (string, bool) {
 		return Micah, true
 	case "miniavs":
 		return Miniavs, true
+	case "moods":
+		return Moods, true
 	case "notionists":
 		return Notionists, true
 	case "notionists-neutral":
@@ -318,6 +323,7 @@ func All() []string {
 		"lorelei-neutral",
 		"micah",
 		"miniavs",
+		"moods",
 		"notionists",
 		"notionists-neutral",
 		"open-peeps",

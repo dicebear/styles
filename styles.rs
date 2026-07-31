@@ -130,6 +130,9 @@ pub const MICAH: &str = include_str!("src/micah.json");
 #[cfg(feature = "miniavs")]
 pub const MINIAVS: &str = include_str!("src/miniavs.json");
 
+#[cfg(feature = "moods")]
+pub const MOODS: &str = include_str!("src/moods.json");
+
 #[cfg(feature = "notionists")]
 pub const NOTIONISTS: &str = include_str!("src/notionists.json");
 
@@ -246,6 +249,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "micah" => Some(MICAH),
         #[cfg(feature = "miniavs")]
         "miniavs" => Some(MINIAVS),
+        #[cfg(feature = "moods")]
+        "moods" => Some(MOODS),
         #[cfg(feature = "notionists")]
         "notionists" => Some(NOTIONISTS),
         #[cfg(feature = "notionists-neutral")]
@@ -350,6 +355,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("micah");
     #[cfg(feature = "miniavs")]
     v.push("miniavs");
+    #[cfg(feature = "moods")]
+    v.push("moods");
     #[cfg(feature = "notionists")]
     v.push("notionists");
     #[cfg(feature = "notionists-neutral")]

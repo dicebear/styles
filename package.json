@@ -132,6 +132,10 @@
       "types": "./dist/miniavs.min.json",
       "default": "./dist/miniavs.min.json"
     },
+    "./moods.json": {
+      "types": "./dist/moods.min.json",
+      "default": "./dist/moods.min.json"
+    },
     "./notionists-neutral.json": {
       "types": "./dist/notionists-neutral.min.json",
       "default": "./dist/notionists-neutral.min.json"

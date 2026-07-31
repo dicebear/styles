@@ -57,6 +57,7 @@ all = [
   "lorelei-neutral",
   "micah",
   "miniavs",
+  "moods",
   "notionists",
   "notionists-neutral",
   "open-peeps",
@@ -107,6 +108,7 @@ lorelei = []
 lorelei-neutral = []
 micah = []
 miniavs = []
+moods = []
 notionists = []
 notionists-neutral = []
 open-peeps = []

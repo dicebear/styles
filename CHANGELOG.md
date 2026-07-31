@@ -24,6 +24,12 @@ Versions track the DiceBear release line.
   tag, so the `tags` render option can switch the animation on (`animation`, at
   a random speed per seed) or keep it off (`!animation`). The static default
   variant carries no tag.
+- **New style: Moods.** A lovable character face for product UIs: a big pastel
+  face shape on a deep background, drawn with the shared depth system (cast
+  shadow, light and dark rims). Nine silhouettes, sixteen eye sets (every open
+  eye a white eyeball with an ink pupil), and fifteen thick rounded mouths,
+  plus blush cheeks on half the seeds. The smiling variants have higher
+  weights. When animated, it blinks. Hand-authored, CC0 1.0.
 - **New style: Critters.** A small bug-like creature in shaded pastel on a deep
   background: fourteen bodies, nineteen eye sets, nineteen mouths, and usually
   an attachment in a second pastel. When animated, it bobs, blinks, and its
