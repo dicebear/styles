@@ -63,7 +63,7 @@ echo "Generate LICENSE.md"
 cat > "$LICENSE_FILE" << 'EOF'
 # License
 
-The avatar styles are subject to different licences. You can find the licence in
+The avatar styles are subject to different licenses. You can find the license in
 the following list or in the individual files.
 EOF
 
