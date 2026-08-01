@@ -12,6 +12,20 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Changed
+
+- **Moods, Landscape, Clay, Critters:** Renamed five variants whose names read
+  as something else out of context. In `moods`, `face: hex` is now `hexagon`,
+  which is also what `disco` and `shape-grid` call that shape. In `landscape`,
+  `orb: halo` is now `glow`. The crossed and diverging eyes now say which way
+  the pupils point instead of borrowing clinical terms: `clay` `eyes: cross`
+  and `eyes: walleyed` became `inward` and `outward`, and `critters`
+  `eyes: crossEyed` became `inward`. All four styles are release candidates and
+  no stable release ever shipped the old names. Because the variant pool is
+  drawn in alphabetical order, the rename moves these variants within their
+  pool, so a seed in one of these styles can render differently than it did in
+  the previous release candidate.
+
 ## [10.3.0-rc.3] - 2026-07-31
 
 ### Added

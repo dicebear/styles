@@ -2930,7 +2930,7 @@
             }
           ]
         },
-        "crossEyed": {
+        "inward": {
           "elements": [
             {
               "name": "g",

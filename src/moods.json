@@ -478,7 +478,7 @@
             }
           ]
         },
-        "hex": {
+        "hexagon": {
           "elements": [
             {
               "name": "path",
@@ -500,7 +500,7 @@
                   "name": "clipPath",
                   "type": "element",
                   "attributes": {
-                    "id": "dbmo-f-hex"
+                    "id": "dbmo-f-hexagon"
                   },
                   "children": [
                     {
@@ -529,7 +529,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "clip-path": "url(#dbmo-f-hex)"
+                "clip-path": "url(#dbmo-f-hexagon)"
               },
               "children": [
                 {

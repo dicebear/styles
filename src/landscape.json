@@ -136,7 +136,7 @@
             }
           ]
         },
-        "halo": {
+        "glow": {
           "weight": 2,
           "elements": [
             {

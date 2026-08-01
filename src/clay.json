@@ -3338,7 +3338,7 @@
             }
           ]
         },
-        "walleyed": {
+        "outward": {
           "elements": [
             {
               "name": "circle",
@@ -3456,7 +3456,7 @@
             }
           ]
         },
-        "cross": {
+        "inward": {
           "elements": [
             {
               "name": "circle",
