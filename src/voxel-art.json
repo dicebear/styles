@@ -352,6 +352,30 @@
             "type": "component"
           },
           {
+            "name": "rect",
+            "type": "element",
+            "attributes": {
+              "x": "32.5",
+              "y": "85.7",
+              "width": "7",
+              "height": "22.5",
+              "fill": "#000000",
+              "fill-opacity": ".08"
+            }
+          },
+          {
+            "name": "rect",
+            "type": "element",
+            "attributes": {
+              "x": "80",
+              "y": "85.7",
+              "width": "7.5",
+              "height": "22.5",
+              "fill": "#000000",
+              "fill-opacity": ".08"
+            }
+          },
+          {
             "name": "path",
             "type": "element",
             "attributes": {
