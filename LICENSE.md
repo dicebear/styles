@@ -395,6 +395,14 @@ the following list or in the individual files.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Voxel Art](https://www.dicebear.com)                         |
 
+## Voxel Bot
+
+|    File | [src/voxel-bot.json](./src/voxel-bot.json)                    |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Voxel Bot](https://www.dicebear.com)                         |
+
 ## Waves
 
 |    File | [src/waves.json](./src/waves.json)                            |

@@ -212,6 +212,10 @@
       "types": "./dist/voxel-art.min.json",
       "default": "./dist/voxel-art.min.json"
     },
+    "./voxel-bot.json": {
+      "types": "./dist/voxel-bot.min.json",
+      "default": "./dist/voxel-bot.min.json"
+    },
     "./waves.json": {
       "types": "./dist/waves.min.json",
       "default": "./dist/waves.min.json"

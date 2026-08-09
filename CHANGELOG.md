@@ -14,6 +14,13 @@ Versions track the DiceBear release line.
 
 ### Added
 
+- **New style: Voxel Bot.** The robot sibling of Voxel Art, built on the same
+  voxel projection: a pastel shell, a dark faceplate with glowing LED eyes
+  and mouth, gripper hands, chest panels from heart to cassette slot, and
+  antennas from a radar dish to a siren. The LED color never repeats the
+  shell color. When animated, the eyes power off briefly, the upper body
+  jolts up by one voxel, and the head extends one more off the neck.
+  Hand-authored, CC0 1.0.
 - **New style: Voxel Art.** A chibi character built from voxels, seen almost
   head-on with the depth receding up and to the right. 76 variants across ten
   components, from a deep long-hair pool over animal-ear hoods to outfits with
