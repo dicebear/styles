@@ -208,6 +208,10 @@
       "types": "./dist/triangles.min.json",
       "default": "./dist/triangles.min.json"
     },
+    "./voxel-art.json": {
+      "types": "./dist/voxel-art.min.json",
+      "default": "./dist/voxel-art.min.json"
+    },
     "./waves.json": {
       "types": "./dist/waves.min.json",
       "default": "./dist/waves.min.json"

@@ -76,6 +76,7 @@ all = [
   "thumbs",
   "toon-head",
   "triangles",
+  "voxel-art",
   "waves",
   "weave",
 ]
@@ -129,5 +130,6 @@ stripes = []
 thumbs = []
 toon-head = []
 triangles = []
+voxel-art = []
 waves = []
 weave = []

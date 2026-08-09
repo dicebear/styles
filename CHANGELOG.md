@@ -12,6 +12,15 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Added
+
+- **New style: Voxel Art.** A chibi character built from voxels, seen almost
+  head-on with the depth receding up and to the right. 76 variants across ten
+  components, from a deep long-hair pool over animal-ear hoods to outfits with
+  checkered jackets and dresses. When animated, the eyes blink and the upper
+  body jolts up by one voxel while the feet stay planted. Hand-authored,
+  CC0 1.0.
+
 ## [10.3.0] - 2026-08-01
 
 ### Changed

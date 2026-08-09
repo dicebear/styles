@@ -185,6 +185,9 @@ var ToonHead string
 //go:embed src/triangles.json
 var Triangles string
 
+//go:embed src/voxel-art.json
+var VoxelArt string
+
 //go:embed src/waves.json
 var Waves string
 
@@ -291,6 +294,8 @@ func Get(name string) (string, bool) {
 		return ToonHead, true
 	case "triangles":
 		return Triangles, true
+	case "voxel-art":
+		return VoxelArt, true
 	case "waves":
 		return Waves, true
 	case "weave":
@@ -352,6 +357,7 @@ func All() []string {
 		"thumbs",
 		"toon-head",
 		"triangles",
+		"voxel-art",
 		"waves",
 		"weave",
 	}

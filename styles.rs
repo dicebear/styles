@@ -187,6 +187,9 @@ pub const TOON_HEAD: &str = include_str!("src/toon-head.json");
 #[cfg(feature = "triangles")]
 pub const TRIANGLES: &str = include_str!("src/triangles.json");
 
+#[cfg(feature = "voxel-art")]
+pub const VOXEL_ART: &str = include_str!("src/voxel-art.json");
+
 #[cfg(feature = "waves")]
 pub const WAVES: &str = include_str!("src/waves.json");
 
@@ -293,6 +296,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "toon-head" => Some(TOON_HEAD),
         #[cfg(feature = "triangles")]
         "triangles" => Some(TRIANGLES),
+        #[cfg(feature = "voxel-art")]
+        "voxel-art" => Some(VOXEL_ART),
         #[cfg(feature = "waves")]
         "waves" => Some(WAVES),
         #[cfg(feature = "weave")]
@@ -403,6 +408,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("toon-head");
     #[cfg(feature = "triangles")]
     v.push("triangles");
+    #[cfg(feature = "voxel-art")]
+    v.push("voxel-art");
     #[cfg(feature = "waves")]
     v.push("waves");
     #[cfg(feature = "weave")]
