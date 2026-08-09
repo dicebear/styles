@@ -22,7 +22,7 @@
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M33 124.8L83 124.8L93.5 116.4L43.5 116.4Z",
+          "d": "M33 124.8h50l10.5-8.4h-50Z",
           "fill": "#000000",
           "fill-opacity": ".08"
         }
@@ -31,7 +31,7 @@
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M36 119.4L56 119.4L56 124.4L36 124.4ZM36 119.4L56 119.4L64.5 112.6L44.5 112.6ZM56 119.4L64.5 112.6L64.5 117.6L56 124.4Z",
+          "d": "M36 119.4h20v5H36Zm0 0h20l8.5-6.8h-20Zm20 0 8.5-6.8v5l-8.5 6.8Z",
           "fill": {
             "type": "color",
             "name": "accent"
@@ -42,25 +42,25 @@
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M36 119.4L56 119.4L64.5 112.6L44.5 112.6Z",
+          "d": "M36 119.4h20l8.5-6.8h-20Z",
           "fill": "#ffffff",
-          "fill-opacity": "0.38"
+          "fill-opacity": ".38"
         }
       },
       {
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M56 119.4L64.5 112.6L64.5 117.6L56 124.4Z",
+          "d": "m56 119.4 8.5-6.8v5l-8.5 6.8Z",
           "fill": "#000000",
-          "fill-opacity": "0.24"
+          "fill-opacity": ".24"
         }
       },
       {
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M61 119.4L81 119.4L81 124.4L61 124.4ZM61 119.4L81 119.4L89.5 112.6L69.5 112.6ZM81 119.4L89.5 112.6L89.5 117.6L81 124.4Z",
+          "d": "M61 119.4h20v5H61Zm0 0h20l8.5-6.8h-20Zm20 0 8.5-6.8v5l-8.5 6.8Z",
           "fill": {
             "type": "color",
             "name": "accent"
@@ -71,25 +71,25 @@
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M61 119.4L81 119.4L89.5 112.6L69.5 112.6Z",
+          "d": "M61 119.4h20l8.5-6.8h-20Z",
           "fill": "#ffffff",
-          "fill-opacity": "0.38"
+          "fill-opacity": ".38"
         }
       },
       {
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M81 119.4L89.5 112.6L89.5 117.6L81 124.4Z",
+          "d": "m81 119.4 8.5-6.8v5l-8.5 6.8Z",
           "fill": "#000000",
-          "fill-opacity": "0.24"
+          "fill-opacity": ".24"
         }
       },
       {
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M44.5 101.1L54.5 101.1L54.5 118.6L44.5 118.6ZM44.5 101.1L54.5 101.1L61.5 95.5L51.5 95.5ZM54.5 101.1L61.5 95.5L61.5 113L54.5 118.6Z",
+          "d": "M44.5 101.1h10v17.5h-10Zm0 0h10l7-5.6h-10Zm10 0 7-5.6V113l-7 5.6Z",
           "fill": {
             "type": "color",
             "name": "accent"
@@ -100,25 +100,25 @@
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M44.5 101.1L54.5 101.1L61.5 95.5L51.5 95.5Z",
+          "d": "M44.5 101.1h10l7-5.6h-10Z",
           "fill": "#ffffff",
-          "fill-opacity": "0.38"
+          "fill-opacity": ".38"
         }
       },
       {
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M54.5 101.1L61.5 95.5L61.5 113L54.5 118.6Z",
+          "d": "m54.5 101.1 7-5.6V113l-7 5.6Z",
           "fill": "#000000",
-          "fill-opacity": "0.24"
+          "fill-opacity": ".24"
         }
       },
       {
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M64.5 101.1L74.5 101.1L74.5 118.6L64.5 118.6ZM64.5 101.1L74.5 101.1L81.5 95.5L71.5 95.5ZM74.5 101.1L81.5 95.5L81.5 113L74.5 118.6Z",
+          "d": "M64.5 101.1h10v17.5h-10Zm0 0h10l7-5.6h-10Zm10 0 7-5.6V113l-7 5.6Z",
           "fill": {
             "type": "color",
             "name": "accent"
@@ -129,18 +129,18 @@
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M64.5 101.1L74.5 101.1L81.5 95.5L71.5 95.5Z",
+          "d": "M64.5 101.1h10l7-5.6h-10Z",
           "fill": "#ffffff",
-          "fill-opacity": "0.38"
+          "fill-opacity": ".38"
         }
       },
       {
         "name": "path",
         "type": "element",
         "attributes": {
-          "d": "M74.5 101.1L81.5 95.5L81.5 113L74.5 118.6Z",
+          "d": "m74.5 101.1 7-5.6V113l-7 5.6Z",
           "fill": "#000000",
-          "fill-opacity": "0.24"
+          "fill-opacity": ".24"
         }
       },
       {
@@ -154,7 +154,7 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M32.5 105.7L35 105.7L35 113.2L32.5 113.2ZM32.5 105.7L35 105.7L41 100.9L38.5 100.9ZM35 105.7L41 100.9L41 108.4L35 113.2Z",
+              "d": "M32.5 105.7H35v7.5h-2.5Zm0 0H35l6-4.8h-2.5Zm2.5 0 6-4.8v7.5l-6 4.8Z",
               "fill": {
                 "type": "color",
                 "name": "accent"
@@ -165,25 +165,25 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M32.5 105.7L35 105.7L41 100.9L38.5 100.9Z",
+              "d": "M32.5 105.7H35l6-4.8h-2.5Z",
               "fill": "#ffffff",
-              "fill-opacity": "0.38"
+              "fill-opacity": ".38"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M35 105.7L41 100.9L41 108.4L35 113.2Z",
+              "d": "m35 105.7 6-4.8v7.5l-6 4.8Z",
               "fill": "#000000",
-              "fill-opacity": "0.24"
+              "fill-opacity": ".24"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M37.5 105.7L40 105.7L40 113.2L37.5 113.2ZM37.5 105.7L40 105.7L46 100.9L43.5 100.9ZM40 105.7L46 100.9L46 108.4L40 113.2Z",
+              "d": "M37.5 105.7H40v7.5h-2.5Zm0 0H40l6-4.8h-2.5Zm2.5 0 6-4.8v7.5l-6 4.8Z",
               "fill": {
                 "type": "color",
                 "name": "accent"
@@ -194,25 +194,25 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M37.5 105.7L40 105.7L46 100.9L43.5 100.9Z",
+              "d": "M37.5 105.7H40l6-4.8h-2.5Z",
               "fill": "#ffffff",
-              "fill-opacity": "0.38"
+              "fill-opacity": ".38"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M40 105.7L46 100.9L46 108.4L40 113.2Z",
+              "d": "m40 105.7 6-4.8v7.5l-6 4.8Z",
               "fill": "#000000",
-              "fill-opacity": "0.24"
+              "fill-opacity": ".24"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M32.5 85.7L40 85.7L40 105.7L32.5 105.7ZM32.5 85.7L40 85.7L46 80.9L38.5 80.9Z",
+              "d": "M32.5 85.7H40v20h-7.5Zm0 0H40l6-4.8h-7.5Z",
               "fill": {
                 "type": "color",
                 "name": "body"
@@ -223,16 +223,16 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M32.5 85.7L40 85.7L46 80.9L38.5 80.9Z",
+              "d": "M32.5 85.7H40l6-4.8h-7.5Z",
               "fill": "#ffffff",
-              "fill-opacity": "0.38"
+              "fill-opacity": ".38"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M32.5 85.7L40 85.7L46 80.9L38.5 80.9Z",
+              "d": "M32.5 85.7H40l6-4.8h-7.5Z",
               "fill": "#000000",
               "fill-opacity": ".2"
             }
@@ -241,7 +241,7 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M39.5 83.6L79.5 83.6L79.5 106.1L39.5 106.1ZM39.5 83.6L79.5 83.6L86.5 78L46.5 78ZM79.5 83.6L86.5 78L86.5 100.5L79.5 106.1Z",
+              "d": "M39.5 83.6h40v22.5h-40Zm0 0h40l7-5.6h-40Zm40 0 7-5.6v22.5l-7 5.6Z",
               "fill": {
                 "type": "color",
                 "name": "body"
@@ -252,37 +252,34 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M39.5 83.6L79.5 83.6L86.5 78L46.5 78Z",
+              "d": "M39.5 83.6h40l7-5.6h-40Z",
               "fill": "#ffffff",
-              "fill-opacity": "0.38"
+              "fill-opacity": ".38"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M79.5 83.6L86.5 78L86.5 100.5L79.5 106.1Z",
+              "d": "m79.5 83.6 7-5.6v22.5l-7 5.6Z",
               "fill": "#000000",
-              "fill-opacity": "0.24"
-            }
-          },
-          {
-            "name": "rect",
-            "type": "element",
-            "attributes": {
-              "x": "39.5",
-              "y": "106.1",
-              "width": "40",
-              "height": "1.5",
-              "fill": "#000000",
-              "fill-opacity": ".16"
+              "fill-opacity": ".24"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M80 105.7L82.5 105.7L82.5 113.2L80 113.2ZM80 105.7L82.5 105.7L88.5 100.9L86 100.9ZM82.5 105.7L88.5 100.9L88.5 108.4L82.5 113.2Z",
+              "fill": "#000000",
+              "fill-opacity": ".16",
+              "d": "M39.5 106.1h40v1.5h-40z"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "d": "M80 105.7h2.5v7.5H80Zm0 0h2.5l6-4.8H86Zm2.5 0 6-4.8v7.5l-6 4.8Z",
               "fill": {
                 "type": "color",
                 "name": "accent"
@@ -293,25 +290,25 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M80 105.7L82.5 105.7L88.5 100.9L86 100.9Z",
+              "d": "M80 105.7h2.5l6-4.8H86Z",
               "fill": "#ffffff",
-              "fill-opacity": "0.38"
+              "fill-opacity": ".38"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M82.5 105.7L88.5 100.9L88.5 108.4L82.5 113.2Z",
+              "d": "m82.5 105.7 6-4.8v7.5l-6 4.8Z",
               "fill": "#000000",
-              "fill-opacity": "0.24"
+              "fill-opacity": ".24"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M85 105.7L87.5 105.7L87.5 113.2L85 113.2ZM85 105.7L87.5 105.7L93.5 100.9L91 100.9ZM87.5 105.7L93.5 100.9L93.5 108.4L87.5 113.2Z",
+              "d": "M85 105.7h2.5v7.5H85Zm0 0h2.5l6-4.8H91Zm2.5 0 6-4.8v7.5l-6 4.8Z",
               "fill": {
                 "type": "color",
                 "name": "accent"
@@ -322,25 +319,25 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M85 105.7L87.5 105.7L93.5 100.9L91 100.9Z",
+              "d": "M85 105.7h2.5l6-4.8H91Z",
               "fill": "#ffffff",
-              "fill-opacity": "0.38"
+              "fill-opacity": ".38"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M87.5 105.7L93.5 100.9L93.5 108.4L87.5 113.2Z",
+              "d": "m87.5 105.7 6-4.8v7.5l-6 4.8Z",
               "fill": "#000000",
-              "fill-opacity": "0.24"
+              "fill-opacity": ".24"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M80 85.7L87.5 85.7L87.5 105.7L80 105.7ZM80 85.7L87.5 85.7L93.5 80.9L86 80.9ZM87.5 85.7L93.5 80.9L93.5 100.9L87.5 105.7Z",
+              "d": "M80 85.7h7.5v20H80Zm0 0h7.5l6-4.8H86Zm7.5 0 6-4.8v20l-6 4.8Z",
               "fill": {
                 "type": "color",
                 "name": "body"
@@ -351,42 +348,27 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M80 85.7L87.5 85.7L93.5 80.9L86 80.9Z",
+              "d": "M80 85.7h7.5l6-4.8H86Z",
               "fill": "#ffffff",
-              "fill-opacity": "0.38"
+              "fill-opacity": ".38"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M87.5 85.7L93.5 80.9L93.5 100.9L87.5 105.7Z",
+              "d": "m87.5 85.7 6-4.8v20l-6 4.8Z",
               "fill": "#000000",
-              "fill-opacity": "0.24"
+              "fill-opacity": ".24"
             }
           },
           {
-            "name": "rect",
+            "name": "path",
             "type": "element",
             "attributes": {
-              "x": "32.5",
-              "y": "85.7",
-              "width": "7",
-              "height": "20",
               "fill": "#000000",
-              "fill-opacity": ".08"
-            }
-          },
-          {
-            "name": "rect",
-            "type": "element",
-            "attributes": {
-              "x": "80",
-              "y": "85.7",
-              "width": "7.5",
-              "height": "20",
-              "fill": "#000000",
-              "fill-opacity": ".08"
+              "fill-opacity": ".08",
+              "d": "M32.5 85.7h7v20h-7zm47.5 0h7.5v20H80z"
             }
           },
           {
@@ -397,7 +379,7 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M39.5 83.6L79.5 83.6L86.5 78L46.5 78Z",
+              "d": "M39.5 83.6h40l7-5.6h-40ZM80 85.7h7.5l6-4.8H86Z",
               "fill": "#000000",
               "fill-opacity": ".2"
             }
@@ -406,16 +388,7 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M80 85.7L87.5 85.7L93.5 80.9L86 80.9Z",
-              "fill": "#000000",
-              "fill-opacity": ".2"
-            }
-          },
-          {
-            "name": "path",
-            "type": "element",
-            "attributes": {
-              "d": "M54.5 71.6L69.5 71.6L69.5 81.6L54.5 81.6ZM54.5 71.6L69.5 71.6L73.5 68.4L58.5 68.4ZM69.5 71.6L73.5 68.4L73.5 78.4L69.5 81.6Z",
+              "d": "M54.5 71.6h15v10h-15Zm0 0h15l4-3.2h-15Zm15 0 4-3.2v10l-4 3.2Z",
               "fill": {
                 "type": "color",
                 "name": "accent"
@@ -426,18 +399,18 @@
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M54.5 71.6L69.5 71.6L73.5 68.4L58.5 68.4Z",
+              "d": "M54.5 71.6h15l4-3.2h-15Z",
               "fill": "#ffffff",
-              "fill-opacity": "0.38"
+              "fill-opacity": ".38"
             }
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M69.5 71.6L73.5 68.4L73.5 78.4L69.5 81.6Z",
+              "d": "m69.5 71.6 4-3.2v10l-4 3.2Z",
               "fill": "#000000",
-              "fill-opacity": "0.24"
+              "fill-opacity": ".24"
             }
           },
           {
@@ -451,7 +424,7 @@
                 "name": "path",
                 "type": "element",
                 "attributes": {
-                  "d": "M28 50.3L30.5 50.3L30.5 60.3L28 60.3ZM28 50.3L30.5 50.3L34.5 47.1L32 47.1Z",
+                  "d": "M28 50.3h2.5v10H28Zm0 0h2.5l4-3.2H32Z",
                   "fill": {
                     "type": "color",
                     "name": "accent"
@@ -462,16 +435,16 @@
                 "name": "path",
                 "type": "element",
                 "attributes": {
-                  "d": "M28 50.3L30.5 50.3L34.5 47.1L32 47.1Z",
+                  "d": "M28 50.3h2.5l4-3.2H32Z",
                   "fill": "#ffffff",
-                  "fill-opacity": "0.38"
+                  "fill-opacity": ".38"
                 }
               },
               {
                 "name": "path",
                 "type": "element",
                 "attributes": {
-                  "d": "M29 29L89 29L89 79L29 79ZM29 29L89 29L99 21L39 21ZM89 29L99 21L99 71L89 79Z",
+                  "d": "M29 29h60v50H29Zm0 0h60l10-8H39Zm60 0 10-8v50l-10 8Z",
                   "fill": {
                     "type": "color",
                     "name": "body"
@@ -482,25 +455,25 @@
                 "name": "path",
                 "type": "element",
                 "attributes": {
-                  "d": "M29 29L89 29L99 21L39 21Z",
+                  "d": "M29 29h60l10-8H39Z",
                   "fill": "#ffffff",
-                  "fill-opacity": "0.38"
+                  "fill-opacity": ".38"
                 }
               },
               {
                 "name": "path",
                 "type": "element",
                 "attributes": {
-                  "d": "M89 29L99 21L99 71L89 79Z",
+                  "d": "m89 29 10-8v50l-10 8Z",
                   "fill": "#000000",
-                  "fill-opacity": "0.24"
+                  "fill-opacity": ".24"
                 }
               },
               {
                 "name": "path",
                 "type": "element",
                 "attributes": {
-                  "d": "M36.5 36.5H81.5V39H84V71.5H81.5V74H36.5V71.5H34V39H36.5Z",
+                  "d": "M36.5 36.5h45V39H84v32.5h-2.5V74h-45v-2.5H34V39h2.5Z",
                   "fill": {
                     "type": "color",
                     "name": "screen"
@@ -511,7 +484,7 @@
                 "name": "path",
                 "type": "element",
                 "attributes": {
-                  "d": "M90.5 50.3L93 50.3L93 60.3L90.5 60.3ZM90.5 50.3L93 50.3L97 47.1L94.5 47.1ZM93 50.3L97 47.1L97 57.1L93 60.3Z",
+                  "d": "M90.5 50.3H93v10h-2.5Zm0 0H93l4-3.2h-2.5Zm2.5 0 4-3.2v10l-4 3.2Z",
                   "fill": {
                     "type": "color",
                     "name": "accent"
@@ -522,18 +495,18 @@
                 "name": "path",
                 "type": "element",
                 "attributes": {
-                  "d": "M90.5 50.3L93 50.3L97 47.1L94.5 47.1Z",
+                  "d": "M90.5 50.3H93l4-3.2h-2.5Z",
                   "fill": "#ffffff",
-                  "fill-opacity": "0.38"
+                  "fill-opacity": ".38"
                 }
               },
               {
                 "name": "path",
                 "type": "element",
                 "attributes": {
-                  "d": "M93 50.3L97 47.1L97 57.1L93 60.3Z",
+                  "d": "m93 50.3 4-3.2v10l-4 3.2Z",
                   "fill": "#000000",
-                  "fill-opacity": "0.24"
+                  "fill-opacity": ".24"
                 }
               },
               {
@@ -582,7 +555,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M44.5 88.6L62 88.6L62 98.6L44.5 98.6Z",
+                "d": "M44.5 88.6H62v10H44.5Z",
                 "fill": {
                   "type": "color",
                   "name": "screen"
@@ -594,7 +567,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M67 88.6L72 88.6L72 93.6L67 93.6Z",
+                "d": "M67 88.6h5v5h-5Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -606,7 +579,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M67 96.1L72 96.1L72 101.1L67 101.1Z",
+                "d": "M67 96.1h5v5h-5Z",
                 "fill": "#ff6b6b",
                 "fill-opacity": "1"
               }
@@ -619,27 +592,9 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M47 88.6L72 88.6L72 91.1L47 91.1Z",
+                "d": "M47 88.6h25v2.5H47Zm0 5h25v2.5H47Zm0 5h25v2.5H47Z",
                 "fill": "#000000",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M47 93.6L72 93.6L72 96.1L47 96.1Z",
-                "fill": "#000000",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M47 98.6L72 98.6L72 101.1L47 101.1Z",
-                "fill": "#000000",
-                "fill-opacity": "0.3"
+                "fill-opacity": ".3"
               }
             }
           ]
@@ -650,7 +605,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M44.5 86.1L74.5 86.1L74.5 101.1L44.5 101.1Z",
+                "d": "M44.5 86.1h30v15h-30Z",
                 "fill": {
                   "type": "color",
                   "name": "screen"
@@ -662,19 +617,19 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M47 91.1L72 91.1L72 93.6L47 93.6Z",
+                "d": "M47 91.1h25v2.5H47Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
                 },
-                "fill-opacity": "0.6"
+                "fill-opacity": ".6"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M47 96.1L52 96.1L52 98.6L47 98.6Z",
+                "d": "M47 96.1h5v2.5h-5Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -690,60 +645,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M52 88.6L57 88.6L57 93.6L52 93.6Z",
+                "d": "M52 88.6h5v5h-5Zm10 0h5v5h-5Zm-12.5 5h20v5h-20Zm2.5 5h15v2.5H52Zm5 2.5h5v2.5h-5Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
                 },
-                "fill-opacity": "0.9"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M62 88.6L67 88.6L67 93.6L62 93.6Z",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                },
-                "fill-opacity": "0.9"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M49.5 93.6L69.5 93.6L69.5 98.6L49.5 98.6Z",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                },
-                "fill-opacity": "0.9"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M52 98.6L67 98.6L67 101.1L52 101.1Z",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                },
-                "fill-opacity": "0.9"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M57 101.1L62 101.1L62 103.6L57 103.6Z",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                },
-                "fill-opacity": "0.9"
+                "fill-opacity": ".9"
               }
             }
           ]
@@ -754,7 +661,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M52 86.1L67 86.1L67 101.1L52 101.1Z",
+                "d": "M52 86.1h15v15H52Z",
                 "fill": {
                   "type": "color",
                   "name": "screen"
@@ -766,7 +673,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M57 91.1L62 91.1L62 96.1L57 96.1Z",
+                "d": "M57 91.1h5v5h-5Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -778,12 +685,12 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M62 88.6L64.5 88.6L64.5 91.1L62 91.1Z",
+                "d": "M62 88.6h2.5v2.5H62Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
                 },
-                "fill-opacity": "0.7"
+                "fill-opacity": ".7"
               }
             }
           ]
@@ -794,33 +701,21 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M47 88.6L72 88.6L72 93.6L47 93.6Z",
+                "d": "M47 88.6h25v5H47Z",
                 "fill": "#000000",
-                "fill-opacity": "0.35"
+                "fill-opacity": ".35"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M49.5 96.1L54.5 96.1L54.5 101.1L49.5 101.1Z",
+                "d": "M49.5 96.1h5v5h-5Zm15 0h5v5h-5Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
                 },
-                "fill-opacity": "0.8"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M64.5 96.1L69.5 96.1L69.5 101.1L64.5 101.1Z",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                },
-                "fill-opacity": "0.8"
+                "fill-opacity": ".8"
               }
             }
           ]
@@ -837,30 +732,27 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M12.5 2.5H17.5V5H20V10H17.5V12.5H12.5V10H10V5H12.5Z",
+                "d": "M12.5 2.5h5V5H20v5h-2.5v2.5h-5V10H10V5h2.5Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
                 }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "12.5",
-                "y": "5",
-                "width": "5",
-                "height": "5",
-                "fill": "#ffffff",
-                "fill-opacity": ".92"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M42.5 2.5H47.5V5H50V10H47.5V12.5H42.5V10H40V5H42.5Z",
+                "fill": "#ffffff",
+                "fill-opacity": ".92",
+                "d": "M12.5 5h5v5h-5z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42.5 2.5h5V5H50v5h-2.5v2.5h-5V10H40V5h2.5Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -868,15 +760,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "42.5",
-                "y": "5",
-                "width": "5",
-                "height": "5",
                 "fill": "#ffffff",
-                "fill-opacity": ".92"
+                "fill-opacity": ".92",
+                "d": "M42.5 5h5v5h-5z"
               }
             }
           ]
@@ -884,55 +773,43 @@
         "square": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "7.5",
-                "y": "2.5",
-                "width": "12.5",
-                "height": "10",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
+                },
+                "d": "M7.5 2.5H20v10H7.5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "10",
-                "y": "5",
-                "width": "5",
-                "height": "5",
                 "fill": "#ffffff",
-                "fill-opacity": ".92"
+                "fill-opacity": ".92",
+                "d": "M10 5h5v5h-5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "40",
-                "y": "2.5",
-                "width": "12.5",
-                "height": "10",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
+                },
+                "d": "M40 2.5h12.5v10H40z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "42.5",
-                "y": "5",
-                "width": "5",
-                "height": "5",
                 "fill": "#ffffff",
-                "fill-opacity": ".92"
+                "fill-opacity": ".92",
+                "d": "M42.5 5h5v5h-5z"
               }
             }
           ]
@@ -943,7 +820,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M10 2.5H50V5H52.5V10H50V12.5H10V10H7.5V5H10Z",
+                "d": "M10 2.5h40V5h2.5v5H50v2.5H10V10H7.5V5H10Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -952,31 +829,14 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "12.5",
-                "y": "5",
-                "width": "5",
-                "height": "5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "42.5",
-                "y": "5",
-                "width": "5",
-                "height": "5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
+                },
+                "d": "M12.5 5h5v5h-5zm30 0h5v5h-5z"
               }
             }
           ]
@@ -987,7 +847,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M25 0H35V2.5H37.5V12.5H35V15H25V12.5H22.5V2.5H25Z",
+                "d": "M25 0h10v2.5h2.5v10H35V15H25v-2.5h-2.5v-10H25Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -995,15 +855,12 @@
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "27.5",
-                "y": "5",
-                "width": "5",
-                "height": "5",
                 "fill": "#ffffff",
-                "fill-opacity": ".92"
+                "fill-opacity": ".92",
+                "d": "M27.5 5h5v5h-5z"
               }
             }
           ]
@@ -1011,87 +868,14 @@
         "happy": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "10",
-                "y": "2.5",
-                "width": "10",
-                "height": "2.5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "17.5",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "40",
-                "y": "2.5",
-                "width": "10",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "40",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "47.5",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
+                },
+                "d": "M10 2.5h10V5H10zM10 5h2.5v2.5H10zm7.5 0H20v2.5h-2.5zM40 2.5h10V5H40zM40 5h2.5v2.5H40zm7.5 0H50v2.5h-2.5z"
               }
             }
           ]
@@ -1099,31 +883,14 @@
         "sleepy": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "10",
-                "y": "7.5",
-                "width": "10",
-                "height": "5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "40",
-                "y": "7.5",
-                "width": "10",
-                "height": "5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
+                },
+                "d": "M10 7.5h10v5H10zm30 0h10v5H40z"
               }
             }
           ]
@@ -1131,59 +898,36 @@
         "plus": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "12.5",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "7.5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
+                },
+                "d": "M12.5 2.5H15V10h-2.5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "10",
-                "y": "5",
-                "width": "7.5",
-                "height": "2.5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
+                },
+                "d": "M10 5h7.5v2.5H10zm32.5-2.5H45V10h-2.5z"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "42.5",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "7.5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "40",
-                "y": "5",
-                "width": "7.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
+                },
+                "d": "M40 5h7.5v2.5H40z"
               }
             }
           ]
@@ -1197,59 +941,14 @@
         "grill": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "22.5",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "27.5",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "32.5",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "37.5",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
+                },
+                "d": "M22.5 2.5H25v5h-2.5zm5 0H30v5h-2.5zm5 0H35v5h-2.5zm5 0H40v5h-2.5z"
               }
             }
           ]
@@ -1257,101 +956,14 @@
         "speaker": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "22.5",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "2.5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "27.5",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "32.5",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "37.5",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "25",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "30",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "35",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
+                },
+                "d": "M22.5 2.5H25V5h-2.5zm5 0H30V5h-2.5zm5 0H35V5h-2.5zm5 0H40V5h-2.5zM25 5h2.5v2.5H25zm5 0h2.5v2.5H30zm5 0h2.5v2.5H35z"
               }
             }
           ]
@@ -1359,17 +971,14 @@
         "line": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "22.5",
-                "y": "2.5",
-                "width": "15",
-                "height": "2.5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
+                },
+                "d": "M22.5 2.5h15V5h-15z"
               }
             }
           ]
@@ -1377,45 +986,14 @@
         "smile": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "20",
-                "y": "0",
-                "width": "2.5",
-                "height": "2.5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "22.5",
-                "y": "2.5",
-                "width": "15",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "37.5",
-                "y": "0",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
+                },
+                "d": "M20 0h2.5v2.5H20zm2.5 2.5h15V5h-15zm15-2.5H40v2.5h-2.5z"
               }
             }
           ]
@@ -1423,115 +1001,14 @@
         "zigzag": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "20",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "2.5",
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "22.5",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "25",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "27.5",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "30",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "32.5",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "35",
-                "y": "2.5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "37.5",
-                "y": "5",
-                "width": "2.5",
-                "height": "2.5",
-                "fill": {
-                  "type": "color",
-                  "name": "glow"
-                }
+                },
+                "d": "M20 2.5h2.5V5H20zM22.5 5H25v2.5h-2.5zM25 2.5h2.5V5H25zM27.5 5H30v2.5h-2.5zM30 2.5h2.5V5H30zM32.5 5H35v2.5h-2.5zM35 2.5h2.5V5H35zM37.5 5H40v2.5h-2.5z"
               }
             }
           ]
@@ -1562,19 +1039,16 @@
               ]
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "34",
-                "y": "44",
-                "width": "50",
-                "height": "15",
                 "fill": {
                   "type": "color",
                   "name": "screen"
                 },
                 "class": "vb-blink-fastest",
-                "opacity": "0"
+                "opacity": "0",
+                "d": "M34 44h50v15H34z"
               }
             }
           ]
@@ -1596,19 +1070,16 @@
               ]
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "34",
-                "y": "44",
-                "width": "50",
-                "height": "15",
                 "fill": {
                   "type": "color",
                   "name": "screen"
                 },
                 "class": "vb-blink-fast",
-                "opacity": "0"
+                "opacity": "0",
+                "d": "M34 44h50v15H34z"
               }
             }
           ]
@@ -1630,19 +1101,16 @@
               ]
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "34",
-                "y": "44",
-                "width": "50",
-                "height": "15",
                 "fill": {
                   "type": "color",
                   "name": "screen"
                 },
                 "class": "vb-blink-medium",
-                "opacity": "0"
+                "opacity": "0",
+                "d": "M34 44h50v15H34z"
               }
             }
           ]
@@ -1664,19 +1132,16 @@
               ]
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "34",
-                "y": "44",
-                "width": "50",
-                "height": "15",
                 "fill": {
                   "type": "color",
                   "name": "screen"
                 },
                 "class": "vb-blink-slow",
-                "opacity": "0"
+                "opacity": "0",
+                "d": "M34 44h50v15H34z"
               }
             }
           ]
@@ -1698,19 +1163,16 @@
               ]
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "34",
-                "y": "44",
-                "width": "50",
-                "height": "15",
                 "fill": {
                   "type": "color",
                   "name": "screen"
                 },
                 "class": "vb-blink-slowest",
-                "opacity": "0"
+                "opacity": "0",
+                "d": "M34 44h50v15H34z"
               }
             }
           ]
@@ -1728,7 +1190,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M61 12.9L66 12.9L66 25.4L61 25.4ZM61 12.9L66 12.9L67 12.1L62 12.1ZM66 12.9L67 12.1L67 24.6L66 25.4Z",
+                "d": "M61 12.9h5v12.5h-5Zm0 0h5l1-.8h-5Zm5 0 1-.8v12.5l-1 .8Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -1739,25 +1201,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M61 12.9L66 12.9L67 12.1L62 12.1Z",
+                "d": "M61 12.9h5l1-.8h-5Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M66 12.9L67 12.1L67 24.6L66 25.4Z",
+                "d": "m66 12.9 1-.8v12.5l-1 .8Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M58 5.8L68 5.8L68 13.3L58 13.3ZM58 5.8L68 5.8L70 4.2L60 4.2ZM68 5.8L70 4.2L70 11.7L68 13.3Z",
+                "d": "M58 5.8h10v7.5H58Zm0 0h10l2-1.6H60Zm10 0 2-1.6v7.5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -1768,18 +1230,18 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M58 5.8L68 5.8L70 4.2L60 4.2Z",
+                "d": "M58 5.8h10l2-1.6H60Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M68 5.8L70 4.2L70 11.7L68 13.3Z",
+                "d": "m68 5.8 2-1.6v7.5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             }
           ]
@@ -1790,7 +1252,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M46 15.4L51 15.4L51 25.4L46 25.4ZM46 15.4L51 15.4L52 14.6L47 14.6ZM51 15.4L52 14.6L52 24.6L51 25.4Z",
+                "d": "M46 15.4h5v10h-5Zm0 0h5l1-.8h-5Zm5 0 1-.8v10l-1 .8Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -1801,25 +1263,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M46 15.4L51 15.4L52 14.6L47 14.6Z",
+                "d": "M46 15.4h5l1-.8h-5Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M51 15.4L52 14.6L52 24.6L51 25.4Z",
+                "d": "m51 15.4 1-.8v10l-1 .8Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M43 10.8L53 10.8L53 15.8L43 15.8ZM43 10.8L53 10.8L55 9.2L45 9.2ZM53 10.8L55 9.2L55 14.2L53 15.8Z",
+                "d": "M43 10.8h10v5H43Zm0 0h10l2-1.6H45Zm10 0 2-1.6v5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -1830,25 +1292,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M43 10.8L53 10.8L55 9.2L45 9.2Z",
+                "d": "M43 10.8h10l2-1.6H45Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M53 10.8L55 9.2L55 14.2L53 15.8Z",
+                "d": "m53 10.8 2-1.6v5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M76 15.4L81 15.4L81 25.4L76 25.4ZM76 15.4L81 15.4L82 14.6L77 14.6ZM81 15.4L82 14.6L82 24.6L81 25.4Z",
+                "d": "M76 15.4h5v10h-5Zm0 0h5l1-.8h-5Zm5 0 1-.8v10l-1 .8Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -1859,25 +1321,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M76 15.4L81 15.4L82 14.6L77 14.6Z",
+                "d": "M76 15.4h5l1-.8h-5Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M81 15.4L82 14.6L82 24.6L81 25.4Z",
+                "d": "m81 15.4 1-.8v10l-1 .8Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M73 10.8L83 10.8L83 15.8L73 15.8ZM73 10.8L83 10.8L85 9.2L75 9.2ZM83 10.8L85 9.2L85 14.2L83 15.8Z",
+                "d": "M73 10.8h10v5H73Zm0 0h10l2-1.6H75Zm10 0 2-1.6v5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -1888,18 +1350,18 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M73 10.8L83 10.8L85 9.2L75 9.2Z",
+                "d": "M73 10.8h10l2-1.6H75Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M83 10.8L85 9.2L85 14.2L83 15.8Z",
+                "d": "m83 10.8 2-1.6v5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             }
           ]
@@ -1910,7 +1372,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M61 20.4L66 20.4L66 25.4L61 25.4ZM61 20.4L66 20.4L67 19.6L62 19.6ZM66 20.4L67 19.6L67 24.6L66 25.4Z",
+                "d": "M61 20.4h5v5h-5Zm0 0h5l1-.8h-5Zm5 0 1-.8v5l-1 .8Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -1921,25 +1383,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M61 20.4L66 20.4L67 19.6L62 19.6Z",
+                "d": "M61 20.4h5l1-.8h-5Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M66 20.4L67 19.6L67 24.6L66 25.4Z",
+                "d": "m66 20.4 1-.8v5l-1 .8Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M47.5 16.2L77.5 16.2L77.5 21.2L47.5 21.2ZM47.5 16.2L77.5 16.2L80.5 13.8L50.5 13.8ZM77.5 16.2L80.5 13.8L80.5 18.8L77.5 21.2Z",
+                "d": "M47.5 16.2h30v5h-30Zm0 0h30l3-2.4h-30Zm30 0 3-2.4v5l-3 2.4Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -1950,25 +1412,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M47.5 16.2L77.5 16.2L80.5 13.8L50.5 13.8Z",
+                "d": "M47.5 16.2h30l3-2.4h-30Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M77.5 16.2L80.5 13.8L80.5 18.8L77.5 21.2Z",
+                "d": "m77.5 16.2 3-2.4v5l-3 2.4Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M60.5 13.3L65.5 13.3L65.5 15.8L60.5 15.8ZM60.5 13.3L65.5 13.3L67.5 11.7L62.5 11.7ZM65.5 13.3L67.5 11.7L67.5 14.2L65.5 15.8Z",
+                "d": "M60.5 13.3h5v2.5h-5Zm0 0h5l2-1.6h-5Zm5 0 2-1.6v2.5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -1979,18 +1441,18 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M60.5 13.3L65.5 13.3L67.5 11.7L62.5 11.7Z",
+                "d": "M60.5 13.3h5l2-1.6h-5Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M65.5 13.3L67.5 11.7L67.5 14.2L65.5 15.8Z",
+                "d": "m65.5 13.3 2-1.6v2.5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             }
           ]
@@ -2001,7 +1463,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M53.5 16.9L63.5 16.9L63.5 29.4L53.5 29.4ZM53.5 16.9L63.5 16.9L74 8.5L64 8.5ZM63.5 16.9L74 8.5L74 21L63.5 29.4Z",
+                "d": "M53.5 16.9h10v12.5h-10Zm0 0h10L74 8.5H64Zm10 0L74 8.5V21l-10.5 8.4Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -2012,30 +1474,27 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M53.5 16.9L63.5 16.9L74 8.5L64 8.5Z",
+                "d": "M53.5 16.9h10L74 8.5H64Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M63.5 16.9L74 8.5L74 21L63.5 29.4Z",
+                "d": "M63.5 16.9 74 8.5V21l-10.5 8.4Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "x": "53.5",
-                "y": "29.4",
-                "width": "10",
-                "height": "2",
                 "fill": "#000000",
-                "fill-opacity": ".16"
+                "fill-opacity": ".16",
+                "d": "M53.5 29.4h10v2h-10z"
               }
             }
           ]
@@ -2046,7 +1505,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M48 20.8L78 20.8L78 25.8L48 25.8ZM48 20.8L78 20.8L80 19.2L50 19.2ZM78 20.8L80 19.2L80 24.2L78 25.8Z",
+                "d": "M48 20.8h30v5H48Zm0 0h30l2-1.6H50Zm30 0 2-1.6v5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -2057,25 +1516,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M48 20.8L78 20.8L80 19.2L50 19.2Z",
+                "d": "M48 20.8h30l2-1.6H50Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M78 20.8L80 19.2L80 24.2L78 25.8Z",
+                "d": "m78 20.8 2-1.6v5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50.5 18.3L55.5 18.3L55.5 20.8L50.5 20.8ZM50.5 18.3L55.5 18.3L57.5 16.7L52.5 16.7ZM55.5 18.3L57.5 16.7L57.5 19.2L55.5 20.8Z",
+                "d": "M50.5 18.3h5v2.5h-5Zm0 0h5l2-1.6h-5Zm5 0 2-1.6v2.5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -2086,25 +1545,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50.5 18.3L55.5 18.3L57.5 16.7L52.5 16.7Z",
+                "d": "M50.5 18.3h5l2-1.6h-5Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M55.5 18.3L57.5 16.7L57.5 19.2L55.5 20.8Z",
+                "d": "m55.5 18.3 2-1.6v2.5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M60.5 18.3L65.5 18.3L65.5 20.8L60.5 20.8ZM60.5 18.3L65.5 18.3L67.5 16.7L62.5 16.7ZM65.5 18.3L67.5 16.7L67.5 19.2L65.5 20.8Z",
+                "d": "M60.5 18.3h5v2.5h-5Zm0 0h5l2-1.6h-5Zm5 0 2-1.6v2.5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -2115,25 +1574,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M60.5 18.3L65.5 18.3L67.5 16.7L62.5 16.7Z",
+                "d": "M60.5 18.3h5l2-1.6h-5Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M65.5 18.3L67.5 16.7L67.5 19.2L65.5 20.8Z",
+                "d": "m65.5 18.3 2-1.6v2.5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M70.5 18.3L75.5 18.3L75.5 20.8L70.5 20.8ZM70.5 18.3L75.5 18.3L77.5 16.7L72.5 16.7ZM75.5 18.3L77.5 16.7L77.5 19.2L75.5 20.8Z",
+                "d": "M70.5 18.3h5v2.5h-5Zm0 0h5l2-1.6h-5Zm5 0 2-1.6v2.5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -2144,18 +1603,18 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M70.5 18.3L75.5 18.3L77.5 16.7L72.5 16.7Z",
+                "d": "M70.5 18.3h5l2-1.6h-5Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M75.5 18.3L77.5 16.7L77.5 19.2L75.5 20.8Z",
+                "d": "m75.5 18.3 2-1.6v2.5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             }
           ]
@@ -2166,7 +1625,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M35.5 18.3L43 18.3L43 25.8L35.5 25.8ZM35.5 18.3L43 18.3L45 16.7L37.5 16.7ZM43 18.3L45 16.7L45 24.2L43 25.8Z",
+                "d": "M35.5 18.3H43v7.5h-7.5Zm0 0H43l2-1.6h-7.5Zm7.5 0 2-1.6v7.5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -2177,25 +1636,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M35.5 18.3L43 18.3L45 16.7L37.5 16.7Z",
+                "d": "M35.5 18.3H43l2-1.6h-7.5Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M43 18.3L45 16.7L45 24.2L43 25.8Z",
+                "d": "m43 18.3 2-1.6v7.5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M83 18.3L90.5 18.3L90.5 25.8L83 25.8ZM83 18.3L90.5 18.3L92.5 16.7L85 16.7ZM90.5 18.3L92.5 16.7L92.5 24.2L90.5 25.8Z",
+                "d": "M83 18.3h7.5v7.5H83Zm0 0h7.5l2-1.6H85Zm7.5 0 2-1.6v7.5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -2206,18 +1665,18 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M83 18.3L90.5 18.3L92.5 16.7L85 16.7Z",
+                "d": "M83 18.3h7.5l2-1.6H85Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M90.5 18.3L92.5 16.7L92.5 24.2L90.5 25.8Z",
+                "d": "m90.5 18.3 2-1.6v7.5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             }
           ]
@@ -2228,7 +1687,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M52.5 23.7L72.5 23.7L72.5 26.2L52.5 26.2ZM52.5 23.7L72.5 23.7L75.5 21.3L55.5 21.3ZM72.5 23.7L75.5 21.3L75.5 23.8L72.5 26.2Z",
+                "d": "M52.5 23.7h20v2.5h-20Zm0 0h20l3-2.4h-20Zm20 0 3-2.4v2.5l-3 2.4Z",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -2239,25 +1698,25 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M52.5 23.7L72.5 23.7L75.5 21.3L55.5 21.3Z",
+                "d": "M52.5 23.7h20l3-2.4h-20Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M72.5 23.7L75.5 21.3L75.5 23.8L72.5 26.2Z",
+                "d": "m72.5 23.7 3-2.4v2.5l-3 2.4Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M55.5 15.8L70.5 15.8L70.5 23.3L55.5 23.3ZM55.5 15.8L70.5 15.8L72.5 14.2L57.5 14.2ZM70.5 15.8L72.5 14.2L72.5 21.7L70.5 23.3Z",
+                "d": "M55.5 15.8h15v7.5h-15Zm0 0h15l2-1.6h-15Zm15 0 2-1.6v7.5l-2 1.6Z",
                 "fill": {
                   "type": "color",
                   "name": "glow"
@@ -2268,18 +1727,18 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M55.5 15.8L70.5 15.8L72.5 14.2L57.5 14.2Z",
+                "d": "M55.5 15.8h15l2-1.6h-15Z",
                 "fill": "#ffffff",
-                "fill-opacity": "0.38"
+                "fill-opacity": ".38"
               }
             },
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M70.5 15.8L72.5 14.2L72.5 21.7L70.5 23.3Z",
+                "d": "m70.5 15.8 2-1.6v7.5l-2 1.6Z",
                 "fill": "#000000",
-                "fill-opacity": "0.24"
+                "fill-opacity": ".24"
               }
             }
           ]
