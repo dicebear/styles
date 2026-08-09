@@ -12,6 +12,8 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+## [10.4.0] - 2026-08-09
+
 ### Added
 
 - **New style: Voxel Bot.** The robot sibling of Voxel Art, built on the same
@@ -223,7 +225,8 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v10.3.0...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v10.4.0...HEAD
+[10.4.0]: https://github.com/dicebear/styles/compare/v10.3.0...v10.4.0
 [10.3.0]: https://github.com/dicebear/styles/compare/v10.3.0-rc.3...v10.3.0
 [10.3.0-rc.3]: https://github.com/dicebear/styles/compare/v10.3.0-rc.2...v10.3.0-rc.3
 [10.3.0-rc.2]: https://github.com/dicebear/styles/compare/v10.3.0-rc.1...v10.3.0-rc.2
