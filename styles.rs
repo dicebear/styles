@@ -88,6 +88,9 @@ pub const CROODLES: &str = include_str!("src/croodles.json");
 #[cfg(feature = "croodles-neutral")]
 pub const CROODLES_NEUTRAL: &str = include_str!("src/croodles-neutral.json");
 
+#[cfg(feature = "cutouts")]
+pub const CUTOUTS: &str = include_str!("src/cutouts.json");
+
 #[cfg(feature = "disco")]
 pub const DISCO: &str = include_str!("src/disco.json");
 
@@ -118,6 +121,9 @@ pub const INITIALS: &str = include_str!("src/initials.json");
 #[cfg(feature = "landscape")]
 pub const LANDSCAPE: &str = include_str!("src/landscape.json");
 
+#[cfg(feature = "line-face")]
+pub const LINE_FACE: &str = include_str!("src/line-face.json");
+
 #[cfg(feature = "loops")]
 pub const LOOPS: &str = include_str!("src/loops.json");
 
@@ -144,6 +150,9 @@ pub const NOTIONISTS_NEUTRAL: &str = include_str!("src/notionists-neutral.json")
 
 #[cfg(feature = "open-peeps")]
 pub const OPEN_PEEPS: &str = include_str!("src/open-peeps.json");
+
+#[cfg(feature = "patchwork")]
+pub const PATCHWORK: &str = include_str!("src/patchwork.json");
 
 #[cfg(feature = "personas")]
 pub const PERSONAS: &str = include_str!("src/personas.json");
@@ -233,6 +242,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "croodles" => Some(CROODLES),
         #[cfg(feature = "croodles-neutral")]
         "croodles-neutral" => Some(CROODLES_NEUTRAL),
+        #[cfg(feature = "cutouts")]
+        "cutouts" => Some(CUTOUTS),
         #[cfg(feature = "disco")]
         "disco" => Some(DISCO),
         #[cfg(feature = "dylan")]
@@ -253,6 +264,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "initials" => Some(INITIALS),
         #[cfg(feature = "landscape")]
         "landscape" => Some(LANDSCAPE),
+        #[cfg(feature = "line-face")]
+        "line-face" => Some(LINE_FACE),
         #[cfg(feature = "loops")]
         "loops" => Some(LOOPS),
         #[cfg(feature = "lorelei")]
@@ -271,6 +284,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "notionists-neutral" => Some(NOTIONISTS_NEUTRAL),
         #[cfg(feature = "open-peeps")]
         "open-peeps" => Some(OPEN_PEEPS),
+        #[cfg(feature = "patchwork")]
+        "patchwork" => Some(PATCHWORK),
         #[cfg(feature = "personas")]
         "personas" => Some(PERSONAS),
         #[cfg(feature = "pixel-art")]
@@ -347,6 +362,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("croodles");
     #[cfg(feature = "croodles-neutral")]
     v.push("croodles-neutral");
+    #[cfg(feature = "cutouts")]
+    v.push("cutouts");
     #[cfg(feature = "disco")]
     v.push("disco");
     #[cfg(feature = "dylan")]
@@ -367,6 +384,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("initials");
     #[cfg(feature = "landscape")]
     v.push("landscape");
+    #[cfg(feature = "line-face")]
+    v.push("line-face");
     #[cfg(feature = "loops")]
     v.push("loops");
     #[cfg(feature = "lorelei")]
@@ -385,6 +404,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("notionists-neutral");
     #[cfg(feature = "open-peeps")]
     v.push("open-peeps");
+    #[cfg(feature = "patchwork")]
+    v.push("patchwork");
     #[cfg(feature = "personas")]
     v.push("personas");
     #[cfg(feature = "pixel-art")]

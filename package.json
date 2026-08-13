@@ -76,6 +76,10 @@
       "types": "./dist/croodles.min.json",
       "default": "./dist/croodles.min.json"
     },
+    "./cutouts.json": {
+      "types": "./dist/cutouts.min.json",
+      "default": "./dist/cutouts.min.json"
+    },
     "./disco.json": {
       "types": "./dist/disco.min.json",
       "default": "./dist/disco.min.json"
@@ -116,6 +120,10 @@
       "types": "./dist/landscape.min.json",
       "default": "./dist/landscape.min.json"
     },
+    "./line-face.json": {
+      "types": "./dist/line-face.min.json",
+      "default": "./dist/line-face.min.json"
+    },
     "./loops.json": {
       "types": "./dist/loops.min.json",
       "default": "./dist/loops.min.json"
@@ -151,6 +159,10 @@
     "./open-peeps.json": {
       "types": "./dist/open-peeps.min.json",
       "default": "./dist/open-peeps.min.json"
+    },
+    "./patchwork.json": {
+      "types": "./dist/patchwork.min.json",
+      "default": "./dist/patchwork.min.json"
     },
     "./personas.json": {
       "types": "./dist/personas.min.json",

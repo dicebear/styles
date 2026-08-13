@@ -12,6 +12,24 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Added
+
+- **New style: Cutouts.** Faces assembled from torn craft paper. The two eyes
+  never match on purpose, six head silhouettes place their own hair, brows
+  and features, and every scrap casts the same soft drop shadow. The accent
+  palettes are curated darker than every face color, so mouths and noses
+  stay readable on any head. Hand-authored, CC0 1.0.
+- **New style: Line Face.** A calm face drawn with a few brush strokes
+  directly on the background, in the spirit of one-line portraits. Eight eye
+  pairs, six noses and eight mouths, each a single clean stroke, and the
+  mouth settles into one of three tilts per seed. Hand-authored, CC0 1.0.
+- **New style: Patchwork.** A quilt laid from traditional blocks such as
+  pinwheel, flying geese, rail fence and clamshells. Each avatar picks two
+  of the 18 blocks and repeats them as diagonal twins rotated by 180
+  degrees, so every quilt comes out point-symmetric. All shapes share one
+  grid, which lets neighbouring blocks meet flush at the seams.
+  Hand-authored, CC0 1.0.
+
 ## [10.4.0] - 2026-08-09
 
 ### Added

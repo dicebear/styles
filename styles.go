@@ -86,6 +86,9 @@ var Croodles string
 //go:embed src/croodles-neutral.json
 var CroodlesNeutral string
 
+//go:embed src/cutouts.json
+var Cutouts string
+
 //go:embed src/disco.json
 var Disco string
 
@@ -116,6 +119,9 @@ var Initials string
 //go:embed src/landscape.json
 var Landscape string
 
+//go:embed src/line-face.json
+var LineFace string
+
 //go:embed src/loops.json
 var Loops string
 
@@ -142,6 +148,9 @@ var NotionistsNeutral string
 
 //go:embed src/open-peeps.json
 var OpenPeeps string
+
+//go:embed src/patchwork.json
+var Patchwork string
 
 //go:embed src/personas.json
 var Personas string
@@ -231,6 +240,8 @@ func Get(name string) (string, bool) {
 		return Croodles, true
 	case "croodles-neutral":
 		return CroodlesNeutral, true
+	case "cutouts":
+		return Cutouts, true
 	case "disco":
 		return Disco, true
 	case "dylan":
@@ -251,6 +262,8 @@ func Get(name string) (string, bool) {
 		return Initials, true
 	case "landscape":
 		return Landscape, true
+	case "line-face":
+		return LineFace, true
 	case "loops":
 		return Loops, true
 	case "lorelei":
@@ -269,6 +282,8 @@ func Get(name string) (string, bool) {
 		return NotionistsNeutral, true
 	case "open-peeps":
 		return OpenPeeps, true
+	case "patchwork":
+		return Patchwork, true
 	case "personas":
 		return Personas, true
 	case "pixel-art":
@@ -329,6 +344,7 @@ func All() []string {
 		"critters",
 		"croodles",
 		"croodles-neutral",
+		"cutouts",
 		"disco",
 		"dylan",
 		"fun-emoji",
@@ -339,6 +355,7 @@ func All() []string {
 		"initial-face",
 		"initials",
 		"landscape",
+		"line-face",
 		"loops",
 		"lorelei",
 		"lorelei-neutral",
@@ -348,6 +365,7 @@ func All() []string {
 		"notionists",
 		"notionists-neutral",
 		"open-peeps",
+		"patchwork",
 		"personas",
 		"pixel-art",
 		"pixel-art-neutral",

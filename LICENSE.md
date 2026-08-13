@@ -123,6 +123,14 @@ the following list or in the individual files.
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                              |
 |  Source | [Croodles - Doodle your face](https://www.figma.com/community/file/966199982810283152) |
 
+## Cutouts
+
+|    File | [src/cutouts.json](./src/cutouts.json)                        |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Cutouts](https://www.dicebear.com)                           |
+
 ## Disco
 
 |    File | [src/disco.json](./src/disco.json)                            |
@@ -203,6 +211,14 @@ the following list or in the individual files.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Landscape](https://www.dicebear.com)                         |
 
+## Line Face
+
+|    File | [src/line-face.json](./src/line-face.json)                    |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Line Face](https://www.dicebear.com)                         |
+
 ## Loops
 
 |    File | [src/loops.json](./src/loops.json)                            |
@@ -274,6 +290,14 @@ the following list or in the individual files.
 |  Artist | [Pablo Stanley](https://twitter.com/pablostanley)             |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Open Peeps](https://www.openpeeps.com/)                      |
+
+## Patchwork
+
+|    File | [src/patchwork.json](./src/patchwork.json)                    |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Patchwork](https://www.dicebear.com)                         |
 
 ## Personas
 

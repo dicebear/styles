@@ -1,0 +1,634 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source).",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Patchwork” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Patchwork",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "block01",
+        "type": "component"
+      },
+      {
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "transform": "translate(50)"
+        },
+        "children": [
+          {
+            "name": "block02",
+            "type": "component"
+          }
+        ]
+      },
+      {
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "transform": "rotate(180 25 50)"
+        },
+        "children": [
+          {
+            "name": "block02",
+            "type": "component"
+          }
+        ]
+      },
+      {
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "transform": "rotate(180 50 50)"
+        },
+        "children": [
+          {
+            "name": "block01",
+            "type": "component"
+          }
+        ]
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "block": {
+      "width": 50,
+      "height": 50,
+      "rotate": {
+        "min": 0,
+        "max": 270,
+        "step": 90
+      },
+      "variants": {
+        "pinwheel": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h25L0 25Zm25 0h25v25Zm25 25v25H25ZM0 25l25 25H0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            }
+          ]
+        },
+        "hourglass": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h50L25 25Zm0 50h50L25 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m0 0 25 25L0 50Zm50 0v50L25 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            }
+          ]
+        },
+        "geese": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 25h50L25 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 50h50L25 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            }
+          ]
+        },
+        "checker": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                },
+                "d": "M0 0h25v25H0zm25 25h25v25H25z"
+              }
+            }
+          ]
+        },
+        "rails": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                },
+                "d": "M0 12.5h50V25H0z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                },
+                "d": "M0 25h50v12.5H0z"
+              }
+            }
+          ]
+        },
+        "fan": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 50V0a50 50 0 0 1 50 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 50V25a25 25 0 0 1 25 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricC"
+                }
+              }
+            }
+          ]
+        },
+        "rings": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h50v50H0Zm12.5 12.5v25h25v-25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                },
+                "fill-rule": "evenodd"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 12.5 37.5 25 25 37.5 12.5 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            }
+          ]
+        },
+        "petals": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h25A25 25 0 0 1 0 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 0v25A25 25 0 0 1 25 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 50H25a25 25 0 0 1 25-25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 50V25a25 25 0 0 1 25 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            }
+          ]
+        },
+        "mountains": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill": {
+                  "type": "color",
+                  "name": "fabricC"
+                },
+                "d": "M0 12.5h50V25H0z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 50h25L12.5 25Zm25 0h25L37.5 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            }
+          ]
+        },
+        "brokenDishes": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h25L0 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 0h25L25 25ZM0 25h25L0 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 25h25L25 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            }
+          ]
+        },
+        "halfSquare": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h50L0 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            }
+          ]
+        },
+        "shells": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 25V0a25 25 0 0 1 25 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 25V0a25 25 0 0 1 25 25ZM0 50V25a25 25 0 0 1 25 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 50V25a25 25 0 0 1 25 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            }
+          ]
+        },
+        "economy": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m25 0 25 25-25 25L0 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 12.5 37.5 25 25 37.5 12.5 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricC"
+                }
+              }
+            }
+          ]
+        },
+        "peak": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 50h50L25 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            }
+          ]
+        },
+        "sunrise": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 50a25 25 0 0 1 50 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12.5 50a12.5 12.5 0 0 1 25 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricC"
+                }
+              }
+            }
+          ]
+        },
+        "swirl": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 0v25A25 25 0 0 1 0 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 25H25A25 25 0 0 1 50 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M25 50V25a25 25 0 0 1 25 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 25h25A25 25 0 0 1 0 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            }
+          ]
+        },
+        "corners": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h25L0 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 0H25l25 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 50H25l25-25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 50h25L0 25Z",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricB"
+                }
+              }
+            }
+          ]
+        },
+        "target": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 25a25 25 0 1 0 50 0 25 25 0 1 0-50 0",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricA"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12.5 25a12.5 12.5 0 1 0 25 0 12.5 12.5 0 1 0-25 0",
+                "fill": {
+                  "type": "color",
+                  "name": "fabricC"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "block01": {
+      "extends": "block"
+    },
+    "block02": {
+      "extends": "block"
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#f3ead7"
+      ]
+    },
+    "fabricA": {
+      "values": [
+        "#c65b47",
+        "#b0413e",
+        "#d9776b",
+        "#c97ba5"
+      ]
+    },
+    "fabricB": {
+      "values": [
+        "#4a7a63",
+        "#33415c",
+        "#37718e",
+        "#6b8f5a"
+      ]
+    },
+    "fabricC": {
+      "values": [
+        "#d9a441",
+        "#e0b653",
+        "#c98a3d"
+      ]
+    }
+  }
+}
