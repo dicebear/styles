@@ -38,19 +38,19 @@ Versions track the DiceBear release line.
   option could reach it. Each style now exposes it as a color group.
 
   The name follows what the color does in that style. `ink` where one color
-  carries both the outlines and filled masses such as hair or clothing
-  (Adventurer, Adventurer Neutral, Notionists, Notionists Neutral, Open Peeps),
-  `outline` where it is only the contour and the features already had their own
-  groups (Croodles, Lorelei), and `stroke` in Toon Head, the one style that
-  draws with real SVG strokes rather than filled paths.
+  carries the whole drawing, outlines and filled masses alike (Adventurer,
+  Adventurer Neutral, Croodles, Croodles Neutral, Notionists, Notionists
+  Neutral, Open Peeps), `outline` in Lorelei, where it is only the head and ear
+  contour and every feature already had its own group, and `stroke` in Toon
+  Head, the one style that draws with real SVG strokes rather than filled
+  paths.
 
   Adventurer and Adventurer Neutral split the face further into `eyes`,
   `sclera`, `lips`, `teeth`, `tongue`, `throat` and `uvula`, with `glasses` and
-  `earrings` on top in Adventurer. Croodles and Croodles Neutral gained
-  `eyebrows`, `eyes`, `mouth` and `nose`, plus `beard` and `mustache` in
-  Croodles. Notionists and Notionists Neutral had no color groups at all and
-  now carry `ink` and `paper`, where the paper is the body the ink sits on and
-  not the canvas behind the figure.
+  `earrings` on top in Adventurer. Croodles gained `facialHair` for its beard
+  and moustache. Notionists and Notionists Neutral had no color groups at all
+  and now carry `ink` and `paper`, where the paper is the body the ink sits on
+  and not the canvas behind the figure.
 
   Every group defaults to the value the artwork already used, so no palette
   changes and no variant, probability or seed behaves differently. The SVG is
