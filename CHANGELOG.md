@@ -30,6 +30,36 @@ Versions track the DiceBear release line.
   grid, which lets neighbouring blocks meet flush at the seams.
   Hand-authored, CC0 1.0.
 
+### Changed
+
+- **Adventurer, Adventurer Neutral, Croodles, Croodles Neutral, Lorelei,
+  Notionists, Notionists Neutral, Open Peeps and Toon Head:** the dark color
+  these styles draw with used to be painted into the artwork, where no render
+  option could reach it. Each style now exposes it as a color group.
+
+  The name follows what the color does in that style. `ink` where one color
+  carries both the outlines and filled masses such as hair or clothing
+  (Adventurer, Adventurer Neutral, Notionists, Notionists Neutral, Open Peeps),
+  `outline` where it is only the contour and the features already had their own
+  groups (Croodles, Lorelei), and `stroke` in Toon Head, the one style that
+  draws with real SVG strokes rather than filled paths.
+
+  Adventurer and Adventurer Neutral split the face further into `eyes`,
+  `sclera`, `lips`, `teeth`, `tongue`, `throat` and `uvula`, with `glasses` and
+  `earrings` on top in Adventurer. Croodles and Croodles Neutral gained
+  `eyebrows`, `eyes`, `mouth` and `nose`, plus `beard` and `mustache` in
+  Croodles. Notionists and Notionists Neutral had no color groups at all and
+  now carry `ink` and `paper`, where the paper is the body the ink sits on and
+  not the canvas behind the figure.
+
+  Every group defaults to the value the artwork already used, so no palette
+  changes and no variant, probability or seed behaves differently. The SVG is
+  not byte-identical to the previous release: a literal `black` now resolves to
+  `#000000`, and separating the new groups re-exported some path data. What you
+  see does not change. The differences sit on the edges of eyebrows and eyes and
+  stay under one percent of the pixels in a 300 px render, which is invisible
+  side by side. Only a raster cache that compares bytes will notice.
+
 ## [10.4.0] - 2026-08-09
 
 ### Added
