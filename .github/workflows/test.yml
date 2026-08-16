@@ -28,6 +28,59 @@ jobs:
       - name: Validate
         run: bash scripts/validate.sh
 
+  optimize:
+    runs-on: ubuntu-latest
+    # `dicebear <file> --optimize-check` re-runs the CLI's svgo pass and reports
+    # whether the committed definition is already as small as that pass makes
+    # it. A hand edit or an older Figma export can leave path data behind that
+    # the pass would strip, which costs every consumer bandwidth but renders the
+    # same picture. So this annotates the files it finds and lets the run stay
+    # green, unlike the codegen jobs below, where stale output ships a broken
+    # package.
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install the DiceBear CLI
+        run: npm install --global dicebear@10
+
+      - name: Report definitions the svgo pass would still shrink
+        continue-on-error: true
+        run: |
+          stale=()
+          total=0
+
+          for file in src/*.json; do
+            total=$((total + 1))
+            if ! dicebear "$file" --optimize-check; then
+              stale+=("$file")
+            fi
+          done
+
+          if [ ${#stale[@]} -eq 0 ]; then
+            echo "All $total definitions are already optimized." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          {
+            echo "### The svgo pass would still shrink ${#stale[@]} of $total definitions"
+            echo
+            for file in "${stale[@]}"; do echo "- \`$file\`"; done
+            echo
+            echo 'Rewrite them with `npx dicebear <file> --optimize`.'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          for file in "${stale[@]}"; do
+            echo "::warning file=$file::The svgo pass would still shrink this definition. Run: npx dicebear $file --optimize"
+          done
+
+          exit 1
+
   rust-codegen:
     runs-on: ubuntu-latest
     # styles.rs and the Cargo.toml [features] table are generated from
