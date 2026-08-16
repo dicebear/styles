@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
   "$comment": "Handcrafted definition. Manually maintained, not a Figma export. Includes an opt-in animation component (`animationVariant`).",
   "meta": {
     "license": {

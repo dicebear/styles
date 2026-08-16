@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.3.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
   "$comment": "Hand-authored definition (no Figma source).",
   "meta": {
     "license": {
