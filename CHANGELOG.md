@@ -12,6 +12,8 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+## [10.5.0] - 2026-08-16
+
 ## [10.5.0-rc.1] - 2026-08-15
 
 ### Added
@@ -277,7 +279,8 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v10.5.0-rc.1...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v10.5.0...HEAD
+[10.5.0]: https://github.com/dicebear/styles/compare/v10.5.0-rc.1...v10.5.0
 [10.5.0-rc.1]: https://github.com/dicebear/styles/compare/v10.4.0...v10.5.0-rc.1
 [10.4.0]: https://github.com/dicebear/styles/compare/v10.3.0...v10.4.0
 [10.3.0]: https://github.com/dicebear/styles/compare/v10.3.0-rc.3...v10.3.0
