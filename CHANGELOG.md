@@ -34,33 +34,35 @@ Versions track the DiceBear release line.
 
 ### Changed
 
-- **Adventurer, Adventurer Neutral, Croodles, Croodles Neutral, Lorelei,
-  Notionists, Notionists Neutral, Open Peeps and Toon Head:** the dark color
-  these styles draw with used to be painted into the artwork, where no render
-  option could reach it. Each style now exposes it as a color group.
+- **Nine styles now expose the dark color they draw with.** Adventurer,
+  Adventurer Neutral, Croodles, Croodles Neutral, Lorelei, Notionists,
+  Notionists Neutral, Open Peeps and Toon Head painted that color into the
+  artwork, where no render option could reach it. Each style names the new
+  group after the job the color does there:
 
-  The name follows what the color does in that style. `ink` where one color
-  carries the whole drawing, outlines and filled masses alike (Adventurer,
-  Adventurer Neutral, Croodles, Croodles Neutral, Notionists, Notionists
-  Neutral, Open Peeps), `outline` in Lorelei, where it is only the head and ear
-  contour and every feature already had its own group, and `stroke` in Toon
-  Head, the one style that draws with real SVG strokes rather than filled
-  paths.
+  - `ink` carries the whole drawing, outlines and filled masses alike. Seven
+    styles use it: Adventurer, Adventurer Neutral, Croodles, Croodles Neutral,
+    Notionists, Notionists Neutral and Open Peeps.
+  - `outline` is only the head and ear contour, which is why Lorelei uses that
+    name. Every feature there already had a group of its own.
+  - `stroke` is a real SVG stroke rather than a filled path. Toon Head is the
+    only style drawn that way.
 
-  Adventurer and Adventurer Neutral split the face further into `eyes`,
-  `sclera`, `lips`, `teeth`, `tongue`, `throat` and `uvula`, with `glasses` and
-  `earrings` on top in Adventurer. Croodles gained `facialHair` for its beard
-  and moustache. Notionists and Notionists Neutral had no color groups at all
-  and now carry `ink` and `paper`, where the paper is the body the ink sits on
-  and not the canvas behind the figure.
+  Five of the nine gained more than that one group. Adventurer and Adventurer
+  Neutral split the face into `eyes`, `sclera`, `lips`, `teeth`, `tongue`,
+  `throat`, `uvula` and `glasses`, and Adventurer adds `earrings` on top.
+  Croodles gained `facialHair` for the beard and moustache. Notionists had no
+  color groups at all before and now carries `ink` and `paper`, where the paper
+  is the body the ink sits on rather than the canvas behind the figure.
+  Notionists Neutral gains the same two next to the background it already had.
 
-  Every group defaults to the value the artwork already used, so no palette
-  changes and no variant, probability or seed behaves differently. The SVG is
-  not byte-identical to the previous release: a literal `black` now resolves to
-  `#000000`, and separating the new groups re-exported some path data. What you
-  see does not change. The differences sit on the edges of eyebrows and eyes and
-  stay under one percent of the pixels in a 300 px render, which is invisible
-  side by side. Only a raster cache that compares bytes will notice.
+  Existing avatars keep their look. Every group defaults to the value the
+  artwork already used, no palette changed, and no variant, probability or seed
+  behaves differently. The SVG is not byte-identical to the previous release,
+  because a literal `black` now resolves to `#000000` and separating the groups
+  re-exported some path data. Those differences sit on the edges of eyebrows
+  and eyes and stay under one percent of the pixels in a 300 px render. Only a
+  raster cache that compares bytes will notice.
 
 ## [10.4.0] - 2026-08-09
 
