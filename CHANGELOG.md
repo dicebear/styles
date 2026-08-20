@@ -12,6 +12,14 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Fixed
+
+- **Voxel Art: several rendering errors.** Stray light and dark edges no
+  longer cut across hair and faces, shadows stay on the surface that catches
+  them instead of falling on the background, and arms and hands are no longer
+  buried under clothing. A few shapes look slightly different as a result,
+  which is part of the fix.
+
 ## [10.5.0] - 2026-08-16
 
 ## [10.5.0-rc.1] - 2026-08-15
