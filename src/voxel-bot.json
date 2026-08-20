@@ -154,6 +154,15 @@
             "name": "path",
             "type": "element",
             "attributes": {
+              "fill": "#000000",
+              "fill-opacity": ".16",
+              "d": "M64.5 106.1h10v2h-10z"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
               "d": "M32.5 105.7H35v7.5h-2.5Zm0 0H35l6-4.8h-2.5Zm2.5 0 6-4.8v7.5l-6 4.8Z",
               "fill": {
                 "type": "color",
@@ -212,6 +221,15 @@
             "name": "path",
             "type": "element",
             "attributes": {
+              "fill": "#000000",
+              "fill-opacity": ".16",
+              "d": "M39.5 106.1h.5v2h-.5z"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
               "d": "M32.5 85.7H40v20h-7.5Zm0 0H40l6-4.8h-7.5Z",
               "fill": {
                 "type": "color",
@@ -232,9 +250,27 @@
             "name": "path",
             "type": "element",
             "attributes": {
+              "d": "M32.5 85.7H40v20h-7.5Z",
+              "fill": "#000000",
+              "fill-opacity": ".08"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
               "d": "M32.5 85.7H40l6-4.8h-7.5Z",
               "fill": "#000000",
               "fill-opacity": ".2"
+            }
+          },
+          {
+            "name": "path",
+            "type": "element",
+            "attributes": {
+              "fill": "#000000",
+              "fill-opacity": ".16",
+              "d": "M44.5 106.1h10v2h-10z"
             }
           },
           {
@@ -270,9 +306,9 @@
             "name": "path",
             "type": "element",
             "attributes": {
+              "d": "M39.5 83.6h40l7-5.6h-40Z",
               "fill": "#000000",
-              "fill-opacity": ".16",
-              "d": "M39.5 106.1h40v1.5h-40z"
+              "fill-opacity": ".2"
             }
           },
           {
@@ -366,23 +402,23 @@
             "name": "path",
             "type": "element",
             "attributes": {
+              "d": "M80 85.7h7.5v20H80Z",
               "fill": "#000000",
-              "fill-opacity": ".08",
-              "d": "M32.5 85.7h7v20h-7zm47.5 0h7.5v20H80z"
+              "fill-opacity": ".08"
             }
-          },
-          {
-            "name": "chest",
-            "type": "component"
           },
           {
             "name": "path",
             "type": "element",
             "attributes": {
-              "d": "M39.5 83.6h40l7-5.6h-40ZM80 85.7h7.5l6-4.8H86Z",
+              "d": "M80 85.7h7.5l6-4.8H86Z",
               "fill": "#000000",
               "fill-opacity": ".2"
             }
+          },
+          {
+            "name": "chest",
+            "type": "component"
           },
           {
             "name": "path",
@@ -1463,6 +1499,15 @@
               "name": "path",
               "type": "element",
               "attributes": {
+                "fill": "#000000",
+                "fill-opacity": ".16",
+                "d": "M53.5 29.4h10v2h-10z"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
                 "d": "M53.5 16.9h10v12.5h-10Zm0 0h10L74 8.5H64Zm10 0L74 8.5V21l-10.5 8.4Z",
                 "fill": {
                   "type": "color",
@@ -1486,15 +1531,6 @@
                 "d": "M63.5 16.9 74 8.5V21l-10.5 8.4Z",
                 "fill": "#000000",
                 "fill-opacity": ".24"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": "#000000",
-                "fill-opacity": ".16",
-                "d": "M53.5 29.4h10v2h-10z"
               }
             }
           ]

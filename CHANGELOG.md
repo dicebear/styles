@@ -19,6 +19,9 @@ Versions track the DiceBear release line.
   them instead of falling on the background, and arms and hands are no longer
   buried under clothing. A few shapes look slightly different as a result,
   which is part of the fix.
+- **Voxel Bot: the shadow below the torso.** It ran the full width of the body
+  and fell onto the background between and beside the legs. Now it lands only
+  on the legs themselves.
 
 ## [10.5.0] - 2026-08-16
 
