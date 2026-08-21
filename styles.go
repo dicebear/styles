@@ -37,6 +37,10 @@
 // binary — there is no per-style opt-in like the Rust crate's features. Unlike
 // the npm build, which serves the minified dist/, Go embeds and parses the
 // unminified src/ JSON, matching the Python, PHP, Rust and Dart packages.
+//
+// The MIT license in this file's header covers this file only. The embedded
+// style definitions carry their own licenses, listed in LICENSE.md and in each
+// definition's meta block.
 package styles
 
 import _ "embed"

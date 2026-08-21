@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/dicebear/styles.git"
   },
+  "license": "SEE LICENSE IN LICENSE.md",
   "sideEffects": false,
   "type": "module",
   "exports": {

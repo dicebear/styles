@@ -12,6 +12,16 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Changed
+
+- **`LICENSE.md` now covers the code as well.** It used to list the styles
+  only, while the MIT license for the shims, the scripts and the manifests
+  lived in file headers. Both parts are now in the file that every package
+  manifest points at.
+- **The npm package declares its license.** `package.json` carried no `license`
+  field, so tooling reported the package as unlicensed. It now says
+  `SEE LICENSE IN LICENSE.md`.
+
 ### Fixed
 
 - **Voxel Art: several rendering errors.** Stray light and dark edges no

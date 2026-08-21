@@ -42,6 +42,10 @@
 //! `dist/` over the browser — Rust embeds and parses the JSON at runtime, so the
 //! unminified `src/` files are used directly, matching the Python, PHP, Go and
 //! Dart packages.
+//!
+//! The MIT license in this file's header covers this file only. The embedded
+//! style definitions carry their own licenses, listed in LICENSE.md and in each
+//! definition's `meta` block.
 
 #[cfg(feature = "adventurer")]
 pub const ADVENTURER: &str = include_str!("src/adventurer.json");

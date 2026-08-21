@@ -63,8 +63,14 @@ echo "Generate LICENSE.md"
 cat > "$LICENSE_FILE" << 'EOF'
 # License
 
-The avatar styles are subject to different licenses. You can find the license in
-the following list or in the individual files.
+The avatar styles and the code that ships them are under different licenses.
+
+## Avatar styles
+
+Each style has its own license, listed below and repeated in the `meta` block of
+the definition itself. The build derives a copy of every definition for the
+individual package ecosystems, and each copy keeps the license of the file it
+came from.
 EOF
 
 for f in "$TARGET_DIR"/*.json; do
@@ -86,7 +92,7 @@ for f in "$TARGET_DIR"/*.json; do
 
   # Collect rows as "label|value" pairs
   rows=()
-  rows+=("File|[src/${name}.json](./src/${name}.json)")
+  rows+=("File|[src/${name}.json](https://github.com/dicebear/styles/blob/main/src/${name}.json)")
 
   if [ -n "$creator_name" ]; then
     if [ -n "$creator_url" ]; then
@@ -121,7 +127,7 @@ for f in "$TARGET_DIR"/*.json; do
 
   {
     echo ""
-    echo "## $title"
+    echo "### $title"
     echo ""
 
     for i in "${!rows[@]}"; do
@@ -142,6 +148,37 @@ for f in "$TARGET_DIR"/*.json; do
   } >> "$LICENSE_FILE"
 
 done
+
+cat >> "$LICENSE_FILE" << 'EOF'
+
+## Everything else
+
+The language shims, the build and release scripts, the tooling and the package
+manifests contain no avatar artwork. They refer to the style files by name. That
+part is under the MIT license:
+
+MIT License
+
+Copyright (c) 2026 Florian Körner
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+EOF
 
 # pub.dev rejects packages without a file named exactly LICENSE, while npm,
 # PyPI, crates.io and GitHub all point at LICENSE.md. Ship the same content
@@ -218,6 +255,10 @@ cat > "$RUST_LIB" <<'EOF'
 //! `dist/` over the browser — Rust embeds and parses the JSON at runtime, so the
 //! unminified `src/` files are used directly, matching the Python, PHP, Go and
 //! Dart packages.
+//!
+//! The MIT license in this file's header covers this file only. The embedded
+//! style definitions carry their own licenses, listed in LICENSE.md and in each
+//! definition's `meta` block.
 
 EOF
 
@@ -350,6 +391,10 @@ cat > "$GO_FILE" <<'EOF'
 // binary — there is no per-style opt-in like the Rust crate's features. Unlike
 // the npm build, which serves the minified dist/, Go embeds and parses the
 // unminified src/ JSON, matching the Python, PHP, Rust and Dart packages.
+//
+// The MIT license in this file's header covers this file only. The embedded
+// style definitions carry their own licenses, listed in LICENSE.md and in each
+// definition's meta block.
 package styles
 
 import _ "embed"
@@ -547,6 +592,10 @@ done
 /// the styles it imports. This umbrella library re-exports every style and
 /// adds a runtime lookup by name; importing it therefore pulls in every style,
 /// like the Rust crate's `all` feature.
+///
+/// The MIT license in this file's header covers this file only. The style
+/// definitions it re-exports carry their own licenses, listed in LICENSE and in
+/// each definition's `meta` block.
 library;
 
 EOF

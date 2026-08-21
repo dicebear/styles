@@ -142,15 +142,15 @@ final names = styles.all;
 ## Contributing
 
 See
-[CONTRIBUTING.md](https://github.com/dicebear/definitions/blob/main/CONTRIBUTING.md)
+[CONTRIBUTING.md](https://github.com/dicebear/styles/blob/main/CONTRIBUTING.md)
 for local development, testing, and the release process.
 
 ## License
 
-The avatar styles are licensed under different licenses. More information can be
-found in the file
-[LICENSE.md](https://github.com/dicebear/definitions/blob/main/LICENSE.md) or in
-the definition files themselves.
+Each avatar style is under its own license, named in the definition file itself.
+The language shims, the build scripts and the package manifests are under the
+MIT license. Both parts are spelled out in
+[LICENSE.md](https://github.com/dicebear/styles/blob/main/LICENSE.md).
 
 ## Sponsors
 
