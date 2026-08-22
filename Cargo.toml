@@ -8,9 +8,9 @@ homepage = "https://www.dicebear.com"
 keywords = ["dicebear", "avatar", "svg"]
 authors = ["Florian Körner <contact@florian-koerner.com>"]
 readme = "README.md"
-# The styles are individually licensed (see LICENSE.md / each file's `meta`),
-# so there is no single SPDX expression — mirror the npm/Composer manifests,
-# which omit a license field too, and point at the per-style license list.
+# The styles are individually licensed (see LICENSE.md / each file's `meta`), so
+# there is no single SPDX expression. Point at the per-style license list
+# instead, like the other manifests do.
 license-file = "LICENSE.md"
 
 # Pure-data crate: ship the committed source styles (not the gitignored, npm-only

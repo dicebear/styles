@@ -1,9 +1,7 @@
 # Pure-data package: no dependencies and no logic. The style definitions are
 # embedded as Dart string constants under lib/ (generated from src/*.json by
-# scripts/build.sh). This mirrors how @dicebear/styles (npm), dicebear/styles
-# (Composer), dicebear-styles (PyPI, crates.io) and the Go module ship the same
-# data. scripts/version.sh keeps the version in lockstep with the other
-# manifests.
+# scripts/build.sh), the same data the packages for the other languages ship.
+# scripts/version.sh keeps the version in lockstep with the other manifests.
 name: dicebear_styles
 version: 10.5.0
 description: >-

@@ -180,8 +180,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 EOF
 
-# pub.dev rejects packages without a file named exactly LICENSE, while npm,
-# PyPI, crates.io and GitHub all point at LICENSE.md. Ship the same content
+# pub.dev rejects packages without a file named exactly LICENSE, while the
+# other registries and GitHub all point at LICENSE.md. Ship the same content
 # under both names: the copy is git-ignored like lib/, and only the pub
 # publish includes it (see .pubignore).
 cp "$LICENSE_FILE" "$BASE_DIR/../LICENSE"
@@ -239,10 +239,9 @@ cat > "$RUST_LIB" <<'EOF'
 
 //! DiceBear avatar style definitions, embedded at compile time.
 //!
-//! This is a pure-data crate. It mirrors the npm (`@dicebear/<style>`), Composer,
-//! PyPI (`dicebear-styles`), Go and pub.dev (`dicebear_styles`) packages: the
-//! same source styles under `src/`, with no logic. The core parses and renders
-//! these definitions; this crate only ships the bytes.
+//! This is a pure-data crate: the same source styles under `src/` that the
+//! packages for the other languages ship, with no logic. The core parses and
+//! renders these definitions. This crate only ships the bytes.
 //!
 //! Each style is gated behind a feature of the same name, so a binary only embeds
 //! the styles it opts into:
@@ -251,10 +250,9 @@ cat > "$RUST_LIB" <<'EOF'
 //! dicebear-styles = { version = "10", features = ["shapes", "bottts"] }
 //! ```
 //!
-//! Use `all` to pull in every style. Unlike npm — which serves the minified
-//! `dist/` over the browser — Rust embeds and parses the JSON at runtime, so the
-//! unminified `src/` files are used directly, matching the Python, PHP, Go and
-//! Dart packages.
+//! Use `all` to pull in every style. The crate embeds the unminified `src/`
+//! files and parses them at runtime. The minified `dist/` copy exists for the
+//! browser and ships only on npm.
 //!
 //! The MIT license in this file's header covers this file only. The embedded
 //! style definitions carry their own licenses, listed in LICENSE.md and in each
@@ -343,7 +341,7 @@ pascal_name() {
   printf '%s' "$1" | LC_ALL=C awk -F'-' '{s="";for(i=1;i<=NF;i++)s=s toupper(substr($i,1,1)) substr($i,2);print s}'
 }
 
-# Reuse the same LC_ALL=C-sorted `names` list built for the Rust crate so the two
+# Reuse the same LC_ALL=C-sorted `names` list built for the Rust crate so the
 # generated shims stay in lockstep. The output is hand-formatted to be gofmt-clean
 # (tabs, single blank lines) — build.sh must not shell out to `gofmt`, since the
 # rust-codegen CI job runs this script without a Go toolchain installed.
@@ -380,17 +378,15 @@ cat > "$GO_FILE" <<'EOF'
 
 // Package styles embeds the DiceBear avatar style definitions.
 //
-// It is a pure-data package, mirroring the npm (@dicebear/styles), Composer
-// (dicebear/styles), PyPI (dicebear-styles), crates.io (dicebear-styles) and
-// pub.dev (dicebear_styles) packages: the same source styles under src/, with
-// no logic. The core parses and renders these definitions; this package only
-// ships the bytes.
+// It is a pure-data package: the same source styles under src/ that the
+// packages for the other languages ship, with no logic. The core parses and
+// renders these definitions. This package only ships the bytes.
 //
 // Every style is embedded and exposed both as an exported variable (e.g.
 // Adventurer) and by name via Get. Go embeds the whole set into the consuming
-// binary — there is no per-style opt-in like the Rust crate's features. Unlike
-// the npm build, which serves the minified dist/, Go embeds and parses the
-// unminified src/ JSON, matching the Python, PHP, Rust and Dart packages.
+// binary, so there is no per-style opt-in like the Rust crate's features. The
+// embedded copy is the unminified src/ JSON. The minified dist/ copy exists
+// for the browser and ships only on npm.
 //
 // The MIT license in this file's header covers this file only. The embedded
 // style definitions carry their own licenses, listed in LICENSE.md and in each
@@ -460,8 +456,8 @@ snake_name() { printf '%s' "$1" | LC_ALL=C tr '-' '_'; }
 # byte sequences that are invalid in the active locale.
 dart_escape() { LC_ALL=C sed -e 's/\\/\\\\/g' -e "s/'/\\\\'/g" -e 's/\$/\\$/g'; }
 
-# Per-style file header. Unlike styles.rs and styles.go, which are MIT-licensed
-# shims that only *reference* the JSON, these files *contain* the style data, so
+# Per-style file header. Unlike the other language shims, which are MIT-licensed
+# and only *reference* the JSON, these files *contain* the style data, so
 # they must not carry the repository's MIT tooling header. Each file credits its
 # own artist and license instead, from the same `meta` that LICENSE.md is built
 # from (every style carries `meta.license`).
@@ -582,16 +578,14 @@ done
   cat <<'EOF'
 /// DiceBear avatar style definitions, embedded as Dart string constants.
 ///
-/// This is a pure-data package. It mirrors the npm (`@dicebear/styles`),
-/// Composer, PyPI, crates.io and Go packages: the same source styles, with no
-/// logic. The core parses and renders these definitions; this package only
-/// ships the bytes.
+/// This is a pure-data package: the same source styles that the packages for
+/// the other languages ship, with no logic. The core parses and renders these
+/// definitions. This package only ships the bytes.
 ///
 /// Each style lives in its own library (e.g.
 /// `package:dicebear_styles/adventurer.dart`), so a compiled app only embeds
 /// the styles it imports. This umbrella library re-exports every style and
-/// adds a runtime lookup by name; importing it therefore pulls in every style,
-/// like the Rust crate's `all` feature.
+/// adds a runtime lookup by name, so importing it pulls in every style.
 ///
 /// The MIT license in this file's header covers this file only. The style
 /// definitions it re-exports carry their own licenses, listed in LICENSE and in
@@ -631,5 +625,170 @@ EOF
   done
   echo "];"
 } > "$DART_DIR/dicebear_styles.dart"
+
+echo "Generate C# package (styles.cs)."
+
+CS_FILE="$BASE_DIR/../styles.cs"
+
+# kebab-case style name -> C# property name (PascalCase). Same shape as the Go
+# identifiers, so `pascal_name` is reused.
+
+# License header, generated-marker and type docs (static). A quoted heredoc
+# writes the XML doc comments verbatim.
+cat > "$CS_FILE" <<'EOF'
+// -----------------------------------------------------------------------------
+// MIT License
+//
+// Copyright (c) 2026 Florian Körner
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+// -----------------------------------------------------------------------------
+
+// @generated by scripts/build.sh from src/*.json — do not edit by hand.
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
+using System.Text;
+
+namespace DiceBear
+{
+    /// <summary>
+    /// The DiceBear avatar style definitions, embedded in the assembly.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// A pure-data package: the same source styles under <c>src/</c> that the
+    /// packages for the other languages ship, with no logic. The core parses
+    /// and renders these definitions. This package only ships the bytes.
+    /// </para>
+    /// <para>
+    /// The assembly embeds the unminified <c>src/</c> JSON. The minified
+    /// <c>dist/</c> copy exists for the browser and ships only on npm. Every
+    /// style is embedded, so the assembly carries the whole set: there is no
+    /// per-style opt-in like the Rust crate's features, and the trimmer leaves
+    /// embedded resources alone.
+    /// </para>
+    /// <para>
+    /// Every member reads its resource on each call and does not cache it. A
+    /// definition is a few hundred kilobytes, and the usual path hands it to
+    /// <c>Style.Parse</c> once and keeps the parsed style instead, so caching
+    /// the raw text here would hold megabytes nobody reads again.
+    /// </para>
+    /// <para>
+    /// The MIT license in this file's header covers this file only. The
+    /// embedded style definitions carry their own licenses, listed in
+    /// LICENSE.md and in each definition's <c>meta</c> block.
+    /// </para>
+    /// </remarks>
+    public static class Styles
+    {
+        private const string ResourcePrefix = "DiceBear.Styles.";
+
+EOF
+
+for name in "${names[@]}"; do
+  pascal="$(pascal_name "$name")"
+  printf '        /// <summary>Raw JSON definition of the DiceBear <c>%s</c> avatar style.</summary>\n' "$name" >> "$CS_FILE"
+  printf '        public static string %s => Read("%s");\n\n' "$pascal" "$name" >> "$CS_FILE"
+done
+
+cat >> "$CS_FILE" <<'EOF'
+        /// <summary>
+        /// Returns the raw JSON definition for the named style, or
+        /// <see langword="null"/> if the style name is unknown.
+        /// </summary>
+        /// <param name="name">Style name, e.g. <c>"adventurer"</c>.</param>
+        /// <remarks>
+        /// Companion to <see cref="All"/>: <c>All()</c> lists the names,
+        /// <c>Get(name)</c> fetches one.
+        /// </remarks>
+        public static string? Get(string name)
+        {
+            switch (name)
+            {
+EOF
+
+for name in "${names[@]}"; do
+  pascal="$(pascal_name "$name")"
+  printf '                case "%s":\n                    return %s;\n' "$name" "$pascal" >> "$CS_FILE"
+done
+
+cat >> "$CS_FILE" <<'EOF'
+                default:
+                    return null;
+            }
+        }
+
+        /// <summary>
+        /// Names of every embedded style, sorted.
+        /// </summary>
+        /// <remarks>
+        /// Companion to <see cref="Get"/>: <c>All()</c> lists the names,
+        /// <c>Get(name)</c> fetches one.
+        /// </remarks>
+        public static IReadOnlyList<string> All()
+        {
+            return new[]
+            {
+EOF
+
+for name in "${names[@]}"; do
+  printf '                "%s",\n' "$name" >> "$CS_FILE"
+done
+
+cat >> "$CS_FILE" <<'EOF'
+            };
+        }
+
+        /// <summary>
+        /// Reads one embedded definition as UTF-8 text.
+        /// </summary>
+        private static string Read(string name)
+        {
+            var assembly = typeof(Styles).GetTypeInfo().Assembly;
+            var resource = ResourcePrefix + name + ".json";
+
+            using (var stream = assembly.GetManifestResourceStream(resource))
+            {
+                if (stream == null)
+                {
+                    throw new InvalidOperationException(
+                        "Embedded style resource is missing: " + resource);
+                }
+
+                // The JSON files are committed without a byte order mark, and
+                // BOM detection is switched off so that one appearing in src/
+                // would survive into the string instead of being stripped. That
+                // keeps the bytes identical to src/*.json on every platform, and
+                // it lets tool/CheckParity see the difference: File.ReadAllText
+                // does strip a BOM, so the comparison would fail and report it.
+                using (var reader = new StreamReader(
+                    stream, new UTF8Encoding(false), detectEncodingFromByteOrderMarks: false))
+                {
+                    return reader.ReadToEnd();
+                }
+            }
+        }
+    }
+}
+EOF
 
 echo "Done!"

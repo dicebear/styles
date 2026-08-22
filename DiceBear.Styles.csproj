@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Pure-data package: ship the source styles (the committed src/, not the
+    gitignored, npm-only dist/) embedded in the assembly, plus the generated
+    shim in styles.cs. The shim lives at the repository root next to the other
+    language shims, so the default **/*.cs glob is switched off and the one
+    file is listed explicitly. It would otherwise also pull in
+    tool/CheckParity.
+  -->
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>DiceBear.Styles</AssemblyName>
+    <RootNamespace>DiceBear</RootNamespace>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>DiceBear.Styles</PackageId>
+    <Version>10.5.0</Version>
+    <Authors>Florian Körner</Authors>
+    <Description>Definition files of the DiceBear avatar styles.</Description>
+    <PackageTags>dicebear;avatar</PackageTags>
+    <!--
+      The styles are individually licensed (see LICENSE.md / each file's
+      `meta`), so there is no single SPDX expression to put in
+      PackageLicenseExpression. Claiming MIT here would cover the shim and
+      misdescribe the artwork. The file is packed and pointed at instead, like
+      the other manifests do.
+    -->
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://www.dicebear.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dicebear/styles</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="styles.cs" />
+    <!--
+      LogicalName pins the resource key, so it no longer depends on how MSBuild
+      derives one from the file path. Styles.Read looks the definitions up by
+      these exact names. %(Filename) expands per file, so a new style in src/
+      is embedded without touching this list.
+    -->
+    <EmbeddedResource Include="src/*.json" LogicalName="DiceBear.Styles.%(Filename).json" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

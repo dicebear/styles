@@ -26,17 +26,15 @@
 
 // Package styles embeds the DiceBear avatar style definitions.
 //
-// It is a pure-data package, mirroring the npm (@dicebear/styles), Composer
-// (dicebear/styles), PyPI (dicebear-styles), crates.io (dicebear-styles) and
-// pub.dev (dicebear_styles) packages: the same source styles under src/, with
-// no logic. The core parses and renders these definitions; this package only
-// ships the bytes.
+// It is a pure-data package: the same source styles under src/ that the
+// packages for the other languages ship, with no logic. The core parses and
+// renders these definitions. This package only ships the bytes.
 //
 // Every style is embedded and exposed both as an exported variable (e.g.
 // Adventurer) and by name via Get. Go embeds the whole set into the consuming
-// binary — there is no per-style opt-in like the Rust crate's features. Unlike
-// the npm build, which serves the minified dist/, Go embeds and parses the
-// unminified src/ JSON, matching the Python, PHP, Rust and Dart packages.
+// binary, so there is no per-style opt-in like the Rust crate's features. The
+// embedded copy is the unminified src/ JSON. The minified dist/ copy exists
+// for the browser and ships only on npm.
 //
 // The MIT license in this file's header covers this file only. The embedded
 // style definitions carry their own licenses, listed in LICENSE.md and in each

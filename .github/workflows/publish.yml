@@ -128,3 +128,42 @@ jobs:
 
       - name: Publish
         run: dart pub publish --force
+
+  publish-nuget:
+    runs-on: ubuntu-latest
+    # Runs after the npm job so the shared JSON validation (validate.sh) has
+    # passed before anything is pushed to NuGet. styles.cs is committed and the
+    # csproj embeds the committed src/ JSON directly, so nothing has to be
+    # generated first. Authentication uses NuGet.org's Trusted Publishing (OIDC,
+    # no stored token), which needs a trusted publishing policy configured on
+    # nuget.org for this repository and this workflow.
+    needs: publish
+    permissions:
+      contents: read # actions/checkout
+      id-token: write # Trusted Publishing to NuGet.org (OIDC, no stored token)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Verify the embedded styles match src/
+        run: dotnet run --project tool/CheckParity
+
+      - name: Pack
+        run: dotnet pack DiceBear.Styles.csproj --configuration Release --output dist-nuget
+
+      - name: Authenticate to NuGet.org
+        uses: NuGet/login@v1
+        id: login
+        with:
+          # The NuGet.org account that created the trusted publishing policy,
+          # not the organization that owns the package. Passing the owner fails
+          # the token exchange with a 401.
+          user: FlorianKoerner
+
+      - name: Publish
+        run: dotnet nuget push "dist-nuget/*.nupkg" --source https://api.nuget.org/v3/index.json --api-key "${{ steps.login.outputs.NUGET_API_KEY }}"

@@ -26,8 +26,8 @@ classifiers = [
 
 # Data-only distribution: no runtime dependencies and no Python code. The style
 # definitions ship as JSON resources under the `dicebear_styles` import name and
-# are read by the consumer via the standard library, mirroring how
-# `@dicebear/styles` (npm) and `dicebear/styles` (Composer) ship pure data:
+# are read by the consumer via the standard library, the same pure data the
+# packages for the other languages ship:
 #
 #     import json
 #     from importlib.resources import files

@@ -86,8 +86,9 @@ container, so expect a slower warm-up.
 2. Run `npm test`. If the schema rejects the file, Bowtie prints the exact
    keyword and JSON pointer that failed, so you can fix the offending
    value directly.
-3. Run `npm run build` and commit the regenerated `styles.rs`, `Cargo.toml` and
-   `styles.go` alongside `src/` (CI fails the PR if they are stale). The
+3. Run `npm run build` and commit the regenerated `styles.rs`, `Cargo.toml`,
+   `styles.go` and `styles.cs` alongside `src/` (CI fails the PR if they are
+   stale). The
    minified `dist/` files and the Dart `lib/` are regenerated too, but they are
    git-ignored: only the npm publish ships `dist/`, and only the pub.dev
    publish ships `lib/`.
@@ -127,8 +128,9 @@ git push && git push --tags
 ```
 
 `scripts/version.sh` updates `version` in `package.json`, `pyproject.toml`,
-`Cargo.toml` **and** `pubspec.yaml`, syncs `package-lock.json`, then creates the
-commit and the `v<version>` tag. All four manifests carry the same version, so
+`Cargo.toml`, `pubspec.yaml` **and** `DiceBear.Styles.csproj`, syncs
+`package-lock.json`, then creates the commit and the `v<version>` tag. All five
+manifests carry the same version, so
 always release via this script (not `npm version`, which would bump only
 `package.json`). Use a valid [semver](https://semver.org/) value; for
 prereleases note that PyPI normalizes to PEP 440, so npm publishes `10.2.0-rc.1`
@@ -146,6 +148,9 @@ On the tag, the workflow:
    (`dicebear_styles`). This requires automated publishing to be enabled in the
    pub.dev admin settings for the package (repository `dicebear/styles`, tag
    pattern `v{{version}}`).
+6. Packs the assembly with the embedded definitions and publishes it to NuGet
+   via Trusted Publishing (`DiceBear.Styles`). This requires a trusted
+   publishing policy on nuget.org for this repository and workflow.
 
 Packagist (`dicebear/styles`) and the Go module proxy
 (`github.com/dicebear/styles/v10`) both pick up the same Git tag automatically,
@@ -156,4 +161,4 @@ does not touch `go.mod`.
 > the `go.mod` module path is `github.com/dicebear/styles/v10`, and consumers
 > import that. When this repo moves to `v11`, that suffix must be bumped by hand in
 > `go.mod` (and the README import examples). `scripts/version.sh` only rewrites the
-> semver in the npm/PyPI/crates/pub manifests, not the Go module path.
+> semver in the npm/PyPI/crates/pub/NuGet manifests, not the Go module path.

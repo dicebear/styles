@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    CI guard for DiceBear.Styles, the C# counterpart of tool/check_parity.dart.
+    The Dart shim embeds the JSON as generated string literals, so its check
+    guards the escaping. Here MSBuild embeds the files verbatim, so the check
+    guards the wiring instead: that every resource resolves, still holds the
+    bytes in src/, and that the generated All() list has not drifted from the
+    files the csproj glob embeds.
+  -->
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>DiceBear.Tool.CheckParity</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../DiceBear.Styles.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--
+      MSBuild already knows where the repository root is: this file sits two
+      levels below it. Baking that in beats counting ".." segments up from
+      AppContext.BaseDirectory at runtime, which quietly assumes the
+      bin/<Config>/<TFM> output layout and points outside the repository as
+      soon as that changes, for example under ArtifactsPath.
+    -->
+    <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+      <_Parameter1>RepositoryRoot</_Parameter1>
+      <_Parameter2>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)../../'))</_Parameter2>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+</Project>

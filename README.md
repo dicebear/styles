@@ -139,6 +139,31 @@ final raw = styles.get('adventurer');
 final names = styles.all;
 ```
 
+**C#**
+
+```bash
+dotnet add package DiceBear.Styles
+```
+
+Every style is embedded in the assembly and exposed as raw JSON (`string`), both
+as a property and by name via `Get`. Parse it with `System.Text.Json`:
+
+```csharp
+using System.Text.Json;
+using DiceBear;
+
+var adventurer = JsonDocument.Parse(Styles.Adventurer);
+
+// Or look one up by name (null if the style is unknown):
+var raw = Styles.Get("lorelei");
+
+// All() lists every embedded style.
+var all = Styles.All();
+```
+
+Each property reads its resource on every call, so hand the text to whatever
+parses it once and keep that result rather than the raw string.
+
 ## Contributing
 
 See

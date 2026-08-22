@@ -149,3 +149,41 @@ jobs:
 
       - name: Verify byte parity with src/
         run: dart run tool/check_parity.dart
+
+  csharp:
+    runs-on: ubuntu-latest
+    # styles.cs is generated from src/*.json by scripts/build.sh and committed,
+    # like the other language shims, so a style added without regenerating it
+    # would ship inside the assembly but stay invisible to callers. Fail the PR
+    # if the committed file is stale, then build the package and read every
+    # style back out of it. MSBuild embeds the JSON verbatim, so unlike the Dart
+    # shim there is no escaping to guard, but the wiring can still break: a
+    # renamed file, or a LogicalName that no longer matches what styles.cs
+    # looks up.
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Regenerate styles.cs from src/
+        run: bash scripts/build.sh
+
+      - name: Fail if styles.cs is out of sync with src/
+        run: git diff --exit-code -- styles.cs
+
+      - name: Build
+        run: dotnet build DiceBear.Styles.csproj --configuration Release
+
+      - name: Verify byte parity with src/
+        run: dotnet run --project tool/CheckParity
+
+      - name: Pack
+        # dotnet build leaves the packaging inputs unresolved, so a Pack item
+        # pointing at a missing file (LICENSE.md, README.md) stays invisible
+        # until the release packs, by which point npm is already published.
+        # Packing here turns that into a red pull request instead.
+        run: dotnet pack DiceBear.Styles.csproj --configuration Release --output dist-nuget

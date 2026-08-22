@@ -14,3 +14,10 @@ Cargo.lock
 pubspec.lock
 /lib
 /LICENSE
+
+# .NET build output of DiceBear.Styles.csproj (the package is data-only, so
+# there is nothing generated here that needs committing) and the directory the
+# publish workflow packs the .nupkg into.
+bin
+obj
+dist-nuget

@@ -26,10 +26,9 @@
 
 //! DiceBear avatar style definitions, embedded at compile time.
 //!
-//! This is a pure-data crate. It mirrors the npm (`@dicebear/<style>`), Composer,
-//! PyPI (`dicebear-styles`), Go and pub.dev (`dicebear_styles`) packages: the
-//! same source styles under `src/`, with no logic. The core parses and renders
-//! these definitions; this crate only ships the bytes.
+//! This is a pure-data crate: the same source styles under `src/` that the
+//! packages for the other languages ship, with no logic. The core parses and
+//! renders these definitions. This crate only ships the bytes.
 //!
 //! Each style is gated behind a feature of the same name, so a binary only embeds
 //! the styles it opts into:
@@ -38,10 +37,9 @@
 //! dicebear-styles = { version = "10", features = ["shapes", "bottts"] }
 //! ```
 //!
-//! Use `all` to pull in every style. Unlike npm — which serves the minified
-//! `dist/` over the browser — Rust embeds and parses the JSON at runtime, so the
-//! unminified `src/` files are used directly, matching the Python, PHP, Go and
-//! Dart packages.
+//! Use `all` to pull in every style. The crate embeds the unminified `src/`
+//! files and parses them at runtime. The minified `dist/` copy exists for the
+//! browser and ships only on npm.
 //!
 //! The MIT license in this file's header covers this file only. The embedded
 //! style definitions carry their own licenses, listed in LICENSE.md and in each

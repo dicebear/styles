@@ -7,10 +7,19 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 This repository ships the DiceBear avatar styles as pure JSON definition files
-(distributed via npm, Composer, PyPI, crates.io, Go modules, and pub.dev).
+(distributed via npm, Composer, PyPI, crates.io, Go modules, pub.dev, and
+NuGet).
 Versions track the DiceBear release line.
 
 ## [Unreleased]
+
+### Added
+
+- **`DiceBear.Styles` on NuGet.** The definitions now reach .NET the way they
+  reach the other ecosystems, through a package rather than a manual download:
+  `dotnet add package DiceBear.Styles`, then `Style.Parse(Styles.Lorelei)`.
+  Every style is embedded in the assembly and reachable as a property or by
+  name through `Get`.
 
 ### Changed
 
