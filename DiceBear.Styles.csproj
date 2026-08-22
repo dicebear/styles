@@ -22,7 +22,7 @@
 
   <PropertyGroup>
     <PackageId>DiceBear.Styles</PackageId>
-    <Version>10.5.0</Version>
+    <Version>10.6.0-rc.1</Version>
     <Authors>Florian Körner</Authors>
     <Description>Definition files of the DiceBear avatar styles.</Description>
     <PackageTags>dicebear;avatar</PackageTags>

@@ -13,6 +13,8 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+## [10.6.0-rc.1] - 2026-08-22
+
 ### Added
 
 - **`DiceBear.Styles` on NuGet.** The definitions now reach .NET the way they
@@ -309,7 +311,8 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v10.5.0...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v10.6.0-rc.1...HEAD
+[10.6.0-rc.1]: https://github.com/dicebear/styles/compare/v10.5.0...v10.6.0-rc.1
 [10.5.0]: https://github.com/dicebear/styles/compare/v10.5.0-rc.1...v10.5.0
 [10.5.0-rc.1]: https://github.com/dicebear/styles/compare/v10.4.0...v10.5.0-rc.1
 [10.4.0]: https://github.com/dicebear/styles/compare/v10.3.0...v10.4.0

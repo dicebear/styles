@@ -3,7 +3,7 @@
 # scripts/build.sh), the same data the packages for the other languages ship.
 # scripts/version.sh keeps the version in lockstep with the other manifests.
 name: dicebear_styles
-version: 10.5.0
+version: 10.6.0-rc.1
 description: >-
   Definition files of the DiceBear avatar styles, embedded as Dart string
   constants.
