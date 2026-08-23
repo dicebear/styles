@@ -102,6 +102,9 @@ pub const DYLAN: &str = include_str!("src/dylan.json");
 #[cfg(feature = "fun-emoji")]
 pub const FUN_EMOJI: &str = include_str!("src/fun-emoji.json");
 
+#[cfg(feature = "gaze")]
+pub const GAZE: &str = include_str!("src/gaze.json");
+
 #[cfg(feature = "glass")]
 pub const GLASS: &str = include_str!("src/glass.json");
 
@@ -134,6 +137,9 @@ pub const LORELEI: &str = include_str!("src/lorelei.json");
 
 #[cfg(feature = "lorelei-neutral")]
 pub const LORELEI_NEUTRAL: &str = include_str!("src/lorelei-neutral.json");
+
+#[cfg(feature = "marbles")]
+pub const MARBLES: &str = include_str!("src/marbles.json");
 
 #[cfg(feature = "micah")]
 pub const MICAH: &str = include_str!("src/micah.json");
@@ -252,6 +258,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "dylan" => Some(DYLAN),
         #[cfg(feature = "fun-emoji")]
         "fun-emoji" => Some(FUN_EMOJI),
+        #[cfg(feature = "gaze")]
+        "gaze" => Some(GAZE),
         #[cfg(feature = "glass")]
         "glass" => Some(GLASS),
         #[cfg(feature = "glyphs")]
@@ -274,6 +282,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "lorelei" => Some(LORELEI),
         #[cfg(feature = "lorelei-neutral")]
         "lorelei-neutral" => Some(LORELEI_NEUTRAL),
+        #[cfg(feature = "marbles")]
+        "marbles" => Some(MARBLES),
         #[cfg(feature = "micah")]
         "micah" => Some(MICAH),
         #[cfg(feature = "miniavs")]
@@ -372,6 +382,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("dylan");
     #[cfg(feature = "fun-emoji")]
     v.push("fun-emoji");
+    #[cfg(feature = "gaze")]
+    v.push("gaze");
     #[cfg(feature = "glass")]
     v.push("glass");
     #[cfg(feature = "glyphs")]
@@ -394,6 +406,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("lorelei");
     #[cfg(feature = "lorelei-neutral")]
     v.push("lorelei-neutral");
+    #[cfg(feature = "marbles")]
+    v.push("marbles");
     #[cfg(feature = "micah")]
     v.push("micah");
     #[cfg(feature = "miniavs")]

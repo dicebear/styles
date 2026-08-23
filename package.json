@@ -93,6 +93,10 @@
       "types": "./dist/fun-emoji.min.json",
       "default": "./dist/fun-emoji.min.json"
     },
+    "./gaze.json": {
+      "types": "./dist/gaze.min.json",
+      "default": "./dist/gaze.min.json"
+    },
     "./glass.json": {
       "types": "./dist/glass.min.json",
       "default": "./dist/glass.min.json"
@@ -136,6 +140,10 @@
     "./lorelei.json": {
       "types": "./dist/lorelei.min.json",
       "default": "./dist/lorelei.min.json"
+    },
+    "./marbles.json": {
+      "types": "./dist/marbles.min.json",
+      "default": "./dist/marbles.min.json"
     },
     "./micah.json": {
       "types": "./dist/micah.min.json",

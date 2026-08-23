@@ -121,6 +121,9 @@ namespace DiceBear
         /// <summary>Raw JSON definition of the DiceBear <c>fun-emoji</c> avatar style.</summary>
         public static string FunEmoji => Read("fun-emoji");
 
+        /// <summary>Raw JSON definition of the DiceBear <c>gaze</c> avatar style.</summary>
+        public static string Gaze => Read("gaze");
+
         /// <summary>Raw JSON definition of the DiceBear <c>glass</c> avatar style.</summary>
         public static string Glass => Read("glass");
 
@@ -153,6 +156,9 @@ namespace DiceBear
 
         /// <summary>Raw JSON definition of the DiceBear <c>lorelei-neutral</c> avatar style.</summary>
         public static string LoreleiNeutral => Read("lorelei-neutral");
+
+        /// <summary>Raw JSON definition of the DiceBear <c>marbles</c> avatar style.</summary>
+        public static string Marbles => Read("marbles");
 
         /// <summary>Raw JSON definition of the DiceBear <c>micah</c> avatar style.</summary>
         public static string Micah => Read("micah");
@@ -280,6 +286,8 @@ namespace DiceBear
                     return Dylan;
                 case "fun-emoji":
                     return FunEmoji;
+                case "gaze":
+                    return Gaze;
                 case "glass":
                     return Glass;
                 case "glyphs":
@@ -302,6 +310,8 @@ namespace DiceBear
                     return Lorelei;
                 case "lorelei-neutral":
                     return LoreleiNeutral;
+                case "marbles":
+                    return Marbles;
                 case "micah":
                     return Micah;
                 case "miniavs":
@@ -387,6 +397,7 @@ namespace DiceBear
                 "disco",
                 "dylan",
                 "fun-emoji",
+                "gaze",
                 "glass",
                 "glyphs",
                 "icons",
@@ -398,6 +409,7 @@ namespace DiceBear
                 "loops",
                 "lorelei",
                 "lorelei-neutral",
+                "marbles",
                 "micah",
                 "miniavs",
                 "moods",

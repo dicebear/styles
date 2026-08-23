@@ -161,6 +161,14 @@ came from.
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                             |
 |  Source | [Fun Emoji Set](https://www.figma.com/community/file/968125295144990435)              |
 
+### Gaze
+
+|    File | [src/gaze.json](https://github.com/dicebear/styles/blob/main/src/gaze.json) |
+| ------: | :-------------------------------------------------------------------------- |
+|  Artist | [DiceBear](https://www.dicebear.com)                                        |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)               |
+|  Source | [Gaze](https://www.dicebear.com)                                            |
+
 ### Glass
 
 |    File | [src/glass.json](https://github.com/dicebear/styles/blob/main/src/glass.json) |
@@ -248,6 +256,14 @@ came from.
 |  Artist | [Lisa Wischofsky](https://www.instagram.com/lischi_art/)                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                     |
 |  Source | [Lorelei](https://www.figma.com/community/file/1198749693280469639)               |
+
+### Marbles
+
+|    File | [src/marbles.json](https://github.com/dicebear/styles/blob/main/src/marbles.json) |
+| ------: | :-------------------------------------------------------------------------------- |
+|  Artist | [DiceBear](https://www.dicebear.com)                                              |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                     |
+|  Source | [Marbles](https://www.dicebear.com)                                               |
 
 ### Micah
 

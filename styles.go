@@ -100,6 +100,9 @@ var Dylan string
 //go:embed src/fun-emoji.json
 var FunEmoji string
 
+//go:embed src/gaze.json
+var Gaze string
+
 //go:embed src/glass.json
 var Glass string
 
@@ -132,6 +135,9 @@ var Lorelei string
 
 //go:embed src/lorelei-neutral.json
 var LoreleiNeutral string
+
+//go:embed src/marbles.json
+var Marbles string
 
 //go:embed src/micah.json
 var Micah string
@@ -250,6 +256,8 @@ func Get(name string) (string, bool) {
 		return Dylan, true
 	case "fun-emoji":
 		return FunEmoji, true
+	case "gaze":
+		return Gaze, true
 	case "glass":
 		return Glass, true
 	case "glyphs":
@@ -272,6 +280,8 @@ func Get(name string) (string, bool) {
 		return Lorelei, true
 	case "lorelei-neutral":
 		return LoreleiNeutral, true
+	case "marbles":
+		return Marbles, true
 	case "micah":
 		return Micah, true
 	case "miniavs":
@@ -350,6 +360,7 @@ func All() []string {
 		"disco",
 		"dylan",
 		"fun-emoji",
+		"gaze",
 		"glass",
 		"glyphs",
 		"icons",
@@ -361,6 +372,7 @@ func All() []string {
 		"loops",
 		"lorelei",
 		"lorelei-neutral",
+		"marbles",
 		"micah",
 		"miniavs",
 		"moods",

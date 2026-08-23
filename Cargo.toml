@@ -47,6 +47,7 @@ all = [
   "disco",
   "dylan",
   "fun-emoji",
+  "gaze",
   "glass",
   "glyphs",
   "icons",
@@ -58,6 +59,7 @@ all = [
   "loops",
   "lorelei",
   "lorelei-neutral",
+  "marbles",
   "micah",
   "miniavs",
   "moods",
@@ -105,6 +107,7 @@ cutouts = []
 disco = []
 dylan = []
 fun-emoji = []
+gaze = []
 glass = []
 glyphs = []
 icons = []
@@ -116,6 +119,7 @@ line-face = []
 loops = []
 lorelei = []
 lorelei-neutral = []
+marbles = []
 micah = []
 miniavs = []
 moods = []
