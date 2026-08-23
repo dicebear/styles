@@ -13,6 +13,21 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Added
+
+- **New style: Gaze.** A pastel body with a pair of eyes and nothing else.
+  Eleven silhouettes, seven of them plain geometry, the rest a pill, a column,
+  an egg and an arch. Eleven eye pairs, five eye spacings, and a small tilt
+  and size change per seed. The eyes take whichever ink color contrasts with
+  the body. When animated, they wander, they blink, and the body hops.
+  Hand-authored, CC0 1.0.
+- **New style: Marbles.** A small face on a colored marble. Three blurred
+  ellipses shade the disc without a gradient definition: a second color, a
+  pastel tint and a white bloom. Twenty tops cover hats, headphones, hair, a
+  bow and an antenna. The face has nine eye sets, eleven mouths and a nose on
+  three of four seeds, all at one ink weight. Static by design, it carries no
+  animation component. Hand-authored, CC0 1.0.
+
 ## [10.6.0-rc.1] - 2026-08-22
 
 ### Added
