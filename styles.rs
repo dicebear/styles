@@ -75,6 +75,9 @@ pub const BOTTTS: &str = include_str!("src/bottts.json");
 #[cfg(feature = "bottts-neutral")]
 pub const BOTTTS_NEUTRAL: &str = include_str!("src/bottts-neutral.json");
 
+#[cfg(feature = "cameo")]
+pub const CAMEO: &str = include_str!("src/cameo.json");
+
 #[cfg(feature = "clay")]
 pub const CLAY: &str = include_str!("src/clay.json");
 
@@ -180,17 +183,26 @@ pub const PLANETS: &str = include_str!("src/planets.json");
 #[cfg(feature = "rings")]
 pub const RINGS: &str = include_str!("src/rings.json");
 
+#[cfg(feature = "shadows")]
+pub const SHADOWS: &str = include_str!("src/shadows.json");
+
 #[cfg(feature = "shape-grid")]
 pub const SHAPE_GRID: &str = include_str!("src/shape-grid.json");
 
 #[cfg(feature = "shapes")]
 pub const SHAPES: &str = include_str!("src/shapes.json");
 
+#[cfg(feature = "slice")]
+pub const SLICE: &str = include_str!("src/slice.json");
+
 #[cfg(feature = "sprouts")]
 pub const SPROUTS: &str = include_str!("src/sprouts.json");
 
 #[cfg(feature = "squircles")]
 pub const SQUIRCLES: &str = include_str!("src/squircles.json");
+
+#[cfg(feature = "stack")]
+pub const STACK: &str = include_str!("src/stack.json");
 
 #[cfg(feature = "stripes")]
 pub const STRIPES: &str = include_str!("src/stripes.json");
@@ -240,6 +252,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "bottts" => Some(BOTTTS),
         #[cfg(feature = "bottts-neutral")]
         "bottts-neutral" => Some(BOTTTS_NEUTRAL),
+        #[cfg(feature = "cameo")]
+        "cameo" => Some(CAMEO),
         #[cfg(feature = "clay")]
         "clay" => Some(CLAY),
         #[cfg(feature = "constellation")]
@@ -310,14 +324,20 @@ pub fn get(name: &str) -> Option<&'static str> {
         "planets" => Some(PLANETS),
         #[cfg(feature = "rings")]
         "rings" => Some(RINGS),
+        #[cfg(feature = "shadows")]
+        "shadows" => Some(SHADOWS),
         #[cfg(feature = "shape-grid")]
         "shape-grid" => Some(SHAPE_GRID),
         #[cfg(feature = "shapes")]
         "shapes" => Some(SHAPES),
+        #[cfg(feature = "slice")]
+        "slice" => Some(SLICE),
         #[cfg(feature = "sprouts")]
         "sprouts" => Some(SPROUTS),
         #[cfg(feature = "squircles")]
         "squircles" => Some(SQUIRCLES),
+        #[cfg(feature = "stack")]
+        "stack" => Some(STACK),
         #[cfg(feature = "stripes")]
         "stripes" => Some(STRIPES),
         #[cfg(feature = "thumbs")]
@@ -364,6 +384,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("bottts");
     #[cfg(feature = "bottts-neutral")]
     v.push("bottts-neutral");
+    #[cfg(feature = "cameo")]
+    v.push("cameo");
     #[cfg(feature = "clay")]
     v.push("clay");
     #[cfg(feature = "constellation")]
@@ -434,14 +456,20 @@ pub fn all() -> Vec<&'static str> {
     v.push("planets");
     #[cfg(feature = "rings")]
     v.push("rings");
+    #[cfg(feature = "shadows")]
+    v.push("shadows");
     #[cfg(feature = "shape-grid")]
     v.push("shape-grid");
     #[cfg(feature = "shapes")]
     v.push("shapes");
+    #[cfg(feature = "slice")]
+    v.push("slice");
     #[cfg(feature = "sprouts")]
     v.push("sprouts");
     #[cfg(feature = "squircles")]
     v.push("squircles");
+    #[cfg(feature = "stack")]
+    v.push("stack");
     #[cfg(feature = "stripes")]
     v.push("stripes");
     #[cfg(feature = "thumbs")]

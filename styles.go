@@ -73,6 +73,9 @@ var Bottts string
 //go:embed src/bottts-neutral.json
 var BotttsNeutral string
 
+//go:embed src/cameo.json
+var Cameo string
+
 //go:embed src/clay.json
 var Clay string
 
@@ -178,17 +181,26 @@ var Planets string
 //go:embed src/rings.json
 var Rings string
 
+//go:embed src/shadows.json
+var Shadows string
+
 //go:embed src/shape-grid.json
 var ShapeGrid string
 
 //go:embed src/shapes.json
 var Shapes string
 
+//go:embed src/slice.json
+var Slice string
+
 //go:embed src/sprouts.json
 var Sprouts string
 
 //go:embed src/squircles.json
 var Squircles string
+
+//go:embed src/stack.json
+var Stack string
 
 //go:embed src/stripes.json
 var Stripes string
@@ -238,6 +250,8 @@ func Get(name string) (string, bool) {
 		return Bottts, true
 	case "bottts-neutral":
 		return BotttsNeutral, true
+	case "cameo":
+		return Cameo, true
 	case "clay":
 		return Clay, true
 	case "constellation":
@@ -308,14 +322,20 @@ func Get(name string) (string, bool) {
 		return Planets, true
 	case "rings":
 		return Rings, true
+	case "shadows":
+		return Shadows, true
 	case "shape-grid":
 		return ShapeGrid, true
 	case "shapes":
 		return Shapes, true
+	case "slice":
+		return Slice, true
 	case "sprouts":
 		return Sprouts, true
 	case "squircles":
 		return Squircles, true
+	case "stack":
+		return Stack, true
 	case "stripes":
 		return Stripes, true
 	case "thumbs":
@@ -351,6 +371,7 @@ func All() []string {
 		"blobs",
 		"bottts",
 		"bottts-neutral",
+		"cameo",
 		"clay",
 		"constellation",
 		"critters",
@@ -386,10 +407,13 @@ func All() []string {
 		"pixelbot",
 		"planets",
 		"rings",
+		"shadows",
 		"shape-grid",
 		"shapes",
+		"slice",
 		"sprouts",
 		"squircles",
+		"stack",
 		"stripes",
 		"thumbs",
 		"toon-head",

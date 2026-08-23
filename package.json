@@ -57,6 +57,10 @@
       "types": "./dist/bottts.min.json",
       "default": "./dist/bottts.min.json"
     },
+    "./cameo.json": {
+      "types": "./dist/cameo.min.json",
+      "default": "./dist/cameo.min.json"
+    },
     "./clay.json": {
       "types": "./dist/clay.min.json",
       "default": "./dist/clay.min.json"
@@ -197,6 +201,10 @@
       "types": "./dist/rings.min.json",
       "default": "./dist/rings.min.json"
     },
+    "./shadows.json": {
+      "types": "./dist/shadows.min.json",
+      "default": "./dist/shadows.min.json"
+    },
     "./shape-grid.json": {
       "types": "./dist/shape-grid.min.json",
       "default": "./dist/shape-grid.min.json"
@@ -205,6 +213,10 @@
       "types": "./dist/shapes.min.json",
       "default": "./dist/shapes.min.json"
     },
+    "./slice.json": {
+      "types": "./dist/slice.min.json",
+      "default": "./dist/slice.min.json"
+    },
     "./sprouts.json": {
       "types": "./dist/sprouts.min.json",
       "default": "./dist/sprouts.min.json"
@@ -212,6 +224,10 @@
     "./squircles.json": {
       "types": "./dist/squircles.min.json",
       "default": "./dist/squircles.min.json"
+    },
+    "./stack.json": {
+      "types": "./dist/stack.min.json",
+      "default": "./dist/stack.min.json"
     },
     "./stripes.json": {
       "types": "./dist/stripes.min.json",

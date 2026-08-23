@@ -1,0 +1,595 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source).",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Shadows” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Shadows",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "shoulders",
+        "type": "component"
+      },
+      {
+        "name": "heads",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "shoulders": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "regular": {
+          "weight": 3,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M17 101c0-33 14.85-49 33-49s33 16 33 49Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "wide": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11 101c0-33 17.55-47 39-47s39 14 39 47Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "narrow": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M22 101c0-32 12.6-50 28-50s28 18 28 50Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "square": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 101V68c0-8 6-14 14-14h42c8 0 14 6 14 14v33Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "sloped": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M14 101c0-37 16.2-45 36-45s36 8 36 45Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "round": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "92",
+                "rx": "32",
+                "ry": "41",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "heads": {
+      "width": 100,
+      "height": 100,
+      "variants": {
+        "round": {
+          "weight": 3,
+          "elements": [
+            {
+              "name": "tops",
+              "type": "component"
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "39",
+                "r": "19",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "oval": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "tops",
+              "type": "component",
+              "attributes": {
+                "transform": "matrix(.95 0 0 .95 2.63 -.95)"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "39",
+                "rx": "18",
+                "ry": "21",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "tops",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(-5.26 -1.11)scale(1.11)"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "39",
+                "rx": "21",
+                "ry": "18",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "soft": {
+          "elements": [
+            {
+              "name": "tops",
+              "type": "component"
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M31 31q0-11 11-11h16q11 0 11 11v16q0 11-11 11H42q-11 0-11-11Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "tall": {
+          "elements": [
+            {
+              "name": "tops",
+              "type": "component",
+              "attributes": {
+                "transform": "matrix(.89 0 0 .89 5.26 -2.89)"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "38",
+                "rx": "17",
+                "ry": "23",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "tops": {
+      "width": 100,
+      "height": 100,
+      "probability": 76,
+      "rotate": {
+        "min": -6,
+        "max": 6,
+        "step": 3
+      },
+      "variants": {
+        "cap": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "34",
+                "rx": "23",
+                "ry": "18",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "bob": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M26 45c-1-34.5 49-34.5 48 0 0 1-9 6-13 6-7-9-15-9-22 0-4 0-13-5-13-6",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "curls": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "32.52",
+                    "cy": "29.5",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "40.5",
+                    "cy": "20.95",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50.95",
+                    "cy": "19.05",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "61.4",
+                    "cy": "21.9",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "68.05",
+                    "cy": "30.45",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "bun": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "35",
+                    "rx": "21",
+                    "ry": "19",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "58",
+                    "cy": "14",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "topknot": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "35",
+                    "rx": "21",
+                    "ry": "19",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "12",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "tuft": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M45 23c2-12 16-12 19-5-6-2-10 2-9 6Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "hat": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "25",
+                    "rx": "28",
+                    "ry": "5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M37 25V12c0-5 26-5 26 0v13Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "beanie": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "33",
+                    "rx": "23",
+                    "ry": "17",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "50",
+                    "cy": "12",
+                    "r": "5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "hood": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M23 45C22 2.9 78 2.9 77 45c0 4-12 9-16 9-7-9-15-9-22 0-4 0-16-5-16-9",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#ede4e4",
+        "#ede4e0",
+        "#ede6d6",
+        "#deedc2",
+        "#d6eddf",
+        "#d0edec",
+        "#dfe8ed",
+        "#e3e6ed",
+        "#e8e4ed",
+        "#ede3e9"
+      ]
+    },
+    "ink": {
+      "values": [
+        "#7b373f",
+        "#6b4630",
+        "#5b4e30",
+        "#4a5530",
+        "#345945",
+        "#345757",
+        "#335565",
+        "#33477f",
+        "#5e3b87",
+        "#733662",
+        "#3b3b42"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4170 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source).",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Slice” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Slice",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "cuts",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "cuts": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -45,
+        "max": 45,
+        "step": 15
+      },
+      "variants": {
+        "tri": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V37.93H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260v25.93H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 62.67h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-0)",
+                "transform": "translate(-5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-1)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-2)",
+                "transform": "translate(5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "triFan": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V37.93H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260v25.93H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 62.67h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-0)",
+                "transform": "translate(5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-1)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-2)",
+                "transform": "translate(5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "triKick": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V37.93H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260v25.93H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 62.67h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-0)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-1)",
+                "transform": "translate(6)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "triDeep": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V37.93H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260v25.93H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-3-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 62.67h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-0)",
+                "transform": "translate(-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-1)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".46"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-3-2)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "quad": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V31.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 31h260v19.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 50h260v19.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 69h260v111H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-0)",
+                "transform": "translate(-5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-1)",
+                "transform": "translate(-2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-2)",
+                "transform": "translate(2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-3)",
+                "transform": "translate(5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "quadZig": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V31.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 31h260v19.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 50h260v19.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 69h260v111H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-0)",
+                "transform": "translate(-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-1)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-2)",
+                "transform": "translate(-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-3)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "quadPair": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V31.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 31h260v19.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 50h260v19.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 69h260v111H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-0)",
+                "transform": "translate(-6)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-1)",
+                "transform": "translate(-6)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-2)",
+                "transform": "translate(6)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-3)",
+                "transform": "translate(6)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "quadDeep": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V31.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 31h260v19.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 50h260v19.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-4-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 69h260v111H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-0)",
+                "transform": "translate(-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-1)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-2)",
+                "transform": "translate(-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".46"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-4-3)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "five": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V27.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 27.2h260V43H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 42.4h260v15.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 57.6h260v15.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-4"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 72.8h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-0)",
+                "transform": "translate(-6)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-1)",
+                "transform": "translate(-3)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-3)",
+                "transform": "translate(3)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-4)",
+                "transform": "translate(6)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "fiveWave": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V27.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 27.2h260V43H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 42.4h260v15.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 57.6h260v15.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-4"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 72.8h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-0)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-1)",
+                "transform": "translate(5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-3)",
+                "transform": "translate(-5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "fiveKick": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V27.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 27.2h260V43H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 42.4h260v15.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 57.6h260v15.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-4"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 72.8h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-0)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-1)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-2)",
+                "transform": "translate(6)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-3)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "fiveDeep": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V27.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 27.2h260V43H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 42.4h260v15.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 57.6h260v15.8H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-5-4"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 72.8h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-0)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-1)",
+                "transform": "translate(-2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-2)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".46"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-3)",
+                "transform": "translate(-2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-5-4)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "six": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V25.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 24.67h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260V50.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 50h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-4"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 62.67h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-5"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 75.33h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-0)",
+                "transform": "translate(-5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-1)",
+                "transform": "translate(-3)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-2)",
+                "transform": "translate(-1)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-3)",
+                "transform": "translate(1)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-4)",
+                "transform": "translate(3)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-5)",
+                "transform": "translate(5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sixZig": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V25.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 24.67h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260V50.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 50h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-4"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 62.67h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-5"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 75.33h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-0)",
+                "transform": "translate(-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-1)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-2)",
+                "transform": "translate(-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-3)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-4)",
+                "transform": "translate(-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-5)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sixStep": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V25.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 24.67h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260V50.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 50h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-4"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 62.67h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-5"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 75.33h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-0)",
+                "transform": "translate(-5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".38"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-1)",
+                "transform": "translate(-3)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-2)",
+                "transform": "translate(-1)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-3)",
+                "transform": "translate(1)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-4)",
+                "transform": "translate(3)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-5)",
+                "transform": "translate(5)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sixDeep": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-0"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80-80h260V25.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-1"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 24.67h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-2"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 37.33h260V50.6H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-3"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 50h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-4"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 62.67h260v13.27H-80z"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbsl-6-5"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M-80 75.33h260V180H-80z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-0)",
+                "transform": "translate(-4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#ffffff",
+                    "opacity": ".2"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-1)",
+                "transform": "translate(-2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".18"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-3)",
+                "transform": "translate(2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".46"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-4)",
+                "transform": "translate(4)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbsl-6-5)",
+                "transform": "translate(2)"
+              },
+              "children": [
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": {
+                      "type": "color",
+                      "name": "body"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                },
+                {
+                  "name": "g",
+                  "type": "element",
+                  "attributes": {
+                    "color": "#000000",
+                    "opacity": ".34"
+                  },
+                  "children": [
+                    {
+                      "name": "shape",
+                      "type": "component"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "shape": {
+      "width": 100,
+      "height": 100,
+      "scale": {
+        "min": 0.95,
+        "max": 1.05
+      },
+      "variants": {
+        "disc": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "r": "38",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "square": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 37q0-22 22-22h26q22 0 22 22v26q0 22-22 22H37q-22 0-22-22Z",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "squircle": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M88 50c0 5.01-.08 11.51-.23 15.03-.16 3.52-.4 4.33-.71 6.09-.32 1.77-.71 3.15-1.19 4.48-.48 1.34-1.04 2.48-1.69 3.53-.65 1.06-1.38 1.98-2.23 2.82-.84.85-1.76 1.58-2.82 2.23-1.05.65-2.19 1.21-3.53 1.69-1.33.48-2.71.87-4.48 1.19-1.76.31-2.57.55-6.09.71-3.52.15-10.02.23-15.03.23s-11.51-.08-15.03-.23c-3.52-.16-4.33-.4-6.09-.71-1.77-.32-3.15-.71-4.48-1.19-1.34-.48-2.48-1.04-3.53-1.69-1.06-.65-1.98-1.38-2.82-2.23-.85-.84-1.58-1.76-2.23-2.82-.65-1.05-1.21-2.19-1.69-3.53-.48-1.33-.87-2.71-1.19-4.48-.31-1.76-.55-2.57-.71-6.09C12.08 61.51 12 55.01 12 50s.08-11.51.23-15.03c.16-3.52.4-4.33.71-6.09.32-1.77.71-3.15 1.19-4.48.48-1.34 1.04-2.48 1.69-3.53.65-1.06 1.38-1.98 2.23-2.82.84-.85 1.76-1.58 2.82-2.23 1.05-.65 2.19-1.21 3.53-1.69 1.33-.48 2.71-.87 4.48-1.19 1.76-.31 2.57-.55 6.09-.71C38.49 12.08 44.99 12 50 12s11.51.08 15.03.23c3.52.16 4.33.4 6.09.71 1.77.32 3.15.71 4.48 1.19 1.34.48 2.48 1.04 3.53 1.69 1.06.65 1.98 1.38 2.82 2.23.85.84 1.58 1.76 2.23 2.82.65 1.05 1.21 2.19 1.69 3.53.48 1.33.87 2.71 1.19 4.48.31 1.76.55 2.57.71 6.09.15 3.52.23 10.02.23 15.03",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "hexagon": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38.74 18.5Q50 12 61.26 18.5l10.39 6Q82.91 31 82.91 44v12q0 13-11.26 19.5l-10.39 6Q50 88 38.74 81.5l-10.39-6Q17.09 69 17.09 56V44q0-13 11.26-19.5Z",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "diamond": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M37.27 24.73Q50 12 62.73 24.73l12.54 12.54Q88 50 75.27 62.73L62.73 75.27Q50 88 37.27 75.27L24.73 62.73Q12 50 24.73 37.27Z",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "pill": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "26",
+                "y": "12",
+                "width": "48",
+                "height": "76",
+                "fill": "currentColor",
+                "rx": "24"
+              }
+            }
+          ]
+        },
+        "egg": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 12c19 0 29 20 29 38 0 22-13 38-29 38S21 72 21 50c0-18 10-38 29-38",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "arch": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 79V45c0-19 15-33 35-33s35 14 35 33v34c0 5-4 9-9 9H24c-5 0-9-4-9-9",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "lens": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 12c26 18 26 58 0 76-26-18-26-58 0-76",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        },
+        "lump": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M90.18 50c.12 4.51-.76 9.61-2.61 13.67-1.86 4.06-5.2 7.91-8.53 10.69-3.34 2.79-7.63 4.54-11.49 6.04-3.86 1.49-7.73 2.16-11.68 2.91s-7.79 1.52-12.03 1.6c-4.23.09-9.03.23-13.36-1.09-4.34-1.32-9.3-3.6-12.64-6.83-3.34-3.24-6.18-8.09-7.41-12.59s-.85-9.92.04-14.4 3.19-8.71 5.32-12.45c2.12-3.75 4.69-6.95 7.41-10.04 2.73-3.08 5.54-6.08 8.93-8.47 3.38-2.38 7.29-4.72 11.38-5.86s8.87-1.56 13.15-.97c4.29.6 8.75 2.35 12.54 4.53 3.8 2.18 7.29 5.26 10.23 8.57 2.94 3.3 5.6 7.17 7.39 11.29 1.79 4.11 3.23 8.89 3.36 13.4",
+                "fill": "currentColor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "values": [
+        "#f7f5f0",
+        "#f2f1ee",
+        "#eef0f2",
+        "#f6f1ec",
+        "#eff2ef"
+      ]
+    },
+    "body": {
+      "values": [
+        "#c25f80",
+        "#c56455",
+        "#a67a55",
+        "#928455",
+        "#7d8b56",
+        "#5b9367",
+        "#5b9083",
+        "#5b8e94",
+        "#598ba9",
+        "#6b81c2",
+        "#8f72c2",
+        "#b360ab"
+      ]
+    }
+  }
+}

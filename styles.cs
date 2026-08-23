@@ -94,6 +94,9 @@ namespace DiceBear
         /// <summary>Raw JSON definition of the DiceBear <c>bottts-neutral</c> avatar style.</summary>
         public static string BotttsNeutral => Read("bottts-neutral");
 
+        /// <summary>Raw JSON definition of the DiceBear <c>cameo</c> avatar style.</summary>
+        public static string Cameo => Read("cameo");
+
         /// <summary>Raw JSON definition of the DiceBear <c>clay</c> avatar style.</summary>
         public static string Clay => Read("clay");
 
@@ -199,17 +202,26 @@ namespace DiceBear
         /// <summary>Raw JSON definition of the DiceBear <c>rings</c> avatar style.</summary>
         public static string Rings => Read("rings");
 
+        /// <summary>Raw JSON definition of the DiceBear <c>shadows</c> avatar style.</summary>
+        public static string Shadows => Read("shadows");
+
         /// <summary>Raw JSON definition of the DiceBear <c>shape-grid</c> avatar style.</summary>
         public static string ShapeGrid => Read("shape-grid");
 
         /// <summary>Raw JSON definition of the DiceBear <c>shapes</c> avatar style.</summary>
         public static string Shapes => Read("shapes");
 
+        /// <summary>Raw JSON definition of the DiceBear <c>slice</c> avatar style.</summary>
+        public static string Slice => Read("slice");
+
         /// <summary>Raw JSON definition of the DiceBear <c>sprouts</c> avatar style.</summary>
         public static string Sprouts => Read("sprouts");
 
         /// <summary>Raw JSON definition of the DiceBear <c>squircles</c> avatar style.</summary>
         public static string Squircles => Read("squircles");
+
+        /// <summary>Raw JSON definition of the DiceBear <c>stack</c> avatar style.</summary>
+        public static string Stack => Read("stack");
 
         /// <summary>Raw JSON definition of the DiceBear <c>stripes</c> avatar style.</summary>
         public static string Stripes => Read("stripes");
@@ -268,6 +280,8 @@ namespace DiceBear
                     return Bottts;
                 case "bottts-neutral":
                     return BotttsNeutral;
+                case "cameo":
+                    return Cameo;
                 case "clay":
                     return Clay;
                 case "constellation":
@@ -338,14 +352,20 @@ namespace DiceBear
                     return Planets;
                 case "rings":
                     return Rings;
+                case "shadows":
+                    return Shadows;
                 case "shape-grid":
                     return ShapeGrid;
                 case "shapes":
                     return Shapes;
+                case "slice":
+                    return Slice;
                 case "sprouts":
                     return Sprouts;
                 case "squircles":
                     return Squircles;
+                case "stack":
+                    return Stack;
                 case "stripes":
                     return Stripes;
                 case "thumbs":
@@ -388,6 +408,7 @@ namespace DiceBear
                 "blobs",
                 "bottts",
                 "bottts-neutral",
+                "cameo",
                 "clay",
                 "constellation",
                 "critters",
@@ -423,10 +444,13 @@ namespace DiceBear
                 "pixelbot",
                 "planets",
                 "rings",
+                "shadows",
                 "shape-grid",
                 "shapes",
+                "slice",
                 "sprouts",
                 "squircles",
+                "stack",
                 "stripes",
                 "thumbs",
                 "toon-head",

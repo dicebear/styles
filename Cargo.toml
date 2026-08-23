@@ -38,6 +38,7 @@ all = [
   "blobs",
   "bottts",
   "bottts-neutral",
+  "cameo",
   "clay",
   "constellation",
   "critters",
@@ -73,10 +74,13 @@ all = [
   "pixelbot",
   "planets",
   "rings",
+  "shadows",
   "shape-grid",
   "shapes",
+  "slice",
   "sprouts",
   "squircles",
+  "stack",
   "stripes",
   "thumbs",
   "toon-head",
@@ -98,6 +102,7 @@ big-smile = []
 blobs = []
 bottts = []
 bottts-neutral = []
+cameo = []
 clay = []
 constellation = []
 critters = []
@@ -133,10 +138,13 @@ pixel-art-neutral = []
 pixelbot = []
 planets = []
 rings = []
+shadows = []
 shape-grid = []
 shapes = []
+slice = []
 sprouts = []
 squircles = []
+stack = []
 stripes = []
 thumbs = []
 toon-head = []

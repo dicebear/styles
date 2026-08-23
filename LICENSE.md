@@ -89,6 +89,14 @@ came from.
 | License | [Free for personal and commercial use](https://bottts.com/)                     |
 |  Source | [Bottts](https://bottts.com/)                                                   |
 
+### Cameo
+
+|    File | [src/cameo.json](https://github.com/dicebear/styles/blob/main/src/cameo.json) |
+| ------: | :---------------------------------------------------------------------------- |
+|  Artist | [DiceBear](https://www.dicebear.com)                                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                 |
+|  Source | [Cameo](https://www.dicebear.com)                                             |
+
 ### Clay
 
 |    File | [src/clay.json](https://github.com/dicebear/styles/blob/main/src/clay.json) |
@@ -369,6 +377,14 @@ came from.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                 |
 |  Source | [Rings](https://www.dicebear.com)                                             |
 
+### Shadows
+
+|    File | [src/shadows.json](https://github.com/dicebear/styles/blob/main/src/shadows.json) |
+| ------: | :-------------------------------------------------------------------------------- |
+|  Artist | [DiceBear](https://www.dicebear.com)                                              |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                     |
+|  Source | [Shadows](https://www.dicebear.com)                                               |
+
 ### Shape Grid
 
 |    File | [src/shape-grid.json](https://github.com/dicebear/styles/blob/main/src/shape-grid.json) |
@@ -385,6 +401,14 @@ came from.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                   |
 |  Source | [Shapes](https://www.dicebear.com)                                              |
 
+### Slice
+
+|    File | [src/slice.json](https://github.com/dicebear/styles/blob/main/src/slice.json) |
+| ------: | :---------------------------------------------------------------------------- |
+|  Artist | [DiceBear](https://www.dicebear.com)                                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                 |
+|  Source | [Slice](https://www.dicebear.com)                                             |
+
 ### Sprouts
 
 |    File | [src/sprouts.json](https://github.com/dicebear/styles/blob/main/src/sprouts.json) |
@@ -400,6 +424,14 @@ came from.
 |  Artist | [DiceBear](https://www.dicebear.com)                                                  |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                         |
 |  Source | [Squircles](https://www.dicebear.com)                                                 |
+
+### Stack
+
+|    File | [src/stack.json](https://github.com/dicebear/styles/blob/main/src/stack.json) |
+| ------: | :---------------------------------------------------------------------------- |
+|  Artist | [DiceBear](https://www.dicebear.com)                                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                 |
+|  Source | [Stack](https://www.dicebear.com)                                             |
 
 ### Stripes
 

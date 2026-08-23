@@ -15,6 +15,11 @@ Versions track the DiceBear release line.
 
 ### Added
 
+- **New style: Cameo.** A head that has hair and a mouth but no eyes. Six head
+  shapes, eleven hairs and seven mouths, all clipped to the head. One `shade`
+  slot holds its alpha in the hex value, once dark and once light, so every
+  shape exists in both tones. The style has no background color of its own.
+  Static, hand-authored, CC0 1.0.
 - **New style: Gaze.** A pastel body with a pair of eyes and nothing else.
   Eleven silhouettes, seven of them plain geometry, the rest a pill, a column,
   an egg and an arch. Eleven eye pairs, five eye spacings, and a small tilt
@@ -27,6 +32,21 @@ Versions track the DiceBear release line.
   bow and an antenna. The face has nine eye sets, eleven mouths and a nose on
   three of four seeds, all at one ink weight. Static by design, it carries no
   animation component. Hand-authored, CC0 1.0.
+- **New style: Shadows.** A bust as a filled silhouette, all of it in one ink
+  on a pale ground. Six shoulder lines, five head shapes, and a hat or a
+  hairstyle on three of four seeds. The top sits behind the head, so both
+  merge into one outline. Eleven inks, ten backgrounds. Static, hand-authored,
+  CC0 1.0.
+- **New style: Slice.** One silhouette, cut into three to six horizontal bands
+  and shifted sideways against each other. Ten shapes, sixteen cut patterns,
+  and a tilt of up to 45 degrees. Each band carries a different amount of
+  white over the body color, so the shape runs through one hue from light to
+  dark. Static, hand-authored, CC0 1.0.
+- **New style: Stack.** A balanced pile of stones. Eleven layouts set how many
+  stones lie on each other and how far they lean, and each one squashes one of
+  seven stone shapes to its own width and height, with one of six caps on top.
+  Three tones, light, mid and deep, on a paper background. Static,
+  hand-authored, CC0 1.0.
 
 ## [10.6.0-rc.1] - 2026-08-22
 

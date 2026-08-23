@@ -1,0 +1,741 @@
+{
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$comment": "Hand-authored definition (no Figma source).",
+  "meta": {
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "„Cameo” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    "creator": {
+      "name": "DiceBear",
+      "url": "https://www.dicebear.com"
+    },
+    "source": {
+      "name": "Cameo",
+      "url": "https://www.dicebear.com"
+    }
+  },
+  "canvas": {
+    "elements": [
+      {
+        "name": "shape",
+        "type": "component"
+      }
+    ],
+    "width": 100,
+    "height": 100
+  },
+  "attributes": {
+    "fill": "none",
+    "shape-rendering": "auto"
+  },
+  "components": {
+    "shape": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -6,
+        "max": 6,
+        "step": 3
+      },
+      "variants": {
+        "round": {
+          "weight": 3,
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-round"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "50",
+                        "cy": "50",
+                        "r": "38"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "r": "38",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbcm-round)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            }
+          ]
+        },
+        "egg": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-egg"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 12c19 0 29 20 29 38 0 22-13 38-29 38S21 72 21 50c0-18 10-38 29-38"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M50 12c19 0 29 20 29 38 0 22-13 38-29 38S21 72 21 50c0-18 10-38 29-38",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbcm-egg)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            }
+          ]
+        },
+        "arch": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-arch"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M15 79V45c0-19 15-33 35-33s35 14 35 33v34c0 5-4 9-9 9H24c-5 0-9-4-9-9"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 79V45c0-19 15-33 35-33s35 14 35 33v34c0 5-4 9-9 9H24c-5 0-9-4-9-9",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbcm-arch)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            }
+          ]
+        },
+        "square": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-square"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M14 36q0-22 22-22h28q22 0 22 22v28q0 22-22 22H36q-22 0-22-22Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M14 36q0-22 22-22h28q22 0 22 22v28q0 22-22 22H36q-22 0-22-22Z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbcm-square)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            }
+          ]
+        },
+        "jaw": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-jaw"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-18 36-36 40-18-4-36-18-36-40Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-18 36-36 40-18-4-36-18-36-40Z",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbcm-jaw)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            }
+          ]
+        },
+        "wide": {
+          "elements": [
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-wide"
+                  },
+                  "children": [
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "50",
+                        "cy": "50",
+                        "rx": "40",
+                        "ry": "35"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "50",
+                "rx": "40",
+                "ry": "35",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "clip-path": "url(#dbcm-wide)"
+              },
+              "children": [
+                {
+                  "name": "hair",
+                  "type": "component"
+                },
+                {
+                  "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "hair": {
+      "width": 100,
+      "height": 100,
+      "rotate": {
+        "min": -12,
+        "max": 12,
+        "step": 4
+      },
+      "variants": {
+        "hood": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "22",
+                "rx": "50",
+                "ry": "30",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "brow": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "16",
+                "rx": "50",
+                "ry": "28",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "fringe": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20v60q15 13 30 0 15 13 30 0 15 13 30 0 15 13 30 0v-60Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "wave": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20v58q30 22 60 0 30 22 60 0v-58Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "curls": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20h120v52a12 12 0 0 1-24 0 12 12 0 0 1-24 0 12 12 0 0 1-24 0 12 12 0 0 1-24 0 12 12 0 0 1-24 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "sweep": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-10h120v36C74 52 30 22-10 48Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "part": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20h120v66c-24-16-40 8-56-12-12-14-34 10-64 4Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "bob": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20h120v56c-22 9-50 5-66 0-10-3-18 12-19 38-7 4-23 2-35-3Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "bobRight": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M110-20H-10v56c22 9 50 5 66 0 10-3 18 12 19 38 7 4 23 2 35-3Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "long": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M-10-20h120v56c-22 9-50 5-66 0-10-3-18 12-19 68h-35Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "longRight": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M110-20H-10v56c22 9 50 5 66 0 10-3 18 12 19 68h35Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 100,
+      "height": 100,
+      "translate": {
+        "x": {
+          "min": -8,
+          "max": 8
+        }
+      },
+      "variants": {
+        "smile": {
+          "weight": 3,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M38 63q12 11 24 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "stroke-width": "5.5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "grin": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M37 63a13 13 0 0 0 26 0Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "line": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "38",
+                "y": "65",
+                "width": "24",
+                "height": "6",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "rx": "3"
+              }
+            }
+          ]
+        },
+        "open": {
+          "weight": 2,
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "67",
+                "rx": "7",
+                "ry": "8",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "ring": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "67",
+                "r": "8",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "stroke-width": "4.5"
+              }
+            }
+          ]
+        },
+        "pout": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "44",
+                "y": "62",
+                "width": "12",
+                "height": "10",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "rx": "5"
+              }
+            }
+          ]
+        },
+        "cat": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M40 65q6 7 10 0 4 7 10 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "colors": {
+    "shade": {
+      "values": [
+        "#00000057",
+        "#ffffff8f"
+      ]
+    },
+    "body": {
+      "values": [
+        "#e7799e",
+        "#e68171",
+        "#d68f51",
+        "#ba9f52",
+        "#98ac53",
+        "#5ab972",
+        "#5ab4a4",
+        "#5ab0bf",
+        "#58aae1",
+        "#889ee4",
+        "#ae8fe4",
+        "#e667de"
+      ]
+    }
+  }
+}
