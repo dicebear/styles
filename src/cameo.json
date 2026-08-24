@@ -35,13 +35,17 @@
       "width": 100,
       "height": 100,
       "rotate": {
-        "min": -6,
-        "max": 6,
-        "step": 3
+        "min": -3,
+        "max": 3,
+        "step": 1
       },
       "variants": {
         "round": {
           "elements": [
+            {
+              "name": "knot",
+              "type": "component"
+            },
             {
               "name": "defs",
               "type": "element",
@@ -98,8 +102,12 @@
             }
           ]
         },
-        "egg": {
+        "taper": {
           "elements": [
+            {
+              "name": "knot",
+              "type": "component"
+            },
             {
               "name": "defs",
               "type": "element",
@@ -108,14 +116,14 @@
                   "name": "clipPath",
                   "type": "element",
                   "attributes": {
-                    "id": "dbcm-egg"
+                    "id": "dbcm-taper"
                   },
                   "children": [
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M50 12c19 0 29 20 29 38 0 22-13 38-29 38S21 72 21 50c0-18 10-38 29-38"
+                        "d": "M50 12c18 0 30 14 30 36S68 88 50 88 20 70 20 48s12-36 30-36"
                       }
                     }
                   ]
@@ -126,7 +134,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50 12c19 0 29 20 29 38 0 22-13 38-29 38S21 72 21 50c0-18 10-38 29-38",
+                "d": "M50 12c18 0 30 14 30 36S68 88 50 88 20 70 20 48s12-36 30-36",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -137,7 +145,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "clip-path": "url(#dbcm-egg)"
+                "clip-path": "url(#dbcm-taper)"
               },
               "children": [
                 {
@@ -152,8 +160,12 @@
             }
           ]
         },
-        "arch": {
+        "oval": {
           "elements": [
+            {
+              "name": "knot",
+              "type": "component"
+            },
             {
               "name": "defs",
               "type": "element",
@@ -162,14 +174,17 @@
                   "name": "clipPath",
                   "type": "element",
                   "attributes": {
-                    "id": "dbcm-arch"
+                    "id": "dbcm-oval"
                   },
                   "children": [
                     {
-                      "name": "path",
+                      "name": "ellipse",
                       "type": "element",
                       "attributes": {
-                        "d": "M15 79V45c0-19 15-33 35-33s35 14 35 33v34c0 5-4 9-9 9H24c-5 0-9-4-9-9"
+                        "cx": "50",
+                        "cy": "50",
+                        "rx": "33",
+                        "ry": "38"
                       }
                     }
                   ]
@@ -177,10 +192,13 @@
               ]
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M15 79V45c0-19 15-33 35-33s35 14 35 33v34c0 5-4 9-9 9H24c-5 0-9-4-9-9",
+                "cx": "50",
+                "cy": "50",
+                "rx": "33",
+                "ry": "38",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -191,7 +209,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "clip-path": "url(#dbcm-arch)"
+                "clip-path": "url(#dbcm-oval)"
               },
               "children": [
                 {
@@ -206,8 +224,12 @@
             }
           ]
         },
-        "square": {
+        "squircle": {
           "elements": [
+            {
+              "name": "knot",
+              "type": "component"
+            },
             {
               "name": "defs",
               "type": "element",
@@ -216,14 +238,14 @@
                   "name": "clipPath",
                   "type": "element",
                   "attributes": {
-                    "id": "dbcm-square"
+                    "id": "dbcm-squircle"
                   },
                   "children": [
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M14 36q0-22 22-22h28q22 0 22 22v28q0 22-22 22H36q-22 0-22-22Z"
+                        "d": "M15 41q0-26 26-26h18q26 0 26 26v18q0 26-26 26H41q-26 0-26-26Z"
                       }
                     }
                   ]
@@ -234,7 +256,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M14 36q0-22 22-22h28q22 0 22 22v28q0 22-22 22H36q-22 0-22-22Z",
+                "d": "M15 41q0-26 26-26h18q26 0 26 26v18q0 26-26 26H41q-26 0-26-26Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -245,7 +267,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "clip-path": "url(#dbcm-square)"
+                "clip-path": "url(#dbcm-squircle)"
               },
               "children": [
                 {
@@ -263,6 +285,10 @@
         "jaw": {
           "elements": [
             {
+              "name": "knot",
+              "type": "component"
+            },
+            {
               "name": "defs",
               "type": "element",
               "children": [
@@ -277,7 +303,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-18 36-36 40-18-4-36-18-36-40Z"
+                        "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-17 37-36 37S14 72 14 50Z"
                       }
                     }
                   ]
@@ -288,7 +314,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-18 36-36 40-18-4-36-18-36-40Z",
+                "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-17 37-36 37S14 72 14 50Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -317,6 +343,10 @@
         "wide": {
           "elements": [
             {
+              "name": "knot",
+              "type": "component"
+            },
+            {
               "name": "defs",
               "type": "element",
               "children": [
@@ -333,7 +363,7 @@
                       "attributes": {
                         "cx": "50",
                         "cy": "50",
-                        "rx": "40",
+                        "rx": "37",
                         "ry": "35"
                       }
                     }
@@ -347,7 +377,7 @@
               "attributes": {
                 "cx": "50",
                 "cy": "50",
-                "rx": "40",
+                "rx": "37",
                 "ry": "35",
                 "fill": {
                   "type": "color",
@@ -379,55 +409,14 @@
     "hair": {
       "width": 100,
       "height": 100,
-      "rotate": {
-        "min": -12,
-        "max": 12,
-        "step": 4
-      },
       "variants": {
-        "hood": {
-          "elements": [
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "50",
-                "cy": "22",
-                "rx": "50",
-                "ry": "30",
-                "fill": {
-                  "type": "color",
-                  "name": "shade"
-                }
-              }
-            }
-          ]
-        },
-        "brow": {
-          "elements": [
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "50",
-                "cy": "16",
-                "rx": "50",
-                "ry": "28",
-                "fill": {
-                  "type": "color",
-                  "name": "shade"
-                }
-              }
-            }
-          ]
-        },
-        "fringe": {
+        "cap": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20v60q15 13 30 0 15 13 30 0 15 13 30 0 15 13 30 0v-60Z",
+                "d": "M-10-20v70c28-10 42-11 60-11s32 1 60 11v-70Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -436,43 +425,13 @@
             }
           ]
         },
-        "wave": {
+        "bangs": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20v58q30 22 60 0 30 22 60 0v-58Z",
-                "fill": {
-                  "type": "color",
-                  "name": "shade"
-                }
-              }
-            }
-          ]
-        },
-        "curls": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M-10-20h120v52a12 12 0 0 1-24 0 12 12 0 0 1-24 0 12 12 0 0 1-24 0 12 12 0 0 1-24 0 12 12 0 0 1-24 0Z",
-                "fill": {
-                  "type": "color",
-                  "name": "shade"
-                }
-              }
-            }
-          ]
-        },
-        "sweep": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M-10-10h120v36C74 52 30 22-10 48Z",
+                "d": "M-10-20v78C4 48 14 42 26 41q24-2.25 48 0c12 1 22 7 36 17v-78Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -487,7 +446,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20h120v66c-24-16-40 8-56-12-12-14-34 10-64 4Z",
+                "d": "M-10-20v72c20-14 38-2 56-18l4-4 4 4c18 16 36 4 56 18v-72Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -496,13 +455,13 @@
             }
           ]
         },
-        "bob": {
+        "side": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20h120v56c-22 9-50 5-66 0-10-3-18 12-19 38-7 4-23 2-35-3Z",
+                "d": "M-10-20v66c24-8 40-10 54-5 18 5 42 7 66 15v-76Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -511,13 +470,13 @@
             }
           ]
         },
-        "bobRight": {
+        "wave": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M110-20H-10v56c22 9 50 5 66 0 10-3 18 12 19 38 7 4 23 2 35-3Z",
+                "d": "M-10-20v62q20 11 40 0 20 11 40 0 20 11 40 0v-62Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -526,13 +485,13 @@
             }
           ]
         },
-        "long": {
+        "curls": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20h120v56c-22 9-50 5-66 0-10-3-18 12-19 68h-35Z",
+                "d": "M-10-20h120v60a10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -541,13 +500,150 @@
             }
           ]
         },
-        "longRight": {
+        "frame": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M110-20H-10v56c22 9 50 5 66 0 10-3 18 12 19 68h35Z",
+                "d": "M-10-20h120v82c-6 10-14 14-21 12-6-2-11-9-11-18v-8c0-5-4-7-10-7H32c-6 0-10 2-10 7v8c0 9-5 16-11 18-7 2-21-2-21-12Z",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "bowl": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "18",
+                "rx": "52",
+                "ry": "34",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "knot": {
+      "width": 100,
+      "height": 100,
+      "probability": 45,
+      "variants": {
+        "bun": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "10.5",
+                "r": "8",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "50",
+                "cy": "10.5",
+                "r": "8",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "buns": {
+          "elements": [
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "14.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "32",
+                "cy": "14.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68",
+                "cy": "14.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "68",
+                "cy": "14.5",
+                "r": "7",
+                "fill": {
+                  "type": "color",
+                  "name": "shade"
+                }
+              }
+            }
+          ]
+        },
+        "tail": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M59 15C58 7 64 2 70 5s6 11 0 15c-4 2.5-9 0-11-5",
+                "fill": {
+                  "type": "color",
+                  "name": "body"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M59 15C58 7 64 2 70 5s6 11 0 15c-4 2.5-9 0-11-5",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -563,8 +659,8 @@
       "height": 100,
       "translate": {
         "x": {
-          "min": -8,
-          "max": 8
+          "min": -3,
+          "max": 3
         }
       },
       "variants": {
@@ -574,13 +670,13 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M38 63q12 11 24 0",
+                "d": "M40.5 62q9.5 8 19 0",
                 "fill": "none",
                 "stroke": {
                   "type": "color",
                   "name": "shade"
                 },
-                "stroke-width": "5.5",
+                "stroke-width": "5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
               }
@@ -593,97 +689,64 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M37 63a13 13 0 0 0 26 0Z",
-                "fill": {
-                  "type": "color",
-                  "name": "shade"
-                }
-              }
-            }
-          ]
-        },
-        "line": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "38",
-                "y": "65",
-                "width": "24",
-                "height": "6",
-                "fill": {
-                  "type": "color",
-                  "name": "shade"
-                },
-                "rx": "3"
-              }
-            }
-          ]
-        },
-        "open": {
-          "elements": [
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "50",
-                "cy": "67",
-                "rx": "7",
-                "ry": "8",
-                "fill": {
-                  "type": "color",
-                  "name": "shade"
-                }
-              }
-            }
-          ]
-        },
-        "ring": {
-          "elements": [
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "50",
-                "cy": "67",
-                "r": "8",
+                "d": "M39 60q11 15 22 0",
                 "fill": "none",
                 "stroke": {
                   "type": "color",
                   "name": "shade"
                 },
-                "stroke-width": "4.5"
+                "stroke-width": "5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
               }
             }
           ]
         },
-        "pout": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "44",
-                "y": "62",
-                "width": "12",
-                "height": "10",
-                "fill": {
-                  "type": "color",
-                  "name": "shade"
-                },
-                "rx": "5"
-              }
-            }
-          ]
-        },
-        "cat": {
+        "beam": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M40 65q6 7 10 0 4 7 10 0",
+                "d": "M38 63.5q12 5 24 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "calm": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M42.5 64q7.5 3.5 15 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "shade"
+                },
+                "stroke-width": "5",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "smirk": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M43 66.5Q51.5 70 57.5 63",
                 "fill": "none",
                 "stroke": {
                   "type": "color",
