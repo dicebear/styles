@@ -40,7 +40,6 @@
       "height": 100,
       "variants": {
         "regular": {
-          "weight": 3,
           "elements": [
             {
               "name": "path",
@@ -56,7 +55,6 @@
           ]
         },
         "wide": {
-          "weight": 2,
           "elements": [
             {
               "name": "path",
@@ -87,7 +85,6 @@
           ]
         },
         "square": {
-          "weight": 2,
           "elements": [
             {
               "name": "path",
@@ -142,7 +139,6 @@
       "height": 100,
       "variants": {
         "round": {
-          "weight": 3,
           "elements": [
             {
               "name": "tops",
@@ -164,7 +160,6 @@
           ]
         },
         "oval": {
-          "weight": 2,
           "elements": [
             {
               "name": "tops",
@@ -271,7 +266,6 @@
       },
       "variants": {
         "cap": {
-          "weight": 2,
           "elements": [
             {
               "name": "ellipse",
@@ -290,7 +284,6 @@
           ]
         },
         "bob": {
-          "weight": 2,
           "elements": [
             {
               "name": "path",
@@ -306,7 +299,6 @@
           ]
         },
         "curls": {
-          "weight": 2,
           "elements": [
             {
               "name": "g",
@@ -471,7 +463,6 @@
           ]
         },
         "hat": {
-          "weight": 2,
           "elements": [
             {
               "name": "g",

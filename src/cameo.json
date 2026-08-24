@@ -41,7 +41,6 @@
       },
       "variants": {
         "round": {
-          "weight": 3,
           "elements": [
             {
               "name": "defs",
@@ -100,7 +99,6 @@
           ]
         },
         "egg": {
-          "weight": 2,
           "elements": [
             {
               "name": "defs",
@@ -155,7 +153,6 @@
           ]
         },
         "arch": {
-          "weight": 2,
           "elements": [
             {
               "name": "defs",
@@ -389,7 +386,6 @@
       },
       "variants": {
         "hood": {
-          "weight": 2,
           "elements": [
             {
               "name": "ellipse",
@@ -408,7 +404,6 @@
           ]
         },
         "brow": {
-          "weight": 2,
           "elements": [
             {
               "name": "ellipse",
@@ -427,7 +422,6 @@
           ]
         },
         "fringe": {
-          "weight": 2,
           "elements": [
             {
               "name": "path",
@@ -458,7 +452,6 @@
           ]
         },
         "curls": {
-          "weight": 2,
           "elements": [
             {
               "name": "path",
@@ -474,7 +467,6 @@
           ]
         },
         "sweep": {
-          "weight": 2,
           "elements": [
             {
               "name": "path",
@@ -490,7 +482,6 @@
           ]
         },
         "part": {
-          "weight": 2,
           "elements": [
             {
               "name": "path",
@@ -506,7 +497,6 @@
           ]
         },
         "bob": {
-          "weight": 2,
           "elements": [
             {
               "name": "path",
@@ -522,7 +512,6 @@
           ]
         },
         "bobRight": {
-          "weight": 2,
           "elements": [
             {
               "name": "path",
@@ -580,7 +569,6 @@
       },
       "variants": {
         "smile": {
-          "weight": 3,
           "elements": [
             {
               "name": "path",
@@ -600,7 +588,6 @@
           ]
         },
         "grin": {
-          "weight": 2,
           "elements": [
             {
               "name": "path",
@@ -616,7 +603,6 @@
           ]
         },
         "line": {
-          "weight": 2,
           "elements": [
             {
               "name": "rect",
@@ -636,7 +622,6 @@
           ]
         },
         "open": {
-          "weight": 2,
           "elements": [
             {
               "name": "ellipse",

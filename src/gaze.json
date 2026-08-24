@@ -447,8 +447,7 @@
                 "transform": "translate(33)"
               }
             }
-          ],
-          "weight": 2
+          ]
         },
         "normal": {
           "elements": [
@@ -466,8 +465,7 @@
                 "transform": "translate(34.5)"
               }
             }
-          ],
-          "weight": 2
+          ]
         },
         "wide": {
           "elements": [
@@ -485,8 +483,7 @@
                 "transform": "translate(36)"
               }
             }
-          ],
-          "weight": 2
+          ]
         },
         "far": {
           "elements": [
@@ -595,7 +592,6 @@
           ]
         },
         "shine": {
-          "weight": 2,
           "elements": [
             {
               "name": "g",
@@ -751,7 +747,6 @@
           ]
         },
         "happy": {
-          "weight": 2,
           "elements": [
             {
               "name": "g",
@@ -780,7 +775,6 @@
           ]
         },
         "grin": {
-          "weight": 2,
           "elements": [
             {
               "name": "g",
@@ -809,7 +803,6 @@
           ]
         },
         "squint": {
-          "weight": 2,
           "elements": [
             {
               "name": "g",
