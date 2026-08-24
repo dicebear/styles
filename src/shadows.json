@@ -20,11 +20,17 @@
     "elements": [
       {
         "name": "shoulders",
-        "type": "component"
+        "type": "component",
+        "attributes": {
+          "transform": "translate(11 51)"
+        }
       },
       {
         "name": "heads",
-        "type": "component"
+        "type": "component",
+        "attributes": {
+          "transform": "translate(19 1)"
+        }
       }
     ],
     "width": 100,
@@ -36,8 +42,8 @@
   },
   "components": {
     "shoulders": {
-      "width": 100,
-      "height": 100,
+      "width": 78,
+      "height": 50,
       "variants": {
         "regular": {
           "elements": [
@@ -45,7 +51,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M17 101c0-33 14.85-49 33-49s33 16 33 49Z",
+                "d": "M6 50C6 17 20.85 1 39 1s33 16 33 49Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -60,7 +66,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M11 101c0-33 17.55-47 39-47s39 14 39 47Z",
+                "d": "M0 50C0 17 17.55 3 39 3s39 14 39 47Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -75,7 +81,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M22 101c0-32 12.6-50 28-50s28 18 28 50Z",
+                "d": "M11 50C11 18 23.6 0 39 0s28 18 28 50Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -90,7 +96,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M15 101V68c0-8 6-14 14-14h42c8 0 14 6 14 14v33Z",
+                "d": "M4 50V17C4 9 10 3 18 3h42c8 0 14 6 14 14v33Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -105,7 +111,22 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M14 101c0-37 16.2-45 36-45s36 8 36 45Z",
+                "d": "M3 50C3 13 19.2 5 39 5s36 8 36 45Z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "uneven": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M6 50C6 15 20 0 39 1c18 1 33 18 33 49Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -120,8 +141,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "50",
-                "cy": "92",
+                "cx": "39",
+                "cy": "41",
                 "rx": "32",
                 "ry": "41",
                 "fill": {
@@ -135,21 +156,24 @@
       }
     },
     "heads": {
-      "width": 100,
-      "height": 100,
+      "width": 62,
+      "height": 60,
       "variants": {
         "round": {
           "elements": [
             {
               "name": "tops",
-              "type": "component"
+              "type": "component",
+              "attributes": {
+                "transform": "translate(3 3)"
+              }
             },
             {
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "50",
-                "cy": "39",
+                "cx": "31",
+                "cy": "38",
                 "r": "19",
                 "fill": {
                   "type": "color",
@@ -165,15 +189,15 @@
               "name": "tops",
               "type": "component",
               "attributes": {
-                "transform": "matrix(.95 0 0 .95 2.63 -.95)"
+                "transform": "matrix(.95 0 0 .95 4.47 1.84)"
               }
             },
             {
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "50",
-                "cy": "39",
+                "cx": "31",
+                "cy": "38",
                 "rx": "18",
                 "ry": "21",
                 "fill": {
@@ -190,36 +214,17 @@
               "name": "tops",
               "type": "component",
               "attributes": {
-                "transform": "translate(-5.26 -1.11)scale(1.11)"
+                "transform": "translate(.05 2.32)scale(1.11)"
               }
             },
             {
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "50",
-                "cy": "39",
+                "cx": "31",
+                "cy": "38",
                 "rx": "21",
                 "ry": "18",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            }
-          ]
-        },
-        "soft": {
-          "elements": [
-            {
-              "name": "tops",
-              "type": "component"
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M31 31q0-11 11-11h16q11 0 11 11v16q0 11-11 11H42q-11 0-11-11Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -234,17 +239,39 @@
               "name": "tops",
               "type": "component",
               "attributes": {
-                "transform": "matrix(.89 0 0 .89 5.26 -2.89)"
+                "transform": "matrix(.89 0 0 .89 5.95 -.32)"
               }
             },
             {
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "50",
-                "cy": "38",
+                "cx": "31",
+                "cy": "37",
                 "rx": "17",
                 "ry": "23",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "taper": {
+          "elements": [
+            {
+              "name": "tops",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(3 3)"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M31 19c12 0 19 7 19 16 0 12-9 22-19 22S12 47 12 35c0-9 7-16 19-16",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -256,8 +283,8 @@
       }
     },
     "tops": {
-      "width": 100,
-      "height": 100,
+      "width": 56,
+      "height": 50,
       "probability": 76,
       "rotate": {
         "min": -6,
@@ -265,39 +292,6 @@
         "step": 3
       },
       "variants": {
-        "cap": {
-          "elements": [
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "50",
-                "cy": "34",
-                "rx": "23",
-                "ry": "18",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            }
-          ]
-        },
-        "bob": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M26 45c-1-34.5 49-34.5 48 0 0 1-9 6-13 6-7-9-15-9-22 0-4 0-13-5-13-6",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            }
-          ]
-        },
         "curls": {
           "elements": [
             {
@@ -308,8 +302,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "32.52",
-                    "cy": "29.5",
+                    "cx": "10.52",
+                    "cy": "25.5",
                     "r": "7",
                     "fill": {
                       "type": "color",
@@ -321,8 +315,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "40.5",
-                    "cy": "20.95",
+                    "cx": "18.5",
+                    "cy": "16.95",
                     "r": "7.5",
                     "fill": {
                       "type": "color",
@@ -334,8 +328,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "50.95",
-                    "cy": "19.05",
+                    "cx": "28.95",
+                    "cy": "15.05",
                     "r": "7.5",
                     "fill": {
                       "type": "color",
@@ -347,8 +341,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "61.4",
-                    "cy": "21.9",
+                    "cx": "39.4",
+                    "cy": "17.9",
                     "r": "7.5",
                     "fill": {
                       "type": "color",
@@ -360,8 +354,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "68.05",
-                    "cy": "30.45",
+                    "cx": "46.05",
+                    "cy": "26.45",
                     "r": "7",
                     "fill": {
                       "type": "color",
@@ -383,8 +377,8 @@
                   "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "cx": "50",
-                    "cy": "35",
+                    "cx": "28",
+                    "cy": "31",
                     "rx": "21",
                     "ry": "19",
                     "fill": {
@@ -397,8 +391,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "58",
-                    "cy": "14",
+                    "cx": "36",
+                    "cy": "10",
                     "r": "7",
                     "fill": {
                       "type": "color",
@@ -420,8 +414,8 @@
                   "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "cx": "50",
-                    "cy": "35",
+                    "cx": "28",
+                    "cy": "31",
                     "rx": "21",
                     "ry": "19",
                     "fill": {
@@ -434,8 +428,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "50",
-                    "cy": "12",
+                    "cx": "28",
+                    "cy": "8",
                     "r": "7.5",
                     "fill": {
                       "type": "color",
@@ -453,12 +447,351 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M45 23c2-12 16-12 19-5-6-2-10 2-9 6Z",
+                "d": "M23 19c2-12 16-12 19-5-6-2-10 2-9 6Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
                 }
               }
+            }
+          ]
+        },
+        "afro": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "28",
+                    "cy": "29",
+                    "r": "17.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "11.3",
+                    "cy": "26",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "16",
+                    "cy": "16",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "25",
+                    "cy": "12.3",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "35.2",
+                    "cy": "13.6",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "43",
+                    "cy": "21",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "45.2",
+                    "cy": "31",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "puffs": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "28",
+                    "cy": "31",
+                    "rx": "21",
+                    "ry": "19",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "14",
+                    "cy": "19",
+                    "r": "8.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "42",
+                    "cy": "19",
+                    "r": "8.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "flat": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M12.5 36V14q0-4 4-4h23q4 0 4 4v22q-15.5 7-31 0",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            }
+          ]
+        },
+        "waves": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "14.5",
+                    "cy": "23.5",
+                    "r": "7",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "27",
+                    "cy": "19",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "39",
+                    "cy": "22.5",
+                    "r": "8",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "braid": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "9.9",
+                    "cy": "26.5",
+                    "r": "4.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "18",
+                    "cy": "17.7",
+                    "r": "4.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "28",
+                    "cy": "15",
+                    "r": "4.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "38",
+                    "cy": "17.7",
+                    "r": "4.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "46.1",
+                    "cy": "26.5",
+                    "r": "4.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "quiff": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "children": [
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "34",
+                    "cy": "12",
+                    "r": "8.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "25",
+                    "cy": "13.5",
+                    "r": "7.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "circle",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "18",
+                    "cy": "16",
+                    "r": "6",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -472,8 +805,8 @@
                   "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "cx": "50",
-                    "cy": "25",
+                    "cx": "28",
+                    "cy": "21",
                     "rx": "28",
                     "ry": "5",
                     "fill": {
@@ -486,7 +819,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M37 25V12c0-5 26-5 26 0v13Z",
+                    "d": "M15 21V8c0-5 26-5 26 0v13Z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -507,8 +840,8 @@
                   "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "cx": "50",
-                    "cy": "33",
+                    "cx": "28",
+                    "cy": "29",
                     "rx": "23",
                     "ry": "17",
                     "fill": {
@@ -521,8 +854,8 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "50",
-                    "cy": "12",
+                    "cx": "28",
+                    "cy": "8",
                     "r": "5",
                     "fill": {
                       "type": "color",
@@ -534,18 +867,38 @@
             }
           ]
         },
-        "hood": {
+        "bowler": {
           "elements": [
             {
-              "name": "path",
+              "name": "g",
               "type": "element",
-              "attributes": {
-                "d": "M23 45C22 2.9 78 2.9 77 45c0 4-12 9-16 9-7-9-15-9-22 0-4 0-16-5-16-9",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "28",
+                    "cy": "21",
+                    "rx": "26",
+                    "ry": "4.5",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
+                },
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M14 21a14 14 0 0 1 28 0Z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         }
