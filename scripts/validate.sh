@@ -31,11 +31,17 @@ SRC_DIR="$BASE_DIR/../src"
 
 SCHEMA_FILE="$BASE_DIR/../node_modules/@dicebear/schema/dist/definition.min.json"
 
+# The PHP harness is pinned to the last image built on PHP 8.5.8. Its `latest`
+# runs a PHP 8.6 beta, where `spl_object_hash()` is deprecated, and opis still
+# calls it while loading a schema. The notice reaches Bowtie instead of the
+# expected response, so every definition comes back as an error. The pinned
+# build carries the same opis 2.6.0 and can go once `latest` is on a PHP
+# release that opis stays quiet under.
 IMPLEMENTATIONS=(
   -i js-ajv                   # JavaScript
-  -i php-opis-json-schema     # PHP
   -i python-jsonschema        # Python
   -i rust-jsonschema          # Rust
+  -i image:php-opis-json-schema:028f1e8128f53da9307504d15fb080477fa336ec # PHP
 )
 
 if [ -n "${GITHUB_STEP_SUMMARY:-}" ]; then
