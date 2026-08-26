@@ -31,17 +31,25 @@ SRC_DIR="$BASE_DIR/../src"
 
 SCHEMA_FILE="$BASE_DIR/../node_modules/@dicebear/schema/dist/definition.min.json"
 
-# The PHP harness is pinned to the last image built on PHP 8.5.8. Its `latest`
-# runs a PHP 8.6 beta, where `spl_object_hash()` is deprecated, and opis still
-# calls it while loading a schema. The notice reaches Bowtie instead of the
-# expected response, so every definition comes back as an error. The pinned
-# build carries the same opis 2.6.0 and can go once `latest` is on a PHP
-# release that opis stays quiet under.
+# Two entries below are not a plain implementation name. The PHP harness is
+# pinned to the last image built on PHP 8.5.8, because `latest` runs a PHP 8.6
+# beta where `spl_object_hash()` is deprecated. opis still calls it while
+# loading a schema, the notice reaches Bowtie instead of the expected response,
+# and every definition comes back as an error. The pinned build carries the
+# same opis 2.6.0 and can go once `latest` is on a PHP release that opis stays
+# quiet under. The .NET harness needs longer to answer than the two seconds
+# Bowtie waits by default, so it gets its own timeout.
+#
+# The Go port's validator is missing here on purpose. Its harness reads stdin
+# with a plain bufio.Scanner and gives up past 64 KB, which most definitions
+# exceed. For the Dart port there is no harness in Bowtie at all.
 IMPLEMENTATIONS=(
   -i js-ajv                   # JavaScript
+  -i js-schemasafe            # JavaScript, the one the JS port validates with
   -i python-jsonschema        # Python
   -i rust-jsonschema          # Rust
   -i image:php-opis-json-schema:028f1e8128f53da9307504d15fb080477fa336ec # PHP
+  -i image:dotnet-jsonschema-net:read_timeout_sec=20 # C#
 )
 
 if [ -n "${GITHUB_STEP_SUMMARY:-}" ]; then
