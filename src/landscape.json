@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.6.0/dist/definition.min.json",
   "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
   "meta": {
     "license": {
@@ -52,10 +52,6 @@
         "attributes": {
           "transform": "translate(0 78)"
         }
-      },
-      {
-        "name": "animation",
-        "type": "component"
       }
     ],
     "width": 100,
@@ -87,9 +83,330 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbla-orb"
-              },
+              "animations": [
+                {
+                  "name": "orbit",
+                  "duration": 32,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 2.7778,
+                          "value": 4.3412
+                        },
+                        {
+                          "at": 5.5556,
+                          "value": 8.5505
+                        },
+                        {
+                          "at": 8.3333,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 11.1111,
+                          "value": 16.0697
+                        },
+                        {
+                          "at": 13.8889,
+                          "value": 19.1511
+                        },
+                        {
+                          "at": 16.6667,
+                          "value": 21.6506
+                        },
+                        {
+                          "at": 19.4444,
+                          "value": 23.4923
+                        },
+                        {
+                          "at": 22.2222,
+                          "value": 24.6202
+                        },
+                        {
+                          "at": 25,
+                          "value": 25
+                        },
+                        {
+                          "at": 27.7778,
+                          "value": 24.6202
+                        },
+                        {
+                          "at": 30.5556,
+                          "value": 23.4923
+                        },
+                        {
+                          "at": 33.3333,
+                          "value": 21.6506
+                        },
+                        {
+                          "at": 36.1111,
+                          "value": 19.1511
+                        },
+                        {
+                          "at": 38.8889,
+                          "value": 16.0697
+                        },
+                        {
+                          "at": 41.6667,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 44.4444,
+                          "value": 8.5505
+                        },
+                        {
+                          "at": 47.2222,
+                          "value": 4.3412
+                        },
+                        {
+                          "at": 50,
+                          "value": 0
+                        },
+                        {
+                          "at": 52.7778,
+                          "value": -4.3412
+                        },
+                        {
+                          "at": 55.5556,
+                          "value": -8.5505
+                        },
+                        {
+                          "at": 58.3333,
+                          "value": -12.5
+                        },
+                        {
+                          "at": 61.1111,
+                          "value": -16.0697
+                        },
+                        {
+                          "at": 63.8889,
+                          "value": -19.1511
+                        },
+                        {
+                          "at": 66.6667,
+                          "value": -21.6506
+                        },
+                        {
+                          "at": 69.4444,
+                          "value": -23.4923
+                        },
+                        {
+                          "at": 72.2222,
+                          "value": -24.6202
+                        },
+                        {
+                          "at": 75,
+                          "value": -25
+                        },
+                        {
+                          "at": 77.7778,
+                          "value": -24.6202
+                        },
+                        {
+                          "at": 80.5556,
+                          "value": -23.4923
+                        },
+                        {
+                          "at": 83.3333,
+                          "value": -21.6506
+                        },
+                        {
+                          "at": 86.1111,
+                          "value": -19.1511
+                        },
+                        {
+                          "at": 88.8889,
+                          "value": -16.0697
+                        },
+                        {
+                          "at": 91.6667,
+                          "value": -12.5
+                        },
+                        {
+                          "at": 94.4444,
+                          "value": -8.5505
+                        },
+                        {
+                          "at": 97.2222,
+                          "value": -4.3412
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 2.7778,
+                          "value": 0.3798
+                        },
+                        {
+                          "at": 5.5556,
+                          "value": 1.5077
+                        },
+                        {
+                          "at": 8.3333,
+                          "value": 3.3494
+                        },
+                        {
+                          "at": 11.1111,
+                          "value": 5.8489
+                        },
+                        {
+                          "at": 13.8889,
+                          "value": 8.9303
+                        },
+                        {
+                          "at": 16.6667,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 19.4444,
+                          "value": 16.4495
+                        },
+                        {
+                          "at": 22.2222,
+                          "value": 20.6588
+                        },
+                        {
+                          "at": 25,
+                          "value": 25
+                        },
+                        {
+                          "at": 27.7778,
+                          "value": 29.3412
+                        },
+                        {
+                          "at": 30.5556,
+                          "value": 33.5505
+                        },
+                        {
+                          "at": 33.3333,
+                          "value": 37.5
+                        },
+                        {
+                          "at": 36.1111,
+                          "value": 41.0697
+                        },
+                        {
+                          "at": 38.8889,
+                          "value": 44.1511
+                        },
+                        {
+                          "at": 41.6667,
+                          "value": 46.6506
+                        },
+                        {
+                          "at": 44.4444,
+                          "value": 48.4923
+                        },
+                        {
+                          "at": 47.2222,
+                          "value": 49.6202
+                        },
+                        {
+                          "at": 50,
+                          "value": 50
+                        },
+                        {
+                          "at": 52.7778,
+                          "value": 49.6202
+                        },
+                        {
+                          "at": 55.5556,
+                          "value": 48.4923
+                        },
+                        {
+                          "at": 58.3333,
+                          "value": 46.6506
+                        },
+                        {
+                          "at": 61.1111,
+                          "value": 44.1511
+                        },
+                        {
+                          "at": 63.8889,
+                          "value": 41.0697
+                        },
+                        {
+                          "at": 66.6667,
+                          "value": 37.5
+                        },
+                        {
+                          "at": 69.4444,
+                          "value": 33.5505
+                        },
+                        {
+                          "at": 72.2222,
+                          "value": 29.3412
+                        },
+                        {
+                          "at": 75,
+                          "value": 25
+                        },
+                        {
+                          "at": 77.7778,
+                          "value": 20.6588
+                        },
+                        {
+                          "at": 80.5556,
+                          "value": 16.4495
+                        },
+                        {
+                          "at": 83.3333,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 86.1111,
+                          "value": 8.9303
+                        },
+                        {
+                          "at": 88.8889,
+                          "value": 5.8489
+                        },
+                        {
+                          "at": 91.6667,
+                          "value": 3.3494
+                        },
+                        {
+                          "at": 94.4444,
+                          "value": 1.5077
+                        },
+                        {
+                          "at": 97.2222,
+                          "value": 0.3798
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 360
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -114,9 +431,330 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbla-orb"
-              },
+              "animations": [
+                {
+                  "name": "orbit",
+                  "duration": 32,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 2.7778,
+                          "value": 4.3412
+                        },
+                        {
+                          "at": 5.5556,
+                          "value": 8.5505
+                        },
+                        {
+                          "at": 8.3333,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 11.1111,
+                          "value": 16.0697
+                        },
+                        {
+                          "at": 13.8889,
+                          "value": 19.1511
+                        },
+                        {
+                          "at": 16.6667,
+                          "value": 21.6506
+                        },
+                        {
+                          "at": 19.4444,
+                          "value": 23.4923
+                        },
+                        {
+                          "at": 22.2222,
+                          "value": 24.6202
+                        },
+                        {
+                          "at": 25,
+                          "value": 25
+                        },
+                        {
+                          "at": 27.7778,
+                          "value": 24.6202
+                        },
+                        {
+                          "at": 30.5556,
+                          "value": 23.4923
+                        },
+                        {
+                          "at": 33.3333,
+                          "value": 21.6506
+                        },
+                        {
+                          "at": 36.1111,
+                          "value": 19.1511
+                        },
+                        {
+                          "at": 38.8889,
+                          "value": 16.0697
+                        },
+                        {
+                          "at": 41.6667,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 44.4444,
+                          "value": 8.5505
+                        },
+                        {
+                          "at": 47.2222,
+                          "value": 4.3412
+                        },
+                        {
+                          "at": 50,
+                          "value": 0
+                        },
+                        {
+                          "at": 52.7778,
+                          "value": -4.3412
+                        },
+                        {
+                          "at": 55.5556,
+                          "value": -8.5505
+                        },
+                        {
+                          "at": 58.3333,
+                          "value": -12.5
+                        },
+                        {
+                          "at": 61.1111,
+                          "value": -16.0697
+                        },
+                        {
+                          "at": 63.8889,
+                          "value": -19.1511
+                        },
+                        {
+                          "at": 66.6667,
+                          "value": -21.6506
+                        },
+                        {
+                          "at": 69.4444,
+                          "value": -23.4923
+                        },
+                        {
+                          "at": 72.2222,
+                          "value": -24.6202
+                        },
+                        {
+                          "at": 75,
+                          "value": -25
+                        },
+                        {
+                          "at": 77.7778,
+                          "value": -24.6202
+                        },
+                        {
+                          "at": 80.5556,
+                          "value": -23.4923
+                        },
+                        {
+                          "at": 83.3333,
+                          "value": -21.6506
+                        },
+                        {
+                          "at": 86.1111,
+                          "value": -19.1511
+                        },
+                        {
+                          "at": 88.8889,
+                          "value": -16.0697
+                        },
+                        {
+                          "at": 91.6667,
+                          "value": -12.5
+                        },
+                        {
+                          "at": 94.4444,
+                          "value": -8.5505
+                        },
+                        {
+                          "at": 97.2222,
+                          "value": -4.3412
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 2.7778,
+                          "value": 0.3798
+                        },
+                        {
+                          "at": 5.5556,
+                          "value": 1.5077
+                        },
+                        {
+                          "at": 8.3333,
+                          "value": 3.3494
+                        },
+                        {
+                          "at": 11.1111,
+                          "value": 5.8489
+                        },
+                        {
+                          "at": 13.8889,
+                          "value": 8.9303
+                        },
+                        {
+                          "at": 16.6667,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 19.4444,
+                          "value": 16.4495
+                        },
+                        {
+                          "at": 22.2222,
+                          "value": 20.6588
+                        },
+                        {
+                          "at": 25,
+                          "value": 25
+                        },
+                        {
+                          "at": 27.7778,
+                          "value": 29.3412
+                        },
+                        {
+                          "at": 30.5556,
+                          "value": 33.5505
+                        },
+                        {
+                          "at": 33.3333,
+                          "value": 37.5
+                        },
+                        {
+                          "at": 36.1111,
+                          "value": 41.0697
+                        },
+                        {
+                          "at": 38.8889,
+                          "value": 44.1511
+                        },
+                        {
+                          "at": 41.6667,
+                          "value": 46.6506
+                        },
+                        {
+                          "at": 44.4444,
+                          "value": 48.4923
+                        },
+                        {
+                          "at": 47.2222,
+                          "value": 49.6202
+                        },
+                        {
+                          "at": 50,
+                          "value": 50
+                        },
+                        {
+                          "at": 52.7778,
+                          "value": 49.6202
+                        },
+                        {
+                          "at": 55.5556,
+                          "value": 48.4923
+                        },
+                        {
+                          "at": 58.3333,
+                          "value": 46.6506
+                        },
+                        {
+                          "at": 61.1111,
+                          "value": 44.1511
+                        },
+                        {
+                          "at": 63.8889,
+                          "value": 41.0697
+                        },
+                        {
+                          "at": 66.6667,
+                          "value": 37.5
+                        },
+                        {
+                          "at": 69.4444,
+                          "value": 33.5505
+                        },
+                        {
+                          "at": 72.2222,
+                          "value": 29.3412
+                        },
+                        {
+                          "at": 75,
+                          "value": 25
+                        },
+                        {
+                          "at": 77.7778,
+                          "value": 20.6588
+                        },
+                        {
+                          "at": 80.5556,
+                          "value": 16.4495
+                        },
+                        {
+                          "at": 83.3333,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 86.1111,
+                          "value": 8.9303
+                        },
+                        {
+                          "at": 88.8889,
+                          "value": 5.8489
+                        },
+                        {
+                          "at": 91.6667,
+                          "value": 3.3494
+                        },
+                        {
+                          "at": 94.4444,
+                          "value": 1.5077
+                        },
+                        {
+                          "at": 97.2222,
+                          "value": 0.3798
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 360
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -142,9 +780,330 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbla-orb"
-              },
+              "animations": [
+                {
+                  "name": "orbit",
+                  "duration": 32,
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 2.7778,
+                          "value": 4.3412
+                        },
+                        {
+                          "at": 5.5556,
+                          "value": 8.5505
+                        },
+                        {
+                          "at": 8.3333,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 11.1111,
+                          "value": 16.0697
+                        },
+                        {
+                          "at": 13.8889,
+                          "value": 19.1511
+                        },
+                        {
+                          "at": 16.6667,
+                          "value": 21.6506
+                        },
+                        {
+                          "at": 19.4444,
+                          "value": 23.4923
+                        },
+                        {
+                          "at": 22.2222,
+                          "value": 24.6202
+                        },
+                        {
+                          "at": 25,
+                          "value": 25
+                        },
+                        {
+                          "at": 27.7778,
+                          "value": 24.6202
+                        },
+                        {
+                          "at": 30.5556,
+                          "value": 23.4923
+                        },
+                        {
+                          "at": 33.3333,
+                          "value": 21.6506
+                        },
+                        {
+                          "at": 36.1111,
+                          "value": 19.1511
+                        },
+                        {
+                          "at": 38.8889,
+                          "value": 16.0697
+                        },
+                        {
+                          "at": 41.6667,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 44.4444,
+                          "value": 8.5505
+                        },
+                        {
+                          "at": 47.2222,
+                          "value": 4.3412
+                        },
+                        {
+                          "at": 50,
+                          "value": 0
+                        },
+                        {
+                          "at": 52.7778,
+                          "value": -4.3412
+                        },
+                        {
+                          "at": 55.5556,
+                          "value": -8.5505
+                        },
+                        {
+                          "at": 58.3333,
+                          "value": -12.5
+                        },
+                        {
+                          "at": 61.1111,
+                          "value": -16.0697
+                        },
+                        {
+                          "at": 63.8889,
+                          "value": -19.1511
+                        },
+                        {
+                          "at": 66.6667,
+                          "value": -21.6506
+                        },
+                        {
+                          "at": 69.4444,
+                          "value": -23.4923
+                        },
+                        {
+                          "at": 72.2222,
+                          "value": -24.6202
+                        },
+                        {
+                          "at": 75,
+                          "value": -25
+                        },
+                        {
+                          "at": 77.7778,
+                          "value": -24.6202
+                        },
+                        {
+                          "at": 80.5556,
+                          "value": -23.4923
+                        },
+                        {
+                          "at": 83.3333,
+                          "value": -21.6506
+                        },
+                        {
+                          "at": 86.1111,
+                          "value": -19.1511
+                        },
+                        {
+                          "at": 88.8889,
+                          "value": -16.0697
+                        },
+                        {
+                          "at": 91.6667,
+                          "value": -12.5
+                        },
+                        {
+                          "at": 94.4444,
+                          "value": -8.5505
+                        },
+                        {
+                          "at": 97.2222,
+                          "value": -4.3412
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 2.7778,
+                          "value": 0.3798
+                        },
+                        {
+                          "at": 5.5556,
+                          "value": 1.5077
+                        },
+                        {
+                          "at": 8.3333,
+                          "value": 3.3494
+                        },
+                        {
+                          "at": 11.1111,
+                          "value": 5.8489
+                        },
+                        {
+                          "at": 13.8889,
+                          "value": 8.9303
+                        },
+                        {
+                          "at": 16.6667,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 19.4444,
+                          "value": 16.4495
+                        },
+                        {
+                          "at": 22.2222,
+                          "value": 20.6588
+                        },
+                        {
+                          "at": 25,
+                          "value": 25
+                        },
+                        {
+                          "at": 27.7778,
+                          "value": 29.3412
+                        },
+                        {
+                          "at": 30.5556,
+                          "value": 33.5505
+                        },
+                        {
+                          "at": 33.3333,
+                          "value": 37.5
+                        },
+                        {
+                          "at": 36.1111,
+                          "value": 41.0697
+                        },
+                        {
+                          "at": 38.8889,
+                          "value": 44.1511
+                        },
+                        {
+                          "at": 41.6667,
+                          "value": 46.6506
+                        },
+                        {
+                          "at": 44.4444,
+                          "value": 48.4923
+                        },
+                        {
+                          "at": 47.2222,
+                          "value": 49.6202
+                        },
+                        {
+                          "at": 50,
+                          "value": 50
+                        },
+                        {
+                          "at": 52.7778,
+                          "value": 49.6202
+                        },
+                        {
+                          "at": 55.5556,
+                          "value": 48.4923
+                        },
+                        {
+                          "at": 58.3333,
+                          "value": 46.6506
+                        },
+                        {
+                          "at": 61.1111,
+                          "value": 44.1511
+                        },
+                        {
+                          "at": 63.8889,
+                          "value": 41.0697
+                        },
+                        {
+                          "at": 66.6667,
+                          "value": 37.5
+                        },
+                        {
+                          "at": 69.4444,
+                          "value": 33.5505
+                        },
+                        {
+                          "at": 72.2222,
+                          "value": 29.3412
+                        },
+                        {
+                          "at": 75,
+                          "value": 25
+                        },
+                        {
+                          "at": 77.7778,
+                          "value": 20.6588
+                        },
+                        {
+                          "at": 80.5556,
+                          "value": 16.4495
+                        },
+                        {
+                          "at": 83.3333,
+                          "value": 12.5
+                        },
+                        {
+                          "at": 86.1111,
+                          "value": 8.9303
+                        },
+                        {
+                          "at": 88.8889,
+                          "value": 5.8489
+                        },
+                        {
+                          "at": 91.6667,
+                          "value": 3.3494
+                        },
+                        {
+                          "at": 94.4444,
+                          "value": 1.5077
+                        },
+                        {
+                          "at": 97.2222,
+                          "value": 0.3798
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 360
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -735,140 +1694,6 @@
                 }
               }
             }
-          ]
-        }
-      }
-    },
-    "animation": {
-      "width": 100,
-      "height": 100,
-      "variants": {
-        "none": {
-          "elements": []
-        },
-        "fastest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbla-fastest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbla-fastest){--dbla-t:0.75;--dbla-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dblaOrbit{from{transform:translate(12px,37px) rotate(0deg) translate(-12px,-37px)}to{transform:translate(12px,37px) rotate(360deg) translate(-12px,-37px)}} .dbla-orb{transform-origin:0 0;animation:dblaOrbit calc(var(--dbla-t,1)*32s) linear infinite;animation-play-state:var(--dbla-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "fast": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbla-fast"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbla-fast){--dbla-t:0.9;--dbla-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dblaOrbit{from{transform:translate(12px,37px) rotate(0deg) translate(-12px,-37px)}to{transform:translate(12px,37px) rotate(360deg) translate(-12px,-37px)}} .dbla-orb{transform-origin:0 0;animation:dblaOrbit calc(var(--dbla-t,1)*32s) linear infinite;animation-play-state:var(--dbla-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "medium": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbla-medium"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbla-medium){--dbla-t:1;--dbla-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dblaOrbit{from{transform:translate(12px,37px) rotate(0deg) translate(-12px,-37px)}to{transform:translate(12px,37px) rotate(360deg) translate(-12px,-37px)}} .dbla-orb{transform-origin:0 0;animation:dblaOrbit calc(var(--dbla-t,1)*32s) linear infinite;animation-play-state:var(--dbla-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slow": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbla-slow"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbla-slow){--dbla-t:1.15;--dbla-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dblaOrbit{from{transform:translate(12px,37px) rotate(0deg) translate(-12px,-37px)}to{transform:translate(12px,37px) rotate(360deg) translate(-12px,-37px)}} .dbla-orb{transform-origin:0 0;animation:dblaOrbit calc(var(--dbla-t,1)*32s) linear infinite;animation-play-state:var(--dbla-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slowest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbla-slowest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbla-slowest){--dbla-t:1.35;--dbla-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dblaOrbit{from{transform:translate(12px,37px) rotate(0deg) translate(-12px,-37px)}to{transform:translate(12px,37px) rotate(360deg) translate(-12px,-37px)}} .dbla-orb{transform-origin:0 0;animation:dblaOrbit calc(var(--dbla-t,1)*32s) linear infinite;animation-play-state:var(--dbla-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
           ]
         }
       }

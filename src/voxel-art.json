@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.6.0/dist/definition.min.json",
   "$comment": "Hand-authored definition (no Figma source).",
   "meta": {
     "license": {
@@ -204,9 +204,42 @@
       {
         "name": "g",
         "type": "element",
-        "attributes": {
-          "class": "va-upper"
-        },
+        "animations": [
+          {
+            "name": "stretch",
+            "duration": 7,
+            "tracks": {
+              "translateY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 0
+                  },
+                  {
+                    "at": 85.9,
+                    "value": 0
+                  },
+                  {
+                    "at": 86,
+                    "value": -2.5
+                  },
+                  {
+                    "at": 95.9,
+                    "value": -2.5
+                  },
+                  {
+                    "at": 96,
+                    "value": 0
+                  },
+                  {
+                    "at": 100,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          }
+        ],
         "children": [
           {
             "name": "outfit",
@@ -341,10 +374,6 @@
             }
           },
           {
-            "name": "animation",
-            "type": "component"
-          },
-          {
             "name": "nose",
             "type": "component"
           },
@@ -370,345 +399,6 @@
     "shape-rendering": "auto"
   },
   "components": {
-    "animation": {
-      "width": 128,
-      "height": 128,
-      "variants": {
-        "none": {
-          "elements": []
-        },
-        "fastest": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "@media (prefers-reduced-motion: no-preference) { @keyframes va-blink { 0%, 92%, 100% { opacity: 0; } 94%, 98% { opacity: 1; } } @keyframes va-stretch { 0%, 85.9%, 96%, 100% { transform: translateY(0); } 86%, 95.9% { transform: translateY(-2.5px); } } .va-blink-fastest { animation: va-blink 2.5s linear infinite; } .va-upper { animation: va-stretch 4s linear infinite; } }"
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "va-blink-fastest",
-                "opacity": "0"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": {
-                      "type": "color",
-                      "name": "skin"
-                    },
-                    "d": "M36.5 49H49v15H36.5z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": "#26190f",
-                    "d": "M36.5 54H49v2.5H36.5z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": {
-                      "type": "color",
-                      "name": "skin"
-                    },
-                    "d": "M69 49h12.5v15H69z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": "#26190f",
-                    "d": "M69 54h12.5v2.5H69z"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "fast": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "@media (prefers-reduced-motion: no-preference) { @keyframes va-blink { 0%, 92%, 100% { opacity: 0; } 94%, 98% { opacity: 1; } } @keyframes va-stretch { 0%, 85.9%, 96%, 100% { transform: translateY(0); } 86%, 95.9% { transform: translateY(-2.5px); } } .va-blink-fast { animation: va-blink 3.5s linear infinite; } .va-upper { animation: va-stretch 5.5s linear infinite; } }"
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "va-blink-fast",
-                "opacity": "0"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": {
-                      "type": "color",
-                      "name": "skin"
-                    },
-                    "d": "M36.5 49H49v15H36.5z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": "#26190f",
-                    "d": "M36.5 54H49v2.5H36.5z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": {
-                      "type": "color",
-                      "name": "skin"
-                    },
-                    "d": "M69 49h12.5v15H69z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": "#26190f",
-                    "d": "M69 54h12.5v2.5H69z"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "medium": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "@media (prefers-reduced-motion: no-preference) { @keyframes va-blink { 0%, 92%, 100% { opacity: 0; } 94%, 98% { opacity: 1; } } @keyframes va-stretch { 0%, 85.9%, 96%, 100% { transform: translateY(0); } 86%, 95.9% { transform: translateY(-2.5px); } } .va-blink-medium { animation: va-blink 4.5s linear infinite; } .va-upper { animation: va-stretch 7s linear infinite; } }"
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "va-blink-medium",
-                "opacity": "0"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": {
-                      "type": "color",
-                      "name": "skin"
-                    },
-                    "d": "M36.5 49H49v15H36.5z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": "#26190f",
-                    "d": "M36.5 54H49v2.5H36.5z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": {
-                      "type": "color",
-                      "name": "skin"
-                    },
-                    "d": "M69 49h12.5v15H69z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": "#26190f",
-                    "d": "M69 54h12.5v2.5H69z"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "slow": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "@media (prefers-reduced-motion: no-preference) { @keyframes va-blink { 0%, 92%, 100% { opacity: 0; } 94%, 98% { opacity: 1; } } @keyframes va-stretch { 0%, 85.9%, 96%, 100% { transform: translateY(0); } 86%, 95.9% { transform: translateY(-2.5px); } } .va-blink-slow { animation: va-blink 6s linear infinite; } .va-upper { animation: va-stretch 9s linear infinite; } }"
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "va-blink-slow",
-                "opacity": "0"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": {
-                      "type": "color",
-                      "name": "skin"
-                    },
-                    "d": "M36.5 49H49v15H36.5z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": "#26190f",
-                    "d": "M36.5 54H49v2.5H36.5z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": {
-                      "type": "color",
-                      "name": "skin"
-                    },
-                    "d": "M69 49h12.5v15H69z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": "#26190f",
-                    "d": "M69 54h12.5v2.5H69z"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "slowest": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "@media (prefers-reduced-motion: no-preference) { @keyframes va-blink { 0%, 92%, 100% { opacity: 0; } 94%, 98% { opacity: 1; } } @keyframes va-stretch { 0%, 85.9%, 96%, 100% { transform: translateY(0); } 86%, 95.9% { transform: translateY(-2.5px); } } .va-blink-slowest { animation: va-blink 8s linear infinite; } .va-upper { animation: va-stretch 12s linear infinite; } }"
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "va-blink-slowest",
-                "opacity": "0"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": {
-                      "type": "color",
-                      "name": "skin"
-                    },
-                    "d": "M36.5 49H49v15H36.5z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": "#26190f",
-                    "d": "M36.5 54H49v2.5H36.5z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": {
-                      "type": "color",
-                      "name": "skin"
-                    },
-                    "d": "M69 49h12.5v15H69z"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill": "#26190f",
-                    "d": "M69 54h12.5v2.5H69z"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
     "outfit": {
       "width": 128,
       "height": 128,

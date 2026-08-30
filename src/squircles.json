@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.6.0/dist/definition.min.json",
   "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
   "meta": {
     "license": {
@@ -25,9 +25,95 @@
       {
         "name": "g",
         "type": "element",
-        "attributes": {
-          "class": "dbsq-acc"
-        },
+        "animations": [
+          {
+            "name": "orbit",
+            "duration": 7,
+            "easing": "easeInOut",
+            "tracks": {
+              "translateX": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 0
+                  },
+                  {
+                    "at": 25,
+                    "value": 2
+                  },
+                  {
+                    "at": 60,
+                    "value": -1.7
+                  },
+                  {
+                    "at": 100,
+                    "value": 0
+                  }
+                ]
+              },
+              "translateY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 0
+                  },
+                  {
+                    "at": 25,
+                    "value": -1.4
+                  },
+                  {
+                    "at": 60,
+                    "value": 1.7
+                  },
+                  {
+                    "at": 100,
+                    "value": 0
+                  }
+                ]
+              },
+              "scaleX": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 1
+                  },
+                  {
+                    "at": 25,
+                    "value": 1.08
+                  },
+                  {
+                    "at": 60,
+                    "value": 0.95
+                  },
+                  {
+                    "at": 100,
+                    "value": 1
+                  }
+                ]
+              },
+              "scaleY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 1
+                  },
+                  {
+                    "at": 25,
+                    "value": 1.08
+                  },
+                  {
+                    "at": 60,
+                    "value": 0.95
+                  },
+                  {
+                    "at": 100,
+                    "value": 1
+                  }
+                ]
+              }
+            }
+          }
+        ],
         "children": [
           {
             "name": "accent",
@@ -37,10 +123,6 @@
             }
           }
         ]
-      },
-      {
-        "name": "animation",
-        "type": "component"
       }
     ],
     "width": 100,
@@ -77,9 +159,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l1"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 16,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": -2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.2748
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -0.9028
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level1",
@@ -102,9 +290,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l2"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 13,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": 2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -1.1178
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.0911
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 0.975
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.03
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 0.975
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.03
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level3",
@@ -127,9 +421,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l3"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 11,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": -2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.2748
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -0.9028
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level5",
@@ -156,9 +556,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l1"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 16,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": -2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.2748
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -0.9028
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level2",
@@ -181,9 +687,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l2"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 13,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": 2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -1.1178
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.0911
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 0.975
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.03
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 0.975
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.03
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level3",
@@ -206,9 +818,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l3"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 11,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": -2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.2748
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -0.9028
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level4",
@@ -231,9 +949,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l4"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 9.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": 2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -1.1178
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.0911
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 0.975
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.03
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 0.975
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.03
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level5",
@@ -261,9 +1085,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l1"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 16,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": -2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.2748
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -0.9028
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level1",
@@ -286,9 +1216,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l2"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 13,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": 2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -1.1178
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.0911
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 0.975
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.03
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 0.975
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.03
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level2",
@@ -311,9 +1347,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l3"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 11,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": -2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.2748
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -0.9028
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level3",
@@ -336,9 +1478,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l4"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 9.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": 2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -1.1178
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.0911
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 0.975
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.03
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 0.975
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.03
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level4",
@@ -361,9 +1609,115 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbsq-l5"
-                  },
+                  "animations": [
+                    {
+                      "name": "sway",
+                      "duration": 8,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "rotate": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 4.5
+                            },
+                            {
+                              "at": 66,
+                              "value": -2.5
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.2748
+                            },
+                            {
+                              "at": 66,
+                              "value": -0.9554
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "translateY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 33,
+                              "value": -0.9028
+                            },
+                            {
+                              "at": 66,
+                              "value": 1.0427
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        },
+                        "scaleX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        },
+                        "scaleY": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 1
+                            },
+                            {
+                              "at": 33,
+                              "value": 1.035
+                            },
+                            {
+                              "at": 66,
+                              "value": 0.98
+                            },
+                            {
+                              "at": 100,
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "level5",
@@ -588,140 +1942,6 @@
                 }
               }
             }
-          ]
-        }
-      }
-    },
-    "animation": {
-      "width": 100,
-      "height": 100,
-      "variants": {
-        "none": {
-          "elements": []
-        },
-        "fastest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbsq-fastest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbsq-fastest){--dbsq-t:0.75;--dbsq-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbsqSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(4.5deg) translate(1.2px,-1px) scale(1.035)}66%{transform:rotate(-2.5deg) translate(-1px,1px) scale(0.98)}} @keyframes dbsqSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-4.5deg) translate(-1.2px,1px) scale(0.975)}66%{transform:rotate(2.5deg) translate(1px,-1px) scale(1.03)}} @keyframes dbsqOrbit{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(2px,-1.4px) scale(1.08)}60%{transform:translate(-1.7px,1.7px) scale(0.95)}} .dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5,.dbsq-acc{transform-box:fill-box;transform-origin:center} .dbsq-acc{animation:dbsqOrbit calc(var(--dbsq-t,1)*7s) ease-in-out infinite} .dbsq-l1{animation:dbsqSwayA calc(var(--dbsq-t,1)*16s) ease-in-out infinite} .dbsq-l2{animation:dbsqSwayB calc(var(--dbsq-t,1)*13s) ease-in-out infinite} .dbsq-l3{animation:dbsqSwayA calc(var(--dbsq-t,1)*11s) ease-in-out infinite} .dbsq-l4{animation:dbsqSwayB calc(var(--dbsq-t,1)*9.5s) ease-in-out infinite} .dbsq-l5{animation:dbsqSwayA calc(var(--dbsq-t,1)*8s) ease-in-out infinite}.dbsq-acc,.dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5{animation-play-state:var(--dbsq-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "fast": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbsq-fast"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbsq-fast){--dbsq-t:0.9;--dbsq-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbsqSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(4.5deg) translate(1.2px,-1px) scale(1.035)}66%{transform:rotate(-2.5deg) translate(-1px,1px) scale(0.98)}} @keyframes dbsqSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-4.5deg) translate(-1.2px,1px) scale(0.975)}66%{transform:rotate(2.5deg) translate(1px,-1px) scale(1.03)}} @keyframes dbsqOrbit{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(2px,-1.4px) scale(1.08)}60%{transform:translate(-1.7px,1.7px) scale(0.95)}} .dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5,.dbsq-acc{transform-box:fill-box;transform-origin:center} .dbsq-acc{animation:dbsqOrbit calc(var(--dbsq-t,1)*7s) ease-in-out infinite} .dbsq-l1{animation:dbsqSwayA calc(var(--dbsq-t,1)*16s) ease-in-out infinite} .dbsq-l2{animation:dbsqSwayB calc(var(--dbsq-t,1)*13s) ease-in-out infinite} .dbsq-l3{animation:dbsqSwayA calc(var(--dbsq-t,1)*11s) ease-in-out infinite} .dbsq-l4{animation:dbsqSwayB calc(var(--dbsq-t,1)*9.5s) ease-in-out infinite} .dbsq-l5{animation:dbsqSwayA calc(var(--dbsq-t,1)*8s) ease-in-out infinite}.dbsq-acc,.dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5{animation-play-state:var(--dbsq-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "medium": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbsq-medium"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbsq-medium){--dbsq-t:1;--dbsq-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbsqSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(4.5deg) translate(1.2px,-1px) scale(1.035)}66%{transform:rotate(-2.5deg) translate(-1px,1px) scale(0.98)}} @keyframes dbsqSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-4.5deg) translate(-1.2px,1px) scale(0.975)}66%{transform:rotate(2.5deg) translate(1px,-1px) scale(1.03)}} @keyframes dbsqOrbit{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(2px,-1.4px) scale(1.08)}60%{transform:translate(-1.7px,1.7px) scale(0.95)}} .dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5,.dbsq-acc{transform-box:fill-box;transform-origin:center} .dbsq-acc{animation:dbsqOrbit calc(var(--dbsq-t,1)*7s) ease-in-out infinite} .dbsq-l1{animation:dbsqSwayA calc(var(--dbsq-t,1)*16s) ease-in-out infinite} .dbsq-l2{animation:dbsqSwayB calc(var(--dbsq-t,1)*13s) ease-in-out infinite} .dbsq-l3{animation:dbsqSwayA calc(var(--dbsq-t,1)*11s) ease-in-out infinite} .dbsq-l4{animation:dbsqSwayB calc(var(--dbsq-t,1)*9.5s) ease-in-out infinite} .dbsq-l5{animation:dbsqSwayA calc(var(--dbsq-t,1)*8s) ease-in-out infinite}.dbsq-acc,.dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5{animation-play-state:var(--dbsq-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slow": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbsq-slow"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbsq-slow){--dbsq-t:1.15;--dbsq-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbsqSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(4.5deg) translate(1.2px,-1px) scale(1.035)}66%{transform:rotate(-2.5deg) translate(-1px,1px) scale(0.98)}} @keyframes dbsqSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-4.5deg) translate(-1.2px,1px) scale(0.975)}66%{transform:rotate(2.5deg) translate(1px,-1px) scale(1.03)}} @keyframes dbsqOrbit{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(2px,-1.4px) scale(1.08)}60%{transform:translate(-1.7px,1.7px) scale(0.95)}} .dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5,.dbsq-acc{transform-box:fill-box;transform-origin:center} .dbsq-acc{animation:dbsqOrbit calc(var(--dbsq-t,1)*7s) ease-in-out infinite} .dbsq-l1{animation:dbsqSwayA calc(var(--dbsq-t,1)*16s) ease-in-out infinite} .dbsq-l2{animation:dbsqSwayB calc(var(--dbsq-t,1)*13s) ease-in-out infinite} .dbsq-l3{animation:dbsqSwayA calc(var(--dbsq-t,1)*11s) ease-in-out infinite} .dbsq-l4{animation:dbsqSwayB calc(var(--dbsq-t,1)*9.5s) ease-in-out infinite} .dbsq-l5{animation:dbsqSwayA calc(var(--dbsq-t,1)*8s) ease-in-out infinite}.dbsq-acc,.dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5{animation-play-state:var(--dbsq-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slowest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbsq-slowest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbsq-slowest){--dbsq-t:1.35;--dbsq-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbsqSwayA{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(4.5deg) translate(1.2px,-1px) scale(1.035)}66%{transform:rotate(-2.5deg) translate(-1px,1px) scale(0.98)}} @keyframes dbsqSwayB{0%,100%{transform:rotate(0deg) translate(0,0) scale(1)}33%{transform:rotate(-4.5deg) translate(-1.2px,1px) scale(0.975)}66%{transform:rotate(2.5deg) translate(1px,-1px) scale(1.03)}} @keyframes dbsqOrbit{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(2px,-1.4px) scale(1.08)}60%{transform:translate(-1.7px,1.7px) scale(0.95)}} .dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5,.dbsq-acc{transform-box:fill-box;transform-origin:center} .dbsq-acc{animation:dbsqOrbit calc(var(--dbsq-t,1)*7s) ease-in-out infinite} .dbsq-l1{animation:dbsqSwayA calc(var(--dbsq-t,1)*16s) ease-in-out infinite} .dbsq-l2{animation:dbsqSwayB calc(var(--dbsq-t,1)*13s) ease-in-out infinite} .dbsq-l3{animation:dbsqSwayA calc(var(--dbsq-t,1)*11s) ease-in-out infinite} .dbsq-l4{animation:dbsqSwayB calc(var(--dbsq-t,1)*9.5s) ease-in-out infinite} .dbsq-l5{animation:dbsqSwayA calc(var(--dbsq-t,1)*8s) ease-in-out infinite}.dbsq-acc,.dbsq-l1,.dbsq-l2,.dbsq-l3,.dbsq-l4,.dbsq-l5{animation-play-state:var(--dbsq-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
           ]
         }
       }

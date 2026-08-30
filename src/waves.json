@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.6.0/dist/definition.min.json",
   "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
   "meta": {
     "license": {
@@ -20,10 +20,6 @@
     "elements": [
       {
         "name": "rotation",
-        "type": "component"
-      },
-      {
-        "name": "animation",
         "type": "component"
       }
     ],
@@ -120,9 +116,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l1"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 20,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": -10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer01",
@@ -145,9 +163,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l2"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 16.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": 10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer02",
@@ -170,9 +210,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l3"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 13.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": -10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer03",
@@ -199,9 +261,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l1"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 20,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": -10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer01",
@@ -224,9 +308,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l2"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 16.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": 10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer02",
@@ -249,9 +355,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l3"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 13.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": -10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer03",
@@ -274,9 +402,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l4"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 11,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": 10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer04",
@@ -304,9 +454,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l1"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 20,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": -10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer01",
@@ -329,9 +501,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l2"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 16.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": 10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer02",
@@ -354,9 +548,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l3"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 13.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": -10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer03",
@@ -379,9 +595,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l4"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 11,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": 10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer04",
@@ -404,9 +642,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l5"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 9.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": -10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer05",
@@ -434,9 +694,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l1"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 20,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": -10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer01",
@@ -459,9 +741,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l2"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 16.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": 10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer02",
@@ -484,9 +788,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l3"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 13.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": -10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer03",
@@ -509,9 +835,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l4"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 11,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": 10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer04",
@@ -534,9 +882,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l5"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 9.5,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": -10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer05",
@@ -559,9 +929,31 @@
                 {
                   "name": "g",
                   "type": "element",
-                  "attributes": {
-                    "class": "dbwa-l6"
-                  },
+                  "animations": [
+                    {
+                      "name": "drift",
+                      "duration": 8,
+                      "easing": "easeInOut",
+                      "tracks": {
+                        "translateX": {
+                          "keyframes": [
+                            {
+                              "at": 0,
+                              "value": 0
+                            },
+                            {
+                              "at": 50,
+                              "value": 10
+                            },
+                            {
+                              "at": 100,
+                              "value": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
                   "children": [
                     {
                       "name": "layer06",
@@ -686,140 +1078,6 @@
     },
     "layer06": {
       "extends": "layer"
-    },
-    "animation": {
-      "width": 100,
-      "height": 100,
-      "variants": {
-        "none": {
-          "elements": []
-        },
-        "fastest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbwa-fastest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbwa-fastest){--dbwa-t:0.75;--dbwa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}.dbwa-l1,.dbwa-l2,.dbwa-l3,.dbwa-l4,.dbwa-l5,.dbwa-l6{animation-play-state:var(--dbwa-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "fast": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbwa-fast"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbwa-fast){--dbwa-t:0.9;--dbwa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}.dbwa-l1,.dbwa-l2,.dbwa-l3,.dbwa-l4,.dbwa-l5,.dbwa-l6{animation-play-state:var(--dbwa-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "medium": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbwa-medium"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbwa-medium){--dbwa-t:1;--dbwa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}.dbwa-l1,.dbwa-l2,.dbwa-l3,.dbwa-l4,.dbwa-l5,.dbwa-l6{animation-play-state:var(--dbwa-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slow": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbwa-slow"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbwa-slow){--dbwa-t:1.15;--dbwa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}.dbwa-l1,.dbwa-l2,.dbwa-l3,.dbwa-l4,.dbwa-l5,.dbwa-l6{animation-play-state:var(--dbwa-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slowest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbwa-slowest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbwa-slowest){--dbwa-t:1.35;--dbwa-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbwaDriftA{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}} @keyframes dbwaDriftB{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}} .dbwa-l1{animation:dbwaDriftA calc(var(--dbwa-t,1)*20s) ease-in-out infinite} .dbwa-l2{animation:dbwaDriftB calc(var(--dbwa-t,1)*16.5s) ease-in-out infinite} .dbwa-l3{animation:dbwaDriftA calc(var(--dbwa-t,1)*13.5s) ease-in-out infinite} .dbwa-l4{animation:dbwaDriftB calc(var(--dbwa-t,1)*11s) ease-in-out infinite} .dbwa-l5{animation:dbwaDriftA calc(var(--dbwa-t,1)*9.5s) ease-in-out infinite} .dbwa-l6{animation:dbwaDriftB calc(var(--dbwa-t,1)*8s) ease-in-out infinite}.dbwa-l1,.dbwa-l2,.dbwa-l3,.dbwa-l4,.dbwa-l5,.dbwa-l6{animation-play-state:var(--dbwa-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        }
-      }
     }
   },
   "colors": {

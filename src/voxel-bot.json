@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.6.0/dist/definition.min.json",
   "$comment": "Hand-authored definition (no Figma source).",
   "meta": {
     "license": {
@@ -146,9 +146,42 @@
       {
         "name": "g",
         "type": "element",
-        "attributes": {
-          "class": "vb-upper"
-        },
+        "animations": [
+          {
+            "name": "stretch",
+            "duration": 7,
+            "tracks": {
+              "translateY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 0
+                  },
+                  {
+                    "at": 85.9,
+                    "value": 0
+                  },
+                  {
+                    "at": 86,
+                    "value": -2.5
+                  },
+                  {
+                    "at": 95.9,
+                    "value": -2.5
+                  },
+                  {
+                    "at": 96,
+                    "value": 0
+                  },
+                  {
+                    "at": 100,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          }
+        ],
         "children": [
           {
             "name": "path",
@@ -452,9 +485,42 @@
           {
             "name": "g",
             "type": "element",
-            "attributes": {
-              "class": "vb-head"
-            },
+            "animations": [
+              {
+                "name": "lift",
+                "duration": 7,
+                "tracks": {
+                  "translateY": {
+                    "keyframes": [
+                      {
+                        "at": 0,
+                        "value": 0
+                      },
+                      {
+                        "at": 86.9,
+                        "value": 0
+                      },
+                      {
+                        "at": 87,
+                        "value": -2.5
+                      },
+                      {
+                        "at": 94.9,
+                        "value": -2.5
+                      },
+                      {
+                        "at": 95,
+                        "value": 0
+                      },
+                      {
+                        "at": 100,
+                        "value": 0
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
             "children": [
               {
                 "name": "path",
@@ -558,10 +624,6 @@
                 "attributes": {
                   "transform": "translate(29 64)"
                 }
-              },
-              {
-                "name": "animation",
-                "type": "component"
               },
               {
                 "name": "top",
@@ -1045,170 +1107,6 @@
                   "name": "glow"
                 },
                 "d": "M20 2.5h2.5V5H20zM22.5 5H25v2.5h-2.5zM25 2.5h2.5V5H25zM27.5 5H30v2.5h-2.5zM30 2.5h2.5V5H30zM32.5 5H35v2.5h-2.5zM35 2.5h2.5V5H35zM37.5 5H40v2.5h-2.5z"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "animation": {
-      "width": 128,
-      "height": 128,
-      "variants": {
-        "none": {
-          "elements": []
-        },
-        "fastest": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "@media (prefers-reduced-motion: no-preference) { @keyframes vb-blink { 0%, 92%, 100% { opacity: 0; } 94%, 98% { opacity: 1; } } @keyframes vb-stretch { 0%, 85.9%, 96%, 100% { transform: translateY(0); } 86%, 95.9% { transform: translateY(-2.5px); } } @keyframes vb-lift { 0%, 86.9%, 95%, 100% { transform: translateY(0); } 87%, 94.9% { transform: translateY(-2.5px); } } .vb-blink-fastest { animation: vb-blink 2.5s linear infinite; } .vb-upper { animation: vb-stretch 4s linear infinite; } .vb-head { animation: vb-lift 4s linear infinite; } }"
-                }
-              ]
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "screen"
-                },
-                "class": "vb-blink-fastest",
-                "opacity": "0",
-                "d": "M34 44h50v15H34z"
-              }
-            }
-          ]
-        },
-        "fast": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "@media (prefers-reduced-motion: no-preference) { @keyframes vb-blink { 0%, 92%, 100% { opacity: 0; } 94%, 98% { opacity: 1; } } @keyframes vb-stretch { 0%, 85.9%, 96%, 100% { transform: translateY(0); } 86%, 95.9% { transform: translateY(-2.5px); } } @keyframes vb-lift { 0%, 86.9%, 95%, 100% { transform: translateY(0); } 87%, 94.9% { transform: translateY(-2.5px); } } .vb-blink-fast { animation: vb-blink 3.5s linear infinite; } .vb-upper { animation: vb-stretch 5.5s linear infinite; } .vb-head { animation: vb-lift 5.5s linear infinite; } }"
-                }
-              ]
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "screen"
-                },
-                "class": "vb-blink-fast",
-                "opacity": "0",
-                "d": "M34 44h50v15H34z"
-              }
-            }
-          ]
-        },
-        "medium": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "@media (prefers-reduced-motion: no-preference) { @keyframes vb-blink { 0%, 92%, 100% { opacity: 0; } 94%, 98% { opacity: 1; } } @keyframes vb-stretch { 0%, 85.9%, 96%, 100% { transform: translateY(0); } 86%, 95.9% { transform: translateY(-2.5px); } } @keyframes vb-lift { 0%, 86.9%, 95%, 100% { transform: translateY(0); } 87%, 94.9% { transform: translateY(-2.5px); } } .vb-blink-medium { animation: vb-blink 4.5s linear infinite; } .vb-upper { animation: vb-stretch 7s linear infinite; } .vb-head { animation: vb-lift 7s linear infinite; } }"
-                }
-              ]
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "screen"
-                },
-                "class": "vb-blink-medium",
-                "opacity": "0",
-                "d": "M34 44h50v15H34z"
-              }
-            }
-          ]
-        },
-        "slow": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "@media (prefers-reduced-motion: no-preference) { @keyframes vb-blink { 0%, 92%, 100% { opacity: 0; } 94%, 98% { opacity: 1; } } @keyframes vb-stretch { 0%, 85.9%, 96%, 100% { transform: translateY(0); } 86%, 95.9% { transform: translateY(-2.5px); } } @keyframes vb-lift { 0%, 86.9%, 95%, 100% { transform: translateY(0); } 87%, 94.9% { transform: translateY(-2.5px); } } .vb-blink-slow { animation: vb-blink 6s linear infinite; } .vb-upper { animation: vb-stretch 9s linear infinite; } .vb-head { animation: vb-lift 9s linear infinite; } }"
-                }
-              ]
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "screen"
-                },
-                "class": "vb-blink-slow",
-                "opacity": "0",
-                "d": "M34 44h50v15H34z"
-              }
-            }
-          ]
-        },
-        "slowest": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "@media (prefers-reduced-motion: no-preference) { @keyframes vb-blink { 0%, 92%, 100% { opacity: 0; } 94%, 98% { opacity: 1; } } @keyframes vb-stretch { 0%, 85.9%, 96%, 100% { transform: translateY(0); } 86%, 95.9% { transform: translateY(-2.5px); } } @keyframes vb-lift { 0%, 86.9%, 95%, 100% { transform: translateY(0); } 87%, 94.9% { transform: translateY(-2.5px); } } .vb-blink-slowest { animation: vb-blink 8s linear infinite; } .vb-upper { animation: vb-stretch 12s linear infinite; } .vb-head { animation: vb-lift 12s linear infinite; } }"
-                }
-              ]
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "screen"
-                },
-                "class": "vb-blink-slowest",
-                "opacity": "0",
-                "d": "M34 44h50v15H34z"
               }
             }
           ]

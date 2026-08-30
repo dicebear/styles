@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.6.0/dist/definition.min.json",
   "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
   "meta": {
     "license": {
@@ -21,9 +21,31 @@
       {
         "name": "g",
         "type": "element",
-        "attributes": {
-          "class": "dbcr-c"
-        },
+        "animations": [
+          {
+            "name": "bob",
+            "duration": 3.4,
+            "easing": "easeInOut",
+            "tracks": {
+              "translateY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 0
+                  },
+                  {
+                    "at": 50,
+                    "value": -2
+                  },
+                  {
+                    "at": 100,
+                    "value": 0
+                  }
+                ]
+              }
+            }
+          }
+        ],
         "children": [
           {
             "name": "body",
@@ -58,10 +80,6 @@
             }
           }
         ]
-      },
-      {
-        "name": "animation",
-        "type": "component"
       }
     ],
     "width": 100,
@@ -908,9 +926,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1005,9 +1045,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1102,9 +1164,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1199,9 +1283,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1296,9 +1402,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1393,9 +1521,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1490,9 +1640,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1587,9 +1759,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1684,9 +1878,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1781,9 +1997,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1878,9 +2116,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -1975,9 +2235,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -2072,9 +2354,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -2169,9 +2473,31 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-t"
-              },
+              "animations": [
+                {
+                  "name": "sway",
+                  "duration": 5.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "rotate": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 50,
+                          "value": 3
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "top",
@@ -2683,9 +3009,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2715,9 +3070,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2751,9 +3135,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2773,9 +3186,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2799,9 +3241,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2831,9 +3302,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2867,9 +3367,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2899,9 +3428,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2935,9 +3493,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2967,9 +3554,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3003,9 +3619,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3039,9 +3684,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3071,9 +3745,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3107,9 +3810,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3139,9 +3871,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3171,9 +3932,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3207,9 +3997,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3239,9 +4058,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3271,9 +4119,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3307,9 +4184,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3339,9 +4245,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3371,9 +4306,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3403,9 +4367,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3439,9 +4432,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -3462,9 +4484,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -3489,9 +4540,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -3512,9 +4592,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -3539,9 +4648,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3571,9 +4709,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -3598,9 +4765,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -3621,9 +4817,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -3648,9 +4873,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "ellipse",
@@ -3681,9 +4935,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "ellipse",
@@ -3718,9 +5001,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -3760,9 +5072,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -3806,9 +5147,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3852,9 +5222,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3902,9 +5301,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -3948,9 +5376,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -3970,9 +5427,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbcr-eb"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.6,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 92,
+                          "value": 1
+                        },
+                        {
+                          "at": 95,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 97,
+                          "value": 0.15
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -4393,140 +5879,6 @@
                 "fill": "#fb7185"
               }
             }
-          ]
-        }
-      }
-    },
-    "animation": {
-      "width": 100,
-      "height": 100,
-      "variants": {
-        "none": {
-          "elements": []
-        },
-        "fastest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbcr-fastest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbcr-fastest){--dbcr-t:0.75;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-eb,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-eb{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-eb,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "fast": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbcr-fast"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbcr-fast){--dbcr-t:0.9;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-eb,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-eb{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-eb,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "medium": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbcr-medium"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbcr-medium){--dbcr-t:1;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-eb,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-eb{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-eb,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slow": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbcr-slow"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbcr-slow){--dbcr-t:1.15;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-eb,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-eb{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-eb,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slowest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbcr-slowest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbcr-slowest){--dbcr-t:1.35;--dbcr-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcrBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes dbcrBlink{0%,92%,100%{transform:scaleY(1)}95%,97%{transform:scaleY(0.15)}}@keyframes dbcrSway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(3deg)}} .dbcr-eb,.dbcr-t{transform-box:fill-box;transform-origin:center} .dbcr-c{animation:dbcrBob calc(var(--dbcr-t,1)*3.4s) ease-in-out infinite} .dbcr-eb{animation:dbcrBlink calc(var(--dbcr-t,1)*4.6s) linear infinite} .dbcr-t{animation:dbcrSway calc(var(--dbcr-t,1)*5.2s) ease-in-out infinite}.dbcr-c,.dbcr-eb,.dbcr-t{animation-play-state:var(--dbcr-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
           ]
         }
       }

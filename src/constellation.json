@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.6.0/dist/definition.min.json",
   "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
   "meta": {
     "license": {
@@ -137,10 +137,6 @@
       {
         "name": "comet",
         "type": "component"
-      },
-      {
-        "name": "animation",
-        "type": "component"
       }
     ],
     "width": 100,
@@ -175,9 +171,75 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbca-comet"
-              },
+              "animations": [
+                {
+                  "name": "comet",
+                  "duration": 10.5,
+                  "easing": "easeIn",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 16
+                        },
+                        {
+                          "at": 8,
+                          "value": 0
+                        },
+                        {
+                          "at": 26,
+                          "value": -36
+                        },
+                        {
+                          "at": 100,
+                          "value": -36
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": -6.6
+                        },
+                        {
+                          "at": 8,
+                          "value": 0
+                        },
+                        {
+                          "at": 26,
+                          "value": 15
+                        },
+                        {
+                          "at": 100,
+                          "value": 15
+                        }
+                      ]
+                    },
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 8,
+                          "value": 1
+                        },
+                        {
+                          "at": 26,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "defs",
@@ -245,9 +307,75 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbca-comet"
-              },
+              "animations": [
+                {
+                  "name": "comet",
+                  "duration": 10.5,
+                  "easing": "easeIn",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 16
+                        },
+                        {
+                          "at": 8,
+                          "value": 0
+                        },
+                        {
+                          "at": 26,
+                          "value": -36
+                        },
+                        {
+                          "at": 100,
+                          "value": -36
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": -6.6
+                        },
+                        {
+                          "at": 8,
+                          "value": 0
+                        },
+                        {
+                          "at": 26,
+                          "value": 15
+                        },
+                        {
+                          "at": 100,
+                          "value": 15
+                        }
+                      ]
+                    },
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 8,
+                          "value": 1
+                        },
+                        {
+                          "at": 26,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "defs",
@@ -2727,9 +2855,32 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbca-tw-small"
-              },
+              "animations": [
+                {
+                  "name": "twinkle",
+                  "duration": 4.2,
+                  "delay": 1.1,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 50,
+                          "value": 0.3
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2752,9 +2903,32 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbca-tw-medium"
-              },
+              "animations": [
+                {
+                  "name": "twinkle",
+                  "duration": 5.2,
+                  "delay": 2.2,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 50,
+                          "value": 0.3
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -2817,140 +2991,6 @@
     },
     "star16": {
       "extends": "star"
-    },
-    "animation": {
-      "width": 100,
-      "height": 100,
-      "variants": {
-        "none": {
-          "elements": []
-        },
-        "fastest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbca-fastest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbca-fastest){--dbca-t:0.75;--dbca-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}.dbca-tw-small,.dbca-tw-medium,.dbca-comet{animation-play-state:var(--dbca-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "fast": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbca-fast"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbca-fast){--dbca-t:0.9;--dbca-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}.dbca-tw-small,.dbca-tw-medium,.dbca-comet{animation-play-state:var(--dbca-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "medium": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbca-medium"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbca-medium){--dbca-t:1;--dbca-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}.dbca-tw-small,.dbca-tw-medium,.dbca-comet{animation-play-state:var(--dbca-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slow": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbca-slow"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbca-slow){--dbca-t:1.15;--dbca-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}.dbca-tw-small,.dbca-tw-medium,.dbca-comet{animation-play-state:var(--dbca-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slowest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbca-slowest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbca-slowest){--dbca-t:1.35;--dbca-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbcaTw{0%,100%{opacity:1}50%{opacity:.3}} @keyframes dbcaComet{0%{transform:translate(16px,-6.6px);opacity:0}8%{opacity:1}26%{transform:translate(-36px,15px);opacity:0}100%{transform:translate(-36px,15px);opacity:0}} .dbca-tw-small{animation:dbcaTw calc(var(--dbca-t,1)*4.2s) ease-in-out infinite calc(var(--dbca-t,1)*1.1s)} .dbca-tw-medium{animation:dbcaTw calc(var(--dbca-t,1)*5.2s) ease-in-out infinite calc(var(--dbca-t,1)*2.2s)} .dbca-comet{animation:dbcaComet calc(var(--dbca-t,1)*10.5s) ease-in infinite}.dbca-tw-small,.dbca-tw-medium,.dbca-comet{animation-play-state:var(--dbca-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        }
-      }
     }
   },
   "colors": {

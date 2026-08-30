@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.6.0/dist/definition.min.json",
   "$comment": "Hand-authored definition (no Figma source).",
   "meta": {
     "license": {
@@ -21,19 +21,121 @@
       {
         "name": "g",
         "type": "element",
-        "attributes": {
-          "class": "dbga-hop"
-        },
+        "animations": [
+          {
+            "name": "hop",
+            "duration": 5.2,
+            "easing": "easeOut",
+            "origin": {
+              "x": 50,
+              "y": 100
+            },
+            "tracks": {
+              "translateY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 0
+                  },
+                  {
+                    "at": 58,
+                    "value": 0
+                  },
+                  {
+                    "at": 64,
+                    "value": 0
+                  },
+                  {
+                    "at": 73,
+                    "value": -4
+                  },
+                  {
+                    "at": 82,
+                    "value": 0
+                  },
+                  {
+                    "at": 90,
+                    "value": 0
+                  },
+                  {
+                    "at": 100,
+                    "value": 0
+                  }
+                ]
+              },
+              "scaleX": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 1
+                  },
+                  {
+                    "at": 58,
+                    "value": 1
+                  },
+                  {
+                    "at": 64,
+                    "value": 1.06
+                  },
+                  {
+                    "at": 73,
+                    "value": 0.96
+                  },
+                  {
+                    "at": 82,
+                    "value": 1.05
+                  },
+                  {
+                    "at": 90,
+                    "value": 0.99
+                  },
+                  {
+                    "at": 100,
+                    "value": 1
+                  }
+                ]
+              },
+              "scaleY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 1
+                  },
+                  {
+                    "at": 58,
+                    "value": 1
+                  },
+                  {
+                    "at": 64,
+                    "value": 0.94
+                  },
+                  {
+                    "at": 73,
+                    "value": 1.05
+                  },
+                  {
+                    "at": 82,
+                    "value": 0.95
+                  },
+                  {
+                    "at": 90,
+                    "value": 1.01
+                  },
+                  {
+                    "at": 100,
+                    "value": 1
+                  }
+                ]
+              }
+            }
+          }
+        ],
         "children": [
           {
             "name": "shape",
             "type": "component"
           }
         ]
-      },
-      {
-        "name": "animation",
-        "type": "component"
       }
     ],
     "width": 100,
@@ -74,9 +176,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -105,9 +301,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -136,9 +426,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -167,9 +551,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -198,9 +676,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -229,9 +801,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -260,9 +926,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -295,9 +1055,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -330,9 +1184,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -361,9 +1309,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -392,9 +1434,103 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-look"
-              },
+              "animations": [
+                {
+                  "name": "look",
+                  "duration": 6.4,
+                  "easing": "easeInOut",
+                  "tracks": {
+                    "translateX": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 38,
+                          "value": -3.6
+                        },
+                        {
+                          "at": 46,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 60,
+                          "value": 3.4
+                        },
+                        {
+                          "at": 68,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 0.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    },
+                    "translateY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 16,
+                          "value": 0
+                        },
+                        {
+                          "at": 24,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 38,
+                          "value": 0.9
+                        },
+                        {
+                          "at": 46,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 60,
+                          "value": -0.7
+                        },
+                        {
+                          "at": 68,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 82,
+                          "value": 1.7
+                        },
+                        {
+                          "at": 90,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "spacing",
@@ -518,9 +1654,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -544,9 +1709,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -570,9 +1764,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "circle",
@@ -596,9 +1819,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "g",
@@ -641,9 +1893,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "rect",
@@ -669,9 +1950,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "rect",
@@ -697,9 +2007,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "ellipse",
@@ -724,9 +2063,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "ellipse",
@@ -751,9 +2119,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -779,9 +2176,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -807,9 +2233,38 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "class": "dbga-eye"
-              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.4,
+                  "tracks": {
+                    "scaleY": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 94,
+                          "value": 1
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0.06
+                        },
+                        {
+                          "at": 97,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
               "children": [
                 {
                   "name": "path",
@@ -825,140 +2280,6 @@
                     "stroke-linecap": "round",
                     "stroke-linejoin": "round"
                   }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    "animation": {
-      "width": 100,
-      "height": 100,
-      "variants": {
-        "none": {
-          "elements": []
-        },
-        "fastest": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbga-fastest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbga-fastest){--dbga-t:0.75;--dbga-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbgaLook{0%,16%{transform:translate(0,0)}24%,38%{transform:translate(-3.6px,0.9px)}46%,60%{transform:translate(3.4px,-0.7px)}68%,82%{transform:translate(0.7px,1.7px)}90%,100%{transform:translate(0,0)}}@keyframes dbgaBlink{0%,94%,97%,100%{transform:scaleY(1)}95.5%{transform:scaleY(0.06)}}@keyframes dbgaHop{0%,58%,100%{transform:translateY(0) scale(1,1)}64%{transform:translateY(0) scale(1.06,0.94)}73%{transform:translateY(-4px) scale(0.96,1.05)}82%{transform:translateY(0) scale(1.05,0.95)}90%{transform:translateY(0) scale(0.99,1.01)}}.dbga-eye,.dbga-look{transform-box:fill-box;transform-origin:center}.dbga-hop{transform-box:fill-box;transform-origin:50% 100%}.dbga-look{animation:dbgaLook calc(var(--dbga-t,1)*6.4s) ease-in-out infinite}.dbga-eye{animation:dbgaBlink calc(var(--dbga-t,1)*4.4s) linear infinite}.dbga-hop{animation:dbgaHop calc(var(--dbga-t,1)*5.2s) ease-out infinite}.dbga-eye,.dbga-look,.dbga-hop{animation-play-state:var(--dbga-p,paused)}}"
-                }
-              ]
-            }
-          ]
-        },
-        "fast": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbga-fast"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbga-fast){--dbga-t:0.9;--dbga-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbgaLook{0%,16%{transform:translate(0,0)}24%,38%{transform:translate(-3.6px,0.9px)}46%,60%{transform:translate(3.4px,-0.7px)}68%,82%{transform:translate(0.7px,1.7px)}90%,100%{transform:translate(0,0)}}@keyframes dbgaBlink{0%,94%,97%,100%{transform:scaleY(1)}95.5%{transform:scaleY(0.06)}}@keyframes dbgaHop{0%,58%,100%{transform:translateY(0) scale(1,1)}64%{transform:translateY(0) scale(1.06,0.94)}73%{transform:translateY(-4px) scale(0.96,1.05)}82%{transform:translateY(0) scale(1.05,0.95)}90%{transform:translateY(0) scale(0.99,1.01)}}.dbga-eye,.dbga-look{transform-box:fill-box;transform-origin:center}.dbga-hop{transform-box:fill-box;transform-origin:50% 100%}.dbga-look{animation:dbgaLook calc(var(--dbga-t,1)*6.4s) ease-in-out infinite}.dbga-eye{animation:dbgaBlink calc(var(--dbga-t,1)*4.4s) linear infinite}.dbga-hop{animation:dbgaHop calc(var(--dbga-t,1)*5.2s) ease-out infinite}.dbga-eye,.dbga-look,.dbga-hop{animation-play-state:var(--dbga-p,paused)}}"
-                }
-              ]
-            }
-          ]
-        },
-        "medium": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbga-medium"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbga-medium){--dbga-t:1;--dbga-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbgaLook{0%,16%{transform:translate(0,0)}24%,38%{transform:translate(-3.6px,0.9px)}46%,60%{transform:translate(3.4px,-0.7px)}68%,82%{transform:translate(0.7px,1.7px)}90%,100%{transform:translate(0,0)}}@keyframes dbgaBlink{0%,94%,97%,100%{transform:scaleY(1)}95.5%{transform:scaleY(0.06)}}@keyframes dbgaHop{0%,58%,100%{transform:translateY(0) scale(1,1)}64%{transform:translateY(0) scale(1.06,0.94)}73%{transform:translateY(-4px) scale(0.96,1.05)}82%{transform:translateY(0) scale(1.05,0.95)}90%{transform:translateY(0) scale(0.99,1.01)}}.dbga-eye,.dbga-look{transform-box:fill-box;transform-origin:center}.dbga-hop{transform-box:fill-box;transform-origin:50% 100%}.dbga-look{animation:dbgaLook calc(var(--dbga-t,1)*6.4s) ease-in-out infinite}.dbga-eye{animation:dbgaBlink calc(var(--dbga-t,1)*4.4s) linear infinite}.dbga-hop{animation:dbgaHop calc(var(--dbga-t,1)*5.2s) ease-out infinite}.dbga-eye,.dbga-look,.dbga-hop{animation-play-state:var(--dbga-p,paused)}}"
-                }
-              ]
-            }
-          ]
-        },
-        "slow": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbga-slow"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbga-slow){--dbga-t:1.15;--dbga-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbgaLook{0%,16%{transform:translate(0,0)}24%,38%{transform:translate(-3.6px,0.9px)}46%,60%{transform:translate(3.4px,-0.7px)}68%,82%{transform:translate(0.7px,1.7px)}90%,100%{transform:translate(0,0)}}@keyframes dbgaBlink{0%,94%,97%,100%{transform:scaleY(1)}95.5%{transform:scaleY(0.06)}}@keyframes dbgaHop{0%,58%,100%{transform:translateY(0) scale(1,1)}64%{transform:translateY(0) scale(1.06,0.94)}73%{transform:translateY(-4px) scale(0.96,1.05)}82%{transform:translateY(0) scale(1.05,0.95)}90%{transform:translateY(0) scale(0.99,1.01)}}.dbga-eye,.dbga-look{transform-box:fill-box;transform-origin:center}.dbga-hop{transform-box:fill-box;transform-origin:50% 100%}.dbga-look{animation:dbgaLook calc(var(--dbga-t,1)*6.4s) ease-in-out infinite}.dbga-eye{animation:dbgaBlink calc(var(--dbga-t,1)*4.4s) linear infinite}.dbga-hop{animation:dbgaHop calc(var(--dbga-t,1)*5.2s) ease-out infinite}.dbga-eye,.dbga-look,.dbga-hop{animation-play-state:var(--dbga-p,paused)}}"
-                }
-              ]
-            }
-          ]
-        },
-        "slowest": {
-          "weight": 0,
-          "tags": [
-            "animation"
-          ],
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbga-slowest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbga-slowest){--dbga-t:1.35;--dbga-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbgaLook{0%,16%{transform:translate(0,0)}24%,38%{transform:translate(-3.6px,0.9px)}46%,60%{transform:translate(3.4px,-0.7px)}68%,82%{transform:translate(0.7px,1.7px)}90%,100%{transform:translate(0,0)}}@keyframes dbgaBlink{0%,94%,97%,100%{transform:scaleY(1)}95.5%{transform:scaleY(0.06)}}@keyframes dbgaHop{0%,58%,100%{transform:translateY(0) scale(1,1)}64%{transform:translateY(0) scale(1.06,0.94)}73%{transform:translateY(-4px) scale(0.96,1.05)}82%{transform:translateY(0) scale(1.05,0.95)}90%{transform:translateY(0) scale(0.99,1.01)}}.dbga-eye,.dbga-look{transform-box:fill-box;transform-origin:center}.dbga-hop{transform-box:fill-box;transform-origin:50% 100%}.dbga-look{animation:dbgaLook calc(var(--dbga-t,1)*6.4s) ease-in-out infinite}.dbga-eye{animation:dbgaBlink calc(var(--dbga-t,1)*4.4s) linear infinite}.dbga-hop{animation:dbgaHop calc(var(--dbga-t,1)*5.2s) ease-out infinite}.dbga-eye,.dbga-look,.dbga-hop{animation-play-state:var(--dbga-p,paused)}}"
                 }
               ]
             }

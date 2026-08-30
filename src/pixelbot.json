@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.6.0/dist/definition.min.json",
   "$comment": "Hand-authored definition (no Figma source). Safe to edit directly.",
   "meta": {
     "license": {
@@ -48,10 +48,6 @@
         "attributes": {
           "transform": "translate(17 67)"
         }
-      },
-      {
-        "name": "animation",
-        "type": "component"
       }
     ],
     "width": 100,
@@ -76,9 +72,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er3"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 88.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 89.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 96.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -88,9 +120,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er4"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 89.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -100,9 +168,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er5"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 91.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 93.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -116,9 +220,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er4"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 89.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -128,9 +268,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er5"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 91.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 93.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -144,9 +320,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er4"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 89.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -156,9 +368,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er5"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 91.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 93.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -172,9 +420,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er5"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 91.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 93.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -188,9 +472,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er3"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 88.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 89.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 96.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -200,9 +520,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er4"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 89.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -212,9 +568,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er5"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 91.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 93.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -228,9 +620,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er4"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 89.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -240,9 +668,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er5"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 91.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 93.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -256,9 +720,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er4"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 89.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 95.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -268,9 +768,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-er5"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "blink",
+                  "duration": 4.8,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 90.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 91.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 93.5,
+                          "value": 0
+                        },
+                        {
+                          "at": 94.5,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -290,9 +826,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-msm"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "smile",
+                  "duration": 9,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 56,
+                          "value": 1
+                        },
+                        {
+                          "at": 57,
+                          "value": 0
+                        },
+                        {
+                          "at": 82,
+                          "value": 0
+                        },
+                        {
+                          "at": 83,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -303,9 +875,45 @@
                   "type": "color",
                   "name": "glow"
                 },
-                "class": "dbpb-mlg",
                 "opacity": "0"
-              }
+              },
+              "animations": [
+                {
+                  "name": "smile",
+                  "duration": 9,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 56,
+                          "value": 0
+                        },
+                        {
+                          "at": 57,
+                          "value": 1
+                        },
+                        {
+                          "at": 82,
+                          "value": 1
+                        },
+                        {
+                          "at": 83,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -319,9 +927,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-msm"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "smile",
+                  "duration": 9,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 56,
+                          "value": 1
+                        },
+                        {
+                          "at": 57,
+                          "value": 0
+                        },
+                        {
+                          "at": 82,
+                          "value": 0
+                        },
+                        {
+                          "at": 83,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -332,9 +976,45 @@
                   "type": "color",
                   "name": "glow"
                 },
-                "class": "dbpb-mlg",
                 "opacity": "0"
-              }
+              },
+              "animations": [
+                {
+                  "name": "smile",
+                  "duration": 9,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 56,
+                          "value": 0
+                        },
+                        {
+                          "at": 57,
+                          "value": 1
+                        },
+                        {
+                          "at": 82,
+                          "value": 1
+                        },
+                        {
+                          "at": 83,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -348,9 +1028,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-msm"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "smile",
+                  "duration": 9,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 56,
+                          "value": 1
+                        },
+                        {
+                          "at": 57,
+                          "value": 0
+                        },
+                        {
+                          "at": 82,
+                          "value": 0
+                        },
+                        {
+                          "at": 83,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -361,9 +1077,45 @@
                   "type": "color",
                   "name": "glow"
                 },
-                "class": "dbpb-mlg",
                 "opacity": "0"
-              }
+              },
+              "animations": [
+                {
+                  "name": "smile",
+                  "duration": 9,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 56,
+                          "value": 0
+                        },
+                        {
+                          "at": 57,
+                          "value": 1
+                        },
+                        {
+                          "at": 82,
+                          "value": 1
+                        },
+                        {
+                          "at": 83,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -377,9 +1129,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-msm"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "smile",
+                  "duration": 9,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 56,
+                          "value": 1
+                        },
+                        {
+                          "at": 57,
+                          "value": 0
+                        },
+                        {
+                          "at": 82,
+                          "value": 0
+                        },
+                        {
+                          "at": 83,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -390,9 +1178,45 @@
                   "type": "color",
                   "name": "glow"
                 },
-                "class": "dbpb-mlg",
                 "opacity": "0"
-              }
+              },
+              "animations": [
+                {
+                  "name": "smile",
+                  "duration": 9,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 56,
+                          "value": 0
+                        },
+                        {
+                          "at": 57,
+                          "value": 1
+                        },
+                        {
+                          "at": 82,
+                          "value": 1
+                        },
+                        {
+                          "at": 83,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
@@ -406,9 +1230,45 @@
                 "fill": {
                   "type": "color",
                   "name": "glow"
-                },
-                "class": "dbpb-msm"
-              }
+                }
+              },
+              "animations": [
+                {
+                  "name": "smile",
+                  "duration": 9,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 1
+                        },
+                        {
+                          "at": 56,
+                          "value": 1
+                        },
+                        {
+                          "at": 57,
+                          "value": 0
+                        },
+                        {
+                          "at": 82,
+                          "value": 0
+                        },
+                        {
+                          "at": 83,
+                          "value": 1
+                        },
+                        {
+                          "at": 100,
+                          "value": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
             },
             {
               "name": "path",
@@ -419,144 +1279,46 @@
                   "type": "color",
                   "name": "glow"
                 },
-                "class": "dbpb-mlg",
                 "opacity": "0"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "animation": {
-      "width": 100,
-      "height": 100,
-      "variants": {
-        "none": {
-          "elements": []
-        },
-        "fastest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbpb-fastest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
+              },
+              "animations": [
                 {
-                  "type": "text",
-                  "value": "svg:has(.dbpb-fastest){--dbpb-t:0.75;--dbpb-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpbLidT{0%,88.5%,96.5%,100%{opacity:1}89.5%,95.5%{opacity:0}} @keyframes dbpbLidM{0%,89.5%,95.5%,100%{opacity:1}90.5%,94.5%{opacity:0}} @keyframes dbpbLidB{0%,90.5%,94.5%,100%{opacity:1}91.5%,93.5%{opacity:0}} @keyframes dbpbSmileSm{0%,56%,83%,100%{opacity:1}57%,82%{opacity:0}} @keyframes dbpbSmileLg{0%,56%,83%,100%{opacity:0}57%,82%{opacity:1}} .dbpb-er3{animation:dbpbLidT calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-er4{animation:dbpbLidM calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-er5{animation:dbpbLidB calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-msm{animation:dbpbSmileSm calc(var(--dbpb-t,1)*9s) step-end infinite} .dbpb-mlg{animation:dbpbSmileLg calc(var(--dbpb-t,1)*9s) step-end infinite}.dbpb-er3,.dbpb-er4,.dbpb-er5,.dbpb-msm,.dbpb-mlg{animation-play-state:var(--dbpb-p,paused)}}"
+                  "name": "smile",
+                  "duration": 9,
+                  "easing": "hold",
+                  "tracks": {
+                    "opacity": {
+                      "keyframes": [
+                        {
+                          "at": 0,
+                          "value": 0
+                        },
+                        {
+                          "at": 56,
+                          "value": 0
+                        },
+                        {
+                          "at": 57,
+                          "value": 1
+                        },
+                        {
+                          "at": 82,
+                          "value": 1
+                        },
+                        {
+                          "at": 83,
+                          "value": 0
+                        },
+                        {
+                          "at": 100,
+                          "value": 0
+                        }
+                      ]
+                    }
+                  }
                 }
               ]
             }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "fast": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbpb-fast"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbpb-fast){--dbpb-t:0.9;--dbpb-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpbLidT{0%,88.5%,96.5%,100%{opacity:1}89.5%,95.5%{opacity:0}} @keyframes dbpbLidM{0%,89.5%,95.5%,100%{opacity:1}90.5%,94.5%{opacity:0}} @keyframes dbpbLidB{0%,90.5%,94.5%,100%{opacity:1}91.5%,93.5%{opacity:0}} @keyframes dbpbSmileSm{0%,56%,83%,100%{opacity:1}57%,82%{opacity:0}} @keyframes dbpbSmileLg{0%,56%,83%,100%{opacity:0}57%,82%{opacity:1}} .dbpb-er3{animation:dbpbLidT calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-er4{animation:dbpbLidM calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-er5{animation:dbpbLidB calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-msm{animation:dbpbSmileSm calc(var(--dbpb-t,1)*9s) step-end infinite} .dbpb-mlg{animation:dbpbSmileLg calc(var(--dbpb-t,1)*9s) step-end infinite}.dbpb-er3,.dbpb-er4,.dbpb-er5,.dbpb-msm,.dbpb-mlg{animation-play-state:var(--dbpb-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "medium": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbpb-medium"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbpb-medium){--dbpb-t:1;--dbpb-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpbLidT{0%,88.5%,96.5%,100%{opacity:1}89.5%,95.5%{opacity:0}} @keyframes dbpbLidM{0%,89.5%,95.5%,100%{opacity:1}90.5%,94.5%{opacity:0}} @keyframes dbpbLidB{0%,90.5%,94.5%,100%{opacity:1}91.5%,93.5%{opacity:0}} @keyframes dbpbSmileSm{0%,56%,83%,100%{opacity:1}57%,82%{opacity:0}} @keyframes dbpbSmileLg{0%,56%,83%,100%{opacity:0}57%,82%{opacity:1}} .dbpb-er3{animation:dbpbLidT calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-er4{animation:dbpbLidM calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-er5{animation:dbpbLidB calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-msm{animation:dbpbSmileSm calc(var(--dbpb-t,1)*9s) step-end infinite} .dbpb-mlg{animation:dbpbSmileLg calc(var(--dbpb-t,1)*9s) step-end infinite}.dbpb-er3,.dbpb-er4,.dbpb-er5,.dbpb-msm,.dbpb-mlg{animation-play-state:var(--dbpb-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slow": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbpb-slow"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbpb-slow){--dbpb-t:1.15;--dbpb-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpbLidT{0%,88.5%,96.5%,100%{opacity:1}89.5%,95.5%{opacity:0}} @keyframes dbpbLidM{0%,89.5%,95.5%,100%{opacity:1}90.5%,94.5%{opacity:0}} @keyframes dbpbLidB{0%,90.5%,94.5%,100%{opacity:1}91.5%,93.5%{opacity:0}} @keyframes dbpbSmileSm{0%,56%,83%,100%{opacity:1}57%,82%{opacity:0}} @keyframes dbpbSmileLg{0%,56%,83%,100%{opacity:0}57%,82%{opacity:1}} .dbpb-er3{animation:dbpbLidT calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-er4{animation:dbpbLidM calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-er5{animation:dbpbLidB calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-msm{animation:dbpbSmileSm calc(var(--dbpb-t,1)*9s) step-end infinite} .dbpb-mlg{animation:dbpbSmileLg calc(var(--dbpb-t,1)*9s) step-end infinite}.dbpb-er3,.dbpb-er4,.dbpb-er5,.dbpb-msm,.dbpb-mlg{animation-play-state:var(--dbpb-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slowest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbpb-slowest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbpb-slowest){--dbpb-t:1.35;--dbpb-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbpbLidT{0%,88.5%,96.5%,100%{opacity:1}89.5%,95.5%{opacity:0}} @keyframes dbpbLidM{0%,89.5%,95.5%,100%{opacity:1}90.5%,94.5%{opacity:0}} @keyframes dbpbLidB{0%,90.5%,94.5%,100%{opacity:1}91.5%,93.5%{opacity:0}} @keyframes dbpbSmileSm{0%,56%,83%,100%{opacity:1}57%,82%{opacity:0}} @keyframes dbpbSmileLg{0%,56%,83%,100%{opacity:0}57%,82%{opacity:1}} .dbpb-er3{animation:dbpbLidT calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-er4{animation:dbpbLidM calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-er5{animation:dbpbLidB calc(var(--dbpb-t,1)*4.8s) step-end infinite} .dbpb-msm{animation:dbpbSmileSm calc(var(--dbpb-t,1)*9s) step-end infinite} .dbpb-mlg{animation:dbpbSmileLg calc(var(--dbpb-t,1)*9s) step-end infinite}.dbpb-er3,.dbpb-er4,.dbpb-er5,.dbpb-msm,.dbpb-mlg{animation-play-state:var(--dbpb-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
           ]
         }
       }
