@@ -3411,10 +3411,12 @@
         "disc": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M50 88c20.987 0 38-17.013 38-38S70.987 12 50 12 12 29.013 12 50s17.013 38 38 38",
+                "cx": "50",
+                "cy": "50",
+                "r": "38",
                 "fill": "currentColor"
               }
             }

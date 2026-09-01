@@ -27,10 +27,12 @@
         },
         "children": [
           {
-            "name": "path",
+            "name": "circle",
             "type": "element",
             "attributes": {
-              "d": "M50 92c19.882 0 36-16.118 36-36S69.882 20 50 20 14 36.118 14 56s16.118 36 36 36",
+              "cx": "50",
+              "cy": "56",
+              "r": "36",
               "fill": "white"
             }
           }
@@ -44,10 +46,12 @@
         },
         "children": [
           {
-            "name": "path",
+            "name": "circle",
             "type": "element",
             "attributes": {
-              "d": "M50 92c19.882 0 36-16.118 36-36S69.882 20 50 20 14 36.118 14 56s16.118 36 36 36",
+              "cx": "50",
+              "cy": "56",
+              "r": "36",
               "fill": {
                 "type": "color",
                 "name": "sphere"
@@ -162,10 +166,13 @@
         "core": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M50 122c29.823 0 54-14.327 54-32S79.823 58 50 58-4 72.327-4 90s24.177 32 54 32",
+                "cx": "50",
+                "cy": "90",
+                "rx": "54",
+                "ry": "32",
                 "fill": {
                   "type": "color",
                   "name": "blend"
@@ -173,10 +180,13 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M50 38c27.614 0 50-12.536 50-28S77.614-18 50-18 0-5.464 0 10s22.386 28 50 28",
+                "cx": "50",
+                "cy": "10",
+                "rx": "50",
+                "ry": "28",
                 "fill": {
                   "type": "color",
                   "name": "tint"
@@ -184,11 +194,14 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
                 "opacity": ".22",
-                "d": "M50 74c14.36 0 26-10.745 26-24S64.36 26 50 26 24 36.745 24 50s11.64 24 26 24",
+                "cx": "50",
+                "cy": "50",
+                "rx": "26",
+                "ry": "24",
                 "fill": {
                   "type": "color",
                   "name": "bloom"
@@ -200,10 +213,13 @@
         "dawn": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M74 110c20.987 0 38-14.327 38-32S94.987 46 74 46 36 60.327 36 78s17.013 32 38 32",
+                "cx": "74",
+                "cy": "78",
+                "rx": "38",
+                "ry": "32",
                 "fill": {
                   "type": "color",
                   "name": "blend"
@@ -211,10 +227,13 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M28 50c16.569 0 30-11.64 30-26S44.569-2 28-2C11.432-2-2 9.64-2 24s13.432 26 30 26",
+                "cx": "28",
+                "cy": "24",
+                "rx": "30",
+                "ry": "26",
                 "fill": {
                   "type": "color",
                   "name": "tint"
@@ -222,11 +241,14 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
                 "opacity": ".15",
-                "d": "M52 70c11.046 0 20-8.059 20-18s-8.954-18-20-18-20 8.059-20 18 8.954 18 20 18",
+                "cx": "52",
+                "cy": "52",
+                "rx": "20",
+                "ry": "18",
                 "fill": {
                   "type": "color",
                   "name": "bloom"
@@ -238,10 +260,13 @@
         "drift": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M16 94c17.673 0 32-19.7 32-44S33.673 6 16 6s-32 19.7-32 44 14.327 44 32 44",
+                "cx": "16",
+                "cy": "50",
+                "rx": "32",
+                "ry": "44",
                 "fill": {
                   "type": "color",
                   "name": "blend"
@@ -249,10 +274,13 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M84 94c17.673 0 32-19.7 32-44S101.673 6 84 6 52 25.7 52 50s14.327 44 32 44",
+                "cx": "84",
+                "cy": "50",
+                "rx": "32",
+                "ry": "44",
                 "fill": {
                   "type": "color",
                   "name": "tint"
@@ -260,11 +288,14 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
                 "opacity": ".15",
-                "d": "M50 42c12.15 0 22-8.059 22-18S62.15 6 50 6s-22 8.059-22 18 9.85 18 22 18",
+                "cx": "50",
+                "cy": "24",
+                "rx": "22",
+                "ry": "18",
                 "fill": {
                   "type": "color",
                   "name": "bloom"
@@ -276,10 +307,13 @@
         "dusk": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M50 46c25.405 0 46-13.431 46-30S75.405-14 50-14 4-.569 4 16s20.595 30 46 30",
+                "cx": "50",
+                "cy": "16",
+                "rx": "46",
+                "ry": "30",
                 "fill": {
                   "type": "color",
                   "name": "blend"
@@ -287,10 +321,13 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M74 106c16.569 0 30-11.64 30-26S90.569 54 74 54c-16.568 0-30 11.64-30 26s13.432 26 30 26",
+                "cx": "74",
+                "cy": "80",
+                "rx": "30",
+                "ry": "26",
                 "fill": {
                   "type": "color",
                   "name": "tint"
@@ -298,11 +335,14 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
                 "opacity": ".15",
-                "d": "M28 76c12.15 0 22-8.954 22-20s-9.85-20-22-20S6 44.954 6 56s9.85 20 22 20",
+                "cx": "28",
+                "cy": "56",
+                "rx": "22",
+                "ry": "20",
                 "fill": {
                   "type": "color",
                   "name": "bloom"
@@ -314,10 +354,13 @@
         "swell": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M82 50c18.778 0 34-13.431 34-30s-15.222-30-34-30S48 3.431 48 20s15.222 30 34 30",
+                "cx": "82",
+                "cy": "20",
+                "rx": "34",
+                "ry": "30",
                 "fill": {
                   "type": "color",
                   "name": "blend"
@@ -325,10 +368,13 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M22 106c17.673 0 32-12.536 32-28S39.673 50 22 50s-32 12.536-32 28 14.327 28 32 28",
+                "cx": "22",
+                "cy": "78",
+                "rx": "32",
+                "ry": "28",
                 "fill": {
                   "type": "color",
                   "name": "tint"
@@ -336,11 +382,14 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
                 "opacity": ".15",
-                "d": "M60 72c11.046 0 20-8.059 20-18s-8.954-18-20-18-20 8.059-20 18 8.954 18 20 18",
+                "cx": "60",
+                "cy": "54",
+                "rx": "20",
+                "ry": "18",
                 "fill": {
                   "type": "color",
                   "name": "bloom"
@@ -352,10 +401,13 @@
         "tide": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M50 116c28.719 0 52-12.536 52-28S78.719 60 50 60-2 72.536-2 88s23.281 28 52 28",
+                "cx": "50",
+                "cy": "88",
+                "rx": "52",
+                "ry": "28",
                 "fill": {
                   "type": "color",
                   "name": "blend"
@@ -363,10 +415,13 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M50 38c25.405 0 46-10.745 46-24S75.405-10 50-10 4 .745 4 14s20.595 24 46 24",
+                "cx": "50",
+                "cy": "14",
+                "rx": "46",
+                "ry": "24",
                 "fill": {
                   "type": "color",
                   "name": "tint"
@@ -374,11 +429,14 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
                 "opacity": ".15",
-                "d": "M50 68c12.15 0 22-8.059 22-18s-9.85-18-22-18-22 8.059-22 18 9.85 18 22 18",
+                "cx": "50",
+                "cy": "50",
+                "rx": "22",
+                "ry": "18",
                 "fill": {
                   "type": "color",
                   "name": "bloom"
@@ -422,7 +480,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M8 8.8a2.8 2.8 0 1 0 0-5.6 2.8 2.8 0 0 0 0 5.6m40 0a2.8 2.8 0 1 0 0-5.6 2.8 2.8 0 0 0 0 5.6",
+                "d": "M8 8.8a2.8 2.8 0 0 0 0-5.6 2.8 2.8 0 0 0 0 5.6m40 0a2.8 2.8 0 0 0 0-5.6 2.8 2.8 0 0 0 0 5.6",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -506,7 +564,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M8 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8m40-2.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                "d": "M8 10a4 4 0 0 0 0-8 4 4 0 0 0 0 8m40-2.5a3 3 0 0 0 0-6 3 3 0 0 0 0 6",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -521,7 +579,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M8 10.2a4.2 4.2 0 1 0 0-8.4 4.2 4.2 0 0 0 0 8.4m40 0a4.2 4.2 0 1 0 0-8.4 4.2 4.2 0 0 0 0 8.4",
+                "d": "M8 10.2a4.2 4.2 0 0 0 0-8.4 4.2 4.2 0 0 0 0 8.4m40 0a4.2 4.2 0 0 0 0-8.4 4.2 4.2 0 0 0 0 8.4",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -547,10 +605,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M48 8.8a2.8 2.8 0 1 0 0-5.6 2.8 2.8 0 0 0 0 5.6",
+                "cx": "48",
+                "cy": "6",
+                "r": "2.8",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -645,10 +705,13 @@
         "open": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M18 13.9c2.761 0 5-2.865 5-6.4s-2.239-6.4-5-6.4-5 2.865-5 6.4 2.239 6.4 5 6.4",
+                "cx": "18",
+                "cy": "7.5",
+                "rx": "5",
+                "ry": "6.4",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -746,10 +809,13 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M18 12.7c1.546 0 2.8-1.433 2.8-3.2S19.546 6.3 18 6.3s-2.8 1.433-2.8 3.2 1.254 3.2 2.8 3.2",
+                "cx": "18",
+                "cy": "9.5",
+                "rx": "2.8",
+                "ry": "3.2",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -897,10 +963,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M48 16.4a3.4 3.4 0 1 0 0-6.8 3.4 3.4 0 0 0 0 6.8",
+                "cx": "48",
+                "cy": "13",
+                "r": "3.4",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -926,10 +994,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M64 27.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5",
+                "cx": "64",
+                "cy": "25",
+                "r": "2.5",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -1124,10 +1194,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M48 14.4a4.4 4.4 0 1 0 0-8.8 4.4 4.4 0 0 0 0 8.8Z",
+                "cx": "48",
+                "cy": "10",
+                "r": "4.4",
                 "stroke": {
                   "type": "color",
                   "name": "ink"

@@ -1697,10 +1697,12 @@
         "variant21": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M64.5 24a55 55 0 0 1 61 45.5 55 55 0 1 1-61-45.5",
+                "cx": "71.255",
+                "cy": "78.584",
+                "r": "55",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -1767,10 +1769,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M205.5 44a22.2 22.2 0 1 1 10.8 43 22.2 22.2 0 0 1-10.8-43",
+                "cx": "212.06",
+                "cy": "65.209",
+                "r": "22.2",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
@@ -1793,10 +1797,12 @@
         "variant23": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M231.8 1.6a65.2 65.2 0 1 1 18.8 129 65.2 65.2 0 0 1-18.8-129",
+                "cx": "242.743",
+                "cy": "65.875",
+                "r": "65.2",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -1981,10 +1987,12 @@
         "variant26": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M234.6 1.2a65.4 65.4 0 1 1 13 130 65.4 65.4 0 0 1-13-130",
+                "cx": "244.232",
+                "cy": "65.887",
+                "r": "65.4",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -1992,10 +2000,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M233.6 7a59.7 59.7 0 1 1 15.1 118.4A59.7 59.7 0 0 1 233.6 7",
+                "cx": "242.702",
+                "cy": "66.002",
+                "r": "59.7",
                 "fill": {
                   "type": "color",
                   "name": "sclera"

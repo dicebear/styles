@@ -583,7 +583,7 @@
               "type": "element",
               "attributes": {
                 "opacity": ".15",
-                "d": "M19 109.5v-48a34 34 0 1 1 68 0v48z",
+                "d": "M19 109.5v-48a34 34 0 0 1 68 0v48z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -594,7 +594,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M16 106V58a34 34 0 1 1 68 0v48z",
+                "d": "M16 106V58a34 34 0 0 1 68 0v48z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -613,7 +613,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M16 106V58a34 34 0 1 1 68 0v48z",
+                    "d": "M16 106V58a34 34 0 0 1 68 0v48z",
                     "fill": "white"
                   }
                 }
@@ -633,7 +633,7 @@
                     "opacity": ".16",
                     "fill-rule": "evenodd",
                     "clip-rule": "evenodd",
-                    "d": "M16 106V58a34 34 0 1 1 68 0v48zm3.5 4.5v-48a34 34 0 1 1 68 0v48z",
+                    "d": "M16 106V58a34 34 0 0 1 68 0v48zm3.5 4.5v-48a34 34 0 0 1 68 0v48z",
                     "fill": "white"
                   }
                 },
@@ -644,7 +644,7 @@
                     "opacity": ".1",
                     "fill-rule": "evenodd",
                     "clip-rule": "evenodd",
-                    "d": "M16 106V58a34 34 0 1 1 68 0v48zm-3.5-4.5v-48a34 34 0 1 1 68 0v48z",
+                    "d": "M16 106V58a34 34 0 0 1 68 0v48zm-3.5-4.5v-48a34 34 0 0 1 68 0v48z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -1367,7 +1367,7 @@
               "type": "element",
               "attributes": {
                 "opacity": ".15",
-                "d": "M31 109.5v-68a22 22 0 1 1 44 0v68z",
+                "d": "M31 109.5v-68a22 22 0 0 1 44 0v68z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -1378,7 +1378,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M28 106V38a22 22 0 1 1 44 0v68z",
+                "d": "M28 106V38a22 22 0 0 1 44 0v68z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -1397,7 +1397,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 106V38a22 22 0 1 1 44 0v68z",
+                    "d": "M28 106V38a22 22 0 0 1 44 0v68z",
                     "fill": "white"
                   }
                 }
@@ -1417,7 +1417,7 @@
                     "opacity": ".16",
                     "fill-rule": "evenodd",
                     "clip-rule": "evenodd",
-                    "d": "M28 106V38a22 22 0 1 1 44 0v68zm3.5 4.5v-68a22 22 0 1 1 44 0v68z",
+                    "d": "M28 106V38a22 22 0 0 1 44 0v68zm3.5 4.5v-68a22 22 0 0 1 44 0v68z",
                     "fill": "white"
                   }
                 },
@@ -1428,7 +1428,7 @@
                     "opacity": ".1",
                     "fill-rule": "evenodd",
                     "clip-rule": "evenodd",
-                    "d": "M28 106V38a22 22 0 1 1 44 0v68zm-3.5-4.5v-68a22 22 0 0 1 44 0v68z",
+                    "d": "M28 106V38a22 22 0 0 1 44 0v68zm-3.5-4.5v-68a22 22 0 0 1 44 0v68z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -1677,7 +1677,7 @@
               "type": "element",
               "attributes": {
                 "opacity": ".3",
-                "d": "M4 8.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m36 0a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7",
+                "d": "M4 8.5a3.5 3.5 0 0 0 0-7 3.5 3.5 0 0 0 0 7m36 0a3.5 3.5 0 0 0 0-7 3.5 3.5 0 0 0 0 7",
                 "fill": "white"
               }
             }
@@ -1703,7 +1703,7 @@
               "type": "element",
               "attributes": {
                 "opacity": ".35",
-                "d": "M2 5.4a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m4-2A1.4 1.4 0 1 0 6 .6a1.4 1.4 0 0 0 0 2.8M4 7.9a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m38-2.5a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m-4-2a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8m2 4.5a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8",
+                "d": "M2 5.4a1.4 1.4 0 0 0 0-2.8 1.4 1.4 0 0 0 0 2.8m4-2A1.4 1.4 0 1 0 6 .6a1.4 1.4 0 0 0 0 2.8M4 7.9a1.4 1.4 0 0 0 0-2.8 1.4 1.4 0 0 0 0 2.8m38-2.5a1.4 1.4 0 0 0 0-2.8 1.4 1.4 0 0 0 0 2.8m-4-2a1.4 1.4 0 0 0 0-2.8 1.4 1.4 0 0 0 0 2.8m2 4.5a1.4 1.4 0 0 0 0-2.8 1.4 1.4 0 0 0 0 2.8",
                 "fill": "white"
               }
             }
@@ -1754,18 +1754,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "3",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -1825,18 +1829,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "36",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                    "cx": "36",
+                    "cy": "13",
+                    "r": "3",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -1900,18 +1908,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 18a5 5 0 1 0 0-10 5 5 0 0 0 0 10",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "5",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -1957,18 +1969,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "36",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 18a5 5 0 1 0 0-10 5 5 0 0 0 0 10",
+                    "cx": "36",
+                    "cy": "13",
+                    "r": "5",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -1982,10 +1998,12 @@
         "close": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M17 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                "cx": "17",
+                "cy": "13",
+                "r": "3",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -2025,10 +2043,12 @@
               ]
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M29 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                "cx": "29",
+                "cy": "13",
+                "r": "3",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -2168,10 +2188,12 @@
         "dots": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M10 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8",
+                "cx": "10",
+                "cy": "13",
+                "r": "4",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -2211,10 +2233,12 @@
               ]
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M36 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8",
+                "cx": "36",
+                "cy": "13",
+                "r": "4",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -2294,18 +2318,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M12 12.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9",
+                    "cx": "12",
+                    "cy": "8",
+                    "r": "4.5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M12 9.8a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6",
+                    "cx": "12",
+                    "cy": "8",
+                    "r": "1.8",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2351,18 +2379,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M34 12.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9",
+                    "cx": "34",
+                    "cy": "8",
+                    "r": "4.5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M34 9.8a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6",
+                    "cx": "34",
+                    "cy": "8",
+                    "r": "1.8",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2408,18 +2440,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M12 23.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9",
+                    "cx": "12",
+                    "cy": "19",
+                    "r": "4.5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M12 20.8a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6",
+                    "cx": "12",
+                    "cy": "19",
+                    "r": "1.8",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2465,18 +2501,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M34 23.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9",
+                    "cx": "34",
+                    "cy": "19",
+                    "r": "4.5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M34 20.8a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6",
+                    "cx": "34",
+                    "cy": "19",
+                    "r": "1.8",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2622,18 +2662,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M13 17a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                    "cx": "13",
+                    "cy": "14",
+                    "r": "3",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2679,18 +2723,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "36",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M33 17a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                    "cx": "33",
+                    "cy": "14",
+                    "r": "3",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2740,18 +2788,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M23 22c6.075 0 11-4.925 11-11S29.075 0 23 0 12 4.925 12 11s4.925 11 11 11",
+                    "cx": "23",
+                    "cy": "11",
+                    "r": "11",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M23 15.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9",
+                    "cx": "23",
+                    "cy": "11",
+                    "r": "4.5",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2804,7 +2856,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M12 11a11 11 0 1 0 22 0z",
+                    "d": "M12 11a11 11 0 0 0 22 0z",
                     "fill": "white"
                   }
                 },
@@ -2812,7 +2864,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M19.5 11a3.5 3.5 0 1 0 7 0z",
+                    "d": "M19.5 11a3.5 3.5 0 0 0 7 0z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2876,18 +2928,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "3",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2933,18 +2989,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "36",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                    "cx": "36",
+                    "cy": "13",
+                    "r": "3",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2994,18 +3054,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M13.5 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                    "cx": "13.5",
+                    "cy": "13",
+                    "r": "3",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3051,18 +3115,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "36",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M39.5 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                    "cx": "39.5",
+                    "cy": "13",
+                    "r": "3",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3115,7 +3183,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M3 13a7 7 0 1 0 14 0z",
+                    "d": "M3 13a7 7 0 0 0 14 0z",
                     "fill": "white"
                   }
                 },
@@ -3186,7 +3254,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M29 13a7 7 0 1 0 14 0z",
+                    "d": "M29 13a7 7 0 0 0 14 0z",
                     "fill": "white"
                   }
                 },
@@ -3354,18 +3422,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M7 18A5 5 0 1 0 7 8a5 5 0 0 0 0 10",
+                    "cx": "7",
+                    "cy": "13",
+                    "r": "5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M7 15a2 2 0 1 0 0-4 2 2 0 0 0 0 4",
+                    "cx": "7",
+                    "cy": "13",
+                    "r": "2",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3411,18 +3483,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M23 18a5 5 0 1 0 0-10 5 5 0 0 0 0 10",
+                    "cx": "23",
+                    "cy": "13",
+                    "r": "5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M23 15a2 2 0 1 0 0-4 2 2 0 0 0 0 4",
+                    "cx": "23",
+                    "cy": "13",
+                    "r": "2",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3468,18 +3544,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M39 18a5 5 0 1 0 0-10 5 5 0 0 0 0 10",
+                    "cx": "39",
+                    "cy": "13",
+                    "r": "5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M39 15a2 2 0 1 0 0-4 2 2 0 0 0 0 4",
+                    "cx": "39",
+                    "cy": "13",
+                    "r": "2",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3529,18 +3609,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M9 19.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11",
+                    "cx": "9",
+                    "cy": "14",
+                    "r": "5.5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M9 16.2a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4",
+                    "cx": "9",
+                    "cy": "14",
+                    "r": "2.2",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3586,18 +3670,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M23 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11",
+                    "cx": "23",
+                    "cy": "8",
+                    "r": "5.5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M23 10.2a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4",
+                    "cx": "23",
+                    "cy": "8",
+                    "r": "2.2",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3643,18 +3731,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M37 19.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11",
+                    "cx": "37",
+                    "cy": "14",
+                    "r": "5.5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M37 16.2a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4",
+                    "cx": "37",
+                    "cy": "14",
+                    "r": "2.2",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3704,18 +3796,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16",
+                    "cx": "10",
+                    "cy": "12",
+                    "r": "8",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7",
+                    "cx": "10",
+                    "cy": "12",
+                    "r": "3.5",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3761,18 +3857,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 19.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11",
+                    "cx": "36",
+                    "cy": "14",
+                    "r": "5.5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 16.2a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4",
+                    "cx": "36",
+                    "cy": "14",
+                    "r": "2.2",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3822,18 +3922,23 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 21.5c3.59 0 6.5-3.806 6.5-8.5S13.59 4.5 10 4.5 3.5 8.306 3.5 13s2.91 8.5 6.5 8.5",
+                    "cx": "10",
+                    "cy": "13",
+                    "rx": "6.5",
+                    "ry": "8.5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 15.8a2.8 2.8 0 1 0 0-5.6 2.8 2.8 0 0 0 0 5.6",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "2.8",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3879,18 +3984,23 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 21.5c3.59 0 6.5-3.806 6.5-8.5S39.59 4.5 36 4.5s-6.5 3.806-6.5 8.5 2.91 8.5 6.5 8.5",
+                    "cx": "36",
+                    "cy": "13",
+                    "rx": "6.5",
+                    "ry": "8.5",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M36 15.8a2.8 2.8 0 1 0 0-5.6 2.8 2.8 0 0 0 0 5.6",
+                    "cx": "36",
+                    "cy": "13",
+                    "r": "2.8",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -3940,18 +4050,22 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "7",
                     "fill": "white"
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M10 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                    "cx": "10",
+                    "cy": "13",
+                    "r": "3",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -4034,7 +4148,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M10 6a4 4 0 1 0 8 0z",
+                "d": "M10 6a4 4 0 0 0 8 0z",
                 "fill": "#FB7185"
               }
             }
@@ -4061,10 +4175,12 @@
         "dot": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M14 10a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5",
+                "cx": "14",
+                "cy": "7.5",
+                "r": "2.5",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -4158,10 +4274,12 @@
         "ooh": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M14 12.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9",
+                "cx": "14",
+                "cy": "8",
+                "r": "4.5",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -4173,10 +4291,13 @@
         "open": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M14 15.5c3.59 0 6.5-3.358 6.5-7.5S17.59.5 14 .5 7.5 3.858 7.5 8s2.91 7.5 6.5 7.5",
+                "cx": "14",
+                "cy": "8",
+                "rx": "6.5",
+                "ry": "7.5",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -4184,10 +4305,13 @@
               }
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M14 14.3c1.933 0 3.5-1.254 3.5-2.8S15.933 8.7 14 8.7s-3.5 1.254-3.5 2.8 1.567 2.8 3.5 2.8",
+                "cx": "14",
+                "cy": "11.5",
+                "rx": "3.5",
+                "ry": "2.8",
                 "fill": "#FB7185"
               }
             }
@@ -4271,7 +4395,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M20 1H8a6 6 0 1 0 0 12h12a6 6 0 0 0 0-12",
+                "d": "M20 1H8a6 6 0 0 0 0 12h12a6 6 0 0 0 0-12",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -4408,7 +4532,7 @@
               "type": "element",
               "attributes": {
                 "opacity": ".18",
-                "d": "M26 3H6a4 4 0 1 0 0 8h20a4 4 0 0 0 0-8",
+                "d": "M26 3H6a4 4 0 0 0 0 8h20a4 4 0 0 0 0-8",
                 "fill": "white"
               }
             }
@@ -4421,7 +4545,7 @@
               "type": "element",
               "attributes": {
                 "opacity": ".18",
-                "d": "M26.5 2h-21a3.5 3.5 0 1 0 0 7h21a3.5 3.5 0 1 0 0-7m0 11h-21a3.5 3.5 0 1 0 0 7h21a3.5 3.5 0 1 0 0-7",
+                "d": "M26.5 2h-21a3.5 3.5 0 0 0 0 7h21a3.5 3.5 0 0 0 0-7m0 11h-21a3.5 3.5 0 0 0 0 7h21a3.5 3.5 0 0 0 0-7",
                 "fill": "white"
               }
             }
@@ -4430,11 +4554,14 @@
         "belly": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
                 "opacity": ".2",
-                "d": "M16 26c8.284 0 15-5.82 15-13S24.284 0 16 0 1 5.82 1 13s6.716 13 15 13",
+                "cx": "16",
+                "cy": "13",
+                "rx": "15",
+                "ry": "13",
                 "fill": "white"
               }
             }
@@ -4463,7 +4590,7 @@
               "type": "element",
               "attributes": {
                 "opacity": ".25",
-                "d": "M6 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m10 0a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m10 0a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5",
+                "d": "M6 12.5a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 0 0 5m10 0a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 0 0 5m10 0a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 0 0 5",
                 "fill": "white"
               }
             }
@@ -4476,7 +4603,7 @@
               "type": "element",
               "attributes": {
                 "opacity": ".25",
-                "d": "M4 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6m12 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m12-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+                "d": "M4 12a3 3 0 0 0 0-6 3 3 0 0 0 0 6m12 8a3 3 0 0 0 0-6 3 3 0 0 0 0 6m12-7a3 3 0 0 0 0-6 3 3 0 0 0 0 6",
                 "fill": "white"
               }
             }
@@ -4485,11 +4612,13 @@
         "ring": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
                 "opacity": ".2",
-                "d": "M16 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z",
+                "cx": "16",
+                "cy": "12",
+                "r": "8",
                 "stroke": "white",
                 "stroke-width": "3"
               }
@@ -4503,7 +4632,7 @@
               "type": "element",
               "attributes": {
                 "opacity": ".3",
-                "d": "M2 6.8a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m8 8a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m8-9a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m6 11a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m6-8a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6",
+                "d": "M2 6.8a1.8 1.8 0 0 0 0-3.6 1.8 1.8 0 0 0 0 3.6m8 8a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m8-9a1.8 1.8 0 0 0 0-3.6 1.8 1.8 0 0 0 0 3.6m6 11a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6m6-8a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6",
                 "fill": "white"
               }
             }
@@ -4512,11 +4641,13 @@
         "spot": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
                 "opacity": ".2",
-                "d": "M25 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                "cx": "25",
+                "cy": "12",
+                "r": "7",
                 "fill": "white"
               }
             }
@@ -4529,7 +4660,7 @@
               "type": "element",
               "attributes": {
                 "opacity": ".18",
-                "d": "M12 6a3 3 0 1 0-6 0v18a3 3 0 1 0 6 0zm14 0a3 3 0 1 0-6 0v18a3 3 0 1 0 6 0z",
+                "d": "M12 6a3 3 0 0 0-6 0v18a3 3 0 0 0 6 0zm14 0a3 3 0 0 0-6 0v18a3 3 0 0 0 6 0z",
                 "fill": "white"
               }
             }
@@ -4566,10 +4697,12 @@
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M27 15a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11",
+                    "cx": "27",
+                    "cy": "9.5",
+                    "r": "5.5",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -4593,10 +4726,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M24 11.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11",
+                "cx": "24",
+                "cy": "6",
+                "r": "5.5",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -4632,7 +4767,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M16.5 13.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9m21 0a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9",
+                    "d": "M16.5 13.5a4.5 4.5 0 0 0 0-9 4.5 4.5 0 0 0 0 9m21 0a4.5 4.5 0 0 0 0-9 4.5 4.5 0 0 0 0 9",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -4659,7 +4794,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M13.5 10a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9m21 0a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9",
+                "d": "M13.5 10a4.5 4.5 0 0 0 0-9 4.5 4.5 0 0 0 0 9m21 0a4.5 4.5 0 0 0 0-9 4.5 4.5 0 0 0 0 9",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -4689,10 +4824,12 @@
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M27 21a8.5 8.5 0 1 0 0-17 8.5 8.5 0 0 0 0 17",
+                    "cx": "27",
+                    "cy": "12.5",
+                    "r": "8.5",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -4713,10 +4850,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M24 17.5a8.5 8.5 0 1 0 0-17 8.5 8.5 0 0 0 0 17",
+                "cx": "24",
+                "cy": "9",
+                "r": "8.5",
                 "fill": {
                   "type": "color",
                   "name": "accent"
@@ -4830,7 +4969,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M12 23.5a9 9 0 1 0 0-18 9 9 0 0 0 0 18m30 0a9 9 0 1 0 0-18 9 9 0 0 0 0 18",
+                    "d": "M12 23.5a9 9 0 0 0 0-18 9 9 0 0 0 0 18m30 0a9 9 0 0 0 0-18 9 9 0 0 0 0 18",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -4854,7 +4993,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M9 20A9 9 0 1 0 9 2a9 9 0 0 0 0 18m30 0a9 9 0 1 0 0-18 9 9 0 0 0 0 18",
+                "d": "M9 20A9 9 0 0 0 9 2a9 9 0 0 0 0 18m30 0a9 9 0 0 0 0-18 9 9 0 0 0 0 18",
                 "fill": {
                   "type": "color",
                   "name": "accent"

@@ -53,10 +53,13 @@
         "bowl": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M50 52c28.719 0 52-15.222 52-34S78.719-16 50-16-2-.778-2 18s23.281 34 52 34",
+                "cx": "50",
+                "cy": "18",
+                "rx": "52",
+                "ry": "34",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -165,10 +168,12 @@
         "bun": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M50 18.5a8 8 0 1 0 0-16 8 8 0 0 0 0 16",
+                "cx": "50",
+                "cy": "10.5",
+                "r": "8",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -176,10 +181,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M50 18.5a8 8 0 1 0 0-16 8 8 0 0 0 0 16",
+                "cx": "50",
+                "cy": "10.5",
+                "r": "8",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -191,10 +198,12 @@
         "buns": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M32 21.5a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                "cx": "32",
+                "cy": "14.5",
+                "r": "7",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -202,10 +211,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M32 21.5a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                "cx": "32",
+                "cy": "14.5",
+                "r": "7",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -213,10 +224,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M68 21.5a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                "cx": "68",
+                "cy": "14.5",
+                "r": "7",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -224,10 +237,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M68 21.5a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                "cx": "68",
+                "cy": "14.5",
+                "r": "7",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -436,10 +451,13 @@
               "type": "component"
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M50 88c18.225 0 33-17.013 33-38S68.225 12 50 12 17 29.013 17 50s14.775 38 33 38",
+                "cx": "50",
+                "cy": "50",
+                "rx": "33",
+                "ry": "38",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -455,10 +473,13 @@
               },
               "children": [
                 {
-                  "name": "path",
+                  "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 88c18.225 0 33-17.013 33-38S68.225 12 50 12 17 29.013 17 50s14.775 38 33 38",
+                    "cx": "50",
+                    "cy": "50",
+                    "rx": "33",
+                    "ry": "38",
                     "fill": "white"
                   }
                 }
@@ -490,10 +511,12 @@
               "type": "component"
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M50 88c20.987 0 38-17.013 38-38S70.987 12 50 12 12 29.013 12 50s17.013 38 38 38",
+                "cx": "50",
+                "cy": "50",
+                "r": "38",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -509,10 +532,12 @@
               },
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 88c20.987 0 38-17.013 38-38S70.987 12 50 12 12 29.013 12 50s17.013 38 38 38",
+                    "cx": "50",
+                    "cy": "50",
+                    "r": "38",
                     "fill": "white"
                   }
                 }
@@ -652,10 +677,13 @@
               "type": "component"
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M50 85c20.435 0 37-15.67 37-35S70.435 15 50 15 13 30.67 13 50s16.566 35 37 35",
+                "cx": "50",
+                "cy": "50",
+                "rx": "37",
+                "ry": "35",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -671,10 +699,13 @@
               },
               "children": [
                 {
-                  "name": "path",
+                  "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "d": "M50 85c20.435 0 37-15.67 37-35S70.435 15 50 15 13 30.67 13 50s16.566 35 37 35",
+                    "cx": "50",
+                    "cy": "50",
+                    "rx": "37",
+                    "ry": "35",
                     "fill": "white"
                   }
                 }

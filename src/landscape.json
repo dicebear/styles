@@ -968,10 +968,12 @@
               ],
               "children": [
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M12 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14",
+                    "cx": "12",
+                    "cy": "12",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "orb"
@@ -979,10 +981,12 @@
                   }
                 },
                 {
-                  "name": "path",
+                  "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "d": "M12 22.75c5.937 0 10.75-4.813 10.75-10.75S17.937 1.25 12 1.25 1.25 6.063 1.25 12 6.063 22.75 12 22.75Z",
+                    "cx": "12",
+                    "cy": "12",
+                    "r": "10.75",
                     "stroke": {
                       "type": "color",
                       "name": "orb"
@@ -998,10 +1002,12 @@
         "ring": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M12 20.75a8.75 8.75 0 1 0 0-17.5 8.75 8.75 0 0 0 0 17.5Z",
+                "cx": "12",
+                "cy": "12",
+                "r": "8.75",
                 "stroke": {
                   "type": "color",
                   "name": "orb"
@@ -1339,10 +1345,12 @@
         "sun": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11",
+                "cx": "12",
+                "cy": "12",
+                "r": "11",
                 "fill": {
                   "type": "color",
                   "name": "orb"

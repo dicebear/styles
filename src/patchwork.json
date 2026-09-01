@@ -481,7 +481,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 50a25 25 0 1 1 50 0z",
+                "d": "M0 50a25 25 0 0 1 50 0z",
                 "fill": {
                   "type": "color",
                   "name": "fabricA"
@@ -552,10 +552,12 @@
         "target": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M0 25a25 25 0 1 0 50 0 25 25 0 0 0-50 0",
+                "cx": "25",
+                "cy": "25",
+                "r": "25",
                 "fill": {
                   "type": "color",
                   "name": "fabricA"
@@ -563,10 +565,12 @@
               }
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M12.5 25a12.5 12.5 0 1 0 25 0 12.5 12.5 0 0 0-25 0",
+                "cx": "25",
+                "cy": "25",
+                "r": "12.5",
                 "fill": {
                   "type": "color",
                   "name": "fabricC"

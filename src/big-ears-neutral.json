@@ -411,7 +411,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M137.7 55.4a7 7 0 1 1 14 0v14a7 7 0 0 1-14 0zm-100.2 0a7 7 0 0 1 14 0v14a7 7 0 0 1-14 0z",
+                "d": "M137.7 55.4a7 7 0 0 1 14 0v14a7 7 0 0 1-14 0zm-100.2 0a7 7 0 0 1 14 0v14a7 7 0 0 1-14 0z",
                 "fill": "black"
               }
             }
@@ -1515,10 +1515,12 @@
         "variant30": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M156.1 47.6a11.6 11.6 0 1 1-23.1 0 11.6 11.6 0 0 1 23.1 0",
+                "cx": "144.55",
+                "cy": "48.68",
+                "r": "11.6",
                 "fill": "#161616"
               }
             },
@@ -1695,10 +1697,12 @@
         "variant0103": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M87.3 31.8a31.2 31.2 0 1 1-62.4 0 31.2 31.2 0 0 1 62.4 0",
+                "cx": "56.1",
+                "cy": "31.8",
+                "r": "31.2",
                 "fill": "#DE8383"
               }
             },
@@ -1715,10 +1719,12 @@
         "variant0104": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M87.3 31.5a31.2 31.2 0 1 1-62.4 0 31.2 31.2 0 0 1 62.4 0",
+                "cx": "56.1",
+                "cy": "31.5",
+                "r": "31.2",
                 "fill": "#F9F9F9"
               }
             }
@@ -1727,10 +1733,12 @@
         "variant0105": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M87.3 31.6a31.2 31.2 0 1 1-62.4 0 31.2 31.2 0 0 1 62.4 0",
+                "cx": "56.1",
+                "cy": "31.6",
+                "r": "31.2",
                 "fill": "#DE8383"
               }
             }
