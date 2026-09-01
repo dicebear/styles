@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.4.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@1.6.1/dist/definition.min.json",
   "$comment": "Handcrafted definition. Manually maintained, not a Figma export. Includes an opt-in animation component (`animationVariant`).",
   "meta": {
     "license": {
@@ -35,9 +35,38 @@
       {
         "name": "g",
         "type": "element",
-        "attributes": {
-          "class": "dbmo-eyes"
-        },
+        "animations": [
+          {
+            "name": "blink",
+            "duration": 4.6,
+            "tracks": {
+              "scaleY": {
+                "keyframes": [
+                  {
+                    "at": 0,
+                    "value": 1
+                  },
+                  {
+                    "at": 91,
+                    "value": 1
+                  },
+                  {
+                    "at": 94,
+                    "value": 0.12
+                  },
+                  {
+                    "at": 97,
+                    "value": 1
+                  },
+                  {
+                    "at": 100,
+                    "value": 1
+                  }
+                ]
+              }
+            }
+          }
+        ],
         "children": [
           {
             "name": "eyes",
@@ -54,10 +83,6 @@
         "attributes": {
           "transform": "translate(32 57)"
         }
-      },
-      {
-        "name": "animation",
-        "type": "component"
       }
     ],
     "width": 100,
@@ -75,10 +100,12 @@
         "circle": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M9 48.5a40 40 0 1 0 80 0 40 40 0 1 0-80 0",
+                "cx": "49",
+                "cy": "48.5",
+                "r": "40",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -98,10 +125,12 @@
                   },
                   "children": [
                     {
-                      "name": "path",
+                      "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "d": "M6 45a40 40 0 1 0 80 0 40 40 0 1 0-80 0"
+                        "cx": "46",
+                        "cy": "45",
+                        "r": "40"
                       }
                     }
                   ]
@@ -109,10 +138,12 @@
               ]
             },
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M6 45a40 40 0 1 0 80 0 40 40 0 1 0-80 0",
+                "cx": "46",
+                "cy": "45",
+                "r": "40",
                 "fill": {
                   "type": "color",
                   "name": "face"
@@ -130,7 +161,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M6 45a40 40 0 1 0 80 0 40 40 0 1 0-80 0m3 3.5a40 40 0 1 0 80 0 40 40 0 1 0-80 0",
+                    "d": "M6 45a40 40 0 0 0 80 0 40 40 0 0 0-80 0m3 3.5a40 40 0 0 0 80 0 40 40 0 0 0-80 0",
                     "fill": "#ffffff",
                     "opacity": ".16",
                     "fill-rule": "evenodd"
@@ -140,7 +171,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M6 45a40 40 0 1 0 80 0 40 40 0 1 0-80 0m-3-3.5a40 40 0 1 0 80 0 40 40 0 1 0-80 0",
+                    "d": "M6 45a40 40 0 0 0 80 0 40 40 0 0 0-80 0m-3-3.5a40 40 0 0 0 80 0 40 40 0 0 0-80 0",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -319,10 +350,13 @@
         "wide": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M6 48.5a43 37 0 1 0 86 0 43 37 0 1 0-86 0",
+                "cx": "49",
+                "cy": "48.5",
+                "rx": "43",
+                "ry": "37",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -342,10 +376,13 @@
                   },
                   "children": [
                     {
-                      "name": "path",
+                      "name": "ellipse",
                       "type": "element",
                       "attributes": {
-                        "d": "M3 45a43 37 0 1 0 86 0 43 37 0 1 0-86 0"
+                        "cx": "46",
+                        "cy": "45",
+                        "rx": "43",
+                        "ry": "37"
                       }
                     }
                   ]
@@ -353,10 +390,13 @@
               ]
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M3 45a43 37 0 1 0 86 0 43 37 0 1 0-86 0",
+                "cx": "46",
+                "cy": "45",
+                "rx": "43",
+                "ry": "37",
                 "fill": {
                   "type": "color",
                   "name": "face"
@@ -400,10 +440,13 @@
         "tall": {
           "elements": [
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M13 48.5a36 41 0 1 0 72 0 36 41 0 1 0-72 0",
+                "cx": "49",
+                "cy": "48.5",
+                "rx": "36",
+                "ry": "41",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -423,10 +466,13 @@
                   },
                   "children": [
                     {
-                      "name": "path",
+                      "name": "ellipse",
                       "type": "element",
                       "attributes": {
-                        "d": "M10 45a36 41 0 1 0 72 0 36 41 0 1 0-72 0"
+                        "cx": "46",
+                        "cy": "45",
+                        "rx": "36",
+                        "ry": "41"
                       }
                     }
                   ]
@@ -434,10 +480,13 @@
               ]
             },
             {
-              "name": "path",
+              "name": "ellipse",
               "type": "element",
               "attributes": {
-                "d": "M10 45a36 41 0 1 0 72 0 36 41 0 1 0-72 0",
+                "cx": "46",
+                "cy": "45",
+                "rx": "36",
+                "ry": "41",
                 "fill": {
                   "type": "color",
                   "name": "face"
@@ -1972,140 +2021,6 @@
                 "fill": "#ffffff"
               }
             }
-          ]
-        }
-      }
-    },
-    "animation": {
-      "width": 100,
-      "height": 100,
-      "variants": {
-        "none": {
-          "elements": []
-        },
-        "fastest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbmo-fastest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbmo-fastest){--dbmo-t:0.75;--dbmo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbmoBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbmo-eyes{transform-box:fill-box;transform-origin:center;animation:dbmoBlink calc(var(--dbmo-t,1)*4.6s) linear infinite}.dbmo-eyes{animation-play-state:var(--dbmo-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "fast": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbmo-fast"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbmo-fast){--dbmo-t:0.9;--dbmo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbmoBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbmo-eyes{transform-box:fill-box;transform-origin:center;animation:dbmoBlink calc(var(--dbmo-t,1)*4.6s) linear infinite}.dbmo-eyes{animation-play-state:var(--dbmo-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "medium": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbmo-medium"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbmo-medium){--dbmo-t:1;--dbmo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbmoBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbmo-eyes{transform-box:fill-box;transform-origin:center;animation:dbmoBlink calc(var(--dbmo-t,1)*4.6s) linear infinite}.dbmo-eyes{animation-play-state:var(--dbmo-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slow": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbmo-slow"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbmo-slow){--dbmo-t:1.15;--dbmo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbmoBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbmo-eyes{transform-box:fill-box;transform-origin:center;animation:dbmoBlink calc(var(--dbmo-t,1)*4.6s) linear infinite}.dbmo-eyes{animation-play-state:var(--dbmo-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
-          ]
-        },
-        "slowest": {
-          "weight": 0,
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "class": "dbmo-slowest"
-              }
-            },
-            {
-              "name": "style",
-              "type": "element",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "svg:has(.dbmo-slowest){--dbmo-t:1.35;--dbmo-p:running}@media (prefers-reduced-motion: no-preference){@keyframes dbmoBlink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(0.12)}} .dbmo-eyes{transform-box:fill-box;transform-origin:center;animation:dbmoBlink calc(var(--dbmo-t,1)*4.6s) linear infinite}.dbmo-eyes{animation-play-state:var(--dbmo-p,paused)}}"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "animation"
           ]
         }
       }

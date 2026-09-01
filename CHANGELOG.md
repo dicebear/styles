@@ -13,6 +13,23 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Added
+
+- **Declarative animations.** The 19 animated styles now describe their motion
+  as `animations` keyframe blocks in the definition (schema 1.6) instead of
+  embedded CSS. Rendering stays opt-in through the core's `animation` option,
+  paced by `animationSpeed`, and every block carries a name (`gaze` has `look`,
+  `blink` and `hop`, `blobs` has `sway` and `wander`, and so on), so single
+  animations can be picked by name. Static output is unchanged. Reading these
+  definitions requires a core with schema 1.6 support.
+
+### Removed
+
+- **The CSS animation component.** The animated styles no longer ship the
+  speed-variant component, so the `animationVariant` option and the
+  `animation` tag are gone. Passing `animationVariant` to these styles renders
+  the static avatar. Use `animation` and `animationSpeed` instead.
+
 ## [10.6.0] - 2026-08-26
 
 ## [10.6.0-rc.2] - 2026-08-26
