@@ -13,6 +13,8 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+## [11.0.0-rc.1] - 2026-09-01
+
 ### Added
 
 - **Declarative animations.** The 19 animated styles now describe their motion
@@ -373,7 +375,8 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v10.6.0...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0-rc.1...HEAD
+[11.0.0-rc.1]: https://github.com/dicebear/styles/compare/v10.6.0...v11.0.0-rc.1
 [10.6.0]: https://github.com/dicebear/styles/compare/v10.6.0-rc.2...v10.6.0
 [10.6.0-rc.2]: https://github.com/dicebear/styles/compare/v10.6.0-rc.1...v10.6.0-rc.2
 [10.6.0-rc.1]: https://github.com/dicebear/styles/compare/v10.5.0...v10.6.0-rc.1
