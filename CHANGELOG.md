@@ -30,6 +30,12 @@ Versions track the DiceBear release line.
   `animation` tag are gone. Passing `animationVariant` to these styles renders
   the static avatar. Use `animation` and `animationSpeed` instead.
 
+### Fixed
+
+- **Notionists:** 24 hair variants no longer let a bold background show
+  through between hair and head outline
+  ([#2](https://github.com/dicebear/styles/issues/2)).
+
 ## [10.6.0] - 2026-08-26
 
 ## [10.6.0-rc.2] - 2026-08-26
