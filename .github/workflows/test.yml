@@ -112,7 +112,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.23'
+          go-version: '1.27'
 
       - name: Regenerate styles.go from src/
         run: bash scripts/build.sh
@@ -167,7 +167,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: "8.0.x"
+          dotnet-version: "10.0.x"
 
       - name: Regenerate styles.cs from src/
         run: bash scripts/build.sh
