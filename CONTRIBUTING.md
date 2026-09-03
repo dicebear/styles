@@ -70,11 +70,11 @@ uv tool install bowtie-json-schema
 
 ## Scripts
 
-| Script             | What it does                                                |
-| ------------------ | ----------------------------------------------------------- |
+| Script             | What it does                                                       |
+| ------------------ | ------------------------------------------------------------------ |
 | `npm run build`    | Writes minified definition files to `dist/` via `scripts/build.sh` |
-| `npm test`         | Validates every file in `src/` against `@dicebear/schema`   |
-| `npm run validate` | Same as `npm test`                                          |
+| `npm test`         | Validates every file in `src/` against `@dicebear/schema`          |
+| `npm run validate` | Same as `npm test`                                                 |
 
 `npm test` uses Bowtie under the hood; the first run pulls a validator
 container, so expect a slower warm-up.
@@ -153,12 +153,13 @@ On the tag, the workflow:
    publishing policy on nuget.org for this repository and workflow.
 
 Packagist (`dicebear/styles`) and the Go module proxy
-(`github.com/dicebear/styles/v10`) both pick up the same Git tag automatically,
+(`github.com/dicebear/styles/v11`) both pick up the same Git tag automatically,
 with no publish step. The Go version lives entirely in the tag, so `scripts/version.sh`
 does not touch `go.mod`.
 
 > **Major version bumps and Go.** Go encodes the major version in the import path:
-> the `go.mod` module path is `github.com/dicebear/styles/v10`, and consumers
-> import that. When this repo moves to `v11`, that suffix must be bumped by hand in
-> `go.mod` (and the README import examples). `scripts/version.sh` only rewrites the
-> semver in the npm/PyPI/crates/pub/NuGet manifests, not the Go module path.
+> the `go.mod` module path is `github.com/dicebear/styles/v11`, and consumers
+> import that. On the next major, that suffix must be bumped by hand in `go.mod`
+> (and the README import examples). `scripts/version.sh` refuses to tag while the
+> module path and the version disagree, because the Go module proxy rejects such
+> a tag and the release would be unusable from Go.

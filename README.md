@@ -25,8 +25,8 @@ npm install @dicebear/styles
 ```
 
 ```js
-import adventurer from '@dicebear/styles/adventurer.json' with { type: 'json' };
-import lorelei from '@dicebear/styles/lorelei.json' with { type: 'json' };
+import adventurer from "@dicebear/styles/adventurer.json" with { type: "json" };
+import lorelei from "@dicebear/styles/lorelei.json" with { type: "json" };
 ```
 
 **PHP**
@@ -84,7 +84,7 @@ let all = dicebear_styles::all();
 **Go**
 
 ```bash
-go get github.com/dicebear/styles/v10
+go get github.com/dicebear/styles/v11
 ```
 
 Every style is embedded at compile time and exposed as raw JSON (`string`), both
@@ -94,7 +94,7 @@ as an exported variable and by name via `Get`. Parse it with `encoding/json`:
 import (
 	"encoding/json"
 
-	styles "github.com/dicebear/styles/v10"
+	styles "github.com/dicebear/styles/v11"
 )
 
 var adventurer map[string]any

@@ -13,6 +13,13 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Changed
+
+- **Go:** The module path is `github.com/dicebear/styles/v11`, as Go requires
+  for the new major version. `11.0.0-rc.1` still carried `/v10` and was not
+  fetchable as a Go module. `scripts/version.sh` now refuses to tag while the
+  module path and the version disagree.
+
 ## [11.0.0-rc.1] - 2026-09-01
 
 ### Added

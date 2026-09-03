@@ -1,3 +1,3 @@
-module github.com/dicebear/styles/v10
+module github.com/dicebear/styles/v11
 
 go 1.23

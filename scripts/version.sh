@@ -50,6 +50,23 @@ if ! [[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.]+)?$ ]]; then
   exit 1
 fi
 
+# Go encodes the major version in the module path (`.../v11`), and the module
+# proxy rejects a tag whose go.mod disagrees with it. Stop before anything is
+# written or tagged when the path does not match the version.
+major="${version%%.*}"
+module_path="$(sed -nE 's/^module[[:space:]]+([^[:space:]]+).*/\1/p' "$ROOT/go.mod")"
+module_base="$(printf '%s' "$module_path" | sed -E 's#/v[0-9]+$##')"
+if [ "$major" -ge 2 ]; then
+  expected_module="$module_base/v$major"
+else
+  expected_module="$module_base"
+fi
+if [ "$module_path" != "$expected_module" ]; then
+  echo "go.mod declares $module_path, but $version needs $expected_module." >&2
+  echo "Change the module line and the import examples in README.md and CONTRIBUTING.md, then run the release again." >&2
+  exit 1
+fi
+
 # Replace only the version string so generated blocks (e.g. the package.json
 # `exports` map) stay byte-for-byte untouched.
 bump() {
