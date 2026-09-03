@@ -15,6 +15,7 @@ Versions track the DiceBear release line.
 
 ### Changed
 
+- Every definition references `@dicebear/schema` 2.0.1 in its `$schema` URL.
 - **Go:** The module path is `github.com/dicebear/styles/v11`, as Go requires
   for the new major version. `11.0.0-rc.1` still carried `/v10` and was not
   fetchable as a Go module. `scripts/version.sh` now refuses to tag while the

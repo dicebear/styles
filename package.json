@@ -274,7 +274,7 @@
     "validate": "bash scripts/validate.sh"
   },
   "devDependencies": {
-    "@dicebear/schema": "^1.4.0"
+    "@dicebear/schema": "^2.0.1"
   },
   "publishConfig": {
     "access": "public"
