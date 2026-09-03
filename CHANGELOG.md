@@ -13,6 +13,8 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+## [11.0.0-rc.2] - 2026-09-03
+
 ### Changed
 
 - Every definition references `@dicebear/schema` 2.0.1 in its `$schema` URL.
@@ -383,7 +385,8 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0-rc.1...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0-rc.2...HEAD
+[11.0.0-rc.2]: https://github.com/dicebear/styles/compare/v11.0.0-rc.1...v11.0.0-rc.2
 [11.0.0-rc.1]: https://github.com/dicebear/styles/compare/v10.6.0...v11.0.0-rc.1
 [10.6.0]: https://github.com/dicebear/styles/compare/v10.6.0-rc.2...v10.6.0
 [10.6.0-rc.2]: https://github.com/dicebear/styles/compare/v10.6.0-rc.1...v10.6.0-rc.2
