@@ -310,10 +310,11 @@
             "attributes": {
               "id": "glass-a",
               "color-interpolation-filters": "sRGB",
-              "x": "-.3",
-              "y": "-.3",
-              "width": "1.6",
-              "height": "1.6"
+              "filterUnits": "userSpaceOnUse",
+              "x": "-73",
+              "y": "-72.4",
+              "width": "246",
+              "height": "245.4"
             },
             "children": [
               {
@@ -350,10 +351,11 @@
             "attributes": {
               "id": "glass-b",
               "color-interpolation-filters": "sRGB",
-              "x": "-.3",
-              "y": "-.3",
-              "width": "1.6",
-              "height": "1.6"
+              "filterUnits": "userSpaceOnUse",
+              "x": "-73",
+              "y": "-72.4",
+              "width": "246",
+              "height": "245.4"
             },
             "children": [
               {

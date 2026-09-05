@@ -115,18 +115,7 @@
                   "type": "color",
                   "name": "accessories"
                 },
-                "d": "M12 0h2v2h-2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "accessories"
-                },
-                "d": "M0 0h2v2H0z"
+                "d": "M12 0h2v2h-2zM0 0h2v2H0z"
               }
             }
           ]
@@ -141,18 +130,7 @@
                   "type": "color",
                   "name": "accessories"
                 },
-                "d": "M12 0h1v2h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "accessories"
-                },
-                "d": "M1 0h1v2H1z"
+                "d": "M12 0h1v2h-1zM1 0h1v2H1z"
               }
             },
             {
@@ -176,18 +154,7 @@
                   "type": "color",
                   "name": "accessories"
                 },
-                "d": "M12 0h1v2h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "accessories"
-                },
-                "d": "M1 0h1v2H1z"
+                "d": "M12 0h1v2h-1zM1 0h1v2H1z"
               }
             }
           ]
@@ -202,18 +169,7 @@
                   "type": "color",
                   "name": "accessories"
                 },
-                "d": "M1 0h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "accessories"
-                },
-                "d": "M12 0h1v1h-1z"
+                "d": "M1 0h1v1H1zm11 0h1v1h-1z"
               }
             }
           ]
@@ -275,7 +231,8 @@
                         "d": "M0 2h2v1h1v1h4V3h1V2h2v3H9v1H1V5H0z",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
-                        "clip-rule": "evenodd"
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
                       }
                     }
                   ]
@@ -334,7 +291,8 @@
                         "d": "M2 5h6v1H7v1H6v1H4V7H3V6H2z",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
-                        "clip-rule": "evenodd"
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
                       }
                     }
                   ]
@@ -393,7 +351,8 @@
                         "d": "M0 3h2v1h6V3h2v2H9v2H8v1H2V7H1V5H0z",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
-                        "clip-rule": "evenodd"
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
                       }
                     }
                   ]
@@ -450,6 +409,7 @@
                       "type": "element",
                       "attributes": {
                         "fill": "#ffffff",
+                        "opacity": ".9",
                         "d": "M3 5h4v1H3z"
                       }
                     }
@@ -509,7 +469,8 @@
                         "d": "M0 0h1v2h1v1h6V2h1V0h1v5H9v1H1V5H0z",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
-                        "clip-rule": "evenodd"
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
                       }
                     }
                   ]
@@ -568,7 +529,8 @@
                         "d": "M0 3h3v1h4V3h3v2H9v1H1V5H0z",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
-                        "clip-rule": "evenodd"
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
                       }
                     }
                   ]
@@ -627,7 +589,8 @@
                         "d": "M1 3H0v2h1v1h8V5h1V3z",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
-                        "clip-rule": "evenodd"
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
                       }
                     }
                   ]
@@ -686,7 +649,8 @@
                         "d": "M0 0h1v3h8V0h1v5H9v1H1V5H0z",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
-                        "clip-rule": "evenodd"
+                        "clip-rule": "evenodd",
+                        "opacity": ".9"
                       }
                     }
                   ]
@@ -744,7 +708,7 @@
               "attributes": {
                 "fill": "#ffffff",
                 "fill-opacity": ".2",
-                "d": "M3 2h1v1H3zm-1.214.666 1 .007-.007 1-1-.007zm2.667-.001 1 .007-.007 1-1-.007zM1 1h1v1H1zM0 2h1v1H0zm10-1h1v1h-1zM9 2h1v1H9zM8 3h1v1H8zm3 0h1v1h-1z"
+                "d": "M3 2h1v1H3zm-1.2.7h1v1h-1zm2.7 0h1v1h-1zM1 1h1v1H1zM0 2h1v1H0zm10-1h1v1h-1zM9 2h1v1H9zM8 3h1v1H8zm3 0h1v1h-1z"
               }
             }
           ]
@@ -1252,20 +1216,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "transform": "matrix(-1 0 0 1 8 1)",
-                "d": "M0 0h2v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "transform": "matrix(-1 0 0 1 3 1)",
-                "d": "M0 0h2v1H0z"
+                "d": "M8 1H6v1h2zM3 1H1v1h2z"
               }
             },
             {
@@ -1335,20 +1286,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "transform": "matrix(-1 0 0 1 7 1)",
-                "d": "M0 0h1v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "transform": "matrix(-1 0 0 1 2 1)",
-                "d": "M0 0h1v1H0z"
+                "d": "M7 1H6v1h1zM2 1H1v1h1z"
               }
             }
           ]
@@ -1371,18 +1309,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M1 1h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M6 1h1v1H6z"
+                "d": "M1 1h1v1H1zm5 0h1v1H6z"
               }
             }
           ]
@@ -1499,18 +1426,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M7 1h1v1H7z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M2 1h1v1H2z"
+                "d": "M7 1h1v1H7zM2 1h1v1H2z"
               }
             }
           ]
@@ -1533,18 +1449,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M5 1h1v1H5z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M0 1h1v1H0z"
+                "d": "M5 1h1v1H5zM0 1h1v1H0z"
               }
             }
           ]
@@ -1567,18 +1472,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M6 1h1v1H6z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M1 1h1v1H1z"
+                "d": "M6 1h1v1H6zM1 1h1v1H1z"
               }
             }
           ]
@@ -1601,18 +1495,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M6 0h2v2H6z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M1 0h2v2H1z"
+                "d": "M6 0h2v2H6zM1 0h2v2H1z"
               }
             },
             {
@@ -1653,18 +1536,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M0 1h2v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M5 1h2v1H5z"
+                "d": "M0 1h2v1H0zm5 0h2v1H5z"
               }
             },
             {
@@ -1810,40 +1682,7 @@
                   "type": "color",
                   "name": "glasses"
                 },
-                "d": "M0 1h12v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M1 3h10v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M1 2h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M10 2h1v1h-1z"
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
               }
             },
             {
@@ -1894,29 +1733,7 @@
                   "type": "color",
                   "name": "glasses"
                 },
-                "d": "M1 1h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M5 1h2v1H5z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M10 1h1v1h-1z"
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
           ]
@@ -2113,40 +1930,7 @@
                   "type": "color",
                   "name": "glasses"
                 },
-                "d": "M0 1h12v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M1 3h10v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M1 2h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M10 2h1v1h-1z"
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
               }
             },
             {
@@ -2197,29 +1981,7 @@
                   "type": "color",
                   "name": "glasses"
                 },
-                "d": "M1 1h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M5 1h2v1H5z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M10 1h1v1h-1z"
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
           ]
@@ -2706,92 +2468,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "transform": "matrix(-1 0 0 1 12 2)",
-                "d": "M0 0h8v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 13 3)",
-                "d": "M0 0h6v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 13 4)",
-                "d": "M0 0h2v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 13 5)",
-                "d": "M0 0h1v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 6 4)",
-                "d": "M0 0h3v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 7 3)",
-                "d": "M0 0h4v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 5 5)",
-                "d": "M0 0h2v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 4 6)",
-                "d": "M0 0h1v1H0z"
+                "d": "M12 2H4v1h8zm1 1H7v1h6zm0 1h-2v1h2zm0 1h-1v1h1zM6 4H3v1h3zm1-1H3v1h4zM5 5H3v1h2zM4 6H3v1h1z"
               }
             }
           ]
@@ -2806,68 +2483,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "transform": "matrix(-1 0 0 1 12 2)",
-                "d": "M0 0h8v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 13 3)",
-                "d": "M0 0h2v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 13 4)",
-                "d": "M0 0h1v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 6 3)",
-                "d": "M0 0h3v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 5 4)",
-                "d": "M0 0h2v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 4 5)",
-                "d": "M0 0h1v1H0z"
+                "d": "M12 2H4v1h8zm1 1h-2v1h2zm0 1h-1v1h1zM6 3H3v1h3zM5 4H3v1h2zM4 5H3v1h1z"
               }
             }
           ]
@@ -2882,44 +2498,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "transform": "matrix(-1 0 0 1 12 2)",
-                "d": "M0 0h8v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 13 3)",
-                "d": "M0 0h1v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 6 3)",
-                "d": "M0 0h3v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 5 4)",
-                "d": "M0 0h2v1H0z"
+                "d": "M12 2H4v1h8zm1 1h-1v1h1zM6 3H3v1h3zM5 4H3v1h2z"
               }
             }
           ]
@@ -2934,32 +2513,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "transform": "matrix(-1 0 0 1 4 3)",
-                "d": "M0 0h1v2H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 13 3)",
-                "d": "M0 0h1v2H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 12 2)",
-                "d": "M0 0h8v1H0z"
+                "d": "M4 3H3v2h1zm9 0h-1v2h1zm-1-1H4v1h8z"
               }
             }
           ]
@@ -2974,44 +2528,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "transform": "matrix(-1 0 0 1 9 1)",
-                "d": "M0 0h1v3H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 8 2)",
-                "d": "M0 0h1v2H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 10 0)",
-                "d": "M0 0h1v3H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 11 1)",
-                "d": "M0 0h1v1H0z"
+                "d": "M9 1H8v3h1zM8 2H7v2h1zm2-2H9v3h1zm1 1h-1v1h1z"
               }
             }
           ]
@@ -3026,8 +2543,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "transform": "matrix(-1 0 0 1 4 2)",
-                "d": "M0 0h1v3H0z"
+                "d": "M4 2H3v3h1zm9 0h-1v3h1z"
               }
             },
             {
@@ -3038,8 +2554,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "transform": "matrix(-1 0 0 1 13 2)",
-                "d": "M0 0h1v3H0z"
+                "d": "M12 1H3v2h9z"
               }
             },
             {
@@ -3050,32 +2565,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "transform": "matrix(-1 0 0 1 12 1)",
-                "d": "M0 0h9v2H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 4 2)",
-                "d": "M0 0h2v2H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 14 2)",
-                "d": "M0 0h2v2H0z"
+                "d": "M4 2H2v2h2zm10 0h-2v2h2z"
               }
             }
           ]
@@ -3090,43 +2580,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M3 3h1v1H3z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 5 2)",
-                "d": "M0 0h1v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 12 2)",
-                "d": "M0 0h1v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 13 3)",
-                "d": "M0 0h1v1H0z"
+                "d": "M3 3h1v1H3zm2-1H4v1h1zm7 0h-1v1h1zm1 1h-1v1h1z"
               }
             }
           ]
@@ -3141,51 +2595,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M5 1h5v1H5z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M4 2h8v1H4z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M9 3h1v1H9z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M11 3h2v1h-2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M3 3h2v1H3z"
+                "d": "M5 1h5v1H5zM4 2h8v1H4zm5 1h1v1H9zm2 0h2v1h-2zM3 3h2v1H3z"
               }
             }
           ]
@@ -3200,29 +2610,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M7 1h5v1H7z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M4 2h7v1H4z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M3 3h5v1H3z"
+                "d": "M7 1h5v1H7zM4 2h7v1H4zM3 3h5v1H3z"
               }
             }
           ]
@@ -3237,41 +2625,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M3 2h10v1H3z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M3 3h2v1H3z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M7 1h5v1H7z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "transform": "matrix(-1 0 0 1 13 3)",
-                "d": "M0 0h1v1H0z"
+                "d": "M3 2h10v1H3zm0 1h2v1H3zm4-2h5v1H7zm6 2h-1v1h1z"
               }
             }
           ]
@@ -3286,7 +2640,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M4 2h8v1H4z"
+                "d": "M4 2h8v1H4zM3 1h1v1H3zM2 2h1v1H2zm0 1h1v1H2zm0 1h1v1H2zm0 1h1v1H2zM1 3h1v1H1zm0-2h1v1H1zm0 4h1v1H1zm0 1h1v1H1zM0 7h1v1H0zm1 1h1v1H1zm4-7h1v1H5zm1-1h1v1H6zM4 0h1v1H4zm2 1h1v1H6zm1 0h1v1H7zm1-1h1v1H8zm1 1h1v1H9zm0-1h1v1H9zm2 0h1v1h-1zm-1 1h1v1h-1zm2 0h1v1h-1zm1 1h1v1h-1zm0 1h1v1h-1zm0 1h1v1h-1zm0 1h1v1h-1zm1 1h1v1h-1zm1-2h1v1h-1z"
               }
             },
             {
@@ -3297,392 +2651,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M3 1h1v1H3z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M2 2h1v1H2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M2 3h1v1H2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M2 4h1v1H2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M2 5h1v1H2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M1 3h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M1 1h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M1 5h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M1 6h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M0 7h1v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M1 8h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M5 1h1v1H5z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M6 0h1v1H6z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M4 0h1v1H4z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M6 1h1v1H6z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M7 1h1v1H7z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M8 0h1v1H8z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M9 1h1v1H9z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M9 0h1v1H9z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M11 0h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M10 1h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M12 1h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M13 2h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M13 3h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M13 4h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M13 5h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M14 6h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M15 4h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M15 4h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M14 3h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M14 8h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M15 6h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M15 7h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M13 2h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M2 2h1v1H2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M3 1h1v1H3z"
+                "d": "M15 4h1v1h-1zm-1-1h1v1h-1zm0 5h1v1h-1zm1-2h1v1h-1zm0 1h1v1h-1zm-2-5h1v1h-1zM2 2h1v1H2zm1-1h1v1H3z"
               }
             }
           ]
@@ -3697,40 +2666,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M4 2h1v3H4z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M6 2h1v2H6z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M8 2h1v2H8z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M10 2h1v2h-1z"
+                "d": "M4 2h1v3H4zm2 0h1v2H6zm2 0h1v2H8zm2 0h1v2h-1z"
               }
             }
           ]
@@ -3745,7 +2681,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M3 2h10v2H3z"
+                "d": "M3 2h10v2H3zM2 2h1v1H2zm0-1h1v1H2z"
               }
             },
             {
@@ -3756,7 +2692,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M2 2h1v1H2z"
+                "d": "M2 2h1v1H2zm11-2h1v1h-1zM2 4h1v1H2zm3-4h1v1H5zM4 1h1v1H4zm2 0h1v1H6zm3 0h1v1H9zM8 0h1v1H8zm4 1h1v1h-1zm1 1h1v1h-1z"
               }
             },
             {
@@ -3767,161 +2703,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M2 1h1v1H2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M2 2h1v1H2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M13 0h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M2 4h1v1H2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M5 0h1v1H5z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M4 1h1v1H4z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M6 1h1v1H6z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M9 1h1v1H9z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M8 0h1v1H8z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M12 1h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M13 2h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M12 1h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M14 3h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M13 4h1v1h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M1 3h1v1H1z"
+                "d": "M12 1h1v1h-1zm2 2h1v1h-1zm-1 1h1v1h-1zM1 3h1v1H1z"
               }
             }
           ]
@@ -3936,29 +2718,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M3 4h1v3H3z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M12 4h1v3h-1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M3 2h10v2H3z"
+                "d": "M3 4h1v3H3zm9 0h1v3h-1zM3 2h10v2H3z"
               }
             }
           ]
@@ -3973,40 +2733,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M3 3h10v1H3z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M4 2h8v1H4z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M2 4h2v2H2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M12 4h2v2h-2z"
+                "d": "M3 3h10v1H3zm1-1h8v1H4zM2 4h2v2H2zm10 0h2v2h-2z"
               }
             }
           ]
@@ -4047,18 +2774,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M12 3h2v3h-2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M2 3h2v3H2z"
+                "d": "M12 3h2v3h-2zM2 3h2v3H2z"
               }
             },
             {
@@ -4095,18 +2811,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M2 3h2v3H2z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M12 3h2v3h-2z"
+                "d": "M2 3h2v3H2zm10 0h2v3h-2z"
               }
             },
             {
@@ -4132,40 +2837,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M4 2h8v1H4z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M3 3h3v1H3z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M10 3h3v1h-3z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M8 3h1v1H8z"
+                "d": "M4 2h8v1H4zM3 3h3v1H3zm7 0h3v1h-3zM8 3h1v1H8z"
               }
             },
             {
@@ -4191,18 +2863,7 @@
                   "type": "color",
                   "name": "hair"
                 },
-                "d": "M6 2h4v1H6z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "hair"
-                },
-                "d": "M7 3h2v1H7z"
+                "d": "M6 2h4v1H6zm1 1h2v1H7z"
               }
             }
           ]

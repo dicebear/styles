@@ -58,6 +58,47 @@
                   "name": "hair"
                 }
               }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#beardVariant01-a)",
+                "opacity": ".4"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "d": "M-302-577h981V491h-981z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "beardVariant01-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "mouth",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(117 56)"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -73,6 +114,47 @@
                   "name": "hair"
                 }
               }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#beardVariant02-a)",
+                "opacity": ".4"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill": "#ffffff",
+                    "d": "M-302-577h981V491h-981z"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "beardVariant02-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "mouth",
+                      "type": "component",
+                      "attributes": {
+                        "transform": "translate(117 56)"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

@@ -70,20 +70,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "transform": "matrix(-1 0 0 1 8 1)",
-                "d": "M0 0h2v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "transform": "matrix(-1 0 0 1 3 1)",
-                "d": "M0 0h2v1H0z"
+                "d": "M8 1H6v1h2zM3 1H1v1h2z"
               }
             },
             {
@@ -153,20 +140,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "transform": "matrix(-1 0 0 1 7 1)",
-                "d": "M0 0h1v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "transform": "matrix(-1 0 0 1 2 1)",
-                "d": "M0 0h1v1H0z"
+                "d": "M7 1H6v1h1zM2 1H1v1h1z"
               }
             }
           ]
@@ -189,18 +163,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M1 1h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M6 1h1v1H6z"
+                "d": "M1 1h1v1H1zm5 0h1v1H6z"
               }
             }
           ]
@@ -317,18 +280,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M7 1h1v1H7z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M2 1h1v1H2z"
+                "d": "M7 1h1v1H7zM2 1h1v1H2z"
               }
             }
           ]
@@ -351,18 +303,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M5 1h1v1H5z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M0 1h1v1H0z"
+                "d": "M5 1h1v1H5zM0 1h1v1H0z"
               }
             }
           ]
@@ -385,18 +326,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M6 1h1v1H6z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M1 1h1v1H1z"
+                "d": "M6 1h1v1H6zM1 1h1v1H1z"
               }
             }
           ]
@@ -419,18 +349,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M6 0h2v2H6z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M1 0h2v2H1z"
+                "d": "M6 0h2v2H6zM1 0h2v2H1z"
               }
             },
             {
@@ -471,18 +390,7 @@
                   "type": "color",
                   "name": "eyes"
                 },
-                "d": "M0 1h2v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                },
-                "d": "M5 1h2v1H5z"
+                "d": "M0 1h2v1H0zm5 0h2v1H5z"
               }
             },
             {
@@ -628,40 +536,7 @@
                   "type": "color",
                   "name": "glasses"
                 },
-                "d": "M0 1h12v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M1 3h10v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M1 2h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M10 2h1v1h-1z"
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
               }
             },
             {
@@ -712,29 +587,7 @@
                   "type": "color",
                   "name": "glasses"
                 },
-                "d": "M1 1h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M5 1h2v1H5z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M10 1h1v1h-1z"
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
           ]
@@ -931,40 +784,7 @@
                   "type": "color",
                   "name": "glasses"
                 },
-                "d": "M0 1h12v1H0z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M1 3h10v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M1 2h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M10 2h1v1h-1z"
+                "d": "M0 1h12v1H0zm1 2h10v1H1zm0-1h1v1H1zm9 0h1v1h-1z"
               }
             },
             {
@@ -1015,29 +835,7 @@
                   "type": "color",
                   "name": "glasses"
                 },
-                "d": "M1 1h1v1H1z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M5 1h2v1H5z"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                },
-                "d": "M10 1h1v1h-1z"
+                "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
           ]

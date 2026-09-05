@@ -94,10 +94,11 @@
             "attributes": {
               "id": "marbles-b",
               "color-interpolation-filters": "sRGB",
-              "x": "-.39",
-              "y": "-.415",
-              "width": "1.78",
-              "height": "1.83"
+              "filterUnits": "userSpaceOnUse",
+              "x": "-43",
+              "y": "-51",
+              "width": "186",
+              "height": "218"
             },
             "children": [
               {

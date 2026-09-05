@@ -13,6 +13,17 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Removed
+
+- **bottts, bottts-neutral:** The `texture` variants `grunge01` and `grunge02`.
+  Both were a dust of specks covering about one percent of the texture at
+  40 % opacity, invisible at avatar sizes, and `grunge01` alone made up a
+  quarter of the 10.x file. With two entries fewer to choose from, a seed
+  that draws a texture now draws a different one than in 10.x, so textured
+  bottts avatars change their pattern. Avatars without a texture are not
+  affected, and `grunge01` and `grunge02` disappear from the `texture`
+  option.
+
 ## [11.0.0-rc.2] - 2026-09-03
 
 ### Changed
