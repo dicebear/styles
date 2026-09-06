@@ -1363,21 +1363,21 @@
         "sphere"
       ],
       "values": [
-        "#fe9596",
-        "#fe9a6e",
-        "#fc9f13",
-        "#dbb313",
-        "#b3c414",
-        "#68d54e",
-        "#18d79b",
-        "#17d2c7",
         "#17cde9",
+        "#17d2c7",
+        "#18d79b",
         "#5ac3fe",
+        "#68d54e",
         "#8eb8fe",
         "#aeadfe",
+        "#b3c414",
         "#d19dfe",
+        "#dbb313",
+        "#fc9f13",
         "#fe81ef",
-        "#fe8fba"
+        "#fe8fba",
+        "#fe9596",
+        "#fe9a6e"
       ]
     },
     "bloom": {
@@ -1394,35 +1394,35 @@
     },
     "sphere": {
       "values": [
-        "#fe9596",
-        "#fe9a6e",
-        "#fc9f13",
-        "#dbb313",
-        "#b3c414",
-        "#68d54e",
-        "#18d79b",
-        "#17d2c7",
         "#17cde9",
+        "#17d2c7",
+        "#18d79b",
         "#5ac3fe",
+        "#68d54e",
         "#8eb8fe",
         "#aeadfe",
+        "#b3c414",
         "#d19dfe",
+        "#dbb313",
+        "#fc9f13",
         "#fe81ef",
-        "#fe8fba"
+        "#fe8fba",
+        "#fe9596",
+        "#fe9a6e"
       ]
     },
     "tint": {
       "values": [
-        "#fdd2d1",
-        "#fdd5b9",
-        "#f6dd90",
-        "#cbeba3",
-        "#9df3cc",
         "#87f2f8",
+        "#9df3cc",
         "#bde4fd",
+        "#cbeba3",
         "#d3ddfd",
         "#e9d4fd",
-        "#fdcee8"
+        "#f6dd90",
+        "#fdcee8",
+        "#fdd2d1",
+        "#fdd5b9"
       ]
     }
   }

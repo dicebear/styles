@@ -2334,12 +2334,12 @@
   "colors": {
     "body": {
       "values": [
-        "#fbabaf",
-        "#fbb271",
-        "#9bd78d",
         "#52dcd8",
+        "#9bd78d",
         "#9cc8fb",
-        "#d8b1fb"
+        "#d8b1fb",
+        "#fbabaf",
+        "#fbb271"
       ]
     },
     "glint": {

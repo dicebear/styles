@@ -6298,18 +6298,18 @@
   "colors": {
     "background": {
       "values": [
-        "#f4e8d4",
-        "#f8f1e5",
-        "#f7e3d9",
-        "#f9ecc9",
-        "#eff0da",
-        "#e3efe9",
         "#e2ecf4",
+        "#e3efe9",
+        "#e8edf0",
         "#e9e7f4",
-        "#f4e4ef",
         "#ece8e2",
+        "#eff0da",
+        "#f4e4ef",
+        "#f4e8d4",
+        "#f7e3d9",
+        "#f8f1e5",
         "#f9e8cf",
-        "#e8edf0"
+        "#f9ecc9"
       ]
     },
     "accent": {
@@ -6317,34 +6317,34 @@
         "body"
       ],
       "values": [
-        "#c4795c",
-        "#d99277",
-        "#e0bd6a",
-        "#cf9f52",
-        "#a8b37e",
-        "#8ba06b",
         "#83b0a4",
         "#86a5c3",
+        "#8ba06b",
         "#9793bd",
+        "#a8b37e",
         "#ab8bbd",
+        "#b3a696",
+        "#c4795c",
         "#cd8ea6",
-        "#b3a696"
+        "#cf9f52",
+        "#d99277",
+        "#e0bd6a"
       ]
     },
     "body": {
       "values": [
-        "#c4795c",
-        "#d99277",
-        "#e0bd6a",
-        "#cf9f52",
-        "#a8b37e",
-        "#8ba06b",
         "#83b0a4",
         "#86a5c3",
+        "#8ba06b",
         "#9793bd",
+        "#a8b37e",
         "#ab8bbd",
+        "#b3a696",
+        "#c4795c",
         "#cd8ea6",
-        "#b3a696"
+        "#cf9f52",
+        "#d99277",
+        "#e0bd6a"
       ]
     },
     "ink": {

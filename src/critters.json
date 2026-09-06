@@ -5331,17 +5331,17 @@
     "background": {
       "values": [
         "#0369a1",
+        "#047857",
+        "#0f766e",
         "#1d4ed8",
+        "#1e293b",
         "#4338ca",
         "#6d28d9",
         "#a21caf",
-        "#be185d",
-        "#be123c",
-        "#c2410c",
         "#b45309",
-        "#047857",
-        "#0f766e",
-        "#1e293b"
+        "#be123c",
+        "#be185d",
+        "#c2410c"
       ]
     },
     "accent": {
@@ -5349,34 +5349,34 @@
         "body"
       ],
       "values": [
+        "#5eead4",
+        "#6ee7b9",
         "#7dd3fc",
         "#a5b4fc",
-        "#c4b5fd",
-        "#f0abfc",
-        "#fda4af",
-        "#fca5a5",
-        "#fdba74",
-        "#fcd34d",
         "#bef264",
-        "#6ee7b9",
-        "#5eead4",
-        "#e2e8f0"
+        "#c4b5fd",
+        "#e2e8f0",
+        "#f0abfc",
+        "#fca5a5",
+        "#fcd34d",
+        "#fda4af",
+        "#fdba74"
       ]
     },
     "body": {
       "values": [
+        "#5eead4",
+        "#6ee7b9",
         "#7dd3fc",
         "#a5b4fc",
-        "#c4b5fd",
-        "#f0abfc",
-        "#fda4af",
-        "#fca5a5",
-        "#fdba74",
-        "#fcd34d",
         "#bef264",
-        "#6ee7b9",
-        "#5eead4",
-        "#e2e8f0"
+        "#c4b5fd",
+        "#e2e8f0",
+        "#f0abfc",
+        "#fca5a5",
+        "#fcd34d",
+        "#fda4af",
+        "#fdba74"
       ]
     },
     "ink": {

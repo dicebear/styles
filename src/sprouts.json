@@ -3553,29 +3553,29 @@
     "background": {
       "values": [
         "#0369a1",
+        "#047857",
+        "#0f766e",
         "#1d4ed8",
+        "#1e293b",
         "#4338ca",
         "#6d28d9",
         "#a21caf",
-        "#be185d",
-        "#be123c",
-        "#c2410c",
         "#b45309",
-        "#047857",
-        "#0f766e",
-        "#1e293b"
+        "#be123c",
+        "#be185d",
+        "#c2410c"
       ]
     },
     "bloom": {
       "values": [
+        "#c4b5fd",
         "#f0abfc",
-        "#fda4af",
-        "#fca5a5",
-        "#fdba74",
-        "#fcd34d",
         "#f9a8d4",
         "#fb7185",
-        "#c4b5fd"
+        "#fca5a5",
+        "#fcd34d",
+        "#fda4af",
+        "#fdba74"
       ]
     },
     "ink": {
@@ -3585,30 +3585,30 @@
     },
     "plant": {
       "values": [
-        "#4ade80",
-        "#34d399",
-        "#2dd4bf",
-        "#a3e635",
-        "#86efac",
-        "#6ee7b9",
+        "#10b981",
         "#22c55e",
-        "#10b981"
+        "#2dd4bf",
+        "#34d399",
+        "#4ade80",
+        "#6ee7b9",
+        "#86efac",
+        "#a3e635"
       ]
     },
     "pot": {
       "values": [
+        "#5eead4",
+        "#6ee7b9",
         "#7dd3fc",
         "#a5b4fc",
-        "#c4b5fd",
-        "#f0abfc",
-        "#fda4af",
-        "#fca5a5",
-        "#fdba74",
-        "#fcd34d",
         "#bef264",
-        "#6ee7b9",
-        "#5eead4",
-        "#e2e8f0"
+        "#c4b5fd",
+        "#e2e8f0",
+        "#f0abfc",
+        "#fca5a5",
+        "#fcd34d",
+        "#fda4af",
+        "#fdba74"
       ]
     }
   }

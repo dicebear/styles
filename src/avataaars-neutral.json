@@ -1013,12 +1013,12 @@
     "background": {
       "values": [
         "#614335",
-        "#d08b5b",
         "#ae5d29",
+        "#d08b5b",
         "#edb98a",
-        "#ffdbb4",
+        "#f8d25c",
         "#fd9841",
-        "#f8d25c"
+        "#ffdbb4"
       ]
     }
   }

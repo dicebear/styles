@@ -13,6 +13,17 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Changed
+
+- **Color palettes are sorted.** Every `colors.*.values` list is now in
+  ascending hex order. DiceBear 10 sorted the palette itself before drawing
+  from it, DiceBear 11 takes it as the definition lists it, so a sorted
+  definition gives both cores the same avatar. Only `{color}ColorOrder:
+  'fixed'` is affected, the shuffle behind the default `random` sorts the
+  candidates on its own. Palettes behind a `contrastTo` keep their order,
+  because the core skips the shuffle for those and the definition order
+  reaches the avatar either way.
+
 ## [11.0.0-rc.2] - 2026-09-03
 
 ### Changed

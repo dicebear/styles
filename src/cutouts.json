@@ -1545,48 +1545,48 @@
   "colors": {
     "background": {
       "values": [
-        "#f6f1e7",
-        "#efeae0",
-        "#e9e4ef",
         "#e4ecea",
-        "#f2e9dd"
+        "#e9e4ef",
+        "#efeae0",
+        "#f2e9dd",
+        "#f6f1e7"
       ]
     },
     "paperBack": {
       "values": [
+        "#33415c",
         "#37718e",
-        "#a84a38",
         "#4a7a63",
         "#7b4b73",
-        "#33415c"
+        "#a84a38"
       ]
     },
     "paperFace": {
       "values": [
-        "#e2a63d",
-        "#e07856",
         "#7fb3d5",
         "#93b98a",
-        "#e8b4c0",
-        "#ab96d1"
+        "#ab96d1",
+        "#e07856",
+        "#e2a63d",
+        "#e8b4c0"
       ]
     },
     "paperHair": {
       "values": [
         "#2f4858",
         "#33312e",
-        "#7b4b73",
-        "#9c4a30",
+        "#46557a",
         "#4a7a63",
-        "#46557a"
+        "#7b4b73",
+        "#9c4a30"
       ]
     },
     "paperMouth": {
       "values": [
-        "#b0413e",
+        "#8f303e",
         "#a8382e",
-        "#c14e38",
-        "#8f303e"
+        "#b0413e",
+        "#c14e38"
       ]
     }
   }

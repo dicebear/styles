@@ -552,24 +552,24 @@
   "colors": {
     "background": {
       "values": [
-        "#fff7e0",
         "#e3f4fb",
         "#e6f8ec",
-        "#ffeee9",
         "#f3ecfe",
-        "#fdf3d7"
+        "#fdf3d7",
+        "#ffeee9",
+        "#fff7e0"
       ]
     },
     "colorA": {
       "values": [
         "#22d3ee",
-        "#fb923c",
         "#34d399",
-        "#f472b6",
-        "#a78bfa",
-        "#facc15",
         "#60a5fa",
-        "#f87171"
+        "#a78bfa",
+        "#f472b6",
+        "#f87171",
+        "#facc15",
+        "#fb923c"
       ]
     },
     "colorB": {
@@ -578,13 +578,13 @@
       ],
       "values": [
         "#22d3ee",
-        "#fb923c",
         "#34d399",
-        "#f472b6",
-        "#a78bfa",
-        "#facc15",
         "#60a5fa",
-        "#f87171"
+        "#a78bfa",
+        "#f472b6",
+        "#f87171",
+        "#facc15",
+        "#fb923c"
       ]
     },
     "colorC": {
@@ -594,21 +594,21 @@
       ],
       "values": [
         "#22d3ee",
-        "#fb923c",
         "#34d399",
-        "#f472b6",
-        "#a78bfa",
-        "#facc15",
         "#60a5fa",
-        "#f87171"
+        "#a78bfa",
+        "#f472b6",
+        "#f87171",
+        "#facc15",
+        "#fb923c"
       ]
     },
     "line": {
       "values": [
-        "#f59e0b",
-        "#ec4899",
+        "#0ea5e9",
         "#8b5cf6",
-        "#0ea5e9"
+        "#ec4899",
+        "#f59e0b"
       ]
     }
   }

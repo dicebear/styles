@@ -396,8 +396,8 @@
   "colors": {
     "background": {
       "values": [
-        "#619eff",
         "#29e051",
+        "#619eff",
         "#ffa6e6"
       ]
     },
@@ -406,8 +406,8 @@
         "#000000",
         "#1d5dff",
         "#ff543d",
-        "#ffffff",
-        "#fff500"
+        "#fff500",
+        "#ffffff"
       ]
     },
     "skin": {
