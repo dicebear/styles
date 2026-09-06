@@ -171,9 +171,6 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "opacity": "0"
-              },
               "animations": [
                 {
                   "name": "comet",
@@ -309,9 +306,6 @@
             {
               "name": "g",
               "type": "element",
-              "attributes": {
-                "opacity": "0"
-              },
               "animations": [
                 {
                   "name": "comet",
