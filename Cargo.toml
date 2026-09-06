@@ -39,6 +39,7 @@ all = [
   "bottts",
   "bottts-neutral",
   "cameo",
+  "cats",
   "clay",
   "constellation",
   "critters",
@@ -46,6 +47,7 @@ all = [
   "croodles-neutral",
   "cutouts",
   "disco",
+  "dogs",
   "dylan",
   "fun-emoji",
   "gaze",
@@ -103,6 +105,7 @@ blobs = []
 bottts = []
 bottts-neutral = []
 cameo = []
+cats = []
 clay = []
 constellation = []
 critters = []
@@ -110,6 +113,7 @@ croodles = []
 croodles-neutral = []
 cutouts = []
 disco = []
+dogs = []
 dylan = []
 fun-emoji = []
 gaze = []

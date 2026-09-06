@@ -97,6 +97,9 @@ namespace DiceBear
         /// <summary>Raw JSON definition of the DiceBear <c>cameo</c> avatar style.</summary>
         public static string Cameo => Read("cameo");
 
+        /// <summary>Raw JSON definition of the DiceBear <c>cats</c> avatar style.</summary>
+        public static string Cats => Read("cats");
+
         /// <summary>Raw JSON definition of the DiceBear <c>clay</c> avatar style.</summary>
         public static string Clay => Read("clay");
 
@@ -117,6 +120,9 @@ namespace DiceBear
 
         /// <summary>Raw JSON definition of the DiceBear <c>disco</c> avatar style.</summary>
         public static string Disco => Read("disco");
+
+        /// <summary>Raw JSON definition of the DiceBear <c>dogs</c> avatar style.</summary>
+        public static string Dogs => Read("dogs");
 
         /// <summary>Raw JSON definition of the DiceBear <c>dylan</c> avatar style.</summary>
         public static string Dylan => Read("dylan");
@@ -282,6 +288,8 @@ namespace DiceBear
                     return BotttsNeutral;
                 case "cameo":
                     return Cameo;
+                case "cats":
+                    return Cats;
                 case "clay":
                     return Clay;
                 case "constellation":
@@ -296,6 +304,8 @@ namespace DiceBear
                     return Cutouts;
                 case "disco":
                     return Disco;
+                case "dogs":
+                    return Dogs;
                 case "dylan":
                     return Dylan;
                 case "fun-emoji":
@@ -409,6 +419,7 @@ namespace DiceBear
                 "bottts",
                 "bottts-neutral",
                 "cameo",
+                "cats",
                 "clay",
                 "constellation",
                 "critters",
@@ -416,6 +427,7 @@ namespace DiceBear
                 "croodles-neutral",
                 "cutouts",
                 "disco",
+                "dogs",
                 "dylan",
                 "fun-emoji",
                 "gaze",

@@ -13,16 +13,13 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
-### Changed
+### Added
 
-- **Color palettes are sorted.** Every `colors.*.values` list is now in
-  ascending hex order. DiceBear 10 sorted the palette itself before drawing
-  from it, DiceBear 11 takes it as the definition lists it, so a sorted
-  definition gives both cores the same avatar. Only `{color}ColorOrder:
-  'fixed'` is affected, the shuffle behind the default `random` sorts the
-  candidates on its own. Palettes behind a `contrastTo` keep their order,
-  because the core skips the shuffle for those and the definition order
-  reaches the avatar either way.
+- **New style: Cats.** A cat sitting in front of a muted scene that paints
+  the tile. Head, ears and face are one silhouette, shadows are clipped to
+  the surface they fall on, and the tail wags when animated. CC0 1.0.
+- **New style: Dogs.** The dog next to Cats, on the same body, scenes and
+  shadows. Nine head families set the breed, from beagle to pug. CC0 1.0.
 
 ## [11.0.0-rc.2] - 2026-09-03
 

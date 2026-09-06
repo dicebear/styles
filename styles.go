@@ -76,6 +76,9 @@ var BotttsNeutral string
 //go:embed src/cameo.json
 var Cameo string
 
+//go:embed src/cats.json
+var Cats string
+
 //go:embed src/clay.json
 var Clay string
 
@@ -96,6 +99,9 @@ var Cutouts string
 
 //go:embed src/disco.json
 var Disco string
+
+//go:embed src/dogs.json
+var Dogs string
 
 //go:embed src/dylan.json
 var Dylan string
@@ -252,6 +258,8 @@ func Get(name string) (string, bool) {
 		return BotttsNeutral, true
 	case "cameo":
 		return Cameo, true
+	case "cats":
+		return Cats, true
 	case "clay":
 		return Clay, true
 	case "constellation":
@@ -266,6 +274,8 @@ func Get(name string) (string, bool) {
 		return Cutouts, true
 	case "disco":
 		return Disco, true
+	case "dogs":
+		return Dogs, true
 	case "dylan":
 		return Dylan, true
 	case "fun-emoji":
@@ -372,6 +382,7 @@ func All() []string {
 		"bottts",
 		"bottts-neutral",
 		"cameo",
+		"cats",
 		"clay",
 		"constellation",
 		"critters",
@@ -379,6 +390,7 @@ func All() []string {
 		"croodles-neutral",
 		"cutouts",
 		"disco",
+		"dogs",
 		"dylan",
 		"fun-emoji",
 		"gaze",

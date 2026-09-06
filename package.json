@@ -61,6 +61,10 @@
       "types": "./dist/cameo.min.json",
       "default": "./dist/cameo.min.json"
     },
+    "./cats.json": {
+      "types": "./dist/cats.min.json",
+      "default": "./dist/cats.min.json"
+    },
     "./clay.json": {
       "types": "./dist/clay.min.json",
       "default": "./dist/clay.min.json"
@@ -88,6 +92,10 @@
     "./disco.json": {
       "types": "./dist/disco.min.json",
       "default": "./dist/disco.min.json"
+    },
+    "./dogs.json": {
+      "types": "./dist/dogs.min.json",
+      "default": "./dist/dogs.min.json"
     },
     "./dylan.json": {
       "types": "./dist/dylan.min.json",

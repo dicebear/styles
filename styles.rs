@@ -78,6 +78,9 @@ pub const BOTTTS_NEUTRAL: &str = include_str!("src/bottts-neutral.json");
 #[cfg(feature = "cameo")]
 pub const CAMEO: &str = include_str!("src/cameo.json");
 
+#[cfg(feature = "cats")]
+pub const CATS: &str = include_str!("src/cats.json");
+
 #[cfg(feature = "clay")]
 pub const CLAY: &str = include_str!("src/clay.json");
 
@@ -98,6 +101,9 @@ pub const CUTOUTS: &str = include_str!("src/cutouts.json");
 
 #[cfg(feature = "disco")]
 pub const DISCO: &str = include_str!("src/disco.json");
+
+#[cfg(feature = "dogs")]
+pub const DOGS: &str = include_str!("src/dogs.json");
 
 #[cfg(feature = "dylan")]
 pub const DYLAN: &str = include_str!("src/dylan.json");
@@ -254,6 +260,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "bottts-neutral" => Some(BOTTTS_NEUTRAL),
         #[cfg(feature = "cameo")]
         "cameo" => Some(CAMEO),
+        #[cfg(feature = "cats")]
+        "cats" => Some(CATS),
         #[cfg(feature = "clay")]
         "clay" => Some(CLAY),
         #[cfg(feature = "constellation")]
@@ -268,6 +276,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "cutouts" => Some(CUTOUTS),
         #[cfg(feature = "disco")]
         "disco" => Some(DISCO),
+        #[cfg(feature = "dogs")]
+        "dogs" => Some(DOGS),
         #[cfg(feature = "dylan")]
         "dylan" => Some(DYLAN),
         #[cfg(feature = "fun-emoji")]
@@ -386,6 +396,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("bottts-neutral");
     #[cfg(feature = "cameo")]
     v.push("cameo");
+    #[cfg(feature = "cats")]
+    v.push("cats");
     #[cfg(feature = "clay")]
     v.push("clay");
     #[cfg(feature = "constellation")]
@@ -400,6 +412,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("cutouts");
     #[cfg(feature = "disco")]
     v.push("disco");
+    #[cfg(feature = "dogs")]
+    v.push("dogs");
     #[cfg(feature = "dylan")]
     v.push("dylan");
     #[cfg(feature = "fun-emoji")]

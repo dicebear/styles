@@ -97,6 +97,14 @@ came from.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                 |
 |  Source | [Cameo](https://www.dicebear.com)                                             |
 
+### Cats
+
+|    File | [src/cats.json](https://github.com/dicebear/styles/blob/main/src/cats.json) |
+| ------: | :-------------------------------------------------------------------------- |
+|  Artist | [DiceBear](https://www.dicebear.com)                                        |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)               |
+|  Source | [Cats](https://www.dicebear.com)                                            |
+
 ### Clay
 
 |    File | [src/clay.json](https://github.com/dicebear/styles/blob/main/src/clay.json) |
@@ -152,6 +160,14 @@ came from.
 |  Artist | [DiceBear](https://www.dicebear.com)                                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                 |
 |  Source | [Disco](https://www.dicebear.com)                                             |
+
+### Dogs
+
+|    File | [src/dogs.json](https://github.com/dicebear/styles/blob/main/src/dogs.json) |
+| ------: | :-------------------------------------------------------------------------- |
+|  Artist | [DiceBear](https://www.dicebear.com)                                        |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)               |
+|  Source | [Dogs](https://www.dicebear.com)                                            |
 
 ### Dylan
 
