@@ -13,6 +13,8 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+## [11.0.0-rc.3] - 2026-09-07
+
 ### Added
 
 - **New style: Cats.** A cat sitting in front of a muted scene that paints
@@ -394,7 +396,8 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0-rc.2...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0-rc.3...HEAD
+[11.0.0-rc.3]: https://github.com/dicebear/styles/compare/v11.0.0-rc.2...v11.0.0-rc.3
 [11.0.0-rc.2]: https://github.com/dicebear/styles/compare/v11.0.0-rc.1...v11.0.0-rc.2
 [11.0.0-rc.1]: https://github.com/dicebear/styles/compare/v10.6.0...v11.0.0-rc.1
 [10.6.0]: https://github.com/dicebear/styles/compare/v10.6.0-rc.2...v10.6.0
