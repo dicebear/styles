@@ -23,31 +23,10 @@
         "type": "component"
       },
       {
-        "name": "tail",
-        "type": "component",
-        "attributes": {
-          "transform": "translate(4.75 53.5)"
-        }
-      },
-      {
         "name": "body",
         "type": "component",
         "attributes": {
-          "transform": "translate(26 74)"
-        }
-      },
-      {
-        "name": "collar",
-        "type": "component",
-        "attributes": {
-          "transform": "translate(26.78 74.14)"
-        }
-      },
-      {
-        "name": "head",
-        "type": "component",
-        "attributes": {
-          "transform": "translate(9 7.82)"
+          "transform": "translate(4 1.96)"
         }
       }
     ],
@@ -60,295 +39,20 @@
   },
   "components": {
     "body": {
-      "width": 48,
-      "height": 29,
+      "width": 92,
+      "height": 103.04,
       "variants": {
-        "chest": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 26V10A10 10 0 0 1 10 0h28a10 10 0 0 1 10 10v16z",
-                "fill": {
-                  "type": "color",
-                  "name": "fur"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 26V10A10 10 0 0 1 10 0h28a10 10 0 0 1 10 10v16z",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "opacity": ".1"
-              }
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#bodyChest-a)"
-              },
-              "children": [
-                {
-                  "name": "ellipse",
-                  "type": "element",
-                  "attributes": {
-                    "cx": "24",
-                    "cy": "16",
-                    "rx": "12",
-                    "ry": "13",
-                    "fill": "#ffffff",
-                    "opacity": ".45"
-                  }
-                },
-                {
-                  "name": "ellipse",
-                  "type": "element",
-                  "attributes": {
-                    "cx": "24",
-                    "cy": "-18",
-                    "rx": "30",
-                    "ry": "27",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "opacity": ".15"
-                  }
-                }
-              ]
-            },
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "11",
-                "cy": "20.5",
-                "rx": "9",
-                "ry": "6",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "opacity": ".15"
-              }
-            },
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "11",
-                "cy": "23",
-                "rx": "9",
-                "ry": "6",
-                "fill": {
-                  "type": "color",
-                  "name": "fur"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M8 20v4m3-5v5m3-4v4",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "1.6",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "opacity": ".2"
-              }
-            },
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "37",
-                "cy": "20.5",
-                "rx": "9",
-                "ry": "6",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "opacity": ".15"
-              }
-            },
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "37",
-                "cy": "23",
-                "rx": "9",
-                "ry": "6",
-                "fill": {
-                  "type": "color",
-                  "name": "fur"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M34 20v4m3-5v5m3-4v4",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "1.6",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "opacity": ".2"
-              }
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "bodyChest-a",
-                    "style": "mask-type:alpha"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M0 26V10A10 10 0 0 1 10 0h28a10 10 0 0 1 10 10v16z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         "sitting": {
           "elements": [
             {
-              "name": "path",
-              "type": "element",
+              "name": "tail",
+              "type": "component",
               "attributes": {
-                "d": "M0 26V10A10 10 0 0 1 10 0h28a10 10 0 0 1 10 10v16z",
-                "fill": {
+                "transform": "translate(1.29 51.54)",
+                "color": {
                   "type": "color",
                   "name": "fur"
                 }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 26V10A10 10 0 0 1 10 0h28a10 10 0 0 1 10 10v16z",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "opacity": ".1"
-              }
-            },
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "11",
-                "cy": "20.5",
-                "rx": "9",
-                "ry": "6",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "opacity": ".15"
-              }
-            },
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "11",
-                "cy": "23",
-                "rx": "9",
-                "ry": "6",
-                "fill": {
-                  "type": "color",
-                  "name": "fur"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M8 20v4m3-5v5m3-4v4",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "1.6",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "opacity": ".2"
-              }
-            },
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "37",
-                "cy": "20.5",
-                "rx": "9",
-                "ry": "6",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "opacity": ".15"
-              }
-            },
-            {
-              "name": "ellipse",
-              "type": "element",
-              "attributes": {
-                "cx": "37",
-                "cy": "23",
-                "rx": "9",
-                "ry": "6",
-                "fill": {
-                  "type": "color",
-                  "name": "fur"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M34 20v4m3-5v5m3-4v4",
-                "stroke": {
-                  "type": "color",
-                  "name": "ink"
-                },
-                "stroke-width": "1.6",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "opacity": ".2"
               }
             },
             {
@@ -359,13 +63,64 @@
               },
               "children": [
                 {
+                  "name": "tail",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(1.29 51.54)",
+                    "color": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 98.04v-5c0-7 1-13 2-21 1-5 3-8 6-11v-15h28v15c3 3 5 6 6 11 1 8 2 14 2 21v5z",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 98.04v-5c0-7 1-13 2-21 1-5 3-8 6-11v-15h28v15c3 3 5 6 6 11 1 8 2 14 2 21v5z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".14"
+              }
+            },
+            {
+              "name": "chest",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(39.5 67.04)"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodySitting-b)"
+              },
+              "children": [
+                {
                   "name": "ellipse",
                   "type": "element",
                   "attributes": {
-                    "cx": "24",
-                    "cy": "-18",
-                    "rx": "30",
-                    "ry": "27",
+                    "cx": "46",
+                    "cy": "42.84",
+                    "rx": "24",
+                    "ry": "21.6",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -374,6 +129,239 @@
                   }
                 }
               ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodySitting-c)"
+              },
+              "children": [
+                {
+                  "name": "collar",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(14.66 49.92)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "26",
+                "cy": "94.54",
+                "rx": "5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "26",
+                "cy": "97.04",
+                "rx": "5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "66",
+                "cy": "94.54",
+                "rx": "5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "66",
+                "cy": "97.04",
+                "rx": "5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodySitting-d)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M40.5 71.04a4.5 4.5 0 0 0-9 0v27a4.5 4.5 0 0 0 9 0z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M40.5 73.54a4.5 4.5 0 0 0-9 0v24.5a4.5 4.5 0 0 0 9 0z",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodySitting-e)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M60.5 71.04a4.5 4.5 0 0 0-9 0v27a4.5 4.5 0 0 0 9 0z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M60.5 73.54a4.5 4.5 0 0 0-9 0v24.5a4.5 4.5 0 0 0 9 0z",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "36",
+                "cy": "92.54",
+                "rx": "6.5",
+                "ry": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "36",
+                "cy": "95.04",
+                "rx": "6.5",
+                "ry": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33.4 92.04v4m2.6-5v5m2.6-4v4",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "1.6",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".2"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "56",
+                "cy": "92.54",
+                "rx": "6.5",
+                "ry": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "56",
+                "cy": "95.04",
+                "rx": "6.5",
+                "ry": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53.4 92.04v4m2.6-5v5m2.6-4v4",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "1.6",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".2"
+              }
+            },
+            {
+              "name": "head",
+              "type": "component",
+              "attributes": {
+                "transform": "matrix(.8 0 0 .8 13.2 4.3)"
+              }
             },
             {
               "name": "defs",
@@ -391,7 +379,942 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M0 26V10A10 10 0 0 1 10 0h28a10 10 0 0 1 10 10v16z",
+                        "d": "M27 98.04v-5c0-7 1-13 2-21 1-5 3-8 6-11v-15h28v15c3 3 5 6 6 11 1 8 2 14 2 21v5z",
+                        "fill": "#ffffff"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M21 98.04v-5c0-7 1-13 2-21 1-5 3-8 6-11v-15h28v15c3 3 5 6 6 11 1 8 2 14 2 21v5z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodySitting-b",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-5c0-7 1-13 2-21 1-5 3-8 6-11v-15h28v15c3 3 5 6 6 11 1 8 2 14 2 21v5z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodySitting-c",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-5c0-7 1-13 2-21 1-5 3-8 6-11v-15h28v15c3 3 5 6 6 11 1 8 2 14 2 21v5z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodySitting-d",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-5c0-7 1-13 2-21 1-5 3-8 6-11v-15h28v15c3 3 5 6 6 11 1 8 2 14 2 21v5z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodySitting-e",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-5c0-7 1-13 2-21 1-5 3-8 6-11v-15h28v15c3 3 5 6 6 11 1 8 2 14 2 21v5z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        "stocky": {
+          "elements": [
+            {
+              "name": "tail",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(1.29 51.54)",
+                "color": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodyStocky-a)"
+              },
+              "children": [
+                {
+                  "name": "tail",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(1.29 51.54)",
+                    "color": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 98.04v-8c0-10 2-20 6-26v-10h32v10c4 6 6 16 6 26v8z",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 98.04v-8c0-10 2-20 6-26v-10h32v10c4 6 6 16 6 26v8z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".14"
+              }
+            },
+            {
+              "name": "chest",
+              "type": "component",
+              "attributes": {
+                "transform": "matrix(1.2 0 0 1.2 38.2 66.84)"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodyStocky-b)"
+              },
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "46",
+                    "cy": "47.44",
+                    "rx": "27",
+                    "ry": "24.3",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodyStocky-c)"
+              },
+              "children": [
+                {
+                  "name": "collar",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(14.66 56.42)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "24",
+                "cy": "94.54",
+                "rx": "5.5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "24",
+                "cy": "97.04",
+                "rx": "5.5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "68",
+                "cy": "94.54",
+                "rx": "5.5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "68",
+                "cy": "97.04",
+                "rx": "5.5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodyStocky-d)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M39 79.54a5 5 0 0 0-10 0v18.5a5 5 0 0 0 10 0z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M39 82.04a5 5 0 0 0-10 0v16a5 5 0 0 0 10 0z",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodyStocky-e)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M63 79.54a5 5 0 0 0-10 0v18.5a5 5 0 0 0 10 0z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M63 82.04a5 5 0 0 0-10 0v16a5 5 0 0 0 10 0z",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "34",
+                "cy": "92.54",
+                "rx": "7",
+                "ry": "5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "34",
+                "cy": "95.04",
+                "rx": "7",
+                "ry": "5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M31.4 92.04v4m2.6-5v5m2.6-4v4",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "1.6",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".2"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "58",
+                "cy": "92.54",
+                "rx": "7",
+                "ry": "5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "58",
+                "cy": "95.04",
+                "rx": "7",
+                "ry": "5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M55.4 92.04v4m2.6-5v5m2.6-4v4",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "1.6",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".2"
+              }
+            },
+            {
+              "name": "head",
+              "type": "component",
+              "attributes": {
+                "transform": "matrix(.9 0 0 .9 9.1 4.08)"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodyStocky-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M27 98.04v-8c0-10 2-20 6-26v-10h32v10c4 6 6 16 6 26v8z",
+                        "fill": "#ffffff"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M21 98.04v-8c0-10 2-20 6-26v-10h32v10c4 6 6 16 6 26v8z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodyStocky-b",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-8c0-10 2-20 6-26v-10h32v10c4 6 6 16 6 26v8z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodyStocky-c",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-8c0-10 2-20 6-26v-10h32v10c4 6 6 16 6 26v8z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodyStocky-d",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-8c0-10 2-20 6-26v-10h32v10c4 6 6 16 6 26v8z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodyStocky-e",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-8c0-10 2-20 6-26v-10h32v10c4 6 6 16 6 26v8z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tall": {
+          "elements": [
+            {
+              "name": "tail",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(1.29 51.54)",
+                "color": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodyTall-a)"
+              },
+              "children": [
+                {
+                  "name": "tail",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(1.29 51.54)",
+                    "color": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 98.04v-5c0-7 1-13 2-23 1-6 3-10 6-13v-19h28v19c3 3 5 7 6 13 1 10 2 16 2 23v5z",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M24 98.04v-5c0-7 1-13 2-23 1-6 3-10 6-13v-19h28v19c3 3 5 7 6 13 1 10 2 16 2 23v5z",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".14"
+              }
+            },
+            {
+              "name": "chest",
+              "type": "component",
+              "attributes": {
+                "transform": "translate(39.5 65.04)"
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodyTall-b)"
+              },
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "46",
+                    "cy": "38.48",
+                    "rx": "22.2",
+                    "ry": "19.98",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodyTall-c)"
+              },
+              "children": [
+                {
+                  "name": "collar",
+                  "type": "component",
+                  "attributes": {
+                    "transform": "translate(14.66 44.42)"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "26",
+                "cy": "94.54",
+                "rx": "5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "26",
+                "cy": "97.04",
+                "rx": "5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "66",
+                "cy": "94.54",
+                "rx": "5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "66",
+                "cy": "97.04",
+                "rx": "5",
+                "ry": "3.5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodyTall-d)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M40.5 67.04a4.5 4.5 0 0 0-9 0v31a4.5 4.5 0 0 0 9 0z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M40.5 69.54a4.5 4.5 0 0 0-9 0v28.5a4.5 4.5 0 0 0 9 0z",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#bodyTall-e)"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "d": "M60.5 67.04a4.5 4.5 0 0 0-9 0v31a4.5 4.5 0 0 0 9 0z",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M60.5 69.54a4.5 4.5 0 0 0-9 0v28.5a4.5 4.5 0 0 0 9 0z",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "36",
+                "cy": "92.54",
+                "rx": "6.5",
+                "ry": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "36",
+                "cy": "95.04",
+                "rx": "6.5",
+                "ry": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M33.4 92.04v4m2.6-5v5m2.6-4v4",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "1.6",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".2"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "56",
+                "cy": "92.54",
+                "rx": "6.5",
+                "ry": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "56",
+                "cy": "95.04",
+                "rx": "6.5",
+                "ry": "4.5",
+                "fill": {
+                  "type": "color",
+                  "name": "fur"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M53.4 92.04v4m2.6-5v5m2.6-4v4",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": "1.6",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".2"
+              }
+            },
+            {
+              "name": "head",
+              "type": "component",
+              "attributes": {
+                "transform": "matrix(.74 0 0 .74 15.66 2.83)"
+              }
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodyTall-a",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M27 98.04v-5c0-7 1-13 2-23 1-6 3-10 6-13v-19h28v19c3 3 5 7 6 13 1 10 2 16 2 23v5z",
+                        "fill": "#ffffff"
+                      }
+                    },
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M21 98.04v-5c0-7 1-13 2-23 1-6 3-10 6-13v-19h28v19c3 3 5 7 6 13 1 10 2 16 2 23v5z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodyTall-b",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-5c0-7 1-13 2-23 1-6 3-10 6-13v-19h28v19c3 3 5 7 6 13 1 10 2 16 2 23v5z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodyTall-c",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-5c0-7 1-13 2-23 1-6 3-10 6-13v-19h28v19c3 3 5 7 6 13 1 10 2 16 2 23v5z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodyTall-d",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-5c0-7 1-13 2-23 1-6 3-10 6-13v-19h28v19c3 3 5 7 6 13 1 10 2 16 2 23v5z",
+                        "fill": "#ffffff"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "mask",
+                  "type": "element",
+                  "attributes": {
+                    "id": "bodyTall-e",
+                    "style": "mask-type:alpha"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M24 98.04v-5c0-7 1-13 2-23 1-6 3-10 6-13v-19h28v19c3 3 5 7 6 13 1 10 2 16 2 23v5z",
                         "fill": "#ffffff"
                       }
                     }
@@ -406,7 +1329,7 @@
     "cheeks": {
       "width": 51,
       "height": 9,
-      "probability": 50,
+      "probability": 25,
       "variants": {
         "blush": {
           "elements": [
@@ -440,9 +1363,32 @@
         }
       }
     },
+    "chest": {
+      "width": 13,
+      "height": 22,
+      "probability": 40,
+      "variants": {
+        "patch": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "6.5",
+                "cy": "11",
+                "rx": "6.5",
+                "ry": "11",
+                "fill": "#ffffff",
+                "opacity": ".45"
+              }
+            }
+          ]
+        }
+      }
+    },
     "collar": {
-      "width": 46.44,
-      "height": 19.36,
+      "width": 62.68,
+      "height": 28.62,
       "probability": 60,
       "variants": {
         "bandana": {
@@ -451,7 +1397,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1.22 1.26c2.8 2.73 6.21 4.9 10 6.39a33 33 0 0 0 12 2.25c4.13 0 8.22-.76 12-2.25a30 30 0 0 0 10-6.39",
+                "d": "M1.34 1.12a39.14 39.14 0 0 0 60 0",
                 "stroke": {
                   "type": "color",
                   "name": "collar"
@@ -464,7 +1410,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M8.22 1.86h30l-15 16z",
+                "d": "M16.34 11.12h30l-15 16z",
                 "fill": {
                   "type": "color",
                   "name": "collar"
@@ -485,7 +1431,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1.22 1.26c2.8 2.73 6.21 4.9 10 6.39a33 33 0 0 0 12 2.25c4.13 0 8.22-.76 12-2.25a30 30 0 0 0 10-6.39",
+                "d": "M1.34 1.12a39.14 39.14 0 0 0 60 0",
                 "stroke": {
                   "type": "color",
                   "name": "collar"
@@ -498,7 +1444,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M20.62 11.46h5.2",
+                "d": "M28.74 16.72h5.2",
                 "stroke": "#e4ddcf",
                 "stroke-width": "2.4",
                 "stroke-linecap": "round",
@@ -509,8 +1455,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "20.42",
-                "cy": "10.46",
+                "cx": "28.54",
+                "cy": "15.72",
                 "r": "1.4",
                 "fill": "#e4ddcf"
               }
@@ -519,8 +1465,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "20.42",
-                "cy": "12.46",
+                "cx": "28.54",
+                "cy": "17.72",
                 "r": "1.4",
                 "fill": "#e4ddcf"
               }
@@ -529,8 +1475,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "26.02",
-                "cy": "10.46",
+                "cx": "34.14",
+                "cy": "15.72",
                 "r": "1.4",
                 "fill": "#e4ddcf"
               }
@@ -539,8 +1485,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "26.02",
-                "cy": "12.46",
+                "cx": "34.14",
+                "cy": "17.72",
                 "r": "1.4",
                 "fill": "#e4ddcf"
               }
@@ -553,7 +1499,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1.22 1.26c2.8 2.73 6.21 4.9 10 6.39a33 33 0 0 0 12 2.25c4.13 0 8.22-.76 12-2.25a30 30 0 0 0 10-6.39",
+                "d": "M1.34 1.12a39.14 39.14 0 0 0 60 0",
                 "stroke": {
                   "type": "color",
                   "name": "collar"
@@ -570,7 +1516,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1.22 1.26c2.8 2.73 6.21 4.9 10 6.39a33 33 0 0 0 12 2.25c4.13 0 8.22-.76 12-2.25a30 30 0 0 0 10-6.39",
+                "d": "M1.34 1.12a39.14 39.14 0 0 0 60 0",
                 "stroke": {
                   "type": "color",
                   "name": "collar"
@@ -583,8 +1529,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "23.22",
-                "cy": "11.36",
+                "cx": "31.34",
+                "cy": "16.62",
                 "r": "2.8",
                 "fill": "#deba50"
               }
@@ -593,8 +1539,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "23.22",
-                "cy": "11.36",
+                "cx": "31.34",
+                "cy": "16.62",
                 "r": "1.1",
                 "fill": {
                   "type": "color",
@@ -1295,7 +2241,7 @@
     },
     "head": {
       "width": 82,
-      "height": 80.98,
+      "height": 76.38,
       "rotate": {
         "min": -5,
         "max": 5
@@ -2643,15 +3589,15 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -0.1397
+                          "value": -0.151
                         },
                         {
                           "at": 50,
-                          "value": 0.1397
+                          "value": 0.151
                         },
                         {
                           "at": 100,
-                          "value": -0.1397
+                          "value": -0.151
                         }
                       ]
                     },
@@ -2681,7 +3627,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M11 43.18c0-3.95 1.04-7.85 3.04-11.4 1.57-2.79.94-4.08-.09-7.11L9.53 11.6Q6 1.18 14.97 7.55l11.69 8.3c2.61 1.86 3.95 2.78 7.08 2.1a34.5 34.5 0 0 1 14.52 0c3.13.68 4.47-.24 7.08-2.1l11.69-8.3q8.98-6.37 5.44 4.05l-4.42 13.07c-1.03 3.03-1.66 4.32-.09 7.11A23 23 0 0 1 71 43.06c.02 3.92-.98 7.78-2.92 11.31a27 27 0 0 1-8.3 9.09 32 32 0 0 1-12.03 5.06c-4.4.88-8.97.89-13.37.02a32 32 0 0 1-12.06-5 27 27 0 0 1-8.34-9.06A23 23 0 0 1 11 43.18",
+                    "d": "M12 43.18c0-3.15.6-6.27 1.75-9.23 1.16-2.98 1.3-4.4 1.5-7.6l1.38-22.18q.37-6 3.46-.85l6.54 10.91c1.65 2.74 2.35 4.2 5.41 3.27a31 31 0 0 1 17.92 0c3.06.93 3.76-.53 5.41-3.27l6.54-10.91q3.09-5.14 3.46.85l1.38 22.18c.2 3.2.34 4.62 1.5 7.6a25.3 25.3 0 0 1-2.14 22.74 28 28 0 0 1-8.48 8.61 30 30 0 0 1-11.6 4.48c-4.17.68-8.45.5-12.54-.51a30 30 0 0 1-11.13-5.4 27 27 0 0 1-7.65-9.28A25.5 25.5 0 0 1 12 43.18",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -2692,7 +3638,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "m16.59 22.27-4.3-12.7 11.13 7.91zm48.82 0 4.3-12.7-11.13 7.91z",
+                    "d": "m17.93 22.91.93-14.92 5.49 9.15zm46.14 0-.93-14.92-5.49 9.15z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -2721,12 +3667,13 @@
                       }
                     },
                     {
-                      "name": "circle",
+                      "name": "ellipse",
                       "type": "element",
                       "attributes": {
                         "cx": "41",
-                        "cy": "57.18",
-                        "r": "13",
+                        "cy": "56.2",
+                        "rx": "12",
+                        "ry": "14",
                         "fill": {
                           "type": "color",
                           "name": "fur"
@@ -2734,12 +3681,13 @@
                       }
                     },
                     {
-                      "name": "circle",
+                      "name": "ellipse",
                       "type": "element",
                       "attributes": {
                         "cx": "41",
-                        "cy": "57.18",
-                        "r": "13",
+                        "cy": "56.2",
+                        "rx": "12",
+                        "ry": "14",
                         "fill": "#ffffff",
                         "opacity": ".3"
                       }
@@ -2762,7 +3710,7 @@
                       "name": "mouth",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(27 51.68)"
+                        "transform": "translate(27 52.08)"
                       }
                     },
                     {
@@ -2771,8 +3719,8 @@
                       "attributes": {
                         "cx": "41",
                         "cy": "48.7",
-                        "rx": "5.5",
-                        "ry": "4",
+                        "rx": "6",
+                        "ry": "4.4",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -2783,9 +3731,9 @@
                       "name": "circle",
                       "type": "element",
                       "attributes": {
-                        "cx": "39.08",
-                        "cy": "47.28",
-                        "r": "1.21",
+                        "cx": "38.9",
+                        "cy": "47.14",
+                        "r": "1.32",
                         "fill": "#ffffff",
                         "opacity": ".5"
                       }
@@ -2812,8 +3760,8 @@
                       "attributes": {
                         "cx": "41",
                         "cy": "43.2",
-                        "rx": "30",
-                        "ry": "26",
+                        "rx": "29",
+                        "ry": "27",
                         "fill": "#ffffff"
                       }
                     }
@@ -3284,15 +4232,15 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -0.1605
+                          "value": -0.1567
                         },
                         {
                           "at": 50,
-                          "value": 0.1605
+                          "value": 0.1567
                         },
                         {
                           "at": 100,
-                          "value": -0.1605
+                          "value": -0.1567
                         }
                       ]
                     },
@@ -3322,9 +4270,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "71.64",
-                    "cy": "38.19",
-                    "r": "8",
+                    "cx": "13.62",
+                    "cy": "37.66",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3335,9 +4283,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "65.78",
-                    "cy": "26.56",
-                    "r": "8",
+                    "cx": "12.81",
+                    "cy": "46.81",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3348,9 +4296,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "55.01",
-                    "cy": "18.42",
-                    "r": "8",
+                    "cx": "15.74",
+                    "cy": "55.62",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3361,9 +4309,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "41.47",
-                    "cy": "15.38",
-                    "r": "8",
+                    "cx": "22.03",
+                    "cy": "62.91",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3374,9 +4322,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "27.83",
-                    "cy": "18.05",
-                    "r": "8",
+                    "cx": "30.84",
+                    "cy": "67.71",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3387,9 +4335,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "16.81",
-                    "cy": "25.89",
-                    "r": "8",
+                    "cx": "41",
+                    "cy": "69.38",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3400,9 +4348,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "10.57",
-                    "cy": "37.35",
-                    "r": "8",
+                    "cx": "51.16",
+                    "cy": "67.71",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3413,9 +4361,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "10.36",
-                    "cy": "50.17",
-                    "r": "8",
+                    "cx": "59.97",
+                    "cy": "62.91",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3426,9 +4374,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "16.2",
-                    "cy": "61.8",
-                    "r": "8",
+                    "cx": "66.26",
+                    "cy": "55.62",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3439,9 +4387,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "26.99",
-                    "cy": "69.94",
-                    "r": "8",
+                    "cx": "69.19",
+                    "cy": "46.81",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3452,9 +4400,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "40.53",
-                    "cy": "72.98",
-                    "r": "8",
+                    "cx": "68.38",
+                    "cy": "37.66",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3465,9 +4413,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "54.17",
-                    "cy": "70.31",
-                    "r": "8",
+                    "cx": "48.34",
+                    "cy": "19.84",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3478,9 +4426,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "65.19",
-                    "cy": "62.47",
-                    "r": "8",
+                    "cx": "41",
+                    "cy": "18.98",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3491,9 +4439,9 @@
                   "name": "circle",
                   "type": "element",
                   "attributes": {
-                    "cx": "71.43",
-                    "cy": "51.01",
-                    "r": "8",
+                    "cx": "33.66",
+                    "cy": "19.84",
+                    "r": "7",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3504,7 +4452,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M14 44.18c0-3.93 1.08-7.8 3.16-11.27 1.64-2.74 1.19-3.93.73-7.1l-2.16-14.68q-.74-4.95 2.82-1.43l8.78 8.71c2.28 2.25 3.13 3.49 6.23 2.7a30 30 0 0 1 14.88 0c3.1.79 3.95-.45 6.23-2.7l8.78-8.71q3.55-3.52 2.82 1.43l-2.16 14.68c-.46 3.17-.91 4.36.73 7.1a21.7 21.7 0 0 1 .83 21.03 24.5 24.5 0 0 1-7.31 8.62 28 28 0 0 1-10.83 4.9 30 30 0 0 1-12.14.2 29 29 0 0 1-11.01-4.57 25 25 0 0 1-7.65-8.39A22 22 0 0 1 14 44.18",
+                    "d": "M14 44.18c0-3.36.8-6.69 2.33-9.76 1.44-2.86 1.31-4.04 1.35-7.24l.26-20q.06-5 2.28-.52l5.88 11.85c1.42 2.87 1.77 4.5 4.79 3.42a30 30 0 0 1 20.22 0c3.02 1.08 3.37-.55 4.79-3.42l5.88-11.85q2.22-4.48 2.28.52l.26 20c.04 3.2-.09 4.38 1.35 7.24a22 22 0 0 1 2.32 10.39 22 22 0 0 1-2.94 10.26 25 25 0 0 1-7.62 8.15 29 29 0 0 1-10.82 4.43c-3.93.74-8 .7-11.91-.14A28.5 28.5 0 0 1 24 62.83a25 25 0 0 1-7.38-8.32A22 22 0 0 1 14 44.18",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -3515,7 +4463,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "m20.2 24.63-1.62-11.06 7.14 7.09zm41.6 0 1.62-11.06-7.14 7.09z",
+                    "d": "m19.65 25 .17-13.5 4.65 9.36zm42.7 0-.17-13.5-4.65 9.36z",
                     "fill": {
                       "type": "color",
                       "name": "ink"
@@ -4288,7 +5236,7 @@
       }
     },
     "tail": {
-      "width": 90.5,
+      "width": 89.42,
       "height": 49,
       "variants": {
         "curlLeft": {
@@ -4305,71 +5253,71 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": 3.809
+                          "value": 3.864
                         },
                         {
                           "at": 6.25,
-                          "value": 3.539
+                          "value": 3.5869
                         },
                         {
                           "at": 12.5,
-                          "value": 2.6994
+                          "value": 2.728
                         },
                         {
                           "at": 18.75,
-                          "value": 1.3403
+                          "value": 1.3477
                         },
                         {
                           "at": 25,
-                          "value": -0.2959
+                          "value": -0.2955
                         },
                         {
                           "at": 31.25,
-                          "value": -1.8235
+                          "value": -1.8078
                         },
                         {
                           "at": 37.5,
-                          "value": -2.9438
+                          "value": -2.9005
                         },
                         {
                           "at": 43.75,
-                          "value": -3.5762
+                          "value": -3.5097
                         },
                         {
                           "at": 50,
-                          "value": -3.7705
+                          "value": -3.6956
                         },
                         {
                           "at": 56.25,
-                          "value": -3.5762
+                          "value": -3.5097
                         },
                         {
                           "at": 62.5,
-                          "value": -2.9438
+                          "value": -2.9005
                         },
                         {
                           "at": 68.75,
-                          "value": -1.8235
+                          "value": -1.8078
                         },
                         {
                           "at": 75,
-                          "value": -0.2959
+                          "value": -0.2955
                         },
                         {
                           "at": 81.25,
-                          "value": 1.3403
+                          "value": 1.3477
                         },
                         {
                           "at": 87.5,
-                          "value": 2.6994
+                          "value": 2.728
                         },
                         {
                           "at": 93.75,
-                          "value": 3.539
+                          "value": 3.5869
                         },
                         {
                           "at": 100,
-                          "value": 3.809
+                          "value": 3.864
                         }
                       ]
                     },
@@ -4377,63 +5325,71 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -2.1222
+                          "value": -2.6459
                         },
                         {
                           "at": 6.25,
-                          "value": -2.0046
+                          "value": -2.4935
                         },
                         {
                           "at": 12.5,
-                          "value": -1.6094
+                          "value": -1.9879
                         },
                         {
                           "at": 18.75,
-                          "value": -0.8681
+                          "value": -1.0608
                         },
                         {
                           "at": 25,
-                          "value": 0.212
+                          "value": 0.256
+                        },
+                        {
+                          "at": 31.25,
+                          "value": 1.7213
                         },
                         {
                           "at": 37.5,
-                          "value": 2.5094
+                          "value": 2.9746
                         },
                         {
                           "at": 43.75,
-                          "value": 3.1885
+                          "value": 3.7633
                         },
                         {
                           "at": 50,
-                          "value": 3.4098
+                          "value": 4.0192
                         },
                         {
                           "at": 56.25,
-                          "value": 3.1885
+                          "value": 3.7633
                         },
                         {
                           "at": 62.5,
-                          "value": 2.5094
+                          "value": 2.9746
+                        },
+                        {
+                          "at": 68.75,
+                          "value": 1.7213
                         },
                         {
                           "at": 75,
-                          "value": 0.212
+                          "value": 0.256
                         },
                         {
                           "at": 81.25,
-                          "value": -0.8681
+                          "value": -1.0608
                         },
                         {
                           "at": 87.5,
-                          "value": -1.6094
+                          "value": -1.9879
                         },
                         {
                           "at": 93.75,
-                          "value": -2.0046
+                          "value": -2.4935
                         },
                         {
                           "at": 100,
-                          "value": -2.1222
+                          "value": -2.6459
                         }
                       ]
                     },
@@ -4463,11 +5419,8 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M29.25 42.5c-24 2-30-22-18-34",
-                    "stroke": {
-                      "type": "color",
-                      "name": "fur"
-                    },
+                    "d": "M34.71 42.5c-26 2-36-22-24-34",
+                    "stroke": "currentColor",
                     "stroke-width": "10",
                     "stroke-linecap": "round",
                     "stroke-linejoin": "round"
@@ -4477,7 +5430,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M29.25 42.5c-24 2-30-22-18-34",
+                    "d": "M34.71 42.5c-26 2-36-22-24-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -4487,216 +5440,6 @@
                     "stroke-linejoin": "round",
                     "opacity": ".1"
                   }
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#tailCurlLeft-a)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M29.25 42.5c-24 2-30-22-18-34",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "10",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "opacity": ".15"
-                  },
-                  "animations": [
-                    {
-                      "name": "wag",
-                      "duration": 1.2,
-                      "tracks": {
-                        "translateX": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": 3.809
-                            },
-                            {
-                              "at": 6.25,
-                              "value": 3.539
-                            },
-                            {
-                              "at": 12.5,
-                              "value": 2.6994
-                            },
-                            {
-                              "at": 18.75,
-                              "value": 1.3403
-                            },
-                            {
-                              "at": 25,
-                              "value": -0.2959
-                            },
-                            {
-                              "at": 31.25,
-                              "value": -1.8235
-                            },
-                            {
-                              "at": 37.5,
-                              "value": -2.9438
-                            },
-                            {
-                              "at": 43.75,
-                              "value": -3.5762
-                            },
-                            {
-                              "at": 50,
-                              "value": -3.7705
-                            },
-                            {
-                              "at": 56.25,
-                              "value": -3.5762
-                            },
-                            {
-                              "at": 62.5,
-                              "value": -2.9438
-                            },
-                            {
-                              "at": 68.75,
-                              "value": -1.8235
-                            },
-                            {
-                              "at": 75,
-                              "value": -0.2959
-                            },
-                            {
-                              "at": 81.25,
-                              "value": 1.3403
-                            },
-                            {
-                              "at": 87.5,
-                              "value": 2.6994
-                            },
-                            {
-                              "at": 93.75,
-                              "value": 3.539
-                            },
-                            {
-                              "at": 100,
-                              "value": 3.809
-                            }
-                          ]
-                        },
-                        "translateY": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -2.1222
-                            },
-                            {
-                              "at": 6.25,
-                              "value": -2.0046
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -1.6094
-                            },
-                            {
-                              "at": 18.75,
-                              "value": -0.8681
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.212
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 2.5094
-                            },
-                            {
-                              "at": 43.75,
-                              "value": 3.1885
-                            },
-                            {
-                              "at": 50,
-                              "value": 3.4098
-                            },
-                            {
-                              "at": 56.25,
-                              "value": 3.1885
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 2.5094
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.212
-                            },
-                            {
-                              "at": 81.25,
-                              "value": -0.8681
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -1.6094
-                            },
-                            {
-                              "at": 93.75,
-                              "value": -2.0046
-                            },
-                            {
-                              "at": 100,
-                              "value": -2.1222
-                            }
-                          ]
-                        },
-                        "rotate": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": 12,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 50,
-                              "value": -14,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 100,
-                              "value": 12
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "tailCurlLeft-a",
-                    "style": "mask-type:alpha"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M18.25 46.5v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
                 }
               ]
             }
@@ -4716,71 +5459,71 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -3.809
+                          "value": -3.864
                         },
                         {
                           "at": 6.25,
-                          "value": -3.539
+                          "value": -3.5869
                         },
                         {
                           "at": 12.5,
-                          "value": -2.6994
+                          "value": -2.728
                         },
                         {
                           "at": 18.75,
-                          "value": -1.3403
+                          "value": -1.3477
                         },
                         {
                           "at": 25,
-                          "value": 0.2959
+                          "value": 0.2955
                         },
                         {
                           "at": 31.25,
-                          "value": 1.8235
+                          "value": 1.8078
                         },
                         {
                           "at": 37.5,
-                          "value": 2.9438
+                          "value": 2.9005
                         },
                         {
                           "at": 43.75,
-                          "value": 3.5762
+                          "value": 3.5097
                         },
                         {
                           "at": 50,
-                          "value": 3.7705
+                          "value": 3.6956
                         },
                         {
                           "at": 56.25,
-                          "value": 3.5762
+                          "value": 3.5097
                         },
                         {
                           "at": 62.5,
-                          "value": 2.9438
+                          "value": 2.9005
                         },
                         {
                           "at": 68.75,
-                          "value": 1.8235
+                          "value": 1.8078
                         },
                         {
                           "at": 75,
-                          "value": 0.2959
+                          "value": 0.2955
                         },
                         {
                           "at": 81.25,
-                          "value": -1.3403
+                          "value": -1.3477
                         },
                         {
                           "at": 87.5,
-                          "value": -2.6994
+                          "value": -2.728
                         },
                         {
                           "at": 93.75,
-                          "value": -3.539
+                          "value": -3.5869
                         },
                         {
                           "at": 100,
-                          "value": -3.809
+                          "value": -3.864
                         }
                       ]
                     },
@@ -4788,63 +5531,71 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -2.1222
+                          "value": -2.6459
                         },
                         {
                           "at": 6.25,
-                          "value": -2.0046
+                          "value": -2.4935
                         },
                         {
                           "at": 12.5,
-                          "value": -1.6094
+                          "value": -1.9879
                         },
                         {
                           "at": 18.75,
-                          "value": -0.8681
+                          "value": -1.0608
                         },
                         {
                           "at": 25,
-                          "value": 0.212
+                          "value": 0.256
+                        },
+                        {
+                          "at": 31.25,
+                          "value": 1.7213
                         },
                         {
                           "at": 37.5,
-                          "value": 2.5094
+                          "value": 2.9746
                         },
                         {
                           "at": 43.75,
-                          "value": 3.1885
+                          "value": 3.7633
                         },
                         {
                           "at": 50,
-                          "value": 3.4098
+                          "value": 4.0192
                         },
                         {
                           "at": 56.25,
-                          "value": 3.1885
+                          "value": 3.7633
                         },
                         {
                           "at": 62.5,
-                          "value": 2.5094
+                          "value": 2.9746
+                        },
+                        {
+                          "at": 68.75,
+                          "value": 1.7213
                         },
                         {
                           "at": 75,
-                          "value": 0.212
+                          "value": 0.256
                         },
                         {
                           "at": 81.25,
-                          "value": -0.8681
+                          "value": -1.0608
                         },
                         {
                           "at": 87.5,
-                          "value": -1.6094
+                          "value": -1.9879
                         },
                         {
                           "at": 93.75,
-                          "value": -2.0046
+                          "value": -2.4935
                         },
                         {
                           "at": 100,
-                          "value": -2.1222
+                          "value": -2.6459
                         }
                       ]
                     },
@@ -4874,11 +5625,8 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M61.25 42.5c24 2 30-22 18-34",
-                    "stroke": {
-                      "type": "color",
-                      "name": "fur"
-                    },
+                    "d": "M54.71 42.5c26 2 36-22 24-34",
+                    "stroke": "currentColor",
                     "stroke-width": "10",
                     "stroke-linecap": "round",
                     "stroke-linejoin": "round"
@@ -4888,7 +5636,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M61.25 42.5c24 2 30-22 18-34",
+                    "d": "M54.71 42.5c26 2 36-22 24-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -4898,216 +5646,6 @@
                     "stroke-linejoin": "round",
                     "opacity": ".1"
                   }
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#tailCurlRight-a)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M61.25 42.5c24 2 30-22 18-34",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "10",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "opacity": ".15"
-                  },
-                  "animations": [
-                    {
-                      "name": "wag",
-                      "duration": 1.2,
-                      "tracks": {
-                        "translateX": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -3.809
-                            },
-                            {
-                              "at": 6.25,
-                              "value": -3.539
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -2.6994
-                            },
-                            {
-                              "at": 18.75,
-                              "value": -1.3403
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.2959
-                            },
-                            {
-                              "at": 31.25,
-                              "value": 1.8235
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 2.9438
-                            },
-                            {
-                              "at": 43.75,
-                              "value": 3.5762
-                            },
-                            {
-                              "at": 50,
-                              "value": 3.7705
-                            },
-                            {
-                              "at": 56.25,
-                              "value": 3.5762
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 2.9438
-                            },
-                            {
-                              "at": 68.75,
-                              "value": 1.8235
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.2959
-                            },
-                            {
-                              "at": 81.25,
-                              "value": -1.3403
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -2.6994
-                            },
-                            {
-                              "at": 93.75,
-                              "value": -3.539
-                            },
-                            {
-                              "at": 100,
-                              "value": -3.809
-                            }
-                          ]
-                        },
-                        "translateY": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -2.1222
-                            },
-                            {
-                              "at": 6.25,
-                              "value": -2.0046
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -1.6094
-                            },
-                            {
-                              "at": 18.75,
-                              "value": -0.8681
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.212
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 2.5094
-                            },
-                            {
-                              "at": 43.75,
-                              "value": 3.1885
-                            },
-                            {
-                              "at": 50,
-                              "value": 3.4098
-                            },
-                            {
-                              "at": 56.25,
-                              "value": 3.1885
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 2.5094
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.212
-                            },
-                            {
-                              "at": 81.25,
-                              "value": -0.8681
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -1.6094
-                            },
-                            {
-                              "at": 93.75,
-                              "value": -2.0046
-                            },
-                            {
-                              "at": 100,
-                              "value": -2.1222
-                            }
-                          ]
-                        },
-                        "rotate": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -12,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 50,
-                              "value": 14,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 100,
-                              "value": -12
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "tailCurlRight-a",
-                    "style": "mask-type:alpha"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M24.25 46.5v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
                 }
               ]
             }
@@ -5127,71 +5665,71 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": 3.9691
+                          "value": 4.0288
                         },
                         {
                           "at": 6.25,
-                          "value": 3.6907
+                          "value": 3.7426
                         },
                         {
                           "at": 12.5,
-                          "value": 2.8224
+                          "value": 2.8534
                         },
                         {
                           "at": 18.75,
-                          "value": 1.4076
+                          "value": 1.4156
                         },
                         {
                           "at": 25,
-                          "value": -0.3126
+                          "value": -0.3121
                         },
                         {
                           "at": 31.25,
-                          "value": -1.9383
+                          "value": -1.9213
                         },
                         {
                           "at": 37.5,
-                          "value": -3.1456
+                          "value": -3.0986
                         },
                         {
                           "at": 43.75,
-                          "value": -3.8338
+                          "value": -3.7618
                         },
                         {
                           "at": 50,
-                          "value": -4.0464
+                          "value": -3.9653
                         },
                         {
                           "at": 56.25,
-                          "value": -3.8338
+                          "value": -3.7618
                         },
                         {
                           "at": 62.5,
-                          "value": -3.1456
+                          "value": -3.0986
                         },
                         {
                           "at": 68.75,
-                          "value": -1.9383
+                          "value": -1.9213
                         },
                         {
                           "at": 75,
-                          "value": -0.3126
+                          "value": -0.3121
                         },
                         {
                           "at": 81.25,
-                          "value": 1.4076
+                          "value": 1.4156
                         },
                         {
                           "at": 87.5,
-                          "value": 2.8224
+                          "value": 2.8534
                         },
                         {
                           "at": 93.75,
-                          "value": 3.6907
+                          "value": 3.7426
                         },
                         {
                           "at": 100,
-                          "value": 3.9691
+                          "value": 4.0288
                         }
                       ]
                     },
@@ -5199,63 +5737,63 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -1.7638
+                          "value": -2.3314
                         },
                         {
                           "at": 6.25,
-                          "value": -1.6714
+                          "value": -2.2012
                         },
                         {
                           "at": 12.5,
-                          "value": -1.3546
+                          "value": -1.7648
                         },
                         {
                           "at": 18.75,
-                          "value": -0.741
+                          "value": -0.9499
                         },
                         {
                           "at": 25,
-                          "value": 0.1838
+                          "value": 0.2315
                         },
                         {
                           "at": 37.5,
-                          "value": 2.2256
+                          "value": 2.7297
                         },
                         {
                           "at": 43.75,
-                          "value": 2.8425
+                          "value": 3.4655
                         },
                         {
                           "at": 50,
-                          "value": 3.0447
+                          "value": 3.7051
                         },
                         {
                           "at": 56.25,
-                          "value": 2.8425
+                          "value": 3.4655
                         },
                         {
                           "at": 62.5,
-                          "value": 2.2256
+                          "value": 2.7297
                         },
                         {
                           "at": 75,
-                          "value": 0.1838
+                          "value": 0.2315
                         },
                         {
                           "at": 81.25,
-                          "value": -0.741
+                          "value": -0.9499
                         },
                         {
                           "at": 87.5,
-                          "value": -1.3546
+                          "value": -1.7648
                         },
                         {
                           "at": 93.75,
-                          "value": -1.6714
+                          "value": -2.2012
                         },
                         {
                           "at": 100,
-                          "value": -1.7638
+                          "value": -2.3314
                         }
                       ]
                     },
@@ -5285,11 +5823,8 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M27.25 42.5c-20-2-26-22-16-36",
-                    "stroke": {
-                      "type": "color",
-                      "name": "fur"
-                    },
+                    "d": "M32.71 42.5c-24-2-32-22-22-36",
+                    "stroke": "currentColor",
                     "stroke-width": "13",
                     "stroke-linecap": "round",
                     "stroke-linejoin": "round"
@@ -5299,7 +5834,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M27.25 42.5c-20-2-26-22-16-36",
+                    "d": "M32.71 42.5c-24-2-32-22-22-36",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -5309,216 +5844,6 @@
                     "stroke-linejoin": "round",
                     "opacity": ".1"
                   }
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#tailPlumeLeft-a)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M27.25 42.5c-20-2-26-22-16-36",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "13",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "opacity": ".15"
-                  },
-                  "animations": [
-                    {
-                      "name": "wag",
-                      "duration": 1.2,
-                      "tracks": {
-                        "translateX": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": 3.9691
-                            },
-                            {
-                              "at": 6.25,
-                              "value": 3.6907
-                            },
-                            {
-                              "at": 12.5,
-                              "value": 2.8224
-                            },
-                            {
-                              "at": 18.75,
-                              "value": 1.4076
-                            },
-                            {
-                              "at": 25,
-                              "value": -0.3126
-                            },
-                            {
-                              "at": 31.25,
-                              "value": -1.9383
-                            },
-                            {
-                              "at": 37.5,
-                              "value": -3.1456
-                            },
-                            {
-                              "at": 43.75,
-                              "value": -3.8338
-                            },
-                            {
-                              "at": 50,
-                              "value": -4.0464
-                            },
-                            {
-                              "at": 56.25,
-                              "value": -3.8338
-                            },
-                            {
-                              "at": 62.5,
-                              "value": -3.1456
-                            },
-                            {
-                              "at": 68.75,
-                              "value": -1.9383
-                            },
-                            {
-                              "at": 75,
-                              "value": -0.3126
-                            },
-                            {
-                              "at": 81.25,
-                              "value": 1.4076
-                            },
-                            {
-                              "at": 87.5,
-                              "value": 2.8224
-                            },
-                            {
-                              "at": 93.75,
-                              "value": 3.6907
-                            },
-                            {
-                              "at": 100,
-                              "value": 3.9691
-                            }
-                          ]
-                        },
-                        "translateY": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -1.7638
-                            },
-                            {
-                              "at": 6.25,
-                              "value": -1.6714
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -1.3546
-                            },
-                            {
-                              "at": 18.75,
-                              "value": -0.741
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.1838
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 2.2256
-                            },
-                            {
-                              "at": 43.75,
-                              "value": 2.8425
-                            },
-                            {
-                              "at": 50,
-                              "value": 3.0447
-                            },
-                            {
-                              "at": 56.25,
-                              "value": 2.8425
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 2.2256
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.1838
-                            },
-                            {
-                              "at": 81.25,
-                              "value": -0.741
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -1.3546
-                            },
-                            {
-                              "at": 93.75,
-                              "value": -1.6714
-                            },
-                            {
-                              "at": 100,
-                              "value": -1.7638
-                            }
-                          ]
-                        },
-                        "rotate": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": 12,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 50,
-                              "value": -14,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 100,
-                              "value": 12
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "tailPlumeLeft-a",
-                    "style": "mask-type:alpha"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M18.25 46.5v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
                 }
               ]
             }
@@ -5538,71 +5863,71 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -3.9691
+                          "value": -4.0288
                         },
                         {
                           "at": 6.25,
-                          "value": -3.6907
+                          "value": -3.7426
                         },
                         {
                           "at": 12.5,
-                          "value": -2.8224
+                          "value": -2.8534
                         },
                         {
                           "at": 18.75,
-                          "value": -1.4076
+                          "value": -1.4156
                         },
                         {
                           "at": 25,
-                          "value": 0.3126
+                          "value": 0.3121
                         },
                         {
                           "at": 31.25,
-                          "value": 1.9383
+                          "value": 1.9213
                         },
                         {
                           "at": 37.5,
-                          "value": 3.1456
+                          "value": 3.0986
                         },
                         {
                           "at": 43.75,
-                          "value": 3.8338
+                          "value": 3.7618
                         },
                         {
                           "at": 50,
-                          "value": 4.0464
+                          "value": 3.9653
                         },
                         {
                           "at": 56.25,
-                          "value": 3.8338
+                          "value": 3.7618
                         },
                         {
                           "at": 62.5,
-                          "value": 3.1456
+                          "value": 3.0986
                         },
                         {
                           "at": 68.75,
-                          "value": 1.9383
+                          "value": 1.9213
                         },
                         {
                           "at": 75,
-                          "value": 0.3126
+                          "value": 0.3121
                         },
                         {
                           "at": 81.25,
-                          "value": -1.4076
+                          "value": -1.4156
                         },
                         {
                           "at": 87.5,
-                          "value": -2.8224
+                          "value": -2.8534
                         },
                         {
                           "at": 93.75,
-                          "value": -3.6907
+                          "value": -3.7426
                         },
                         {
                           "at": 100,
-                          "value": -3.9691
+                          "value": -4.0288
                         }
                       ]
                     },
@@ -5610,63 +5935,63 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -1.7638
+                          "value": -2.3314
                         },
                         {
                           "at": 6.25,
-                          "value": -1.6714
+                          "value": -2.2012
                         },
                         {
                           "at": 12.5,
-                          "value": -1.3546
+                          "value": -1.7648
                         },
                         {
                           "at": 18.75,
-                          "value": -0.741
+                          "value": -0.9499
                         },
                         {
                           "at": 25,
-                          "value": 0.1838
+                          "value": 0.2315
                         },
                         {
                           "at": 37.5,
-                          "value": 2.2256
+                          "value": 2.7297
                         },
                         {
                           "at": 43.75,
-                          "value": 2.8425
+                          "value": 3.4655
                         },
                         {
                           "at": 50,
-                          "value": 3.0447
+                          "value": 3.7051
                         },
                         {
                           "at": 56.25,
-                          "value": 2.8425
+                          "value": 3.4655
                         },
                         {
                           "at": 62.5,
-                          "value": 2.2256
+                          "value": 2.7297
                         },
                         {
                           "at": 75,
-                          "value": 0.1838
+                          "value": 0.2315
                         },
                         {
                           "at": 81.25,
-                          "value": -0.741
+                          "value": -0.9499
                         },
                         {
                           "at": 87.5,
-                          "value": -1.3546
+                          "value": -1.7648
                         },
                         {
                           "at": 93.75,
-                          "value": -1.6714
+                          "value": -2.2012
                         },
                         {
                           "at": 100,
-                          "value": -1.7638
+                          "value": -2.3314
                         }
                       ]
                     },
@@ -5696,11 +6021,8 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M63.25 42.5c20-2 26-22 16-36",
-                    "stroke": {
-                      "type": "color",
-                      "name": "fur"
-                    },
+                    "d": "M56.71 42.5c24-2 32-22 22-36",
+                    "stroke": "currentColor",
                     "stroke-width": "13",
                     "stroke-linecap": "round",
                     "stroke-linejoin": "round"
@@ -5710,7 +6032,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M63.25 42.5c20-2 26-22 16-36",
+                    "d": "M56.71 42.5c24-2 32-22 22-36",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -5720,216 +6042,6 @@
                     "stroke-linejoin": "round",
                     "opacity": ".1"
                   }
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#tailPlumeRight-a)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M63.25 42.5c20-2 26-22 16-36",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "13",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "opacity": ".15"
-                  },
-                  "animations": [
-                    {
-                      "name": "wag",
-                      "duration": 1.2,
-                      "tracks": {
-                        "translateX": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -3.9691
-                            },
-                            {
-                              "at": 6.25,
-                              "value": -3.6907
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -2.8224
-                            },
-                            {
-                              "at": 18.75,
-                              "value": -1.4076
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.3126
-                            },
-                            {
-                              "at": 31.25,
-                              "value": 1.9383
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 3.1456
-                            },
-                            {
-                              "at": 43.75,
-                              "value": 3.8338
-                            },
-                            {
-                              "at": 50,
-                              "value": 4.0464
-                            },
-                            {
-                              "at": 56.25,
-                              "value": 3.8338
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 3.1456
-                            },
-                            {
-                              "at": 68.75,
-                              "value": 1.9383
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.3126
-                            },
-                            {
-                              "at": 81.25,
-                              "value": -1.4076
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -2.8224
-                            },
-                            {
-                              "at": 93.75,
-                              "value": -3.6907
-                            },
-                            {
-                              "at": 100,
-                              "value": -3.9691
-                            }
-                          ]
-                        },
-                        "translateY": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -1.7638
-                            },
-                            {
-                              "at": 6.25,
-                              "value": -1.6714
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -1.3546
-                            },
-                            {
-                              "at": 18.75,
-                              "value": -0.741
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.1838
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 2.2256
-                            },
-                            {
-                              "at": 43.75,
-                              "value": 2.8425
-                            },
-                            {
-                              "at": 50,
-                              "value": 3.0447
-                            },
-                            {
-                              "at": 56.25,
-                              "value": 2.8425
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 2.2256
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.1838
-                            },
-                            {
-                              "at": 81.25,
-                              "value": -0.741
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -1.3546
-                            },
-                            {
-                              "at": 93.75,
-                              "value": -1.6714
-                            },
-                            {
-                              "at": 100,
-                              "value": -1.7638
-                            }
-                          ]
-                        },
-                        "rotate": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -12,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 50,
-                              "value": 14,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 100,
-                              "value": -12
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "tailPlumeRight-a",
-                    "style": "mask-type:alpha"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M24.25 46.5v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
                 }
               ]
             }
@@ -5949,39 +6061,39 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": 0.93
+                          "value": 0.9518
                         },
                         {
                           "at": 12.5,
-                          "value": 0.6521
+                          "value": 0.6635
                         },
                         {
                           "at": 25,
-                          "value": -0.0691
+                          "value": -0.069
                         },
                         {
                           "at": 37.5,
-                          "value": -0.6613
+                          "value": -0.6441
                         },
                         {
                           "at": 50,
-                          "value": -0.834
+                          "value": -0.8043
                         },
                         {
                           "at": 62.5,
-                          "value": -0.6613
+                          "value": -0.6441
                         },
                         {
                           "at": 75,
-                          "value": -0.0691
+                          "value": -0.069
                         },
                         {
                           "at": 87.5,
-                          "value": 0.6521
+                          "value": 0.6635
                         },
                         {
                           "at": 100,
-                          "value": 0.93
+                          "value": 0.9518
                         }
                       ]
                     },
@@ -5989,39 +6101,39 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -0.8482
+                          "value": -1.0561
                         },
                         {
                           "at": 12.5,
-                          "value": -0.6307
+                          "value": -0.781
                         },
                         {
                           "at": 25,
-                          "value": 0.0791
+                          "value": 0.0966
                         },
                         {
                           "at": 37.5,
-                          "value": 0.8998
+                          "value": 1.0845
                         },
                         {
                           "at": 50,
-                          "value": 1.2075
+                          "value": 1.4494
                         },
                         {
                           "at": 62.5,
-                          "value": 0.8998
+                          "value": 1.0845
                         },
                         {
                           "at": 75,
-                          "value": 0.0791
+                          "value": 0.0966
                         },
                         {
                           "at": 87.5,
-                          "value": -0.6307
+                          "value": -0.781
                         },
                         {
                           "at": 100,
-                          "value": -0.8482
+                          "value": -1.0561
                         }
                       ]
                     },
@@ -6051,11 +6163,8 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "m25.25 38.5-9-8",
-                    "stroke": {
-                      "type": "color",
-                      "name": "fur"
-                    },
+                    "d": "m30.71 38.5-11-8",
+                    "stroke": "currentColor",
                     "stroke-width": "8",
                     "stroke-linecap": "round",
                     "stroke-linejoin": "round"
@@ -6065,7 +6174,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "m25.25 38.5-9-8",
+                    "d": "m30.71 38.5-11-8",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -6075,160 +6184,6 @@
                     "stroke-linejoin": "round",
                     "opacity": ".1"
                   }
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#tailStubLeft-a)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "m25.25 38.5-9-8",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "8",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "opacity": ".15"
-                  },
-                  "animations": [
-                    {
-                      "name": "wag",
-                      "duration": 1.2,
-                      "tracks": {
-                        "translateX": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": 0.93
-                            },
-                            {
-                              "at": 12.5,
-                              "value": 0.6521
-                            },
-                            {
-                              "at": 25,
-                              "value": -0.0691
-                            },
-                            {
-                              "at": 37.5,
-                              "value": -0.6613
-                            },
-                            {
-                              "at": 50,
-                              "value": -0.834
-                            },
-                            {
-                              "at": 62.5,
-                              "value": -0.6613
-                            },
-                            {
-                              "at": 75,
-                              "value": -0.0691
-                            },
-                            {
-                              "at": 87.5,
-                              "value": 0.6521
-                            },
-                            {
-                              "at": 100,
-                              "value": 0.93
-                            }
-                          ]
-                        },
-                        "translateY": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -0.8482
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -0.6307
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.0791
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 0.8998
-                            },
-                            {
-                              "at": 50,
-                              "value": 1.2075
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 0.8998
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.0791
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -0.6307
-                            },
-                            {
-                              "at": 100,
-                              "value": -0.8482
-                            }
-                          ]
-                        },
-                        "rotate": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": 12,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 50,
-                              "value": -14,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 100,
-                              "value": 12
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "tailStubLeft-a",
-                    "style": "mask-type:alpha"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M18.25 46.5v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
                 }
               ]
             }
@@ -6248,39 +6203,39 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -0.93
+                          "value": -0.9518
                         },
                         {
                           "at": 12.5,
-                          "value": -0.6521
+                          "value": -0.6635
                         },
                         {
                           "at": 25,
-                          "value": 0.0691
+                          "value": 0.069
                         },
                         {
                           "at": 37.5,
-                          "value": 0.6613
+                          "value": 0.6441
                         },
                         {
                           "at": 50,
-                          "value": 0.834
+                          "value": 0.8043
                         },
                         {
                           "at": 62.5,
-                          "value": 0.6613
+                          "value": 0.6441
                         },
                         {
                           "at": 75,
-                          "value": 0.0691
+                          "value": 0.069
                         },
                         {
                           "at": 87.5,
-                          "value": -0.6521
+                          "value": -0.6635
                         },
                         {
                           "at": 100,
-                          "value": -0.93
+                          "value": -0.9518
                         }
                       ]
                     },
@@ -6288,39 +6243,39 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -0.8482
+                          "value": -1.0561
                         },
                         {
                           "at": 12.5,
-                          "value": -0.6307
+                          "value": -0.781
                         },
                         {
                           "at": 25,
-                          "value": 0.0791
+                          "value": 0.0966
                         },
                         {
                           "at": 37.5,
-                          "value": 0.8998
+                          "value": 1.0845
                         },
                         {
                           "at": 50,
-                          "value": 1.2075
+                          "value": 1.4494
                         },
                         {
                           "at": 62.5,
-                          "value": 0.8998
+                          "value": 1.0845
                         },
                         {
                           "at": 75,
-                          "value": 0.0791
+                          "value": 0.0966
                         },
                         {
                           "at": 87.5,
-                          "value": -0.6307
+                          "value": -0.781
                         },
                         {
                           "at": 100,
-                          "value": -0.8482
+                          "value": -1.0561
                         }
                       ]
                     },
@@ -6350,11 +6305,8 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "m65.25 38.5 9-8",
-                    "stroke": {
-                      "type": "color",
-                      "name": "fur"
-                    },
+                    "d": "m58.71 38.5 11-8",
+                    "stroke": "currentColor",
                     "stroke-width": "8",
                     "stroke-linecap": "round",
                     "stroke-linejoin": "round"
@@ -6364,7 +6316,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "m65.25 38.5 9-8",
+                    "d": "m58.71 38.5 11-8",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -6374,160 +6326,6 @@
                     "stroke-linejoin": "round",
                     "opacity": ".1"
                   }
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#tailStubRight-a)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "m65.25 38.5 9-8",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "8",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "opacity": ".15"
-                  },
-                  "animations": [
-                    {
-                      "name": "wag",
-                      "duration": 1.2,
-                      "tracks": {
-                        "translateX": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -0.93
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -0.6521
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.0691
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 0.6613
-                            },
-                            {
-                              "at": 50,
-                              "value": 0.834
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 0.6613
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.0691
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -0.6521
-                            },
-                            {
-                              "at": 100,
-                              "value": -0.93
-                            }
-                          ]
-                        },
-                        "translateY": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -0.8482
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -0.6307
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.0791
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 0.8998
-                            },
-                            {
-                              "at": 50,
-                              "value": 1.2075
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 0.8998
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.0791
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -0.6307
-                            },
-                            {
-                              "at": 100,
-                              "value": -0.8482
-                            }
-                          ]
-                        },
-                        "rotate": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -12,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 50,
-                              "value": 14,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 100,
-                              "value": -12
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "tailStubRight-a",
-                    "style": "mask-type:alpha"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M24.25 46.5v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
                 }
               ]
             }
@@ -6547,71 +6345,71 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": 3.6656
+                          "value": 3.7312
                         },
                         {
                           "at": 6.25,
-                          "value": 3.4135
+                          "value": 3.4705
                         },
                         {
                           "at": 12.5,
-                          "value": 2.6225
+                          "value": 2.6565
                         },
                         {
                           "at": 18.75,
-                          "value": 1.3182
+                          "value": 1.327
                         },
                         {
                           "at": 25,
-                          "value": -0.2958
+                          "value": -0.2953
                         },
                         {
                           "at": 31.25,
-                          "value": -1.8542
+                          "value": -1.8355
                         },
                         {
                           "at": 37.5,
-                          "value": -3.0362
+                          "value": -2.9846
                         },
                         {
                           "at": 43.75,
-                          "value": -3.7211
+                          "value": -3.6419
                         },
                         {
                           "at": 50,
-                          "value": -3.9344
+                          "value": -3.8453
                         },
                         {
                           "at": 56.25,
-                          "value": -3.7211
+                          "value": -3.6419
                         },
                         {
                           "at": 62.5,
-                          "value": -3.0362
+                          "value": -2.9846
                         },
                         {
                           "at": 68.75,
-                          "value": -1.8542
+                          "value": -1.8355
                         },
                         {
                           "at": 75,
-                          "value": -0.2958
+                          "value": -0.2953
                         },
                         {
                           "at": 81.25,
-                          "value": 1.3182
+                          "value": 1.327
                         },
                         {
                           "at": 87.5,
-                          "value": 2.6225
+                          "value": 2.6565
                         },
                         {
                           "at": 93.75,
-                          "value": 3.4135
+                          "value": 3.4705
                         },
                         {
                           "at": 100,
-                          "value": 3.6656
+                          "value": 3.7312
                         }
                       ]
                     },
@@ -6619,55 +6417,55 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -0.876
+                          "value": -1.4997
                         },
                         {
                           "at": 12.5,
-                          "value": -0.7085
+                          "value": -1.1593
                         },
                         {
                           "at": 18.75,
-                          "value": -0.4092
+                          "value": -0.6388
                         },
                         {
                           "at": 25,
-                          "value": 0.1073
+                          "value": 0.1597
                         },
                         {
                           "at": 37.5,
-                          "value": 1.4004
+                          "value": 1.9544
                         },
                         {
                           "at": 43.75,
-                          "value": 1.8177
+                          "value": 2.5023
                         },
                         {
                           "at": 50,
-                          "value": 1.9565
+                          "value": 2.6823
                         },
                         {
                           "at": 56.25,
-                          "value": 1.8177
+                          "value": 2.5023
                         },
                         {
                           "at": 62.5,
-                          "value": 1.4004
+                          "value": 1.9544
                         },
                         {
                           "at": 75,
-                          "value": 0.1073
+                          "value": 0.1597
                         },
                         {
                           "at": 81.25,
-                          "value": -0.4092
+                          "value": -0.6388
                         },
                         {
                           "at": 87.5,
-                          "value": -0.7085
+                          "value": -1.1593
                         },
                         {
                           "at": 100,
-                          "value": -0.876
+                          "value": -1.4997
                         }
                       ]
                     },
@@ -6697,11 +6495,8 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M25.25 40.5q-12-12-12-34",
-                    "stroke": {
-                      "type": "color",
-                      "name": "fur"
-                    },
+                    "d": "M30.71 40.5q-16-12-18-34",
+                    "stroke": "currentColor",
                     "stroke-width": "8",
                     "stroke-linecap": "round",
                     "stroke-linejoin": "round"
@@ -6711,7 +6506,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M25.25 40.5q-12-12-12-34",
+                    "d": "M30.71 40.5q-16-12-18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -6721,208 +6516,6 @@
                     "stroke-linejoin": "round",
                     "opacity": ".1"
                   }
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#tailUpLeft-a)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M25.25 40.5q-12-12-12-34",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "8",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "opacity": ".15"
-                  },
-                  "animations": [
-                    {
-                      "name": "wag",
-                      "duration": 1.2,
-                      "tracks": {
-                        "translateX": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": 3.6656
-                            },
-                            {
-                              "at": 6.25,
-                              "value": 3.4135
-                            },
-                            {
-                              "at": 12.5,
-                              "value": 2.6225
-                            },
-                            {
-                              "at": 18.75,
-                              "value": 1.3182
-                            },
-                            {
-                              "at": 25,
-                              "value": -0.2958
-                            },
-                            {
-                              "at": 31.25,
-                              "value": -1.8542
-                            },
-                            {
-                              "at": 37.5,
-                              "value": -3.0362
-                            },
-                            {
-                              "at": 43.75,
-                              "value": -3.7211
-                            },
-                            {
-                              "at": 50,
-                              "value": -3.9344
-                            },
-                            {
-                              "at": 56.25,
-                              "value": -3.7211
-                            },
-                            {
-                              "at": 62.5,
-                              "value": -3.0362
-                            },
-                            {
-                              "at": 68.75,
-                              "value": -1.8542
-                            },
-                            {
-                              "at": 75,
-                              "value": -0.2958
-                            },
-                            {
-                              "at": 81.25,
-                              "value": 1.3182
-                            },
-                            {
-                              "at": 87.5,
-                              "value": 2.6225
-                            },
-                            {
-                              "at": 93.75,
-                              "value": 3.4135
-                            },
-                            {
-                              "at": 100,
-                              "value": 3.6656
-                            }
-                          ]
-                        },
-                        "translateY": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -0.876
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -0.7085
-                            },
-                            {
-                              "at": 18.75,
-                              "value": -0.4092
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.1073
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 1.4004
-                            },
-                            {
-                              "at": 43.75,
-                              "value": 1.8177
-                            },
-                            {
-                              "at": 50,
-                              "value": 1.9565
-                            },
-                            {
-                              "at": 56.25,
-                              "value": 1.8177
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 1.4004
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.1073
-                            },
-                            {
-                              "at": 81.25,
-                              "value": -0.4092
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -0.7085
-                            },
-                            {
-                              "at": 100,
-                              "value": -0.876
-                            }
-                          ]
-                        },
-                        "rotate": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": 12,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 50,
-                              "value": -14,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 100,
-                              "value": 12
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "tailUpLeft-a",
-                    "style": "mask-type:alpha"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M18.25 46.5v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
                 }
               ]
             }
@@ -6942,71 +6535,71 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -3.6656
+                          "value": -3.7312
                         },
                         {
                           "at": 6.25,
-                          "value": -3.4135
+                          "value": -3.4705
                         },
                         {
                           "at": 12.5,
-                          "value": -2.6225
+                          "value": -2.6565
                         },
                         {
                           "at": 18.75,
-                          "value": -1.3182
+                          "value": -1.327
                         },
                         {
                           "at": 25,
-                          "value": 0.2958
+                          "value": 0.2953
                         },
                         {
                           "at": 31.25,
-                          "value": 1.8542
+                          "value": 1.8355
                         },
                         {
                           "at": 37.5,
-                          "value": 3.0362
+                          "value": 2.9846
                         },
                         {
                           "at": 43.75,
-                          "value": 3.7211
+                          "value": 3.6419
                         },
                         {
                           "at": 50,
-                          "value": 3.9344
+                          "value": 3.8453
                         },
                         {
                           "at": 56.25,
-                          "value": 3.7211
+                          "value": 3.6419
                         },
                         {
                           "at": 62.5,
-                          "value": 3.0362
+                          "value": 2.9846
                         },
                         {
                           "at": 68.75,
-                          "value": 1.8542
+                          "value": 1.8355
                         },
                         {
                           "at": 75,
-                          "value": 0.2958
+                          "value": 0.2953
                         },
                         {
                           "at": 81.25,
-                          "value": -1.3182
+                          "value": -1.327
                         },
                         {
                           "at": 87.5,
-                          "value": -2.6225
+                          "value": -2.6565
                         },
                         {
                           "at": 93.75,
-                          "value": -3.4135
+                          "value": -3.4705
                         },
                         {
                           "at": 100,
-                          "value": -3.6656
+                          "value": -3.7312
                         }
                       ]
                     },
@@ -7014,55 +6607,55 @@
                       "keyframes": [
                         {
                           "at": 0,
-                          "value": -0.876
+                          "value": -1.4997
                         },
                         {
                           "at": 12.5,
-                          "value": -0.7085
+                          "value": -1.1593
                         },
                         {
                           "at": 18.75,
-                          "value": -0.4092
+                          "value": -0.6388
                         },
                         {
                           "at": 25,
-                          "value": 0.1073
+                          "value": 0.1597
                         },
                         {
                           "at": 37.5,
-                          "value": 1.4004
+                          "value": 1.9544
                         },
                         {
                           "at": 43.75,
-                          "value": 1.8177
+                          "value": 2.5023
                         },
                         {
                           "at": 50,
-                          "value": 1.9565
+                          "value": 2.6823
                         },
                         {
                           "at": 56.25,
-                          "value": 1.8177
+                          "value": 2.5023
                         },
                         {
                           "at": 62.5,
-                          "value": 1.4004
+                          "value": 1.9544
                         },
                         {
                           "at": 75,
-                          "value": 0.1073
+                          "value": 0.1597
                         },
                         {
                           "at": 81.25,
-                          "value": -0.4092
+                          "value": -0.6388
                         },
                         {
                           "at": 87.5,
-                          "value": -0.7085
+                          "value": -1.1593
                         },
                         {
                           "at": 100,
-                          "value": -0.876
+                          "value": -1.4997
                         }
                       ]
                     },
@@ -7092,11 +6685,8 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M65.25 40.5q12-12 12-34",
-                    "stroke": {
-                      "type": "color",
-                      "name": "fur"
-                    },
+                    "d": "M58.71 40.5q16-12 18-34",
+                    "stroke": "currentColor",
                     "stroke-width": "8",
                     "stroke-linecap": "round",
                     "stroke-linejoin": "round"
@@ -7106,7 +6696,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M65.25 40.5q12-12 12-34",
+                    "d": "M58.71 40.5q16-12 18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -7116,208 +6706,6 @@
                     "stroke-linejoin": "round",
                     "opacity": ".1"
                   }
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#tailUpRight-a)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M65.25 40.5q12-12 12-34",
-                    "stroke": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "stroke-width": "8",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "opacity": ".15"
-                  },
-                  "animations": [
-                    {
-                      "name": "wag",
-                      "duration": 1.2,
-                      "tracks": {
-                        "translateX": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -3.6656
-                            },
-                            {
-                              "at": 6.25,
-                              "value": -3.4135
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -2.6225
-                            },
-                            {
-                              "at": 18.75,
-                              "value": -1.3182
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.2958
-                            },
-                            {
-                              "at": 31.25,
-                              "value": 1.8542
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 3.0362
-                            },
-                            {
-                              "at": 43.75,
-                              "value": 3.7211
-                            },
-                            {
-                              "at": 50,
-                              "value": 3.9344
-                            },
-                            {
-                              "at": 56.25,
-                              "value": 3.7211
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 3.0362
-                            },
-                            {
-                              "at": 68.75,
-                              "value": 1.8542
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.2958
-                            },
-                            {
-                              "at": 81.25,
-                              "value": -1.3182
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -2.6225
-                            },
-                            {
-                              "at": 93.75,
-                              "value": -3.4135
-                            },
-                            {
-                              "at": 100,
-                              "value": -3.6656
-                            }
-                          ]
-                        },
-                        "translateY": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -0.876
-                            },
-                            {
-                              "at": 12.5,
-                              "value": -0.7085
-                            },
-                            {
-                              "at": 18.75,
-                              "value": -0.4092
-                            },
-                            {
-                              "at": 25,
-                              "value": 0.1073
-                            },
-                            {
-                              "at": 37.5,
-                              "value": 1.4004
-                            },
-                            {
-                              "at": 43.75,
-                              "value": 1.8177
-                            },
-                            {
-                              "at": 50,
-                              "value": 1.9565
-                            },
-                            {
-                              "at": 56.25,
-                              "value": 1.8177
-                            },
-                            {
-                              "at": 62.5,
-                              "value": 1.4004
-                            },
-                            {
-                              "at": 75,
-                              "value": 0.1073
-                            },
-                            {
-                              "at": 81.25,
-                              "value": -0.4092
-                            },
-                            {
-                              "at": 87.5,
-                              "value": -0.7085
-                            },
-                            {
-                              "at": 100,
-                              "value": -0.876
-                            }
-                          ]
-                        },
-                        "rotate": {
-                          "keyframes": [
-                            {
-                              "at": 0,
-                              "value": -12,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 50,
-                              "value": 14,
-                              "easing": "easeInOut"
-                            },
-                            {
-                              "at": 100,
-                              "value": -12
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "tailUpRight-a",
-                    "style": "mask-type:alpha"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M24.25 46.5v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
                 }
               ]
             }

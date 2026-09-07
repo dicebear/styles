@@ -18,8 +18,9 @@ Versions track the DiceBear release line.
 - **New style: Cats.** A cat sitting in front of a muted scene that paints
   the tile. Head, ears and face are one silhouette, shadows are clipped to
   the surface they fall on, and the tail wags when animated. CC0 1.0.
-- **New style: Dogs.** The dog next to Cats, on the same body, scenes and
-  shadows. Nine head families set the breed, from beagle to pug. CC0 1.0.
+- **New style: Dogs.** The dog next to Cats, with the same scenes and
+  shadows. Nine head families and three body builds set the breed, from
+  beagle to pug and from a compact sitter to a Great Dane. CC0 1.0.
 
 ## [11.0.0-rc.2] - 2026-09-03
 
