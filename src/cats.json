@@ -26,7 +26,7 @@
         "name": "tail",
         "type": "component",
         "attributes": {
-          "transform": "translate(4 57)"
+          "transform": "translate(3.29 53.41)"
         }
       },
       {
@@ -40,14 +40,14 @@
         "name": "collar",
         "type": "component",
         "attributes": {
-          "transform": "translate(26 73)"
+          "transform": "translate(26.78 74.14)"
         }
       },
       {
         "name": "head",
         "type": "component",
         "attributes": {
-          "transform": "translate(10 1)"
+          "transform": "translate(0 -.88)"
         }
       }
     ],
@@ -61,7 +61,7 @@
   "components": {
     "body": {
       "width": 48,
-      "height": 26,
+      "height": 29,
       "variants": {
         "chest": {
           "elements": [
@@ -89,16 +89,40 @@
               }
             },
             {
-              "name": "ellipse",
+              "name": "g",
               "type": "element",
               "attributes": {
-                "cx": "24",
-                "cy": "16",
-                "rx": "12",
-                "ry": "13",
-                "fill": "#ffffff",
-                "opacity": ".6"
-              }
+                "mask": "url(#bodyChest-a)"
+              },
+              "children": [
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "24",
+                    "cy": "16",
+                    "rx": "12",
+                    "ry": "13",
+                    "fill": "#ffffff",
+                    "opacity": ".6"
+                  }
+                },
+                {
+                  "name": "ellipse",
+                  "type": "element",
+                  "attributes": {
+                    "cx": "24",
+                    "cy": "-18",
+                    "rx": "32",
+                    "ry": "28",
+                    "fill": {
+                      "type": "color",
+                      "name": "ink"
+                    },
+                    "opacity": ".15"
+                  }
+                }
+              ]
             },
             {
               "name": "ellipse",
@@ -179,30 +203,6 @@
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
               }
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#bodyChest-a)"
-              },
-              "children": [
-                {
-                  "name": "ellipse",
-                  "type": "element",
-                  "attributes": {
-                    "cx": "24",
-                    "cy": "-18",
-                    "rx": "32",
-                    "ry": "28",
-                    "fill": {
-                      "type": "color",
-                      "name": "ink"
-                    },
-                    "opacity": ".15"
-                  }
-                }
-              ]
             },
             {
               "name": "defs",
@@ -388,8 +388,8 @@
       }
     },
     "cheeks": {
-      "width": 52,
-      "height": 10,
+      "width": 51,
+      "height": 9,
       "probability": 75,
       "variants": {
         "blush": {
@@ -398,8 +398,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "5",
-                "cy": "5",
+                "cx": "4.5",
+                "cy": "4.5",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -411,8 +411,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "47",
-                "cy": "5",
+                "cx": "46.5",
+                "cy": "4.5",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -425,8 +425,8 @@
       }
     },
     "collar": {
-      "width": 48,
-      "height": 16,
+      "width": 46.44,
+      "height": 14.56,
       "probability": 40,
       "variants": {
         "bell": {
@@ -435,7 +435,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M2 2.4c2.8 2.73 6.21 4.9 10 6.39a33 33 0 0 0 12 2.25c4.13 0 8.22-.76 12-2.25A30 30 0 0 0 46 2.4",
+                "d": "M1.22 1.26c2.8 2.73 6.21 4.9 10 6.39a33 33 0 0 0 12 2.25c4.13 0 8.22-.76 12-2.25a30 30 0 0 0 10-6.39",
                 "stroke": {
                   "type": "color",
                   "name": "collar"
@@ -448,8 +448,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "24",
-                "cy": "12.5",
+                "cx": "23.22",
+                "cy": "11.36",
                 "r": "3.2",
                 "fill": "#deba50"
               }
@@ -458,7 +458,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M21.2 13.2h5.6",
+                "d": "M20.42 12.06h5.6",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -472,8 +472,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "24",
-                "cy": "14.6",
+                "cx": "23.22",
+                "cy": "13.46",
                 "r": ".9",
                 "fill": {
                   "type": "color",
@@ -489,7 +489,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M2 2.4c2.8 2.73 6.21 4.9 10 6.39a33 33 0 0 0 12 2.25c4.13 0 8.22-.76 12-2.25A30 30 0 0 0 46 2.4",
+                "d": "M1.22 1.26c2.8 2.73 6.21 4.9 10 6.39a33 33 0 0 0 12 2.25c4.13 0 8.22-.76 12-2.25a30 30 0 0 0 10-6.39",
                 "stroke": {
                   "type": "color",
                   "name": "collar"
@@ -506,7 +506,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M2 2.4c2.8 2.73 6.21 4.9 10 6.39a33 33 0 0 0 12 2.25c4.13 0 8.22-.76 12-2.25A30 30 0 0 0 46 2.4",
+                "d": "M1.22 1.26c2.8 2.73 6.21 4.9 10 6.39a33 33 0 0 0 12 2.25c4.13 0 8.22-.76 12-2.25a30 30 0 0 0 10-6.39",
                 "stroke": {
                   "type": "color",
                   "name": "collar"
@@ -519,8 +519,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "24",
-                "cy": "12.5",
+                "cx": "23.22",
+                "cy": "11.36",
                 "r": "2.8",
                 "fill": "#deba50"
               }
@@ -529,8 +529,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "24",
-                "cy": "12.5",
+                "cx": "23.22",
+                "cy": "11.36",
                 "r": "1.1",
                 "fill": {
                   "type": "color",
@@ -544,8 +544,8 @@
       }
     },
     "eyes": {
-      "width": 42,
-      "height": 20,
+      "width": 40,
+      "height": 19.5,
       "variants": {
         "dilated": {
           "elements": [
@@ -553,28 +553,28 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10",
-                "cy": "10",
-                "r": "8",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "32",
-                "cy": "10",
-                "r": "8",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "10.5",
+                "cx": "9",
                 "cy": "10.5",
+                "r": "8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "31",
+                "cy": "10.5",
+                "r": "8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "9.5",
+                "cy": "11",
                 "r": "6.2",
                 "fill": {
                   "type": "color",
@@ -586,8 +586,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "31.5",
-                "cy": "10.5",
+                "cx": "30.5",
+                "cy": "11",
                 "r": "6.2",
                 "fill": {
                   "type": "color",
@@ -599,8 +599,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "8.5",
-                "cy": "8.3",
+                "cx": "7.5",
+                "cy": "8.8",
                 "r": "2",
                 "fill": "#ffffff"
               }
@@ -609,8 +609,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "29.5",
-                "cy": "8.3",
+                "cx": "28.5",
+                "cy": "8.8",
                 "r": "2",
                 "fill": "#ffffff"
               }
@@ -623,8 +623,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10",
-                "cy": "10",
+                "cx": "9",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -633,8 +633,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "32",
-                "cy": "10",
+                "cx": "31",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -643,8 +643,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10.5",
-                "cy": "13",
+                "cx": "9.5",
+                "cy": "13.5",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -656,8 +656,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "31.5",
-                "cy": "13",
+                "cx": "30.5",
+                "cy": "13.5",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -669,8 +669,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "8.8",
-                "cy": "11.1",
+                "cx": "7.8",
+                "cy": "11.6",
                 "r": "1.6",
                 "fill": "#ffffff"
               }
@@ -679,8 +679,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "29.8",
-                "cy": "11.1",
+                "cx": "28.8",
+                "cy": "11.6",
                 "r": "1.6",
                 "fill": "#ffffff"
               }
@@ -693,7 +693,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M3 12q7-9 14 0m8 0q7-9 14 0",
+                "d": "M2 12.5q7-9 14 0m8 0q7-9 14 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -712,7 +712,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M3 9q7 8 14 0m8 0q7 8 14 0",
+                "d": "M2 9.5q7 8 14 0m8 0q7 8 14 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -730,28 +730,28 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10",
-                "cy": "10",
-                "r": "8",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "32",
-                "cy": "10",
-                "r": "8",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "10.5",
+                "cx": "9",
                 "cy": "10.5",
+                "r": "8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "31",
+                "cy": "10.5",
+                "r": "8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "9.5",
+                "cy": "11",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -763,8 +763,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "31.5",
-                "cy": "10.5",
+                "cx": "30.5",
+                "cy": "11",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -776,8 +776,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "8.8",
-                "cy": "8.6",
+                "cx": "7.8",
+                "cy": "9.1",
                 "r": "1.6",
                 "fill": "#ffffff"
               }
@@ -786,8 +786,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "29.8",
-                "cy": "8.6",
+                "cx": "28.8",
+                "cy": "9.1",
                 "r": "1.6",
                 "fill": "#ffffff"
               }
@@ -801,8 +801,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10",
-                "cy": "10",
+                "cx": "9",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -811,8 +811,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "32",
-                "cy": "10",
+                "cx": "31",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -821,8 +821,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "13.5",
-                "cy": "11",
+                "cx": "12.5",
+                "cy": "11.5",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -834,8 +834,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "34.5",
-                "cy": "11",
+                "cx": "33.5",
+                "cy": "11.5",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -847,8 +847,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "11.8",
-                "cy": "9.1",
+                "cx": "10.8",
+                "cy": "9.6",
                 "r": "1.6",
                 "fill": "#ffffff"
               }
@@ -857,8 +857,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "32.8",
-                "cy": "9.1",
+                "cx": "31.8",
+                "cy": "9.6",
                 "r": "1.6",
                 "fill": "#ffffff"
               }
@@ -871,8 +871,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10",
-                "cy": "10",
+                "cx": "9",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -881,8 +881,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "32",
-                "cy": "10",
+                "cx": "31",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -891,8 +891,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10.5",
-                "cy": "12",
+                "cx": "9.5",
+                "cy": "12.5",
                 "r": "4.2",
                 "fill": {
                   "type": "color",
@@ -904,8 +904,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "31.5",
-                "cy": "12",
+                "cx": "30.5",
+                "cy": "12.5",
                 "r": "4.2",
                 "fill": {
                   "type": "color",
@@ -917,7 +917,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1 10a9 9 0 0 1 18 0zm22 0a9 9 0 0 1 18 0z",
+                "d": "M0 10.5a9 9 0 0 1 18 0zm22 0a9 9 0 0 1 18 0z",
                 "fill": {
                   "type": "color",
                   "name": "fur"
@@ -928,7 +928,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M2.5 10h15m7 0h15",
+                "d": "M1.5 10.5h15m7 0h15",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -946,8 +946,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10",
-                "cy": "10",
+                "cx": "9",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -956,8 +956,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "32",
-                "cy": "10",
+                "cx": "31",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -966,8 +966,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "10.5",
-                "cy": "10.5",
+                "cx": "9.5",
+                "cy": "11",
                 "rx": "2",
                 "ry": "4.8",
                 "fill": {
@@ -980,8 +980,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "31.5",
-                "cy": "10.5",
+                "cx": "30.5",
+                "cy": "11",
                 "rx": "2",
                 "ry": "4.8",
                 "fill": {
@@ -994,8 +994,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "9.6",
-                "cy": "8.4",
+                "cx": "8.6",
+                "cy": "8.9",
                 "r": "1.1",
                 "fill": "#ffffff"
               }
@@ -1004,8 +1004,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "30.6",
-                "cy": "8.4",
+                "cx": "29.6",
+                "cy": "8.9",
                 "r": "1.1",
                 "fill": "#ffffff"
               }
@@ -1018,28 +1018,28 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10",
-                "cy": "10",
-                "r": "8",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "32",
-                "cy": "10",
-                "r": "8",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "10.5",
+                "cx": "9",
                 "cy": "10.5",
+                "r": "8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "31",
+                "cy": "10.5",
+                "r": "8",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "9.5",
+                "cy": "11",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -1051,8 +1051,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "31.5",
-                "cy": "10.5",
+                "cx": "30.5",
+                "cy": "11",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -1064,7 +1064,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1 8.5a9 9 0 0 1 18 0zm22 0a9 9 0 0 1 18 0z",
+                "d": "M0 9a9 9 0 0 1 18 0zm22 0a9 9 0 0 1 18 0z",
                 "fill": {
                   "type": "color",
                   "name": "fur"
@@ -1075,7 +1075,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M2.5 8.5h15m7 0h15",
+                "d": "M1.5 9h15m7 0h15",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -1093,8 +1093,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10",
-                "cy": "10",
+                "cx": "9",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -1103,8 +1103,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "32",
-                "cy": "10",
+                "cx": "31",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -1113,8 +1113,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10.5",
-                "cy": "8",
+                "cx": "9.5",
+                "cy": "8.5",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -1126,8 +1126,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "31.5",
-                "cy": "8",
+                "cx": "30.5",
+                "cy": "8.5",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -1139,8 +1139,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "8.8",
-                "cy": "6.1",
+                "cx": "7.8",
+                "cy": "6.6",
                 "r": "1.6",
                 "fill": "#ffffff"
               }
@@ -1149,8 +1149,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "29.8",
-                "cy": "6.1",
+                "cx": "28.8",
+                "cy": "6.6",
                 "r": "1.6",
                 "fill": "#ffffff"
               }
@@ -1163,28 +1163,28 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "10",
-                "cy": "10",
-                "r": "9",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "32",
-                "cy": "10",
-                "r": "9",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "10.5",
+                "cx": "9",
                 "cy": "10.5",
+                "r": "9",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "31",
+                "cy": "10.5",
+                "r": "9",
+                "fill": "#ffffff"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "9.5",
+                "cy": "11",
                 "r": "3.2",
                 "fill": {
                   "type": "color",
@@ -1196,8 +1196,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "31.5",
-                "cy": "10.5",
+                "cx": "30.5",
+                "cy": "11",
                 "r": "3.2",
                 "fill": {
                   "type": "color",
@@ -1209,8 +1209,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "9.4",
-                "cy": "9.2",
+                "cx": "8.4",
+                "cy": "9.7",
                 "r": "1.2",
                 "fill": "#ffffff"
               }
@@ -1219,8 +1219,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "30.4",
-                "cy": "9.2",
+                "cx": "29.4",
+                "cy": "9.7",
                 "r": "1.2",
                 "fill": "#ffffff"
               }
@@ -1233,7 +1233,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M3 12q7-9 14 0",
+                "d": "M2 12.5q7-9 14 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -1247,8 +1247,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "32",
-                "cy": "10",
+                "cx": "31",
+                "cy": "10.5",
                 "r": "8",
                 "fill": "#ffffff"
               }
@@ -1257,8 +1257,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "31.5",
-                "cy": "10.5",
+                "cx": "30.5",
+                "cy": "11",
                 "r": "4.5",
                 "fill": {
                   "type": "color",
@@ -1270,8 +1270,8 @@
               "name": "circle",
               "type": "element",
               "attributes": {
-                "cx": "29.8",
-                "cy": "8.6",
+                "cx": "28.8",
+                "cy": "9.1",
                 "r": "1.6",
                 "fill": "#ffffff"
               }
@@ -1281,8 +1281,8 @@
       }
     },
     "head": {
-      "width": 80,
-      "height": 79,
+      "width": 100,
+      "height": 100.88,
       "rotate": {
         "min": -5,
         "max": 5
@@ -1340,7 +1340,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M11 52c0-3.34.72-6.64 2.11-9.74 1.32-2.92 1.12-4.26.83-7.45L11.46 7.98Q11.01 3 14.29 6.76l14.42 16.48c2.11 2.41 3.09 3.65 6.25 3.15a32 32 0 0 1 10.08 0c3.16.5 4.14-.74 6.25-3.15L65.71 6.76q3.3-3.75 2.83 1.22l-2.48 26.83c-.29 3.19-.49 4.53.83 7.45a23.6 23.6 0 0 1-1.4 22.14 27 27 0 0 1-8.34 8.56 31 31 0 0 1-11.62 4.56c-4.2.73-8.52.62-12.67-.32-4.14-.95-8-2.7-11.3-5.14a27 27 0 0 1-7.79-8.97A24 24 0 0 1 11 52",
+                    "d": "M21 53.88c0-3.34.72-6.64 2.11-9.74 1.32-2.92 1.12-4.26.83-7.45L21.46 9.86q-.45-4.98 2.83-1.22l14.42 16.48c2.11 2.41 3.09 3.65 6.25 3.15a32 32 0 0 1 10.08 0c3.16.5 4.14-.74 6.25-3.15L75.71 8.64q3.3-3.76 2.83 1.22l-2.48 26.83c-.29 3.19-.49 4.53.83 7.45a23.6 23.6 0 0 1-1.4 22.14 27 27 0 0 1-8.34 8.56 31 31 0 0 1-11.62 4.56c-4.2.73-8.52.62-12.67-.32-4.14-.95-8-2.7-11.3-5.14a27 27 0 0 1-7.79-8.97A24 24 0 0 1 21 53.88",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -1351,7 +1351,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "m16.38 32.85-1.96-21.34L26.6 25.44zm47.24 0 1.96-21.34L53.4 25.44z",
+                    "d": "m26.38 34.73-1.96-21.34L36.6 27.32zm47.24 0 1.96-21.34L63.4 27.32z",
                     "fill": {
                       "type": "color",
                       "name": "blush"
@@ -1375,7 +1375,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "m16.38 32.85-1.96-21.34L26.6 25.44z",
+                        "d": "m26.38 34.73-1.96-21.34L36.6 27.32z",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1402,7 +1402,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "m63.62 32.85 1.96-21.34L53.4 25.44z",
+                        "d": "m73.62 34.73 1.96-21.34L63.4 27.32z",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1429,35 +1429,35 @@
                       "name": "pattern",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(9 25)"
+                        "transform": "translate(18.5 27.13)"
                       }
                     },
                     {
                       "name": "cheeks",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(14 53)"
+                        "transform": "translate(24.5 55.38)"
                       }
                     },
                     {
                       "name": "eyes",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(19 39)"
+                        "transform": "translate(30 40.38)"
                       }
                     },
                     {
                       "name": "mouth",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(31 63)"
+                        "transform": "translate(40.5 64.38)"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M36.5 59h7L40 63.5z",
+                        "d": "M46.5 60.88h7l-3.5 4.5z",
                         "fill": {
                           "type": "color",
                           "name": "nose"
@@ -1476,7 +1476,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M21 57 4 53m17 7.5H3M21 64 4 68m55-11 17-4m-17 7.5h18M59 64l17 4",
+                    "d": "m31 58.88-17-4m17 7.5H13m18 3.5-17 4m55-11 17-4m-17 7.5h18m-18 3.5 17 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -1504,7 +1504,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M-10-1H90V99H-10zM2.42 11.51a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
+                        "d": "M0 .88h100v100H0zm12.42 12.51a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
                         "clip-rule": "evenodd"
@@ -1524,7 +1524,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M-10-1H90V99H-10zm63.58 12.51a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
+                        "d": "M0 .88h100v100H0zm63.58 12.51a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
                         "clip-rule": "evenodd"
@@ -1544,7 +1544,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M11 52c0-3.34.72-6.64 2.11-9.74 1.32-2.92 1.12-4.26.83-7.45L11.46 7.98Q11.01 3 14.29 6.76l14.42 16.48c2.11 2.41 3.09 3.65 6.25 3.15a32 32 0 0 1 10.08 0c3.16.5 4.14-.74 6.25-3.15L65.71 6.76q3.3-3.75 2.83 1.22l-2.48 26.83c-.29 3.19-.49 4.53.83 7.45a23.6 23.6 0 0 1-1.4 22.14 27 27 0 0 1-8.34 8.56 31 31 0 0 1-11.62 4.56c-4.2.73-8.52.62-12.67-.32-4.14-.95-8-2.7-11.3-5.14a27 27 0 0 1-7.79-8.97A24 24 0 0 1 11 52",
+                        "d": "M21 53.88c0-3.34.72-6.64 2.11-9.74 1.32-2.92 1.12-4.26.83-7.45L21.46 9.86q-.45-4.98 2.83-1.22l14.42 16.48c2.11 2.41 3.09 3.65 6.25 3.15a32 32 0 0 1 10.08 0c3.16.5 4.14-.74 6.25-3.15L75.71 8.64q3.3-3.76 2.83 1.22l-2.48 26.83c-.29 3.19-.49 4.53.83 7.45a23.6 23.6 0 0 1-1.4 22.14 27 27 0 0 1-8.34 8.56 31 31 0 0 1-11.62 4.56c-4.2.73-8.52.62-12.67-.32-4.14-.95-8-2.7-11.3-5.14a27 27 0 0 1-7.79-8.97A24 24 0 0 1 21 53.88",
                         "fill": "#ffffff"
                       }
                     }
@@ -1606,7 +1606,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M8 51c0-2.94.53-5.86 1.57-8.65 1.11-3 1.1-4.54.93-7.73L9.27 11.99Q9 7 13.05 9.93L28.21 20.9c2.59 1.88 4.16 2.76 7.34 2.37a37 37 0 0 1 8.9 0c3.18.39 4.75-.49 7.34-2.37L66.95 9.93Q71 7 70.73 11.99L69.5 34.62c-.17 3.19-.18 4.73.93 7.73a25 25 0 0 1 1.35 11.95 26 26 0 0 1-4.5 11.34 30 30 0 0 1-9.5 8.65A35 35 0 0 1 45 78.67c-4.57.63-9.24.39-13.69-.71a34 34 0 0 1-12.1-5.66 29 29 0 0 1-8.28-9.57A25 25 0 0 1 8 51",
+                    "d": "M18 52.88c0-2.94.53-5.86 1.57-8.65 1.11-3 1.1-4.54.93-7.73l-1.23-22.63q-.27-4.99 3.78-2.06l15.16 10.97c2.59 1.88 4.16 2.76 7.34 2.37a37 37 0 0 1 8.9 0c3.18.39 4.75-.49 7.34-2.37l15.16-10.97q4.05-2.93 3.78 2.06L79.5 36.5c-.17 3.19-.18 4.73.93 7.73a25 25 0 0 1 1.35 11.95 26 26 0 0 1-4.5 11.34 30 30 0 0 1-9.5 8.65A35 35 0 0 1 55 80.55c-4.57.63-9.24.39-13.69-.71a34 34 0 0 1-12.1-5.66 29 29 0 0 1-8.28-9.57A25 25 0 0 1 18 52.88",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -1617,7 +1617,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M13.53 32.84 12.5 13.92l13.49 9.76zm52.94 0 1.03-18.92-13.49 9.76z",
+                    "d": "M23.53 34.72 22.5 15.8l13.49 9.76zm52.94 0L77.5 15.8l-13.49 9.76z",
                     "fill": {
                       "type": "color",
                       "name": "blush"
@@ -1641,7 +1641,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M13.53 32.84 12.5 13.92l13.49 9.76z",
+                        "d": "M23.53 34.72 22.5 15.8l13.49 9.76z",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1668,7 +1668,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "m66.47 32.84 1.03-18.92-13.49 9.76z",
+                        "d": "M76.47 34.72 77.5 15.8l-13.49 9.76z",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1695,35 +1695,35 @@
                       "name": "pattern",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(9 25)"
+                        "transform": "translate(18.5 27.13)"
                       }
                     },
                     {
                       "name": "cheeks",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(14 53)"
+                        "transform": "translate(24.5 55.38)"
                       }
                     },
                     {
                       "name": "eyes",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(19 39)"
+                        "transform": "translate(30 40.38)"
                       }
                     },
                     {
                       "name": "mouth",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(31 63)"
+                        "transform": "translate(40.5 64.38)"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M36.5 59h7L40 63.5z",
+                        "d": "M46.5 60.88h7l-3.5 4.5z",
                         "fill": {
                           "type": "color",
                           "name": "nose"
@@ -1742,7 +1742,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M21 57 4 53m17 7.5H3M21 64 4 68m55-11 17-4m-17 7.5h18M59 64l17 4",
+                    "d": "m31 58.88-17-4m17 7.5H13m18 3.5-17 4m55-11 17-4m-17 7.5h18m-18 3.5 17 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -1770,7 +1770,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M-10-1H90V99H-10zM.5 13.92a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
+                        "d": "M0 .88h100v100H0zM10.5 15.8a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
                         "clip-rule": "evenodd"
@@ -1790,7 +1790,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M-10-1H90V99H-10zm65.5 14.92a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
+                        "d": "M0 .88h100v100H0zM65.5 15.8a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
                         "clip-rule": "evenodd"
@@ -1810,7 +1810,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M8 51c0-2.94.53-5.86 1.57-8.65 1.11-3 1.1-4.54.93-7.73L9.27 11.99Q9 7 13.05 9.93L28.21 20.9c2.59 1.88 4.16 2.76 7.34 2.37a37 37 0 0 1 8.9 0c3.18.39 4.75-.49 7.34-2.37L66.95 9.93Q71 7 70.73 11.99L69.5 34.62c-.17 3.19-.18 4.73.93 7.73a25 25 0 0 1 1.35 11.95 26 26 0 0 1-4.5 11.34 30 30 0 0 1-9.5 8.65A35 35 0 0 1 45 78.67c-4.57.63-9.24.39-13.69-.71a34 34 0 0 1-12.1-5.66 29 29 0 0 1-8.28-9.57A25 25 0 0 1 8 51",
+                        "d": "M18 52.88c0-2.94.53-5.86 1.57-8.65 1.11-3 1.1-4.54.93-7.73l-1.23-22.63q-.27-4.99 3.78-2.06l15.16 10.97c2.59 1.88 4.16 2.76 7.34 2.37a37 37 0 0 1 8.9 0c3.18.39 4.75-.49 7.34-2.37l15.16-10.97q4.05-2.93 3.78 2.06L79.5 36.5c-.17 3.19-.18 4.73.93 7.73a25 25 0 0 1 1.35 11.95 26 26 0 0 1-4.5 11.34 30 30 0 0 1-9.5 8.65A35 35 0 0 1 55 80.55c-4.57.63-9.24.39-13.69-.71a34 34 0 0 1-12.1-5.66 29 29 0 0 1-8.28-9.57A25 25 0 0 1 18 52.88",
                         "fill": "#ffffff"
                       }
                     }
@@ -1872,7 +1872,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M8 51c0-3.27.65-6.51 1.93-9.58 1.23-2.95 1.3-4.49 1.28-7.69L11.03 6Q11 1 14.29 4.76l13.6 15.56c2.1 2.41 3.39 3.59 6.55 3.11a37 37 0 0 1 11.12 0c3.16.48 4.45-.7 6.55-3.11l13.6-15.56Q69.01 1 68.97 6l-.18 27.73c-.02 3.2.05 4.74 1.28 7.69a25 25 0 0 1 1.8 12.02A25.6 25.6 0 0 1 67.72 65a30 30 0 0 1-9.35 8.93 35 35 0 0 1-12.8 4.64c-4.6.71-9.33.53-13.84-.53a34 34 0 0 1-12.29-5.6 29 29 0 0 1-8.43-9.6A25 25 0 0 1 8 51",
+                    "d": "M18 52.88c0-3.27.65-6.51 1.93-9.58 1.23-2.95 1.3-4.49 1.28-7.69l-.18-27.73q-.03-5 3.26-1.24l13.6 15.56c2.1 2.41 3.39 3.59 6.55 3.11a37 37 0 0 1 11.12 0c3.16.48 4.45-.7 6.55-3.11l13.6-15.56q3.3-3.76 3.26 1.24l-.18 27.73c-.02 3.2.05 4.74 1.28 7.69a25 25 0 0 1 1.8 12.02 25.6 25.6 0 0 1-4.16 11.56 30 30 0 0 1-9.35 8.93 35 35 0 0 1-12.8 4.64c-4.6.71-9.33.53-13.84-.53a34 34 0 0 1-12.29-5.6 29 29 0 0 1-8.43-9.6 25 25 0 0 1-3-11.84",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -1883,7 +1883,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "m14.19 30.87-.13-20.75 11.1 12.7zm51.62 0 .13-20.75-11.1 12.7z",
+                    "d": "M24.19 32.75 24.06 12l11.1 12.7zm51.62 0L75.94 12l-11.1 12.7z",
                     "fill": {
                       "type": "color",
                       "name": "blush"
@@ -1907,7 +1907,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "m14.19 30.87-.13-20.75 11.1 12.7z",
+                        "d": "M24.19 32.75 24.06 12l11.1 12.7z",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1934,7 +1934,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "m65.81 30.87.13-20.75-11.1 12.7z",
+                        "d": "M75.81 32.75 75.94 12l-11.1 12.7z",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -1961,35 +1961,35 @@
                       "name": "pattern",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(9 25)"
+                        "transform": "translate(18.5 27.13)"
                       }
                     },
                     {
                       "name": "cheeks",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(14 53)"
+                        "transform": "translate(24.5 55.38)"
                       }
                     },
                     {
                       "name": "eyes",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(19 39)"
+                        "transform": "translate(30 40.38)"
                       }
                     },
                     {
                       "name": "mouth",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(31 63)"
+                        "transform": "translate(40.5 64.38)"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M36.5 59h7L40 63.5z",
+                        "d": "M46.5 60.88h7l-3.5 4.5z",
                         "fill": {
                           "type": "color",
                           "name": "nose"
@@ -2008,7 +2008,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M21 57 4 53m17 7.5H3M21 64 4 68m55-11 17-4m-17 7.5h18M59 64l17 4",
+                    "d": "m31 58.88-17-4m17 7.5H13m18 3.5-17 4m55-11 17-4m-17 7.5h18m-18 3.5 17 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -2036,7 +2036,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M-10-1H90V99H-10zM2.06 10.12a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
+                        "d": "M0 .88h100v100H0zM12.06 12a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
                         "clip-rule": "evenodd"
@@ -2056,7 +2056,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M-10-1H90V99H-10zm63.94 11.12a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
+                        "d": "M0 .88h100v100H0zM63.94 12a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
                         "clip-rule": "evenodd"
@@ -2076,7 +2076,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M8 51c0-3.27.65-6.51 1.93-9.58 1.23-2.95 1.3-4.49 1.28-7.69L11.03 6Q11 1 14.29 4.76l13.6 15.56c2.1 2.41 3.39 3.59 6.55 3.11a37 37 0 0 1 11.12 0c3.16.48 4.45-.7 6.55-3.11l13.6-15.56Q69.01 1 68.97 6l-.18 27.73c-.02 3.2.05 4.74 1.28 7.69a25 25 0 0 1 1.8 12.02A25.6 25.6 0 0 1 67.72 65a30 30 0 0 1-9.35 8.93 35 35 0 0 1-12.8 4.64c-4.6.71-9.33.53-13.84-.53a34 34 0 0 1-12.29-5.6 29 29 0 0 1-8.43-9.6A25 25 0 0 1 8 51",
+                        "d": "M18 52.88c0-3.27.65-6.51 1.93-9.58 1.23-2.95 1.3-4.49 1.28-7.69l-.18-27.73q-.03-5 3.26-1.24l13.6 15.56c2.1 2.41 3.39 3.59 6.55 3.11a37 37 0 0 1 11.12 0c3.16.48 4.45-.7 6.55-3.11l13.6-15.56q3.3-3.76 3.26 1.24l-.18 27.73c-.02 3.2.05 4.74 1.28 7.69a25 25 0 0 1 1.8 12.02 25.6 25.6 0 0 1-4.16 11.56 30 30 0 0 1-9.35 8.93 35 35 0 0 1-12.8 4.64c-4.6.71-9.33.53-13.84-.53a34 34 0 0 1-12.29-5.6 29 29 0 0 1-8.43-9.6 25 25 0 0 1-3-11.84",
                         "fill": "#ffffff"
                       }
                     }
@@ -2138,7 +2138,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M8 51c0-2.61.42-5.21 1.24-7.72 1-3.04.6-4.5-.27-7.58L3.36 15.81q-1.35-4.8 3.31-3.02l23.1 8.85c2.99 1.14 4.8 1.62 8 1.43q2.23-.15 4.46 0c3.2.19 5.01-.29 8-1.43l23.1-8.85q4.67-1.8 3.31 3.02L71.03 35.7c-.87 3.08-1.27 4.54-.27 7.58 1.26 3.85 1.57 7.9.89 11.86a26 26 0 0 1-4.81 11.1 30 30 0 0 1-9.65 8.37 35 35 0 0 1-12.74 4.12 36 36 0 0 1-13.54-.88 34 34 0 0 1-11.9-5.72 29 29 0 0 1-8.13-9.52A25 25 0 0 1 8 51",
+                    "d": "M18 52.88q0-3.94 1.24-7.72c1-3.04.6-4.5-.27-7.58l-5.61-19.89q-1.35-4.8 3.31-3.02l23.1 8.85c2.99 1.14 4.8 1.62 8 1.43q2.23-.15 4.46 0c3.2.19 5.01-.29 8-1.43l23.1-8.85q4.67-1.8 3.31 3.02l-5.61 19.89c-.87 3.08-1.27 4.54-.27 7.58 1.26 3.85 1.57 7.9.89 11.86a26 26 0 0 1-4.81 11.1 30 30 0 0 1-9.65 8.37 35 35 0 0 1-12.74 4.12 36 36 0 0 1-13.54-.88A34 34 0 0 1 29.01 74a29 29 0 0 1-8.13-9.52A25 25 0 0 1 18 52.88",
                     "fill": {
                       "type": "color",
                       "name": "fur"
@@ -2149,7 +2149,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M12.54 33.99 7.71 16.87l18.82 7.21zm54.92 0 4.83-17.12-18.82 7.21z",
+                    "d": "m22.54 35.87-4.83-17.12 18.82 7.21zm54.92 0 4.83-17.12-18.82 7.21z",
                     "fill": {
                       "type": "color",
                       "name": "blush"
@@ -2173,7 +2173,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M12.54 33.99 7.71 16.87l18.82 7.21z",
+                        "d": "m22.54 35.87-4.83-17.12 18.82 7.21z",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -2200,7 +2200,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "m67.46 33.99 4.83-17.12-18.82 7.21z",
+                        "d": "m77.46 35.87 4.83-17.12-18.82 7.21z",
                         "fill": {
                           "type": "color",
                           "name": "ink"
@@ -2227,35 +2227,35 @@
                       "name": "pattern",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(9 25)"
+                        "transform": "translate(18.5 27.13)"
                       }
                     },
                     {
                       "name": "cheeks",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(14 53)"
+                        "transform": "translate(24.5 55.38)"
                       }
                     },
                     {
                       "name": "eyes",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(19 39)"
+                        "transform": "translate(30 40.38)"
                       }
                     },
                     {
                       "name": "mouth",
                       "type": "component",
                       "attributes": {
-                        "transform": "translate(31 63)"
+                        "transform": "translate(40.5 64.38)"
                       }
                     },
                     {
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M36.5 59h7L40 63.5z",
+                        "d": "M46.5 60.88h7l-3.5 4.5z",
                         "fill": {
                           "type": "color",
                           "name": "nose"
@@ -2274,7 +2274,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M21 57 4 53m17 7.5H3M21 64 4 68m55-11 17-4m-17 7.5h18M59 64l17 4",
+                    "d": "m31 58.88-17-4m17 7.5H13m18 3.5-17 4m55-11 17-4m-17 7.5h18m-18 3.5 17 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -2302,7 +2302,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M-10-1H90V99H-10zm5.71 17.87a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
+                        "d": "M0 .88h100v100H0zm5.71 17.87a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
                         "clip-rule": "evenodd"
@@ -2322,7 +2322,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M-10-1H90V99H-10zm70.29 17.87a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
+                        "d": "M0 .88h100v100H0zm70.29 17.87a12 12 0 0 0 24 0 12 12 0 0 0-24 0",
                         "fill": "#ffffff",
                         "fill-rule": "evenodd",
                         "clip-rule": "evenodd"
@@ -2342,7 +2342,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M8 51c0-2.61.42-5.21 1.24-7.72 1-3.04.6-4.5-.27-7.58L3.36 15.81q-1.35-4.8 3.31-3.02l23.1 8.85c2.99 1.14 4.8 1.62 8 1.43q2.23-.15 4.46 0c3.2.19 5.01-.29 8-1.43l23.1-8.85q4.67-1.8 3.31 3.02L71.03 35.7c-.87 3.08-1.27 4.54-.27 7.58 1.26 3.85 1.57 7.9.89 11.86a26 26 0 0 1-4.81 11.1 30 30 0 0 1-9.65 8.37 35 35 0 0 1-12.74 4.12 36 36 0 0 1-13.54-.88 34 34 0 0 1-11.9-5.72 29 29 0 0 1-8.13-9.52A25 25 0 0 1 8 51",
+                        "d": "M18 52.88q0-3.94 1.24-7.72c1-3.04.6-4.5-.27-7.58l-5.61-19.89q-1.35-4.8 3.31-3.02l23.1 8.85c2.99 1.14 4.8 1.62 8 1.43q2.23-.15 4.46 0c3.2.19 5.01-.29 8-1.43l23.1-8.85q4.67-1.8 3.31 3.02l-5.61 19.89c-.87 3.08-1.27 4.54-.27 7.58 1.26 3.85 1.57 7.9.89 11.86a26 26 0 0 1-4.81 11.1 30 30 0 0 1-9.65 8.37 35 35 0 0 1-12.74 4.12 36 36 0 0 1-13.54-.88A34 34 0 0 1 29.01 74a29 29 0 0 1-8.13-9.52A25 25 0 0 1 18 52.88",
                         "fill": "#ffffff"
                       }
                     }
@@ -2355,7 +2355,7 @@
       }
     },
     "mouth": {
-      "width": 18,
+      "width": 19,
       "height": 11,
       "variants": {
         "blep": {
@@ -2364,7 +2364,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M8.2 3.5h1.6l1 3.2a1.8 1.8 0 1 1-3.6 0z",
+                "d": "M8.7 4h1.6l1 3.2a1.8 1.8 0 1 1-3.6 0z",
                 "fill": {
                   "type": "color",
                   "name": "nose"
@@ -2375,7 +2375,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M9 .5V3m0 0C8 6 5 6.5 3.5 4.5M9 3c1 3 4 3.5 5.5 1.5",
+                "d": "M9.5 1v2.5m0 0C8.5 6.5 5.5 7 4 5m5.5-1.5c1 3 4 3.5 5.5 1.5",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -2393,7 +2393,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M9 .5V3m0 0C8 6 5 6.5 3.5 4.5M9 3c1 3 4 3.5 5.5 1.5",
+                "d": "M9.5 1v2.5m0 0C8.5 6.5 5.5 7 4 5m5.5-1.5c1 3 4 3.5 5.5 1.5",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -2412,7 +2412,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M9 .5V3m0 0C7.5 7 3 7.5.5 5M9 3c1.5 4 6 4.5 8.5 2",
+                "d": "M9.5 1v2.5m0 0C8 7.5 3.5 8 1 5.5m8.5-2c1.5 4 6 4.5 8.5 2",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -2430,7 +2430,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M9 .5V2",
+                "d": "M9.5 1v1.5",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -2444,8 +2444,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "9",
-                "cy": "5",
+                "cx": "9.5",
+                "cy": "5.5",
                 "rx": "2.6",
                 "ry": "3",
                 "fill": {
@@ -2462,7 +2462,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M9 .5v2",
+                "d": "M9.5 1v2",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -2476,7 +2476,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M3 2.5a6 6 0 0 0 12 0z",
+                "d": "M3.5 3a6 6 0 0 0 12 0z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -2487,7 +2487,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M5.5 5.5a3.5 3.5 0 0 0 7 0z",
+                "d": "M6 6a3.5 3.5 0 0 0 7 0z",
                 "fill": {
                   "type": "color",
                   "name": "nose"
@@ -2502,7 +2502,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M9 .5v3.7M3.5 2q5.5 5 11 0",
+                "d": "M9.5 1v3.7M4 2.5q5.5 5 11 0",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -2520,7 +2520,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M9 .5V2",
+                "d": "M9.5 1v1.5",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -2534,8 +2534,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "9",
-                "cy": "6",
+                "cx": "9.5",
+                "cy": "6.5",
                 "rx": "5",
                 "ry": "4.5",
                 "fill": {
@@ -2548,8 +2548,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "9",
-                "cy": "8.2",
+                "cx": "9.5",
+                "cy": "8.7",
                 "rx": "3",
                 "ry": "2",
                 "fill": {
@@ -2563,8 +2563,8 @@
       }
     },
     "pattern": {
-      "width": 62,
-      "height": 36,
+      "width": 63,
+      "height": 35.25,
       "probability": 70,
       "variants": {
         "patch": {
@@ -2573,8 +2573,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "42",
-                "cy": "24",
+                "cx": "42.5",
+                "cy": "23.75",
                 "rx": "12.5",
                 "ry": "11.5",
                 "fill": {
@@ -2592,8 +2592,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "15",
-                "cy": "14",
+                "cx": "15.5",
+                "cy": "13.75",
                 "rx": "5",
                 "ry": "4",
                 "fill": {
@@ -2607,8 +2607,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "43",
-                "cy": "7",
+                "cx": "43.5",
+                "cy": "6.75",
                 "rx": "4",
                 "ry": "3.5",
                 "fill": {
@@ -2622,8 +2622,8 @@
               "name": "ellipse",
               "type": "element",
               "attributes": {
-                "cx": "52",
-                "cy": "30",
+                "cx": "52.5",
+                "cy": "29.75",
                 "rx": "4.5",
                 "ry": "3.5",
                 "fill": {
@@ -2641,7 +2641,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M25 5v6m6-9v8m6-5v6",
+                "d": "M25.5 4.75v6m6-9v8m6-5v6",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -2660,7 +2660,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M25 5v6m6-9v8m6-5v6",
+                "d": "M25.5 4.75v6m6-9v8m6-5v6",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -2675,7 +2675,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "m2 20 8 2m-9 4h8m51-6-8 2m9 4h-8",
+                "d": "m2.5 19.75 8 2m-9 4h8m51-6-8 2m9 4h-8",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -2694,7 +2694,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "m23 11 3-8 5 5 5-5 3 8",
+                "d": "m23.5 10.75 3-8 5 5 5-5 3 8",
                 "stroke": {
                   "type": "color",
                   "name": "ink"
@@ -3066,8 +3066,8 @@
       }
     },
     "tail": {
-      "width": 92,
-      "height": 43,
+      "width": 93.42,
+      "height": 47.21,
       "variants": {
         "hookLeft": {
           "elements": [
@@ -3241,7 +3241,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41-2 17 8 3c3-4 9-2 7 4",
+                    "d": "M30.71 42.59c-24 2-32-22-22-36 3-4 9-2 7 4",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -3255,7 +3255,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41-2 17 8 3c3-4 9-2 7 4",
+                    "d": "M30.71 42.59c-24 2-32-22-22-36 3-4 9-2 7 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3279,7 +3279,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41-2 17 8 3c3-4 9-2 7 4",
+                    "d": "M30.71 42.59c-24 2-32-22-22-36 3-4 9-2 7 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3470,7 +3470,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M19 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M19.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -3652,7 +3652,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41-2 17 8 3c3-4 9-2 7 4",
+                    "d": "M30.71 42.59c-24 2-32-22-22-36 3-4 9-2 7 4",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -3666,7 +3666,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41-2 17 8 3c3-4 9-2 7 4",
+                    "d": "M30.71 42.59c-24 2-32-22-22-36 3-4 9-2 7 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3681,7 +3681,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41-2 17 8 3c3-4 9-2 7 4",
+                    "d": "M30.71 42.59c-24 2-32-22-22-36 3-4 9-2 7 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3705,7 +3705,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41-2 17 8 3c3-4 9-2 7 4",
+                    "d": "M30.71 42.59c-24 2-32-22-22-36 3-4 9-2 7 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -3896,7 +3896,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M19 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M19.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -4078,7 +4078,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 32-22 22-36-3-4-9-2-7 4",
+                    "d": "M62.71 42.59c24 2 32-22 22-36-3-4-9-2-7 4",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -4092,7 +4092,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 32-22 22-36-3-4-9-2-7 4",
+                    "d": "M62.71 42.59c24 2 32-22 22-36-3-4-9-2-7 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -4116,7 +4116,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 32-22 22-36-3-4-9-2-7 4",
+                    "d": "M62.71 42.59c24 2 32-22 22-36-3-4-9-2-7 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -4307,7 +4307,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M25 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M25.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -4489,7 +4489,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 32-22 22-36-3-4-9-2-7 4",
+                    "d": "M62.71 42.59c24 2 32-22 22-36-3-4-9-2-7 4",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -4503,7 +4503,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 32-22 22-36-3-4-9-2-7 4",
+                    "d": "M62.71 42.59c24 2 32-22 22-36-3-4-9-2-7 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -4518,7 +4518,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 32-22 22-36-3-4-9-2-7 4",
+                    "d": "M62.71 42.59c24 2 32-22 22-36-3-4-9-2-7 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -4542,7 +4542,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 32-22 22-36-3-4-9-2-7 4",
+                    "d": "M62.71 42.59c24 2 32-22 22-36-3-4-9-2-7 4",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -4733,7 +4733,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M25 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M25.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -4899,7 +4899,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41 0 17 12 5",
+                    "d": "M30.71 42.59c-24 2-30-22-18-34",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -4913,7 +4913,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41 0 17 12 5",
+                    "d": "M30.71 42.59c-24 2-30-22-18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -4937,7 +4937,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41 0 17 12 5",
+                    "d": "M30.71 42.59c-24 2-30-22-18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -5112,7 +5112,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M19 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M19.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -5278,7 +5278,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41 0 17 12 5",
+                    "d": "M30.71 42.59c-24 2-30-22-18-34",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -5292,7 +5292,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41 0 17 12 5",
+                    "d": "M30.71 42.59c-24 2-30-22-18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -5307,7 +5307,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41 0 17 12 5",
+                    "d": "M30.71 42.59c-24 2-30-22-18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -5331,7 +5331,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M30 39C6 41 0 17 12 5",
+                    "d": "M30.71 42.59c-24 2-30-22-18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -5506,7 +5506,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M19 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M19.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -5672,7 +5672,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 30-22 18-34",
+                    "d": "M62.71 42.59c24 2 30-22 18-34",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -5686,7 +5686,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 30-22 18-34",
+                    "d": "M62.71 42.59c24 2 30-22 18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -5710,7 +5710,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 30-22 18-34",
+                    "d": "M62.71 42.59c24 2 30-22 18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -5885,7 +5885,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M25 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M25.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -6051,7 +6051,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 30-22 18-34",
+                    "d": "M62.71 42.59c24 2 30-22 18-34",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -6065,7 +6065,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 30-22 18-34",
+                    "d": "M62.71 42.59c24 2 30-22 18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -6080,7 +6080,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 30-22 18-34",
+                    "d": "M62.71 42.59c24 2 30-22 18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -6104,7 +6104,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M62 39c24 2 30-22 18-34",
+                    "d": "M62.71 42.59c24 2 30-22 18-34",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -6279,7 +6279,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M25 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M25.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -6445,7 +6445,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 39C14 35 6 21 10 1",
+                    "d": "M28.71 42.59c-14-4-22-18-18-38",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -6459,7 +6459,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 39C14 35 6 21 10 1",
+                    "d": "M28.71 42.59c-14-4-22-18-18-38",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -6483,7 +6483,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 39C14 35 6 21 10 1",
+                    "d": "M28.71 42.59c-14-4-22-18-18-38",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -6658,7 +6658,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M19 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M19.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -6824,7 +6824,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 39C14 35 6 21 10 1",
+                    "d": "M28.71 42.59c-14-4-22-18-18-38",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -6838,7 +6838,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 39C14 35 6 21 10 1",
+                    "d": "M28.71 42.59c-14-4-22-18-18-38",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -6853,7 +6853,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 39C14 35 6 21 10 1",
+                    "d": "M28.71 42.59c-14-4-22-18-18-38",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -6877,7 +6877,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M28 39C14 35 6 21 10 1",
+                    "d": "M28.71 42.59c-14-4-22-18-18-38",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -7052,7 +7052,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M19 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M19.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -7218,7 +7218,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M64 39c14-4 22-18 18-38",
+                    "d": "M64.71 42.59c14-4 22-18 18-38",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -7232,7 +7232,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M64 39c14-4 22-18 18-38",
+                    "d": "M64.71 42.59c14-4 22-18 18-38",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -7256,7 +7256,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M64 39c14-4 22-18 18-38",
+                    "d": "M64.71 42.59c14-4 22-18 18-38",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -7431,7 +7431,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M25 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M25.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
@@ -7597,7 +7597,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M64 39c14-4 22-18 18-38",
+                    "d": "M64.71 42.59c14-4 22-18 18-38",
                     "stroke": {
                       "type": "color",
                       "name": "fur"
@@ -7611,7 +7611,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M64 39c14-4 22-18 18-38",
+                    "d": "M64.71 42.59c14-4 22-18 18-38",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -7626,7 +7626,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M64 39c14-4 22-18 18-38",
+                    "d": "M64.71 42.59c14-4 22-18 18-38",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -7650,7 +7650,7 @@
                   "name": "path",
                   "type": "element",
                   "attributes": {
-                    "d": "M64 39c14-4 22-18 18-38",
+                    "d": "M64.71 42.59c14-4 22-18 18-38",
                     "stroke": {
                       "type": "color",
                       "name": "ink"
@@ -7825,7 +7825,7 @@
                       "name": "path",
                       "type": "element",
                       "attributes": {
-                        "d": "M25 43V27a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
+                        "d": "M25.71 46.59v-16a10 10 0 0 1 10-10h28a10 10 0 0 1 10 10v16z",
                         "fill": "#ffffff"
                       }
                     }
