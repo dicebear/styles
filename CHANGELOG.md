@@ -27,6 +27,11 @@ Versions track the DiceBear release line.
   `tags: ['hairLength:long', '!facialHair']`. The docs page "How DiceBear tags
   variants" describes each category.
 
+### Fixed
+
+- **Avataaars:** the natural unibrow draws in the dark, translucent color of
+  the other eyebrows instead of a light gray that barely showed on the skin.
+
 ## [11.0.0-rc.3] - 2026-09-07
 
 ### Added
