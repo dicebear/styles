@@ -13,6 +13,15 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Added
+
+- **`all()` and `get()` for JavaScript.** `all()` lists the names of every
+  style and `get(name)` loads one definition, the same pair the Rust, Go, Dart
+  and C# packages offer. `get()` is async: it imports a definition only when it
+  runs, and bundlers give each one a chunk of its own, so the import alone adds
+  almost nothing to a bundle. Importing a definition by its path stays the way
+  to load a style known in advance.
+
 ## [11.0.0-rc.3] - 2026-09-07
 
 ### Added

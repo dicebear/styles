@@ -17,6 +17,10 @@
   "sideEffects": false,
   "type": "module",
   "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
     "./adventurer-neutral.json": {
       "types": "./dist/adventurer-neutral.min.json",
       "default": "./dist/adventurer-neutral.min.json"

@@ -29,6 +29,17 @@ import adventurer from "@dicebear/styles/adventurer.json" with { type: "json" };
 import lorelei from "@dicebear/styles/lorelei.json" with { type: "json" };
 ```
 
+For names that are only known at runtime, a style picker for example, `all()`
+lists every style and `get(name)` loads one definition. `get()` imports the
+definition only when it runs, and bundlers keep each one in a chunk of its own:
+
+```js
+import { all, get } from "@dicebear/styles";
+
+const names = all(); // ["adventurer", "adventurer-neutral", ...]
+const definition = await get(names[0]); // undefined for an unknown name
+```
+
 **PHP**
 
 ```bash
