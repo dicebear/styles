@@ -123,6 +123,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:eyepatch"
           ]
         },
         "kurt": {
@@ -155,6 +158,9 @@
                 "fill": "#2f383b"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "prescription01": {
@@ -183,6 +189,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "prescription02": {
@@ -211,6 +220,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "round": {
@@ -239,6 +251,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "sunglasses": {
@@ -399,6 +414,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "wayfarers": {
@@ -501,6 +519,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         }
       }
@@ -952,6 +973,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "skullOutline": {
@@ -985,6 +1009,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }
@@ -1004,6 +1031,9 @@
                 "fill-opacity": ".6"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "angryNatural": {
@@ -1019,6 +1049,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "default": {
@@ -1032,6 +1065,9 @@
                 "fill-opacity": ".6"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "defaultNatural": {
@@ -1047,6 +1083,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "flatNatural": {
@@ -1062,6 +1101,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "frownNatural": {
@@ -1077,6 +1119,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "raisedExcited": {
@@ -1090,6 +1135,9 @@
                 "fill-opacity": ".6"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "raisedExcitedNatural": {
@@ -1105,6 +1153,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sadConcerned": {
@@ -1118,6 +1169,9 @@
                 "fill-opacity": ".6"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sadConcernedNatural": {
@@ -1133,6 +1187,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "unibrowNatural": {
@@ -1176,6 +1233,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "upDown": {
@@ -1189,6 +1249,9 @@
                 "fill-opacity": ".6"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "upDownNatural": {
@@ -1204,6 +1267,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -1225,6 +1291,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "cry": {
@@ -1268,6 +1337,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "default": {
@@ -1303,6 +1375,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "eyeRoll": {
@@ -1367,6 +1442,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "happy": {
@@ -1382,6 +1460,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "hearts": {
@@ -1395,6 +1476,9 @@
                 "fill-opacity": ".8"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "side": {
@@ -1408,6 +1492,9 @@
                 "fill-opacity": ".6"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "squint": {
@@ -1452,6 +1539,9 @@
                 "fill-opacity": ".7"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "surprised": {
@@ -1516,6 +1606,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wink": {
@@ -1551,6 +1644,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "winkWacky": {
@@ -1587,6 +1683,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "xDizzy": {
@@ -1600,6 +1699,9 @@
                 "fill-opacity": ".6"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }
@@ -1624,6 +1726,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "beardMajestic": {
@@ -1641,6 +1746,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "beardMedium": {
@@ -1658,6 +1766,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "moustacheFancy": {
@@ -1673,6 +1784,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "moustacheMagnum": {
@@ -1688,6 +1802,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         }
       }
@@ -1725,6 +1842,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "default": {
@@ -1740,6 +1860,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "disbelief": {
@@ -1755,6 +1878,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "eating": {
@@ -1791,6 +1917,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "grimace": {
@@ -1843,6 +1972,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "screamOpen": {
@@ -1874,6 +2006,9 @@
                 "fill": "#ff4f6d"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "serious": {
@@ -1922,6 +2057,9 @@
                 "fill": "#ff4f6d"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "tongue": {
@@ -1953,6 +2091,9 @@
                 "fill": "#ff4f6d"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "twinkle": {
@@ -1966,6 +2107,9 @@
                 "fill-opacity": ".6"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "vomit": {
@@ -2005,6 +2149,9 @@
                 "fill": "#88c553"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }
@@ -2068,6 +2215,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "bob": {
@@ -2083,6 +2233,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "bun": {
@@ -2122,6 +2275,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "curvy": {
@@ -2164,6 +2320,9 @@
                 "fill-opacity": ".6"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "dreads": {
@@ -2197,6 +2356,9 @@
                 "fill-opacity": ".3"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "dreads01": {
@@ -2232,6 +2394,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "dreads02": {
@@ -2249,6 +2414,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "frida": {
@@ -2423,6 +2591,11 @@
                 "fill": "#9177ff"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium",
+            "headwear:headband",
+            "accessory:earrings"
           ]
         },
         "frizzle": {
@@ -2440,6 +2613,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "fro": {
@@ -2464,6 +2640,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "froBand": {
@@ -2487,6 +2666,9 @@
                 "fill": "#92d9ff"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "hat": {
@@ -2511,6 +2693,9 @@
                 "fill-opacity": ".5"
               }
             }
+          ],
+          "tags": [
+            "headwear:hat"
           ]
         },
         "hijab": {
@@ -2547,6 +2732,9 @@
                 "opacity": ".9"
               }
             }
+          ],
+          "tags": [
+            "headwear:headscarf"
           ]
         },
         "longButNotTooLong": {
@@ -2571,6 +2759,9 @@
                 "fill-opacity": ".08"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "miaWallace": {
@@ -2597,6 +2788,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "shaggy": {
@@ -2614,6 +2808,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "shaggyMullet": {
@@ -2638,6 +2835,9 @@
                 "fill-opacity": ".16"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "shavedSides": {
@@ -2673,6 +2873,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "shortCurly": {
@@ -2690,6 +2893,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "shortFlat": {
@@ -2707,6 +2913,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "shortRound": {
@@ -2724,6 +2933,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "shortWaved": {
@@ -2741,6 +2953,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "sides": {
@@ -2756,6 +2971,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         },
         "straight01": {
@@ -2780,6 +2998,9 @@
                 "fill-opacity": ".16"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "straight02": {
@@ -2804,6 +3025,9 @@
                 "fill-opacity": ".27"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "straightAndStrand": {
@@ -2828,6 +3052,9 @@
                 "fill-opacity": ".16"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "theCaesar": {
@@ -2845,6 +3072,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "theCaesarAndSidePart": {
@@ -2860,6 +3090,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "turban": {
@@ -2892,6 +3125,9 @@
                 "fill-opacity": ".16"
               }
             }
+          ],
+          "tags": [
+            "headwear:turban"
           ]
         },
         "winterHat02": {
@@ -2952,6 +3188,9 @@
                 "fill-opacity": ".5"
               }
             }
+          ],
+          "tags": [
+            "headwear"
           ]
         },
         "winterHat03": {
@@ -3000,6 +3239,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         },
         "winterHat04": {
@@ -3054,6 +3296,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         },
         "winterHat1": {
@@ -3102,6 +3347,9 @@
                 "y": "50"
               }
             }
+          ],
+          "tags": [
+            "headwear"
           ]
         }
       }

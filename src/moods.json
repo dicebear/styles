@@ -208,6 +208,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "bigPupils": {
@@ -259,7 +262,10 @@
               }
             }
           ],
-          "weight": 2
+          "weight": 2,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "calm": {
           "elements": [
@@ -331,6 +337,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "closed": {
@@ -348,6 +357,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy": {
@@ -366,7 +378,10 @@
               }
             }
           ],
-          "weight": 2
+          "weight": 2,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "lookDown": {
           "elements": [
@@ -416,6 +431,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "lookSide": {
@@ -466,6 +484,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "lookUp": {
@@ -516,6 +537,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "pupils": {
@@ -567,7 +591,10 @@
               }
             }
           ],
-          "weight": 3
+          "weight": 3,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "sleepy": {
           "elements": [
@@ -635,6 +662,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "small": {
@@ -685,6 +715,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sparkle": {
@@ -756,7 +789,10 @@
               }
             }
           ],
-          "weight": 2
+          "weight": 2,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "squint": {
           "elements": [
@@ -826,6 +862,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "uneven": {
@@ -876,6 +915,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wink": {
@@ -917,7 +959,10 @@
               }
             }
           ],
-          "weight": 2
+          "weight": 2,
+          "tags": [
+            "mood:positive"
+          ]
         }
       }
     },
@@ -1745,7 +1790,10 @@
               }
             }
           ],
-          "weight": 3
+          "weight": 3,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "cat": {
           "elements": [
@@ -1762,6 +1810,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "frown": {
@@ -1779,6 +1830,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "gasp": {
@@ -1843,7 +1897,10 @@
               }
             }
           ],
-          "weight": 2
+          "weight": 2,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "line": {
           "elements": [
@@ -1896,7 +1953,10 @@
               }
             }
           ],
-          "weight": 4
+          "weight": 4,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "smileOpen": {
           "elements": [
@@ -1920,7 +1980,10 @@
               }
             }
           ],
-          "weight": 2
+          "weight": 2,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "smirk": {
           "elements": [
@@ -1937,6 +2000,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "teeth": {
@@ -1986,7 +2052,10 @@
               }
             }
           ],
-          "weight": 2
+          "weight": 2,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "wavy": {
           "elements": [
@@ -2003,6 +2072,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "wide": {
@@ -2021,7 +2093,10 @@
               }
             }
           ],
-          "weight": 3
+          "weight": 3,
+          "tags": [
+            "mood:positive"
+          ]
         }
       }
     }

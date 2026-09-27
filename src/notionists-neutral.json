@@ -79,6 +79,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant02": {
@@ -94,6 +97,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant03": {
@@ -109,6 +115,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant04": {
@@ -124,6 +133,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant05": {
@@ -139,6 +151,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant06": {
@@ -154,6 +169,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant07": {
@@ -169,6 +187,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant08": {
@@ -184,6 +205,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant09": {
@@ -199,6 +223,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant10": {
@@ -214,6 +241,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant11": {
@@ -240,6 +270,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant12": {
@@ -255,6 +288,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant13": {
@@ -270,6 +306,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }
@@ -419,6 +458,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant02": {
@@ -447,6 +489,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant03": {
@@ -475,6 +520,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "variant04": {
@@ -501,6 +549,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant05": {
@@ -516,6 +567,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant06": {
@@ -542,6 +596,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant07": {
@@ -557,6 +614,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant08": {
@@ -574,6 +634,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "variant09": {
@@ -600,6 +663,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant10": {
@@ -615,6 +681,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant11": {
@@ -632,6 +701,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         }
       }
@@ -653,6 +725,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant02": {
@@ -668,6 +743,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant03": {
@@ -683,6 +761,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant04": {
@@ -698,6 +779,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant05": {
@@ -730,6 +814,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant07": {
@@ -758,6 +845,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant08": {
@@ -797,6 +887,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant09": {
@@ -825,6 +918,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant10": {
@@ -853,6 +949,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant11": {
@@ -883,6 +982,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant12": {
@@ -911,6 +1013,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant13": {
@@ -967,6 +1072,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant15": {
@@ -1051,6 +1159,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant18": {
@@ -1066,6 +1177,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant19": {
@@ -1081,6 +1195,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant20": {
@@ -1096,6 +1213,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant21": {
@@ -1111,6 +1231,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant22": {
@@ -1126,6 +1249,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant23": {
@@ -1141,6 +1267,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant24": {
@@ -1156,6 +1285,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant25": {
@@ -1184,6 +1316,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant26": {
@@ -1214,6 +1349,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant27": {
@@ -1242,6 +1380,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant28": {
@@ -1257,6 +1398,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant29": {
@@ -1324,6 +1468,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }

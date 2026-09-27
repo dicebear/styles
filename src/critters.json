@@ -1937,6 +1937,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "bigPupils": {
@@ -2063,6 +2066,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "close": {
@@ -2157,6 +2163,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "closedLine": {
@@ -2253,6 +2262,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "dots": {
@@ -2347,6 +2359,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "four": {
@@ -2595,6 +2610,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy": {
@@ -2691,6 +2709,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "inward": {
@@ -2817,6 +2838,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "mono": {
@@ -2882,6 +2906,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "monoSleepy": {
@@ -2957,6 +2984,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "round": {
@@ -3083,6 +3113,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sideeye": {
@@ -3209,6 +3242,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sleepy": {
@@ -3355,6 +3391,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "squint": {
@@ -3638,6 +3677,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "trio": {
@@ -3825,6 +3867,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "uneven": {
@@ -3951,6 +3996,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wide": {
@@ -4079,6 +4127,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wink": {
@@ -4190,6 +4241,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -4240,6 +4294,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "dot": {
@@ -4275,6 +4332,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "grin": {
@@ -4298,6 +4358,9 @@
                 "fill": "#fb7185"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "laugh": {
@@ -4321,6 +4384,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "line": {
@@ -4403,6 +4469,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "slant": {
@@ -4421,6 +4490,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "smile": {
@@ -4439,6 +4511,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smirk": {
@@ -4457,6 +4532,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "teeth": {
@@ -4498,6 +4576,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "tongue": {
@@ -4524,6 +4605,9 @@
                 "fill": "#fb7185"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "tooth": {
@@ -4568,6 +4652,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "zigzag": {
@@ -4586,6 +4673,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }

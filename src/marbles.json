@@ -646,6 +646,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "grin": {
@@ -664,6 +667,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "jagged": {
@@ -682,6 +688,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "line": {
@@ -736,6 +745,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "small": {
@@ -754,6 +766,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smile": {
@@ -772,6 +787,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smirk": {
@@ -790,6 +808,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "tongue": {
@@ -822,6 +843,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wavy": {
@@ -840,6 +864,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }
@@ -912,6 +939,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "antenna": {
@@ -930,6 +960,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "beanie": {
@@ -975,6 +1008,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         },
         "bow": {
@@ -1006,6 +1042,10 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald",
+            "headwear"
           ]
         },
         "cap": {
@@ -1038,6 +1078,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "cowlick": {
@@ -1056,6 +1099,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "crimp": {
@@ -1074,6 +1120,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "curl": {
@@ -1092,6 +1141,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "curls": {
@@ -1110,6 +1162,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "flick": {
@@ -1128,6 +1183,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "garland": {
@@ -1146,6 +1204,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "headphones": {
@@ -1175,6 +1236,10 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald",
+            "headwear"
           ]
         },
         "knot": {
@@ -1207,6 +1272,9 @@
                 "stroke-width": "2.6"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "ringlets": {
@@ -1225,6 +1293,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "shag": {
@@ -1243,6 +1314,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "spikes": {
@@ -1261,6 +1335,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "sunhat": {
@@ -1293,6 +1370,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "headwear:hat"
           ]
         },
         "swirl": {
@@ -1311,6 +1391,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "tuft": {
@@ -1329,6 +1412,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "zigzag": {
@@ -1347,6 +1433,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         }
       }

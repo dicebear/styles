@@ -82,6 +82,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant02": {
@@ -128,6 +131,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant03": {
@@ -146,6 +152,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant04": {
@@ -164,6 +173,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant05": {
@@ -228,6 +240,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant07": {
@@ -246,6 +261,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant08": {
@@ -306,6 +324,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant09": {
@@ -366,6 +387,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant10": {
@@ -426,6 +450,10 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive",
+            "eyewear:eyepatch"
           ]
         },
         "variant11": {
@@ -457,6 +485,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant12": {
@@ -475,6 +506,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant13": {
@@ -535,6 +569,10 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive",
+            "eyewear:glasses"
           ]
         },
         "variant14": {
@@ -581,6 +619,10 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive",
+            "eyewear:glasses"
           ]
         },
         "variant15": {
@@ -641,6 +683,10 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive",
+            "eyewear:glasses"
           ]
         },
         "variant16": {
@@ -687,6 +733,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -711,6 +760,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant02": {
@@ -729,6 +781,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant03": {
@@ -747,6 +802,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant04": {
@@ -765,6 +823,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant05": {
@@ -797,6 +858,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant06": {
@@ -833,6 +897,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant08": {
@@ -883,6 +950,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant10": {
@@ -901,6 +971,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant11": {
@@ -919,6 +992,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant12": {
@@ -951,6 +1027,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant13": {
@@ -983,6 +1062,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant14": {
@@ -1001,6 +1083,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant15": {
@@ -1019,6 +1104,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant16": {
@@ -1037,6 +1125,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant17": {
@@ -1055,6 +1146,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant18": {
@@ -1073,6 +1167,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }

@@ -5263,6 +5263,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "dot": {
@@ -5297,6 +5300,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "grin": {
@@ -5351,6 +5357,9 @@
                 "fill": "#c96f5e"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "line": {
@@ -5455,6 +5464,9 @@
                 "fill": "#c96f5e"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "openSmall": {
@@ -5470,6 +5482,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "pout": {
@@ -5487,6 +5502,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "smile": {
@@ -5504,6 +5522,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smileBig": {
@@ -5521,6 +5542,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smileTongue": {
@@ -5546,6 +5570,9 @@
                 "fill": "#c96f5e"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smirk": {
@@ -5563,6 +5590,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "teeth": {
@@ -5626,6 +5656,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "uu": {
@@ -5643,6 +5676,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wavy": {
@@ -5660,6 +5696,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "zigzag": {
@@ -5678,6 +5717,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }

@@ -118,6 +118,9 @@
                 "d": "M12 0h2v2h-2zM0 0h2v2H0z"
               }
             }
+          ],
+          "tags": [
+            "accessory:earrings"
           ]
         },
         "variant02": {
@@ -142,6 +145,9 @@
                 "d": "M1 0h1v1H1zm11 0h1v1h-1z"
               }
             }
+          ],
+          "tags": [
+            "accessory:earrings"
           ]
         },
         "variant03": {
@@ -157,6 +163,9 @@
                 "d": "M12 0h1v2h-1zM1 0h1v2H1z"
               }
             }
+          ],
+          "tags": [
+            "accessory:earrings"
           ]
         },
         "variant04": {
@@ -172,6 +181,9 @@
                 "d": "M1 0h1v1H1zm11 0h1v1h-1z"
               }
             }
+          ],
+          "tags": [
+            "accessory:earrings"
           ]
         }
       }
@@ -239,6 +251,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant02": {
@@ -299,6 +314,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant03": {
@@ -359,6 +377,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant04": {
@@ -417,6 +438,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant05": {
@@ -477,6 +501,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant06": {
@@ -537,6 +564,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant07": {
@@ -597,6 +627,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant08": {
@@ -657,6 +690,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         }
       }
@@ -1626,6 +1662,9 @@
                 "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark02": {
@@ -1670,6 +1709,9 @@
                 "d": "M7 2h3v1H7z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark03": {
@@ -1712,6 +1754,9 @@
                 "d": "M5 2h2v1H5z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark04": {
@@ -1736,6 +1781,9 @@
                 "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark05": {
@@ -1771,6 +1819,9 @@
                 "d": "M0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark06": {
@@ -1806,6 +1857,9 @@
                 "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark07": {
@@ -1841,6 +1895,9 @@
                 "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "light01": {
@@ -1874,6 +1931,9 @@
                 "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light02": {
@@ -1918,6 +1978,9 @@
                 "d": "M7 2h3v1H7z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light03": {
@@ -1960,6 +2023,9 @@
                 "d": "M5 2h2v1H5z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light04": {
@@ -1984,6 +2050,9 @@
                 "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light05": {
@@ -2019,6 +2088,9 @@
                 "d": "M0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light06": {
@@ -2054,6 +2126,9 @@
                 "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light07": {
@@ -2089,6 +2164,9 @@
                 "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         }
       }
@@ -2110,6 +2188,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long02": {
@@ -2125,6 +2206,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long03": {
@@ -2140,6 +2224,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long04": {
@@ -2155,6 +2242,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long05": {
@@ -2185,6 +2275,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long07": {
@@ -2200,6 +2293,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long08": {
@@ -2215,6 +2311,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long09": {
@@ -2230,6 +2329,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long10": {
@@ -2245,6 +2347,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long11": {
@@ -2260,6 +2365,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long12": {
@@ -2275,6 +2383,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long13": {
@@ -2290,6 +2401,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long14": {
@@ -2366,6 +2480,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long16": {
@@ -2381,6 +2498,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long17": {
@@ -2396,6 +2516,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long18": {
@@ -2411,6 +2534,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long19": {
@@ -2426,6 +2552,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long20": {
@@ -2441,6 +2570,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long21": {
@@ -2456,6 +2588,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "short01": {
@@ -2471,6 +2606,9 @@
                 "d": "M12 2H4v1h8zm1 1H7v1h6zm0 1h-2v1h2zm0 1h-1v1h1zM6 4H3v1h3zm1-1H3v1h4zM5 5H3v1h2zM4 6H3v1h1z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short02": {
@@ -2486,6 +2624,9 @@
                 "d": "M12 2H4v1h8zm1 1h-2v1h2zm0 1h-1v1h1zM6 3H3v1h3zM5 4H3v1h2zM4 5H3v1h1z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short03": {
@@ -2501,6 +2642,9 @@
                 "d": "M12 2H4v1h8zm1 1h-1v1h1zM6 3H3v1h3zM5 4H3v1h2z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short04": {
@@ -2516,6 +2660,9 @@
                 "d": "M4 3H3v2h1zm9 0h-1v2h1zm-1-1H4v1h8z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short05": {
@@ -2531,6 +2678,9 @@
                 "d": "M9 1H8v3h1zM8 2H7v2h1zm2-2H9v3h1zm1 1h-1v1h1z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short06": {
@@ -2568,6 +2718,9 @@
                 "d": "M4 2H2v2h2zm10 0h-2v2h2z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short07": {
@@ -2583,6 +2736,9 @@
                 "d": "M3 3h1v1H3zm2-1H4v1h1zm7 0h-1v1h1zm1 1h-1v1h1z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         },
         "short08": {
@@ -2598,6 +2754,9 @@
                 "d": "M5 1h5v1H5zM4 2h8v1H4zm5 1h1v1H9zm2 0h2v1h-2zM3 3h2v1H3z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short09": {
@@ -2613,6 +2772,9 @@
                 "d": "M7 1h5v1H7zM4 2h7v1H4zM3 3h5v1H3z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short10": {
@@ -2628,6 +2790,9 @@
                 "d": "M3 2h10v1H3zm0 1h2v1H3zm4-2h5v1H7zm6 2h-1v1h1z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short11": {
@@ -2654,6 +2819,9 @@
                 "d": "M15 4h1v1h-1zm-1-1h1v1h-1zm0 5h1v1h-1zm1-2h1v1h-1zm0 1h1v1h-1zm-2-5h1v1h-1zM2 2h1v1H2zm1-1h1v1H3z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "short12": {
@@ -2669,6 +2837,9 @@
                 "d": "M4 2h1v3H4zm2 0h1v2H6zm2 0h1v2H8zm2 0h1v2h-1z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         },
         "short13": {
@@ -2706,6 +2877,9 @@
                 "d": "M12 1h1v1h-1zm2 2h1v1h-1zm-1 1h1v1h-1zM1 3h1v1H1z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short14": {
@@ -2721,6 +2895,9 @@
                 "d": "M3 4h1v3H3zm9 0h1v3h-1zM3 2h10v2H3z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short15": {
@@ -2736,6 +2913,9 @@
                 "d": "M3 3h10v1H3zm1-1h8v1H4zM2 4h2v2H2zm10 0h2v2h-2z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short16": {
@@ -2762,6 +2942,9 @@
                 "d": "M4 1h8v2H4z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short17": {
@@ -2799,6 +2982,9 @@
                 "d": "M4 1h8v2H4z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short18": {
@@ -2825,6 +3011,9 @@
                 "d": "M12 3h2v3h-2z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         },
         "short19": {
@@ -2851,6 +3040,9 @@
                 "d": "M8 3h1v1H8z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short20": {
@@ -2866,6 +3058,9 @@
                 "d": "M6 2h4v1H6zm1 1h2v1H7z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short21": {
@@ -2881,6 +3076,9 @@
                 "d": "M7 1h2v2H7z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short22": {
@@ -2896,6 +3094,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short23": {
@@ -2911,6 +3112,9 @@
                 "d": "M6 2h4v1H6z"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short24": {
@@ -2926,6 +3130,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         }
       }
@@ -2957,6 +3164,9 @@
                 "d": "M4 0h1v1H4zM3 1h1v1H3zM2 2h1v1H2zM1 3h1v1H1z"
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         },
         "variant02": {
@@ -2981,6 +3191,9 @@
                 "d": "M10 4H9V1h1z"
               }
             }
+          ],
+          "tags": [
+            "headwear:cap"
           ]
         },
         "variant03": {
@@ -3005,6 +3218,9 @@
                 "d": "M12 1v1H2V1zm1 2v1H1V3z"
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         },
         "variant04": {
@@ -3029,6 +3245,9 @@
                 "d": "M12 1v1H2V1zm1 2v1H1V3z"
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         },
         "variant05": {
@@ -3053,6 +3272,9 @@
                 "d": "M11 1h1v1h-1zm-1 1h1v1h-1zM9 3h1v1H9zm0-3h1v1H9zM8 1h1v1H8zM7 2h1v1H7zM6 3h1v1H6z"
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         },
         "variant06": {
@@ -3077,6 +3299,9 @@
                 "d": "M10 1h1v3h-1z"
               }
             }
+          ],
+          "tags": [
+            "headwear:hat"
           ]
         },
         "variant07": {
@@ -3092,6 +3317,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "headwear:cap"
           ]
         },
         "variant08": {
@@ -3116,6 +3344,9 @@
                 "d": "M11 2v1H8V2z"
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         },
         "variant09": {
@@ -3140,6 +3371,9 @@
                 "d": "M10 2h1v3h-1zM8 2h1v3H8z"
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         },
         "variant10": {
@@ -3164,6 +3398,9 @@
                 "d": "M9 2h1v3H9zM7 3h1v2H7z"
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         }
       }
@@ -3215,6 +3452,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy04": {
@@ -3230,6 +3470,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy05": {
@@ -3254,6 +3497,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy06": {
@@ -3269,6 +3515,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy07": {
@@ -3284,6 +3533,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy08": {
@@ -3299,6 +3551,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy09": {
@@ -3316,6 +3571,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy10": {
@@ -3331,6 +3589,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy11": {
@@ -3346,6 +3607,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy12": {
@@ -3369,6 +3633,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy13": {
@@ -3393,6 +3660,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sad01": {
@@ -3410,6 +3680,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sad02": {
@@ -3425,6 +3698,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sad03": {
@@ -3440,6 +3716,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sad04": {
@@ -3515,6 +3794,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sad09": {
@@ -3530,6 +3812,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sad10": {
@@ -3545,6 +3830,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }

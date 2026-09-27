@@ -475,6 +475,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "goatee": {
@@ -508,6 +511,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "mustache": {
@@ -550,6 +556,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "stubble": {
@@ -563,6 +572,9 @@
                 "fill-opacity": ".15"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         }
       }
@@ -631,6 +643,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "flat": {
@@ -646,6 +661,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "raised": {
@@ -661,6 +679,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "soft": {
@@ -676,6 +697,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }
@@ -1108,6 +1132,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "round": {
@@ -1146,6 +1173,9 @@
                 "fill-opacity": ".18"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "shades": {
@@ -1167,6 +1197,9 @@
                 "fill-opacity": ".25"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "square": {
@@ -1206,6 +1239,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "visor": {
@@ -1227,6 +1263,9 @@
                 "fill-opacity": ".4"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         }
       }
@@ -1278,7 +1317,10 @@
               }
             }
           ],
-          "weight": 0.4
+          "weight": 0.4,
+          "tags": [
+            "mood:negative"
+          ]
         },
         "grin": {
           "elements": [
@@ -1337,6 +1379,9 @@
                 "fill": "#ff8db1"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "ooh": {
@@ -1361,6 +1406,9 @@
                 "fill": "#26190f"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smirk": {
@@ -1374,7 +1422,10 @@
               }
             }
           ],
-          "weight": 0.7
+          "weight": 0.7,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "tongue": {
           "elements": [
@@ -1394,6 +1445,9 @@
                 "fill": "#26190f"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wideSmile": {
@@ -1406,6 +1460,9 @@
                 "fill": "#26190f"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -4067,6 +4124,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "animalEars": {
@@ -4297,7 +4357,10 @@
               }
             }
           ],
-          "weight": 0.7
+          "weight": 0.7,
+          "tags": [
+            "headwear"
+          ]
         },
         "beanie": {
           "elements": [
@@ -4375,7 +4438,10 @@
               }
             }
           ],
-          "weight": 0.8
+          "weight": 0.8,
+          "tags": [
+            "headwear:beanie"
+          ]
         },
         "bob": {
           "elements": [
@@ -4866,6 +4932,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "bowl": {
@@ -5015,6 +5084,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "braids": {
@@ -5712,6 +5784,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "bunnyEars": {
@@ -5942,7 +6017,10 @@
               }
             }
           ],
-          "weight": 0.7
+          "weight": 0.7,
+          "tags": [
+            "headwear"
+          ]
         },
         "buns": {
           "elements": [
@@ -6259,6 +6337,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "cap": {
@@ -6360,7 +6441,10 @@
               }
             }
           ],
-          "weight": 0.8
+          "weight": 0.8,
+          "tags": [
+            "headwear:cap"
+          ]
         },
         "curly": {
           "elements": [
@@ -6614,6 +6698,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "halfShaved": {
@@ -6694,6 +6781,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "longStraight": {
@@ -7185,6 +7275,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "longWavy": {
@@ -7734,6 +7827,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "mohawk": {
@@ -7776,6 +7872,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "partedLong": {
@@ -8202,6 +8301,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "ponytail": {
@@ -8778,6 +8880,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "shoulderLength": {
@@ -9269,6 +9374,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "sideSwept": {
@@ -9443,6 +9551,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "spiky": {
@@ -9601,6 +9712,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "twinTails": {
@@ -10007,6 +10121,9 @@
                 "fill-opacity": ".24"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         }
       }

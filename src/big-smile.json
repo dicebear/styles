@@ -125,6 +125,9 @@
                 "fill": "#ffe7e2"
               }
             }
+          ],
+          "tags": [
+            "headwear"
           ]
         },
         "clownNose": {
@@ -156,6 +159,9 @@
                 "fill": "#ff7256"
               }
             }
+          ],
+          "tags": [
+            "accessory"
           ]
         },
         "faceMask": {
@@ -186,6 +192,9 @@
                 "fill": "#ededed"
               }
             }
+          ],
+          "tags": [
+            "accessory:mask"
           ]
         },
         "glasses": {
@@ -210,6 +219,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "mustache": {
@@ -232,6 +244,9 @@
                 "fill": "#5e351b"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "sailormoonCrown": {
@@ -279,6 +294,9 @@
                 "fill": "#ff7256"
               }
             }
+          ],
+          "tags": [
+            "headwear:headband"
           ]
         },
         "sleepMask": {
@@ -309,6 +327,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "accessory:mask"
           ]
         },
         "sunglasses": {
@@ -332,6 +353,9 @@
                 "opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         }
       }
@@ -360,6 +384,9 @@
                 "fill": "#71472d"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "cheery": {
@@ -380,6 +407,9 @@
                 "fill": "#71472d"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "confused": {
@@ -410,6 +440,9 @@
                 "fill": "#71472d"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "normal": {
@@ -430,6 +463,9 @@
                 "fill": "#71472d"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sad": {
@@ -452,6 +488,9 @@
                 "fill": "#71472d"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sleepy": {
@@ -472,6 +511,9 @@
                 "fill": "#71472d"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "starstruck": {
@@ -500,6 +542,9 @@
                 "fill": "#71472d"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "winking": {
@@ -520,6 +565,9 @@
                 "fill": "#71472d"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -570,6 +618,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "bowlCutHair": {
@@ -594,6 +645,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "braids": {
@@ -628,6 +682,9 @@
                 "fill-opacity": ".5"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "bunHair": {
@@ -690,6 +747,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "curlyShortHair": {
@@ -705,6 +765,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "froBun": {
@@ -838,6 +901,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "mohawk": {
@@ -880,6 +946,9 @@
                 "fill-opacity": ".7"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "shavedHead": {
@@ -895,6 +964,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "shortHair": {
@@ -919,6 +991,9 @@
                 "fill-opacity": ".1"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "straightHair": {
@@ -943,6 +1018,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "wavyBob": {
@@ -998,6 +1076,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         }
       }
@@ -1168,6 +1249,9 @@
                 "transform": "rotate(26.4 -21.4 139.5)"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "gapSmile": {
@@ -1196,6 +1280,9 @@
                 "fill": "#ee7e8b"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "kawaii": {
@@ -1210,6 +1297,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "openSad": {
@@ -1238,6 +1328,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "openedSmile": {
@@ -1266,6 +1359,9 @@
                 "fill": "#ee7e8b"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "teethSmile": {
@@ -1286,6 +1382,9 @@
                 "fill": "#d1d3d4"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "unimpressed": {

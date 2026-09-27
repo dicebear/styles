@@ -480,6 +480,9 @@
                 "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark02": {
@@ -524,6 +527,9 @@
                 "d": "M7 2h3v1H7z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark03": {
@@ -566,6 +572,9 @@
                 "d": "M5 2h2v1H5z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark04": {
@@ -590,6 +599,9 @@
                 "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark05": {
@@ -625,6 +637,9 @@
                 "d": "M0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark06": {
@@ -660,6 +675,9 @@
                 "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "dark07": {
@@ -695,6 +713,9 @@
                 "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "light01": {
@@ -728,6 +749,9 @@
                 "d": "M10 1h2v1h-2zM0 1h2v1H0zm5 1h2v1H5z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light02": {
@@ -772,6 +796,9 @@
                 "d": "M7 2h3v1H7z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light03": {
@@ -814,6 +841,9 @@
                 "d": "M5 2h2v1H5z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light04": {
@@ -838,6 +868,9 @@
                 "d": "M1 1h1v1H1zm4 0h2v1H5zm5 0h1v1h-1z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light05": {
@@ -873,6 +906,9 @@
                 "d": "M0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light06": {
@@ -908,6 +944,9 @@
                 "d": "M5 1h2v1H5zM0 1h2v1H0zm10 0h2v1h-2z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "light07": {
@@ -943,6 +982,9 @@
                 "d": "M0 1h1v1H0zm11 0h1v1h-1z"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         }
       }
@@ -994,6 +1036,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy04": {
@@ -1009,6 +1054,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy05": {
@@ -1033,6 +1081,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy06": {
@@ -1048,6 +1099,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy07": {
@@ -1063,6 +1117,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy08": {
@@ -1078,6 +1135,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy09": {
@@ -1095,6 +1155,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy10": {
@@ -1110,6 +1173,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy11": {
@@ -1125,6 +1191,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy12": {
@@ -1148,6 +1217,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy13": {
@@ -1172,6 +1244,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sad01": {
@@ -1189,6 +1264,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sad02": {
@@ -1204,6 +1282,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sad03": {
@@ -1219,6 +1300,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sad04": {
@@ -1294,6 +1378,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sad09": {
@@ -1309,6 +1396,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sad10": {
@@ -1324,6 +1414,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }

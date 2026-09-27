@@ -21,6 +21,11 @@ Versions track the DiceBear release line.
   runs, and bundlers give each one a chunk of its own, so the import alone adds
   almost nothing to a bundle. Importing a definition by its path stays the way
   to load a style known in advance.
+- **Variant tags for the character styles.** 35 character styles tag their
+  variants for mood, hair length, headwear, facial hair, eyewear, and
+  accessory, so the `tags` option can filter them, for example
+  `tags: ['hairLength:long', '!facialHair']`. The docs page "How DiceBear tags
+  variants" describes each category.
 
 ## [11.0.0-rc.3] - 2026-09-07
 

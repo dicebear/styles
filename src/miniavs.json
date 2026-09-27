@@ -217,6 +217,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "happy": {
@@ -229,6 +232,9 @@
                 "fill": "#1b0b47"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "normal": {
@@ -261,6 +267,9 @@
                 "x": "11"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -303,6 +312,9 @@
                 "stroke-width": "2"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         }
       }
@@ -358,6 +370,9 @@
                 "y": "26"
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         },
         "classic01": {
@@ -375,6 +390,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "classic02": {
@@ -392,6 +410,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "curly": {
@@ -420,6 +441,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "elvis": {
@@ -435,6 +459,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "long": {
@@ -452,6 +479,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "ponyTail": {
@@ -488,6 +518,10 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium",
+            "headwear"
           ]
         },
         "slaughter": {
@@ -505,6 +539,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         },
         "stylish": {
@@ -520,6 +557,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         }
       }
@@ -760,6 +800,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "horshoe": {
@@ -777,6 +820,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "pencilThin": {
@@ -794,6 +840,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "pencilThinBeard": {
@@ -809,6 +858,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         }
       }

@@ -112,6 +112,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "chinMoustache": {
@@ -131,6 +134,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "fullBeard": {
@@ -150,6 +156,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "longBeard": {
@@ -178,6 +187,9 @@
                 "fill-opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "moustacheTwirl": {
@@ -197,6 +209,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         }
       }
@@ -526,6 +541,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "happy": {
@@ -561,6 +579,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "neutral": {
@@ -596,6 +617,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "raised": {
@@ -631,6 +655,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sad": {
@@ -666,6 +693,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }
@@ -1221,6 +1251,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "laugh": {
@@ -1282,6 +1315,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sad": {
@@ -1295,6 +1331,9 @@
                 "fill-opacity": ".5"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "smile": {
@@ -1317,6 +1356,9 @@
                 "fill-opacity": ".5"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -1416,6 +1458,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "longWavy": {
@@ -1507,6 +1552,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "neckHigh": {
@@ -1599,6 +1647,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "shoulderHigh": {
@@ -1691,6 +1742,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         }
       }

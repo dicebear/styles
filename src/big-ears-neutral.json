@@ -364,6 +364,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant02": {
@@ -397,6 +400,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant03": {
@@ -419,6 +425,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant04": {
@@ -464,6 +473,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant05": {
@@ -498,6 +510,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant06": {
@@ -562,6 +577,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant07": {
@@ -626,6 +644,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant08": {
@@ -682,6 +703,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant09": {
@@ -736,6 +760,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant10": {
@@ -756,6 +783,9 @@
                 "fill": "#ffebb7"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant11": {
@@ -826,6 +856,9 @@
                 "fill": "#ffebb7"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant14": {
@@ -882,6 +915,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant15": {
@@ -938,6 +974,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant16": {
@@ -950,6 +989,9 @@
                 "d": "M25 47.1h40.4v36.8H25zM25 14h40.4v11H25zm99.3 33.1h40.4v36.8h-40.4zm0-33.1h40.4v11h-40.4z"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant17": {
@@ -962,6 +1004,9 @@
                 "d": "M25 59.1h40.4v11H25zM25 26h40.4v11H25zm99.3 33.1h40.4v11h-40.4zm0-33.1h40.4v11h-40.4z"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant18": {
@@ -1002,6 +1047,9 @@
                 "d": "M0 18h76.9v20.1H0zm112.4 0h76.9v20.1h-76.9z"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant19": {
@@ -1064,6 +1112,9 @@
                 "y": "35.7"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant20": {
@@ -1126,6 +1177,9 @@
                 "y": "35.7"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant21": {
@@ -1212,6 +1266,9 @@
                 "y": "44.4"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant22": {
@@ -1282,6 +1339,9 @@
                 "y": "42.2"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant23": {
@@ -1324,6 +1384,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant24": {
@@ -1378,6 +1441,9 @@
                 "fill": "#757575"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant25": {
@@ -1412,6 +1478,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant26": {
@@ -1466,6 +1535,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant27": {
@@ -1489,6 +1561,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant28": {
@@ -1501,6 +1576,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant29": {
@@ -1536,6 +1614,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant30": {
@@ -1560,6 +1641,9 @@
                 "fill": "#161616"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant31": {
@@ -1604,6 +1688,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant32": {
@@ -1648,6 +1735,9 @@
                 "stroke-linecap": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -1813,6 +1903,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0202": {
@@ -1835,6 +1928,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0203": {
@@ -1857,6 +1953,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0204": {
@@ -1869,6 +1968,9 @@
                 "fill": "#f9f9f9"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0205": {
@@ -1881,6 +1983,9 @@
                 "fill": "#de8383"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0301": {
@@ -1913,6 +2018,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0302": {
@@ -1935,6 +2043,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0303": {
@@ -1957,6 +2068,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0304": {
@@ -1969,6 +2083,9 @@
                 "fill": "#f9f9f9"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0305": {
@@ -1981,6 +2098,9 @@
                 "fill": "#de8383"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0401": {
@@ -2013,6 +2133,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0402": {
@@ -2035,6 +2158,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0403": {
@@ -2057,6 +2183,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0404": {
@@ -2069,6 +2198,9 @@
                 "fill": "#f9f9f9"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0405": {
@@ -2081,6 +2213,9 @@
                 "fill": "#de8383"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0501": {
@@ -2113,6 +2248,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0502": {
@@ -2135,6 +2273,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0503": {
@@ -2157,6 +2298,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0504": {
@@ -2169,6 +2313,9 @@
                 "fill": "#f9f9f9"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0505": {
@@ -2181,6 +2328,9 @@
                 "fill": "#de8383"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0601": {
@@ -2293,6 +2443,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0702": {
@@ -2307,6 +2460,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0703": {
@@ -2321,6 +2477,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0704": {
@@ -2333,6 +2492,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0705": {
@@ -2347,6 +2509,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant0706": {
@@ -2361,6 +2526,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0707": {
@@ -2375,6 +2543,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant0708": {
@@ -2389,6 +2560,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }

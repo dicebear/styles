@@ -48,6 +48,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "bowl": {
@@ -66,6 +69,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "cap": {
@@ -81,6 +87,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "curls": {
@@ -96,6 +105,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "frame": {
@@ -111,6 +123,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "part": {
@@ -126,6 +141,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "side": {
@@ -141,6 +159,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "wave": {
@@ -156,6 +177,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         }
       }
@@ -305,6 +329,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "calm": {
@@ -323,6 +350,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "grin": {
@@ -341,6 +371,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smile": {
@@ -359,6 +392,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smirk": {
@@ -377,6 +413,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }

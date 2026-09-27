@@ -311,6 +311,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "happy": {
@@ -388,6 +391,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "wink": {
@@ -477,6 +483,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "goatee": {
@@ -494,6 +503,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "pyramid": {
@@ -509,6 +521,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "shadow": {
@@ -525,6 +540,9 @@
                 "opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "soulPatch": {
@@ -540,6 +558,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "walrus": {
@@ -555,6 +576,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         }
       }
@@ -578,6 +602,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         },
         "balding": {
@@ -608,6 +635,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         },
         "beanie": {
@@ -631,6 +661,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "headwear:beanie"
           ]
         },
         "bobBangs": {
@@ -659,6 +692,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "bobCut": {
@@ -687,6 +723,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "bunUndercut": {
@@ -739,6 +778,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "headwear:headband"
           ]
         },
         "buzzcut": {
@@ -757,6 +799,9 @@
                 "style": "mix-blend-mode:multiply"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "cap": {
@@ -800,6 +845,9 @@
                 "style": "mix-blend-mode:lighten"
               }
             }
+          ],
+          "tags": [
+            "headwear:cap"
           ]
         },
         "curly": {
@@ -858,6 +906,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "curlyBun": {
@@ -883,6 +934,9 @@
                 "fill": "#f55d81"
               }
             }
+          ],
+          "tags": [
+            "headwear:headband"
           ]
         },
         "curlyHighTop": {
@@ -941,6 +995,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "extraLong": {
@@ -969,6 +1026,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "fade": {
@@ -1064,6 +1124,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "long": {
@@ -1092,6 +1155,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "mohawk": {
@@ -1118,6 +1184,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "pigtails": {
@@ -1154,6 +1223,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "headwear:headband"
           ]
         },
         "shortCombover": {
@@ -1182,6 +1254,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "shortComboverChops": {
@@ -1210,6 +1285,9 @@
                 "style": "mix-blend-mode:overlay"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "sideShave": {
@@ -1239,6 +1317,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "straightBun": {
@@ -1262,6 +1343,9 @@
                 "fill": "#f55d81"
               }
             }
+          ],
+          "tags": [
+            "headwear:headband"
           ]
         }
       }
@@ -1280,6 +1364,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "frown": {
@@ -1292,6 +1379,9 @@
                 "fill": "#1b0640"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "lips": {
@@ -1312,6 +1402,9 @@
                 "fill": "#f57b98"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "pacifier": {
@@ -1348,6 +1441,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "accessory"
           ]
         },
         "smile": {
@@ -1360,6 +1456,9 @@
                 "fill": "#1b0640"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smirk": {
@@ -1372,6 +1471,9 @@
                 "fill": "#1b0640"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "surprise": {

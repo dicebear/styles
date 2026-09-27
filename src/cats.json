@@ -481,6 +481,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "accessory"
           ]
         },
         "plain": {
@@ -498,6 +501,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "accessory"
           ]
         },
         "tag": {
@@ -539,6 +545,9 @@
                 "opacity": ".2"
               }
             }
+          ],
+          "tags": [
+            "accessory"
           ]
         }
       }
@@ -615,6 +624,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "down": {
@@ -685,6 +697,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy": {
@@ -704,7 +719,10 @@
               }
             }
           ],
-          "weight": 2
+          "weight": 2,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "relaxed": {
           "elements": [
@@ -722,6 +740,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "round": {
@@ -793,7 +814,10 @@
               }
             }
           ],
-          "weight": 3
+          "weight": 3,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "sideeye": {
           "elements": [
@@ -863,6 +887,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sleepy": {
@@ -938,6 +965,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "slit": {
@@ -1010,6 +1040,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "squint": {
@@ -1085,6 +1118,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "up": {
@@ -1155,6 +1191,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wide": {
@@ -1225,6 +1264,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wink": {
@@ -1276,6 +1318,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }

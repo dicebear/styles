@@ -143,6 +143,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         }
       }
@@ -165,6 +168,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "accessory:earrings"
           ]
         },
         "variant02": {
@@ -190,6 +196,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "accessory:earrings"
           ]
         },
         "variant03": {
@@ -205,6 +214,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "accessory:earrings"
           ]
         },
         "variant04": {
@@ -220,6 +232,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "accessory:earrings"
           ]
         },
         "variant05": {
@@ -235,6 +250,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "accessory:earrings"
           ]
         },
         "variant06": {
@@ -250,6 +268,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "accessory:earrings"
           ]
         }
       }
@@ -271,6 +292,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant02": {
@@ -286,6 +310,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant03": {
@@ -301,6 +328,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant04": {
@@ -316,6 +346,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant05": {
@@ -346,6 +379,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant07": {
@@ -361,6 +397,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant08": {
@@ -376,6 +415,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant09": {
@@ -391,6 +433,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant10": {
@@ -406,6 +451,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant11": {
@@ -421,6 +469,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant12": {
@@ -436,6 +487,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant13": {
@@ -451,6 +505,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant14": {
@@ -466,6 +523,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant15": {
@@ -481,6 +541,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -550,6 +613,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant02": {
@@ -613,6 +679,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant03": {
@@ -674,6 +743,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant04": {
@@ -748,6 +820,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant05": {
@@ -818,6 +893,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant06": {
@@ -855,6 +933,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant07": {
@@ -914,6 +995,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant08": {
@@ -1028,6 +1112,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant09": {
@@ -1098,6 +1185,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant10": {
@@ -1157,6 +1247,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant11": {
@@ -1227,6 +1320,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant12": {
@@ -1297,6 +1393,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant13": {
@@ -1367,6 +1466,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant14": {
@@ -1437,6 +1539,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant15": {
@@ -1474,6 +1579,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant16": {
@@ -1544,6 +1652,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant17": {
@@ -1614,6 +1725,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant18": {
@@ -1684,6 +1798,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant19": {
@@ -1699,6 +1816,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant20": {
@@ -1714,6 +1834,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant21": {
@@ -1766,6 +1889,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant22": {
@@ -1816,6 +1942,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant23": {
@@ -1890,6 +2019,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant24": {
@@ -1949,6 +2081,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant25": {
@@ -2023,6 +2158,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant26": {
@@ -2086,6 +2224,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -2141,6 +2282,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant02": {
@@ -2158,6 +2302,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "variant03": {
@@ -2175,6 +2322,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "variant04": {
@@ -2192,6 +2342,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "variant05": {
@@ -2209,6 +2362,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         }
       }
@@ -2241,6 +2397,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long02": {
@@ -2274,6 +2433,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long03": {
@@ -2416,6 +2578,10 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium",
+            "headwear:headband"
           ]
         },
         "long04": {
@@ -2475,6 +2641,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long05": {
@@ -2501,6 +2670,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long06": {
@@ -2531,6 +2703,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long07": {
@@ -2586,6 +2761,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long08": {
@@ -2709,6 +2887,10 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long",
+            "headwear:headband"
           ]
         },
         "long09": {
@@ -2766,6 +2948,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long10": {
@@ -3000,6 +3185,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long13": {
@@ -3117,6 +3305,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long15": {
@@ -3234,6 +3425,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long17": {
@@ -3267,6 +3461,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long18": {
@@ -3310,6 +3507,10 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long",
+            "headwear"
           ]
         },
         "long19": {
@@ -3363,6 +3564,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "long20": {
@@ -3409,6 +3613,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long21": {
@@ -3462,6 +3669,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long22": {
@@ -3488,6 +3698,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long23": {
@@ -3587,6 +3800,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long25": {
@@ -3620,6 +3836,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "long26": {
@@ -3668,6 +3887,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "short01": {
@@ -3721,6 +3943,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short02": {
@@ -3754,6 +3979,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short03": {
@@ -3787,6 +4015,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short04": {
@@ -3840,6 +4071,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short05": {
@@ -3966,6 +4200,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "short07": {
@@ -4019,6 +4256,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short08": {
@@ -4072,6 +4312,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short09": {
@@ -4145,6 +4388,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short10": {
@@ -4178,6 +4424,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short11": {
@@ -4231,6 +4480,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short12": {
@@ -4264,6 +4516,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         },
         "short13": {
@@ -4328,6 +4583,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short14": {
@@ -4381,6 +4639,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short15": {
@@ -4414,6 +4675,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short16": {
@@ -4447,6 +4711,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short17": {
@@ -4480,6 +4747,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short18": {
@@ -4533,6 +4803,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "short19": {
@@ -4567,6 +4840,9 @@
                 "transform": "translate(630.5 421.2)"
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         }
       }
@@ -4633,6 +4909,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant02": {
@@ -4648,6 +4927,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant03": {
@@ -4674,6 +4956,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant04": {
@@ -4689,6 +4974,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant05": {
@@ -4737,6 +5025,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant06": {
@@ -4774,6 +5065,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant07": {
@@ -4822,6 +5116,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant08": {
@@ -4859,6 +5156,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant09": {
@@ -4941,6 +5241,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant13": {
@@ -4975,6 +5278,9 @@
                 "fill": "#6fa942"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant14": {
@@ -5012,6 +5318,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant15": {
@@ -5060,6 +5369,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant16": {
@@ -5086,6 +5398,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant17": {
@@ -5101,6 +5416,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant18": {
@@ -5131,6 +5449,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant20": {
@@ -5157,6 +5478,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant21": {
@@ -5183,6 +5507,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant22": {
@@ -5209,6 +5536,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant23": {
@@ -5235,6 +5565,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant24": {
@@ -5283,6 +5616,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant25": {
@@ -5320,6 +5656,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant26": {
@@ -5368,6 +5707,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant27": {
@@ -5405,6 +5747,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant28": {
@@ -5442,6 +5787,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant29": {
@@ -5457,6 +5805,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant30": {
@@ -5483,6 +5834,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }

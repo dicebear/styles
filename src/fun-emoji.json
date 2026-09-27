@@ -55,6 +55,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "closed2": {
@@ -67,6 +70,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "crying": {
@@ -87,6 +93,9 @@
                 "fill": "#4abcf4"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "cute": {
@@ -145,6 +154,9 @@
                 "opacity": ".1"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "glasses": {
@@ -329,6 +341,10 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive",
+            "eyewear:glasses"
           ]
         },
         "love": {
@@ -397,6 +413,9 @@
                 "opacity": ".4"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "pissed": {
@@ -459,6 +478,9 @@
                 "opacity": ".1"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "plain": {
@@ -521,6 +543,9 @@
                 "opacity": ".1"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sad": {
@@ -583,6 +608,9 @@
                 "opacity": ".1"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "shades": {
@@ -683,6 +711,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "sleepClose": {
@@ -695,6 +726,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "stars": {
@@ -761,6 +795,9 @@
                 "opacity": ".4"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "tearDrop": {
@@ -831,6 +868,9 @@
                 "fill": "#4abcf4"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "wink": {
@@ -872,6 +912,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wink2": {
@@ -913,6 +956,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -931,6 +977,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "drip": {
@@ -961,6 +1010,9 @@
                 "fill": "#4abcf4"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "faceMask": {
@@ -1029,6 +1081,9 @@
                 "style": "mix-blend-mode:soft-light"
               }
             }
+          ],
+          "tags": [
+            "accessory:mask"
           ]
         },
         "kissHeart": {
@@ -1073,6 +1128,9 @@
                 "opacity": ".4"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "lilSmile": {
@@ -1085,6 +1143,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "pissed": {
@@ -1107,6 +1168,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "plain": {
@@ -1142,6 +1206,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "shout": {
@@ -1182,6 +1249,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "shy": {
@@ -1194,6 +1264,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "sick": {
@@ -1276,6 +1349,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "smileLol": {
@@ -1342,6 +1418,9 @@
                 "style": "mix-blend-mode:soft-light"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smileTeeth": {
@@ -1385,6 +1464,9 @@
                 "style": "mix-blend-mode:soft-light"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "tongueOut": {
@@ -1533,6 +1615,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "wideSmile": {
@@ -1545,6 +1630,9 @@
                 "fill": "#000000"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }

@@ -119,6 +119,9 @@
                 "fill-opacity": ".8"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "dizzy": {
@@ -134,6 +137,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "eva": {
@@ -159,6 +165,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "frame1": {
@@ -194,6 +203,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "frame2": {
@@ -230,6 +242,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "glow": {
@@ -322,6 +337,9 @@
                 "fill-opacity": ".8"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "happy": {
@@ -338,6 +356,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "hearts": {
@@ -351,6 +372,9 @@
                 "fill-opacity": ".8"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "robocop": {
@@ -416,6 +440,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "round": {
@@ -440,6 +467,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "roundFrame01": {
@@ -464,6 +494,9 @@
                 "fill": "#f4f4f4"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "roundFrame02": {
@@ -509,6 +542,9 @@
                 "fill-opacity": ".8"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "sensor": {
@@ -555,6 +591,9 @@
                 "fill": "#ffffff"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "shade01": {
@@ -587,6 +626,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -978,6 +1020,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "diagram": {
@@ -1193,6 +1238,9 @@
                 "fill-opacity": ".6"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smile02": {
@@ -1255,6 +1303,9 @@
                 }
               ]
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "square01": {

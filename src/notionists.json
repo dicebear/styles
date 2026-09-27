@@ -117,6 +117,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant02": {
@@ -134,6 +137,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant03": {
@@ -149,6 +155,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant04": {
@@ -164,6 +173,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant05": {
@@ -179,6 +191,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant06": {
@@ -194,6 +209,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant07": {
@@ -209,6 +227,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant08": {
@@ -235,6 +256,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant09": {
@@ -250,6 +274,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant10": {
@@ -265,6 +292,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant11": {
@@ -280,6 +310,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         },
         "variant12": {
@@ -295,6 +328,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "facialHair"
           ]
         }
       }
@@ -2046,6 +2082,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant02": {
@@ -2061,6 +2100,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant03": {
@@ -2076,6 +2118,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant04": {
@@ -2091,6 +2136,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant05": {
@@ -2106,6 +2154,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant06": {
@@ -2121,6 +2172,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant07": {
@@ -2136,6 +2190,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant08": {
@@ -2151,6 +2208,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant09": {
@@ -2166,6 +2226,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant10": {
@@ -2181,6 +2244,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant11": {
@@ -2207,6 +2273,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant12": {
@@ -2222,6 +2291,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant13": {
@@ -2237,6 +2309,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         }
       }
@@ -2840,6 +2915,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant02": {
@@ -2868,6 +2946,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant03": {
@@ -2896,6 +2977,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "variant04": {
@@ -2922,6 +3006,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant05": {
@@ -2937,6 +3024,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant06": {
@@ -2963,6 +3053,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant07": {
@@ -2978,6 +3071,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant08": {
@@ -2995,6 +3091,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         },
         "variant09": {
@@ -3021,6 +3120,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant10": {
@@ -3036,6 +3138,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "eyewear:sunglasses"
           ]
         },
         "variant11": {
@@ -3053,6 +3158,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "eyewear:glasses"
           ]
         }
       }
@@ -3087,6 +3195,10 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short",
+            "headwear:cap"
           ]
         },
         "variant01": {
@@ -3102,6 +3214,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant02": {
@@ -3119,6 +3234,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "variant03": {
@@ -3134,6 +3252,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "variant04": {
@@ -3149,6 +3270,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "variant05": {
@@ -3164,6 +3288,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant06": {
@@ -3179,6 +3306,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant07": {
@@ -3194,6 +3324,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant08": {
@@ -3222,6 +3355,10 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:long",
+            "headwear:headband"
           ]
         },
         "variant09": {
@@ -3237,6 +3374,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "variant10": {
@@ -3252,6 +3392,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "variant11": {
@@ -3267,6 +3410,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "variant12": {
@@ -3282,6 +3428,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant13": {
@@ -3297,6 +3446,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant14": {
@@ -3325,6 +3477,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant15": {
@@ -3340,6 +3495,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant16": {
@@ -3357,6 +3515,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant17": {
@@ -3372,6 +3533,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant18": {
@@ -3387,6 +3551,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant19": {
@@ -3402,6 +3569,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant20": {
@@ -3428,6 +3598,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "variant21": {
@@ -3443,6 +3616,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant22": {
@@ -3458,6 +3634,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant23": {
@@ -3473,6 +3652,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "variant24": {
@@ -3488,6 +3670,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "variant25": {
@@ -3503,6 +3688,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant26": {
@@ -3531,6 +3719,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant27": {
@@ -3546,6 +3737,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant28": {
@@ -3561,6 +3755,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "variant29": {
@@ -3606,6 +3803,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant32": {
@@ -3645,6 +3845,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant33": {
@@ -3660,6 +3863,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant34": {
@@ -3675,6 +3881,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant35": {
@@ -3690,6 +3899,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant36": {
@@ -3705,6 +3917,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "variant37": {
@@ -3720,6 +3935,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "variant38": {
@@ -3735,6 +3953,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant39": {
@@ -3750,6 +3971,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "variant40": {
@@ -3765,6 +3989,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant41": {
@@ -3780,6 +4007,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "variant42": {
@@ -3850,6 +4080,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:bald"
           ]
         },
         "variant43": {
@@ -3865,6 +4098,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:medium"
           ]
         },
         "variant44": {
@@ -3891,6 +4127,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant45": {
@@ -3919,6 +4158,10 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long",
+            "headwear:headband"
           ]
         },
         "variant46": {
@@ -3945,6 +4188,10 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long",
+            "headwear:headband"
           ]
         },
         "variant47": {
@@ -3960,6 +4207,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "variant48": {
@@ -4003,6 +4253,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant50": {
@@ -4029,6 +4282,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant51": {
@@ -4044,6 +4300,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant52": {
@@ -4059,6 +4318,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant53": {
@@ -4074,6 +4336,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant54": {
@@ -4089,6 +4354,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant55": {
@@ -4104,6 +4372,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant56": {
@@ -4119,6 +4390,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant57": {
@@ -4149,6 +4423,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:long"
           ]
         },
         "variant59": {
@@ -4201,6 +4478,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "hairLength:short"
           ]
         },
         "variant61": {
@@ -4240,6 +4520,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "headwear:turban"
           ]
         },
         "variant62": {
@@ -4268,6 +4551,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "headwear:headscarf"
           ]
         },
         "variant63": {
@@ -4296,6 +4582,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "headwear:headscarf"
           ]
         }
       }
@@ -4351,6 +4640,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant02": {
@@ -4366,6 +4658,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant03": {
@@ -4381,6 +4676,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant04": {
@@ -4396,6 +4694,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant05": {
@@ -4428,6 +4729,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant07": {
@@ -4456,6 +4760,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant08": {
@@ -4495,6 +4802,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant09": {
@@ -4523,6 +4833,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant10": {
@@ -4551,6 +4864,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant11": {
@@ -4581,6 +4897,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant12": {
@@ -4609,6 +4928,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant13": {
@@ -4665,6 +4987,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant15": {
@@ -4749,6 +5074,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant18": {
@@ -4764,6 +5092,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant19": {
@@ -4779,6 +5110,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant20": {
@@ -4794,6 +5128,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant21": {
@@ -4809,6 +5146,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant22": {
@@ -4824,6 +5164,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant23": {
@@ -4839,6 +5182,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant24": {
@@ -4854,6 +5200,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant25": {
@@ -4882,6 +5231,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant26": {
@@ -4912,6 +5264,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant27": {
@@ -4940,6 +5295,9 @@
                 "clip-rule": "evenodd"
               }
             }
+          ],
+          "tags": [
+            "mood:negative"
           ]
         },
         "variant28": {
@@ -4955,6 +5313,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "variant29": {
@@ -5022,6 +5383,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
