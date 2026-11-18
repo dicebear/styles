@@ -117,6 +117,9 @@ pub const GAZE: &str = include_str!("src/gaze.json");
 #[cfg(feature = "glass")]
 pub const GLASS: &str = include_str!("src/glass.json");
 
+#[cfg(feature = "glaze-flowers")]
+pub const GLAZE_FLOWERS: &str = include_str!("src/glaze-flowers.json");
+
 #[cfg(feature = "glyphs")]
 pub const GLYPHS: &str = include_str!("src/glyphs.json");
 
@@ -286,6 +289,8 @@ pub fn get(name: &str) -> Option<&'static str> {
         "gaze" => Some(GAZE),
         #[cfg(feature = "glass")]
         "glass" => Some(GLASS),
+        #[cfg(feature = "glaze-flowers")]
+        "glaze-flowers" => Some(GLAZE_FLOWERS),
         #[cfg(feature = "glyphs")]
         "glyphs" => Some(GLYPHS),
         #[cfg(feature = "icons")]
@@ -422,6 +427,8 @@ pub fn all() -> Vec<&'static str> {
     v.push("gaze");
     #[cfg(feature = "glass")]
     v.push("glass");
+    #[cfg(feature = "glaze-flowers")]
+    v.push("glaze-flowers");
     #[cfg(feature = "glyphs")]
     v.push("glyphs");
     #[cfg(feature = "icons")]

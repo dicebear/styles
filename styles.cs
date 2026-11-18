@@ -136,6 +136,9 @@ namespace DiceBear
         /// <summary>Raw JSON definition of the DiceBear <c>glass</c> avatar style.</summary>
         public static string Glass => Read("glass");
 
+        /// <summary>Raw JSON definition of the DiceBear <c>glaze-flowers</c> avatar style.</summary>
+        public static string GlazeFlowers => Read("glaze-flowers");
+
         /// <summary>Raw JSON definition of the DiceBear <c>glyphs</c> avatar style.</summary>
         public static string Glyphs => Read("glyphs");
 
@@ -314,6 +317,8 @@ namespace DiceBear
                     return Gaze;
                 case "glass":
                     return Glass;
+                case "glaze-flowers":
+                    return GlazeFlowers;
                 case "glyphs":
                     return Glyphs;
                 case "icons":
@@ -432,6 +437,7 @@ namespace DiceBear
                 "fun-emoji",
                 "gaze",
                 "glass",
+                "glaze-flowers",
                 "glyphs",
                 "icons",
                 "identicon",

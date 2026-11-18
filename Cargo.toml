@@ -52,6 +52,7 @@ all = [
   "fun-emoji",
   "gaze",
   "glass",
+  "glaze-flowers",
   "glyphs",
   "icons",
   "identicon",
@@ -118,6 +119,7 @@ dylan = []
 fun-emoji = []
 gaze = []
 glass = []
+glaze-flowers = []
 glyphs = []
 icons = []
 identicon = []

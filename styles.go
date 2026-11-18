@@ -115,6 +115,9 @@ var Gaze string
 //go:embed src/glass.json
 var Glass string
 
+//go:embed src/glaze-flowers.json
+var GlazeFlowers string
+
 //go:embed src/glyphs.json
 var Glyphs string
 
@@ -284,6 +287,8 @@ func Get(name string) (string, bool) {
 		return Gaze, true
 	case "glass":
 		return Glass, true
+	case "glaze-flowers":
+		return GlazeFlowers, true
 	case "glyphs":
 		return Glyphs, true
 	case "icons":
@@ -395,6 +400,7 @@ func All() []string {
 		"fun-emoji",
 		"gaze",
 		"glass",
+		"glaze-flowers",
 		"glyphs",
 		"icons",
 		"identicon",

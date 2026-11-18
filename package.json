@@ -117,6 +117,10 @@
       "types": "./dist/glass.min.json",
       "default": "./dist/glass.min.json"
     },
+    "./glaze-flowers.json": {
+      "types": "./dist/glaze-flowers.min.json",
+      "default": "./dist/glaze-flowers.min.json"
+    },
     "./glyphs.json": {
       "types": "./dist/glyphs.min.json",
       "default": "./dist/glyphs.min.json"

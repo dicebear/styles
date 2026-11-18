@@ -201,6 +201,14 @@ came from.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                 |
 |  Source | [Glass](https://www.dicebear.com)                                             |
 
+### Glaze Flowers
+
+|    File | [src/glaze-flowers.json](https://github.com/dicebear/styles/blob/main/src/glaze-flowers.json) |
+| ------: | :-------------------------------------------------------------------------------------------- |
+|  Artist | [Robert Hofmann](https://github.com/Root-Bert)                                                |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                                 |
+|  Source | [Glaze Flowers](https://github.com/Root-Bert/glaze-flowers)                                   |
+
 ### Glyphs
 
 |    File | [src/glyphs.json](https://github.com/dicebear/styles/blob/main/src/glyphs.json)                           |
