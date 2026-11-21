@@ -31,6 +31,9 @@ Versions track the DiceBear release line.
 
 - **Avataaars:** the natural unibrow draws in the dark, translucent color of
   the other eyebrows instead of a light gray that barely showed on the skin.
+- **Cats:** a half-closed eye (`squint`, `sleepy`) no longer cuts a cap in the
+  plain fur color out of a marking around it. The lid ends the eye at its line
+  and leaves the patch or spot above it alone.
 
 ## [11.0.0-rc.3] - 2026-09-07
 

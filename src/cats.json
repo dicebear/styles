@@ -895,45 +895,18 @@
         "sleepy": {
           "elements": [
             {
-              "name": "circle",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "cx": "9",
-                "cy": "10.5",
-                "r": "8",
+                "d": "M1 10.5a8 8 0 0 0 16 0Zm22 0a8 8 0 0 0 16 0Z",
                 "fill": "#ffffff"
               }
             },
             {
-              "name": "circle",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "cx": "31",
-                "cy": "10.5",
-                "r": "8",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "9.5",
-                "cy": "12.5",
-                "r": "4.2",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "30.5",
-                "cy": "12.5",
-                "r": "4.2",
+                "d": "M5.81 10.5a4.2 4.2 0 1 0 7.38 0Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -944,10 +917,10 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 10.5a9 9 0 0 1 18 0zm22 0a9 9 0 0 1 18 0z",
+                "d": "M26.81 10.5a4.2 4.2 0 1 0 7.38 0Z",
                 "fill": {
                   "type": "color",
-                  "name": "fur"
+                  "name": "ink"
                 }
               }
             },
@@ -1048,45 +1021,18 @@
         "squint": {
           "elements": [
             {
-              "name": "circle",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "cx": "9",
-                "cy": "10.5",
-                "r": "8",
+                "d": "M1.14 9a8 8 0 1 0 15.72 0Zm22 0a8 8 0 1 0 15.72 0Z",
                 "fill": "#ffffff"
               }
             },
             {
-              "name": "circle",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "cx": "31",
-                "cy": "10.5",
-                "r": "8",
-                "fill": "#ffffff"
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "9.5",
-                "cy": "11",
-                "r": "4.5",
-                "fill": {
-                  "type": "color",
-                  "name": "ink"
-                }
-              }
-            },
-            {
-              "name": "circle",
-              "type": "element",
-              "attributes": {
-                "cx": "30.5",
-                "cy": "11",
-                "r": "4.5",
+                "d": "M5.47 9a4.5 4.5 0 1 0 8.06 0Z",
                 "fill": {
                   "type": "color",
                   "name": "ink"
@@ -1097,10 +1043,10 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 9a9 9 0 0 1 18 0zm22 0a9 9 0 0 1 18 0z",
+                "d": "M26.47 9a4.5 4.5 0 1 0 8.06 0Z",
                 "fill": {
                   "type": "color",
-                  "name": "fur"
+                  "name": "ink"
                 }
               }
             },
