@@ -27,6 +27,21 @@ Versions track the DiceBear release line.
   `tags: ['hairLength:long', '!facialHair']`. The docs page "How DiceBear tags
   variants" describes each category.
 
+### Changed
+
+- **Dogs: rebuilt as mongrels.** The style keeps its name and its place next
+  to Cats, but every part of it is new. It takes the cat's framing, with a big
+  head and the body cut off at the chest, and gives every dog the same skull.
+  Eight ears, six muzzles and a coat of dark and white markings combine
+  freely, where nine breed heads sat on three body builds before. The muzzle
+  is a part of its own in front of the face. Four scenes belong to the dogs
+  alone, and some have a ball, a stick, a bone or a frisbee lying next to
+  them. The components changed with the look: `head` and `chest` are gone,
+  `ears`, `muzzle`, `blaze`, `hair` and `toy` are new, and `body`, `eyes`,
+  `mouth`, `pattern` and `scene` have different variants. Options written for
+  the Dogs of the release candidates no longer apply, and every seed draws a
+  different dog.
+
 ### Fixed
 
 - **Avataaars:** the natural unibrow draws in the dark, translucent color of
