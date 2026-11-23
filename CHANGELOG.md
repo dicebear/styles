@@ -13,6 +13,8 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+## [11.0.0-rc.4] - 2026-11-23
+
 ### Added
 
 - **`all()` and `get()` for JavaScript.** `all()` lists the names of every
@@ -49,6 +51,8 @@ Versions track the DiceBear release line.
 - **Cats:** a half-closed eye (`squint`, `sleepy`) no longer cuts a cap in the
   plain fur color out of a marking around it. The lid ends the eye at its line
   and leaves the patch or spot above it alone.
+- **Big Ears:** the creator link leads to The Visual Team's Figma profile, as
+  their own domain no longer belongs to them.
 
 ## [11.0.0-rc.3] - 2026-09-07
 
@@ -433,7 +437,8 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0-rc.3...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0-rc.4...HEAD
+[11.0.0-rc.4]: https://github.com/dicebear/styles/compare/v11.0.0-rc.3...v11.0.0-rc.4
 [11.0.0-rc.3]: https://github.com/dicebear/styles/compare/v11.0.0-rc.2...v11.0.0-rc.3
 [11.0.0-rc.2]: https://github.com/dicebear/styles/compare/v11.0.0-rc.1...v11.0.0-rc.2
 [11.0.0-rc.1]: https://github.com/dicebear/styles/compare/v10.6.0...v11.0.0-rc.1
