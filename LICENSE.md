@@ -45,7 +45,7 @@ came from.
 
 |    File | [src/big-ears-neutral.json](https://github.com/dicebear/styles/blob/main/src/big-ears-neutral.json) |
 | ------: | :-------------------------------------------------------------------------------------------------- |
-|  Artist | [The Visual Team](https://thevisual.team/)                                                          |
+|  Artist | [The Visual Team](https://www.figma.com/@thevisualteam)                                             |
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                                           |
 |  Source | [Face Generator](https://www.figma.com/community/file/986078800058673824)                           |
 
@@ -53,7 +53,7 @@ came from.
 
 |    File | [src/big-ears.json](https://github.com/dicebear/styles/blob/main/src/big-ears.json) |
 | ------: | :---------------------------------------------------------------------------------- |
-|  Artist | [The Visual Team](https://thevisual.team/)                                          |
+|  Artist | [The Visual Team](https://www.figma.com/@thevisualteam)                             |
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                           |
 |  Source | [Face Generator](https://www.figma.com/community/file/986078800058673824)           |
 
