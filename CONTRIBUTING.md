@@ -35,7 +35,7 @@ Pick the tool that fits the change:
   The plugin rebuilds the components, variants and palettes as layers. Make
   the change in Figma, export the style again and replace the file in
   `src/`. See
-  [Create an avatar style with Figma](https://www.dicebear.com/guides/create-an-avatar-style-with-figma/)
+  [Create an avatar style with Figma](https://www.dicebear.com/create-styles/with-figma/)
   for the full walkthrough.
 
 Both ways lead to the same file, and a hand edit survives the next trip
@@ -43,7 +43,7 @@ through Figma, since the import reads the file you edited.
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) 20 or newer
+- [Node.js](https://nodejs.org/) 22 or newer
 - For tests only: [uv](https://docs.astral.sh/uv/) and a container runtime
   ([Docker](https://www.docker.com/) or [Podman](https://podman.io/)), both
   needed by [Bowtie](https://docs.bowtie.report/)
@@ -115,7 +115,7 @@ infrastructure, per-style for the art itself).
 
 Publishing is automated via the
 [publish workflow](.github/workflows/publish.yml). To cut a release, bump the
-version across all four manifests and tag it:
+version across all five manifests and tag it:
 
 ```sh
 scripts/version.sh <version>   # e.g. 10.1.0 or 10.2.0-rc.1

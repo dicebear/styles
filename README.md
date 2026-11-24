@@ -10,11 +10,11 @@ wrapper. The JSON schema for the avatar style definitions can be found in the
 
 ## Generate definitions
 
-Most of the JSON files were created using the
-[DiceBear Exporter](https://www.dicebear.com/guides/create-an-avatar-style-with-figma/)
-for Figma. The used Figma files are linked in the `figma` folder. Files created
-with this plugin are marked accordingly and should not be adjusted manually, but
-exported again with the Figma plugin.
+Most of the JSON files were exported with
+[DiceBear Studio](https://www.dicebear.com/create-styles/with-figma/), the
+DiceBear plugin for Figma. Such files say so in their `$comment`. To change one,
+change the style in Figma and export it again, or edit the file and import it
+back into Figma, as [CONTRIBUTING.md](CONTRIBUTING.md) describes.
 
 ## Usage
 
