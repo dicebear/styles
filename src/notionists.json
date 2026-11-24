@@ -3479,7 +3479,8 @@
             }
           ],
           "tags": [
-            "hairLength:short"
+            "hairLength:short",
+            "headwear"
           ]
         },
         "variant15": {
@@ -4082,7 +4083,7 @@
             }
           ],
           "tags": [
-            "hairLength:bald"
+            "hairLength:short"
           ]
         },
         "variant43": {

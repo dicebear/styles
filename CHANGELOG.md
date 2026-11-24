@@ -28,6 +28,10 @@ Versions track the DiceBear release line.
 
 ### Fixed
 
+- **Notionists:** Two hair variants carried the wrong tags. `variant42` is a
+  short quiff, not `hairLength:bald`, and `variant14` wears a cap, so it gains
+  `headwear`. `tags: ['!headwear']` leaves it out now, and `hairLength:bald`
+  no longer draws a quiff.
 - **CI:** The optimize check runs the 11.x CLI
   (`dicebear optimize <file> --check`). The 10.x CLI it installed before
   rejects the 11.x definitions, so the check could not report anything.
