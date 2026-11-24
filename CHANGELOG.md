@@ -22,9 +22,8 @@ Versions track the DiceBear release line.
   the whiskers, and the chest patch has the dog's softer tone.
 - **Dogs: calmer shading.** The hanging ears are a lighter shade darker than
   the head, and the light brows of the `beard` muzzle cast no shadow.
-- **Cameo, Gaze, Slice: smaller definitions.** They come from their
-  generators again instead of a Figma export, which draws the same avatars
-  in fewer bytes: Slice drops from 104 to 98 KB, Gaze from 71 to 66 KB.
+- **Cameo, Gaze, Slice: smaller definitions.** The same avatars in fewer
+  bytes: Slice drops from 104 to 98 KB, Gaze from 71 to 66 KB.
 - **Cats and Dogs: sorted palettes.** The fur and collar colors are listed
   in order, like the palettes of every other style. Ordinary avatars stay
   the same, with `furColorOrder` or `collarColorOrder` set to `fixed` the
