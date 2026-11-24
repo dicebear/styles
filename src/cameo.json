@@ -1,6 +1,6 @@
 {
   "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@2.0.1/dist/definition.min.json",
-  "$comment": "Exported by DiceBear Studio for Figma. https://www.figma.com/community/plugin/1005765655729342787",
+  "$comment": "Hand-authored definition (no Figma source).",
   "meta": {
     "license": {
       "name": "CC0 1.0",
@@ -41,7 +41,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20v78C4 48 14 42 26 41q24-2.25 48 0c12 1 22 7 36 17v-78z",
+                "d": "M-10-20v78C4 48 14 42 26 41q24-2.25 48 0c12 1 22 7 36 17v-78Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -80,7 +80,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20v70c28-10 42-11 60-11s32 1 60 11v-70z",
+                "d": "M-10-20v70c28-10 42-11 60-11s32 1 60 11v-70Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -98,7 +98,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20h120v60a10.002 10.002 0 0 1-17.071 7.071A10 10 0 0 1 90 40a10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0z",
+                "d": "M-10-20h120v60a10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0 10 10 0 0 1-20 0Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -116,7 +116,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20h120v82c-6 10-14 14-21 12-6-2-11-9-11-18v-8c0-5-4-7-10-7H32c-6 0-10 2-10 7v8c0 9-5 16-11 18-7 2-21-2-21-12z",
+                "d": "M-10-20h120v82c-6 10-14 14-21 12-6-2-11-9-11-18v-8c0-5-4-7-10-7H32c-6 0-10 2-10 7v8c0 9-5 16-11 18-7 2-21-2-21-12Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -134,7 +134,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20v72c20-14 38-2 56-18l4-4 4 4c18 16 36 4 56 18v-72z",
+                "d": "M-10-20v72c20-14 38-2 56-18l4-4 4 4c18 16 36 4 56 18v-72Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -152,7 +152,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20v66c24-8 40-10 54-5 18 5 42 7 66 15v-76z",
+                "d": "M-10-20v66c24-8 40-10 54-5 18 5 42 7 66 15v-76Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -170,7 +170,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M-10-20v62q20 11 40 0 20 11 40 0 20 11 40 0v-62z",
+                "d": "M-10-20v62q20 11 40 0 20 11 40 0 20 11 40 0v-62Z",
                 "fill": {
                   "type": "color",
                   "name": "shade"
@@ -320,6 +320,7 @@
               "type": "element",
               "attributes": {
                 "d": "M38 63.5q12 5 24 0",
+                "fill": "none",
                 "stroke": {
                   "type": "color",
                   "name": "shade"
@@ -341,6 +342,7 @@
               "type": "element",
               "attributes": {
                 "d": "M42.5 64q7.5 3.5 15 0",
+                "fill": "none",
                 "stroke": {
                   "type": "color",
                   "name": "shade"
@@ -362,6 +364,7 @@
               "type": "element",
               "attributes": {
                 "d": "M39 60q11 15 22 0",
+                "fill": "none",
                 "stroke": {
                   "type": "color",
                   "name": "shade"
@@ -383,6 +386,7 @@
               "type": "element",
               "attributes": {
                 "d": "M40.5 62q9.5 8 19 0",
+                "fill": "none",
                 "stroke": {
                   "type": "color",
                   "name": "shade"
@@ -404,6 +408,7 @@
               "type": "element",
               "attributes": {
                 "d": "M43 66.5Q51.5 70 57.5 63",
+                "fill": "none",
                 "stroke": {
                   "type": "color",
                   "name": "shade"
@@ -436,10 +441,32 @@
               "type": "component"
             },
             {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-jaw"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-17 37-36 37S14 72 14 50Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-17 37-36 37S14 72 14 50z",
+                "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-17 37-36 37S14 72 14 50Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -450,7 +477,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "mask": "url(#shapeJaw-a)"
+                "clip-path": "url(#dbcm-jaw)"
               },
               "children": [
                 {
@@ -462,29 +489,6 @@
                   "type": "component"
                 }
               ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "shapeJaw-a"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M14 24c0-5 4-9 9-9h54c5 0 9 4 9 9v26c0 22-17 37-36 37S14 72 14 50z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -493,6 +497,31 @@
             {
               "name": "knot",
               "type": "component"
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-oval"
+                  },
+                  "children": [
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "50",
+                        "cy": "50",
+                        "rx": "33",
+                        "ry": "38"
+                      }
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "ellipse",
@@ -512,7 +541,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "mask": "url(#shapeOval-a)"
+                "clip-path": "url(#dbcm-oval)"
               },
               "children": [
                 {
@@ -524,32 +553,6 @@
                   "type": "component"
                 }
               ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "shapeOval-a"
-                  },
-                  "children": [
-                    {
-                      "name": "ellipse",
-                      "type": "element",
-                      "attributes": {
-                        "cx": "50",
-                        "cy": "50",
-                        "rx": "33",
-                        "ry": "38",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -558,6 +561,30 @@
             {
               "name": "knot",
               "type": "component"
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-round"
+                  },
+                  "children": [
+                    {
+                      "name": "circle",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "50",
+                        "cy": "50",
+                        "r": "38"
+                      }
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "circle",
@@ -576,7 +603,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "mask": "url(#shapeRound-a)"
+                "clip-path": "url(#dbcm-round)"
               },
               "children": [
                 {
@@ -586,31 +613,6 @@
                 {
                   "name": "mouth",
                   "type": "component"
-                }
-              ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "shapeRound-a"
-                  },
-                  "children": [
-                    {
-                      "name": "circle",
-                      "type": "element",
-                      "attributes": {
-                        "cx": "50",
-                        "cy": "50",
-                        "r": "38",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
                 }
               ]
             }
@@ -623,10 +625,32 @@
               "type": "component"
             },
             {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-squircle"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M15 41q0-26 26-26h18q26 0 26 26v18q0 26-26 26H41q-26 0-26-26Z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M15 41q0-26 26-26h18q26 0 26 26v18q0 26-26 26H41q-26 0-26-26z",
+                "d": "M15 41q0-26 26-26h18q26 0 26 26v18q0 26-26 26H41q-26 0-26-26Z",
                 "fill": {
                   "type": "color",
                   "name": "body"
@@ -637,7 +661,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "mask": "url(#shapeSquircle-a)"
+                "clip-path": "url(#dbcm-squircle)"
               },
               "children": [
                 {
@@ -649,29 +673,6 @@
                   "type": "component"
                 }
               ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "shapeSquircle-a"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M15 41q0-26 26-26h18q26 0 26 26v18q0 26-26 26H41q-26 0-26-26z",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -680,6 +681,28 @@
             {
               "name": "knot",
               "type": "component"
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-taper"
+                  },
+                  "children": [
+                    {
+                      "name": "path",
+                      "type": "element",
+                      "attributes": {
+                        "d": "M50 12c18 0 30 14 30 36S68 88 50 88 20 70 20 48s12-36 30-36"
+                      }
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "path",
@@ -696,7 +719,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "mask": "url(#shapeTaper-a)"
+                "clip-path": "url(#dbcm-taper)"
               },
               "children": [
                 {
@@ -708,29 +731,6 @@
                   "type": "component"
                 }
               ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "shapeTaper-a"
-                  },
-                  "children": [
-                    {
-                      "name": "path",
-                      "type": "element",
-                      "attributes": {
-                        "d": "M50 12c18 0 30 14 30 36S68 88 50 88 20 70 20 48s12-36 30-36",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -739,6 +739,31 @@
             {
               "name": "knot",
               "type": "component"
+            },
+            {
+              "name": "defs",
+              "type": "element",
+              "children": [
+                {
+                  "name": "clipPath",
+                  "type": "element",
+                  "attributes": {
+                    "id": "dbcm-wide"
+                  },
+                  "children": [
+                    {
+                      "name": "ellipse",
+                      "type": "element",
+                      "attributes": {
+                        "cx": "50",
+                        "cy": "50",
+                        "rx": "37",
+                        "ry": "35"
+                      }
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "ellipse",
@@ -758,7 +783,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "mask": "url(#shapeWide-a)"
+                "clip-path": "url(#dbcm-wide)"
               },
               "children": [
                 {
@@ -768,32 +793,6 @@
                 {
                   "name": "mouth",
                   "type": "component"
-                }
-              ]
-            },
-            {
-              "name": "defs",
-              "type": "element",
-              "children": [
-                {
-                  "name": "mask",
-                  "type": "element",
-                  "attributes": {
-                    "id": "shapeWide-a"
-                  },
-                  "children": [
-                    {
-                      "name": "ellipse",
-                      "type": "element",
-                      "attributes": {
-                        "cx": "50",
-                        "cy": "50",
-                        "rx": "37",
-                        "ry": "35",
-                        "fill": "#ffffff"
-                      }
-                    }
-                  ]
                 }
               ]
             }
