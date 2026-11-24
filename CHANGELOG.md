@@ -22,6 +22,9 @@ Versions track the DiceBear release line.
   the whiskers, and the chest patch has the dog's softer tone.
 - **Dogs: calmer shading.** The hanging ears are a lighter shade darker than
   the head, and the light brows of the `beard` muzzle cast no shadow.
+- **Cats:** the rings of a ringed tail start at its root. Figma has no dash
+  offset, so the old offset got lost in DiceBear Studio and the rings sat
+  elsewhere in Figma than in the style.
 
 ### Removed
 

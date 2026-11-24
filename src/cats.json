@@ -3537,7 +3537,6 @@
                     "stroke-linecap": "butt",
                     "stroke-linejoin": "round",
                     "stroke-dasharray": "3 7",
-                    "stroke-dashoffset": "-6",
                     "opacity": ".2"
                   }
                 }
@@ -3859,7 +3858,6 @@
                     "stroke-linecap": "butt",
                     "stroke-linejoin": "round",
                     "stroke-dasharray": "3 7",
-                    "stroke-dashoffset": "-6",
                     "opacity": ".2"
                   }
                 }
@@ -4181,7 +4179,6 @@
                     "stroke-linecap": "butt",
                     "stroke-linejoin": "round",
                     "stroke-dasharray": "3 7",
-                    "stroke-dashoffset": "-6",
                     "opacity": ".2"
                   }
                 }
@@ -4503,7 +4500,6 @@
                     "stroke-linecap": "butt",
                     "stroke-linejoin": "round",
                     "stroke-dasharray": "3 7",
-                    "stroke-dashoffset": "-6",
                     "opacity": ".2"
                   }
                 }
@@ -4825,7 +4821,6 @@
                     "stroke-linecap": "butt",
                     "stroke-linejoin": "round",
                     "stroke-dasharray": "3 7",
-                    "stroke-dashoffset": "-6",
                     "opacity": ".2"
                   }
                 }
@@ -5147,7 +5142,6 @@
                     "stroke-linecap": "butt",
                     "stroke-linejoin": "round",
                     "stroke-dasharray": "3 7",
-                    "stroke-dashoffset": "-6",
                     "opacity": ".2"
                   }
                 }
