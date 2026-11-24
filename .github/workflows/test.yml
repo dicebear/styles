@@ -35,7 +35,7 @@ jobs:
 
   optimize:
     runs-on: ubuntu-latest
-    # `dicebear <file> --optimize-check` re-runs the CLI's svgo pass and reports
+    # `dicebear optimize <file> --check` re-runs the CLI's svgo pass and reports
     # whether the committed definition is already as small as that pass makes
     # it. A hand edit or an older Figma export can leave path data behind that
     # the pass would strip, which costs every consumer bandwidth but renders the
@@ -54,7 +54,9 @@ jobs:
           node-version: 24
 
       - name: Install the DiceBear CLI
-        run: npm install --global dicebear@10
+        # The 11.x CLI, release candidates included until 11.0.0 is out. The
+        # 10.x CLI rejects the 11.x definitions (extends, animations).
+        run: npm install --global "dicebear@^11.0.0-rc.4"
 
       - name: Report definitions the svgo pass would still shrink
         continue-on-error: true
@@ -64,7 +66,7 @@ jobs:
 
           for file in src/*.json; do
             total=$((total + 1))
-            if ! dicebear "$file" --optimize-check; then
+            if ! dicebear optimize "$file" --check; then
               stale+=("$file")
             fi
           done
@@ -79,11 +81,11 @@ jobs:
             echo
             for file in "${stale[@]}"; do echo "- \`$file\`"; done
             echo
-            echo 'Rewrite them with `npx dicebear <file> --optimize`.'
+            echo 'Rewrite them with `npx dicebear optimize <file> -o <file>`.'
           } >> "$GITHUB_STEP_SUMMARY"
 
           for file in "${stale[@]}"; do
-            echo "::warning file=$file::The svgo pass would still shrink this definition. Run: npx dicebear $file --optimize"
+            echo "::warning file=$file::The svgo pass would still shrink this definition. Run: npx dicebear optimize $file -o $file"
           done
 
           exit 1
