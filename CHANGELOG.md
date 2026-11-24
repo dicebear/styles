@@ -13,6 +13,26 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Changed
+
+- **Pixel Art and Stripes: two changes from 11.0.0-rc.1 that the earlier
+  entries left out.** Both come from the re-export of every definition with
+  DiceBear Studio and change some avatars compared to 10.x.
+  - **Pixel Art:** Dark beards show. 10.x drew a beard through a mask in the
+    hair color, so the darker the hair, the less of the beard was left, and a
+    black beard hardly showed at all. Every beard now shows in full, whatever
+    the hair color. Seeds that draw a beard with dark hair change.
+  - **Stripes:** Both `body` layouts draw extra stripes at their edges, so
+    the corner that 10.x left empty is covered. The stripes a seed drew before
+    stay where they were, but nearly every Stripes avatar gains one or more
+    stripes.
+
+### Fixed
+
+- **CI:** The optimize check runs the 11.x CLI
+  (`dicebear optimize <file> --check`). The 10.x CLI it installed before
+  rejects the 11.x definitions, so the check could not report anything.
+
 ## [11.0.0-rc.5] - 2026-11-24
 
 ### Changed
