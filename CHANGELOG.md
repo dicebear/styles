@@ -13,6 +13,8 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+## [11.0.0-rc.5] - 2026-11-24
+
 ### Changed
 
 - **Cats and Dogs: a neck.** The shoulders no longer end in a flat top under
@@ -475,7 +477,8 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0-rc.4...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0-rc.5...HEAD
+[11.0.0-rc.5]: https://github.com/dicebear/styles/compare/v11.0.0-rc.4...v11.0.0-rc.5
 [11.0.0-rc.4]: https://github.com/dicebear/styles/compare/v11.0.0-rc.3...v11.0.0-rc.4
 [11.0.0-rc.3]: https://github.com/dicebear/styles/compare/v11.0.0-rc.2...v11.0.0-rc.3
 [11.0.0-rc.2]: https://github.com/dicebear/styles/compare/v11.0.0-rc.1...v11.0.0-rc.2
