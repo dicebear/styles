@@ -13,6 +13,35 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Changed
+
+- **Cats and Dogs: a neck.** The shoulders no longer end in a flat top under
+  the chin but rise into a neck behind the head, so a dog's head stops looking
+  stacked on its body.
+- **Cats: more depth.** Lighter whisker pads on either side of the mouth carry
+  the whiskers, and the chest patch has the dog's softer tone.
+- **Dogs: calmer shading.** The hanging ears are a lighter shade darker than
+  the head, and the light brows of the `beard` muzzle cast no shadow.
+
+### Removed
+
+- **Dogs:** the `underbite` mouth. Its two teeth fit only one muzzle and nose,
+  so a seed that drew it draws another mouth now.
+
+### Fixed
+
+- **Cats:** the collar ends at the shoulders instead of reaching past the body
+  on both sides.
+- **Dogs:** every ear grows out of the head's outline without a notch or a
+  gap, and its shadow ends along the curve of the head instead of in a point.
+  `button`, `small` and `pompon` are redrawn: the button ear folds forward
+  onto the face, the small ear has a round tip, and the poodle's curls fall
+  from the crown in one cascade.
+- **Dogs:** the tongue of `tongue` and `lolling` shows only below the lip
+  instead of again between the lip and the nose.
+- **Dogs:** the `bangs` end above the eyes instead of covering them, and the
+  forehead's markings run on over the fringe.
+
 ## [11.0.0-rc.4] - 2026-11-23
 
 ### Added
