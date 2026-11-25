@@ -13,6 +13,8 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+## [11.0.0] - 2026-11-25
+
 ### Added
 
 - **Cats:** Like the dogs, some cats have a toy lying in the corner behind the
@@ -551,7 +553,8 @@ See the
   `*.min.json`) instead of TypeScript/JavaScript code, separating licensing and
   artwork concerns from implementation.
 
-[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0-rc.5...HEAD
+[Unreleased]: https://github.com/dicebear/styles/compare/v11.0.0...HEAD
+[11.0.0]: https://github.com/dicebear/styles/compare/v11.0.0-rc.5...v11.0.0
 [11.0.0-rc.5]: https://github.com/dicebear/styles/compare/v11.0.0-rc.4...v11.0.0-rc.5
 [11.0.0-rc.4]: https://github.com/dicebear/styles/compare/v11.0.0-rc.3...v11.0.0-rc.4
 [11.0.0-rc.3]: https://github.com/dicebear/styles/compare/v11.0.0-rc.2...v11.0.0-rc.3
