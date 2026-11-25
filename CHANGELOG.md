@@ -51,7 +51,8 @@ Versions track the DiceBear release line.
   them, so a tail that swings to the right passes in front of it.
 - **Schema:** Every definition references `@dicebear/schema` 3.0.0 in its
   `$schema` URL, and every definition validates against it. The definitions
-  themselves did not change for this.
+  themselves did not change for this. Validation runs against the released
+  `@dicebear/schema` 3.0.0.
 
 ### Fixed
 
