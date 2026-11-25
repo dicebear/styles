@@ -233,6 +233,11 @@
                   "type": "element",
                   "attributes": {
                     "id": "beardVariant01-a",
+                    "maskUnits": "userSpaceOnUse",
+                    "x": "0",
+                    "y": "2",
+                    "width": "10",
+                    "height": "4",
                     "style": "mask-type:alpha"
                   },
                   "children": [
@@ -296,6 +301,11 @@
                   "type": "element",
                   "attributes": {
                     "id": "beardVariant02-a",
+                    "maskUnits": "userSpaceOnUse",
+                    "x": "2",
+                    "y": "5",
+                    "width": "6",
+                    "height": "3",
                     "style": "mask-type:alpha"
                   },
                   "children": [
@@ -359,6 +369,11 @@
                   "type": "element",
                   "attributes": {
                     "id": "beardVariant03-a",
+                    "maskUnits": "userSpaceOnUse",
+                    "x": "0",
+                    "y": "3",
+                    "width": "10",
+                    "height": "5",
                     "style": "mask-type:alpha"
                   },
                   "children": [
@@ -422,6 +437,11 @@
                   "type": "element",
                   "attributes": {
                     "id": "beardVariant04-a",
+                    "maskUnits": "userSpaceOnUse",
+                    "x": "3",
+                    "y": "5",
+                    "width": "4",
+                    "height": "1",
                     "style": "mask-type:alpha"
                   },
                   "children": [
@@ -483,6 +503,11 @@
                   "type": "element",
                   "attributes": {
                     "id": "beardVariant05-a",
+                    "maskUnits": "userSpaceOnUse",
+                    "x": "0",
+                    "y": "0",
+                    "width": "10",
+                    "height": "6",
                     "style": "mask-type:alpha"
                   },
                   "children": [
@@ -546,6 +571,11 @@
                   "type": "element",
                   "attributes": {
                     "id": "beardVariant06-a",
+                    "maskUnits": "userSpaceOnUse",
+                    "x": "0",
+                    "y": "3",
+                    "width": "10",
+                    "height": "3",
                     "style": "mask-type:alpha"
                   },
                   "children": [
@@ -609,6 +639,11 @@
                   "type": "element",
                   "attributes": {
                     "id": "beardVariant07-a",
+                    "maskUnits": "userSpaceOnUse",
+                    "x": "0",
+                    "y": "3",
+                    "width": "10",
+                    "height": "3",
                     "style": "mask-type:alpha"
                   },
                   "children": [
@@ -672,6 +707,11 @@
                   "type": "element",
                   "attributes": {
                     "id": "beardVariant08-a",
+                    "maskUnits": "userSpaceOnUse",
+                    "x": "0",
+                    "y": "0",
+                    "width": "10",
+                    "height": "6",
                     "style": "mask-type:alpha"
                   },
                   "children": [
@@ -699,7 +739,7 @@
     },
     "clothes": {
       "width": 12,
-      "height": 4,
+      "height": 6,
       "variants": {
         "variant01": {
           "elements": [
@@ -957,21 +997,6 @@
                 "fill": "#ffffff",
                 "fill-opacity": ".3",
                 "d": "M0 2h1v2H0zm4 0h1v2H4zm2 0h1v2H6zm2 0h1v2H8zM2 1h1v3H2zm8 0h1v3h-1z"
-              }
-            }
-          ]
-        },
-        "variant14": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M3 1H1v1H0v2h12V2h-1V1H9v1H8v1H4V2H3z",
-                "fill": {
-                  "type": "color",
-                  "name": "clothing"
-                }
               }
             }
           ]
@@ -3841,93 +3866,93 @@
   "colors": {
     "accessories": {
       "values": [
-        "#a9a9a9",
-        "#d3d3d3",
         "#daa520",
+        "#ffd700",
         "#fafad2",
-        "#ffd700"
+        "#d3d3d3",
+        "#a9a9a9"
       ]
     },
     "clothing": {
       "values": [
-        "#00b159",
-        "#03396c",
-        "#428bca",
-        "#44c585",
         "#5bc0de",
+        "#428bca",
+        "#03396c",
         "#88d8b0",
-        "#ae0001",
-        "#d11141",
+        "#44c585",
+        "#00b159",
         "#ff6f69",
-        "#ffc425",
+        "#d11141",
+        "#ae0001",
+        "#ffeead",
         "#ffd969",
-        "#ffeead"
+        "#ffc425"
       ]
     },
     "eyes": {
       "values": [
-        "#588387",
-        "#5b7c8b",
-        "#647b90",
-        "#697b94",
         "#76778b",
+        "#697b94",
+        "#647b90",
+        "#5b7c8b",
+        "#588387",
         "#876658"
       ]
     },
     "glasses": {
       "values": [
-        "#191919",
-        "#323232",
-        "#43677d",
         "#4b4b4b",
+        "#323232",
+        "#191919",
+        "#43677d",
         "#5f705c",
         "#a04b5d"
       ]
     },
     "hair": {
       "values": [
-        "#009bbd",
-        "#28150a",
-        "#603015",
+        "#cab188",
         "#603a14",
-        "#611c17",
-        "#612616",
         "#83623b",
-        "#91cb15",
         "#a78961",
+        "#611c17",
+        "#603015",
+        "#612616",
+        "#28150a",
+        "#009bbd",
         "#bd1700",
-        "#cab188"
+        "#91cb15"
       ]
     },
     "hat": {
       "values": [
-        "#2663a3",
         "#2e1e05",
-        "#3d8a6b",
-        "#614f8a",
+        "#2663a3",
         "#989789",
-        "#a62116",
-        "#cc6192"
+        "#3d8a6b",
+        "#cc6192",
+        "#614f8a",
+        "#a62116"
       ]
     },
     "mouth": {
       "values": [
         "#c98276",
-        "#d29985",
-        "#de0f0d",
-        "#e35d6a"
+        "#d7968d",
+        "#e35d6a",
+        "#de0f0d"
       ]
     },
     "skin": {
       "values": [
-        "#8d5524",
-        "#a26d3d",
-        "#b68655",
-        "#cb9e6e",
-        "#e0b687",
-        "#eac393",
+        "#ffdbac",
         "#f5cfa0",
-        "#ffdbac"
+        "#eac393",
+        "#e0b687",
+        "#cb9e6e",
+        "#b68655",
+        "#a26d3d",
+        "#8d5524"
       ]
     }
   }

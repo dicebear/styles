@@ -25,8 +25,35 @@ Versions track the DiceBear release line.
   - **Stripes:** Both `body` layouts draw extra stripes at their edges and
     cover the corner that 10.x left empty. The stripes a seed drew before stay
     in place, but nearly every Stripes avatar gains one or more.
+- **Icons, Pixel Art, Slice and Stripes:** Four variants were exact copies of
+  another one and are gone: the icon `brightnessHigh` (same as `sun`), the
+  Pixel Art clothes `variant14` (same as `variant05`), the Slice cut `sixStep`
+  (same as `six`) and the Stripes stripe `variant10` (same as `variant08`).
+  Options that name one of them fail validation now. With one variant fewer,
+  other seeds pick differently too: about a third of the Icons and Slice
+  avatars and a quarter of the Pixel Art avatars change, and nearly every
+  Stripes avatar shifts a little.
 
 ### Fixed
+
+- **Big Smile:** Hair and skin share the color `#e2ba87`, so about 2 % of the
+  avatars had hair in the color of the face. Hair now never takes the skin or
+  background color, and skin never takes the background color. Avatars with
+  `#e2ba87` skin pick their hair color from one color fewer, so about one in
+  ten Big Smile avatars gets a different hair color.
+- **Voxel Art:** Six hair colors sat so close to a skin tone that the hair
+  blended into the face on about 9 % of the avatars. They now keep a distance
+  of at least ΔE 15 to every skin tone: `#5a3825` is `#533629`, `#7b4a2d` is
+  `#7a3307`, `#a56b46` is `#966951`, `#c98850` is `#c9853f`, `#d9b380` is
+  `#eec985` and `#e8d4a8` is `#efe1a9`. Avatars with one of these hair colors
+  keep their hair and only change its shade.
+- **Open Peeps:** The hair color `#a55728` was almost the skin color
+  `#ae5d29`. It is now `#ae5d29` itself, which the hair never takes on skin of
+  that color, so some avatars with that skin get a different hair color.
+- **Pixel Art and Pixel Art Neutral:** The mouth color `#d29985` hardly showed
+  on medium skin tones. It is `#d7968d` now, a little pinker and at least ΔE 21
+  away from every skin tone. Avatars that used it keep their mouth and only
+  change its shade.
 
 - **Notionists:** Two hair variants carried the wrong tags. `variant42` is a
   short quiff, not `hairLength:bald`, and `variant14` wears a cap, so it gains
