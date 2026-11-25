@@ -973,9 +973,6 @@
                 "clip-rule": "evenodd"
               }
             }
-          ],
-          "tags": [
-            "mood:negative"
           ]
         },
         "skullOutline": {
@@ -1009,9 +1006,6 @@
                 }
               ]
             }
-          ],
-          "tags": [
-            "mood:negative"
           ]
         }
       }

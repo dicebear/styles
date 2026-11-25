@@ -13,6 +13,13 @@ Versions track the DiceBear release line.
 
 ## [Unreleased]
 
+### Added
+
+- **Cats:** Like the dogs, some cats have a toy lying in the corner behind the
+  tail: a ball of yarn in the collar's color or a toy mouse, three times out of
+  ten. `toyProbability` and `toyVariant` control it. The cats without a toy stay
+  as they were.
+
 ### Changed
 
 - **Pixel Art and Stripes:** Two changes from 11.0.0-rc.1 had no entry. Both
@@ -33,9 +40,22 @@ Versions track the DiceBear release line.
   other seeds pick differently too: about a third of the Icons and Slice
   avatars and a quarter of the Pixel Art avatars change, and nearly every
   Stripes avatar shifts a little.
+- **Tags:** A few variants follow the tag reference more closely. The skull
+  graphics of Avataaars lose `mood:negative`, because a graphic carries no mood.
+  The buns of Voxel Art lose `hairLength:short`, because a bun shows no length.
+  The pigtails of Personas gain `hairLength:medium`. The sleepy eyes of Cats and
+  Dogs count as `mood:positive`, and every mouth of Cats and Dogs is tagged
+  `mood:positive`, so `tags: ['mood:positive']` keeps the mouths instead of
+  dropping all of them.
+- **Dogs:** The toy lies behind the tail and the body instead of in front of
+  them, so a tail that swings to the right passes in front of it.
 
 ### Fixed
 
+- **Dogs:** With a dark mask (the `short` muzzle), the white of a blaze showed
+  through the mask on both sides of the nose. The blaze now stops at the edge
+  of the mask. The markup changes for every dog with that muzzle, about one in
+  ten, and the picture for those whose blaze runs into the mask.
 - **Big Smile:** Hair and skin share the color `#e2ba87`, so about 2 % of the
   avatars had hair in the color of the face. Hair now never takes the skin or
   background color, and skin never takes the background color. Avatars with

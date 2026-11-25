@@ -27,6 +27,13 @@
             "type": "component"
           },
           {
+            "name": "toy",
+            "type": "component",
+            "attributes": {
+              "transform": "translate(74 80)"
+            }
+          },
+          {
             "name": "tail",
             "type": "component",
             "attributes": {
@@ -1048,7 +1055,7 @@
             }
           ],
           "tags": [
-            "mood:negative"
+            "mood:positive"
           ]
         },
         "slit": {
@@ -2550,6 +2557,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "cat": {
@@ -2570,7 +2580,10 @@
               }
             }
           ],
-          "weight": 3
+          "weight": 3,
+          "tags": [
+            "mood:positive"
+          ]
         },
         "grin": {
           "elements": [
@@ -2589,6 +2602,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "ooh": {
@@ -2622,6 +2638,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "open": {
@@ -2663,6 +2682,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "smile": {
@@ -2682,6 +2704,9 @@
                 "stroke-linejoin": "round"
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         },
         "yawn": {
@@ -2729,6 +2754,9 @@
                 }
               }
             }
+          ],
+          "tags": [
+            "mood:positive"
           ]
         }
       }
@@ -5208,6 +5236,206 @@
               ]
             }
           ]
+        }
+      }
+    },
+    "toy": {
+      "width": 26,
+      "height": 20,
+      "probability": 30,
+      "variants": {
+        "mouse": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "14",
+                "cy": "17.2",
+                "rx": "8",
+                "ry": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M21.8 15.2c2.2 0 3.2-1.4 2.4-3S24 9 25.6 8.8",
+                "fill": "none",
+                "stroke": "#8c9295",
+                "stroke-width": ".9",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M5.6 15.2c1-3.8 4.8-6.8 9.2-6.8s7.2 3 7.2 6.2c0 1.2-.8 1.8-2 1.8H6.6c-.7 0-1.2-.5-1-1.2",
+                "fill": "#a3a8ab"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M7 16.4h13c1.2 0 2-.6 2-1.8Q14.4 17 7 16.4",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".2"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "12.4",
+                "cy": "8.6",
+                "r": "2.3",
+                "fill": "#a3a8ab"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "12.4",
+                "cy": "8.6",
+                "r": "1.3",
+                "fill": {
+                  "type": "color",
+                  "name": "blush"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "9.4",
+                "cy": "12.2",
+                "r": ".75",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                }
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "5.9",
+                "cy": "15.1",
+                "r": ".85",
+                "fill": {
+                  "type": "color",
+                  "name": "blush"
+                }
+              }
+            }
+          ]
+        },
+        "yarn": {
+          "elements": [
+            {
+              "name": "ellipse",
+              "type": "element",
+              "attributes": {
+                "cx": "14",
+                "cy": "17.4",
+                "rx": "6",
+                "ry": "1.5",
+                "fill": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "opacity": ".15"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8.6 14.6c-2.8.6-4.6 2.2-3.4 3.2s3.4-.4 5.2.2",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "collar"
+                },
+                "stroke-width": "1",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            },
+            {
+              "name": "circle",
+              "type": "element",
+              "attributes": {
+                "cx": "14",
+                "cy": "11",
+                "r": "6.2",
+                "fill": {
+                  "type": "color",
+                  "name": "collar"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8.8 8.6q5.2 2.2 10.4 0M8.2 12q5.8 2.6 11.6 0m-9.4 3.4q3.6 1.4 7.2 0",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".2"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11.8 5.8q-2.6 5.2.4 10.6m4-10.6q2.6 5.2-.4 10.6",
+                "fill": "none",
+                "stroke": {
+                  "type": "color",
+                  "name": "ink"
+                },
+                "stroke-width": ".8",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".2"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M10.2 7.4q2.4-1.6 5-1.4",
+                "fill": "none",
+                "stroke": "#ffffff",
+                "stroke-width": "1",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round",
+                "opacity": ".45"
+              }
+            }
+          ],
+          "weight": 2
         }
       }
     }
