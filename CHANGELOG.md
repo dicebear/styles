@@ -38,10 +38,11 @@ Versions track the DiceBear release line.
   another one and are gone: the icon `brightnessHigh` (same as `sun`), the
   Pixel Art clothes `variant14` (same as `variant05`), the Slice cut `sixStep`
   (same as `six`) and the Stripes stripe `variant10` (same as `variant08`).
-  Options that name one of them fail validation now. With one variant fewer,
-  other seeds pick differently too: about a third of the Icons and Slice
-  avatars and a quarter of the Pixel Art avatars change, and nearly every
-  Stripes avatar shifts a little.
+  Options that still name one of them raise no error, but the avatar is drawn
+  without that part: no icon, no clothes, no cut or no stripes. With one
+  variant fewer, other seeds pick differently too: about a third of the Icons
+  and Slice avatars and a quarter of the Pixel Art avatars change, and nearly
+  every Stripes avatar shifts a little.
 - **Tags:** A few variants follow the tag reference more closely. The skull
   graphics of Avataaars lose `mood:negative`, because a graphic carries no mood.
   The buns of Voxel Art lose `hairLength:short`, because a bun shows no length.
