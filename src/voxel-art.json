@@ -1106,31 +1106,15 @@
               }
             },
             {
-              "name": "g",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "transform": "translate(5 2.5)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M2.5 0H15v2.5h2.5V10H15v2.5H2.5V10H0V2.5h2.5zM35 0h12.5v2.5H50V10h-2.5v2.5H35V10h-2.5V2.5H35z",
-                    "fill": "#ffffff",
-                    "fill-opacity": ".18"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M2.5 0H15v2.5h2.5V10H15v2.5H2.5V10H0V2.5h2.5zM35 0h12.5v2.5H50V10h-2.5v2.5H35V10h-2.5V2.5H35z",
-                    "stroke": "#26201a",
-                    "stroke-width": "2.5"
-                  }
-                }
-              ]
+                "d": "M7.5 2.5H20V5h2.5v7.5H20V15H7.5v-2.5H5V5h2.5zm32.5 0h12.5V5H55v7.5h-2.5V15H40v-2.5h-2.5V5H40z",
+                "fill": "#ffffff",
+                "fill-opacity": ".18",
+                "stroke": "#26201a",
+                "stroke-width": "2.5"
+              }
             }
           ],
           "tags": [
@@ -1213,31 +1197,15 @@
               }
             },
             {
-              "name": "g",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "transform": "translate(5)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M2.5 0H15v2.5h2.5v10H15V15H2.5v-2.5H0v-10h2.5zM35 0h12.5v2.5H50v10h-2.5V15H35v-2.5h-2.5v-10H35z",
-                    "fill": "#ffffff",
-                    "fill-opacity": ".18"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M2.5 0H15v2.5h2.5v10H15V15H2.5v-2.5H0v-10h2.5zM35 0h12.5v2.5H50v10h-2.5V15H35v-2.5h-2.5v-10H35z",
-                    "stroke": "#26201a",
-                    "stroke-width": "2.5"
-                  }
-                }
-              ]
+                "d": "M7.5 0H20v2.5h2.5v10H20V15H7.5v-2.5H5v-10h2.5zM40 0h12.5v2.5H55v10h-2.5V15H40v-2.5h-2.5v-10H40z",
+                "fill": "#ffffff",
+                "fill-opacity": ".18",
+                "stroke": "#26201a",
+                "stroke-width": "2.5"
+              }
             }
           ],
           "tags": [
@@ -1325,30 +1293,14 @@
         "grin": {
           "elements": [
             {
-              "name": "g",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "transform": "translate(20)"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M0 0h20v5H0z",
-                    "fill": "#ffffff"
-                  }
-                },
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "d": "M0 0h20v5H0z",
-                    "stroke": "#26190f",
-                    "stroke-width": "2"
-                  }
-                }
-              ]
+                "d": "M20 0h20v5H20z",
+                "fill": "#ffffff",
+                "stroke": "#26190f",
+                "stroke-width": "2"
+              }
             },
             {
               "name": "path",
@@ -10140,31 +10092,34 @@
       ]
     },
     "hair": {
+      "notEqualTo": [
+        "skin"
+      ],
       "values": [
         "#2c222b",
         "#3b2f2f",
-        "#3fb27f",
-        "#5a3825",
-        "#6d5acf",
-        "#7b4a2d",
-        "#a56b46",
+        "#533629",
+        "#7a3307",
+        "#966951",
+        "#c9853f",
+        "#eec985",
+        "#efe1a9",
         "#b55239",
-        "#c98850",
         "#d6455d",
-        "#d9b380",
-        "#e8d4a8"
+        "#6d5acf",
+        "#3fb27f"
       ]
     },
     "hat": {
       "values": [
-        "#4a6fa5",
-        "#5ba8a0",
-        "#8d95d6",
-        "#a06fb8",
         "#c68a5f",
-        "#d9a03c",
+        "#f2f2f2",
+        "#8d95d6",
         "#e0876d",
-        "#f2f2f2"
+        "#5ba8a0",
+        "#d9a03c",
+        "#a06fb8",
+        "#4a6fa5"
       ]
     },
     "jacket": {
@@ -10175,12 +10130,12 @@
         "shoes"
       ],
       "values": [
+        "#f8f9fa",
         "#343a40",
         "#3b5b8c",
-        "#5ba8a0",
         "#6b4f3a",
         "#b55239",
-        "#f8f9fa"
+        "#5ba8a0"
       ]
     },
     "pants": {
@@ -10188,48 +10143,48 @@
         "shirt"
       ],
       "values": [
-        "#2f4160",
         "#3b5b8c",
-        "#495057",
+        "#2f4160",
         "#4a4e69",
         "#6b4f3a",
+        "#495057",
         "#7a86a8"
       ]
     },
     "shirt": {
       "values": [
+        "#e64980",
+        "#f76707",
+        "#fab005",
+        "#40c057",
         "#12b886",
         "#228be6",
-        "#40c057",
-        "#495057",
         "#4c6ef5",
         "#7950f2",
-        "#e64980",
         "#e8590c",
-        "#f76707",
-        "#fab005"
+        "#495057"
       ]
     },
     "shoes": {
       "values": [
-        "#1971c2",
+        "#f1f3f5",
         "#343a40",
-        "#6741d9",
         "#d6336c",
+        "#1971c2",
         "#f08c00",
-        "#f1f3f5"
+        "#6741d9"
       ]
     },
     "skin": {
       "values": [
-        "#6a3d1f",
-        "#7d4a26",
-        "#95562f",
-        "#b07347",
-        "#c99062",
-        "#dda878",
+        "#f5d0b0",
         "#eab890",
-        "#f5d0b0"
+        "#dda878",
+        "#c99062",
+        "#b07347",
+        "#95562f",
+        "#7d4a26",
+        "#6a3d1f"
       ]
     }
   }

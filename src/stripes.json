@@ -284,21 +284,6 @@
               }
             }
           ]
-        },
-        "variant10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill": {
-                  "type": "color",
-                  "name": "stripe"
-                },
-                "d": "M1 0h8v150H1z"
-              }
-            }
-          ]
         }
       }
     },
@@ -348,15 +333,15 @@
   "colors": {
     "background": {
       "values": [
-        "#7fd4f5",
-        "#86eadf",
-        "#9cbeff",
-        "#a8f0b0",
-        "#cfbeff",
-        "#e2f299",
         "#ffa3b5",
         "#ffb382",
-        "#ffe08a"
+        "#ffe08a",
+        "#e2f299",
+        "#a8f0b0",
+        "#86eadf",
+        "#7fd4f5",
+        "#9cbeff",
+        "#cfbeff"
       ]
     },
     "stripe": {
