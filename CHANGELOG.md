@@ -49,6 +49,9 @@ Versions track the DiceBear release line.
   dropping all of them.
 - **Dogs:** The toy lies behind the tail and the body instead of in front of
   them, so a tail that swings to the right passes in front of it.
+- **Schema:** Every definition references `@dicebear/schema` 3.0.0 in its
+  `$schema` URL, and every definition validates against it. The definitions
+  themselves did not change for this.
 
 ### Fixed
 
